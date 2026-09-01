@@ -2,10 +2,16 @@
 
 Guía para traducir los datos de Age of Sigmar 4th al español sin romperlos.
 
-Esta es una traducción **no oficial** y de aficionado del repositorio
+Esta es una traducción **NO OFICIAL** y de aficionado del repositorio
 [BSData/age-of-sigmar-4th](https://github.com/BSData/age-of-sigmar-4th). No está
-afiliada ni respaldada por Games Workshop, BSData ni New Recruit. El contenido de
-reglas y perfiles pertenece a Games Workshop.
+afiliada, respaldada ni aprobada por Games Workshop, BSData ni New Recruit. El
+contenido de reglas y perfiles es © Games Workshop Limited.
+
+**El aviso legal completo está en el [README](README.md#disclaimer--aviso-legal)
+y hay que respetarlo:** proyecto gratuito, sin publicidad ni monetización, sin
+logotipos de Games Workshop, con atribución al repositorio original y sin
+presentar la traducción como oficial. Si publicas algo derivado de esto, arrastra
+el mismo aviso.
 
 ## Qué se traduce y qué no
 
