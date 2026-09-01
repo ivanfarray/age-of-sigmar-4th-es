@@ -72,8 +72,16 @@ published under a permissive license, so it cannot be relicensed here.*
 | `tools/` | las tres herramientas que generan los `_es.cat` |
 | [`TRADUCIR.md`](TRADUCIR.md) | **cómo colaborar en la traducción** |
 
-Estado actual: `Ogor Mawtribes.cat` traducido (54 de sus 58 cadenas
-descriptivas; las otras 4 solo contienen palabras clave).
+Estado actual:
+
+| Fichero | Cadenas descriptivas |
+| --- | --- |
+| `Ogor Mawtribes.cat` | 54 de 58 |
+| `Ogor Mawtribes - Library.cat` | 199 de 220 |
+
+Las cadenas que faltan en cada uno son las que solo contienen palabras clave o
+habilidades de arma (`Companion`, `Crit (Mortal)`, `**^^Rampage^^**`…): no hay
+nada que traducir en ellas.
 
 ### La regla que no se puede saltar
 
