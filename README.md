@@ -67,7 +67,7 @@ published under a permissive license, so it cannot be relicensed here.*
 | | |
 | --- | --- |
 | `*.cat`, `*.gst` | los ficheros originales en inglés, tal cual vienen de [BSData][upstream] |
-| `*_es.cat` | la versión traducida al español |
+| `*_es.cat`, `*_es.gst` | la versión traducida al español |
 | `translations/*.es.json` | el trabajo de traducción, cadena a cadena |
 | `tools/` | las tres herramientas que generan los `_es.cat` |
 | [`TRADUCIR.md`](TRADUCIR.md) | **cómo colaborar en la traducción** |
@@ -76,14 +76,15 @@ Estado actual:
 
 | Fichero | Cadenas descriptivas |
 | --- | --- |
+| `Age of Sigmar 4.0.gst` | 124 de 137 |
 | `Ogor Mawtribes.cat` | 54 de 58 |
 | `Ogor Mawtribes - Library.cat` | 199 de 220 |
 | `Sons of Behemat.cat` | 46 de 47 |
 | `Sons of Behemat - Library.cat` | 49 de 58 |
 
-Las cadenas que faltan en cada uno son las que solo contienen palabras clave o
-habilidades de arma (`Companion`, `Crit (Mortal)`, `**^^Rampage^^**`…): no hay
-nada que traducir en ellas.
+Las cadenas que faltan en cada uno son las que solo contienen palabras clave,
+habilidades de arma o valores de dados (`Companion`, `Crit (Mortal)`,
+`**^^Rampage^^**`, `3D6"`…): no hay nada que traducir en ellas.
 
 ### La regla que no se puede saltar
 
