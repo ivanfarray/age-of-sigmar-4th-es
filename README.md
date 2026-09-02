@@ -78,6 +78,8 @@ Estado actual:
 | --- | --- |
 | `Ogor Mawtribes.cat` | 54 de 58 |
 | `Ogor Mawtribes - Library.cat` | 199 de 220 |
+| `Sons of Behemat.cat` | 46 de 47 |
+| `Sons of Behemat - Library.cat` | 49 de 58 |
 
 Las cadenas que faltan en cada uno son las que solo contienen palabras clave o
 habilidades de arma (`Companion`, `Crit (Mortal)`, `**^^Rampage^^**`…): no hay

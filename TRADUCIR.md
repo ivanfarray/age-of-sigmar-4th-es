@@ -138,6 +138,8 @@ distintas. Amplíalo cuando aparezca un término nuevo.
 | charge / casting / chanting / run roll | tirada de carga / de lanzamiento / de cántico / de correr |
 | unmodified roll | tirada sin modificar |
 | re-roll | volver a tirar |
+| roll off / roll-off | hacer una tirada enfrentada / la tirada enfrentada |
+| spell / prayer / manifestation lore | saber de hechizos / de plegarias / de manifestaciones |
 | mortal damage | daño mortal |
 | damage points | puntos de daño |
 | allocated to | asignados a |
