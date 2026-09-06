@@ -172,6 +172,23 @@ distintas. Amplíalo cuando aparezca un término nuevo.
 | Deployment Phase | Fase de despliegue |
 | Reaction: | Reacción: |
 | Designer's Note | Nota del diseñador |
+| fate point | punto de destino |
+| rage dice / fury level | dados de ira / nivel de furia |
+| blood tithe point | punto de diezmo de sangre |
+| banishment roll / banished | tirada de destierro / desterrado |
+| underdog | desvalido |
+| labours (Lumineth) | trabajos |
+| raw ingredients (Mawseeker Gollop) | ingredientes en bruto |
+| masked by illusion | enmascarado/a por ilusión |
+| hidden among cultists | escondido/a entre los sectarios |
+| living landmark (Trugg's Troggherd) | hito viviente |
+| outflanking the enemy | flanqueando al enemigo |
+| cronies (Ironsunz) | secuaces |
+| magic-eater roll | tirada de devoramagia |
+| meaty charge roll | tirada de carga suculenta |
+| momentum score | puntuación de ímpetu |
+| battle scripture / library (runas) | escritura de batalla / reserva |
+| empty / full (Cauldron of Blood) | vacía / llena |
 
 Fórmulas que se repiten, para copiar tal cual:
 
