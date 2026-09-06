@@ -176,6 +176,7 @@ distintas. Amplíalo cuando aparezca un término nuevo.
 | rage dice / fury level | dados de ira / nivel de furia |
 | blood tithe point | punto de diezmo de sangre |
 | banishment roll / banished | tirada de destierro / desterrado |
+| unbinding roll / unbind / unbound | tirada de desvinculación / desvincular / desvinculado |
 | underdog | desvalido |
 | labours (Lumineth) | trabajos |
 | raw ingredients (Mawseeker Gollop) | ingredientes en bruto |
