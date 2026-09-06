@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="9a23-9c43-868d-528e" name="Bonesplitterz - Library" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="13" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Wardokk" hidden="false" id="c5c4-a443-f0e4-c69e" publicationId="06c5-6322-e810-7967">
+      <entryLinks>
+        <entryLink import="true" name="General" hidden="false" id="e0ed-b66d-dc47-32b9" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Wardokk" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="d213-041c-63b2-f567">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">6+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Primal Hex" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9155-3ce6-fda1-62aa">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Wizard^^** enemigo a 24" o menos de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, hasta el inicio de tu siguiente turno, cada vez que el objetivo use una habilidad de **^^Spell^^** o **^^Unbind^^**, esta unidad gana 1 punto de ritual.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Yellow</attribute>
+            <attribute typeId="6d16-c86b-2698-85a4" name="Type">Special</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="HERO" hidden="false" id="8bfc-4db5-7fdb-5712" targetId="6e72-1656-d554-528a" primary="true"/>
+        <categoryLink name="DESTRUCTION" hidden="false" id="34e7-7e39-2d64-ea71" targetId="9057-5a29-dda5-3c28" primary="false"/>
+        <categoryLink name="BONESPLITTERZ" hidden="false" id="ef06-9910-160f-f4f5" targetId="dcf6-0115-279f-7a80" primary="false"/>
+        <categoryLink name="WARD (6+)" hidden="false" id="908b-6a39-c79e-7ee5" targetId="70a4-383f-421f-52cd" primary="false"/>
+        <categoryLink name="ORRUK" hidden="false" id="7012-ead2-34cf-05f5" targetId="86bf-1ccb-b937-c9d7" primary="false"/>
+        <categoryLink name="Legends" hidden="false" id="a269-2e07-f85b-89fa" targetId="acaf-8bb6-d6f-3e2a" primary="false"/>
+        <categoryLink name="INFANTRY" hidden="false" id="c9e9-9860-a29c-eaec" targetId="75d6-6995-dfcc-3898" primary="false"/>
+        <categoryLink name="PRIEST (1)" hidden="false" id="a691-4011-55b5-3ccb" targetId="3fe-84f4-cec6-a1c1" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Wardokk" hidden="false" id="103a-0c89-ed69-f06d">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bonebeast Stikk" hidden="false" id="3297-4472-bbd5-2366">
+              <profiles>
+                <profile name="Bonebeast Stikk" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="02bf-8a97-a04e-a737">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="49e5-8b20-c9ef-dd39"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7048-66ad-031c-741b"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="30aa-11e1-dc3d-3334"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e220-c0d3-e81a-7b03"/>
+          </constraints>
+          <rules>
+            <rule name="Base Size" id="5632-52a2-11a3-346c" hidden="true">
+              <description>32mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7e59-2237-4890-a80a" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Wurrgog Prophet" hidden="false" id="129a-a4c6-8bd6-c612" publicationId="06c5-6322-e810-7967">
+      <entryLinks>
+        <entryLink import="true" name="General" hidden="false" id="badd-603d-b30e-9296" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Wurrgog Prophet" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="69c8-f5b8-bfb9-387f">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">6</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">6+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Squiggly Curse" typeId="7312-8367-c171-f2ef" typeName="Ability (Spell)" hidden="false" id="926c-a869-1e03-6931">
+          <characteristics>
+            <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
+            <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">4</characteristic>
+            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige como objetivo un **^^Hero^^** enemigo en combate con el lanzador, y luego haz una tirada de lanzamiento de 2D6.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Inflige D3 de daño mortal al objetivo. Si el objetivo es destruido por este hechizo, suma 1 al nivel de poder de esta unidad durante el resto de la batalla.</characteristic>
+            <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**, **^^Unlimited^^**</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute name="Color" typeId="16b6-0911-f549-a4bd">Yellow</attribute>
+            <attribute name="Parent Node" typeId="da27-8d61-f955-5031">Special</attribute>
+          </attributes>
+        </profile>
+        <profile name="Wurrgog Mask" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a8f8-2d5a-5703-2c71">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), tu fase de disparo</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno:
+• La característica de Attacks de las *Deadly Green Bolts* de esta unidad es 12 en lugar de D6.
+• Por cada tirada de impacto sin modificar de 1 en un ataque de disparo realizado por esta unidad, inflige D3 de daño mortal a esta unidad después de que se haya resuelto la habilidad de **^^Shoot^^**.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Blue</attribute>
+            <attribute typeId="6d16-c86b-2698-85a4" name="Type">Shooting</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="HERO" hidden="false" id="c1cd-d49e-a928-3366" targetId="6e72-1656-d554-528a" primary="true"/>
+        <categoryLink name="DESTRUCTION" hidden="false" id="9006-d942-4b81-f6b3" targetId="9057-5a29-dda5-3c28" primary="false"/>
+        <categoryLink name="BONESPLITTERZ" hidden="false" id="38a8-b77e-48e0-329b" targetId="dcf6-0115-279f-7a80" primary="false"/>
+        <categoryLink name="WARD (6+)" hidden="false" id="b316-1182-4692-deef" targetId="70a4-383f-421f-52cd" primary="false"/>
+        <categoryLink name="INFANTRY" hidden="false" id="02d3-694e-000b-2469" targetId="75d6-6995-dfcc-3898" primary="false"/>
+        <categoryLink name="WIZARD (2)" hidden="false" id="f82b-5e48-62f6-dacb" targetId="8179-697a-9f4c-91d4" primary="false"/>
+        <categoryLink name="ORRUK" hidden="false" id="5f67-5271-6d76-cf3f" targetId="86bf-1ccb-b937-c9d7" primary="false"/>
+        <categoryLink name="Legends" hidden="false" id="8ce9-08ae-7b4f-fe44" targetId="acaf-8bb6-d6f-3e2a" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Wurrgog Prophet" hidden="false" id="4216-8186-3202-e583">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Wurrgog Staff" hidden="false" id="a9ed-04e9-104d-aaf4">
+              <profiles>
+                <profile name="Wurrgog Staff" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5cd4-f166-b6fd-f6b7">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="663e-d599-13e4-2c56"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2ad-c1ef-7662-0b08"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Deadly Green Bolts" hidden="false" id="0b31-afc5-f9bb-14ba">
+              <profiles>
+                <profile name="Deadly Green Bolts" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="492a-a38e-6947-7235">
+                  <characteristics>
+                    <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">10&quot;</characteristic>
+                    <characteristic name="Atk" typeId="aa17-4296-2887-e05d">D6</characteristic>
+                    <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">4+</characteristic>
+                    <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">2+</characteristic>
+                    <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">1</characteristic>
+                    <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">D3</characteristic>
+                    <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Shoot in Combat</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dcd-d3b6-d942-a488"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4da2-1723-af09-56f1"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cbc5-85e1-2715-cd44"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efe6-ec29-f398-941d"/>
+          </constraints>
+          <rules>
+            <rule name="Base Size" id="a24b-d19c-ebb2-78f3" hidden="true">
+              <description>32mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7e59-2237-4890-a80a" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Savage Big Boss" hidden="false" id="7290-64c8-6572-2acb" publicationId="06c5-6322-e810-7967">
+      <entryLinks>
+        <entryLink import="true" name="General" hidden="false" id="e0d6-30e9-08a1-c682" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Savage Big Boss" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="bb4a-9aff-b7a7-ecb7">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">6</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">6+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Havin&apos; a Good Old Rukk" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4ff9-af6c-9190-e17d">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad de **^^Fight^^** para esta unidad</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga que no sea **^^Hero Bonesplitterz Infantry^^**, que no haya usado una habilidad de **^^Fight^^** este turno y que esté dentro del alcance de combate de esta unidad. El objetivo puede ser elegido para usar una habilidad de **^^Fight^^** inmediatamente después de que se haya resuelto la habilidad de **^^Fight^^** usada por esta unidad. Si es elegido para hacerlo, suma 1 a la característica de Attacks de las armas de combate cuerpo a cuerpo del objetivo durante el resto del turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Red</attribute>
+            <attribute typeId="6d16-c86b-2698-85a4" name="Type">Offensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="HERO" hidden="false" id="d05b-bc29-dcc4-b155" targetId="6e72-1656-d554-528a" primary="true"/>
+        <categoryLink name="DESTRUCTION" hidden="false" id="7525-ac0d-ce3f-259f" targetId="9057-5a29-dda5-3c28" primary="false"/>
+        <categoryLink name="BONESPLITTERZ" hidden="false" id="7090-a07e-992d-b3a5" targetId="dcf6-0115-279f-7a80" primary="false"/>
+        <categoryLink name="WARD (6+)" hidden="false" id="fa9d-0444-4b11-b882" targetId="70a4-383f-421f-52cd" primary="false"/>
+        <categoryLink name="INFANTRY" hidden="false" id="60ff-aade-72e7-5ee1" targetId="75d6-6995-dfcc-3898" primary="false"/>
+        <categoryLink name="ORRUK" hidden="false" id="f09d-d4f2-c4b6-7034" targetId="86bf-1ccb-b937-c9d7" primary="false"/>
+        <categoryLink name="Legends" hidden="false" id="ae0f-af0a-c311-b07a" targetId="acaf-8bb6-d6f-3e2a" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Savage Big Boss" hidden="false" id="c8c6-e223-bc0d-b380">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Boss Chompa" hidden="false" id="743e-4b9f-4267-efda">
+              <profiles>
+                <profile name="Boss Chompa" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="149d-5a2f-f049-7774">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">3</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Monster^^** (+1 Rend)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="51a9-653b-6a90-5684"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbcd-f41a-cb3a-ea4c"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fb40-a961-0013-49e9"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6248-5725-387b-ab85"/>
+          </constraints>
+          <rules>
+            <rule name="Base Size" id="6ebf-ad16-095d-3bfa" hidden="true">
+              <description>32mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7e59-2237-4890-a80a" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Maniak Weirdnob" hidden="false" id="92c0-61bf-de34-6f10" publicationId="06c5-6322-e810-7967">
+      <entryLinks>
+        <entryLink import="true" name="General" hidden="false" id="aeb1-e2f7-b638-9ef6" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Maniak Weirdnob" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="d660-593f-cb4d-e296">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">6</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">5+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bone Spirit" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bcd3-636a-0069-0e6d">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Bonesplitterz Cavalry^^** dentro del alcance de combate de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, suma 1 a las tiradas de herida de los ataques de combate del objetivo durante el resto del turno. Esta habilidad también afecta a las armas **Companion**.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Red</attribute>
+            <attribute typeId="6d16-c86b-2698-85a4" name="Type">Offensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="HERO" hidden="false" id="5ff4-9335-f0e3-90dc" targetId="6e72-1656-d554-528a" primary="true"/>
+        <categoryLink name="DESTRUCTION" hidden="false" id="7cb0-8528-69c3-b9fd" targetId="9057-5a29-dda5-3c28" primary="false"/>
+        <categoryLink name="BONESPLITTERZ" hidden="false" id="5d83-b754-c84f-ff22" targetId="dcf6-0115-279f-7a80" primary="false"/>
+        <categoryLink name="WARD (6+)" hidden="false" id="4d7b-c1ad-c15d-92e8" targetId="70a4-383f-421f-52cd" primary="false"/>
+        <categoryLink name="ORRUK" hidden="false" id="494c-aeb9-5527-53bf" targetId="86bf-1ccb-b937-c9d7" primary="false"/>
+        <categoryLink name="CAVALRY" hidden="false" id="5097-253d-c315-abde" targetId="926c-df8c-6841-d49e" primary="false"/>
+        <categoryLink name="WIZARD (1)" hidden="false" id="9e79-4344-5174-46c3" targetId="6f28-c3f6-4b1b-8aff" primary="false"/>
+        <categoryLink name="Legends" hidden="false" id="1f94-4cb5-a164-d715" targetId="acaf-8bb6-d6f-3e2a" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Maniak Weirdnob" hidden="false" id="7a50-2d6f-b40f-2e11">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Bonebeast Staff" hidden="false" id="f4ae-f5bf-9969-4c2b">
+              <profiles>
+                <profile name="Bonebeast Staff" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="93b7-5680-de13-5cd2">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bb37-a730-7730-bf2c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c3cb-5df3-a8eb-06b5"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="War Boar&apos;s Tusks and Hooves" hidden="false" id="ce56-379a-b36e-ab0b">
+              <profiles>
+                <profile name="War Boar&apos;s Tusks and Hooves" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7f33-a783-8241-0b90">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">5+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Charge (+1 Damage)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a337-4add-3176-9d9e"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d9b0-369e-85b2-40b1"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fbd8-8393-5dbc-ee66"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dae6-e797-5087-109f"/>
+          </constraints>
+          <rules>
+            <rule name="Base Size" id="b6a0-27c0-8fcb-5b06" hidden="true">
+              <description>60x35mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7e59-2237-4890-a80a" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Savage Boarboy Maniaks" hidden="false" id="0a8a-5a9a-5d44-f834" publicationId="06c5-6322-e810-7967">
+      <profiles>
+        <profile name="Savage Boarboy Maniaks" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="688c-a397-dc20-aa69">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">3</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">5+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="On a Tear" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f9de-5925-2035-a5f5">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: Has declarado una habilidad de **^^Charge^^** para esta unidad</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Añade 5 a la puntuación de control de esta unidad durante el resto del turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Orange</attribute>
+            <attribute typeId="6d16-c86b-2698-85a4" name="Type">Offensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="CHAMPION" hidden="false" id="c07d-c0ab-7222-a217" targetId="f679-3bcb-d664-9ac3" primary="false"/>
+        <categoryLink name="WARD (6+)" hidden="false" id="052f-4c3a-005b-d668" targetId="70a4-383f-421f-52cd" primary="false"/>
+        <categoryLink name="DESTRUCTION" hidden="false" id="2dae-adc8-b9d8-e269" targetId="9057-5a29-dda5-3c28" primary="false"/>
+        <categoryLink name="ORRUK" hidden="false" id="52b7-c17b-4ed3-7dab" targetId="86bf-1ccb-b937-c9d7" primary="false"/>
+        <categoryLink name="BONESPLITTERZ" hidden="false" id="36bd-863d-a79a-2028" targetId="dcf6-0115-279f-7a80" primary="false"/>
+        <categoryLink name="STANDARD BEARER (1/5)" hidden="false" id="1b79-ec12-e693-5fdc" targetId="73c-8e22-9dde-f97" primary="false"/>
+        <categoryLink name="MUSICIAN (1/5)" hidden="false" id="ae87-ee41-38ee-c25a" targetId="dd6f-27e9-b16e-24ee" primary="false"/>
+        <categoryLink name="CAVALRY" hidden="false" id="f927-fc7b-239d-c8e9" targetId="926c-df8c-6841-d49e" primary="true"/>
+        <categoryLink name="Legends" hidden="false" id="b58b-f616-8564-f26a" targetId="acaf-8bb6-d6f-3e2a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="⬤" typeId="1dd2-2af7-76a2-2423" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Savage Boarboy Maniak" hidden="false" id="7ad5-2b81-405c-5085" defaultAmount="1,1,1,2">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="false" id="254e-1e08-c5cc-ffa5"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="1e2e-5168-ca82-39d8"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="5" field="254e-1e08-c5cc-ffa5">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="5" field="1e2e-5168-ca82-39d8">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Chompas" hidden="false" id="6f19-2627-411a-73ca">
+              <profiles>
+                <profile name="Chompas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="717c-ad6d-e0f2-5ca6">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="4e42-7cca-38e8-221b"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="f043-0d73-cbec-ac70"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="War Boar&apos;s Tusks and Hooves" hidden="false" id="12b9-a974-d3cc-1b0c">
+              <profiles>
+                <profile name="War Boar&apos;s Tusks and Hooves" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="1e2b-4381-bc7a-fa41">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">5+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Charge (+1 Damage)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="3954-ca43-3fe7-d936"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="47ed-f2ee-4b04-61ee"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Command Models" id="befd-0a37-f4c0-897f" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f21-bd6b-bbdb-7e45" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Champion" hidden="false" id="0df5-4b27-b751-bdc0" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="0a8a-5a9a-5d44-f834" shared="true" id="982f-27ff-a50d-4ba0"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b9b-61d1-b7f5-77b8"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Standard Bearer" hidden="false" id="2e15-9657-0119-0bcd" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="0a8a-5a9a-5d44-f834" shared="true" id="dcf9-43fc-e42f-5a5f"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae16-c055-0d9b-82c3"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="dcf9-43fc-e42f-5a5f">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Musician" hidden="false" id="2159-0660-af98-b0c1" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="0a8a-5a9a-5d44-f834" shared="true" id="c989-4e87-efa4-c66a"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6c7-57f3-34aa-c18f"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="c989-4e87-efa4-c66a">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <rules>
+            <rule name="Base Size" id="fcb4-ae92-3b70-89af" hidden="true">
+              <description>60x35mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7e59-2237-4890-a80a" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Savage Orruk Arrowboys" hidden="false" id="216b-eb05-8ced-7df8" publicationId="06c5-6322-e810-7967">
+      <profiles>
+        <profile name="Savage Orruk Arrowboys" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="8c0e-edff-fb81-6b6b">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">6+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Aim Fer Its Eyes" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="35aa-80ec-f24f-3cd3">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por ronda de batalla (ejército), cualquier fase de disparo</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si todos los ataques realizados con las **Stinga Bows** de esta unidad este turno tuvieron como objetivo a la misma unidad enemiga, elige esa unidad enemiga como objetivo.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Suma 1 al resultado si el objetivo es una unidad **^^Beast^^** o **^^Cavalry^^**, o suma 2 al resultado si el objetivo es un **^^Monster^^**. Con un 4+, resta 1 a la característica de Attacks de las armas **Companion** del objetivo durante el resto del turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Blue</attribute>
+            <attribute typeId="6d16-c86b-2698-85a4" name="Type">Offensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="INFANTRY" hidden="false" id="437c-d184-6c39-b5a2" targetId="75d6-6995-dfcc-3898" primary="true"/>
+        <categoryLink name="CHAMPION" hidden="false" id="b93e-36b8-282d-8b5f" targetId="f679-3bcb-d664-9ac3" primary="false"/>
+        <categoryLink name="STANDARD BEARER (1/10)" hidden="false" id="888b-b2ee-2816-c889" targetId="1f17-ad98-ada0-ccf" primary="false"/>
+        <categoryLink name="MUSICIAN (1/10)" hidden="false" id="77ee-6773-fcce-19ca" targetId="eeed-ef77-b0d-fa9d" primary="false"/>
+        <categoryLink name="WARD (6+)" hidden="false" id="670d-cbf4-db1e-5908" targetId="70a4-383f-421f-52cd" primary="false"/>
+        <categoryLink name="DESTRUCTION" hidden="false" id="1c75-dbbe-57d0-a514" targetId="9057-5a29-dda5-3c28" primary="false"/>
+        <categoryLink name="ORRUK" hidden="false" id="ed46-86da-fa55-114b" targetId="86bf-1ccb-b937-c9d7" primary="false"/>
+        <categoryLink name="BONESPLITTERZ" hidden="false" id="9c71-92fd-3fe3-121f" targetId="dcf6-0115-279f-7a80" primary="false"/>
+        <categoryLink name="Legends" hidden="false" id="fd9f-bbcd-7512-510f" targetId="acaf-8bb6-d6f-3e2a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="⬤" typeId="1dd2-2af7-76a2-2423" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Savage Orruk Arrowboy" hidden="false" id="d378-acbc-0083-814f" defaultAmount="1,1,1,7">
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="false" id="2da1-13f8-c853-d28d"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="false" id="7bb5-5f0d-6b1a-7c65"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="10" field="2da1-13f8-c853-d28d">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="10" field="7bb5-5f0d-6b1a-7c65">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stinga Bow" hidden="false" id="48e6-f234-4dd2-7c57">
+              <profiles>
+                <profile name="Stinga Bow" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="4262-e4ac-1b2e-2b27">
+                  <characteristics>
+                    <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">15&quot;</characteristic>
+                    <characteristic name="Atk" typeId="aa17-4296-2887-e05d">2</characteristic>
+                    <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">5+</characteristic>
+                    <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">4+</characteristic>
+                    <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">-</characteristic>
+                    <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">1</characteristic>
+                    <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Crit (Auto-wound)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="bdaa-2978-52c3-591c"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="bc14-3b3b-d1a0-0a36"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Paired Savage Weapons" hidden="false" id="73ba-34d0-f22c-0443">
+              <profiles>
+                <profile name="Paired Savage Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="258b-dd79-963e-6999">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="b989-991b-81d2-4abf"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5186-f8b0-8204-75e6"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Command Models" id="f1ab-9004-ef2f-4377" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f718-1a00-2cd3-0b7e" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Champion" hidden="false" id="5564-2681-cdfe-b802" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="216b-eb05-8ced-7df8" shared="true" id="9f5c-f783-03b7-1b4a"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abb1-0e66-65bd-484c"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Standard Bearer" hidden="false" id="2488-691d-dd46-d5d2" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="216b-eb05-8ced-7df8" shared="true" id="8ada-34fc-e24e-fe81"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b8e8-689b-294b-8ab2"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="8ada-34fc-e24e-fe81">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Musician" hidden="false" id="aef7-ddc7-bfbe-1f35" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="216b-eb05-8ced-7df8" shared="true" id="2243-b4b6-8d2b-e9e1"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da99-d1e0-14cb-8701"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="2243-b4b6-8d2b-e9e1">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <rules>
+            <rule name="Base Size" id="7f09-b885-7722-082d" hidden="true">
+              <description>32mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7e59-2237-4890-a80a" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Savage Big Stabbas" hidden="false" id="54d1-2695-3a76-6435" publicationId="06c5-6322-e810-7967">
+      <profiles>
+        <profile name="Savage Big Stabbas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="b9fa-50ac-4ea7-cf73">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">4</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">6+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Da Final Fling" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7570-b81c-649e-2d36">
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad no esté en combate, cada vez que una miniatura de esta unidad sea abatida por un ataque de disparo y esa miniatura estuviera a 12" o menos de la unidad atacante, tira un dado. Suma 2 al resultado si la unidad atacante era un **^^Monster^^**. Con un 4+, inflige D6 de daño mortal a la unidad atacante después de que se haya resuelto la habilidad de **^^Shoot^^**.</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Blue</attribute>
+            <attribute typeId="bf11-4e10-3ab1-06f4" name="Type">Defensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="WARD (6+)" hidden="false" id="3610-e187-b4c4-05d3" targetId="70a4-383f-421f-52cd" primary="false"/>
+        <categoryLink name="DESTRUCTION" hidden="false" id="2b6b-0ba8-953a-ea90" targetId="9057-5a29-dda5-3c28" primary="false"/>
+        <categoryLink name="ORRUK" hidden="false" id="552a-535b-8f85-9d1d" targetId="86bf-1ccb-b937-c9d7" primary="false"/>
+        <categoryLink name="BONESPLITTERZ" hidden="false" id="1e54-760c-a33c-da2d" targetId="dcf6-0115-279f-7a80" primary="false"/>
+        <categoryLink name="INFANTRY" hidden="false" id="df21-0e53-1a15-5f0a" targetId="75d6-6995-dfcc-3898" primary="true"/>
+        <categoryLink name="Legends" hidden="false" id="6df6-a8f8-e4e2-593f" targetId="acaf-8bb6-d6f-3e2a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="⬤" typeId="1dd2-2af7-76a2-2423" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Savage Big Stabba" hidden="false" id="e41a-ce3b-e0f0-ce02" defaultAmount="2">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="false" id="7493-ac52-1a1a-91e4"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="e432-3329-c946-1360"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="7493-ac52-1a1a-91e4">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="2" field="e432-3329-c946-1360">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Gorktoof" hidden="false" id="6061-66e2-c26c-1ce7">
+              <profiles>
+                <profile name="Gorktoof" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="e3d2-163d-4034-8356">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Charge (+1 Damage), Crit (Mortal)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="2e32-5458-8f5e-1f1f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3beb-5a78-e230-643d"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <rules>
+            <rule name="Base Size" id="9b0a-42f4-5f64-918c" hidden="true">
+              <description>60x35mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7e59-2237-4890-a80a" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Savage Orruks" hidden="false" id="df8a-87fb-1705-8691" publicationId="06c5-6322-e810-7967">
+      <profiles>
+        <profile name="Savage Orruks" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f870-6921-af06-7672">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">6+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="The Savage Hordes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="651d-56ab-9fc9-1ff0">
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 10 a la puntuación de control de esta unidad mientras esté en combate con unidades enemigas que hayan cargado este turno.</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Purple</attribute>
+            <attribute typeId="bf11-4e10-3ab1-06f4" name="Type">Defensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="INFANTRY" hidden="false" id="5595-4b04-b460-0f2a" targetId="75d6-6995-dfcc-3898" primary="true"/>
+        <categoryLink name="CHAMPION" hidden="false" id="6225-3e4d-b8bf-d2b4" targetId="f679-3bcb-d664-9ac3" primary="false"/>
+        <categoryLink name="STANDARD BEARER (1/10)" hidden="false" id="9fb2-b6f0-4d6b-c681" targetId="1f17-ad98-ada0-ccf" primary="false"/>
+        <categoryLink name="MUSICIAN (1/10)" hidden="false" id="979d-fc81-153c-acb7" targetId="eeed-ef77-b0d-fa9d" primary="false"/>
+        <categoryLink name="WARD (6+)" hidden="false" id="5c2d-abea-52a2-2228" targetId="70a4-383f-421f-52cd" primary="false"/>
+        <categoryLink name="DESTRUCTION" hidden="false" id="a864-d558-cb68-0c84" targetId="9057-5a29-dda5-3c28" primary="false"/>
+        <categoryLink name="ORRUK" hidden="false" id="78e0-dd78-9014-987d" targetId="86bf-1ccb-b937-c9d7" primary="false"/>
+        <categoryLink name="BONESPLITTERZ" hidden="false" id="4cf8-d625-9f5e-6ddd" targetId="dcf6-0115-279f-7a80" primary="false"/>
+        <categoryLink name="Legends" hidden="false" id="6320-f367-0538-e08f" targetId="acaf-8bb6-d6f-3e2a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="⬤" typeId="1dd2-2af7-76a2-2423" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Savage Orruk" hidden="false" id="cc4f-bdb0-f27b-16b1" defaultAmount="1,1,1,7">
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="false" id="4951-49a6-f612-7e60"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="false" id="9ab7-c98a-ee51-f237"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="10" field="4951-49a6-f612-7e60">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="10" field="9ab7-c98a-ee51-f237">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Savage Weapons" hidden="false" id="972b-10f1-b85f-5f68">
+              <profiles>
+                <profile name="Savage Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="77bf-8ad4-c4d5-7f99">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="9207-3537-df25-1987"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8f35-8f3c-4b8e-a685"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Command Models" id="4068-5209-863a-a9f4" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3fb-bc6a-bd78-6031" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Champion" hidden="false" id="ed2d-545f-9065-fcf0" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="df8a-87fb-1705-8691" shared="true" id="64ed-e927-efb0-b9e3"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f246-0436-4550-3b96"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Standard Bearer" hidden="false" id="fe86-3da3-4cb0-f65e" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="df8a-87fb-1705-8691" shared="true" id="7e35-ac0a-c61f-b631"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69aa-3eec-ec4c-d747"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="7e35-ac0a-c61f-b631">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Musician" hidden="false" id="a8b1-596b-1cd9-0ead" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="df8a-87fb-1705-8691" shared="true" id="5946-0f11-c32c-ed1b"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18bd-ff04-5680-5fdc"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="5946-0f11-c32c-ed1b">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <rules>
+            <rule name="Base Size" id="0d9a-7d73-8f37-a14f" hidden="true">
+              <description>32mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7e59-2237-4890-a80a" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Savage Orruk Morboys" hidden="false" id="39e7-2eb1-7dd4-9f18" publicationId="06c5-6322-e810-7967">
+      <profiles>
+        <profile name="Savage Orruk Morboys" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="fa5e-b31b-4171-39af">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">6+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Morboy Fury" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="59b7-360d-ef6a-4984">
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad ha cargado este turno, las unidades enemigas no pueden usar órdenes mientras estén en combate con esta unidad.</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
+            <attribute typeId="bf11-4e10-3ab1-06f4" name="Type">Special</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="INFANTRY" hidden="false" id="14d2-92b6-339b-7638" targetId="75d6-6995-dfcc-3898" primary="true"/>
+        <categoryLink name="CHAMPION" hidden="false" id="0583-0391-0557-8fd8" targetId="f679-3bcb-d664-9ac3" primary="false"/>
+        <categoryLink name="STANDARD BEARER (1/10)" hidden="false" id="3c72-7a80-7073-63f1" targetId="1f17-ad98-ada0-ccf" primary="false"/>
+        <categoryLink name="MUSICIAN (1/10)" hidden="false" id="53ba-b9da-3e12-a527" targetId="eeed-ef77-b0d-fa9d" primary="false"/>
+        <categoryLink name="WARD (6+)" hidden="false" id="2fe4-d52c-201f-6c28" targetId="70a4-383f-421f-52cd" primary="false"/>
+        <categoryLink name="DESTRUCTION" hidden="false" id="4bb6-865b-5264-237f" targetId="9057-5a29-dda5-3c28" primary="false"/>
+        <categoryLink name="ORRUK" hidden="false" id="0987-7d86-5c67-1ec2" targetId="86bf-1ccb-b937-c9d7" primary="false"/>
+        <categoryLink name="BONESPLITTERZ" hidden="false" id="7a56-17bd-a5ea-be66" targetId="dcf6-0115-279f-7a80" primary="false"/>
+        <categoryLink name="Legends" hidden="false" id="a0fa-97a2-a2a8-20f3" targetId="acaf-8bb6-d6f-3e2a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="⬤" typeId="1dd2-2af7-76a2-2423" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Savage Orruk Morboy" hidden="false" id="db5f-bb20-7d64-f9c6" defaultAmount="1,1,1,7">
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="false" id="108e-0f79-265d-2313"/>
+            <constraint type="max" value="10" field="selections" scope="parent" shared="false" id="299b-0567-f7de-ed09"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="10" field="108e-0f79-265d-2313">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="10" field="299b-0567-f7de-ed09">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Paired Savage Weapons" hidden="false" id="105c-ca1e-eb9b-c9b4">
+              <profiles>
+                <profile name="Paired Savage Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="fe55-501e-b026-cbd8">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="5a02-454a-91e3-f6ea"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="6360-0ec1-4d1a-a943"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Command Models" id="ca7a-ccd3-aff3-220e" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad24-caf7-10c6-3edb" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Champion" hidden="false" id="76c6-906b-de10-5e23" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="39e7-2eb1-7dd4-9f18" shared="true" id="7fc8-23d9-ab23-10d1"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c803-1586-fe74-b7ef"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Standard Bearer" hidden="false" id="94f8-8851-a444-72be" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="39e7-2eb1-7dd4-9f18" shared="true" id="32ff-3477-de7b-1285"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca6f-5db1-432e-d78e"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="32ff-3477-de7b-1285">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Musician" hidden="false" id="f274-6d38-5339-b819" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="39e7-2eb1-7dd4-9f18" shared="true" id="8184-ea87-0ddc-104c"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f09e-3c1d-2828-2ba2"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="8184-ea87-0ddc-104c">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <rules>
+            <rule name="Base Size" id="d04e-f1ad-a8a7-36f5" hidden="true">
+              <description>32mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7e59-2237-4890-a80a" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Savage Boarboys" hidden="false" id="1905-bd6d-f4bc-c40b" publicationId="06c5-6322-e810-7967">
+      <profiles>
+        <profile name="Savage Boarboys" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="289b-e91e-3dd3-d1c1">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">3</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">5+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Wild Enthusiasm" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4016-df64-0ebe-16e4">
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar la orden &apos;Power Through&apos; incluso si no ha cargado este turno. Además, al elegir un objetivo para esa orden, el objetivo no necesita tener una característica de Health menor que la de esta unidad.</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Purple</attribute>
+            <attribute typeId="bf11-4e10-3ab1-06f4" name="Type">Special</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="CHAMPION" hidden="false" id="d41b-1b1e-8e0e-49ce" targetId="f679-3bcb-d664-9ac3" primary="false"/>
+        <categoryLink name="WARD (6+)" hidden="false" id="21fb-8276-63af-aa0e" targetId="70a4-383f-421f-52cd" primary="false"/>
+        <categoryLink name="DESTRUCTION" hidden="false" id="fa23-75bd-3206-f86e" targetId="9057-5a29-dda5-3c28" primary="false"/>
+        <categoryLink name="ORRUK" hidden="false" id="b122-7d0d-b197-4bd5" targetId="86bf-1ccb-b937-c9d7" primary="false"/>
+        <categoryLink name="BONESPLITTERZ" hidden="false" id="f1aa-0917-a15c-55b8" targetId="dcf6-0115-279f-7a80" primary="false"/>
+        <categoryLink name="STANDARD BEARER (1/5)" hidden="false" id="6fcf-8260-2646-18dd" targetId="73c-8e22-9dde-f97" primary="false"/>
+        <categoryLink name="MUSICIAN (1/5)" hidden="false" id="e871-631b-c152-1845" targetId="dd6f-27e9-b16e-24ee" primary="false"/>
+        <categoryLink name="CAVALRY" hidden="false" id="2c84-e6b4-bc18-0e3d" targetId="926c-df8c-6841-d49e" primary="true"/>
+        <categoryLink name="Legends" hidden="false" id="3d1a-a77f-dbca-a301" targetId="acaf-8bb6-d6f-3e2a" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="⬤" typeId="1dd2-2af7-76a2-2423" value="0"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Savage Boarboy" hidden="false" id="7c97-f957-6883-37d6" defaultAmount="1,1,1,2">
+          <constraints>
+            <constraint type="min" value="5" field="selections" scope="parent" shared="false" id="d920-94cb-a095-d307"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="a066-9eed-244a-1c79"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="5" field="d920-94cb-a095-d307">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="5" field="a066-9eed-244a-1c79">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Boarboy Weapons" hidden="false" id="8f72-e606-33f3-91ca">
+              <profiles>
+                <profile name="Boarboy Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5322-a1d8-7ed8-e950">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="6806-1f35-7348-b3f9"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="484e-e56a-853b-9b1c"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="War Boar&apos;s Tusks and Hooves" hidden="false" id="97fb-40b2-d0c1-7971">
+              <profiles>
+                <profile name="War Boar&apos;s Tusks and Hooves" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5eec-8731-4143-38ee">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">5+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Charge (+1 Damage)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="0576-ab87-c754-4c03"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="cb74-0871-42b0-088e"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Command Models" id="14ac-97b6-88ae-afb3" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14d3-8558-a862-a5bb" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Champion" hidden="false" id="5601-8fb7-2ccd-1882" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="1905-bd6d-f4bc-c40b" shared="true" id="a730-39fd-b656-0bcf"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b9b-e76e-886c-1af1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Standard Bearer" hidden="false" id="c3b2-9b70-4674-4c03" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="1905-bd6d-f4bc-c40b" shared="true" id="d6de-1fd7-50c9-bb82"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="925d-9e36-ac50-3f4c"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="d6de-1fd7-50c9-bb82">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Musician" hidden="false" id="d23f-062e-666f-2d9b" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="1905-bd6d-f4bc-c40b" shared="true" id="af90-170c-f49f-bcee"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="042b-e809-d3d0-d2a7"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="increment" value="1" field="af90-170c-f49f-bcee">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="root-entry" childId="1b37-82b8-c062-eb82" shared="true" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <rules>
+            <rule name="Base Size" id="7e7b-b56c-5bec-e26a" hidden="true">
+              <description>60x35mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7e59-2237-4890-a80a" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Hedkrakka&apos;s Madmob" hidden="false" id="6259-3dda-45b2-5380" publicationId="9dee-a6b2-4b42-bfee">
+      <categoryLinks>
+        <categoryLink name="UNIQUE" hidden="false" id="0147-e4c5-3331-631d" targetId="72ce-2188-70bf-2dbd" primary="false"/>
+        <categoryLink name="Legends" hidden="false" id="a5a3-ae2d-208e-45a4" targetId="acaf-8bb6-d6f-3e2a" primary="false"/>
+        <categoryLink name="CHAMPION" hidden="false" id="08d6-43ba-46ce-440d" targetId="f679-3bcb-d664-9ac3" primary="false"/>
+        <categoryLink name="DESTRUCTION" hidden="false" id="af26-2b56-991e-ff46" targetId="9057-5a29-dda5-3c28" primary="false"/>
+        <categoryLink name="INFANTRY" hidden="false" id="729c-d716-d42a-eb56" targetId="75d6-6995-dfcc-3898" primary="true"/>
+        <categoryLink name="WARD (6+)" hidden="false" id="332a-fa65-b51d-727d" targetId="70a4-383f-421f-52cd" primary="false"/>
+        <categoryLink name="BONESPLITTERZ" hidden="false" id="e782-10c1-4a4e-fcf6" targetId="dcf6-0115-279f-7a80" primary="false"/>
+        <categoryLink name="ORRUK" hidden="false" id="ca6c-afd9-a3c0-d605" targetId="86bf-1ccb-b937-c9d7" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Hedkrakka&apos;s Madmob" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="09b2-7d67-0449-ff30">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">3</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">6+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hedkrakka, Gob of Gork" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="028f-2a76-3323-b426">
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras el **Hedkrakka, Gob of Gork** de esta unidad esté en el campo de batalla, tiene **^^Wizard (1)^^**.</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Yellow</attribute>
+            <attribute typeId="bf11-4e10-3ab1-06f4" name="Type">Special</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+        </profile>
+        <profile name="Go For da Eyes" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="44cb-9ae3-7646-d3c8">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si el **Dakko Sharp-Stikka** de esta unidad está en el campo de batalla, elige como objetivo una unidad enemiga visible a 18" o menos de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Suma 1 al resultado si el objetivo es un **^^Monster^^**. Con un 4+, inflige 1 punto de daño mortal al objetivo.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Blue</attribute>
+            <attribute typeId="6d16-c86b-2698-85a4" name="Type">Shooting</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Hedkrakka, Gob of Gork" hidden="false" id="c847-3930-4cc4-ae73">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a2d8-e779-047a-4961"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Madmob Weapons" hidden="false" id="d1c6-d6b5-95df-63cd">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6db2-5560-0cdb-6e38"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="666f-e145-a348-4f77"/>
+              </constraints>
+              <profiles>
+                <profile name="Madmob Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="be43-68a0-c462-2231">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Command Models" id="44eb-f05b-293d-970f" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e7b-8582-0345-923e" includeChildSelections="false"/>
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Champion" hidden="false" id="96a3-e0d8-be4a-e91a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="6259-3dda-45b2-5380" shared="true" id="ef7f-12e4-1784-12c0"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed24-a4e7-179d-dfda"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <rules>
+            <rule name="Base Size" id="8e64-1680-4a5b-75ea" hidden="true">
+              <description>40mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Toofdagga" hidden="false" id="b06d-029a-4148-d1b0">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="80f8-859a-d371-e884"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Madmob Weapons" hidden="false" id="bd1c-964d-39b1-50df">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b160-de16-7668-be2d"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="295d-a117-777a-a1b2"/>
+              </constraints>
+              <profiles>
+                <profile name="Madmob Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="4ee0-81ef-0336-a7fa">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <rules>
+            <rule name="Base Size" id="d0b9-6612-34e5-01a2" hidden="true">
+              <description>32mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Wollop da Skul" hidden="false" id="7aa9-b072-4e93-546c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cfff-1d0b-284a-31e8"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Madmob Weapons" hidden="false" id="1fb3-1201-57a1-2791">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db13-9196-b84a-fdf5"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5d5f-f2a0-465a-50f2"/>
+              </constraints>
+              <profiles>
+                <profile name="Madmob Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2fed-a480-adff-cbdd">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <rules>
+            <rule name="Base Size" id="5870-263a-2a17-9fd9" hidden="true">
+              <description>32mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Dakko Sharp-Stikka" hidden="false" id="a791-6a55-041c-8578">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="16e8-514e-307a-4c1c"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Madmob Weapons" hidden="false" id="bfd3-0445-f2ba-9037">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3366-ccce-9afc-6ad2"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c646-5424-608c-6233"/>
+              </constraints>
+              <profiles>
+                <profile name="Madmob Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="44ea-295a-8bb7-92b3">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+          <rules>
+            <rule name="Base Size" id="415d-51d6-23cc-0bcd" hidden="true">
+              <description>32mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7e59-2237-4890-a80a" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8577-d9d3-70f4-ecbc" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Kragnos, the End of Empires" hidden="false" id="62b3-9802-6d16-32c1" publicationId="2d6e-3ea2-52fe-a38">
+      <entryLinks>
+        <entryLink import="true" name="General" hidden="false" id="8f54-1f3d-c73c-8d33" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Kragnos, the End of Empires" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="8ede-f1eb-803f-1ede">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">18</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">4+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">15</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7bff-315a-9124-953a">
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de **The Dread Mace** es 4 y esta unidad tiene una característica de Control de 10.</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
+            <attribute typeId="bf11-4e10-3ab1-06f4" name="Type">Damage</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+        </profile>
+        <profile name="Avatar of Destruction" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9397-481e-a323-91cc">
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad fuera a ser destruida automáticamente, no es destruida automáticamente. En su lugar, asígnale 6 puntos de daño (no se pueden hacer tiradas de salvaguardia por esos puntos de daño).</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
+            <attribute typeId="bf11-4e10-3ab1-06f4" name="Type">Defensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+        </profile>
+        <profile name="Rampaging Destruction" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="ab69-5b59-13d5-9177">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de carga</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad ha cargado esta fase, elige 1 de los siguientes efectos:
+• Tira un dado por cada unidad enemiga a 1" o menos de esta unidad. Con un 2+, inflige a esa unidad una cantidad de daño mortal igual al resultado.
+• Elige un **^^Monster^^** enemigo en combate con esta unidad y tira 2D6. Con un 7, esta habilidad no tiene efecto. En caso contrario, inflige a esa unidad una cantidad de daño mortal igual al resultado de multiplicar entre sí los dados usados en la tirada de 2D6. Por ejemplo, una tirada de 2D6 de 2 y 6 infligiría 12 de daño mortal (2 × 6).</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Orange</attribute>
+            <attribute typeId="6d16-c86b-2698-85a4" name="Type">Offensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+        <profile name="The End of Empires" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="8f75-3bfe-33d8-1692">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de carga</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 1 al número de dados que se tiran al hacer tiradas de carga para las unidades amigas **^^Destruction^^** mientras estén totalmente a 12" o menos de esta unidad, hasta un máximo de 3.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Orange</attribute>
+            <attribute typeId="6d16-c86b-2698-85a4" name="Type">Movement</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+        <profile name="The Shield Inviolate" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e723-039a-53e8-250e">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: El oponente ha declarado una habilidad de **^^Spell^^**</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad fue elegida como objetivo de ese hechizo, tira un dado. Con un 3+, ignora el efecto de ese hechizo sobre esta unidad. Esta unidad puede usar esta habilidad más de una vez por fase, pero solo una vez por habilidad de **^^Spell^^**.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Yellow</attribute>
+            <attribute typeId="6d16-c86b-2698-85a4" name="Type">Defensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="HERO" hidden="false" id="e18e-720e-6c2d-9407" targetId="6e72-1656-d554-528a" primary="true"/>
+        <categoryLink name="UNIQUE" hidden="false" id="33a2-4c95-fdd1-77d6" targetId="72ce-2188-70bf-2dbd" primary="false"/>
+        <categoryLink name="MONSTER" hidden="false" id="c57a-3be1-c63a-a337" targetId="6d54-625c-d063-13e2" primary="false"/>
+        <categoryLink name="WARMASTER" hidden="false" id="1393-690c-c863-4efe" targetId="c203-51a0-3d44-6b07" primary="false"/>
+        <categoryLink name="WARD (5+)" hidden="false" id="7b67-928b-37b5-e44b" targetId="52cc-95fd-6cd3-8f72" primary="false"/>
+        <categoryLink name="DESTRUCTION" hidden="false" id="67ad-e171-dd15-b710" targetId="9057-5a29-dda5-3c28" primary="false"/>
+        <categoryLink name="BONESPLITTERZ" hidden="false" id="56a4-f03f-0e3b-3072" targetId="dcf6-0115-279f-7a80" primary="false"/>
+        <categoryLink name="Legends" hidden="false" id="13a8-2dfd-557f-c67e" targetId="acaf-8bb6-d6f-3e2a" primary="false"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4202-4b07-3c85-5608" includeChildSelections="true"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Kragnos, the End of Empires" hidden="false" id="b5fa-c84e-5564-39ac">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="The Dread Mace" hidden="false" id="ebef-64ed-8f28-f58b">
+              <profiles>
+                <profile name="The Dread Mace" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0998-6321-691c-4f20">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">3</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="495f-60ca-d92c-8d8d"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cd5f-af4e-6bdf-6a46"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tuskbreaker" hidden="false" id="4351-f769-a010-9db7">
+              <profiles>
+                <profile name="Tuskbreaker" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="9ed8-fb4f-777b-fbeb">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crit (2 Hits)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b45-aeec-8569-0465"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b243-b2c2-e2f6-471d"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Hooves of Wrack and Ruin" hidden="false" id="d254-1d62-490b-602b">
+              <profiles>
+                <profile name="Hooves of Wrack and Ruin" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5b2c-15ee-7972-ed53">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4400-9964-ddfb-8b8f"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40b2-7992-9b24-1f67"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3062-879b-246d-204d"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c822-0a85-dc77-318c"/>
+          </constraints>
+          <rules>
+            <rule name="Base Size" id="06d6-b62f-e23c-215c" hidden="true">
+              <description>130mm</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="7e59-2237-4890-a80a" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
