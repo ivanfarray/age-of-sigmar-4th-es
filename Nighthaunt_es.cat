@@ -1,0 +1,2513 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="640e-6bc1-c83d-13c" name="Nighthaunt" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="43" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Artefacts of Power" id="f997-403-7b2e-60c6" hidden="false">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Relics of the Underworlds" id="162d-42bc-669a-ba76" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Tome of the Restless Crypts" hidden="false" id="e08d-43a7-2587-3d4d">
+              <profiles>
+                <profile name="Tome of the Restless Crypts" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e16d-c57a-5652-128d">
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de movimiento</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si hay menos de 3 **Nexuses of Grief** amigos en el campo de batalla, coloca un **Nexus of Grief** a 3" o menos de una unidad amiga **^^Nighthaunt^^**, a más de 3" de todos los marcadores de objetivo y unidades enemigas, a más de 1" de todos los demás elementos de escenografía y a más de 12" de todos los demás **Nexuses of Grief** amigos.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                  <attributes>
+                    <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Gray</attribute>
+                    <attribute typeId="6d16-c86b-2698-85a4" name="Type">Special</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7443-b7b7-d7ae-182a" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ethereal Fetters" hidden="false" id="5052-1550-ea5c-d720">
+              <profiles>
+                <profile name="Ethereal Fetters" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a1bc-5368-5f2d-b25f">
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, si es posible, esta unidad debe ser elegida como objetivo de los movimientos de aproximación que haga el objetivo.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                  <attributes>
+                    <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Red</attribute>
+                    <attribute typeId="6d16-c86b-2698-85a4" name="Type">Movement</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b288-1963-74e4-f521" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Urn of Despondency" hidden="false" id="8399-1dd4-f0fb-6dca">
+              <profiles>
+                <profile name="Urn of Despondency" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="04f0-d275-ecd9-b826">
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Gasta hasta 3 **dados de ira**. Si el **nivel de furia** de tu oponente es inferior al tuyo, debe aumentar su **nivel de furia** en 1, hasta un máximo de 7.
+Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta unidad puede moverse una distancia en pulgadas de hasta el resultado, pero debe terminar ese movimiento en combate con una unidad enemiga dañada y/o una unidad enemiga que tenga menos miniaturas que su tamaño inicial.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                  <attributes>
+                    <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Red</attribute>
+                    <attribute typeId="6d16-c86b-2698-85a4" name="Type">Movement</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1010-5d99-69d2-e0e2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="78a1-f6c2-71b8-270a" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0151-9c5b-2f1e-32d4" shared="true" childName="✦ General&apos;s Handbook 2026-27"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Relics of the Underworlds" id="8b45-c8a4-392-3fa4" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Lightshard of the Harvest Moon" hidden="false" id="5d90-2d26-d267-287b">
+              <profiles>
+                <profile name="Lightshard of the Harvest Moon" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="186d-860-b630-de91">
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está en combate, durante el resto del turno suma 1 a la característica de Attacks de las armas de cuerpo a cuerpo usadas por unidades amigas **^^Nighthaunt^^** mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                  <attributes>
+                    <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Red</attribute>
+                    <attribute typeId="6d16-c86b-2698-85a4" name="Type">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7f92-551b-1553-397b" includeChildSelections="true"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+                <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+                <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+                <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="0" field="points">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1bed-ddb5-0c50-16d2" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="01b1-5112-ab45-1afc" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f079-501a-2738-6844" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8e6f-2dd7-a7ed-489e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Mirror of Echoing Failures" hidden="false" id="2fbe-f99e-c102-ecb7">
+              <profiles>
+                <profile name="Mirror of Echoing Failures" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2522-ecf2-4b2c-8fce">
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Tu oponente ha declarado una habilidad de **^^Spell^^** o **^^Prayer^^** para un **^^Wizard^^** o **^^Priest^^** a 12" o menos de esta unidad.</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos todos los **^^Wizard^^** y **^^Priest^^** enemigos a 12" o menos de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Con un 2+, durante el resto de la fase:
+• Resta 1 a las tiradas de lanzamiento y de cántico de los objetivos.
+• Cada vez que alguno de los objetivos falle al lanzar un hechizo o entonar una plegaria, inflígele 1 de daño mortal.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="47b3-38c3-7bd9-555" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Brazier of Nagashizzar" hidden="false" id="8e03-ae4e-54e7-ec49">
+              <profiles>
+                <profile name="Brazier of Nagashizzar" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="33ec-3999-fe8b-9dce">
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redeploy&apos; para una unidad amiga **^^Nighthaunt Infantry^^** totalmente a 12" o menos de esta unidad.</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si obtienes un 1-3 al determinar la distancia que esa unidad puede mover, puedes usar un valor de 4 en su lugar.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Grey</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6676-a0d3-5e89-11d2" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <rules>
+            <rule name="Enhancement Restrictions" id="d80d-2785-b16b-42d2" hidden="true">
+              <description>solo **^^Hero^^**</description>
+            </rule>
+          </rules>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Relics of Dolorum" id="4ea7-50a9-adb5-0619" hidden="true" publicationId="f894-7929-f79a-a269">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Stave of Suffering" hidden="false" id="0677-1a6c-75ca-9e7a">
+              <profiles>
+                <profile name="Stave of Suffering" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ee57-a259-57d6-609a">
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté a 12" o menos de alguna unidad enemiga dañada o de alguna unidad enemiga que haya sufrido la pérdida de alguna miniatura, suma 1 a las tiradas de lanzamiento de las unidades amigas **^^Nighthaunt^^** mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
+                  </characteristics>
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b650-c3eb-f180-24d3" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tombstone of the Penitent" hidden="false" id="5f0c-f63a-af69-2697">
+              <profiles>
+                <profile name="Tombstone of the Penitent" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5997-e952-7a26-bef4">
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Attacks de las armas de cuerpo a cuerpo de esta unidad por cada elemento de escenografía que no sea **^^Faction Terrain^^** que esté siendo disputado por unidades amigas, hasta un máximo de 8.</characteristic>
+                  </characteristics>
+                  <attributes>
+                    <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
+                    <attribute typeId="bf11-4e10-3ab1-06f4" name="Type">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f307-5f6f-6db1-3f1a" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Amulet of Waking Nightmares" hidden="false" id="c125-df8e-27c2-3b13">
+              <profiles>
+                <profile name="Amulet of Waking Nightmares" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e361-90c6-4f95-2523">
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** enemigo a 18" o menos de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, durante el resto del turno, el objetivo no puede verse afectado por la habilidad &apos;Guarded Hero&apos; ni por la habilidad de terreno &apos;Obscuring&apos;.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="562a-218d-2806-85e1" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="78a1-f6c2-71b8-270a" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f079-501a-2738-6845" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Enhancement Restrictions" id="b88b-4550-0ea0-423c" hidden="true">
+              <description>solo **^^Hero^^**</description>
+            </rule>
+          </rules>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="6ec6-5f7e-d50a-f5a4" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="a3e4-e9f7-561d-949c" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="-1" field="963e-e312-bc51-9dee">
+          <conditions>
+            <condition type="atLeast" value="1" field="e63c-79ff-93ba-c5eb" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="963e-e312-bc51-9dee" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="646b-efe2-961d-2886"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Battle Formations: Nighthaunt" id="5114-443c-4c98-b35c" hidden="false" flatten="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Quicksilver Gheists" hidden="false" id="4194-8ce-eb86-80c2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e75-79df-8146-4e18"/>
+          </constraints>
+          <profiles>
+            <profile name="Vanish and Reappear" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="cdeb-961b-c43f-5603">
+              <characteristics>
+                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn (Army), Your Movement Phase</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Nighthaunt^^** que esté en combate para usar esta habilidad.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. La unidad que usa esta habilidad puede moverse una distancia de hasta su característica de Move más el resultado. Puede atravesar otras miniaturas y los alcances de combate de unidades enemigas, y puede terminar ese movimiento en combate.</characteristic>
+                <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Core^^**, **^^Move^^**</characteristic>
+                <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+              </characteristics>
+              <attributes>
+                <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Gray</attribute>
+                <attribute typeId="6d16-c86b-2698-85a4" name="Type">Movement</attribute>
+                <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+              </attributes>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="0" field="points">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1bed-ddb5-0c50-16d2" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="01b1-5112-ab45-1afc" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f079-501a-2738-6844" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8e6f-2dd7-a7ed-489e" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="pts" typeId="points" value="40"/>
+            <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+            <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+            <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Death Stalkers" hidden="false" id="ca91-2d4e-9ff4-c24">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2521-f2e9-6fc2-df6"/>
+          </constraints>
+          <profiles>
+            <profile name="There Is No Escape" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4d0f-d04f-9fa4-4e8d">
+              <characteristics>
+                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de movimiento</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Nighthaunt^^**.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno:
+• La unidad objetivo puede seguir usando habilidades de **^^Charge^^** y **^^Shoot^^** aunque haya usado una habilidad de **^^Retreat^^** en el mismo turno.
+• El objetivo puede usar la habilidad &apos;Retreat&apos; sin que se le inflija ningún daño mortal.</characteristic>
+                <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+              </characteristics>
+              <attributes>
+                <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Gray</attribute>
+                <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+                <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+              </attributes>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Royal Procession" hidden="false" id="df99-d456-63a5-931">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c05-de20-b8a2-8f0c"/>
+          </constraints>
+          <profiles>
+            <profile name="Lethal Rancour" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="974a-2312-95e2-bfb2">
+              <characteristics>
+                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), fase de héroe enemiga</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta 2 unidades amigas **^^Nighthaunt^^**.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Las armas de cuerpo a cuerpo de los objetivos tienen **Anti-charge (+1 Rend)** durante el resto del turno.</characteristic>
+                <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+              </characteristics>
+              <attributes>
+                <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+                <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+              </attributes>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Shrieker Host" hidden="false" id="b5bd-1e28-d13-d5de">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fdc-7103-affe-4b7b"/>
+          </constraints>
+          <profiles>
+            <profile name="Petrify" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="cd6d-ac39-652b-f9ee">
+              <characteristics>
+                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), fase de héroe enemiga</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Nighthaunt Hero^^** amigo.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, las unidades enemigas no pueden usar habilidades de **^^Retreat^^** mientras estén en combate con el objetivo.</characteristic>
+                <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+              </characteristics>
+              <attributes>
+                <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+                <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+                <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+              </attributes>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Hungry Nexus" hidden="true" id="b90b-82e0-502e-5e32" publicationId="f894-7929-f79a-a269">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82eb-c076-df3d-cae3"/>
+          </constraints>
+          <profiles>
+            <profile name="Greedy for Souls" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="fe2b-0588-6b68-b1c5">
+              <characteristics>
+                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final del turno enemigo</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **Nexus of Grief** amigo.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, el objetivo tiene una característica de Move de 3". Puede moverse inmediatamente hasta 3" y puede entrar en combate con ese movimiento, pero no puede terminarlo sobre un elemento de escenografía ni a 3" o menos de un marcador de objetivo.</characteristic>
+                <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+              </characteristics>
+              <attributes>
+                <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
+                <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+                <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+              </attributes>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="78a1-f6c2-71b8-270a" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f079-501a-2738-6845" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Deathrust Gheists" hidden="true" id="29e2-d479-86a1-5958" publicationId="f894-7929-f79a-a269">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2956-753e-6a90-5b01"/>
+          </constraints>
+          <profiles>
+            <profile name="Blades of Eternal Rust" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a410-f515-341f-34c9">
+              <characteristics>
+                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), fase de héroe enemiga</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que esté en combate con alguna unidad amiga **^^Nighthaunt^^**.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Resta 1 a las tiradas de salvación del objetivo durante el resto del turno.</characteristic>
+                <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+              </characteristics>
+              <attributes>
+                <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+                <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+              </attributes>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="78a1-f6c2-71b8-270a" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f079-501a-2738-6845" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ca4a-2b29-431f-450e" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Heroic Traits" id="9e6d-5798-809e-8d02" hidden="false">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Shades of Death" id="f65d-235-63e4-2c61" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Deathly Possessor" hidden="false" id="4b9a-d8b5-b02b-4b47">
+              <profiles>
+                <profile name="Deathly Possessor" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="3803-8726-ccc5-b2a2">
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** enemigo en combate con esta unidad y, después, elige como víctima otra unidad enemiga dentro del alcance de combate del objetivo.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, elige 1 de las armas de cuerpo a cuerpo del objetivo. Resuelve inmediatamente los ataques de combate del objetivo con esa arma contra la víctima.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7a35-3457-8521-c391" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Ruler of the Spectral Hosts" hidden="false" id="eabf-168d-e0bf-bd61">
+              <profiles>
+                <profile name="Ruler of the Spectral Hosts" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f5f1-dc77-3a1c-e173">
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta 3 unidades amigas que no sean **^^Hero Nighthaunt^^**, totalmente a 12" o menos de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3 por cada objetivo. Con un 2+:
+• Si el objetivo está dañado, aplícale **Heal (X)**, donde **X** es una cantidad igual al resultado.
+• Si el objetivo no está dañado, devuélvele un número de miniaturas abatidas con una característica de Health combinada de hasta X, donde X es una cantidad igual al resultado.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4e07-949a-98a-6af8" includeChildSelections="true"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+                <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+                <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+                <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="set" value="0" field="points">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1bed-ddb5-0c50-16d2" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="01b1-5112-ab45-1afc" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f079-501a-2738-6844" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8e6f-2dd7-a7ed-489e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Shadowy Aura" hidden="false" id="e525-1726-65ce-607f">
+              <profiles>
+                <profile name="Shadowy Aura" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1145-27b4-48a1-261b">
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redeploy&apos; para una unidad amiga **^^Nighthaunt^^** totalmente a 12" o menos de esta unidad</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, resta 1 a las tiradas de impacto de los ataques que tengan como objetivo esta unidad.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Grey</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b4d7-310-1bfe-b32b" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <rules>
+            <rule name="Enhancement Restrictions" id="0953-5ea6-3025-0ce6" hidden="true">
+              <description>solo **^^Hero^^**</description>
+            </rule>
+          </rules>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="258b-466a-ae4d-7be1" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="1a56-d351-8aae-6d25" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="-1" field="09cc-8522-ae49-3a55">
+          <conditions>
+            <condition type="atLeast" value="1" field="e63c-79ff-93ba-c5eb" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="09cc-8522-ae49-3a55" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="b7fc-be03-c182-0125"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Manifestation Lores" id="6303-4a93-5d37-591e" hidden="false" flatten="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Infernal Sorceries" hidden="false" id="e676-e273-9bc9-36d2">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75a2-cbc1-9e7-d845"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Infernal Sorceries" hidden="false" id="313a-4c63-f822-ff52" type="selectionEntryGroup" targetId="c004-e5d2-e331-f5a6"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Spell Lores" id="2d44-c570-16a4-b2b5" hidden="false" flatten="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Lore of the Underworlds" hidden="false" id="8c60-eedf-17ff-8fc8" defaultAmount="1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d251-34df-fa7-5280"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Lore of the Underworlds" hidden="false" id="0cde-b44b-11da-0c51" type="selectionEntryGroup" targetId="2fe9-d861-ccdf-9560"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Paths" id="b01c-51e0-7c8b-0df5" hidden="true">
+      <entryLinks>
+        <entryLink import="true" name="Ravaged Coast Paths" hidden="false" id="64f7-c71c-62fe-de26" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
+        <entryLink import="true" name="Ascension Paths" hidden="false" id="213e-963a-4531-762a" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
+        <entryLink import="true" name="Paths" hidden="false" id="2410-9d93-4b05-1bcd" type="selectionEntryGroup" targetId="7fe4-98b1-b164-c0d9" flatten="true"/>
+        <entryLink import="true" name="Blighted Wilds Paths" hidden="false" id="bd9d-ffd8-2018-dc15" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8" flatten="true"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="e63c-79ff-93ba-c5eb" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3894-7b75-6b3c-63d8"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Battle Wounds + Scars" id="1cb4-1572-5a03-ef40" hidden="true" collapsible="true">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="e63c-79ff-93ba-c5eb" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="1bed-ddb5-0c50-16d2" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Ravaged Coast Battle Scars" hidden="false" id="c479-9efd-f9a7-3b30" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
+        <entryLink import="true" name="Blighted Wilds Battle Scars" hidden="false" id="2042-88e2-5162-750d" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Battle Wounds" hidden="false" id="be75-6430-3579-b956"/>
+        <selectionEntry type="upgrade" import="true" name="Drained" hidden="true" id="04ad-cd58-40d8-2bb4">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2720-c4b4-4261-c47f"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="6e72-1656-d554-528a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Crimes of the Condemned" id="63b2-0dfa-3fc5-ff91" hidden="false">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Crimes of the Condemned" id="46dc-6e7f-fb23-88a5" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Vociferous Defamers" hidden="false" id="d97d-1f93-9f53-741d">
+              <profiles>
+                <profile name="Vociferous Defamers" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="bff3-8aa6-bc06-97b8">
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de lanzamiento de los **^^Wizards^^** amigos **^^Nighthaunt^^** mientras estén totalmente a 12" o menos de esta unidad y sean visibles para ella. En su lugar, suma 2 a las tiradas de lanzamiento si esta unidad también está en combate con un **^^Wizard^^** o **^^Priest^^** enemigo.</characteristic>
+                  </characteristics>
+                  <attributes>
+                    <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Yellow</attribute>
+                    <attribute typeId="bf11-4e10-3ab1-06f4" name="Type">Special</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8da4-ff3c-75ca-610c" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="points">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1bed-ddb5-0c50-16d2" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="01b1-5112-ab45-1afc" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f079-501a-2738-6844" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8e6f-2dd7-a7ed-489e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+                <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+                <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+                <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Backstabbing Betrayers" hidden="false" id="4721-b89a-072a-2a06">
+              <profiles>
+                <profile name="Backstabbing Betrayers" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2ec6-e947-a62c-2440">
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Attacks de las armas de cuerpo a cuerpo de esta unidad mientras esté a más de 12" de todas las demás unidades amigas **^^Nighthaunt^^**.</characteristic>
+                  </characteristics>
+                  <attributes>
+                    <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
+                    <attribute typeId="bf11-4e10-3ab1-06f4" name="Type">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9f26-5c65-89fd-f041" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="points">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1bed-ddb5-0c50-16d2" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="01b1-5112-ab45-1afc" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f079-501a-2738-6844" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8e6f-2dd7-a7ed-489e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+                <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+                <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+                <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Cowards and Deserters" hidden="false" id="1993-1107-196f-ec03">
+              <profiles>
+                <profile name="Cowards and Deserters" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="eb55-58eb-4178-023f">
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad de **^^Fight^^** para esta unidad</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad de **^^Fight^^**, tira un dado. Puedes gastar 1 **dado de ira**. Si lo haces:
+• Suma 1 al resultado.
+• Si el **nivel de furia** de tu oponente es inferior al tuyo, debe aumentar su **nivel de furia** en 1, hasta un máximo de 7.
+Con un 3+, esta unidad puede moverse una distancia de hasta su característica de Move. Puede moverse a través de los alcances de combate de unidades enemigas, pero no puede terminar ese movimiento en combate.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                  <attributes>
+                    <attribute typeId="5a11-eab3-180c-ddf5" name="Color">Red</attribute>
+                    <attribute typeId="6d16-c86b-2698-85a4" name="Type">Movement</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="18fd-150e-7b5b-7d59" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="0" field="points">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1bed-ddb5-0c50-16d2" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="01b1-5112-ab45-1afc" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f079-501a-2738-6844" shared="true" includeChildSelections="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8e6f-2dd7-a7ed-489e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+                <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+                <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+                <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="78a1-f6c2-71b8-270a" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0151-9c5b-2f1e-32d4" shared="true" childName="✦ General&apos;s Handbook 2026-27"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fb06-266b-2a96-d224" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="70a6-3a8b-8e4f-8028"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Nighthaunt - Library" id="bfbd-b02e-8ce1-5588" targetId="4ac4-565f-a06e-893"/>
+    <catalogueLink type="catalogue" name="✦ Path to Glory - Ravaged Coast" id="6d74-2fcd-273d-ac60" targetId="a434-b1ba-922b-7624" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="❖ Lores" id="22f4-6981-54bb-8697" targetId="0a11-cd61-2a4e-8e04" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Path to Glory - Ascension" id="d67e-b4fe-2a02-fe2b" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Path to Glory - Blighted Wilds" id="833c-3ebe-1247-4f87" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
+  </catalogueLinks>
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Battle Traits: Nighthaunt" hidden="false" id="53c5-1078-24f5-3301">
+      <profiles>
+        <profile name="Ethereal" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ca03-ec11-f370-b66d">
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora los modificadores negativos a las tiradas de salvación de las unidades amigas **^^Nighthaunt^^**, excluyendo a **Nagash**.</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
+            <attribute typeId="bf11-4e10-3ab1-06f4" name="Type">Defensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+        </profile>
+        <profile name="Ethereal Translocation" typeId="55ac-f837-dded-5872" typeName="Ability (Command)" hidden="false" id="c6d2-2b92-5367-7b43">
+          <characteristics>
+            <characteristic name="Timing" typeId="736-6e3a-d0b5-a1b0">Una vez por turno (ejército), tu fase de movimiento</characteristic>
+            <characteristic name="Cost" typeId="a49e-3082-e2a6-e802">1</characteristic>
+            <characteristic name="Declare" typeId="b77f-7548-840e-c086">Elige una unidad amiga **^^Nighthaunt^^** que no esté en combate para usar esta habilidad.</characteristic>
+            <characteristic name="Effect" typeId="2111-3ca8-61dd-a5f0">Retira esa unidad del campo de batalla y vuelve a colocarla en el campo de batalla a más de 9" de todas las unidades enemigas.</characteristic>
+            <characteristic name="Keywords" typeId="445d-f443-5448-e7ce"/>
+          </characteristics>
+          <attributes>
+            <attribute name="Color" typeId="5c69-e4b9-19bc-e801">Grey</attribute>
+            <attribute name="Type" typeId="2bd5-08f1-f3d1-86f7">Movement</attribute>
+            <attribute name="Parent Node" typeId="df75-e7dc-12b5-48a8"/>
+          </attributes>
+        </profile>
+        <profile name="Mounting Dread" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fc5b-13e9-6116-364b">
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta el número de la ronda de batalla actual a las puntuaciones de control de las unidades enemigas mientras estén en combate con alguna unidad amiga **^^Nighthaunt^^**.</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Control</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+        </profile>
+        <profile name="Sepulchral Apparitions" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="67e0-33db-1c0a-6797">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si hay un **Nexus of Grief** amigo en el campo de batalla, puedes colocar hasta 2 **Nexuses of Grief** adicionales en el campo de batalla. Cada uno debe colocarse totalmente fuera del territorio enemigo, a más de 3" de todos los marcadores de objetivo y otros elementos de escenografía, y a más de 12" de todos los demás **Nexuses of Grief** amigos.
+**Nota del diseñador:** *El* **Nexus of Grief** *original se coloca en el Paso 1 de la fase de despliegue mediante la habilidad &apos;Deploy Faction Terrain&apos;. Esta habilidad permite colocar un segundo y un tercer elemento de escenografía de este tipo, y se usa en el Paso 3 de la fase de despliegue, después de que los ejércitos hayan sido desplegados.*</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Black</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Reference" hidden="false" id="389c-d92-bf1f-30e5" targetId="3360-1158-e879-9606" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Awlrach the Drowner" hidden="false" id="e5fd-27bc-4ac3-4825" type="selectionEntry" targetId="d8ef-7494-db04-b1a9">
+      <costs>
+        <cost name="pts" typeId="points" value="110"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="5461-77ac-eabd-2d2c" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.e3a4-4581-9f76-4215"/>
+            <modifier type="add" value="8f4b-1fa6-3128-8405" field="category" scope="force" affects="self.entries.recursive.3fb9-4ad6-b87c-48e6"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Cairn Wraith" hidden="false" id="7648-12f1-95fd-fcd2" type="selectionEntry" targetId="eac-95c-b449-a7a5">
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="79c-f3d9-a45c-519c" type="selectionEntryGroup" targetId="9e6d-5798-809e-8d02"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="260-ba78-c1d2-3ae0" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ce35-5bef-8a9c-e443" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="6076-22a4-f7bf-c088" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="ecc1-7e56-6181-bda4" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="cb02-7df3-37c9-2e5f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="3dcb-3b35-ab74-158f" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="130"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="8f4b-1fa6-3128-8405" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="3fb9-4ad6-b87c-48e6" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.75d6-6995-dfcc-3898"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.50b6-cef0-6119-85df"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.98c9-e4bf-b35d-bdca"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Guardian of Souls" hidden="false" id="5672-e1eb-f03c-a494" type="selectionEntry" targetId="76b8-eb95-f916-c5b5">
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="54d-68df-a7a2-c4af" type="selectionEntryGroup" targetId="9e6d-5798-809e-8d02"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="d58f-1ed5-11d2-3c0e" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="2034-5886-ab83-d6a5" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="3e8a-8f2e-4fa5-a63c" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="210d-2821-f315-ad3f" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="4e4c-4ac8-4ba7-9b9a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="28a6-efe4-8b86-3628" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.75d6-6995-dfcc-3898"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.50b6-cef0-6119-85df"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.98c9-e4bf-b35d-bdca"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Knight of Shrouds" hidden="false" id="cb94-2d3c-b866-f621" type="selectionEntry" targetId="625-d4af-9738-48ca">
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="376c-372d-8b0e-9be2" type="selectionEntryGroup" targetId="9e6d-5798-809e-8d02"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="bfdb-84db-e422-2b4c" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1a05-03a7-0611-d140" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="1ea4-0191-ba07-9c5e" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="0f6c-fd6d-506f-e99b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="77dc-084d-cffc-2bc7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="3380-2b7c-6824-b585" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.e3a4-4581-9f76-4215"/>
+            <modifier type="add" value="8f4b-1fa6-3128-8405" field="category" scope="force" affects="self.entries.recursive.3fb9-4ad6-b87c-48e6"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Knight of Shrouds on Ethereal Steed" hidden="false" id="b7c3-7f7-72a2-ee8f" type="selectionEntry" targetId="72d-cbfa-2680-9e66">
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="9b9-61c8-e51c-bed5" type="selectionEntryGroup" targetId="9e6d-5798-809e-8d02"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="5b9e-3996-e0a1-d1c1" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="8a11-8a7e-3aaf-268c" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="720a-efae-5f0e-560f" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="7053-2736-9071-f6fe" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="6b6f-1413-bbac-c50a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="1417-7e7a-0c9c-b00b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="160"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.e3a4-4581-9f76-4215"/>
+            <modifier type="add" value="8f4b-1fa6-3128-8405" field="category" scope="force" affects="self.entries.recursive.3fb9-4ad6-b87c-48e6"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Krulghast Cruciator" hidden="false" id="c81c-805a-e4d7-583e" type="selectionEntry" targetId="d5e7-8080-3243-6c22">
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="159c-8f32-4179-4b40" type="selectionEntryGroup" targetId="9e6d-5798-809e-8d02"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="2613-301c-e5eb-452" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="06eb-d7f6-90b0-8862" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="f480-23d5-d2d5-212b" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="a2f2-5670-27a4-4bb9" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="e646-092a-396f-3258" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="9385-d4d2-7ba5-0833" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.75d6-6995-dfcc-3898"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.50b6-cef0-6119-85df"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.98c9-e4bf-b35d-bdca"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Kurdoss Valentian, the Craven King" hidden="false" id="78cd-3409-a94f-93f9" type="selectionEntry" targetId="9b2f-951a-816b-94c4">
+      <costs>
+        <cost name="pts" typeId="points" value="160"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="26ea-ef58-d82a-e9d9" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.e3a4-4581-9f76-4215"/>
+            <modifier type="add" value="8f4b-1fa6-3128-8405" field="category" scope="force" affects="self.entries.recursive.3fb9-4ad6-b87c-48e6"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Lady Olynder, Mortarch of Grief" hidden="false" id="dc09-dae9-d3da-130e" type="selectionEntry" targetId="ee75-82ec-9c18-397b">
+      <costs>
+        <cost name="pts" typeId="points" value="320"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b500-325c-a11d-0ff6" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.e3a4-4581-9f76-4215"/>
+            <modifier type="add" value="8f4b-1fa6-3128-8405" field="category" scope="force" affects="self.entries.recursive.3fb9-4ad6-b87c-48e6"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Lord Executioner" hidden="false" id="1500-8766-b518-a243" type="selectionEntry" targetId="8bd-370e-5881-48fb">
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="89f4-e9e8-9e3b-12" type="selectionEntryGroup" targetId="9e6d-5798-809e-8d02"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="9df5-55a1-14a7-783e" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="961e-e93e-26c5-40f9" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="61cd-5cc7-6ee9-a63a" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="b774-fed1-50ae-47ae" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="c892-3cc2-aa38-627f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="c8a9-d07e-33fa-533d" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="160"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="8f4b-1fa6-3128-8405" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="3fb9-4ad6-b87c-48e6" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.75d6-6995-dfcc-3898"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.50b6-cef0-6119-85df"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.98c9-e4bf-b35d-bdca"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Nagash, Supreme Lord of the Undead" hidden="false" id="5b02-b841-9c31-b69c" type="selectionEntry" targetId="fb77-fec9-42ed-a7fd">
+      <costs>
+        <cost name="pts" typeId="points" value="750"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="e85b-8da5-d3bf-6288" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.e3a4-4581-9f76-4215"/>
+            <modifier type="add" value="8f4b-1fa6-3128-8405" field="category" scope="force" affects="self.entries.recursive.3fb9-4ad6-b87c-48e6"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Reikenor the Grimhailer" hidden="false" id="df02-2a23-a841-4ce3" type="selectionEntry" targetId="ea83-60f1-bd67-d25">
+      <costs>
+        <cost name="pts" typeId="points" value="200"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4aa9-1f33-faae-9407" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.e3a4-4581-9f76-4215"/>
+            <modifier type="add" value="8f4b-1fa6-3128-8405" field="category" scope="force" affects="self.entries.recursive.3fb9-4ad6-b87c-48e6"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Scriptor Mortis" hidden="false" id="7b5d-b482-d599-789f" type="selectionEntry" targetId="bd18-dcfd-b081-f533">
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="ee3b-4867-fa3b-2101" type="selectionEntryGroup" targetId="9e6d-5798-809e-8d02"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="1cfc-7933-b2fd-53a2" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="814c-0b51-73f4-daf8" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="c79b-9101-cd83-a14b" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="a8a7-b7d3-9312-966e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="805f-ad57-a6a3-ba9d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="912b-ccf7-f6b2-2c37" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="110"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="8f4b-1fa6-3128-8405" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="3fb9-4ad6-b87c-48e6" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.75d6-6995-dfcc-3898"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.50b6-cef0-6119-85df"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.98c9-e4bf-b35d-bdca"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Spirit Torment" hidden="false" id="fdd-8e34-a253-8e6c" type="selectionEntry" targetId="da26-4319-1b6a-9f32">
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="9e92-be8-1537-37a7" type="selectionEntryGroup" targetId="9e6d-5798-809e-8d02"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="330d-1cd6-e121-45c9" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7776-8064-0bde-2854" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="cbce-2fe1-9298-f944" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="7787-5572-1d0f-fe73" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="77cd-48fb-187b-2e03" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="21e4-1fbd-a314-c06b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="110"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="8f4b-1fa6-3128-8405" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="3fb9-4ad6-b87c-48e6" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.75d6-6995-dfcc-3898"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.50b6-cef0-6119-85df"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.98c9-e4bf-b35d-bdca"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Tomb Banshee" hidden="false" id="8bfb-70bb-a67c-d606" type="selectionEntry" targetId="c35d-289f-9b39-a9aa">
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="852b-8bd6-8410-7e29" type="selectionEntryGroup" targetId="9e6d-5798-809e-8d02"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="32cd-fddd-4fd4-f2a6" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="651b-f245-5cea-cd91" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="9899-46b0-42d2-340a" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="6579-fce3-6878-7e6b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="717f-2cb4-d243-2956" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="dea1-6027-dcbf-2526" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="130"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="8f4b-1fa6-3128-8405" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="3fb9-4ad6-b87c-48e6" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.75d6-6995-dfcc-3898"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.50b6-cef0-6119-85df"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.98c9-e4bf-b35d-bdca"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Black Coach" hidden="false" id="50b6-cef0-6119-85df" type="selectionEntry" targetId="29fe-d90b-4dde-c891">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="1" field="5383-844c-da86-b7bd">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="7648-12f1-95fd-fcd2" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="5672-e1eb-f03c-a494" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="c81c-805a-e4d7-583e" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="1500-8766-b518-a243" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="7b5d-b482-d599-789f" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="670f-bd2f-5c28-4e4a" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="8bfb-70bb-a67c-d606" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="fdd-8e34-a253-8e6c" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="5383-844c-da86-b7bd"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="200"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7520-66b8-e174-5656" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="8cf3-629e-9aaa-123b" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="5af6-83bd-17c3-18ac" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Black Coach (Scourge of Aqshy)" hidden="false" id="43eb-7cb7-c998-10bb" type="selectionEntry" targetId="81d3-2d76-65b3-6081">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="1" field="cae9-16f7-6f87-ce81">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="7648-12f1-95fd-fcd2" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="5672-e1eb-f03c-a494" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="c81c-805a-e4d7-583e" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="1500-8766-b518-a243" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="7b5d-b482-d599-789f" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="670f-bd2f-5c28-4e4a" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="8bfb-70bb-a67c-d606" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="fdd-8e34-a253-8e6c" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="cae9-16f7-6f87-ce81"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="290"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4bdd-fb84-40ba-882d" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="e6b3-3725-a2a0-cf49" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="2b14-a9b8-0da2-0a7c" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bladegheist Revenants" hidden="false" id="dd37-50db-7b5a-83d9" type="selectionEntry" targetId="4b64-f4ae-a675-d024">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="62c3-babe-8bb-19ec" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="6a4c-62fc-55f6-5179" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="d0f4-88e6-8226-ae7e" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="6560-242b-3b9f-951a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="78a9-1bca-9666-c578" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="200"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Chainghasts" hidden="false" id="89e-e44e-1563-a04a" type="selectionEntry" targetId="4550-ab13-9a71-205c">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name="pts" typeId="points" value="90"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3e0f-d7b5-707b-b362" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="e763-3169-e2ec-4bc4" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="b8d8-fc81-d3ed-3345" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="ec56-4e49-35f4-d3b6" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Chainrasps" hidden="false" id="722f-d4b9-273d-dc31" type="selectionEntry" targetId="5ca1-5e5e-cb29-238b">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="60cd-ca4b-2c61-33b0" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="61df-ff1f-7537-5c0f" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="4a89-567d-19f4-e102" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="565c-4fc9-9c17-b5e2" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="bbb7-5538-fa17-93f3" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Craventhrone Guard" hidden="false" id="7bc4-fd43-a3fe-4f5" type="selectionEntry" targetId="88e9-d216-bef6-b4fe">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="36fd-4140-6dea-d08" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="389e-b950-5e63-214e" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="07e7-4e04-0357-fc99" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="5197-8bf6-1464-ad56" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="e91e-e98e-7069-8341" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Dreadblade Harrows" hidden="false" id="c3f5-874e-e747-7454" type="selectionEntry" targetId="8639-e146-50ea-6d7">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="aa15-6eaf-65d7-55b2" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b175-0112-0b16-935f" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="9125-3e3f-c1f0-744c" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="cd3e-b66a-9ec2-15e0" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="fadb-23e6-0558-c757" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="140"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Dreadscythe Harridans" hidden="false" id="782b-e882-501f-5a3a" type="selectionEntry" targetId="1a20-8b80-4ae3-5168">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="7b30-3f4d-9e69-4947" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="652e-a409-3a66-d00c" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="615d-143c-9b10-65fb" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="7dfa-e2e7-a7f6-c9c7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="384d-1ca3-0416-b715" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="190"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Glaivewraith Stalkers" hidden="false" id="4489-e8a7-ddcb-2e42" type="selectionEntry" targetId="43ee-d90-fdd8-e998">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="368a-9945-482a-e386" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="cca7-6c7a-f398-9d22" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="def3-0844-f6c3-1e63" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="15b7-40ae-755b-f7ab" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="3383-6974-f2a3-45f7" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Grimghast Reapers" hidden="false" id="b4c8-f533-7c-68e9" type="selectionEntry" targetId="1cc8-87db-4e0c-223e">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="cc7d-4294-957c-78cc" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4bc5-2f85-39df-f1a8" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="e10f-76c5-6a7b-3e1d" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="552a-30da-ec97-3e82" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="314b-4f6b-1bac-9a2f" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="190"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Hexwraiths" hidden="false" id="134b-dda7-eda7-4b9a" type="selectionEntry" targetId="66a0-f02f-2616-3c62">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="4c35-9b00-c72e-ef2" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c069-aa5e-4a08-3af9" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="9e6d-2cb9-337e-bca0" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="97a7-bbd9-c5e6-2df9" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="bf61-77a2-dbfb-bc4d" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Myrmourn Banshees" hidden="false" id="e01e-ae3-b250-7f09" type="selectionEntry" targetId="ca83-a38b-b1c6-f4e6">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="7aa8-3aeb-8624-62e4" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="f905-65bb-c3a1-74a6" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="be39-cdfb-8f12-a968" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="855f-0ded-57d1-8b5a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="95a6-7bd1-76c5-20ca" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Pyregheists" hidden="false" id="a654-7ec1-2bbb-b470" type="selectionEntry" targetId="5f08-4648-c0e8-e7d9">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name="pts" typeId="points" value="180"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d818-9ba1-a496-9533" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="6750-f434-cc0f-7245" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="d135-9fb0-bd2e-fbd8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="05aa-8fd1-882f-17a0" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Spirit Hosts" hidden="false" id="d32c-74a-7267-5016" type="selectionEntry" targetId="e823-b88c-bee5-17a1">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="85cc-5966-99e-cfce" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3f42-2d05-4bf7-9275" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="b0e9-31a2-2487-704b" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="2563-efb8-b767-1371" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="24e5-67a4-e694-7cb7" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="110"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Spirit Hosts (Scourge of Aqshy)" hidden="false" id="939c-a4f3-5476-e9ef" type="selectionEntry" targetId="e26f-15c6-bae6-6297">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="2e3b-75f5-2ebd-e524" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="896a-6672-3522-7002" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="6e50-a892-efce-f7c7" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="7fbd-7c41-61d1-413c" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="85cd-7a25-26f7-be49" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="100"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Battle Traits: Nighthaunt" hidden="false" id="619f-b41c-341a-dbff" type="selectionEntry" targetId="53c5-1078-24f5-3301">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5890-70f3-7343-413c" includeChildSelections="true"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Thorns of the Briar Queen" hidden="false" id="c828-a9ec-2227-18cc" type="selectionEntry" targetId="378f-c709-a843-3f3e">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name="pts" typeId="points" value="140"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4cf8-271d-542d-f160" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="2eba-1e33-6000-0006" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="The Headsmen&apos;s Curse" hidden="false" id="9fe3-96bb-6ccb-27a2" type="selectionEntry" targetId="a074-2ecb-5d24-8c4e">
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name="pts" typeId="points" value="150"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d173-fc1d-0e6a-2277" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Crimes of the Condemned" hidden="false" id="216b-ca91-b76d-6118" type="selectionEntryGroup" targetId="63b2-0dfa-3fc5-ff91"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Kurdoss Valentian, the Craven King (Scourge of Ghyran)" hidden="false" id="32f6-c36d-e259-ba3b" type="selectionEntry" targetId="4bd5-32fb-6e98-2357">
+      <costs>
+        <cost name="pts" typeId="points" value="170"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="eebf-80f2-4101-9dca" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.e3a4-4581-9f76-4215"/>
+            <modifier type="add" value="8f4b-1fa6-3128-8405" field="category" scope="force" affects="self.entries.recursive.3fb9-4ad6-b87c-48e6"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Black Coach (Scourge of Ghyran)" hidden="false" id="98c9-e4bf-b35d-bdca" type="selectionEntry" targetId="e4c1-f020-bd21-780a">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="1" field="dbb5-365b-685a-c201">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="7648-12f1-95fd-fcd2" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="5672-e1eb-f03c-a494" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="c81c-805a-e4d7-583e" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="1500-8766-b518-a243" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="7b5d-b482-d599-789f" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="670f-bd2f-5c28-4e4a" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="8bfb-70bb-a67c-d606" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="fdd-8e34-a253-8e6c" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="dbb5-365b-685a-c201"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="290"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3849-3c8e-dd99-c8db" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="dab1-ea03-1178-66c0" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Renown" hidden="false" id="4944-635c-2537-aca3" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink import="true" name="Nexus of Grief" hidden="false" id="1475-38bb-e6a9-5fb1" type="selectionEntry" targetId="ca5e-5353-81bc-4e13" defaultAmount="1"/>
+    <entryLink import="true" name="Lord Vitriolic" hidden="false" id="670f-bd2f-5c28-4e4a" type="selectionEntry" targetId="202c-c298-11c5-361e">
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="a416-cc32-d118-1c21" type="selectionEntryGroup" targetId="9e6d-5798-809e-8d02"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="c1d7-67cf-f421-7cd0" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="19c2-36c2-fc32-a758" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="22e5-aeb0-f639-46a4" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="11e6-a4d7-b4ae-f3e5" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="82f6-c8e1-9dd2-7deb" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="0714-5b8b-80e0-6d57" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="120"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="8f4b-1fa6-3128-8405" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="3fb9-4ad6-b87c-48e6" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.75d6-6995-dfcc-3898"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.50b6-cef0-6119-85df"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.98c9-e4bf-b35d-bdca"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Anvil of Apotheosis: Nighthaunt Hero" hidden="false" id="b206-021f-e56e-d9c3" type="selectionEntry" targetId="7f6e-2573-2d85-dc51">
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="2d0d-c81e-ed6c-0b12" type="selectionEntryGroup" targetId="9e6d-5798-809e-8d02"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="311a-c522-53a3-9afb" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="9e43-2443-3ad4-be55" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
+        <entryLink import="true" name="Paths" hidden="false" id="3674-4a8f-0600-05df" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="9253-d202-aa2c-9ae8" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="fa91-5169-1889-9d49" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="b386-9886-0271-576b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+  </entryLinks>
+  <categoryEntries>
+    <categoryEntry name="Cursed Soul" id="3fb9-4ad6-b87c-48e6" hidden="false">
+      <modifiers>
+        <modifier type="set" value="1" field="dd35-1968-f7ec-845e">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="e5fd-27bc-4ac3-4825" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="cb94-2d3c-b866-f621" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="b7c3-7f7-72a2-ee8f" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="78cd-3409-a94f-93f9" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="32f6-c36d-e259-ba3b" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="dc09-dae9-d3da-130e" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="5b02-b841-9c31-b69c" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="df02-2a23-a841-4ce3" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="force" shared="true" id="dd35-1968-f7ec-845e" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Battle Formation" hidden="false" id="f74e-3db3-975c-e98" defaultAmount="1">
+      <entryLinks>
+        <entryLink import="true" name="Battle Formations: Nighthaunt" hidden="false" id="f886-e45-b888-7940" type="selectionEntryGroup" targetId="5114-443c-4c98-b35c" collective="false" flatten="true"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8893-6338-5e89-f815" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Army Composition" hidden="false" id="39f3-b360-5824-11a4" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Spell Lore" hidden="true" id="ad79-2f3c-9663-3244" defaultAmount="1">
+      <categoryLinks>
+        <categoryLink name="Army Composition" hidden="false" id="4311-a3cf-1fad-e858" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6e70-6c34-dc17-7282"/>
+        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="feb9-71ba-b1ed-24ef"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Spell Lores" hidden="false" id="62d8-72ee-f02a-27d" type="selectionEntryGroup" targetId="2d44-c570-16a4-b2b5" flatten="true" collective="false"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="de92-2099-fbf7-a156" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Manifestation Lore" hidden="true" id="9ca4-8ba8-e070-e6b3" defaultAmount="1">
+      <entryLinks>
+        <entryLink import="true" name="Manifestation Lores" hidden="false" id="1ab0-f096-5378-e0c8" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
+        <entryLink import="true" name="Manifestation Lores" hidden="false" id="81f9-ea4a-1d4c-778b" type="selectionEntryGroup" targetId="6303-4a93-5d37-591e" flatten="true"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c021-5709-a45e-8907"/>
+        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5b8f-0535-ab72-3dab"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Army Composition" hidden="false" id="29d3-60fc-cfff-6418" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="de92-2099-fbf7-a156" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>

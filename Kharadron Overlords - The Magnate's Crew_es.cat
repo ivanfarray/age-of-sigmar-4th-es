@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="e441-1f62-6bdb-7dc1" name="Kharadron Overlords - The Magnate&apos;s Crew" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="40" revision="20" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Battle Traits: The Magnate&apos;s Crew" hidden="false" id="ddc9-e3b4-cc55-9fe8" publicationId="d4a9-b568-9525-d6ac">
+      <profiles>
+        <profile name="Cutting-Edge Endrinpacks" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d2ae-b802-3bf8-6189">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de movimiento</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta 2 unidades amigas **^^Magnate&apos;s Crew Infantry^^** que estén totalmente a 9" o menos de un **^^Magnate&apos;s Crew Skyvessel^^** amigo.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, cada objetivo puede usar habilidades de **^^Charge^^** aunque haya usado una habilidad de **^^Run^^** en el mismo turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Grey</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+        <profile name="Loyalty to the Magnate" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="eb2a-b8a4-74ab-799e">
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras un **Brokk Grungsson** amigo esté totalmente dentro del alcance de combate de otra unidad amiga **^^Magnate&apos;s Crew Infantry^^**, ambas unidades tienen **^^Ward (5+)^^**</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+        </profile>
+        <profile name="Constant Barrage" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="27c5-f388-efb7-2464">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga a la que se le hayan asignado puntos de daño esta fase por los ataques de una unidad amiga **^^Magnate&apos;s Crew^^**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Hasta el inicio de tu siguiente turno, cada vez que el objetivo termine un movimiento a 10" o menos de cualquier unidad amiga **^^Magnate&apos;s Crew^^**, tira un D3. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Blue</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Shooting</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+        <profile name="Bold Moves" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f03b-cbc0-151b-7202">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), tu fase de movimiento</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos cualquier número de unidades amigas **^^Magnate&apos;s Crew Infantry^^** que estén en combate. Haz una **tirada de lanzamiento de emergencia** de 3D6 por cada objetivo.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada objetivo puede moverse una distancia de hasta el valor de su **tirada de lanzamiento de emergencia**. **Puede** moverse a través de los alcances de combate de cualquier unidad enemiga, pero **no puede** terminar ese movimiento en combate con una unidad enemiga con la que no estuviera en combate al inicio de la fase.
+El objetivo (o los objetivos) no puede(n) usar habilidades de **^^Charge^^** durante el resto del turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Code^^**</characteristic>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Grey</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+        <profile name="Invictunite-lined Hull" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="96f6-bd08-00d0-783d">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de héroe enemiga</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Magnate&apos;s Crew Skyvessel^^** amigo.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Durante el resto del turno, resta **X** a la característica de Rend de las armas usadas para los ataques que tengan como objetivo ese **^^Skyvessel^^**, donde **X** es igual al resultado.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Defensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+        <profile name="Pay Your Debts" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="3af9-e699-bea8-7591">
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad enemiga en el campo de batalla o en reserva para que quede **endeudada**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 1 a las tiradas de herida de los ataques de combate hechos por unidades amigas **^^Magnate&apos;s Crew^^** que tengan como objetivo la unidad **endeudada**.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Black</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Reference" hidden="false" id="75ae-c0bd-7af5-e076" targetId="3360-1158-e879-9606" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Artefacts of Power" id="7b7e-7e6b-ba1d-f5bf" hidden="false">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Artefacts of Power: The Magnate&apos;s Crew" id="b6d5-680e-6d15-00fe" hidden="false" publicationId="d4a9-b568-9525-d6ac">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Aerodynamism" hidden="false" id="3eae-e50a-a65b-9118">
+              <profiles>
+                <profile name="Aerodynamism" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e706-7e05-8a94-12d4">
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si la unidad se ha movido este turno, resta 1 a las tiradas de impacto de los ataques que tengan como objetivo esta unidad durante el resto del turno.</characteristic>
+                  </characteristics>
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1959-136f-e5e4-882f" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Guns for All Occasions" hidden="false" id="327f-47c1-93e2-af53">
+              <profiles>
+                <profile name="Guns for All Occasions" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="95e4-a0e8-1462-01f5">
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de tu turno</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflige D3 de daño mortal al objetivo.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="eaf8-7088-6575-c096" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <rules>
+            <rule name="Enhancement Restrictions" id="548a-9a51-151c-15f5" hidden="true">
+              <description>solo **^^Hero^^**</description>
+            </rule>
+          </rules>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="b241-928b-f253-bb9e" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="e446-c9af-e603-1f88" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="-1" field="1988-b857-1ee8-3c88">
+          <conditions>
+            <condition type="atLeast" value="1" field="e63c-79ff-93ba-c5eb" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1988-b857-1ee8-3c88" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="7256-35a0-9442-7a75"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Battle Wounds + Scars" id="53af-b652-4f93-d0a3" hidden="true" collapsible="true">
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="atLeast" value="1" field="e63c-79ff-93ba-c5eb" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="1bed-ddb5-0c50-16d2" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Ravaged Coast Battle Scars" hidden="false" id="4e43-e42d-a591-12ec" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
+        <entryLink import="true" name="Blighted Wilds Battle Scars" hidden="false" id="a13b-956d-44c3-047b" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
+      </entryLinks>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Battle Wounds" hidden="false" id="9556-3eb8-66c4-c8ab"/>
+        <selectionEntry type="upgrade" import="true" name="Drained" hidden="true" id="d9fc-4412-e3f8-a0fe">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94a8-7f92-e35f-63bf"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="6e72-1656-d554-528a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Heroic Traits" id="5dbb-1839-404f-4656" hidden="false">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Heroic Traits: The Magnate&apos;s Crew" id="ff10-6bf7-ffea-8134" hidden="false" publicationId="d4a9-b568-9525-d6ac">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Master of Discipline" hidden="false" id="615d-7576-c09a-18d0">
+              <profiles>
+                <profile name="Master of Discipline" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="dbca-2c7e-5e6d-2cee">
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad amiga **^^Magnate&apos;s Crew Infantry^^** totalmente a 12" o menos de esta unidad use la orden &apos;Redeploy&apos;, puedes volver a tirar el dado.</characteristic>
+                  </characteristics>
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Movement</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fb21-4f53-891e-86d6" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Flanking Fire" hidden="false" id="54ce-3e58-4b4a-5719">
+              <profiles>
+                <profile name="Flanking Fire" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="25cd-f527-5569-8392">
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de impacto de los ataques de disparo hechos por **^^Magnate&apos;s Crew Skyvessels^^** amigos que tengan como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
+                  </characteristics>
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Blue</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Shooting</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="436a-f824-c6e3-6032" includeChildSelections="true"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <rules>
+            <rule name="Enhancement Restrictions" id="81c2-61e5-8809-abd5" hidden="true">
+              <description>solo **^^Hero^^**</description>
+            </rule>
+          </rules>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="2c44-28b6-39a1-2409" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="fe73-801b-d887-3aac" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="-1" field="9781-de62-a7b8-7671">
+          <conditions>
+            <condition type="atLeast" value="1" field="e63c-79ff-93ba-c5eb" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9781-de62-a7b8-7671" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="40bf-7dd5-1ee0-d2dd"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Paths" id="fd4f-ac20-87e7-f06d" hidden="true">
+      <entryLinks>
+        <entryLink import="true" name="Ravaged Coast Paths" hidden="false" id="8cb9-098b-b4c4-3c4d" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
+        <entryLink import="true" name="Ascension Paths" hidden="false" id="4a6b-5313-453c-2aad" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
+        <entryLink import="true" name="Paths" hidden="false" id="86b3-59dd-162a-5ced" type="selectionEntryGroup" targetId="f408-56e7-0c90-4c66" flatten="true"/>
+        <entryLink import="true" name="Blighted Wilds Paths" hidden="false" id="052a-7adb-58b1-68fb" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="e63c-79ff-93ba-c5eb" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a82-ff3f-ff91-3e75"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="✦ Path to Glory - Ascension" id="d7c4-fc95-68ed-753d" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Path to Glory - Ravaged Coast" id="17cb-a6bf-0b29-9a05" importRootEntries="true" targetId="a434-b1ba-922b-7624"/>
+    <catalogueLink type="catalogue" name="❖ Lores" id="a397-876f-f560-6090" importRootEntries="true" targetId="0a11-cd61-2a4e-8e04"/>
+    <catalogueLink type="catalogue" name="Kharadron Overlords - Library" id="b280-af49-e6ba-83e8" targetId="7e5e-7934-c23b-c35e"/>
+    <catalogueLink type="catalogue" name="✦ Path to Glory - Blighted Wilds" id="481b-531a-a18e-7144" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Brokk Grungsson, Lord-Magnate of Barak-Nar" hidden="false" id="d621-baec-9f08-716b" type="selectionEntry" targetId="e071-391c-e920-ac59">
+      <costs>
+        <cost name="pts" typeId="points" value="260"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="e7e8-0dbe-4e5f-e0f8" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.9c8d-276-b7d2-f1fd"/>
+            <modifier type="add" value="8f4b-1fa6-3128-8405" field="category" scope="force" affects="self.entries.recursive.550a-93a2-57df-3436"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="16ef-cbd5-e23b-5841" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Endrinmaster with Dirigible Suit" hidden="false" id="b0ca-f650-7020-858d" type="selectionEntry" targetId="a505-e76e-45f8-7874">
+      <entryLinks>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="6ad2-1da3-830b-8ed2" type="selectionEntryGroup" targetId="5dbb-1839-404f-4656"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="813d-54a9-4aad-6198" type="selectionEntryGroup" targetId="7b7e-7e6b-ba1d-f5bf"/>
+        <entryLink import="true" name="Paths" hidden="false" id="1f20-22f7-31f1-804b" type="selectionEntryGroup" targetId="fd4f-ac20-87e7-f06d"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="af71-82c7-d236-b492" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="d8a1-51e4-526e-2ac8" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="28db-e7c3-829f-0303" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="eb1e-1246-0941-718d" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="140"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="8f4b-1fa6-3128-8405" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="550a-93a2-57df-3436" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.75d6-6995-dfcc-3898"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.594-e51e-83f-4187"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="8ffe-0032-659e-eefc" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Null-Khemist" hidden="false" id="4565-93d5-1808-6c9f" type="selectionEntry" targetId="c2f9-9e81-959a-2251">
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="4c4c-268f-6c8c-9b29" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="d31c-96ce-5f0c-fb5e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Paths" hidden="false" id="672e-ca43-5e6b-ef4a" type="selectionEntryGroup" targetId="fd4f-ac20-87e7-f06d"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="87eb-4c4b-6ea7-adcd" type="selectionEntryGroup" targetId="7b7e-7e6b-ba1d-f5bf"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="5d32-a2ff-f8b3-3830" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="9fb9-0d8c-49c9-0c6f" type="selectionEntryGroup" targetId="5dbb-1839-404f-4656"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="4831-c35c-c594-d04a" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="120"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="8f4b-1fa6-3128-8405" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.594-e51e-83f-4187"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.75d6-6995-dfcc-3898"/>
+            <modifier type="add" value="8f4b-1fa6-3128-8405" field="category" scope="force" affects="self.entries.recursive.550a-93a2-57df-3436"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="550a-93a2-57df-3436" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="8d65-fa39-adf8-77a7" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Arkanaut Ironclad" hidden="false" id="0680-a532-0b30-2a0b" type="selectionEntry" targetId="2b23-328b-3916-4947">
+      <entryLinks>
+        <entryLink import="true" name="Renown" hidden="false" id="c573-ab2d-f9d5-3257" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Paths" hidden="false" id="4f8a-d51d-efbd-959e" type="selectionEntryGroup" targetId="fd4f-ac20-87e7-f06d"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b152-58b6-aae2-c80c" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+        <entryLink import="true" name="General" hidden="false" id="612b-7561-97df-6eac" type="selectionEntry" targetId="a56b-952e-ad15-7868" defaultAmount="0">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b416-d126-e4d4-7a55-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b416-d126-e4d4-7a55-max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="56f4-9c0c-7add-88d0" type="selectionEntryGroup" targetId="7b7e-7e6b-ba1d-f5bf"/>
+        <entryLink import="true" name="Warlord" hidden="false" id="0185-1de7-1819-947c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="589b-eb3c-9e18-259e" type="selectionEntryGroup" targetId="5dbb-1839-404f-4656"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="d621-baec-9f08-716b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name="pts" typeId="points" value="450"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="f563-5d25-61a4-d2c2" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+        <categoryLink name="HERO" hidden="false" id="f237-a053-8e2f-edaa" targetId="6e72-1656-d554-528a" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3d89-6e9a-2229-0bc9" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.f6a3-f0dc-a863-aba3"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
+    <entryLink import="true" name="Arkanaut Frigate" hidden="false" id="53a1-2ef2-1f65-754c" type="selectionEntry" targetId="fb94-3fa7-35ae-7a3c">
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="6509-057b-1e55-5f92" includeChildSelections="true"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="300"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Paths" hidden="false" id="a259-85da-ad48-4307" type="selectionEntryGroup" targetId="fd4f-ac20-87e7-f06d"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="6d54-057b-3a98-bfcd" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+        <entryLink import="true" name="Renown" hidden="false" id="0148-68e9-b64d-dc83" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+      </entryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="Regiment has too many selections of SKYVESSEL (max 1)" field="error">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="594-e51e-83f-4187" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="6509-057b-1e55-5f92"/>
+            <modifier type="set" value="0" field="6509-057b-1e55-5f92">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="594-e51e-83f-4187" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="fb94-3fa7-35ae-7a3c" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </modifier>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="201-4924-5e0a-4515" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="f560-4986-ccff-c086" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="4409-20da-fa37-a3e0" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="29c5-5f6d-9c4e-6026" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="b0ca-f650-7020-858d" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="1e09-20c6-e001-f984" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="1f2b-4916-646e-a0c7" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="73ab-6174-4f19-fb2f" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Grundstok Gunhauler" hidden="false" id="609c-5181-fa71-22ad" type="selectionEntry" targetId="66fa-6ab8-35c3-beef">
+      <entryLinks>
+        <entryLink import="true" name="Renown" hidden="false" id="4c03-440a-0e32-1e3d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Paths" hidden="false" id="5ecb-a5cd-adb3-8d1e" type="selectionEntryGroup" targetId="fd4f-ac20-87e7-f06d"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="0978-8879-beac-8efc" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="5cef-8716-1bdd-8565" includeChildSelections="true"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="140"/>
+      </costs>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="Regiment has too many selections of SKYVESSEL (max 1)" field="error">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="594-e51e-83f-4187" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="5cef-8716-1bdd-8565"/>
+            <modifier type="set" value="0" field="5cef-8716-1bdd-8565">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="594-e51e-83f-4187" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="66fa-6ab8-35c3-beef" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </modifier>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="201-4924-5e0a-4515" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="f560-4986-ccff-c086" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="4409-20da-fa37-a3e0" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="29c5-5f6d-9c4e-6026" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="b0ca-f650-7020-858d" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="1e09-20c6-e001-f984" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="1f2b-4916-646e-a0c7" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="41b6-5d49-1f9a-cf37" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Grundstok Gunhauler (Scourge of Ghyran)" hidden="false" id="07b8-9868-bc9c-8f84" type="selectionEntry" targetId="7794-c2d1-ee85-acc3">
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="b735-cc01-fd5d-c26c" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renown" hidden="false" id="2e50-7c91-dc8b-0d4d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Paths" hidden="false" id="164a-0083-d51a-dd81" type="selectionEntryGroup" targetId="fd4f-ac20-87e7-f06d"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="0618-1271-5e49-cf62" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="596d-6d28-9141-6ddd" includeChildSelections="true"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="170"/>
+      </costs>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="Regiment has too many selections of SKYVESSEL (max 1)" field="error">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="594-e51e-83f-4187" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="596d-6d28-9141-6ddd"/>
+            <modifier type="set" value="0" field="596d-6d28-9141-6ddd">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="594-e51e-83f-4187" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="7794-c2d1-ee85-acc3" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </modifier>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="201-4924-5e0a-4515" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="f560-4986-ccff-c086" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="4409-20da-fa37-a3e0" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="29c5-5f6d-9c4e-6026" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="b0ca-f650-7020-858d" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="1e09-20c6-e001-f984" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="1f2b-4916-646e-a0c7" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="535d-a31c-4b3e-0a89" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vongrim Salvagers" hidden="false" id="0960-a0f4-8517-eda4" type="selectionEntry" targetId="54b0-7eb3-f2dc-f7b9">
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="cec5-e20b-ce45-ec94" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renown" hidden="false" id="9b57-edde-f744-c22c" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Paths" hidden="false" id="9e67-297d-061b-617a" type="selectionEntryGroup" targetId="fd4f-ac20-87e7-f06d"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="2193-5679-c665-6355" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="110"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="384f-7337-a1d5-e2b0" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Vongrim Harpoon Crew" hidden="false" id="58fe-b95d-867e-3c9b" type="selectionEntry" targetId="b38b-f2bc-47a8-658e">
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="ee9a-030e-3107-792f" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renown" hidden="false" id="2837-fd48-0ca0-3158" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Paths" hidden="false" id="455e-e927-f7af-77af" type="selectionEntryGroup" targetId="fd4f-ac20-87e7-f06d"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="527c-cae9-0115-3aaf" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="120"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="dca0-54d0-6086-fa28" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Skywardens" hidden="false" id="8ae8-3582-927c-3145" type="selectionEntry" targetId="bc2-ce5c-7ccc-4145">
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="a427-f50d-ba5a-6b7a" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renown" hidden="false" id="abe7-ddd8-98b8-5219" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Paths" hidden="false" id="5732-a1f2-f650-9a3a" type="selectionEntryGroup" targetId="fd4f-ac20-87e7-f06d"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1ec4-e511-e0fd-aaae" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name="pts" typeId="points" value="130"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="9baf-6a0b-1b53-07fd" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Endrinriggers" hidden="false" id="2a2e-7916-9325-f52f" type="selectionEntry" targetId="4c3c-1a00-2c49-87ce">
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="7c43-9c4c-4096-cb17" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renown" hidden="false" id="439a-5582-ab5a-4875" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Paths" hidden="false" id="b11b-2908-6a14-1255" type="selectionEntryGroup" targetId="fd4f-ac20-87e7-f06d"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="10a7-1518-72d1-fab9" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name="pts" typeId="points" value="100"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="c6b5-a4f3-1b85-7288" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Battle Traits: The Magnate&apos;s Crew" hidden="false" id="5897-7dcd-3d30-1807" type="selectionEntry" targetId="ddc9-e3b4-cc55-9fe8">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="faaf-8be3-cb88-c5d2" includeChildSelections="true"/>
+      </constraints>
+    </entryLink>
+    <entryLink import="true" name="Arkanaut Ironclad" hidden="false" id="e0c0-6b29-fd7c-9e8c" type="selectionEntry" targetId="2b23-328b-3916-4947">
+      <entryLinks>
+        <entryLink import="true" name="Renown" hidden="false" id="fcfc-b12e-74c7-7e52" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Paths" hidden="false" id="77e0-3a8e-b8dc-a1e0" type="selectionEntryGroup" targetId="fd4f-ac20-87e7-f06d"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="2112-f2a8-deff-e5dc" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true" childName="Regimental Option"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="abe7-20d2-b9bb-791a" includeChildSelections="true"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="450"/>
+      </costs>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="Regiment has too many selections of SKYVESSEL (max 1)" field="error">
+              <conditions>
+                <condition type="atLeast" value="2" field="selections" scope="force" childId="594-e51e-83f-4187" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="abe7-20d2-b9bb-791a"/>
+            <modifier type="set" value="0" field="abe7-20d2-b9bb-791a">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="594-e51e-83f-4187" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="2b23-328b-3916-4947" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </modifier>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="201-4924-5e0a-4515" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="f560-4986-ccff-c086" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="4409-20da-fa37-a3e0" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="29c5-5f6d-9c4e-6026" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="b0ca-f650-7020-858d" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="1e09-20c6-e001-f984" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="1f2b-4916-646e-a0c7" shared="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.9c8d-276-b7d2-f1fd"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="86e8-e073-c64a-70d5" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Null-Khemist (Scourge of Aqshy)" hidden="false" id="034d-95de-ec3d-08e2" type="selectionEntry" targetId="6767-12c0-9a93-79c1">
+      <entryLinks>
+        <entryLink import="true" name="Warlord" hidden="false" id="1860-a0c7-15a0-94f9" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Renown" hidden="false" id="fad6-15fe-e93a-1ee9" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Paths" hidden="false" id="f2bc-4164-e539-277a" type="selectionEntryGroup" targetId="fd4f-ac20-87e7-f06d"/>
+        <entryLink import="true" name="Artefacts of Power" hidden="false" id="2088-6e6f-c79e-b219" type="selectionEntryGroup" targetId="7b7e-7e6b-ba1d-f5bf"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="42e7-7017-8cfc-714c" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+        <entryLink import="true" name="Heroic Traits" hidden="false" id="21a3-c796-7e4f-ce2d" type="selectionEntryGroup" targetId="5dbb-1839-404f-4656"/>
+        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="89f5-a3e4-af5f-e25a" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="200"/>
+      </costs>
+      <modifiers>
+        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="8f4b-1fa6-3128-8405" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.594-e51e-83f-4187"/>
+            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.75d6-6995-dfcc-3898"/>
+            <modifier type="add" value="8f4b-1fa6-3128-8405" field="category" scope="force" affects="self.entries.recursive.550a-93a2-57df-3436"/>
+          </modifiers>
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+          </conditions>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="add" value="550a-93a2-57df-3436" field="category"/>
+          </modifiers>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="6f17-972d-c0f0-1788" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Endrinriggers (Scourge of Aqshy)" hidden="false" id="75a8-5e16-7455-05e8" type="selectionEntry" targetId="ee63-f534-d8c0-b0ca">
+      <entryLinks>
+        <entryLink import="true" name="Reinforced" hidden="false" id="8768-6146-4628-d970" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renown" hidden="false" id="9aff-d7ee-6c32-a615" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Paths" hidden="false" id="b8b8-e8a9-3298-6544" type="selectionEntryGroup" targetId="fd4f-ac20-87e7-f06d"/>
+        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="f8ee-57fd-d4e6-9b5c" type="selectionEntryGroup" targetId="53af-b652-4f93-d0a3"/>
+      </entryLinks>
+      <modifiers>
+        <modifier type="multiply" value="2" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <costs>
+        <cost name="pts" typeId="points" value="140"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="MAGNATE&apos;S CREW" hidden="false" id="b9bf-1720-f691-b842" targetId="f6a3-f0dc-a863-aba3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <selectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Manifestation Lore" hidden="true" id="571a-d2fe-493f-2f4b" defaultAmount="1">
+      <entryLinks>
+        <entryLink import="true" name="Manifestation Lores" hidden="false" id="bfae-3df1-8eda-b137" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4fd3-adb2-4523-799b"/>
+        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="da7d-0faa-af5e-d027"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Army Composition" hidden="false" id="493b-886c-988c-556b" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="de92-2099-fbf7-a156" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+  </selectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Guild Officer" id="550a-93a2-57df-3436" hidden="false">
+      <modifiers>
+        <modifier type="set" value="1" field="6d42-5066-bc7f-d968">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d621-baec-9f08-716b" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="4565-93d5-1808-6c9f" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="force" shared="true" id="6d42-5066-bc7f-d968" includeChildSelections="true"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry name="MAGNATE&apos;S CREW" id="f6a3-f0dc-a863-aba3" hidden="false"/>
+  </categoryEntries>
+</catalogue>

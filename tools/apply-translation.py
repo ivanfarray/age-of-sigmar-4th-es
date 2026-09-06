@@ -25,12 +25,12 @@ def main(argv):
         return 1
 
     mapping = bscat.load_translations(bscat.json_path(source))
-    if not mapping:
+    xml = bscat.read_source(source)
+    counts, _ = bscat.translatable(xml)
+    if not mapping and counts:
         print('No hay traducciones en %s. Ejecuta primero extract-text.py y '
               'rellena el JSON.' % bscat.json_path(source))
         return 1
-
-    xml = bscat.read_source(source)
     eol = bscat.eol_of(xml)
     used = set()
 
@@ -49,7 +49,6 @@ def main(argv):
     target_path = bscat.output_path(source)
     open(target_path, 'w', encoding='utf-8', newline='').write(out)
 
-    counts, _ = bscat.translatable(xml)
     unused = sorted(set(mapping) - used)
     total = len(counts)
     print('%s -> %s' % (source, target_path))
