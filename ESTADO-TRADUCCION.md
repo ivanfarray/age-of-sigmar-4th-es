@@ -1,44 +1,32 @@
 # Estado de la traducción — 7 de septiembre de 2026
 
-Repositorio: `C:\dev\age-of-sigmar-4th-es`.
-
 **La traducción completa del repositorio sigue pendiente.**
 
 ## Trabajo guardado
 
-- Revisadas las instrucciones de `TRADUCIR.md`, el glosario, las herramientas y las traducciones existentes. Se mantiene la edición de JSON y la generación de XML sin alterar atributos ni identificadores.
-- Añadidas 1.903 traducciones a entradas anteriormente vacías. Incluye reutilización de traducciones existentes, adaptación de fórmulas repetidas revisadas y traducción manual de reglas.
-- Completada la prosa pendiente de las bibliotecas de **Blades of Khorne, Kharadron Overlords, Sylvaneth y Nighthaunt**. Sus entradas vacías restantes son palabras clave, nombres de habilidades de arma y datos de peanas que se conservan en inglés.
-- Recuperado `translations/Age of Sigmar 4.0.es.json` desde el `.gst` español existente: 124 cadenas. No se ha retraducido ese contenido.
-- Generadas y verificadas 133 parejas `.cat`/`.gst`. Se ha comprobado la estructura XML, todos los atributos y que cada texto generado corresponda a su JSON.
-- Los originales ingleses permanecen intactos. No se ha hecho commit ni publicación.
+- Se mantiene el método de `TRADUCIR.md`: traducción de valores JSON y generación de XML sin modificar atributos, identificadores ni originales ingleses.
+- El commit anterior `1fca7f4` añadió 1.903 traducciones y completó la prosa de Blades of Khorne, Kharadron Overlords, Sylvaneth y Nighthaunt. También recuperó 124 cadenas del JSON de reglas generales desde su versión española existente.
+- Este bloque añade otras **2.619 traducciones** a entradas anteriormente vacías, con traducción manual y reutilización de textos revisados coincidentes.
+- Completada la prosa pendiente de **Daughters of Khaine, Disciples of Tzeentch, Flesh-eater Courts, Gloomspite Gitz, Hedonites of Slaanesh, Lumineth Realm-lords, Maggotkin of Nurgle, Ossiarch Bonereapers, Skaven y Slaves to Darkness**, además de **Lores, Path to Glory - Blighted Wilds y Path to Glory - Ravaged Coast**.
+- Las entradas vacías de esos archivos son palabras clave, habilidades de arma, medidas de peanas, dados y nombres de ingredientes con cantidades que se conservan en inglés.
+- También se han reutilizado traducciones coincidentes en los cuatro archivos que siguen pendientes.
+- Verificadas las 133 parejas `.cat`/`.gst`: estructura XML y atributos conservados. Los catálogos modificados se han comprobado además contra sus JSON al generarlos.
+- Revisadas las cifras de las 2.619 traducciones nuevas. La única diferencia es la eliminación de una frase duplicada sobre el valor 6 en Disciples of Tzeentch; se conserva su regla. No se detectaron caracteres de sustitución ni signos de interrogación incrustados en palabras.
+- Trabajo guardado localmente, sin publicación ni push.
 
 ## Pendiente
 
-El siguiente recuento incluye exclusivamente entradas vacías de más de 90 caracteres: **no es un porcentaje de cobertura** y puede excluir etiquetas cortas todavía pendientes. Quedan 2.725 entradas largas en 17 archivos.
+El siguiente recuento incluye exclusivamente entradas vacías de más de 90 caracteres: **no es un porcentaje de cobertura** y puede excluir etiquetas cortas todavía pendientes. Quedan **690 entradas largas en 4 archivos**.
 
 | Archivo | Entradas largas pendientes |
 | --- | ---: |
-| Cities of Sigmar - Library.cat | 198 |
-| Daughters of Khaine - Library.cat | 94 |
-| Disciples of Tzeentch - Library.cat | 105 |
-| Flesh-eater Courts - Library.cat | 111 |
-| Gloomspite Gitz - Library.cat | 113 |
-| Hedonites of Slaanesh - Library.cat | 114 |
-| Lores.cat | 665 |
-| Lumineth Realm-lords - Library.cat | 113 |
-| Maggotkin of Nurgle - Library.cat | 116 |
-| Ossiarch Bonereapers - Library.cat | 96 |
-| Path to Glory - Blighted Wilds.cat | 126 |
-| Path to Glory - Ravaged Coast.cat | 102 |
-| Regiments of Renown.cat | 211 |
-| Skaven - Library.cat | 133 |
-| Slaves to Darkness - Library.cat | 129 |
-| Soulblight Gravelords - Library.cat | 132 |
-| Stormcast Eternals - Library.cat | 167 |
+| Cities of Sigmar - Library.cat | 193 |
+| Regiments of Renown.cat | 205 |
+| Soulblight Gravelords - Library.cat | 128 |
+| Stormcast Eternals - Library.cat | 164 |
 
 ## Continuación
 
-Mantener el glosario y las reglas de `TRADUCIR.md`: conservar nombres, palabras clave, habilidades citadas y características en inglés; traducir la prosa. Rellenar las entradas vacías de los JSON y regenerar el catálogo correspondiente con `tools/apply-translation.py`. Ejecutar `tools/verify-translation.py` tras los cambios.
+Completar los cuatro archivos pendientes siguiendo el glosario y las reglas de `TRADUCIR.md`: conservar nombres, palabras clave, habilidades citadas y características en inglés; traducir la prosa. Rellenar los valores vacíos de los JSON, regenerar con `tools/apply-translation.py` y ejecutar `tools/verify-translation.py`.
 
-La verificación técnica no certifica la completitud lingüística. Los catálogos de los 17 archivos pendientes contienen todavía texto inglés. Se ha solicitado preferencia entre continuar manualmente por facción o utilizar traducción automática externa con revisión posterior; no se han enviado las reglas a un traductor externo.
+La verificación técnica no certifica la completitud lingüística. Estos cuatro catálogos contienen todavía prosa inglesa. No se han enviado las reglas a un traductor externo.

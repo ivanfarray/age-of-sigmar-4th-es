@@ -33,7 +33,7 @@
                     <profile name="Forest Strider" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f5c8-336a-9b19-06a2">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit can pass across terrain features as if it had **^^Fly^^**.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede atravesar elementos de escenografía como si tuviera **^^Fly^^**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -82,8 +82,8 @@
                     <profile name="Skilled Healer" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="537a-1436-8da8-2247">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick either another visible friendly unit wholly within 12&quot; of this unit or a visible friendly faction terrain feature wholly within 12&quot; of this unit to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">**Heal (D3)** the target.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo otra unidad amiga visible totalmente a 12" o menos de esta unidad o un elemento de escenografía de facción amigo visible totalmente a 12" o menos de esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Aplica **Heal (D3)** al objetivo.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -103,7 +103,7 @@
                     <profile name="Deepwood Shadows" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f2cc-f023-a375-87bf">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Friendly units are not visible to enemy units that are more than 12&quot; from them while those friendly units are wholly within this unit&apos;s combat range.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades amigas no son visibles para las unidades enemigas a más de 12" de ellas mientras esas unidades amigas estén totalmente dentro del alcance de combate de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -148,7 +148,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit is wholly within 3&quot; of a terrain feature, remove it from the battlefield and set it up again wholly within friendly territory and more than 9&quot; from all enemy units.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está totalmente a 3" o menos de un elemento de escenografía, retírala del campo de batalla y vuelve a colocarla totalmente dentro del territorio amigo y a más de 9" de todas las unidades enemigas.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -215,11 +215,11 @@
                     <profile name="Nexus of Regeneration" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="301e-a2f6-e9b2-cbfb">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, final de cualquier turno</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick each friendly unit wholly within 12&quot; of this unit to be the targets.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick 1 of the following effects for each target:
-• Return 1 slain model to the target unit.
-• If the target is not a **^^Monster^^**. **Heal (D6)** the target.
-• If the target is a **^^Monster^^**, **Heal (2D6)** the target.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos todas las unidades amigas totalmente a 12" o menos de esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de los siguientes efectos por cada objetivo:
+• Devuelve 1 miniatura abatida a la unidad objetivo.
+• Si el objetivo no es un **^^Monster^^**, aplica **Heal (D6)** al objetivo.
+• Si el objetivo es un **^^Monster^^**, aplica **Heal (2D6)** al objetivo.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -240,7 +240,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de movimiento</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Esta unidad solo puede usar esta habilidad si ha sido destruida.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. If the roll is equal to or less than the current battle round number, set up a replacement unit wholly within 3&quot; of a terrain feature and more than 9&quot; from all enemy units.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si el resultado es igual o menor que el número de la ronda de batalla actual, coloca una unidad de reemplazo totalmente a 3" o menos de un elemento de escenografía y a más de 9" de todas las unidades enemigas.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -301,7 +301,7 @@
                     <profile name="Seize New Offerings" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="11c1-5ccf-5b64-87d4">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to hit rolls for this unit&apos;s attacks that target an enemy unit that has no other enemy units within its combat range.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de impacto de los ataques de esta unidad que tengan como objetivo una unidad enemiga sin otras unidades enemigas dentro de su alcance de combate.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -319,7 +319,7 @@
                     <profile name="Willing Sacrifice" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f4c5-4367-4295-d54d">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to wound rolls for this unit&apos;s combat attacks while there are no other friendly units within its combat range.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de herida de los ataques de combate de esta unidad mientras no haya otras unidades amigas dentro de su alcance de combate.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -363,7 +363,7 @@
                     <profile name="Prepare the Gift" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="bff4-57e0-a3b4-949e">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to the Rend characteristic of this unit&apos;s melee weapons used for attacks that target an enemy unit that is not damaged.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Rend de las armas de combate de esta unidad usadas para ataques que tengan como objetivo una unidad enemiga que no esté dañada.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -382,7 +382,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit did not charge this turn, it can move 3&quot;. It can move into combat.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no ha cargado este turno, puede moverse 3". Puede entrar en combate.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -429,7 +429,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If an enemy unit was destroyed this turn by this unit&apos;s combat attacks, **Heal (5)** this unit. If that enemy unit was a **^^Hero^^**, **Heal (X)** this unit, where **X** is the number of damage points allocated to this unit.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si los ataques de combate de esta unidad han destruido una unidad enemiga este turno, aplica **Heal (5)** a esta unidad. Si esa unidad enemiga era un **^^Hero^^**, aplica **Heal (X)** a esta unidad, donde **X** es el número de puntos de daño asignados a esta unidad.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -449,8 +449,8 @@
                     <profile name="Marked for the Altar" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="3a50-d4e4-06c1-c8fe">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an enemy unit in combat with this unit to be the target. Then pick 1 of this unit&apos;s melee weapons to be the **Sacrificial Weapon**.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the turn, add the target&apos;s Control characteristic, to a maximum of 5, to the Attacks characteristic of the **Sacrificial Weapon**, but all of its combat attacks must target that enemy unit.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad. Después, elige 1 de las armas de combate de esta unidad como **Sacrificial Weapon**.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma la característica de Control del objetivo, hasta un máximo de 5, a la característica de Attacks del **Sacrificial Weapon**, pero todos sus ataques de combate deben tener como objetivo esa unidad enemiga.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -496,10 +496,10 @@
                     <profile name="Lord of Blood and Briar" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5b06-1a25-5065-d4ee">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While an enemy unit is in combat with this unit:
-• That enemy unit has a maximum control score of 1.
-• Subtract 1 from that enemy unit&apos;s power level, to a minimum of 0.
-• That enemy unit&apos;s attacks cannot score critical hits (treat them as regular hits instead).</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras una unidad enemiga esté en combate con esta unidad:
+• Esa unidad enemiga tiene una puntuación de control máxima de 1.
+• Resta 1 a su nivel de poder, hasta un mínimo de 0.
+• Sus ataques no pueden lograr impactos críticos (trátalos como impactos normales).</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -516,9 +516,9 @@
                   <profiles>
                     <profile name="We All Must Make Sacrifices" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6240-9622-7d25-3592">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reaction: Your opponent declared a command for a unit within 6&quot; of this unit.</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Tu oponente ha declarado una orden para una unidad a 6" o menos de esta unidad.</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. If the roll equals or exceeds the number of command points your opponent has, after the command has been resolved, inflict an amount of mortal damage equal to the roll on the unit using that command. This unit can use this ability more than once per phase but only once per command.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si el resultado iguala o supera el número de puntos de orden que tenga tu oponente, después de resolver la orden, inflige una cantidad de daño mortal igual al resultado a la unidad que use esa orden. Esta unidad puede usar esta habilidad más de una vez por fase, pero solo una vez por orden.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -579,7 +579,7 @@
                     <profile name="Arboreal Concealment" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="236a-ee55-d7e3-bde0">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 1 from hit rolls for shooting attacks that target this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de impacto de los ataques de disparo que tengan como objetivo esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -598,7 +598,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit did not charge this turn, roll a dice. On a 3+, for the rest of the turn, subtract 1 from wound rolls for combat attacks that target this unit.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no ha cargado este turno, tira un dado. Con un 3+, durante el resto del turno, resta 1 a las tiradas de herida de los ataques de combate que tengan como objetivo esta unidad.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -671,7 +671,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de movimiento enemiga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a D3. If there are no enemy units within 9&quot; of this unit, roll a dice instead. On a 2+, this unit can move a number of inches equal to the roll. It can move through the combat ranges of enemy units but cannot end that move in combat.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Si no hay unidades enemigas a 9" o menos de esta unidad, tira un dado en su lugar. Con un 2+, esta unidad puede moverse tantas pulgadas como el resultado. Puede atravesar los alcances de combate de las unidades enemigas, pero no puede terminar ese movimiento en combate.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Move^^**, **^^Run^^**</characteristic>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -717,7 +717,7 @@
                     <profile name="Hunter&apos;s Call" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b9a4-5f8c-855e-7454">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time this unit makes a pile-in move, it moves as if it had **^^Fly^^** and can move 6&quot; instead of 3&quot;.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad haga un movimiento de aproximación, se mueve como si tuviera **^^Fly^^** y puede moverse 6" en lugar de 3".</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -736,7 +736,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de movimiento</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit is not in combat, return up to D3 slain models to it with a combined Health characteristic of up to 12.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no está en combate, devuélvele hasta D3 miniaturas abatidas cuya característica de Health combinada sea de hasta 12.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -803,7 +803,7 @@
                     <profile name="Rooted in the Undergrowth" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9a88-a1e7-6d46-1d85">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignore all modifiers to save rolls for this unit (positive and negative).</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora todos los modificadores a las tiradas de salvación de esta unidad (positivos y negativos).</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -858,7 +858,7 @@
                     <profile name="Bursting with Vigour" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9dce-7eea-4f62-b6dd">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 2 to run rolls for this unit while it is not damaged.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 2 a las tiradas de correr de esta unidad mientras no esté dañada.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -876,7 +876,7 @@
                     <profile name="Sacrificial Frenzy" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="0b23-0210-ff6a-f754">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If no slain models have been returned to this unit this battle, add 1 to hit rolls for this unit&apos;s combat attacks while it is damaged or any models in this unit have been slain.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si no se han devuelto miniaturas abatidas a esta unidad en esta batalla, suma 1 a las tiradas de impacto de sus ataques de combate mientras esté dañada o alguna de sus miniaturas haya sido abatida.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -920,7 +920,7 @@
                     <profile name="Growing Wildness" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9341-91cf-0844-3e6f">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add the current battle round number to this unit&apos;s control score.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma el número de la ronda de batalla actual a la puntuación de control de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -938,7 +938,7 @@
                     <profile name="Greenwoad Spirals" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e291-0c0b-cd32-dcb0">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit has **^^Ward (5+)^^** against damage points inflicted by **^^Spell^^** abilities and abilities used by **^^Manifestations^^**.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad tiene **^^Ward (5+)^^** contra los puntos de daño infligidos por habilidades **^^Spell^^** y habilidades usadas por **^^Manifestations^^**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -983,7 +983,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: el oponente declaró una habilidad de **^^Charge^^** para una unidad a 12" o menos de esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. You can replace 1 of the dice in that charge roll with your dice roll.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Puedes sustituir 1 de los dados de esa tirada de carga por el resultado de tu dado.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1003,7 +1003,7 @@
                     <profile name="Surge of Ghyran" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a509-b936-4c9e-1f0b">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If this unit is destroyed, before removing it from play, inflict D6 damage on each enemy unit in combat with it.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad es destruida, antes de retirarla del juego, inflige D6 daño a cada unidad enemiga en combate con ella.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -1048,7 +1048,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de combate enemiga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, for the rest of the turn, for each unmodified hit roll of 1 for a combat attack made by the target, inflict 1 mortal damage on the target after the **^^Fight^^** ability has been resolved.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, durante el resto del turno, por cada tirada de impacto sin modificar de 1 de un ataque de combate del objetivo, inflige 1 daño mortal al objetivo después de resolver la habilidad **^^Fight^^**.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1069,7 +1069,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de héroe</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 12" o menos de esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the turn, each time your opponent declares a command for the target, roll a dice as a reaction. On a 5+, unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, cada vez que tu oponente declare una orden para el objetivo, tira un dado como reacción. Con un 5+, salvo que tu oponente gaste 1 punto de orden adicional para usarla, la orden no tiene efecto, sigue considerándose usada y los puntos de orden gastados para usarla se pierden igualmente.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1131,7 +1131,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un elemento de escenografía que esté a 3" o menos de esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If the target is wholly within enemy territory, roll on the Exotic Ingredients table and add the corresponding ingredients to your roster. If the target is not wholly within enemy territory, roll on the Basic Ingredients table instead.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si el objetivo está totalmente dentro del territorio enemigo, tira en la tabla Exotic Ingredients y añade los ingredientes correspondientes a tu hoja de ejército. Si el objetivo no está totalmente dentro del territorio enemigo, tira en la tabla Basic Ingredients en su lugar.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1151,8 +1151,8 @@
                     <profile name="Potion Pickpocket" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="3e4c-903a-eef9-07db">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an enemy **^^Hero^^** that has a Ghyranite Concoction and is in combat with this unit to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, the target no longer has that Ghyranite Concoction and give this unit that Ghyranite Concoction. If this unit already has a Ghyranite Concoction, it must immediately use one of those Ghyranite Concotions.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** enemigo que tenga un brebaje ghyranita y esté en combate con esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, el objetivo deja de tener ese brebaje ghyranita y esta unidad lo obtiene. Si esta unidad ya tiene un brebaje ghyranita, debe usar inmediatamente uno de esos brebajes ghyranitas.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1204,7 +1204,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit has a Ghyranite Concoction, this unit can immediately use the &apos;Retreat&apos; ability as if it were your movement phase without any mortal damage being inflicted on it.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad tiene un brebaje ghyranita, puede usar inmediatamente la habilidad &apos;Retreat&apos; como si fuera tu fase de movimiento sin que se le inflija daño mortal.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1225,7 +1225,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflict D3 + 3 mortal damage on the target.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflige D3 + 3 daño mortal al objetivo.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Core^^**, **^^Attack^^**, **^^Fight^^**</characteristic>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1272,7 +1272,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick a Ghyranite Concoction. If you have the ingredients listed in its recipe on your roster, you can immediately mix it. Remove those ingredients from your roster and give that Ghyranite Concoction to your unit.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige un brebaje ghyranita. Si tienes en tu hoja de ejército los ingredientes indicados en su receta, puedes prepararlo inmediatamente. Retira esos ingredientes de tu hoja de ejército y entrega ese brebaje ghyranita a tu unidad.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1293,10 +1293,10 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de disparo</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 12" o menos de esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a D3 and apply the corresponding effect:
-**1 *Potion of Instant Corrosion:*** Inflict D3 mortal damage on the target.
-**2 *Potion of Imprecision:*** Subtract 1 from hit rolls for the target&apos;s attacks for the rest of the turn.
-**3 *Potion of Vulnerability:*** Ward rolls cannot be made for the target for the rest of the turn.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3 y aplica el efecto correspondiente:
+**1 *Potion of Instant Corrosion:*** Inflige D3 daño mortal al objetivo.
+**2 *Potion of Imprecision:*** Resta 1 a las tiradas de impacto de los ataques del objetivo durante el resto del turno.
+**3 *Potion of Vulnerability:*** No se pueden hacer tiradas de salvaguardia por el objetivo durante el resto del turno.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1342,7 +1342,7 @@
                     <profile name="Overcharged Elixirs" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9616-d3ac-b886-15d7">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to hit rolls and wound rolls for this unit&apos;s combat attacks while it has used a **^^Ghyranite Concoction^^** ability in the same turn.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de impacto y de herida de los ataques de combate de esta unidad mientras haya usado una habilidad **^^Ghyranite Concoction^^** en el mismo turno.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -1360,7 +1360,7 @@
                     <profile name="Waste Not, Want Not" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ef71-255e-324a-1854">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time this unit uses a **^^Ghyranite Concoction^^** ability, roll a dice as a reaction. On a 5+, do not remove the Ghyranite Concoction from your roster as part of the effect of that ability.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Ghyranite Concoction^^**, tira un dado como reacción. Con un 5+, no retires el brebaje ghyranita de tu hoja de ejército como parte del efecto de esa habilidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -1418,7 +1418,7 @@
                     <profile name="Morale Boost" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="32aa-5ae1-a8f5-906c">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 2 to the control scores of friendly units while they are wholly within 12&quot; of this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 2 a las puntuaciones de control de las unidades amigas mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -1436,7 +1436,7 @@
                     <profile name="Never a Stranger" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="99d3-4ea5-fb46-b3b9">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to save rolls for this unit while it is wholly within friendly territory.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de salvación de esta unidad mientras esté totalmente dentro del territorio amigo.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -1485,8 +1485,8 @@
                     <profile name="Knowledgable Guide" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7390-9e02-0015-d026">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick this unit and up to 1 friendly unit within this unit&apos;s combat range to be the targets.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the turn, add 2&quot; to each target&apos;s Move characteristic while they are wholly outside friendly territory.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos esta unidad y hasta 1 unidad amiga dentro del alcance de combate de esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 2" a la característica de Move de cada objetivo mientras esté totalmente fuera del territorio amigo.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1506,9 +1506,9 @@
                     <profile name="Expert of All Terrain" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="668e-adea-c7c8-bb6f">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignore negative modifiers to:
-• Run rolls and charge rolls for this unit.
-• This unit&apos;s Move characteristic.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora los modificadores negativos a:
+• Las tiradas de correr y de carga de esta unidad.
+• La característica de Move de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -1552,7 +1552,7 @@
                     <profile name="Navigator Extraordinaire" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="141e-b8f9-f870-bca1">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick up to D3 friendly units to be the targets.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta D3 unidades amigas.</characteristic>
                         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada objetivo puede usar la habilidad &apos;Normal Move&apos; como si fuera tu fase de movimiento.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -1573,7 +1573,7 @@
                     <profile name="Traversal Gear" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6589-8d8f-2be5-f4e8">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit can pass across terrain features as if it had **^^Fly^^**.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede atravesar elementos de escenografía como si tuviera **^^Fly^^**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -1618,7 +1618,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de héroe</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un marcador de objetivo o elemento de escenografía dentro del alcance de combate de esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the battle, friendly units have **^^Ward (5+)^^** while they are wholly within 12&quot; of the target.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la batalla, las unidades amigas tienen **^^Ward (5+)^^** mientras estén totalmente a 12" o menos del objetivo.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1638,8 +1638,8 @@
                     <profile name="Master of Hidden Paths" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6614-9a7a-323c-70cc">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de movimiento</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick this unit and up to 1 other visible friendly unit wholly within 6&quot; of this unit to be the targets,</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Remove the targets from the battlefield and set them up again with each model contesting the same objective or terrain feature and not in combat. The targets cannot use **^^Charge^^** abilities for the rest of the turn.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos esta unidad y hasta otra 1 unidad amiga visible totalmente a 6" o menos de esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Retira los objetivos del campo de batalla y vuelve a colocarlos con cada miniatura disputando el mismo objetivo o elemento de escenografía y fuera de combate. Los objetivos no pueden usar habilidades **^^Charge^^** durante el resto del turno.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1734,7 +1734,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflict 1 mortal damage on each visible enemy unit within 6&quot; of this unit.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflige 1 daño mortal a cada unidad enemiga visible a 6" o menos de esta unidad.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -1754,7 +1754,7 @@
                 <profile name="Princeling&apos;s Bow" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="814b-0eba-471e-b79b">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de disparo</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If this unit is not in combat, pick a visible enemy unit within 18&quot; of it to be the target.</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no está en combate, elige como objetivo una unidad enemiga visible a 18" o menos de ella.</characteristic>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 3 dados. Por cada 4+, inflige 1 de daño mortal al objetivo.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -1775,7 +1775,7 @@
                 <profile name="Barkflesh Shield" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ed8e-ce7a-5981-243a">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignore the first damage point that would be allocated to this unit in each phase.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora el primer punto de daño que se fuera a asignar a esta unidad en cada fase.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -1794,7 +1794,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de héroe</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">**Heal (D3+3)** this unit. For the rest of the turn, this unit has **^^Ward (5+)^^**.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Aplica **Heal (D3+3)** a esta unidad. Durante el resto del turno, esta unidad tiene **^^Ward (5+)^^**.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -1813,12 +1813,12 @@
               <profiles>
                 <profile name="Arcane Seedpod" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7e60-81a0-d0f7-971f">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once per Battle, Your Movement Phase</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a visible terrain feature within 9&quot; of this unit, then pick each enemy unit within 3&quot; of it to be the targets.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">The following effects apply until the start of your next turn:
-• Subtract 1 from casting rolls and chanting rolls for each target.
-• Halve each target&apos;s Move characteristic.
-• The effects of the &apos;Fly&apos; ability do not apply to the targets.</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, Tu fase de movimiento</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un elemento de escenografía visible a 9" o menos de esta unidad; después, elige como objetivos todas las unidades enemigas a 3" o menos de él.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Los siguientes efectos se aplican hasta el inicio de tu siguiente turno:
+• Resta 1 a las tiradas de lanzamiento y de cántico de cada objetivo.
+• Reduce a la mitad la característica de Move de cada objetivo.
+• Los efectos de la habilidad &apos;Fly&apos; no se aplican a los objetivos.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -1860,9 +1860,9 @@
               <profiles>
                 <profile name="Blessed by the Old Magics" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="29c6-e509-8caa-1589">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Battle, Reaction: You declared a **^^Spell^^** ability from the Lore of the Overgrown Wilds for a unit wholly within 6&quot; of this unit.</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, Reacción: Has declarado una habilidad **^^Spell^^** del Lore of the Overgrown Wilds para una unidad totalmente a 6" o menos de esta unidad.</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Change the casting roll for that spell to a value of 9 that cannot be modified. If that spell is unbound, inflict D6 mortal damage on the unit that used the **^^Unbind^^** ability.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cambia la tirada de lanzamiento de ese hechizo a un valor de 9 que no puede modificarse. Si ese hechizo es desvinculado, inflige D6 daño mortal a la unidad que usó la habilidad **^^Unbind^^**.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -1882,7 +1882,7 @@
                 <profile name="Grizzled Survivalist" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9829-1702-a2fc-d689">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignore positive modifiers to hit rolls and wound rolls for shooting attacks that target this unit.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora los modificadores positivos a las tiradas de impacto y de herida de los ataques de disparo que tengan como objetivo esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -1900,7 +1900,7 @@
                 <profile name="Resolute Builder" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e566-edfe-f3da-d5be">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit is within 3&quot; of a friendly faction terrain feature or a terrain feature wholly within friendly territory, this unit has **^^Ward (5+)^^**.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté a 3" o menos de un elemento de escenografía de facción amigo o de un elemento de escenografía totalmente dentro del territorio amigo, tiene **^^Ward (5+)^^**.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -1918,8 +1918,8 @@
                 <profile name="Arcane Disruptor" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c481-40e1-f2f8-d82a">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de movimiento</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a **^^Manifestation^^** within 6&quot; of this unit to be the target.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 5+, the target is banished and removed from play.</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una **^^Manifestation^^** a 6" o menos de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 5+, el objetivo es desterrado y retirado del juego.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -1939,7 +1939,7 @@
                 <profile name="As Strong as an Ironoak" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="aea7-ff4b-1e34-d077">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 2 to this unit&apos;s control score for each damage point it has.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 2 a la puntuación de control de esta unidad por cada punto de daño que tenga.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -1958,7 +1958,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de héroe</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Until the start of your next turn, while this unit is on the battlefield, the target has a maximum control score of 1.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Hasta el inicio de tu siguiente turno, mientras esta unidad esté en el campo de batalla, el objetivo tiene una puntuación de control máxima de 1.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -2007,7 +2007,7 @@
                 <profile name="Thin Bloods, Stout Hearts" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4de3-0307-0aec-3207">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to the Rend characteristic of melee weapons used for attacks that target this unit. Each time this unit uses the &apos;Rally&apos; command, you can make 1 additional rally roll of D6.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Rend de las armas de combate usadas para ataques que tengan como objetivo esta unidad. Cada vez que esta unidad use la orden &apos;Rally&apos;, puedes hacer 1 tirada de reagrupamiento adicional de D6.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -2025,7 +2025,7 @@
                 <profile name="Deepwood Mania" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2d3b-2c9c-2adf-f4b3">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If the unmodified hit roll for an attack made by this unit is 1-4, the attack fails and the attack sequence ends. This unit&apos;s combat attacks score critical hits on unmodified hit rolls of 5+.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si la tirada de impacto sin modificar de un ataque de esta unidad es de 1-4, el ataque falla y termina la secuencia de ataque. Los ataques de combate de esta unidad logran impactos críticos con tiradas de impacto sin modificar de 5+.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -2043,7 +2043,7 @@
                 <profile name="Parasitic Clusters" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8925-771c-8d8f-fd2c">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time this unit is set up on the battlefield as a result of a friendly ability, including during deployment, it must be set up within 1&quot; of a battlefield edge and more than 9&quot; from all other units.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad sea colocada en el campo de batalla como resultado de una habilidad amiga, incluido durante el despliegue, debe colocarse a 1" o menos de un borde del campo de batalla y a más de 9" de todas las demás unidades.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -2065,7 +2065,7 @@
                 <profile name="Cynical Melancholy" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1c19-9234-d728-cd6b">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 10 from this unit&apos;s control score. Add 3 to the control scores of friendly units while they are wholly within this unit&apos;s combat range.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 10 a la puntuación de control de esta unidad. Suma 3 a las puntuaciones de control de las unidades amigas mientras estén totalmente dentro del alcance de combate de esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -2083,7 +2083,7 @@
                 <profile name="Graspspite Musk" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="db84-e3c9-acf5-bddb">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Roll a D3 instead of a D6 when making run rolls for this unit and when this unit uses the &apos;Redeploy&apos; command. Each time an enemy unit in combat with this unit uses a **^^Retreat^^** ability, roll a D6 instead of a D3 when determining the amount of mortal damage inflicted on that enemy unit by that ability.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Tira un D3 en lugar de un D6 al hacer tiradas de correr para esta unidad y cuando esta unidad use la orden &apos;Redeploy&apos;. Cada vez que una unidad enemiga en combate con esta unidad use una habilidad **^^Retreat^^**, tira un D6 en lugar de un D3 al determinar la cantidad de daño mortal que esa habilidad inflige a esa unidad enemiga.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -2101,7 +2101,7 @@
                 <profile name="Splinterskin" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="33d3-7ecb-6f92-f6e4">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to wound rolls for shooting attacks that target this unit if the attacking unit is within 12&quot; of this unit. Subtract 1 from wound rolls for shooting attacks that target this unit if the attacking unit is more than 12&quot; from this unit.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de herida de los ataques de disparo que tengan como objetivo esta unidad si la unidad atacante está a 12" o menos de esta unidad. Resta 1 a las tiradas de herida de los ataques de disparo que tengan como objetivo esta unidad si la unidad atacante está a más de 12" de esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Blue</attribute>
@@ -2129,7 +2129,7 @@
                 <profile name="Aether-rot" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c804-6d79-c682-28f2">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 1 from casting rolls and chanting rolls for units (friendly and enemy) while they are within 6&quot; of this unit.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de lanzamiento y de cántico de las unidades (amigas y enemigas) mientras estén a 6" o menos de esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -2147,7 +2147,7 @@
                 <profile name="Abject Apathy" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f25e-416f-08a2-3c8f">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignore the effects of **^^Strike-first^^** and **^^Strike-last^^** on this unit.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora los efectos de **^^Strike-first^^** y **^^Strike-last^^** sobre esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -2165,7 +2165,7 @@
                 <profile name="Monomaniacal Defenders" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="332f-ccab-1b3c-d330">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit is damaged, it cannot make pile-in moves or use commands. Add 1 to save rolls for this unit while it is damaged.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté dañada, no puede hacer movimientos de aproximación ni usar órdenes. Suma 1 a las tiradas de salvación de esta unidad mientras esté dañada.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -2222,13 +2222,13 @@
               </modifiers>
               <rules>
                 <rule name="Ghyranite Mount" id="c6a6-c5d4-dcec-35d4" hidden="true">
-                  <description>Non-**^^Hero Infantry^^** only.
-Add the **Ghyranite Mount&apos;s Teeth, Hooves, or Claws** weapon to your Regiment Hero&apos;s warscroll. 
-Then, make the following changes to your Regiment Hero&apos;s warscroll:
-• Change the Move characteristic to 12&quot;.
-• Change the Health characteristic to 3 or add 1 to the Health characteristic.
-• Change the Save characteristic to 4+.
-• Replace the **^^Infantry^^** keyword with the **^^Cavalry^^** keyword.</description>
+                  <description>Solo **^^Infantry^^** que no sea **^^Hero^^**.
+Añade el arma **Ghyranite Mount&apos;s Teeth, Hooves, or Claws** al pergamino de tu héroe de regimiento.
+Después, realiza los siguientes cambios en su pergamino:
+• Cambia la característica de Move a 12".
+• Cambia la característica de Health a 3 o suma 1 a la característica de Health.
+• Cambia la característica de Save a 4+.
+• Sustituye la palabra clave **^^Infantry^^** por **^^Cavalry^^**.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -2283,14 +2283,14 @@ Then, make the following changes to your Regiment Hero&apos;s warscroll:
               </modifiers>
               <rules>
                 <rule name="Ghyranite Fiend" id="3af9-549c-7ed3-751d" hidden="true">
-                  <description>Non-**^^Hero Infantry^^** or **Ghyranite Chariot** only.
-If the unit is **^^Infantry^^**, add the **Ghyranite Fiend&apos;s Jaws** weapon to your Regiment Hero&apos;s warscroll. If the unit is a **Ghyranite Chariot**, replace its **Companion** weapon with **Ghyranite Fiend&apos;s Jaws**.
-In addition, make the following changes to your Regiment Hero&apos;s warscroll:
-• Change the Move characteristic to 10&quot;.
-• Add 6 to the Health characteristic.
-• Add 3 to the Control characteristic.
-• Change the Save characteristic to 4+.
-• Replace the **^^Infantry^^** keyword with the **^^Monster^^** keyword.</description>
+                  <description>Solo **^^Infantry^^** que no sea **^^Hero^^** o **Ghyranite Chariot**.
+Si la unidad es **^^Infantry^^**, añade el arma **Ghyranite Fiend&apos;s Jaws** al pergamino de tu héroe de regimiento. Si la unidad es un **Ghyranite Chariot**, sustituye su arma **Companion** por **Ghyranite Fiend&apos;s Jaws**.
+Además, realiza los siguientes cambios en el pergamino de tu héroe de regimiento:
+• Cambia la característica de Move a 10".
+• Suma 6 a la característica de Health.
+• Suma 3 a la característica de Control.
+• Cambia la característica de Save a 4+.
+• Sustituye la palabra clave **^^Infantry^^** por **^^Monster^^**.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -2315,14 +2315,14 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </modifiers>
               <rules>
                 <rule name="Ghyranite Colossus" id="fe7b-1562-e618-e1ea" hidden="true">
-                  <description>Non-**^^Hero^^** non-**^^Beast^^** unit only.
-If the unit is **^^Infantry^^**, **^^Monster^^**, or a **Ghyranite Bombard**, add the **Ghyranite Monstrosity&apos;s Maw** and **Ghyranite Monstrosity&apos;s Claws** weapons and the &apos;Battle Damaged&apos; ability to your Regiment Hero&apos;s warscroll. If the unit is a **Ghyranite Chariot**, replace its **Companion** weapon with the **Ghyranite Monstrosity&apos;s Maw** and **Ghyranite Monstrosity&apos;s Claws** weapons.
-In addition, make the following changes to your Regiment Hero&apos;s warscroll:
-• Change the Move characteristic to 12&quot;.
-• Add 5 to the Health characteristic.
-• Add 5 to the Control characteristic.
-• Change the Save characteristic to 4+.
-• If the unit is **^^Infantry^^**, replace the **^^Infantry^^** keyword with the **^^Monster^^** keyword. If the unit is a **^^War Machine^^**, it also has the **^^Monster^^** keyword.</description>
+                  <description>Solo unidades que no sean **^^Hero^^** ni **^^Beast^^**.
+Si la unidad es **^^Infantry^^**, **^^Monster^^** o un **Ghyranite Bombard**, añade las armas **Ghyranite Monstrosity&apos;s Maw** y **Ghyranite Monstrosity&apos;s Claws** y la habilidad &apos;Battle Damaged&apos; al pergamino de tu héroe de regimiento. Si la unidad es un **Ghyranite Chariot**, sustituye su arma **Companion** por **Ghyranite Monstrosity&apos;s Maw** y **Ghyranite Monstrosity&apos;s Claws**.
+Además, realiza los siguientes cambios en el pergamino de tu héroe de regimiento:
+• Cambia la característica de Move a 12".
+• Suma 5 a la característica de Health.
+• Suma 5 a la característica de Control.
+• Cambia la característica de Save a 4+.
+• Si la unidad es **^^Infantry^^**, sustituye la palabra clave **^^Infantry^^** por **^^Monster^^**. Si la unidad es **^^War Machine^^**, también tiene la palabra clave **^^Monster^^**.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -2355,7 +2355,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </constraints>
               <rules>
                 <rule name="Champion" id="c370-0766-092d-1fad" hidden="true">
-                  <description>This unit has a champion and the **^^Champion^^** keyword.</description>
+                  <description>Esta unidad tiene un campeón y la palabra clave **^^Champion^^**.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -2379,7 +2379,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </constraints>
               <rules>
                 <rule name="Musician" id="b37c-dfad-1d30-ce10" hidden="true">
-                  <description>Non-**^^Beast^^** only. This unit has a musician and the **^^Musician^^** keyword.</description>
+                  <description>Solo si no es **^^Beast^^**. Esta unidad tiene un músico y la palabra clave **^^Musician^^**.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -2403,7 +2403,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </constraints>
               <rules>
                 <rule name="Standard Bearer" id="1538-fcd2-ec5f-55a8" hidden="true">
-                  <description>Non-**^^Beast^^** only. This unit has a standard bearer and the **^^Standard Bearer^^** keyword.</description>
+                  <description>Solo si no es **^^Beast^^**. Esta unidad tiene un portaestandarte y la palabra clave **^^Standard Bearer^^**.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -2441,7 +2441,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </costs>
               <rules>
                 <rule name="Crit (Auto-wound)" id="acaf-3f32-f742-3b76" hidden="true">
-                  <description>Pick 1 of this unit&apos;s melee weapons. That weapon has **Crit (Auto-wound)**.</description>
+                  <description>Elige 1 de las armas de combate de esta unidad. Esa arma tiene **Crit (Auto-wound)**.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -2598,7 +2598,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </costs>
               <rules>
                 <rule name="Crit (2 Hits)" id="37e0-fab8-d580-7596" hidden="true">
-                  <description>Pick 1 of this unit&apos;s melee weapons. That weapon has **Crit (2 Hits)**.</description>
+                  <description>Elige 1 de las armas de combate de esta unidad. Esa arma tiene **Crit (2 Hits)**.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -2754,7 +2754,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </costs>
               <rules>
                 <rule name="Brawny" id="22c5-6ce1-c451-462b" hidden="true">
-                  <description>Pick 1 of this unit&apos;s weapons. Improve that weapon&apos;s Wound characteristic by 1 (for example, 4+ becomes 3+).</description>
+                  <description>Elige 1 de las armas de esta unidad. Mejora en 1 la característica de Wound de esa arma (por ejemplo, 4+ pasa a 3+).</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -2937,7 +2937,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </costs>
               <rules>
                 <rule name="Skilled Warriors" id="2399-24ae-9e0d-c88b" hidden="true">
-                  <description>Pick 1 of this unit&apos;s weapons. Improve that weapon&apos;s Hit characteristic by 1 (for example, 4+ becomes 3+).</description>
+                  <description>Elige 1 de las armas de esta unidad. Mejora en 1 la característica de Hit de esa arma (por ejemplo, 4+ pasa a 3+).</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -3140,7 +3140,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </constraints>
               <rules>
                 <rule name="Ghyranite Long-range Weapon" id="1c93-230b-d605-d289" hidden="true">
-                  <description>Add the **Ghyranite Long-range Weapon** to a unit&apos;s warscroll. You cannot pick this upgrade for a unit that already has a ranged weapon.</description>
+                  <description>Añade **Ghyranite Long-range Weapon** al pergamino de una unidad. No puedes elegir esta mejora para una unidad que ya tenga un arma a distancia.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -3155,7 +3155,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </constraints>
               <rules>
                 <rule name="Ghyranite Close-range Weapon" id="59a5-05e7-2e16-5a2a" hidden="true">
-                  <description>Add the **Ghyranite Close-range Weapon** to a unit&apos;s warscroll. You cannot pick this upgrade for a unit that already has a ranged weapon.</description>
+                  <description>Añade **Ghyranite Close-range Weapon** al pergamino de una unidad. No puedes elegir esta mejora para una unidad que ya tenga un arma a distancia.</description>
                 </rule>
               </rules>
               <modifiers>
@@ -3209,7 +3209,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </costs>
               <rules>
                 <rule name="Fearsome Weapons" id="4bdd-9c49-4600-b7eb" hidden="true">
-                  <description>Pick 1 of this unit&apos;s weapons. Add 1 to that weapon&apos;s Rend characteristic.</description>
+                  <description>Elige 1 de las armas de esta unidad. Suma 1 a la característica de Rend de esa arma.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -3392,7 +3392,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </costs>
               <rules>
                 <rule name="Swift Strikes" id="fbed-e3f9-fd42-5b3f" hidden="true">
-                  <description>Pick 1 of this unit&apos;s weapons. Add 1 to that weapon&apos;s Attacks characteristic.</description>
+                  <description>Elige 1 de las armas de esta unidad. Suma 1 a la característica de Attacks de esa arma.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -3621,7 +3621,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </modifiers>
               <rules>
                 <rule name="Armourers" id="2a68-9c0e-693f-12cc" hidden="true">
-                  <description>Improve this unit&apos;s Save characteristic by 1 (for example, 5+ becomes 4+).</description>
+                  <description>Mejora en 1 la característica de Save de esta unidad (por ejemplo, 5+ pasa a 4+).</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -3633,7 +3633,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </costs>
               <rules>
                 <rule name="Crit (Mortal)" id="d074-a075-d8bd-b235" hidden="true">
-                  <description>Pick 1 of this unit&apos;s melee weapons. That weapon has **Crit (Mortal)**.</description>
+                  <description>Elige 1 de las armas de combate de esta unidad. Esa arma tiene **Crit (Mortal)**.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -3789,7 +3789,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </costs>
               <rules>
                 <rule name="Charge (+1 Damage)" id="93ea-e322-6b21-365c" hidden="true">
-                  <description>Pick 1 of this unit&apos;s melee weapons. That weapon has **Charge (+1 Damage)**.</description>
+                  <description>Elige 1 de las armas de combate de esta unidad. Esa arma tiene **Charge (+1 Damage)**.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -3945,7 +3945,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               </costs>
               <rules>
                 <rule name="Brutal Strikes" id="895f-c12c-13e4-2068" hidden="true">
-                  <description>Pick 1 of this unit&apos;s weapons. Add 1 to that weapon&apos;s Damage characteristic.</description>
+                  <description>Elige 1 de las armas de esta unidad. Suma 1 a la característica de Damage de esa arma.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -4562,11 +4562,11 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Briarseed Blessings" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c1b2-2607-0cfa-409d">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), cualquier fase de combate</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly unit that charged this turn to be the target.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a D3 and apply the corresponding effect for the rest of the turn.
-1 Add 1 to the Attacks characteristic of the target&apos;s melee weapons.
-2 Add 1 to the Damage characteristic of the target&apos;s melee weapons.
-3 Add 1 to the Damage characteristic of the target&apos;s melee weapons.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga que haya cargado este turno.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3 y aplica el efecto correspondiente durante el resto del turno.
+1 Suma 1 a la característica de Attacks de las armas de combate del objetivo.
+2 Suma 1 a la característica de Damage de las armas de combate del objetivo.
+3 Suma 1 a la característica de Damage de las armas de combate del objetivo.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4583,8 +4583,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="One With Thyria" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="88df-6812-d6dc-49f3">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de héroe enemiga</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an enemy **^^Hero^^** within 18&quot; of your general and visible to them to be the target.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the turn, subtract 1 from save rolls and ward rolls for the target.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** enemigo a 18" o menos de tu general y visible para él.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, resta 1 a las tiradas de salvación y de salvaguardia del objetivo.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4601,8 +4601,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Spiteful Attitude" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9519-d546-0fb1-4af5">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), cualquier fase de combate</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly unit to be the target.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the phase, subtract 1 from wound rolls for combat attacks that target that unit.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la fase, resta 1 a las tiradas de herida de los ataques de combate que tengan como objetivo esa unidad.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4619,8 +4619,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Wyrdron Seed" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="5cf7-34c0-ef16-5d87">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), cualquier fase de disparo</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a visible enemy unit within 9&quot; of a friendly **^^Hero^^** to be the target.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice .On a 1-2, for the rest of the turn, subtract 1 form the number of dice rolled when making charge rolls for the target, to a minimum of 1. On a 3+, inflict an amount of mortal damage on the target equal to the roll.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 9" o menos de un **^^Hero^^** amigo.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 1-2, durante el resto del turno, resta 1 al número de dados tirados al hacer tiradas de carga para el objetivo, hasta un mínimo de 1. Con un 3+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4637,8 +4637,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Empowered by Ghyran" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6f3b-cf3d-7505-428f">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly non-**^^Blades of Khorne Hero^^** to be the target.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If the target is a **^^Wizard^^** or **^^Priest^^**, add 1 to the target&apos;s power level for the rest of the battle. If the target is not a **^^Wizard^^** or **^^Priest^^**, pick either the **^^Wizard (1)^^** or **^^Priest (1)^^** keyword. The target has that keyword for the rest of the battle.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** amigo que no sea **^^Blades of Khorne^^**.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si el objetivo es un **^^Wizard^^** o **^^Priest^^**, suma 1 a su nivel de poder durante el resto de la batalla. Si el objetivo no es un **^^Wizard^^** ni **^^Priest^^**, elige la palabra clave **^^Wizard (1)^^** o **^^Priest (1)^^**. El objetivo tiene esa palabra clave durante el resto de la batalla.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4655,7 +4655,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Sanitised" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="46e4-b08e-af2d-06a8">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to remediation tolls for friendly units.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de remediación de las unidades amigas.</characteristic>
               </characteristics>
               <attributes>
                 <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -4670,8 +4670,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Expert Garrison" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a9d5-9c84-ddca-72ee">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), cualquier fase de combate</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly unit wholly within 3&quot; of a terrain feature or objective to be the target.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the turn, add 1 to save rolls for the target while it is wholly within 3&quot; of a terrain feature or objective.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga totalmente a 3" o menos de un elemento de escenografía o un objetivo.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 1 a las tiradas de salvación del objetivo mientras esté totalmente a 3" o menos de un elemento de escenografía o un objetivo.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4688,7 +4688,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Dauntless" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="cc19-3bad-b0b4-3959">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick up to D3 friendly units to be the targets.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta D3 unidades amigas.</characteristic>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada objetivo puede usar la habilidad &apos;Normal Move&apos; como si fuera tu fase de movimiento.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -4706,7 +4706,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Proven Survivors" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7f09-5fc6-a647-fc8d">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), inicio de cualquier turno</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly unit to be the target.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga.</characteristic>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">El objetivo tiene **^^Ward (5+)^^** durante el resto del turno.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -4724,8 +4724,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Tactical Repositioning" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b9fe-6bc9-79d1-925d">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de héroe enemiga</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly unit that is not in combat to be the target.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">The target can move 2D6&quot;. It cannot move into combat during any part of that move.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga que no esté en combate.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">El objetivo puede moverse 2D6". No puede entrar en combate en ningún momento de ese movimiento.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Move^^**, **^^Run^^**</characteristic>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4743,7 +4743,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), tu fase de héroe</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">**Heal (3)** each friendly unit.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Aplica **Heal (3)** a cada unidad amiga.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4761,7 +4761,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), cualquier fase de héroe</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the turn, other than the **Companion** weapon ability, weapon abilities for the target&apos;s attacks have no effect.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, salvo la habilidad de arma **Companion**, las habilidades de arma de los ataques del objetivo no tienen efecto.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4782,8 +4782,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Durthu&apos;s Fury" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="cc01-1ccc-3e34-e782">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de héroe</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick this unit to be the target.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Add 1 to the Damage characteristic of this unit&apos;s melee weapons for the rest of the turn. If the target is **^^Infantry^^**, add D3 to the Damage characteristic of its melee weapons for the rest of the turn instead. Then, remove this Ghyranite Concoction from your roster.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige esta unidad como objetivo.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 1 a la característica de Damage de las armas de combate de esta unidad durante el resto del turno. Si el objetivo es **^^Infantry^^**, suma D3 a la característica de Damage de sus armas de combate durante el resto del turno en su lugar. Después, retira este brebaje ghyranita de tu hoja de ejército.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Ghyranite Concoction^^**</characteristic>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4805,8 +4805,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Revitaliser" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a015-dcde-c4c8-ab6e">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de héroe</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a visible friendly unit within this unit&apos;s combat range to be the target.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">**Heal (6)** the target. Then, remove this Ghyranite Concoction from your roster.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga visible dentro del alcance de combate de esta unidad.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Aplica **Heal (6)** al objetivo. Después, retira este brebaje ghyranita de tu hoja de ejército.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Ghyranite Concoction^^**</characteristic>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4828,8 +4828,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Ghyranite Vitality" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bcab-802d-3585-ede0">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de héroe</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a visible friendly **^^Hero^^** within this unit&apos;s combat range to be the target.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Add 1 to run rolls, charge rolls, and save rolls for the target for the rest of the turn. Then, remove this Ghyranite Concoction from your roster.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** amigo visible dentro del alcance de combate de esta unidad.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 1 a las tiradas de correr, de carga y de salvación del objetivo durante el resto del turno. Después, retira este brebaje ghyranita de tu hoja de ejército.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Ghyranite Concoction^^**</characteristic>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4851,8 +4851,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Aelf Step" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bd36-d5f5-543e-b4e4">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de héroe</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick this unit to be the target.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Remove the target from the battlefield and set it up again wholly within 3&quot; of another friendly unit and more than 9&quot; from all enemy units. Then, remove this Ghyranite Concoction from your roster.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige esta unidad como objetivo.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Retira el objetivo del campo de batalla y vuelve a colocarlo totalmente a 3" o menos de otra unidad amiga y a más de 9" de todas las unidades enemigas. Después, retira este brebaje ghyranita de tu hoja de ejército.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Ghyranite Concoction^^**</characteristic>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4874,8 +4874,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Verdant Mist" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6b72-8595-21aa-5360">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de héroe</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick each visible non-**^^Monster^^** unit (friendly and enemy) within 12&quot; of the unit to be the targets.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Return 1 slain model to each target unit. Then, remove this Ghyranite Concoction from your roster.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos todas las unidades visibles (amigas y enemigas) que no sean **^^Monster^^** a 12" o menos de la unidad.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Devuelve 1 miniatura abatida a cada unidad objetivo. Después, retira este brebaje ghyranita de tu hoja de ejército.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Ghyranite Concoction^^**</characteristic>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4898,7 +4898,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de disparo</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 12" o menos de esta unidad.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target. Then, remove this Ghyranite Concoction from your roster.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira tantos dados como miniaturas tenga la unidad objetivo. Por cada 5+, inflige 1 daño mortal al objetivo. Después, retira este brebaje ghyranita de tu hoja de ejército.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Ghyranite Concoction^^**</characteristic>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4919,9 +4919,9 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
           <profiles>
             <profile name="Blisterbrew" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bc66-081c-e4df-f311">
               <characteristics>
-                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Battle, Any Shooting Phase</characteristic>
+                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, Cualquier fase de disparo</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 12" o menos de esta unidad.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the battle, each time the target uses a **Move** or **Fight** ability, inflict 1 mortal damage on the target after that ability has been resolved. Then, remove this Ghyranite Concoction from your roster.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la batalla, cada vez que el objetivo use una habilidad **Move** o **Fight**, inflige 1 daño mortal al objetivo después de resolver esa habilidad. Después, retira este brebaje ghyranita de tu hoja de ejército.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Ghyranite Concoction^^**</characteristic>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4943,8 +4943,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Elixir of Enlightenment" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2ce4-6644-53db-3992">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de héroe</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick this unit to be the target.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">The next time you make a casting roll for the target this phase, roll 3D6 instead of 2D6. Then, remove this Ghyranite Concoction from your roster.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige esta unidad como objetivo.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">La próxima vez que hagas una tirada de lanzamiento para el objetivo en esta fase, tira 3D6 en lugar de 2D6. Después, retira este brebaje ghyranita de tu hoja de ejército.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Ghyranite Concoction^^**</characteristic>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4966,8 +4966,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
             <profile name="Chameleon Vapour" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="0681-4f4e-b335-04cb">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de héroe</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick this unit to be the target.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the turn, while they are wholly within 12&quot; of the target, friendly **^^Infantry^^** units are not viisble to enemy units more than 6&quot; away. Then, remove this Ghyranite Concoction from your roster.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige esta unidad como objetivo.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, mientras estén totalmente a 12" o menos del objetivo, las unidades **^^Infantry^^** amigas no son visibles para las unidades enemigas a más de 6" de ellas. Después, retira este brebaje ghyranita de tu hoja de ejército.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Ghyranite Concoction^^**</characteristic>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -5085,8 +5085,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
         <profile name="Stalled Reinforcements" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d3fb-3816-9bf2-f3b3">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a number of friendly units with a combined points value equal to or greater than the surplus value to be the targets.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Set up those units in reserve as **stalled reinforcements**. They have now been deployed. If any **stalled reinforcements** are part of a regiment, the other units in that regiment can still be deployed using the &apos;Deploy Regiment&apos; ability.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos un número de unidades amigas con un valor en puntos combinado igual o superior al valor excedente.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca esas unidades en reserva como **refuerzos retrasados**. Ahora ya se han desplegado. Si algún **refuerzo retrasado** forma parte de un regimiento, las demás unidades de ese regimiento todavía pueden desplegarse mediante la habilidad &apos;Deploy Regiment&apos;.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Deploy^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -5099,8 +5099,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
         <profile name="Timely Arrival" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="437b-df1a-3523-3a33">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">You can use this ability from the second battle round onwards. Pick a friendly **stalled reinforcement** to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. Subtract 1 from the roll if the target is a **^^Hero^^** or reinforced unit and subtract 1 from the roll if the target is a **^^Monster^^**. On a 4+, set up the target in friendly territory wholly within 6&quot; of a battlefield edge and more than 9&quot; from all enemy units. If it is not possible to set up the target, it remains in reserve as a **Stalled reinforcement**.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Puedes usar esta habilidad a partir de la segunda ronda de batalla. Elige como objetivo un **refuerzo retrasado** amigo.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Resta 1 a la tirada si el objetivo es un **^^Hero^^** o una unidad reforzada y resta 1 a la tirada si el objetivo es un **^^Monster^^**. Con un 4+, coloca el objetivo en territorio amigo totalmente a 6" o menos de un borde del campo de batalla y a más de 9" de todas las unidades enemigas. Si no es posible colocar el objetivo, permanece en reserva como **refuerzo retrasado**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -5113,7 +5113,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
         <profile name="Strategic Mastery" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7567-1bf2-0e63-5353">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If your opponent seized the initiative this battle round and you have not seized the initiative this battle, roll a dice for each command point your opponent has. For each 5+, your opponent loses 1 command point and you gain 1 command point.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si tu oponente ha arrebatado la iniciativa en esta ronda de batalla y tú no has arrebatado la iniciativa en esta batalla, tira un dado por cada punto de orden que tenga tu oponente. Por cada 5+, tu oponente pierde 1 punto de orden y tú obtienes 1 punto de orden.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -5124,8 +5124,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
         <profile name="Blighted Waters" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="892b-57a7-c839-8e4d">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), inicio de tu turno</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Randomly pick a **contaminated** terrain feature. If that terrain feature has been **remediated** by your opponent&apos;s army, pick each friendly unit within 3&quot; of that terrain feature to be the targets. Otherwise, pick each unit within 3&quot; of that terrain feature to be the targets.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Make a contamination roll of D3 for each target. On a 1, inflict 1 mortal damage on the target. On a 2+, the target has **^^Strike-last^^** for the rest of the turn.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige al azar un elemento de escenografía **contaminado**. Si ese elemento de escenografía ha sido **remediado** por el ejército de tu oponente, elige como objetivos todas las unidades amigas a 3" o menos de ese elemento de escenografía. En caso contrario, elige como objetivos todas las unidades a 3" o menos de ese elemento de escenografía.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Haz una tirada de contaminación de D3 por cada objetivo. Con un 1, inflige 1 daño mortal al objetivo. Con un 2+, el objetivo tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Honour Guard^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -5138,10 +5138,10 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
         <profile name="Purify the Land" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d6b5-b7bf-e3ec-bc0a">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly unit within 3&quot; of a **contaminated** terrain feature to use this ability, then pick that **contaminated** terrain feature to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Make a remediation roll of D6. On a 3+:
-• The target is **remediated** by your army for the rest of the battle and you no longer consider it to be contaminated.
-• The unit using this ability gains 2 renown points.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga a 3" o menos de un elemento de escenografía **contaminado** para usar esta habilidad; después, elige como objetivo ese elemento de escenografía **contaminado**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Haz una tirada de remediación de D6. Con un 3+:
+• El objetivo está **remediado** por tu ejército durante el resto de la batalla y ya no lo consideras contaminado.
+• La unidad que usa esta habilidad obtiene 2 puntos de renombre.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -5154,13 +5154,13 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
         <profile name="Boon of Vitality" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7dba-aaf2-72b2-83cd">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly unit that is not in combat and that is within 3&quot; of a terrain feature that has been **remediated** by your army to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice and apply the corresponding effect below.
-1-2 No effect.
-3 Add 1 to run rolls and charge rolls for the target until the start of your next turn.
-4 Subtract 1 from wound rolls for attacks that target that friendly unit until the start of your next turn.
-5 The target has **^^Ward (5+)^^** until the start of your next turn.
-6 The target can immediately use the &apos;Rally&apos; command as if it were your hero phase without any command points being spent. If it does so, you can make 3 additional rally rolls of D6.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga que no esté en combate y esté a 3" o menos de un elemento de escenografía que haya sido **remediado** por tu ejército.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado y aplica el efecto correspondiente de los siguientes.
+1-2 Sin efecto.
+3 Suma 1 a las tiradas de correr y de carga del objetivo hasta el inicio de tu siguiente turno.
+4 Resta 1 a las tiradas de herida de los ataques que tengan como objetivo esa unidad amiga hasta el inicio de tu siguiente turno.
+5 El objetivo tiene **^^Ward (5+)^^** hasta el inicio de tu siguiente turno.
+6 El objetivo puede usar inmediatamente la orden &apos;Rally&apos; como si fuera tu fase de héroe sin gastar puntos de orden. Si lo hace, puedes hacer 3 tiradas de reagrupamiento adicionales de D6.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -5233,7 +5233,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </costs>
                   <rules>
                     <rule name="Wizard Hero" id="5c52-f9c4-9c30-4524" hidden="true">
-                      <description>Your Regiment Hero has the **^^Wizard (1)^^** keyword. In addition, replace your Regiment Hero&apos;s melee weapon with a **Wizard&apos;s Staff**.</description>
+                      <description>Tu héroe de regimiento tiene la palabra clave **^^Wizard (1)^^**. Además, sustituye su arma de combate por un **Wizard&apos;s Staff**.</description>
                     </rule>
                   </rules>
                   <modifiers>
@@ -5252,7 +5252,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </modifiers>
                   <rules>
                     <rule name="Priest Hero" id="a63f-46c3-7dd6-14ae" hidden="true">
-                      <description>Your Regiment Hero has the **^^Priest (1)^^** keyword. In addition, replace your Regiment Hero&apos;s melee weapon with a **Holy Sceptre**.</description>
+                      <description>Tu héroe de regimiento tiene la palabra clave **^^Priest (1)^^**. Además, sustituye su arma de combate por un **Holy Sceptre**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5265,8 +5265,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </costs>
                   <rules>
                     <rule name="Gigantic Hero" id="5c0c-34d7-6017-e71a" hidden="true">
-                      <description>Change your Regiment Hero&apos;s Move characteristic to 6&quot;, their Health characteristic to 8 and their Control characteristic to 5.
-In addition, replace your Regiment Hero&apos;s melee weapon with a **Great Weapon of Renown**.</description>
+                      <description>Cambia la característica de Move de tu héroe de regimiento a 6", su característica de Health a 8 y su característica de Control a 5.
+Además, sustituye su arma de combate por una **Great Weapon of Renown**.</description>
                     </rule>
                   </rules>
                   <modifiers>
@@ -5284,9 +5284,9 @@ In addition, replace your Regiment Hero&apos;s melee weapon with a **Great Weapo
                   </costs>
                   <rules>
                     <rule name="Gargantuan Hero" id="b1de-326a-ddd4-28d0" hidden="true">
-                      <description>Replace your Regiment Hero&apos;s **^^Infantry^^** keyword with the **^^Monster^^** keyword.
-Change your Regiment Hero&apos;s Move characteristic to 8&quot;, their Health characteristic to 12 and their Control characteristic to 10.
-In addition, replace your Regiment Hero&apos;s melee weapon with a **Monstrous Weapon of Renown** and **Massive Punches or Kicks**.</description>
+                      <description>Sustituye la palabra clave **^^Infantry^^** de tu héroe de regimiento por **^^Monster^^**.
+Cambia su característica de Move a 8", su característica de Health a 12 y su característica de Control a 10.
+Además, sustituye su arma de combate por una **Monstrous Weapon of Renown** y **Massive Punches or Kicks**.</description>
                     </rule>
                   </rules>
                   <modifiers>
@@ -5317,12 +5317,12 @@ In addition, replace your Regiment Hero&apos;s melee weapon with a **Monstrous W
                   </modifiers>
                   <rules>
                     <rule name="Ghyranite Steed" id="6534-bd3b-2b7c-cfa2" hidden="true">
-                      <description>Add the **Ghyranite Steed&apos;s Teeth, Hooves, or Claws** weapon to your Regiment Hero&apos;s warscroll. 
-In addition, make the following changes to your Regiment Hero&apos;s warscroll:
-• Change the Move characteristic to 12&quot;.
-• Add 2 to the Health characteristic.
-• Change the Save characteristic to 4+.
-• Replace the **^^Infantry^^** keyword with the **^^Cavalry^^** keyword.</description>
+                      <description>Añade el arma **Ghyranite Steed&apos;s Teeth, Hooves, or Claws** al pergamino de tu héroe de regimiento.
+Además, realiza los siguientes cambios en su pergamino:
+• Cambia la característica de Move a 12".
+• Suma 2 a la característica de Health.
+• Cambia la característica de Save a 4+.
+• Sustituye la palabra clave **^^Infantry^^** por **^^Cavalry^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5343,13 +5343,13 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </modifiers>
                   <rules>
                     <rule name="Ghyranite Behemoth" id="83c8-f2a4-7bff-b857" hidden="true">
-                      <description>Add the **Ghyranite Behemoth&apos;s Jaws** weapon to your Regiment Hero&apos;s warscroll. 
-In addition, make the following changes to your Regiment Hero&apos;s warscroll:
-• Change the Move characteristic to 10&quot;.
-• Add 6 to the Health characteristic.
-• Add 3 to the Control characteristic.
-• Change the Save characteristic to 4+.
-• Replace the **^^Infantry^^** keyword with the **^^Monster^^** keyword.</description>
+                      <description>Añade el arma **Ghyranite Behemoth&apos;s Jaws** al pergamino de tu héroe de regimiento.
+Además, realiza los siguientes cambios en su pergamino:
+• Cambia la característica de Move a 10".
+• Suma 6 a la característica de Health.
+• Suma 3 a la característica de Control.
+• Cambia la característica de Save a 4+.
+• Sustituye la palabra clave **^^Infantry^^** por **^^Monster^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5370,20 +5370,20 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </modifiers>
                   <rules>
                     <rule name="Ghyranite Monstrosity" id="f3dc-2b8b-3ff6-c993" hidden="true">
-                      <description>Add the **Ghyranite Monstrosity&apos;s Maw** and **Ghyranite Monstrosity&apos;s Claws** weapons and the &apos;Battle Damaged&apos; ability to your Regiment Hero&apos;s warscroll. 
-In addition, make the following changes to your Regiment Hero&apos;s warscroll:
-• Change the Move characteristic to 12&quot;.
-• Add 8 to the Health characteristic.
-• Add 5 to the Control characteristic.
-• Change the Save characteristic to 4+.
-• Replace the **^^Infantry^^** keyword with the **^^Monster^^** keyword.</description>
+                      <description>Añade las armas **Ghyranite Monstrosity&apos;s Maw** y **Ghyranite Monstrosity&apos;s Claws** y la habilidad &apos;Battle Damaged&apos; al pergamino de tu héroe de regimiento.
+Además, realiza los siguientes cambios en su pergamino:
+• Cambia la característica de Move a 12".
+• Suma 8 a la característica de Health.
+• Suma 5 a la característica de Control.
+• Cambia la característica de Save a 4+.
+• Sustituye la palabra clave **^^Infantry^^** por **^^Monster^^**.</description>
                     </rule>
                   </rules>
                   <profiles>
                     <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d1f7-f85b-6979-12cf">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit has 10 or more damage points, the Attacks characteristic of its **Ghyranite Monstrosity&apos;s Claws** is 4.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Ghyranite Monstrosity&apos;s Claws** es 4.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -5428,7 +5428,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </modifiers>
                   <rules>
                     <rule name="Renowned Warrior" id="fb30-9b23-72ca-a466" hidden="true">
-                      <description>Add 1 to your Regiment Hero&apos;s Control characteristic.</description>
+                      <description>Suma 1 a la característica de Control de tu héroe de regimiento.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5444,15 +5444,15 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </constraints>
                   <rules>
                     <rule name="Back to Back" id="1be1-50f2-7eff-2e2f" hidden="true">
-                      <description>Add the &apos;Back to Back&apos; ability to your Regiment Hero&apos;s warscroll.</description>
+                      <description>Añade la habilidad &apos;Back to Back&apos; al pergamino de tu héroe de regimiento.</description>
                     </rule>
                   </rules>
                   <profiles>
                     <profile name="Back to Back" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="584e-c244-360a-9ee8">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reaction: You declared a **^^Fight^^** ability for this unit</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad **^^Fight^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick a friendly non-**^^Hero^^** unit in this Regiment of Renown that has not used a **^^Fight^^** ability this turn and is within this unit&apos;s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target&apos;s attacks for the rest of the turn.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga de este regimiento de renombre que no sea **^^Hero^^**, no haya usado una habilidad **^^Fight^^** este turno y esté dentro del alcance de combate de esta unidad. El objetivo puede ser elegido para usar una habilidad **^^Fight^^** inmediatamente después de resolver la habilidad **^^Fight^^** usada por esta unidad. Si es elegido para hacerlo, suma 1 a las tiradas de impacto de sus ataques durante el resto del turno.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -5479,7 +5479,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </constraints>
                   <rules>
                     <rule name="Aura of Immortality" id="1f01-7527-fa4c-3f48" hidden="true">
-                      <description>Your Regiment Hero has **^^Ward (6+)^^**</description>
+                      <description>Tu héroe de regimiento tiene **^^Ward (6+)^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5504,7 +5504,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </modifiers>
                   <rules>
                     <rule name="Realm Wanderer" id="dba4-4be3-200d-a3c8" hidden="true">
-                      <description>Add 1 to your Regiment Hero&apos;s Move characteristic.</description>
+                      <description>Suma 1 a la característica de Move de tu héroe de regimiento.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5523,7 +5523,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </constraints>
                   <rules>
                     <rule name="Sky-born" id="09e9-bb81-a109-774e" hidden="true">
-                      <description>Your Regiment Hero has **^^Fly^^**.</description>
+                      <description>Tu héroe de regimiento tiene **^^Fly^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5548,7 +5548,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </modifiers>
                   <rules>
                     <rule name="Ironoak Armour" id="e7fd-b50b-d658-6587" hidden="true">
-                      <description>Improve your Regiment Hero&apos;s Save characteristic by 1 (for example, 5+ becomes 4+).</description>
+                      <description>Mejora en 1 la característica de Save de tu héroe de regimiento (por ejemplo, 5+ pasa a 4+).</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5573,7 +5573,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </modifiers>
                   <rules>
                     <rule name="Imposing Presence" id="6463-f6a9-ada4-ceb6" hidden="true">
-                      <description>Add 1 to your Regiment Hero&apos;s Health characteristic.</description>
+                      <description>Suma 1 a la característica de Health de tu héroe de regimiento.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5586,7 +5586,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </costs>
                   <rules>
                     <rule name="Razor-sharp Weapon" id="2657-9451-ba74-a05e" hidden="true">
-                      <description>Pick 1 of your Regiment Hero&apos;s melee weapons. That weapon has **Crit (Mortal)**.</description>
+                      <description>Elige 1 de las armas de combate de tu héroe de regimiento. Esa arma tiene **Crit (Mortal)**.</description>
                     </rule>
                   </rules>
                   <selectionEntryGroups>
@@ -5792,7 +5792,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </costs>
                   <rules>
                     <rule name="Expert Fighter" id="cf9e-d355-3be0-403b" hidden="true">
-                      <description>Pick 1 of your Regiment Hero&apos;s weapons. Improve that weapon&apos;s Hit characteristic by 1 (for example, 4+ becomes 3+).</description>
+                      <description>Elige 1 de las armas de tu héroe de regimiento. Mejora en 1 la característica de Hit de esa arma (por ejemplo, 4+ pasa a 3+).</description>
                     </rule>
                   </rules>
                   <selectionEntryGroups>
@@ -5997,7 +5997,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </costs>
                   <rules>
                     <rule name="Powerful Strikes" id="1f2f-5f62-3b6a-7575" hidden="true">
-                      <description>Pick 1 of your Regiment Hero&apos;s weapons. Improve that weapon&apos;s Wound characteristic by 1 (for example, 4+ becomes 3+).</description>
+                      <description>Elige 1 de las armas de tu héroe de regimiento. Mejora en 1 la característica de Wound de esa arma (por ejemplo, 4+ pasa a 3+).</description>
                     </rule>
                   </rules>
                   <selectionEntryGroups>
@@ -6142,7 +6142,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </costs>
                   <rules>
                     <rule name="Specialist Training" id="8428-938d-a06c-a7c0" hidden="true">
-                      <description>Pick 1 of your Regiment Hero&apos;s non-**Companion** weapons, then pick 1 of the following weapon abilities: **Charge (+1 Damage)**, **Crit (2 Hits)**, **Crit (Auto-wound)**, **Shoot in Combat**. That weapon has the weapon ability you picked.</description>
+                      <description>Elige 1 de las armas de tu héroe de regimiento que no sea **Companion**; después, elige 1 de las siguientes habilidades de arma: **Charge (+1 Damage)**, **Crit (2 Hits)**, **Crit (Auto-wound)**, **Shoot in Combat**. Esa arma tiene la habilidad de arma que has elegido.</description>
                     </rule>
                   </rules>
                   <selectionEntryGroups>
@@ -6307,7 +6307,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </costs>
                   <rules>
                     <rule name="Muscular Physique" id="f7be-498a-4d5d-9f78" hidden="true">
-                      <description>Pick 1 of your Regiment Hero&apos;s weapons. Add 1 to that weapon&apos;s Rend characteristic.</description>
+                      <description>Elige 1 de las armas de tu héroe de regimiento. Suma 1 a la característica de Rend de esa arma.</description>
                     </rule>
                   </rules>
                   <selectionEntryGroups>
@@ -6515,14 +6515,14 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </constraints>
                   <rules>
                     <rule name="Local Knowledge" id="4ae1-f6d6-a1d7-b7df" hidden="true">
-                      <description>Add the &apos;Local Knowledge&apos; ability to your Regiment Hero&apos;s warscroll.</description>
+                      <description>Añade la habilidad &apos;Local Knowledge&apos; al pergamino de tu héroe de regimiento.</description>
                     </rule>
                   </rules>
                   <profiles>
                     <profile name="Local Knowledge" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6c71-5b79-23bb-53c7">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to remediation rolls for your Regiment Hero.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de remediación de tu héroe de regimiento.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -6551,7 +6551,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </constraints>
                   <rules>
                     <rule name="Ghyranite Ranged Weapon" id="eb15-bb18-2dc3-b1d1" hidden="true">
-                      <description>Add a **Ghyranite Ranged Weapon** to your Regiment Hero&apos;s warscroll. You cannot pick this upgrade if your Regiment Hero already has a ranged weapon.</description>
+                      <description>Añade un **Ghyranite Ranged Weapon** al pergamino de tu héroe de regimiento. No puedes elegir esta mejora si tu héroe de regimiento ya tiene un arma a distancia.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -6574,7 +6574,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </constraints>
                   <rules>
                     <rule name="Ghyranite Heavy Ranged Weapon" id="e57c-7081-188c-a889" hidden="true">
-                      <description>Add a **Ghyranite Heavy Ranged Weapon** to your Regiment Hero&apos;s warscroll. You cannot pick this upgrade if your Regiment Hero already has a ranged weapon.</description>
+                      <description>Añade un **Ghyranite Heavy Ranged Weapon** al pergamino de tu héroe de regimiento. No puedes elegir esta mejora si tu héroe de regimiento ya tiene un arma a distancia.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8167,8 +8167,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </modifiers>
                   <rules>
                     <rule name="Artisan-crafted Altar" id="7187-6474-a1db-6455" hidden="true">
-                      <description>Make the following changes to your Landmark of Ghran&apos;s warscroll:
-• Change the Health characteristic to 12.</description>
+                      <description>Realiza los siguientes cambios en el pergamino de tu hito de Ghyran:
+• Cambia la característica de Health a 12.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8185,9 +8185,9 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </modifiers>
                   <rules>
                     <rule name="Formidable Bastion" id="215e-00b9-b417-141e" hidden="true">
-                      <description>Make the following changes to your Landmark of Ghran&apos;s warscroll:
-• Change the Health characteristic to 12.
-• Change the Save characteristic to 4+.</description>
+                      <description>Realiza los siguientes cambios en el pergamino de tu hito de Ghyran:
+• Cambia la característica de Health a 12.
+• Cambia la característica de Save a 4+.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8204,8 +8204,8 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </modifiers>
                   <rules>
                     <rule name="Reinforced Metalith" id="282d-c88a-2de1-204a" hidden="true">
-                      <description>Your landmark of Ghyran has the **^^Fly^^** keyword. In addition, make the following changes to your Landmark of Ghyran&apos;s warscroll:
-• Change the Move characteristic to 4&quot;. This terrain feature can use non-command non-**^^Charge Move^^** abilities as if it were a unit.</description>
+                      <description>Tu hito de Ghyran tiene la palabra clave **^^Fly^^**. Además, realiza los siguientes cambios en su pergamino:
+• Cambia la característica de Move a 4". Este elemento de escenografía puede usar habilidades **^^Move^^** que no sean órdenes ni **^^Charge^^** como si fuera una unidad.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8250,7 +8250,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                     <profile name="Defensive Boltholes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="bff0-555b-f697-91d6">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 1 from hit rolls for shooting attacks that target friendly units while they are wholly within 6&quot; of this terrain feature.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de impacto de los ataques de disparo que tengan como objetivo unidades amigas mientras estén totalmente a 6" o menos de este elemento de escenografía.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -8271,7 +8271,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                     <profile name="Ley Line Node" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="0f52-b6b6-1b51-66e1">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to ward rolls for friendly **^^Manifestations^^** while they are wholly within 12&quot; of this terrain feature.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de salvaguardia de las **^^Manifestations^^** amigas mientras estén totalmente a 12" o menos de este elemento de escenografía.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -8292,7 +8292,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                     <profile name="Uplifting Aura" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9d71-f289-f40f-6955">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 3 to the control scores of friendly units while they are wholly within 12&quot; of this terrain feature.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 3 a las puntuaciones de control de las unidades amigas mientras estén totalmente a 12" o menos de este elemento de escenografía.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -8313,7 +8313,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                     <profile name="Toughened Exterior" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="713d-d804-7e29-8412">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 1 from the Rend characteristic of weapons used for attacks that target this terrain feature.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a la característica de Rend de las armas usadas para ataques que tengan como objetivo este elemento de escenografía.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -8342,7 +8342,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de tu turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Debes usar esta habilidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Allocate 1 damage point to this terrain feature (ward rolls cannot be made for that damage point).</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Asigna 1 punto de daño a este elemento de escenografía (no se pueden hacer tiradas de salvaguardia por ese punto de daño).</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -8365,7 +8365,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                     <profile name="Dreary Form" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2667-54ae-7a77-3322">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time a friendly unit wholly within 12&quot; of this unit uses the &apos;Rally&apos; command, you must make 3 fewer rally rolls of D6.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad amiga totalmente a 12" o menos de esta unidad use la orden &apos;Rally&apos;, debes hacer 3 tiradas de reagrupamiento de D6 menos.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -8386,7 +8386,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                     <profile name="Stark Presence" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6fc4-8707-5882-874f">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Friendly units cannot be set up within 6&quot; of this terrain feature.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">No se pueden colocar unidades amigas a 6" o menos de este elemento de escenografía.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -8407,7 +8407,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                     <profile name="Root of Enmity" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fb32-3d31-8195-dd01">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While an enemy unit is in combat with this terrain feature, that enemy unit has **^^Strike-first^^**.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras una unidad enemiga esté en combate con este elemento de escenografía, esa unidad enemiga tiene **^^Strike-first^^**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -8443,7 +8443,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </constraints>
                   <rules>
                     <rule name="Fortified Parts" id="26db-fa62-972f-c2fe" hidden="true">
-                      <description>Add 2 to your Landmark of Ghyran&apos;s Health characteristic.</description>
+                      <description>Suma 2 a la característica de Health de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8459,14 +8459,14 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </constraints>
                   <rules>
                     <rule name="Inspiring" id="17c4-f7e8-45c4-aa52" hidden="true">
-                      <description>Add the &apos;Inspiring&apos; ability to your Landmark of Ghyran&apos;s warscroll.</description>
+                      <description>Añade la habilidad &apos;Inspiring&apos; al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                   <profiles>
                     <profile name="Inspiring" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5852-73e1-0b3a-77aa">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 3 to the control scores of friendly units while they are wholly within 12&quot; of this terrain feature.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 3 a las puntuaciones de control de las unidades amigas mientras estén totalmente a 12" o menos de este elemento de escenografía.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -8489,7 +8489,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </constraints>
                   <rules>
                     <rule name="Mysterious Terrain" id="98c4-aff3-2a12-635d" hidden="true">
-                      <description>Your Landmark of Ghyran has **^^Ward (6+)^^**.</description>
+                      <description>Tu hito de Ghyran tiene **^^Ward (6+)^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8505,7 +8505,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </constraints>
                   <rules>
                     <rule name="Heavy Buttressing" id="d23f-4b71-6c6a-ba83" hidden="true">
-                      <description>Your Landmark of Ghyran&apos;s Save characteristic is 4+. If your Landmark of Ghyran already has a Save characteristic of 4+, it has a Save characteristic of 3+ instead.</description>
+                      <description>La característica de Save de tu hito de Ghyran es 4+. Si tu hito de Ghyran ya tiene una característica de Save de 4+, tiene una característica de Save de 3+ en su lugar.</description>
                     </rule>
                   </rules>
                   <modifiers>
@@ -8533,7 +8533,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </constraints>
                   <rules>
                     <rule name="Magical Defences" id="574e-756b-75c2-ad6d" hidden="true">
-                      <description>Add the **Magical Defences** to your Landmark of Ghyran&apos;s warscroll</description>
+                      <description>Añade **Magical Defences** al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8549,7 +8549,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </constraints>
                   <rules>
                     <rule name="Magical Bolts" id="4dfc-4e07-4895-9e1e" hidden="true">
-                      <description>Add the **Magical Bolts** weapon profile to your Landmark of Ghyran&apos;s warscroll.</description>
+                      <description>Añade el perfil de arma **Magical Bolts** al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8565,7 +8565,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                     <profile name="Nebulous" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="eb98-bab6-8cfe-da4d">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Enemy models cannot be set up within 9&quot; of this terrain feature.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">No se pueden colocar miniaturas enemigas a 9" o menos de este elemento de escenografía.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -8576,7 +8576,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </profiles>
                   <rules>
                     <rule name="Nebulous" id="b8bf-2511-d828-4282" hidden="true">
-                      <description>Add the &apos;Nebulous&apos; ability to your Landmark of Ghyran&apos;s warscroll.</description>
+                      <description>Añade la habilidad &apos;Nebulous&apos; al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8593,7 +8593,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </modifiers>
                   <rules>
                     <rule name="Leathery Wings" id="499e-568b-d7b7-0ad0" hidden="true">
-                      <description>Add 4 to your Landmark of Ghyran&apos;s Health characteristic.</description>
+                      <description>Suma 4 a la característica de Health de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8609,7 +8609,7 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                   </constraints>
                   <rules>
                     <rule name="Node of Power" id="1524-5bf5-4a8a-2fb6" hidden="true">
-                      <description>Your Landmark of Ghyran has **^^Ward (5+)^^**.</description>
+                      <description>Tu hito de Ghyran tiene **^^Ward (5+)^^**.</description>
                     </rule>
                   </rules>
                   <modifiers>
@@ -8631,9 +8631,9 @@ In addition, make the following changes to your Regiment Hero&apos;s warscroll:
                       <characteristics>
                         <characteristic name="Timing" typeId="736-6e3a-d0b5-a1b0">Una vez por batalla, final de tu turno</characteristic>
                         <characteristic name="Cost" typeId="a49e-3082-e2a6-e802">1</characteristic>
-                        <characteristic name="Declare" typeId="b77f-7548-840e-c086">Pick a friendly non-**^^Unique^^** unit that has been destroyed to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="2111-3ca8-61dd-a5f0">Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 7&quot; of this terrain feature and more than 3&quot; from all enemy units.
-If the target is a **^^Hero^^**, **^^War Machine^^** or **^^Monster^^**, you must spend an additional command point to use this ability and if the target has a unit size of 1, you must allocate a number of damage points to the replacement unit equal to half its Health characteristic.</characteristic>
+                        <characteristic name="Declare" typeId="b77f-7548-840e-c086">Elige como objetivo una unidad amiga que no sea **^^Unique^^** y haya sido destruida.</characteristic>
+                        <characteristic name="Effect" typeId="2111-3ca8-61dd-a5f0">Coloca una unidad de reemplazo con la mitad de las miniaturas de la unidad objetivo (redondeando hacia arriba) totalmente a 7" o menos de este elemento de escenografía y a más de 3" de todas las unidades enemigas.
+Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes gastar un punto de orden adicional para usar esta habilidad y, si el objetivo tiene un tamaño de unidad de 1, debes asignar a la unidad de reemplazo tantos puntos de daño como la mitad de su característica de Health.</characteristic>
                         <characteristic name="Keywords" typeId="445d-f443-5448-e7ce"/>
                       </characteristics>
                       <attributes>
@@ -8652,7 +8652,7 @@ If the target is a **^^Hero^^**, **^^War Machine^^** or **^^Monster^^**, you mus
                   </modifiers>
                   <rules>
                     <rule name="Hidden Within" id="d143-10e3-67e9-f79e" hidden="true">
-                      <description>You can only pick this upgrade if your Landmark of Ghyran is not a Reinforced Metalith. Add the &apos;Hidden Within&apos; ability to your Landmark of Ghyran&apos;s warscroll.</description>
+                      <description>Solo puedes elegir esta mejora si tu hito de Ghyran no es un Reinforced Metalith. Añade la habilidad &apos;Hidden Within&apos; al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8670,8 +8670,8 @@ If the target is a **^^Hero^^**, **^^War Machine^^** or **^^Monster^^**, you mus
                     <profile name="Deadly" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="089e-b849-4cb1-1db7">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an enemy unit that charged this turn and is in combat with this terrain feature to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 1, 1 model in the target unit is slain.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que haya cargado este turno y esté en combate con este elemento de escenografía.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 1, 1 miniatura de la unidad objetivo es abatida.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -8684,7 +8684,7 @@ If the target is a **^^Hero^^**, **^^War Machine^^** or **^^Monster^^**, you mus
                   </profiles>
                   <rules>
                     <rule name="Deadly" id="8a58-918f-6c95-ccc0" hidden="true">
-                      <description>Your hero has the &apos;Deadly&apos; ability.</description>
+                      <description>Tu héroe tiene la habilidad &apos;Deadly&apos;.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8698,15 +8698,15 @@ If the target is a **^^Hero^^**, **^^War Machine^^** or **^^Monster^^**, you mus
                   </constraints>
                   <rules>
                     <rule name="Sinister" id="2c91-007c-5094-1df2" hidden="true">
-                      <description>Add the &apos;Sinister&apos; ability to your Landmark of Ghyran&apos;s warscroll.</description>
+                      <description>Añade la habilidad &apos;Sinister&apos; al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                   <profiles>
                     <profile name="Sinister" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e811-d48b-f07d-ada1">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn, Reaction: Opponent declared a command for a unit within 12&quot; of this terrain feature</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, Reacción: El oponente ha declarado una orden para una unidad a 12" o menos de este elemento de escenografía</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 5+, that command has no effect, it still counts as having been used, and the command points spent to use the command are still lost.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 5+, esa orden no tiene efecto, sigue considerándose usada y los puntos de orden gastados para usarla se pierden igualmente.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -8733,8 +8733,8 @@ If the target is a **^^Hero^^**, **^^War Machine^^** or **^^Monster^^**, you mus
                     <profile name="Trusted Curator" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a3c6-d855-1b55-2033">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If this terrain feature does not have a Curator, pick a friendly **^^Infantry Hero^^** within 3&quot; of it and not in combat to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Place the target on this terrain feature. The target is now the Curator (see &apos;Ensconced&apos;).</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si este elemento de escenografía no tiene un conservador, elige como objetivo un **^^Infantry Hero^^** amigo a 3" o menos de él que no esté en combate.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca el objetivo sobre este elemento de escenografía. El objetivo es ahora el conservador (consulta &apos;Ensconced&apos;).</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -8748,7 +8748,7 @@ If the target is a **^^Hero^^**, **^^War Machine^^** or **^^Monster^^**, you mus
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this terrain feature has a Curator that was not placed on it this turn, set up the Curator on the battlefield wholly within 6&quot; of this terrain feature and not in combat. That unit is no longer the Curator.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si este elemento de escenografía tiene un conservador que no haya sido colocado sobre él este turno, coloca al conservador en el campo de batalla totalmente a 6" o menos de este elemento de escenografía y fuera de combate. Esa unidad deja de ser el conservador.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -8761,11 +8761,11 @@ If the target is a **^^Hero^^**, **^^War Machine^^** or **^^Monster^^**, you mus
                     <profile name="Ensconced" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8dce-53d3-1b95-89d1">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this terrain feature has a Curator:
-• The Curator cannot use **^^Move^^** abilities.
-• Instead of measuring the range or visibility to the Curator, measure to this terrain feature instead.
-• All attacks that would target the Curator target this terrain feature instead.
-• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Curator. Then, set up the Curator on the battlefield within 3&quot; of this terrain feature and not in combat. That unit is no longer the Curator. If it is not possible to set up the Curator, it is slain.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras este elemento de escenografía tenga un conservador:
+• El conservador no puede usar habilidades **^^Move^^**.
+• En lugar de medir el alcance o la visibilidad hasta el conservador, mídelos hasta este elemento de escenografía.
+• Todos los ataques que fueran a tener como objetivo al conservador tienen como objetivo este elemento de escenografía en su lugar.
+• Si este elemento de escenografía es destruido, antes de retirarlo del campo de batalla, inflige D3 daño mortal al conservador. Después, coloca al conservador en el campo de batalla a 3" o menos de este elemento de escenografía y fuera de combate. Esa unidad deja de ser el conservador. Si no es posible colocarlo, es abatido.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -8794,14 +8794,14 @@ If the target is a **^^Hero^^**, **^^War Machine^^** or **^^Monster^^**, you mus
                   </constraints>
                   <rules>
                     <rule name="Conduit of Power" id="f65b-94e9-8b55-95aa" hidden="true">
-                      <description>Add the &apos;Conduit of Power&apos; ability to your Landmark of Ghyran&apos;s warscroll.</description>
+                      <description>Añade la habilidad &apos;Conduit of Power&apos; al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                   <profiles>
                     <profile name="Conduit of Power" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="0b92-bc5c-b890-2ac5">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to casting rolls and chanting rolls for the Curator.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de lanzamiento y de cántico del conservador.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -8823,14 +8823,14 @@ If the target is a **^^Hero^^**, **^^War Machine^^** or **^^Monster^^**, you mus
                   </constraints>
                   <rules>
                     <rule name="Chained Magic" id="20dc-173a-f1fa-76f1" hidden="true">
-                      <description>Add the &apos;Chained Magic&apos; ability to your Landmark of Ghyran&apos;s warscroll.</description>
+                      <description>Añade la habilidad &apos;Chained Magic&apos; al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                   <profiles>
                     <profile name="Chained Magic" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="737f-a696-5158-c0b6">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If this terrain feature has a Curator when it is destroyed, after setting up the Curator on the battlefield, set up a friendly **^^Manifestation^^** that can be summoned using a **^^Summon^^** spell from your Arcane Tome on the battlefield within 3&quot; of this unit and not in combat. If that **^^Manifestation^^** has multiple parts, all parts must be set up within 3&quot; of that unit. That unit has summoned that **^^Manifestation^^**. If there is already a friendly **^^Manifestation^^** of the same type on the battlefield, it is immediately banished and removed from play before being set up as described above.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si este elemento de escenografía tiene un conservador cuando es destruido, después de colocar al conservador en el campo de batalla, coloca una **^^Manifestation^^** amiga que pueda ser invocada mediante un hechizo **^^Summon^^** de tu Arcane Tome en el campo de batalla a 3" o menos de esta unidad y fuera de combate. Si esa **^^Manifestation^^** tiene varias partes, todas deben colocarse a 3" o menos de esa unidad. Esa unidad ha invocado esa **^^Manifestation^^**. Si ya hay una **^^Manifestation^^** amiga del mismo tipo en el campo de batalla, es desterrada inmediatamente y retirada del juego antes de ser colocada como se describe arriba.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -8852,15 +8852,15 @@ If the target is a **^^Hero^^**, **^^War Machine^^** or **^^Monster^^**, you mus
                   </constraints>
                   <rules>
                     <rule name="Life Tap" id="f391-49fd-fbc5-021e" hidden="true">
-                      <description>Add the &apos;Life Tap&apos; ability to your Landmark of Ghyran&apos;s warscroll.</description>
+                      <description>Añade la habilidad &apos;Life Tap&apos; al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                   <profiles>
                     <profile name="Life Tap" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="cb45-b82d-e942-6203">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If this terrain feature has a Curator, pick a visible terrain feature within 9&quot; of it to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, **Heal (X)** this terrain feature, where **X** is an amount equal to the roll. Then, the target is **contaminated** to both players&apos; armies.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si este elemento de escenografía tiene un conservador, elige como objetivo un elemento de escenografía visible a 9" o menos de él.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, aplica **Heal (X)** a este elemento de escenografía, donde **X** es igual al resultado. Después, el objetivo está **contaminado** para los ejércitos de ambos jugadores.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -8887,7 +8887,7 @@ If the target is a **^^Hero^^**, **^^War Machine^^** or **^^Monster^^**, you mus
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de movimiento enemiga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this terrain feature has a Curator that was not placed on it this turn, set up the Curator on the battlefield, wholly within 3&quot; of a terrain feature and not in combat. That unit is no longer the Curator.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si este elemento de escenografía tiene un conservador que no haya sido colocado sobre él este turno, coloca al conservador en el campo de batalla totalmente a 3" o menos de un elemento de escenografía y fuera de combate. Esa unidad deja de ser el conservador.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -8900,7 +8900,7 @@ If the target is a **^^Hero^^**, **^^War Machine^^** or **^^Monster^^**, you mus
                   </profiles>
                   <rules>
                     <rule name="Curator Tunnel" id="6609-2cbf-7d11-6898" hidden="true">
-                      <description>You can only pick this upgrade if your Landmark of Ghyran is not a Reinforced Metalith. Add the &apos;Curator Tunnel&apos; ability to your Landmark of Ghyran&apos;s warscroll.</description>
+                      <description>Solo puedes elegir esta mejora si tu hito de Ghyran no es un Reinforced Metalith. Añade la habilidad &apos;Curator Tunnel&apos; al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                 </selectionEntry>

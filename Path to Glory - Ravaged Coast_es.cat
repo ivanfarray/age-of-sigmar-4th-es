@@ -114,8 +114,8 @@
         <profile name="Stalled Reinforcements" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c608-7aa8-9907-2cb8">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a number of friendly units with a combined points value equal to or greater than the surplus value to be the targets.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Set up those units in reserve as **stalled reinforcements**. They have now been deployed. If any **stalled reinforcements** are part of a regiment, the other units in that regiment can still be deployed using the &apos;Deploy Regiment&apos; ability.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos un número de unidades amigas con un valor en puntos combinado igual o superior al valor excedente.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca esas unidades en reserva como **refuerzos retrasados**. Ahora ya se han desplegado. Si algún **refuerzo retrasado** forma parte de un regimiento, las demás unidades de ese regimiento todavía pueden desplegarse mediante la habilidad &apos;Deploy Regiment&apos;.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Deploy^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -128,8 +128,8 @@
         <profile name="Timely Arrival" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9f95-6d0a-0979-008b">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **stalled reinforcement** to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 4+, set up the target in friendly territory wholly within 6&quot; of a battlefield edge and more than 9&quot; from all enemy units. If it is not possible to set up the target, it remains in reserve as a **Stalled reinforcement**.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **refuerzo retrasado** amigo.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 4+, coloca el objetivo en territorio amigo totalmente a 6" o menos de un borde del campo de batalla y a más de 9" de todas las unidades enemigas. Si no es posible colocar el objetivo, permanece en reserva como **refuerzo retrasado**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -142,7 +142,7 @@
         <profile name="Aqshian Anger" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c181-2805-a78a-ce14">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If a unit uses the &apos;All-out Attack&apos; command, add 1 to hit rolls for attacks that target that unit for the rest of the phase.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si una unidad usa la orden &apos;All-out Attack&apos;, añade 1 a las tiradas de impacto de los ataques cuyo objetivo sea esa unidad durante el resto de la fase.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -153,8 +153,8 @@
         <profile name="Poisoned Domain" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9ae5-e4eb-80c8-38e0">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de tu turno</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick all units (friendly and enemy) within 1&quot; of any terrain features to be the targets.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice for each target. On a 1, inflict D6 mortal damage on the target.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos todas las unidades (amigas y enemigas) a 1" o menos de cualquier elemento de escenografía.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado por cada objetivo. Con un 1, inflige D6 de daño mortal al objetivo.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -167,8 +167,8 @@
         <profile name="Collect Emberstone" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="ffb2-60af-70cb-abd1">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de tu turno</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an emberstone cluster on the battlefield and determine control of it as if it were an objective (Core Rules, 32.2). If you control that emberstone cluster, pick a friendly unit within 3&quot; of it that is not in combat and does not have an **emberstone token** to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 1, inflict D3 mortal damage on each unit within 3&quot; of that emberstone cluster, then remove that emberstone cluster from the battlefield. On a 2-6, remove that emberstone cluster from the battlefield and give the target an **emberstone token**.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un cúmulo de piedra ascua en el campo de batalla y determina su control como si fuera un objetivo (Reglas básicas, 32.2). Si controlas ese cúmulo de piedra ascua, elige como objetivo una unidad amiga a 3" o menos de él que no esté en combate y no tenga un **marcador de piedra ascua**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 1, inflige D3 de daño mortal a cada unidad a 3" o menos de ese cúmulo de piedra ascua y después retira ese cúmulo de piedra ascua del campo de batalla. Con un 2-6, retira ese cúmulo de piedra ascua del campo de batalla y da al objetivo un **marcador de piedra ascua**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -181,9 +181,9 @@
         <profile name="Filled with Fury" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d22c-d8ce-609f-f8fc">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While a unit has an emberstone token:
-• Subtract 1 from save rolls for that unit.
-• Add 1 to wound rolls for attacks made by that unit.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras una unidad tenga un marcador de piedra ascua:
+• Resta 1 a las tiradas de salvación de esa unidad.
+• Añade 1 a las tiradas de herida de los ataques de esa unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -193,9 +193,9 @@
         </profile>
         <profile name="Dig for Emberstone" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f3a9-817d-5ca5-62db">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">End of Final Battle Round</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an objective that you control to be a **dig site**. You cannot pick the same objective more than once per battle. Then, pick a friendly unit that is not in combat and is contesting that **dig site** to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 1, inflict 1 battle wound on the target. On a 4+, give the target an **emberstone token**.</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de la última ronda de batalla</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un objetivo que controles como **yacimiento**. No puedes elegir el mismo objetivo más de una vez por batalla. Después, elige como objetivo una unidad amiga que no esté en combate y esté disputando ese **yacimiento**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 1, inflige 1 herida de batalla al objetivo. Con un 4+, da al objetivo un **marcador de piedra ascua**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -223,7 +223,7 @@
                     <profile name="Mobile Construction" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="dd91-e941-bd07-8379">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time this unit uses a **^^Move^^** ability, add 2&quot; to the distance it can move</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Move^^**, añade 2" a la distancia que puede moverse</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -290,7 +290,7 @@
                     <profile name="King of the Hill" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="db9e-85a7-9223-99ba">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit is contesting an objective, enemy **^^Infantry^^** and **^^Cavalry^^** units cannot contest that objective.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté disputando un objetivo, las unidades enemigas **^^Infantry^^** y **^^Cavalry^^** no pueden disputar ese objetivo.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -308,7 +308,7 @@
                     <profile name="Veteran Spotter" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="610e-4d7d-b272-3b36">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit can ignore the effects of the &apos;Guarded Hero&apos; ability when picking targets for its shooting attacks.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede ignorar los efectos de la habilidad &apos;Guarded Hero&apos; al elegir objetivos para sus ataques de disparo.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Blue</attribute>
@@ -353,7 +353,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, reacción: has declarado una habilidad de **^^Shoot^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">This unit&apos;s ranged weapons have **Crit (Mortal)** for the rest of the phase.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Las armas a distancia de esta unidad tienen **Crit (Mortal)** durante el resto de la fase.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -374,7 +374,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, reacción: has declarado una habilidad de **^^Shoot^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Immediately after the **^^Shoot^^**  ability has been resolved, this unit can use a second **^^Shoot^^** ability.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inmediatamente después de resolver la habilidad **^^Shoot^^**, esta unidad puede usar una segunda habilidad **^^Shoot^^**.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -421,7 +421,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que haya cargado este turno y esté en combate con esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">This unit can move a distance up to its Move characteristic. It can move through the combat ranges of enemy units but cannot end that move within an enemy unit&apos;s combat range. Then, roll a dice. On a 3+, the target cannot make a pile-in move for the rest of the phase.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede moverse una distancia de hasta su característica de Move. Puede atravesar los alcances de combate de las unidades enemigas, pero no puede terminar ese movimiento dentro del alcance de combate de una unidad enemiga. Después, tira un dado. Con un 3+, el objetivo no puede hacer un movimiento de aproximación durante el resto de la fase.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -509,7 +509,7 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <profile name="Mind Set Aflame" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9972-8688-2f6c-1504">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">The &apos;Battle Damaged&apos; ability has no effect on this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La habilidad &apos;Battle Damaged&apos; no tiene efecto sobre esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -588,9 +588,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                   <profiles>
                     <profile name="Burning Bloodlust" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6f5d-caad-0efe-8ee8">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reaction: Opponent declared the &apos;All-out Attack&apos; command for a unit in combat with this unit</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: El oponente declaró la orden &apos;All-out Attack&apos; para una unidad en combate con esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Add 1 to hit rolls for this unit&apos;s attacks for the rest of the turn. This ability also affects **Companion** weapons.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Añade 1 a las tiradas de impacto de los ataques de esta unidad durante el resto del turno. Esta habilidad también afecta a las armas **Companion**.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -636,7 +636,7 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <profile name="Furnace of Fury" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="bbe5-f2a6-5c41-d8a7">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit can use 2 different **^^Rampage^^** abilities in the same turn.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar 2 habilidades **^^Rampage^^** diferentes en el mismo turno.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -698,7 +698,7 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <profile name="Unrestrained Aggression" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ea49-fc72-2844-debc">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit&apos;s weapons have **Crit (2 Hits)**. This ability also affects **Companion** weapons.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas de esta unidad tienen **Crit (2 Hits)**. Esta habilidad también afecta a las armas **Companion**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -777,7 +777,7 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de carga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit is not in combat and has not used a **^^Run^^** or **^^Retreat^^** ability this turn, it can move a distance of 7&quot;. This unit can pass through the combat ranges of enemy units but it must end that move within 1/2&quot; of a visible enemy unit. If it does so, this unit has charged.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no está en combate y no ha usado una habilidad **^^Run^^** o **^^Retreat^^** este turno, puede moverse una distancia de 7". Esta unidad puede atravesar los alcances de combate de las unidades enemigas, pero debe terminar ese movimiento a 1/2" o menos de una unidad enemiga visible. Si lo hace, esta unidad ha cargado.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Core^^**, **^^Move^^**, **^^Charge^^**</characteristic>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -846,7 +846,7 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <profile name="Veteran&apos;s Eye" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fd17-2de2-a2ae-6533">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to hit rolls for this unit&apos;s combat attacks.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a las tiradas de impacto de los ataques de combate de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -864,7 +864,7 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <profile name="Powerful Bruiser" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="dbe6-ffb4-995d-28d3">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to wound rolls for this unit&apos;s combat attacks.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a las tiradas de herida de los ataques de combate de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -909,9 +909,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the phase:
-• Subtract 1 from save rolls for this unit.
-• Add 2 to the Rend characteristic of this unit&apos;s weapons.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la fase:
+• Resta 1 a las tiradas de salvación de esta unidad.
+• Añade 2 a la característica de Rend de las armas de esta unidad.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -931,7 +931,7 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <profile name="Deathdealer" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="92bd-100c-7dfd-a087">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick each enemy unit in combat with this unit to be the targets.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos todas las unidades enemigas en combate con esta unidad.</characteristic>
                         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3 por cada objetivo. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -979,7 +979,7 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick 1 of this unit&apos;s melee weapons. Add 1 to the Damage characteristic of that weapon for the rest of the battle.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de las armas de combate de esta unidad. Añade 1 a la característica de Damage de esa arma durante el resto de la batalla.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1135,7 +1135,7 @@ While each model in this unit is contesting an objective that is not wholly wit
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no ha cargado este turno, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. If the roll is less than the number of models in the target unit, inflict an amount of mortal damage on the target equal to the roll</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si el resultado es inferior al número de miniaturas de la unidad objetivo, inflige al objetivo una cantidad de daño mortal igual al resultado</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1156,9 +1156,9 @@ While each model in this unit is contesting an objective that is not wholly wit
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit is wholly within friendly territory, roll a dice. On a 4+, for the rest of the turn:
-• Add 1 to save rolls for this unit.
-• This unit has **^^Strike-last^^**.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está totalmente dentro del territorio amigo, tira un dado. Con un 4+, durante el resto del turno:
+• Añade 1 a las tiradas de salvación de esta unidad.
+• Esta unidad tiene **^^Strike-last^^**.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1231,7 +1231,7 @@ While this unit is contesting an objective within friendly territory, enemy uni
                     <profile name="Fortress Formation" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8f07-c271-ffc0-dba5">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While each model in this unit is contesting an objective that is not within enemy territory, enemy models that have a lower Health characteristic than this unit cannot contest objectives while they are in combat with this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras cada miniatura de esta unidad esté disputando un objetivo que no esté dentro del territorio enemigo, las miniaturas enemigas que tengan una característica de Health inferior a la de esta unidad no pueden disputar objetivos mientras estén en combate con esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -1302,7 +1302,7 @@ While this unit is contesting an objective within friendly territory, the **Cha
                     <profile name="Fight Fire with Fire" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5448-6d5b-5eb8-4883">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If this unit is in combat with an enemy unit that uses the &apos;All-out Attack&apos; command, add 1 to save rolls for this unit for the rest of the turn</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad está en combate con una unidad enemiga que use la orden &apos;All-out Attack&apos;, añade 1 a las tiradas de salvación de esta unidad durante el resto del turno</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -1362,7 +1362,7 @@ While this unit is contesting an objective within friendly territory, the **Cha
                     <profile name="Hot-blooded Charge" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3295-30e0-1656-d536">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to charge rolls for this unit while it is wholly within enemy territory.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a las tiradas de carga de esta unidad mientras esté totalmente dentro del territorio enemigo.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Orange</attribute>
@@ -1380,7 +1380,7 @@ While this unit is contesting an objective within friendly territory, the **Cha
                     <profile name="Terrifying Stampede" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2b18-7ffd-3afb-eaa3">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If this unit charged this turn, add 5 to its control score for the rest of the turn.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad cargó este turno, añade 5 a su puntuación de control durante el resto del turno.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -1424,7 +1424,7 @@ While this unit is contesting an objective within friendly territory, the **Cha
                     <profile name="Shrouded by Smoke" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="66af-6ba3-1106-095e">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 1 from wound rolls for shooting attacks that target this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de herida de los ataques de disparo cuyo objetivo sea esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -1441,10 +1441,10 @@ While this unit is contesting an objective within friendly territory, the **Cha
                   <profiles>
                     <profile name="Hardy Steeds" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="60ac-98ed-ef25-2148">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reaction: You declared a **^^Run^^** ability for this unit</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste una habilidad **^^Run^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Instead of making a run roll as part of that **^^Run^^** ability, you can use a value of 6 for the roll that cannot be modified.
-In addition, this unit cannot use **^^Charge^^** abilities for the rest of the turn.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">En lugar de hacer una tirada de correr como parte de esa habilidad **^^Run^^**, puedes usar un valor de 6 para la tirada que no puede modificarse.
+Además, esta unidad no puede usar habilidades **^^Charge^^** durante el resto del turno.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1594,7 +1594,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <profile name="Furious Mounts" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="40de-2492-fb84-46fa">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit is in enemy territory, this unit&apos;s **Companion** weapons have **Crit (Mortal)**.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté en territorio enemigo, sus armas **Companion** tienen **Crit (Mortal)**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -1654,9 +1654,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <profile name="Thundering Bulk" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2258-3393-3f8e-793c">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time this unit uses the &apos;Power Through&apos;
-command, inflict an additional 1 mortal damage on
-the target.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use la orden &apos;Power Through&apos;, inflige 1 de daño mortal adicional al objetivo.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -1674,7 +1672,7 @@ the target.</characteristic>
                     <profile name="Alpha Beast" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1417-a9ce-6ac1-16f6">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 2 from the control scores of enemy **^^Monsters^^** while they are in combat with this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 2 a las puntuaciones de control de los **^^Monsters^^** enemigos mientras estén en combate con esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -1724,7 +1722,7 @@ the target.</characteristic>
                     <profile name="Bestial Bellows" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="61b0-ed9e-f9a1-6cba">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">The effects of the &apos;Champion&apos;, &apos;Standard Bearer&apos; and &apos;Musician&apos; abilities do not apply to enemy units while they are within 12&quot; of this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Los efectos de las habilidades &apos;Champion&apos;, &apos;Standard Bearer&apos; y &apos;Musician&apos; no se aplican a las unidades enemigas mientras estén a 12" o menos de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -1749,7 +1747,7 @@ the target.</characteristic>
                     <profile name="Animal Fury" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="438c-dc85-ae2f-ffe2">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to the Attacks characteristic of this unit&apos;s weapons. This also affects weapons that have the **Companion** weapon ability</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a la característica de Attacks de las armas de esta unidad. Esto también afecta a las armas que tengan la habilidad de arma **Companion**</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -1768,7 +1766,7 @@ the target.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de carga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit is not in combat and has not used a **^^Run^^** or **^^Retreat^^** ability this turn, it can move a distance of 9&quot;. This unit can pass through the combat ranges of enemy units but it must end that move within 1/2&quot; of a visible enemy unit. If it does so, this unit has charged.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no está en combate y no ha usado una habilidad **^^Run^^** o **^^Retreat^^** este turno, puede moverse una distancia de 9". Esta unidad puede atravesar los alcances de combate de las unidades enemigas, pero debe terminar ese movimiento a 1/2" o menos de una unidad enemiga visible. Si lo hace, esta unidad ha cargado.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Core^^**, **^^Move^^**, **^^Charge^^**</characteristic>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1795,8 +1793,8 @@ the target.</characteristic>
                     <profile name="Pulversing Blows" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="eec2-8ab6-456d-0536">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a visible enemy unit in combat with this unit to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, subtract 1 from save rolls for the target for the rest of the phase.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible en combate con esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, resta 1 a las tiradas de salvación del objetivo durante el resto de la fase.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1816,8 +1814,8 @@ the target.</characteristic>
                     <profile name="Obliterating Impact" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2795-1bc6-0f5f-4f86">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If this unit charged this turn, pick a visible enemy unit within 1&quot; of it to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a number of dice equal to this unit&apos;s Health characteristic minus the number of damage points it has. For each 4+, inflict 1 mortal damage on the target.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó este turno, elige como objetivo una unidad enemiga visible a 1" o menos de ella.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un número de dados igual a la característica de Health de esta unidad menos el número de puntos de daño que tenga. Por cada 4+, inflige 1 de daño mortal al objetivo.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1859,7 +1857,7 @@ the target.</characteristic>
                   <profiles>
                     <profile name="Ancient Technique" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="ad2d-d40c-23eb-956c">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn, Reaction: You declared a **^^Summon Spell^^** ability for this unit</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, reacción: Declaraste una habilidad **^^Summon Spell^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Añade 1 a la tirada de lanzamiento de ese hechizo.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -1881,7 +1879,7 @@ the target.</characteristic>
                     <profile name="Master Banisher" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c08b-f4a5-bcae-de26">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 2 to banishment rolls for this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 2 a las tiradas de destierro de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -1912,9 +1910,9 @@ the target.</characteristic>
                   <profiles>
                     <profile name="Total Banishment" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d19d-bf37-3185-c6ce">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Battle (Army), End of Battle Round</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), final de la ronda de batalla</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Each enemy **^^Manifestation^^** on the battlefield is banished and removed from play.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada **^^Manifestation^^** enemiga en el campo de batalla es desterrada y retirada del juego.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1934,7 +1932,7 @@ the target.</characteristic>
                     <profile name="Expert Summoner" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="407a-f4d2-c4ae-b9fe">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 3&quot; to the distance that **^^Manifestations^^** summoned by this unit can be set up wholly within.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 3" a la distancia a la que pueden colocarse totalmente las **^^Manifestations^^** invocadas por esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -1959,8 +1957,8 @@ the target.</characteristic>
                     <profile name="Castigator" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="69af-3784-5ea5-3191">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an enemy **^^Manifestation^^** within 6&quot; of this unit to be the target, then make a banishment roll of 2D6.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If the banishment roll equals or exceeds the banishment value listed on the **^^Manifestation^^**&apos;s warscroll, inflict D3 mortal damage on the unit that summoned it. Then, the target is banished and removed from play.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una **^^Manifestation^^** enemiga a 6" o menos de esta unidad y después haz una tirada de destierro de 2D6.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si la tirada de destierro iguala o supera el valor de destierro indicado en el pergamino de la **^^Manifestation^^**, inflige D3 de daño mortal a la unidad que la invocó. Después, el objetivo es desterrado y retirado del juego.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Banish^^**</characteristic>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1980,7 +1978,7 @@ the target.</characteristic>
                     <profile name="Disrupting Presence" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ac29-28a7-b9bc-6065">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time an enemy unit within 12&quot; of this unit uses a **^^Summon Spell^^** ability, subtract 2 from the casting roll for that spell</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad enemiga a 12" o menos de esta unidad use una habilidad **^^Summon Spell^^**, resta 2 a la tirada de lanzamiento de ese hechizo</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -2005,7 +2003,7 @@ the target.</characteristic>
                     <profile name="Silence the Aether" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fd2b-8768-9923-c119">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Enemy units within 12&quot; of this unit cannot use **^^Summon Spell^^** abilities.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades enemigas a 12" o menos de esta unidad no pueden usar habilidades **^^Summon Spell^^**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -2022,9 +2020,9 @@ the target.</characteristic>
                   <profiles>
                     <profile name="Supreme Conjurer" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="98ae-4183-470e-65e5">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Battle (Army), Reaction: You declared a **^^Summon Spell^^** ability for this unit</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), reacción: Declaraste una habilidad **^^Summon Spell^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Change the casting roll for that spell to a value of 8 that cannot be modified. In addition, set up the **^^Manifestation^^** on the battlefield wholly within 6&quot; of this unit and visible to them.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cambia la tirada de lanzamiento de ese hechizo a un valor de 8 que no puede modificarse. Además, coloca la **^^Manifestation^^** en el campo de batalla totalmente a 6" o menos de esta unidad y visible para ella.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -2078,7 +2076,7 @@ the target.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de combate enemiga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit is not in combat, it can move up to 3&quot;. It can move into combat.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no está en combate, puede moverse hasta 3". Puede entrar en combate.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -2098,7 +2096,7 @@ the target.</characteristic>
                     <profile name="Fleet Steed" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6c43-fd94-2097-99cb">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time this unit uses a **^^Move^^** ability, add 2&quot; to the distance it can move.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Move^^**, añade 2" a la distancia que puede moverse.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -2148,7 +2146,7 @@ the target.</characteristic>
                     <profile name="Saddlemaster" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="faf7-a386-30c3-a247">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit can use **^^Shoot^^** abilities even if it used a **^^Run^^** ability in the same turn.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades **^^Shoot^^** aunque haya usado una habilidad **^^Run^^** en el mismo turno.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Blue</attribute>
@@ -2173,7 +2171,7 @@ the target.</characteristic>
                     <profile name="From Doom&apos;s Jaws" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d022-bda7-7d28-cc19">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">No mortal damage is inflicted on this unit by **^^Retreat^^** abilities.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las habilidades **^^Retreat^^** no infligen daño mortal a esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -2192,7 +2190,7 @@ the target.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit did not charge this turn, add 1 to the Damage characteristic of this unit&apos;s melee weapons for the rest of the turn.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no cargó este turno, añade 1 a la característica de Damage de sus armas de combate durante el resto del turno.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -2219,8 +2217,8 @@ the target.</characteristic>
                     <profile name="Shock and Awe" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f4a3-1328-ba06-c06d">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If this unit charged this turn, pick an enemy unit in combat with it to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">This unit can immediately use a **^^Shoot^^** ability as if it were your shooting phase, but it must target that enemy unit. This unit&apos;s ranged weapons have **Shoot in Combat** this phase.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó este turno, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar inmediatamente una habilidad **^^Shoot^^** como si fuera tu fase de disparo, pero debe tener como objetivo esa unidad enemiga. Las armas a distancia de esta unidad tienen **Shoot in Combat** esta fase.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -2240,7 +2238,7 @@ the target.</characteristic>
                     <profile name="Daring Deathblow" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="43f8-de69-5b9c-851a">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If this unit is destroyed by a combat attack, roll 12 dice. For each 5+, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad es destruida por un ataque de combate, tira 12 dados. Por cada 5+, inflige 1 de daño mortal a la unidad atacante después de resolver la habilidad **^^Fight^^**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -2281,7 +2279,7 @@ the target.</characteristic>
                     <profile name="Take the Lead" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3885-24a9-ec03-78fe">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit is in combat with an enemy unit that has **^^Strike-first^^**, this unit has **^^Strike-first^^**.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté en combate con una unidad enemiga que tenga **^^Strike-first^^**, esta unidad tiene **^^Strike-first^^**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -2299,7 +2297,7 @@ the target.</characteristic>
                     <profile name="Deflection" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a962-1509-52aa-cb73">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Weapon abilities that apply on a critical hit have no effect on attacks that target this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las habilidades de arma que se aplican con un impacto crítico no tienen efecto sobre los ataques cuyo objetivo sea esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -2331,7 +2329,7 @@ the target.</characteristic>
                     <profile name="Precise Thrust" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="acc3-7807-8cf7-ea2c">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ward rolls cannot be made for enemy units while they are in combat with this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">No pueden hacerse tiradas de salvaguardia para las unidades enemigas mientras estén en combate con esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -2348,11 +2346,11 @@ the target.</characteristic>
                   <profiles>
                     <profile name="Deadly Riposte" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="0dd0-0144-8061-5522">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reaction: Opponent declared a **^^Fight^^** ability that targeted this unit</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: El oponente declaró una habilidad **^^Fight^^** cuyo objetivo era esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit has not used a **^^Fight^^** ability this phase, until the end of the phase:
-• Each time your opponent makes an unmodified hit roll of 1 for a combat attack that targets this unit, after the **^^Fight^^** ability has been resolved, inflict an amount of mortal damage on the attacking unit equal to the Damage characteristic of the weapon used for that attack.
-• Subtract 1 from hit rolls for this unit&apos;s attacks.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no ha usado una habilidad **^^Fight^^** esta fase, hasta el final de la fase:
+• Cada vez que tu oponente haga una tirada de impacto sin modificar de 1 para un ataque de combate cuyo objetivo sea esta unidad, después de resolver la habilidad **^^Fight^^**, inflige a la unidad atacante una cantidad de daño mortal igual a la característica de Damage del arma usada para ese ataque.
+• Resta 1 a las tiradas de impacto de los ataques de esta unidad.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -2396,9 +2394,9 @@ the target.</characteristic>
                   <profiles>
                     <profile name="Swift as the Will" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="3141-cb59-dd7b-9015">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reaction: Opponent declared a **^^Fight^^** ability that targeted this unit</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: El oponente declaró una habilidad **^^Fight^^** cuyo objetivo era esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit has not used a **^^Fight^^** ability this phase, roll a dice. On a 4+, this unit can immediately use a **^^Fight^^** ability but all of its attacks must target that enemy unit.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no ha usado una habilidad **^^Fight^^** esta fase, tira un dado. Con un 4+, esta unidad puede usar inmediatamente una habilidad **^^Fight^^**, pero todos sus ataques deben tener como objetivo esa unidad enemiga.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -2425,7 +2423,7 @@ the target.</characteristic>
                     <profile name="Apotheosis of Steel" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d253-b710-0c0a-536d">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time a combat attack that targets this unit does not score a successful hit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que un ataque de combate cuyo objetivo sea esta unidad no consiga un impacto exitoso, inflige 1 de daño mortal a la unidad atacante después de resolver la habilidad **^^Fight^^**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -2443,7 +2441,7 @@ the target.</characteristic>
                     <profile name="To Surpass All" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="46cc-6b60-3787-ab74">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">The first time an enemy unit is destroyed by an **^^Attack^^** ability used by this unit, this unit has **^^Ward (6+)^^** for the rest of the battle. Add 1 to ward rolls for this unit for each additional enemy unit destroyed by an **^^Attack^^** ability used by this unit, to a maximum of 2.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La primera vez que una habilidad **^^Attack^^** usada por esta unidad destruya una unidad enemiga, esta unidad tiene **^^Ward (6+)^^** durante el resto de la batalla. Añade 1 a las tiradas de salvaguardia de esta unidad por cada unidad enemiga adicional destruida por una habilidad **^^Attack^^** usada por esta unidad, hasta un máximo de 2.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -2483,9 +2481,9 @@ the target.</characteristic>
                   <profiles>
                     <profile name="Beck and Call" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="495e-7357-d9ea-0974">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reaction: You declared the &apos;All-out Attack&apos; command for an **^^Infantry Hero^^** within this unit&apos;s combat range</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste la orden &apos;All-out Attack&apos; para un **^^Infantry Hero^^** dentro del alcance de combate de esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Add 1 to hit rolls for this unit&apos;s attacks for the rest of the phase.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Añade 1 a las tiradas de impacto de los ataques de esta unidad durante el resto de la fase.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -2505,7 +2503,7 @@ the target.</characteristic>
                     <profile name="Hidden in the Ranks" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="595b-7dc3-657a-1397">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 1 from wound rolls for ranged attacks that target friendly non-**^^Monster Heroes^^** while they are within this unit&apos;s combat range.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de herida de los ataques a distancia cuyo objetivo sean **^^Heroes^^** amigos que no sean **^^Monster^^** mientras estén dentro del alcance de combate de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -2530,8 +2528,8 @@ the target.</characteristic>
                     <profile name="Cut-throat Fighters" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bf41-3a9f-4b71-d6e2">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de combate enemiga</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If this unit did not charge this turn, pick an enemy unit within its combat range to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice for each model in this unit within 3&quot; of the target. For each 6, inflict 1 mortal damage on the target.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no cargó este turno, elige como objetivo una unidad enemiga dentro de su alcance de combate.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado por cada miniatura de esta unidad a 3" o menos del objetivo. Por cada 6, inflige 1 de daño mortal al objetivo.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -2551,7 +2549,7 @@ the target.</characteristic>
                     <profile name="Bold and Stalwart" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6859-5a6f-30a9-d2f1">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While a friendly non-**^^Monster Hero^^** is within this unit&apos;s combat range, add 5 to this unit&apos;s control score.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras haya un **^^Hero^^** amigo que no sea **^^Monster^^** dentro del alcance de combate de esta unidad, añade 5 a la puntuación de control de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -2576,7 +2574,7 @@ the target.</characteristic>
                     <profile name="Fortified Defences" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="febc-e0a4-d7c5-0b84">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If this unit has not used a **^^Move^^** ability or made a pile-in move this turn, add 1 to save rolls for this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad no ha usado una habilidad **^^Move^^** ni ha hecho un movimiento de aproximación este turno, añade 1 a sus tiradas de salvación.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -2594,7 +2592,7 @@ the target.</characteristic>
                     <profile name="Devoted Lifewards" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1f57-46a0-c800-331f">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Friendly **^^Infantry Heroes^^** have **^^Ward (5+)^^** while they are wholly within this unit&apos;s combat range.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Los **^^Infantry Heroes^^** amigos tienen **^^Ward (5+)^^** mientras estén totalmente dentro del alcance de combate de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -2619,7 +2617,7 @@ the target.</characteristic>
                     <profile name="Strike as One" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="5b01-246a-6a51-11f8">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick this unit and a friendly non-**^^Monster Hero^^** within this unit&apos;s combat range to be the targets.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos esta unidad y un **^^Hero^^** amigo que no sea **^^Monster^^** dentro del alcance de combate de esta unidad.</characteristic>
                         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Los objetivos tienen **^^Strike-first^^** durante el resto del turno.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -2640,7 +2638,7 @@ the target.</characteristic>
                     <profile name="Cast Them Back" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f582-3ddd-3ff1-6258">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Enemy **^^Infantry^^** units cannot contest objectives while they are in combat with this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades enemigas **^^Infantry^^** no pueden disputar objetivos mientras estén en combate con esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -2679,9 +2677,9 @@ the target.</characteristic>
                   <profiles>
                     <profile name="Heard by the Divine" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7125-161e-59d6-2a70">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn, Reaction: You declared a **^^Summon Prayer^^** ability for this unit</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, reacción: Declaraste una habilidad **^^Summon Prayer^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Add 1 to the chanting roll for that prayer.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Añade 1 a la tirada de cántico de esa plegaria.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -2701,7 +2699,7 @@ the target.</characteristic>
                     <profile name="Sacred Aura" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="95c8-eec9-9aff-3549">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time a prayer chanted by this unit is answered, **Heal (1)** each friendly unit within 3&quot; of it.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una plegaria entonada por esta unidad sea respondida, aplica **Heal (1)** a cada unidad amiga a 3" o menos de ella.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -2733,7 +2731,7 @@ the target.</characteristic>
                     <profile name="Test Their Faith" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true" includeChildSelections="true" includeChildForces="true" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4097-d242-0e84-64ac">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time this unit banishes an enemy **^^Manifestation^^**, inflict D6 mortal damage on the unit that summoned it.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad destierre una **^^Manifestation^^** enemiga, inflige D6 de daño mortal a la unidad que la invocó.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -2751,7 +2749,7 @@ the target.</characteristic>
                     <profile name="Incandescent Faith" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e388-5a9e-7e1f-6848">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 6&quot; to the distance that **^^Manifestations^^** summoned by this unit can be set up wholly within.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 6" a la distancia a la que pueden colocarse totalmente las **^^Manifestations^^** invocadas por esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -2777,7 +2775,7 @@ the target.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">**Heal (D6)** each friendly unit on the battlefield.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Aplica **Heal (D6)** a cada unidad amiga en el campo de batalla.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -2797,8 +2795,8 @@ the target.</characteristic>
                     <profile name="Resolute Conviction" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="da59-3936-d8e0-21d5">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a **^^Manifestation^^** within this unit&apos;s combat range to be the target</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, the target is banished and removed from play.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una **^^Manifestation^^** dentro del alcance de combate de esta unidad</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, el objetivo es desterrado y retirado del juego.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -2824,10 +2822,10 @@ the target.</characteristic>
                   <profiles>
                     <profile name="Dominant Dogma" typeId="5946-234-d7b4-6195" typeName="Ability (Prayer)" hidden="false" id="8962-4472-459b-9cdc">
                       <characteristics>
-                        <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Once Per Turn, Reaction: You declared a **^^Summon Prayer^^** ability for this unit</characteristic>
+                        <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Una vez por turno, reacción: Declaraste una habilidad **^^Summon Prayer^^** para esta unidad</characteristic>
                         <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef"/>
                         <characteristic name="Declare" typeId="284c-90b2-245b-adf3"/>
-                        <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">If the prayer is answered, after resolving its effect, instead of resetting this unit&apos;s ritual points total to 0, reset it to half the chanting value of the prayer, rounding up.</characteristic>
+                        <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Si la plegaria es respondida, después de resolver su efecto, en lugar de restablecer el total de puntos de ritual de esta unidad a 0, restablécelo a la mitad del valor de cántico de la plegaria, redondeando hacia arriba.</characteristic>
                         <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d"/>
                       </characteristics>
                       <attributes>
@@ -2846,7 +2844,7 @@ the target.</characteristic>
                     <profile name="Sparking Divinity" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d07c-1d96-b2ea-c7d7">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time this unit uses a **^^Summon Prayer^^** ability and the prayer is answered, add 1 to this unit&apos;s power level for the rest of the battle.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Summon Prayer^^** y la plegaria sea respondida, añade 1 al nivel de poder de esta unidad durante el resto de la batalla.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -2894,7 +2892,7 @@ the target.</characteristic>
                     <profile name="Tireless Pursuers" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b5b5-227c-bf2e-1397">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time this unit uses a **^^Move^^** ability, add 2&quot; to the distance it can move</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Move^^**, añade 2" a la distancia que puede moverse</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -2937,7 +2935,7 @@ the target.</characteristic>
                     <profile name="Sparking Claws" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="942f-fbcd-de99-8b5e">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit&apos;s melee weapons have **Crit (Auto-wound)**. This ability also affects **Companion** weapons.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas de combate de esta unidad tienen **Crit (Auto-wound)**. Esta habilidad también afecta a las armas **Companion**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -2955,7 +2953,7 @@ the target.</characteristic>
                     <profile name="Hunter&apos;s Instinct" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="14ba-6292-d1fb-5868">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to hit rolls for this unit&apos;s combat attacks. This ability also affects **Companion** weapons.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a las tiradas de impacto de los ataques de combate de esta unidad. Esta habilidad también afecta a las armas **Companion**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -2981,7 +2979,7 @@ the target.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Monster^^** enemigo en combate con esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, for the rest of the turn, the target must apply the effects of its &apos;Battle Damaged&apos; ability regardless of how many damage points it has.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, durante el resto del turno, el objetivo debe aplicar los efectos de su habilidad &apos;Battle Damaged&apos; independientemente del número de puntos de daño que tenga.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3026,7 +3024,7 @@ the target.</characteristic>
                     <profile name="Frothing" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1d6f-0bd3-51de-4346">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignore the first damage point that would be allocated to this unit in each phase.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora el primer punto de daño que se fuera a asignar a esta unidad en cada fase.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -3084,8 +3082,8 @@ the target.</characteristic>
                     <profile name="Lead By Example" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="732d-0d5f-2689-5374">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de carga</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If this unit charged this phase, pick another friendly unit wholly within 12&quot; of it to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">You can re-roll charge rolls for the target for the rest of the phase.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó esta fase, elige como objetivo otra unidad amiga totalmente a 12" o menos de ella.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Puedes volver a tirar las tiradas de carga del objetivo durante el resto de la fase.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3105,8 +3103,8 @@ the target.</characteristic>
                     <profile name="Inspirational" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="0f9f-b623-b155-1fbe">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de héroe</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly non-**^^Hero^^** unit wholly within 12&quot; of this unit to the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll 2D6. Add the roll to the target&apos;s control score for the rest of the turn.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga que no sea **^^Hero^^** totalmente a 12" o menos de esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 2D6. Añade el resultado a la puntuación de control del objetivo durante el resto del turno.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3140,7 +3138,7 @@ the target.</characteristic>
                     <profile name="Magnificent Fury" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4258-c2cd-37fc-7a05">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit is in combat, add 1 to wound rolls for combat attacks made by other friendly units while they are within this unit&apos;s combat range.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté en combate, añade 1 a las tiradas de herida de los ataques de combate de otras unidades amigas mientras estén dentro del alcance de combate de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -3158,8 +3156,8 @@ the target.</characteristic>
                     <profile name="Stand Firm" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="58e3-906b-6c13-9311">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick this unit and a friendly non-**^^Hero^^** unit within its combat range to be the targets.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the turn, if either target uses the &apos;All-out Defence&apos; command, the other target can also use the same command in the same phase and no command points are spent to use the command a second time.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos esta unidad y una unidad amiga que no sea **^^Hero^^** dentro de su alcance de combate.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, si cualquiera de los objetivos usa la orden &apos;All-out Defence&apos;, el otro objetivo también puede usar la misma orden en la misma fase y no se gastan puntos de orden para usarla una segunda vez.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3186,8 +3184,8 @@ the target.</characteristic>
                     <profile name="Martial Exemplar" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="3d44-6475-338a-1712">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If this unit destroyed an enemy unit this turn, pick another visible friendly unit wholly within 12&quot; of this unit to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Until the end of the next battle round, add 1 to the Attacks characteristic of the target&apos;s melee weapons.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad destruyó una unidad enemiga este turno, elige como objetivo otra unidad amiga visible totalmente a 12" o menos de esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Hasta el final de la siguiente ronda de batalla, añade 1 a la característica de Attacks de las armas de combate del objetivo.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3207,7 +3205,7 @@ the target.</characteristic>
                     <profile name="Drillmaster" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d2ef-6efc-9d87-5f18">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If this unit is in combat, pick another friendly unit within its combat range to be the target.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está en combate, elige como objetivo otra unidad amiga dentro de su alcance de combate.</characteristic>
                         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de las armas de cuerpo a cuerpo del objetivo. Durante el resto del turno, suma 1 a la característica de Rend de esa arma.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -3235,8 +3233,8 @@ the target.</characteristic>
                     <profile name="&apos;To Arms!&apos;" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9667-e949-1d07-ca17">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If this unit is in combat, pick another friendly unit wholly within 12&quot; of this unit that is in combat to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">The target can immediately use a **^^Fight^^** ability as if it were the combat phase.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está en combate, elige como objetivo otra unidad amiga totalmente a 12" o menos de esta unidad que esté en combate.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">El objetivo puede usar inmediatamente una habilidad **^^Fight^^** como si fuera la fase de combate.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3256,8 +3254,8 @@ the target.</characteristic>
                     <profile name="Decisive Strike" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d103-a558-c8f9-5f45">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de combate enemiga</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If this unit is not in combat, pick each friendly unit within its combat range that is not in combat to be the targets.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Each target can move D6&quot;. The targets can pass through the combat ranges of enemy units and can end that move in combat.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no está en combate, elige como objetivos todas las unidades amigas dentro de su alcance de combate que no estén en combate.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada objetivo puede moverse D6". Los objetivos pueden atravesar los alcances de combate de las unidades enemigas y pueden terminar ese movimiento en combate.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3295,7 +3293,7 @@ the target.</characteristic>
                     <profile name="Focused Sorcery" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5c79-5c5e-4449-f8de">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">The first time this unit uses a non-**^^Summon Spell^^** ability each phase, add 2 to the casting roll for that spell.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La primera vez que esta unidad use una habilidad **^^Spell^^** que no sea **^^Summon^^** en cada fase, añade 2 a la tirada de lanzamiento de ese hechizo.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -3313,7 +3311,7 @@ the target.</characteristic>
                     <profile name="Power Disruptor" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7041-389a-53da-a296">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to unbinding rolls for this unit. In addition, this unit can use the &apos;Unbind&apos; ability if the enemy **^^Wizard^^** casting the spell is anywhere on the battlefield instead of within 30&quot; of this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a las tiradas de desvinculación de esta unidad. Además, esta unidad puede usar la habilidad &apos;Unbind&apos; si el **^^Wizard^^** enemigo que lanza el hechizo está en cualquier lugar del campo de batalla en lugar de a 30" o menos de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -3346,7 +3344,7 @@ the target.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de tu turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">This unit can use a **^^Spell^^** ability as if it were your hero phase.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar una habilidad **^^Spell^^** como si fuera tu fase de héroe.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3366,7 +3364,7 @@ the target.</characteristic>
                     <profile name="Honed Talent" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e371-a32f-9be7-53ec">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If the casting roll for this unit is a double, add 1 to this unit&apos;s power level for the rest of the phase.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si la tirada de lanzamiento de esta unidad es un doble, añade 1 a su nivel de poder durante el resto de la fase.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -3391,7 +3389,7 @@ the target.</characteristic>
                     <profile name="Arcane Onslaught" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5ef6-2695-aaa0-bfc6">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time this unit uses an **^^Unlimited Spell^^** ability, you can pick up to 2 eligible units to be the targets instead of 1.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Unlimited Spell^^**, puedes elegir hasta 2 unidades válidas como objetivos en lugar de 1.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -3410,7 +3408,7 @@ the target.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, tu fase de héroe</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">The next spell cast by this unit this phase cannot be unbound.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">El siguiente hechizo que lance esta unidad esta fase no puede ser desvinculado.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3436,12 +3434,12 @@ the target.</characteristic>
                   <profiles>
                     <profile name="Shield of Eldritch Flame" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="34e2-4d32-2ee3-32f6">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reaction: Opponent declared a **^^Fight^^** ability that targeted this unit</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: El oponente declaró una habilidad **^^Fight^^** cuyo objetivo era esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Until the end of the next turn:
-• Subtract 1 from hit rolls and wound rolls for attacks that target this unit.
-• Subtract 1 from the Rend characteristic and Damage characteristic of weapons used for attacks that target this unit.
-• Subtract 1 from this unit&apos;s power level, to a minimum of 0.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Hasta el final del siguiente turno:
+• Resta 1 a las tiradas de impacto y de herida de los ataques cuyo objetivo sea esta unidad.
+• Resta 1 a las características de Rend y de Damage de las armas usadas para ataques cuyo objetivo sea esta unidad.
+• Resta 1 al nivel de poder de esta unidad, hasta un mínimo de 0.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3462,7 +3460,7 @@ the target.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de tu turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If a unit was destroyed by a **^^Spell^^** ability used by this unit this turn, add 1 to this unit&apos;s power level for the rest of the battle.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si una habilidad **^^Spell^^** usada por esta unidad destruyó una unidad este turno, añade 1 al nivel de poder de esta unidad durante el resto de la batalla.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3515,7 +3513,7 @@ the target.</characteristic>
                     <profile name="Caked in Gore" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1dbd-ab1d-b1cb-97eb">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 10 to this unit&apos;s control score while it is in combat.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 10 a la puntuación de control de esta unidad mientras esté en combate.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -3533,7 +3531,7 @@ the target.</characteristic>
                     <profile name="Lost in the Melee" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="21bb-cd47-097e-2eb3">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit cannot targeted by shooting attacks while it is in combat.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad no puede ser objetivo de ataques de disparo mientras esté en combate.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -3564,9 +3562,9 @@ the target.</characteristic>
                   <profiles>
                     <profile name="Gifted Gladiator" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="17b4-bab4-5539-53b6">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reaction: You declared the &apos;All-out Attack&apos; or &apos;All-out Defence&apos; command for this unit</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste la orden &apos;All-out Attack&apos; o &apos;All-out Defence&apos; para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit is in combat, roll a dice. On a 3+, no command points are spent to use that command.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está en combate, tira un dado. Con un 3+, no se gastan puntos de orden para usar esa orden.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3586,8 +3584,8 @@ the target.</characteristic>
                     <profile name="Quick Fire" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="58e1-43f9-c13a-a7ff">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de disparo</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If this unit is in combat, pick 1 of its ranged weapons to be the target weapon and pick an enemy unit in combat with it to be the target unit.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, the target weapon has **Shoot in Combat** for the rest of the phase but all attacks made with that weapon this phase must target the target unit.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está en combate, elige 1 de sus armas a distancia como arma objetivo y elige una unidad enemiga en combate con ella como unidad objetivo.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, el arma objetivo tiene **Shoot in Combat** durante el resto de la fase, pero todos los ataques realizados con esa arma esta fase deben tener como objetivo la unidad objetivo.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3614,7 +3612,7 @@ the target.</characteristic>
                     <profile name="Blindsiding Barrage" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="0e52-e008-43d2-b424">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If this unit charged this battle round, it has **^^Strike-first^^** for the rest of the battle round.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad cargó esta ronda de batalla, tiene **^^Strike-first^^** durante el resto de la ronda de batalla.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -3632,8 +3630,8 @@ the target.</characteristic>
                     <profile name="Bringer of Carnage" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e3b1-6d55-090f-3951">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If this unit is in combat, pick 1 of its non-**Companion** melee weapons to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 1-4, add 1 to the target&apos;s Damage characteristic for the rest of the phase. On a 5+, add 2 to the target&apos;s Damage characteristic for the rest of the phase.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está en combate, elige como objetivo 1 de sus armas de combate que no sean **Companion**.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 1-4, añade 1 a la característica de Damage del objetivo durante el resto de la fase. Con un 5+, añade 2 a la característica de Damage del objetivo durante el resto de la fase.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3661,7 +3659,7 @@ the target.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit used a **^^Fight^^** ability this turn, add 1 to the Attacks characteristic of its non-**Companion** melee weapons for the rest of the battle.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad usó una habilidad **^^Fight^^** este turno, añade 1 a la característica de Attacks de sus armas de combate que no sean **Companion** durante el resto de la batalla.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3682,7 +3680,7 @@ the target.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice for each enemy unit in combat with this unit. For each 2+, add 1 to the Rend characteristic of this unit&apos;s melee weapons for the rest of the phase.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado por cada unidad enemiga en combate con esta unidad. Por cada 2+, añade 1 a la característica de Rend de las armas de combate de esta unidad durante el resto de la fase.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3726,7 +3724,7 @@ the target.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Give this unit D3 ritual points.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Da a esta unidad D3 puntos de ritual.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3747,7 +3745,7 @@ the target.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Priest^^** enemigo a 12" o menos de esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a D3. Remove a number of ritual points from the target equal to the roll, to a minimum of 1.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Retira del objetivo un número de puntos de ritual igual al resultado, hasta un mínimo de 1.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3802,7 +3800,7 @@ the target.</characteristic>
                     <profile name="Refute the False" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b056-12c4-1b01-9bf6">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 1 from chanting rolls for enemy units while they are within 12&quot; of this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de cántico de las unidades enemigas mientras estén a 12" o menos de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -3827,7 +3825,7 @@ the target.</characteristic>
                     <profile name="Assured Devotion" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5f52-cc97-e5dd-d9ef">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time an unmodified chanting roll for an enemy **^^Priest^^** is 1, give this unit D3 ritual points.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una tirada de cántico sin modificar de un **^^Priest^^** enemigo sea de 1, da a esta unidad D3 puntos de ritual.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -3845,7 +3843,7 @@ the target.</characteristic>
                     <profile name="Smite False Prophets" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5def-3dc0-8fb4-7e59">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time this unit chants a prayer and the chanting roll is 12+, inflict 1 mortal damage on each enemy **^^Priest^^** and enemy **^^Wizard^^** on the battlefield.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad entone una plegaria y la tirada de cántico sea de 12+, inflige 1 de daño mortal a cada **^^Priest^^** enemigo y **^^Wizard^^** enemigo en el campo de batalla.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -3871,8 +3869,8 @@ the target.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Tu fase de héroe</characteristic>
                         <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">7</characteristic>
-                        <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Pick a friendly **^^Infantry Hero^^** that has been destroyed to be the target, then make a chanting roll of D6.</characteristic>
-                        <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Set up a replacement unit identical to the target wholly within 3&quot; of this unit.</characteristic>
+                        <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Elige como objetivo un **^^Infantry Hero^^** amigo que haya sido destruido y después haz una tirada de cántico de D6.</characteristic>
+                        <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Coloca una unidad de reemplazo idéntica al objetivo totalmente a 3" o menos de esta unidad.</characteristic>
                         <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Prayer^^**</characteristic>
                       </characteristics>
                       <attributes>
@@ -3891,7 +3889,7 @@ the target.</characteristic>
                     <profile name="Grand Armageddon" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9666-bafb-d23f-37a7">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de disparo</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick each objective on the battlefield to be the targets.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos todos los marcadores de objetivo del campo de batalla.</characteristic>
                         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">
                           <conditionGroups>
                             <conditionGroup type="and">
@@ -3987,7 +3985,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Ash-blighted" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="0571-ba82-1d06-85bb">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 1 from the Attacks characteristic of this unit&apos;s weapons.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a la característica de Attacks de las armas de esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color"/>
@@ -4005,7 +4003,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Raging Agonies" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ed5c-6311-3e2c-3bdc">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time you declare a non-**^^Core^^** ability for this unit, as a reaction, roll a dice. On a 5+, that ability has no effect.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que declares una habilidad que no sea **^^Core^^** para esta unidad, como reacción, tira un dado. Con un 5+, esa habilidad no tiene efecto.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color"/>
@@ -4027,7 +4025,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Smouldering Scars" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5f89-ee5b-8e44-7e92">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">At the end of the battle, roll a dice. On a 5+, this unit suffers D3 battle wounds.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Al final de la batalla, tira un dado. Con un 5+, esta unidad sufre D3 heridas de batalla.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color"/>
@@ -4045,7 +4043,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Scorched Limbs" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="926f-d9f9-3267-b693">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 1 from run rolls and charge rolls for this unit.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de correr y de carga de esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color"/>
@@ -4063,7 +4061,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Unyielding Blisters" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6565-ca64-147e-2a4c">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Damage points allocated to this unit cannot be healed.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Los puntos de daño asignados a esta unidad no pueden curarse.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color"/>
@@ -4109,7 +4107,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Warp-rust" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e9ed-388d-e85f-e1b0">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time you declare a **^^Fight^^** ability for this unit, as a reaction, roll a dice. On a 4+, for the rest of the turn, this unit&apos;s non-**Companion** melee weapons cannot be affected by weapon abilities.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que declares una habilidad **^^Fight^^** para esta unidad, como reacción, tira un dado. Con un 4+, durante el resto del turno, las armas de combate de esta unidad que no sean **Companion** no pueden verse afectadas por habilidades de arma.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color"/>
@@ -4127,7 +4125,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Endless Chittering" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c0e8-986d-63ee-d732">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time you declare a command for this unit, as a reaction, roll a dice. On a 4+, that command has no effect, it still counts as having been used and the command points spent to use it are still lost.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que declares una orden para esta unidad, como reacción, tira un dado. Con un 4+, esa orden no tiene efecto, sigue contando como usada y los puntos de orden gastados para usarla se pierden igualmente.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color"/>
@@ -4174,10 +4172,10 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** enemigo.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the battle, while this unit is in combat with the target:
-• All of this unit&apos;s attacks must target that **^^Hero^^**.
-• Add 1 to wound rolls for this unit&apos;s combat attacks.
-• This unit&apos;s melee weapons have **Anti-^^Hero^^ (+1 Rend)**.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la batalla, mientras esta unidad esté en combate con el objetivo:
+• Todos los ataques de esta unidad deben tener como objetivo ese **^^Hero^^**.
+• Añade 1 a las tiradas de herida de los ataques de combate de esta unidad.
+• Las armas de combate de esta unidad tienen **Anti-^^Hero^^ (+1 Rend)**.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -4197,8 +4195,8 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Warpmock Blade" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7e88-13d4-6506-3279">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick 1 of this unit&apos;s non-**Companion** melee weapons to be the target weapon.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the battle, while this unit is in combat, in addition to its own weapon abilities, the target weapon has all of the weapon abilities that the melee weapons used by enemy units in combat with it have, except for the **Companion** weapon ability.</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige 1 de las armas de combate de esta unidad que no sean **Companion** como arma objetivo.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la batalla, mientras esta unidad esté en combate, además de sus propias habilidades de arma, el arma objetivo tiene todas las habilidades de arma que tengan las armas de combate usadas por las unidades enemigas en combate con ella, excepto la habilidad de arma **Companion**.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -4218,7 +4216,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Cremated Pendant" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3843-defc-b843-398d">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add double the current battle round number to this unit&apos;s control score.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade el doble del número de la ronda de batalla actual a la puntuación de control de esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -4236,7 +4234,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Sparking Shield" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fdeb-529b-a533-d181">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time an unmodified hit roll for a combat attack that targets this unit is 1, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una tirada de impacto sin modificar de un ataque de combate cuyo objetivo sea esta unidad sea de 1, inflige 1 de daño mortal a la unidad atacante después de resolver la habilidad **^^Fight^^**.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -4750,7 +4748,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Forthright Fury" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5bbe-c7b2-8c26-7c5e">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">When making run rolls for friendly units wholly within 12&quot; of this unit, if you roll a 1-3, you can use a value of 4 instead.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Al hacer tiradas de correr para unidades amigas totalmente a 12" o menos de esta unidad, si obtienes un 1-3, puedes usar un valor de 4 en su lugar.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -4768,7 +4766,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Words of Blazing Power" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5e27-c8ef-b687-9f47">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 1 to casting rolls for this unit when it casts a spell from the Lore of Magmic Fury.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a las tiradas de lanzamiento de esta unidad cuando lance un hechizo del Lore of Magmic Fury.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -4786,7 +4784,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Spiteful Spark" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1e32-9f8e-0245-c69a">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick each enemy unit in combat with this unit to be the targets.</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos todas las unidades enemigas en combate con esta unidad.</characteristic>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado por cada objetivo. Con un 2+, inflige 1 de daño mortal a ese objetivo.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -4807,7 +4805,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <profile name="Live on the Edge" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3ddd-2676-0846-e06e">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit has **^^Ward (4+)^^** against damage points inflicted by **^^Shoot^^** abilities.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad tiene **^^Ward (4+)^^** contra los puntos de daño infligidos por habilidades **^^Shoot^^**.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -4824,9 +4822,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
               <profiles>
                 <profile name="Brash and Angry" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b9ff-224a-08aa-1920">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Battle, Reaction: Opponent declared a **^^Charge^^** ability for an enemy unit within 9&quot; of this unit</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, reacción: El oponente declaró una habilidad **^^Charge^^** para una unidad enemiga a 9" o menos de esta unidad</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit is not in combat, it can immediately use a **^^Charge^^** ability as if it was your charge phase, but it must end the move within 1/2&quot; of that enemy unit. If it does so, this unit has charged and that enemy unit&apos;s **^^Charge^^** ability has no effect. This unit has **^^Strike-last^^** for the rest of the turn.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no está en combate, puede usar inmediatamente una habilidad **^^Charge^^** como si fuera tu fase de carga, pero debe terminar el movimiento a 1/2" o menos de esa unidad enemiga. Si lo hace, esta unidad ha cargado y la habilidad **^^Charge^^** de esa unidad enemiga no tiene efecto. Esta unidad tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>

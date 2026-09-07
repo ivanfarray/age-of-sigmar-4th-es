@@ -76,13 +76,14 @@ Estado a 7 de septiembre de 2026: **traducción en curso**.
 
 Hay 133 parejas de archivos generadas y verificadas. Esto confirma que sus
 estructuras e identificadores se conservan, pero no que todos sus textos estén
-traducidos. Se ha completado la prosa de las bibliotecas de Blades of Khorne,
-Kharadron Overlords, Sylvaneth y Nighthaunt, y recuperado el JSON de las reglas
-generales desde su versión española existente.
+traducidos. El último bloque añade 2.619 traducciones y completa la prosa de
+otras diez bibliotecas de facción, Lores y los dos suplementos de Path to Glory,
+además de las cuatro bibliotecas completadas anteriormente.
 
-Quedan 17 archivos con 2.725 entradas vacías de más de 90 caracteres, además de
-posibles etiquetas cortas. Las palabras clave, nombres de habilidades de arma
-y datos que deben conservarse en inglés permanecen con valor vacío.
+Quedan 4 archivos con 690 entradas vacías de más de 90 caracteres: Cities of
+Sigmar, Regiments of Renown, Soulblight Gravelords y Stormcast Eternals, además
+de posibles etiquetas cortas. Las palabras clave, nombres de habilidades de
+arma y datos que deben conservarse en inglés permanecen con valor vacío.
 
 El detalle del avance y los archivos pendientes está en
 [ESTADO-TRADUCCION.md](ESTADO-TRADUCCION.md).
