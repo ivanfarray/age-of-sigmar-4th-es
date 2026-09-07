@@ -31,8 +31,8 @@
         <profile name="The Adevore" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9e43-c969-f28d-4707">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an enemy **^^Hero^^** that was allocated any damage points inflicted by this unit&apos;s **Akmet-har** this turn to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 5+, the target is automatically destroyed.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Hero^^** enemigo al que se haya asignado algún punto de daño infligido por el **Akmet-har** de esta unidad en este turno como blanco.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 5+, el blanco queda destruido automáticamente.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -45,7 +45,7 @@
         <profile name="Twilight&apos;s Allure" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f0e-fc7e-cd8b-27fe">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 1 from hit rolls for combat attacks that target friendly **^^Soulblight Gravelords^^** units while they are wholly within 6&quot; of this unit.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de impacto de los ataques de combate que tengan como blanco a unidades **^^Soulblight Gravelords^^** amigas mientras estén totalmente a 6" o menos de esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -57,8 +57,8 @@
           <characteristics>
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
-            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a visible friendly non-**^^Monster Soulblight Gravelords^^** unit wholly within 12&quot; of this unit to be the target, then make a casting roll of 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Ignore modifiers to save rolls for the target (positive and negative) until the start of your next turn.</characteristic>
+            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige una unidad **^^Soulblight Gravelords^^** amiga visible que no sea **^^Monster^^**, totalmente a 12" o menos de esta unidad, como blanco y, después, haz una tirada de lanzamiento de 2D6.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Ignora los modificadores a las tiradas de salvación del blanco (positivos y negativos) hasta el inicio de tu próximo turno.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
           </characteristics>
           <attributes>
@@ -295,7 +295,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">You can return 1 slain model to this unit.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Puedes devolver 1 miniatura abatida a esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -308,7 +308,7 @@
         <profile name="Knights of the King" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="52d4-06a7-ec96-18aa">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While any friendly **^^Deathrattle Cavalry Heroes^^** are within this unit&apos;s combat range, both this unit and those friendly units have **^^Ward (5+)^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras algún **^^Deathrattle Cavalry Heroes^^** amigo esté dentro del alcance de combate de esta unidad, tanto esta unidad como esas unidades amigas tienen **^^Ward (5+)^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -434,7 +434,7 @@
         <profile name="Nexus of Death Energy" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1941-6112-1832-1055">
           <characteristics>
             <characteristic name="Keywords" id="a10d-f3eb-1922-118a" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="a8e5-1ef5-4895-efe1" hidden="false" typeId="fd7f-888d-3257-a12b">When a friendly **^^Deathrattle^^** or **^^Deadwalkers^^** unit wholly within 12&quot; of this unit is picked to be the target of the &apos;Deathly Invocation&apos; ability, add D3 to the number of damage points that can be healed or the combined Health characteristic of models that can be returned.</characteristic>
+            <characteristic name="Effect" id="a8e5-1ef5-4895-efe1" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando una unidad **^^Deathrattle^^** o **^^Deadwalkers^^** amiga totalmente a 12" o menos de esta unidad sea elegida como blanco de la habilidad &apos;Deathly Invocation&apos;, suma D3 a la cantidad de puntos de daño que pueden curarse o al atributo Health combinado de las miniaturas que pueden devolverse.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Yellow</attribute>
@@ -446,7 +446,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta 3 unidades enemigas a 10" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice for each target. On a 3+, inflict an amount of mortal damage on the target equal to the value of this unit&apos;s **stored energy dice**. Then, change the value of the **stored energy dice** back to 1.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado por cada blanco. Con un 3+, inflige al blanco una cantidad de daño mortal igual al valor del **dado de energía almacenada** de esta unidad. Después, cambia el valor del **dado de energía almacenada** de nuevo a 1.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -459,7 +459,7 @@
         <profile name="The Reliquary" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="572b-2ea-efce-40a5">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">When this unit is set up for the first time, place a **stored energy dice** beside it with the &apos;1&apos; facing up. Each time a friendly **^^Soulblight Gravelords Wizards^^** successfully casts a spell while it is within 12&quot; of this unit, increase the value of the **stored energy dice** beside this unit by 1 (to a maximum of 6).</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando esta unidad se coloque por primera vez, coloca un **dado de energía almacenada** junto a ella con el &apos;1&apos; hacia arriba. Cada vez que un **^^Soulblight Gravelords Wizards^^** amigo lance un hechizo con éxito mientras esté a 12" o menos de esta unidad, aumenta en 1 el valor del **dado de energía almacenada** junto a esta unidad (hasta un máximo de 6).</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -707,7 +707,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit charged this turn, roll a dice. On a 3+, this unit has **^^Strike-First^^** for the rest of the turn.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad ha cargado en este turno, tira un dado. Con un 3+, esta unidad tiene **^^Strike-First^^** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -720,7 +720,7 @@
         <profile name="The Sword of Unholy Power" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="87db-5f47-d8db-3d68">
           <characteristics>
             <characteristic name="Keywords" id="2b0e-4aed-342-e788" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="c436-154d-e0fc-5172" hidden="false" typeId="fd7f-888d-3257-a12b">If this unit has slain any enemy models this turn, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **^^Deathrattle^^** and **^^Deadwalkers^^** units while they are wholly within 12&quot; of this unit.</characteristic>
+            <characteristic name="Effect" id="c436-154d-e0fc-5172" hidden="false" typeId="fd7f-888d-3257-a12b">Si esta unidad ha abatido alguna miniatura enemiga en este turno, durante el resto del turno, suma 1 al atributo Attacks de las armas de combate usadas por unidades **^^Deathrattle^^** y **^^Deadwalkers^^** amigas mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
@@ -732,7 +732,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
-            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a point on the battlefield within 18&quot; of the caster, pick up to 3 enemy units within 6&quot; of that point and visible to the caster to be the targets, then make a casting roll of 2D6.</characteristic>
+            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige un punto del campo de batalla a 18" o menos del lanzador, elige hasta 3 unidades enemigas a 6" o menos de ese punto y visibles para el lanzador como blancos y, después, haz una tirada de lanzamiento de 2D6.</characteristic>
             <characteristic name="Effect" typeId="1cb9-a-1345-907f">Tira un D3 por cada objetivo. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
           </characteristics>
@@ -745,7 +745,7 @@
           <characteristics>
             <characteristic name="Timing" id="e0fc-82e7-be37-43a0" hidden="false" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redeploy&apos; para una unidad **^^Soulblight Gravelords^^** que esté totalmente a 12" o menos de esta unidad</characteristic>
             <characteristic name="Declare" id="e552-25b5-e76e-4bcd" hidden="false" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" id="e603-4e99-ebf8-f420" hidden="false" typeId="b6f1-ba36-6cd-3b03">The unit using the &apos;Redeploy&apos; command can move into combat when using that ability</characteristic>
+            <characteristic name="Effect" id="e603-4e99-ebf8-f420" hidden="false" typeId="b6f1-ba36-6cd-3b03">La unidad que use la orden &apos;Redeploy&apos; puede entrar en combate al usar esa habilidad.</characteristic>
             <characteristic name="Keywords" id="19af-5c98-4e3a-1562" hidden="false" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -841,7 +841,7 @@
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">6</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Haz una tirada de lanzamiento de 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Subtract 1 from hit rolls and wound rolls for attacks that target this unit for the rest of the turn.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Resta 1 a las tiradas de impacto y para herir de los ataques que tengan como blanco a esta unidad durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
           </characteristics>
           <attributes>
@@ -853,7 +853,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit is not in combat, it can move D6&quot;. It can move into combat.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no está en combate, puede moverse D6". Puede entrar en combate.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -866,7 +866,7 @@
         <profile name="Call to the Hunt" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fc67-4f0a-36a6-e93c">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If this unit charged this turn, for the rest of the turn, add 1 to wound rolls for combat attacks made by friendly **^^Deathrattle^^** and **^^Deadwalkers^^** units while they are wholly within 12&quot; of this unit.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad ha cargado en este turno, durante el resto del turno, suma 1 a las tiradas para herir de los ataques de combate de las unidades **^^Deathrattle^^** y **^^Deadwalkers^^** amigas mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
@@ -967,7 +967,7 @@
         <profile name="Trail of Crimson" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="fad2-252a-f50b-2c39">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">This unit can make a pile-in move (even if it is not in combat). Then, if this unit is in combat, pick an enemy unit in combat with it to be the target.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Esta unidad puede hacer un movimiento de aproximación (incluso si no está en combate). Después, si esta unidad está en combate, elige una unidad enemiga en combate con ella como blanco.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 4+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -983,7 +983,7 @@
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Haz una tirada de lanzamiento de 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">This unit has **^^Strike-First^^** until the start of your next turn.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Esta unidad tiene **^^Strike-First^^** hasta el inicio de tu próximo turno.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
           </characteristics>
           <attributes>
@@ -994,12 +994,12 @@
         <profile name="Saint of Slaughter" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c34c-e4c9-26f7-1243">
           <characteristics>
             <characteristic name="Timing" id="e36d-37bc-b603-85e6" hidden="false" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
-            <characteristic name="Declare" id="279f-171e-6987-6809" hidden="false" typeId="bad3-f9c5-ba46-18cb">Pick a friendly non-**^^Monster Vampire^^** unit that destroyed a unit this turn using a **^^Fight^^** ability and is wholly within 12&quot; of this unit to be the target.</characteristic>
-            <characteristic name="Effect" id="dbfb-a2c7-ab6e-b8cf" hidden="false" typeId="b6f1-ba36-6cd-3b03">Pick 1 of the following effects to apply for the rest of the battle:
-• Add 2&quot; to the target&apos;s Move characteristic.
-• Add 1 to the Attacks characteristic of the target&apos;s melee weapons.
-• Add 1 to the Damage characteristic of the target&apos;s melee weapons.
-More than 1 effect can apply to a unit at the same time; however, each effect can only be applied to a unit once.</characteristic>
+            <characteristic name="Declare" id="279f-171e-6987-6809" hidden="false" typeId="bad3-f9c5-ba46-18cb">Elige una unidad **^^Vampire^^** amiga que no sea **^^Monster^^**, que haya destruido una unidad en este turno usando una habilidad **^^Fight^^** y esté totalmente a 12" o menos de esta unidad, como blanco.</characteristic>
+            <characteristic name="Effect" id="dbfb-a2c7-ab6e-b8cf" hidden="false" typeId="b6f1-ba36-6cd-3b03">Elige 1 de los siguientes efectos para aplicarlo durante el resto de la batalla:
+• Suma 2" al atributo Move del blanco.
+• Suma 1 al atributo Attacks de las armas de combate del blanco.
+• Suma 1 al atributo Damage de las armas de combate del blanco.
+Puede aplicarse más de 1 efecto a una unidad al mismo tiempo; sin embargo, cada efecto solo puede aplicarse a una unidad una vez.</characteristic>
             <characteristic name="Keywords" id="b665-e5bc-15fd-78fe" hidden="false" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1131,7 +1131,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">6</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Haz una tirada de lanzamiento de 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">For the rest of the turn, subtract 5 from the control scores of enemy **^^Monsters^^** while they are within 12&quot; of this unit.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Durante el resto del turno, resta 5 a las puntuaciones de control de los **^^Monsters^^** enemigos mientras estén a 12" o menos de esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
           </characteristics>
           <attributes>
@@ -1153,7 +1153,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="Behemoth&apos;s Bane" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e207-b81c-eb37-6619">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 2 from the Attacks characteristic of enemy **^^Monsters^^**&apos; melee weapons while they are in combat with this unit.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 2 al atributo Attacks de las armas de combate de los **^^Monsters^^** enemigos mientras estén en combate con esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -1245,8 +1245,8 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
           <characteristics>
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">6</characteristic>
-            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a visible friendly non-**^^Unique Soulblight Gravelords Monster^^** wholly within 12&quot; of this unit to be the target, then make a casting roll of 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Pick 1 of the target&apos;s melee weapons. If the target has any **Companion** melee weapons, you must pick 1 of those. Add D3 to the Attacks characteristic of that weapon for the rest of the turn.</characteristic>
+            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige un **^^Soulblight Gravelords Monster^^** amigo visible que no sea **^^Unique^^**, totalmente a 12" o menos de esta unidad, como blanco y, después, haz una tirada de lanzamiento de 2D6.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Elige 1 de las armas de combate del blanco. Si el blanco tiene alguna arma de combate **Companion**, debes elegir 1 de ellas. Suma D3 al atributo Attacks de esa arma durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
           </characteristics>
           <attributes>
@@ -1257,7 +1257,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="Nightmare&apos;s Miasma" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fe4e-c862-f8db-f3e2">
           <characteristics>
             <characteristic name="Keywords" hidden="false" id="f061-97a4-30fd-5132" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" hidden="false" id="4f9-b98f-bf0d-8410" typeId="fd7f-888d-3257-a12b">Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit.</characteristic>
+            <characteristic name="Effect" hidden="false" id="4f9-b98f-bf0d-8410" typeId="fd7f-888d-3257-a12b">Resta 1 al atributo Rend de las armas de combate usadas por unidades enemigas mientras estén en combate con esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -1269,7 +1269,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó este turno, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. If the roll is equal to or less than the target&apos;s Health characteristic, inflict an amount of mortal damage on the target equal to the roll.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si la tirada es igual o inferior al atributo Health del blanco, inflige al blanco una cantidad de daño mortal igual a la tirada.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1363,10 +1363,10 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
           <characteristics>
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
-            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick up to 3 visible friendly **Dire Wolves** units wholly within 18&quot; of this unit to be the targets, then make a casting roll of 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">For the rest of the turn:
-• Add 1 to the Rend characteristic of the targets&apos; melee weapons (including **Companion** weapons).
-• The targets can ignore the effect of the &apos;Beast&apos; ability.</characteristic>
+            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige hasta 3 unidades **Dire Wolves** amigas visibles totalmente a 18" o menos de esta unidad como blancos y, después, haz una tirada de lanzamiento de 2D6.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Durante el resto del turno:
+• Suma 1 al atributo Rend de las armas de combate de los blancos (incluidas las armas **Companion**).
+• Los blancos pueden ignorar el efecto de la habilidad &apos;Beast&apos;.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
           </characteristics>
           <attributes>
@@ -1377,7 +1377,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="First of the Vyrkos" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="af0f-b77b-fc57-c91f">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Add 3 to the control scores of friendly **Radukar the Wolf**, **Radukar the Beast**, **Ivya Volga**, **Lady Annika** and **Kritza** units while they are wholly within 18&quot; of this unit.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 3 a las puntuaciones de control de las unidades **Radukar the Wolf**, **Radukar the Beast**, **Ivya Volga**, **Lady Annika** y **Kritza** amigas mientras estén totalmente a 18" o menos de esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Purple</attribute>
@@ -1388,9 +1388,9 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="Wolfguard" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="585f-3a1e-88f-2184">
           <characteristics>
             <characteristic name="Keywords" id="d32d-b7ee-95dd-8cdb" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="a98e-6e3e-d29-b117" hidden="false" typeId="fd7f-888d-3257-a12b">While this unit is within the combat range of a friendly **Dire Wolves** unit:
-• This unit has **^^Ward (4+)^^**.
-• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **Dire Wolves** unit within this unit&apos;s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).</characteristic>
+            <characteristic name="Effect" id="a98e-6e3e-d29-b117" hidden="false" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté dentro del alcance de combate de una unidad **Dire Wolves** amiga:
+• Esta unidad tiene **^^Ward (4+)^^**.
+• Cada vez que hagas una tirada de salvaguardia exitosa para esta unidad, asigna 1 punto de daño a una unidad **Dire Wolves** amiga dentro del alcance de combate de esta unidad después de resolver la secuencia de daño de esta unidad (no pueden hacerse tiradas de salvaguardia para esos puntos de daño).</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -1479,9 +1479,9 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         </profile>
         <profile name="Arise! Arise!" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="191-29f-5da2-4494">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Battle, Reaction: You declared the &apos;Endless Legions&apos; ability and picked a friendly **^^Deadwalkers^^** unit to be the target</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, Reacción: Has declarado la habilidad &apos;Endless Legions&apos; y has elegido una unidad **^^Deadwalkers^^** amiga como blanco.</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">When resolving the effect of the &apos;Endless Legions&apos; ability, set up the replacement unit wholly within 3&quot; of this unit instead of wholly within 12&quot; and more than 3&quot; from all enemy units instead of more than 9&quot;, even if it is not your movement phase. The replacement unit can still use **^^Charge^^** abilities this turn.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Al resolver el efecto de la habilidad &apos;Endless Legions&apos;, coloca la unidad de reemplazo totalmente a 3" o menos de esta unidad en lugar de totalmente a 12" o menos, y a más de 3" de todas las unidades enemigas en lugar de a más de 9", incluso si no es tu fase de movimiento. La unidad de reemplazo puede seguir usando habilidades **^^Charge^^** en este turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1494,9 +1494,9 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="Keeper of the Corpse-gardens" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="93f0-c49b-d145-1385">
           <characteristics>
             <characteristic name="Keywords" id="b035-a0ca-6f51-4967" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="8581-2207-461c-fbfe" hidden="false" typeId="fd7f-888d-3257-a12b">While this unit is within the combat range of a friendly **Deadwalker Zombies** unit:
-• This unit has **^^Ward (4+)^^**.
-• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **Deadwalker Zombies** unit within this unit&apos;s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).</characteristic>
+            <characteristic name="Effect" id="8581-2207-461c-fbfe" hidden="false" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté dentro del alcance de combate de una unidad **Deadwalker Zombies** amiga:
+• Esta unidad tiene **^^Ward (4+)^^**.
+• Cada vez que hagas una tirada de salvaguardia exitosa para esta unidad, asigna 1 punto de daño a una unidad **Deadwalker Zombies** amiga dentro del alcance de combate de esta unidad después de resolver la secuencia de daño de esta unidad (no pueden hacerse tiradas de salvaguardia para esos puntos de daño).</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -1577,7 +1577,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">6</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige como objetivo una unidad enemiga visible a 18" o menos de esta unidad, después haz una tirada de lanzamiento de 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Until the start of your next turn, subtract 1 from wound rolls for the target&apos;s attacks.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Hasta el inicio de tu próximo turno, resta 1 a las tiradas para herir de los ataques del blanco.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
           </characteristics>
           <attributes>
@@ -1588,7 +1588,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="Trusted Lieutenant" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="33ab-35a3-fb4b-787b">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit can use the &apos;Deathly Invocation&apos; ability even if a different friendly unit has already used it this turn, but units that have already been picked to be targets of that ability this turn cannot be picked to be targets.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar la habilidad &apos;Deathly Invocation&apos; incluso si otra unidad amiga ya la ha usado en este turno, pero no pueden elegirse como blancos unidades que ya hayan sido elegidas como blancos de esa habilidad en este turno.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Yellow</attribute>
@@ -1700,7 +1700,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="Disciplined Advance" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f918-4b5c-3f75-8da0">
           <characteristics>
             <characteristic name="Keywords" id="1671-2456-79ec-1666" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="7d59-cb57-77a8-bc01" hidden="false" typeId="fd7f-888d-3257-a12b">Each time you make a run roll for a friendly **Deathrattle Skeletons** unit wholly within 12&quot; of this unit, you can change that roll to a 4.</characteristic>
+            <characteristic name="Effect" id="7d59-cb57-77a8-bc01" hidden="false" typeId="fd7f-888d-3257-a12b">Cada vez que hagas una tirada de correr para una unidad **Deathrattle Skeletons** amiga totalmente a 12" o menos de esta unidad, puedes cambiar esa tirada a un 4.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Gray</attribute>
@@ -1781,7 +1781,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">6</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Haz una tirada de lanzamiento de 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Until the start of your next turn, you can re-roll charge rolls for friendly **^^Soulblight Gravelords Infantry^^** units while they are wholly within 12&quot; of this unit.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Hasta el inicio de tu próximo turno, puedes repetir las tiradas de carga de las unidades **^^Soulblight Gravelords Infantry^^** amigas mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
           </characteristics>
           <attributes>
@@ -1792,7 +1792,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="Call to the Hunt" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="31db-1948-52c1-ebcf">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If this unit charged this turn, for the rest of the turn, add 1 to wound rolls for combat attacks made by friendly **^^Deathrattle^^** and **^^Deadwalkers^^** units while they are wholly within 12&quot; of this unit.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad ha cargado en este turno, durante el resto del turno, suma 1 a las tiradas para herir de los ataques de combate de las unidades **^^Deathrattle^^** y **^^Deadwalkers^^** amigas mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
@@ -1867,7 +1867,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final del turno enemigo</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">This unit can use a **^^Move^^** ability as if it were your movement phase.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar una habilidad **^^Move^^** como si fuera tu fase de movimiento.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1880,7 +1880,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="Cling to the Shadows" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a510-237d-9822-60d0">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While each model in this unit is within 1&quot; of any terrain features, this unit cannot be targeted by shooting attacks unless the attacking model is within 9&quot; of it.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras todas las miniaturas de esta unidad estén a 1" o menos de algún elemento de terreno, esta unidad no puede ser blanco de ataques de disparo a menos que la miniatura atacante esté a 9" o menos de ella.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -1962,7 +1962,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="Bounding Haste" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6f6d-83ee-2c40-e31d">
           <characteristics>
             <characteristic name="Keywords" id="c3be-cdff-f443-139d" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="7a19-226b-9164-ac1f" hidden="false" typeId="fd7f-888d-3257-a12b">Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3. In addition, when this unit uses a **^^Charge^^** ability, it can pass through terrain features and enemy models as if it had **^^Fly^^**.</characteristic>
+            <characteristic name="Effect" id="7a19-226b-9164-ac1f" hidden="false" typeId="fd7f-888d-3257-a12b">Suma 1 a la cantidad de dados que se tiran al hacer tiradas de carga para esta unidad, hasta un máximo de 3. Además, cuando esta unidad use una habilidad **^^Charge^^**, puede atravesar elementos de terreno y miniaturas enemigas como si tuviera **^^Fly^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Orange</attribute>
@@ -2051,7 +2051,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="A Pact Maintained" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a475-fce1-5cab-f5d7">
           <characteristics>
             <characteristic name="Keywords" id="eb88-c71f-197f-b4bf" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="10cb-55f4-af92-6017" hidden="false" typeId="fd7f-888d-3257-a12b">While a friendly **Radukar the Wolf** or **Radukar the Beast** is within this unit&apos;s combat range, both that unit and this unit have **^^Ward (5+)^^**.</characteristic>
+            <characteristic name="Effect" id="10cb-55f4-af92-6017" hidden="false" typeId="fd7f-888d-3257-a12b">Mientras un **Radukar the Wolf** o **Radukar the Beast** amigo esté dentro del alcance de combate de esta unidad, tanto esa unidad como esta unidad tienen **^^Ward (5+)^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -2134,7 +2134,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="The Verminous Court" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4c69-8aa4-4dbd-d10e">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an enemy unit in combat with this unit to be the target, then pick an artefact of power that the target has.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad enemiga en combate con esta unidad como blanco y, después, elige un artefacto de poder que tenga el blanco.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, el objetivo deja de tener ese artefacto de poder.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -2208,8 +2208,8 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="Starving Nightmare" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="993b-1f02-2b2d-9468">
           <characteristics>
             <characteristic name="Timing" id="80dc-a0f3-ad19-8bb4" hidden="false" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-            <characteristic name="Declare" id="794d-b8d4-b07b-9abf" hidden="false" typeId="bad3-f9c5-ba46-18cb">Pick this unit if it is **lying in wait**.</characteristic>
-            <characteristic name="Effect" id="7262-8b1-2a2f-6d1c" hidden="false" typeId="b6f1-ba36-6cd-3b03">Set up this unit wholly within enemy territory and more than 9&quot; from all enemy units.</characteristic>
+            <characteristic name="Declare" id="794d-b8d4-b07b-9abf" hidden="false" typeId="bad3-f9c5-ba46-18cb">Elige esta unidad si está **al acecho**.</characteristic>
+            <characteristic name="Effect" id="7262-8b1-2a2f-6d1c" hidden="false" typeId="b6f1-ba36-6cd-3b03">Coloca esta unidad totalmente en territorio enemigo y a más de 9" de todas las unidades enemigas.</characteristic>
             <characteristic name="Keywords" id="1444-5789-24b4-f358" hidden="false" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2222,8 +2222,8 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="Kiss of the Blade Proboscian" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7bf8-df52-90b4-9f1d">
           <characteristics>
             <characteristic name="Timing" hidden="false" id="1fcc-1179-b746-90ad" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
-            <characteristic name="Declare" hidden="false" id="6e69-e082-b317-d90d" typeId="bad3-f9c5-ba46-18cb">Pick an enemy unit that was allocated any damage points inflicted by this unit&apos;s combat attacks this turn to be the target.</characteristic>
-            <characteristic name="Effect" hidden="false" id="c05b-afa7-4bb-ab0f" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 2+, subtract 1 from save rolls for the target for the rest of the battle.</characteristic>
+            <characteristic name="Declare" hidden="false" id="6e69-e082-b317-d90d" typeId="bad3-f9c5-ba46-18cb">Elige una unidad enemiga a la que se haya asignado algún punto de daño infligido por los ataques de combate de esta unidad en este turno como blanco.</characteristic>
+            <characteristic name="Effect" hidden="false" id="c05b-afa7-4bb-ab0f" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 2+, resta 1 a las tiradas de salvación del blanco durante el resto de la batalla.</characteristic>
             <characteristic name="Keywords" hidden="false" id="e507-d935-7759-11d0" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2237,7 +2237,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige esta unidad si no ha sido desplegada.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Set up this unit in reserve **lying in wait**. It has now been deployed.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca esta unidad en reserva **al acecho**. Ahora se considera desplegada.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Deploy^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2305,7 +2305,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If any damage points were allocated to enemy units by this unit&apos;s attacks this turn, **Heal (D3)** this unit and each other friendly **^^Soulblight Gravelords Monster^^** wholly within 12&quot; of this unit.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si los ataques de esta unidad han asignado algún punto de daño a unidades enemigas en este turno, aplica **Heal (D3)** a esta unidad y a cada otro **^^Soulblight Gravelords Monster^^** amigo totalmente a 12" o menos de esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2332,7 +2332,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="Nightmare&apos;s Miasma" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b2b7-d6ad-3192-6523">
           <characteristics>
             <characteristic name="Keywords" hidden="false" id="9bcb-5e33-79f2-3a0c" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" hidden="false" id="b089-9653-794c-56a7" typeId="fd7f-888d-3257-a12b">Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit.</characteristic>
+            <characteristic name="Effect" hidden="false" id="b089-9653-794c-56a7" typeId="fd7f-888d-3257-a12b">Resta 1 al atributo Rend de las armas de combate usadas por unidades enemigas mientras estén en combate con esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -2420,7 +2420,7 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit is in combat, gain 1 **rage dice**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está en combate, obtén 1 **dado de ira**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2433,9 +2433,9 @@ More than 1 effect can apply to a unit at the same time; however, each effect c
         <profile name="Frenzied Surge" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="82ae-2078-461f-387a">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">You can pick another visible friendly non-**^^Hero^^** **^^Soulblight Gravelords^^** **^^Infantry^^** or **^^Monster^^** unit wholly within 12&quot; of this unit to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">This unit and the target (if any) can move up to X+D3&quot;, where X is your **fury level**. They can move through enemy models and the combat ranges of enemy units during that move and must end that move in combat.
-If you picked a target, after moving, this unit and the target must be in combat with the same enemy unit.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Puedes elegir otra unidad **^^Soulblight Gravelords^^** **^^Infantry^^** o **^^Monster^^** amiga visible que no sea **^^Hero^^**, totalmente a 12" o menos de esta unidad, como blanco.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad y el blanco (si lo hay) pueden moverse hasta X+D3", donde X es tu **nivel de furia**. Pueden atravesar miniaturas enemigas y los alcances de combate de las unidades enemigas durante ese movimiento y deben terminarlo en combate.
+Si has elegido un blanco, después de moverse, esta unidad y el blanco deben estar en combate con la misma unidad enemiga.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2448,7 +2448,7 @@ If you picked a target, after moving, this unit and the target must be in combat
         <profile name="Nightmare&apos;s Miasma" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3ba0-22ff-7a24-19a2">
           <characteristics>
             <characteristic name="Keywords" hidden="false" id="65b1-4534-252e-8db6" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" hidden="false" id="65ba-383c-a07f-b21b" typeId="fd7f-888d-3257-a12b">Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit.</characteristic>
+            <characteristic name="Effect" hidden="false" id="65ba-383c-a07f-b21b" typeId="fd7f-888d-3257-a12b">Resta 1 al atributo Rend de las armas de combate usadas por unidades enemigas mientras estén en combate con esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -2552,7 +2552,7 @@ If you picked a target, after moving, this unit and the target must be in combat
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="37ab-ede-ba64-ef14">
           <characteristics>
             <characteristic name="Keywords" hidden="false" id="5f79-8757-bc-a2eb" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" hidden="false" id="53ae-7912-6814-9723" typeId="fd7f-888d-3257-a12b">While this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5.</characteristic>
+            <characteristic name="Effect" hidden="false" id="53ae-7912-6814-9723" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, el atributo Attacks de sus Draconic Claws es 5.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -2564,7 +2564,7 @@ If you picked a target, after moving, this unit and the target must be in combat
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó este turno, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a number of dice equal to the target&apos;s Health characteristic. For each 6, inflict 1 mortal damage on the target.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira tantos dados como el atributo Health del blanco. Por cada 6, inflige 1 daño mortal al blanco.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2577,7 +2577,7 @@ If you picked a target, after moving, this unit and the target must be in combat
         <profile name="That Which Should Not Be" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="eacd-f454-2f04-814d">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If this unit charged this turn, for the rest of the turn, subtract 5 from the control scores of enemy units while they are in combat with this unit.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad ha cargado en este turno, durante el resto del turno, resta 5 a las puntuaciones de control de las unidades enemigas mientras estén en combate con esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Purple</attribute>
@@ -2717,7 +2717,7 @@ If you picked a target, after moving, this unit and the target must be in combat
         <profile name="Gut-wrenching Howl" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bbc3-56c0-f5a6-1d95">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an enemy unit in combat with this unit&apos;s **Curseblood** to be the target.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad enemiga en combate con el **Curseblood** de esta unidad como blanco.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 4+, el objetivo tiene **^^Strike-Last^^** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -2731,8 +2731,8 @@ If you picked a target, after moving, this unit and the target must be in combat
         <profile name="Creed of the Askurga Renkai" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7d98-4c3-5874-f428">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 1 from hit rolls for combat attacks made by enemy **^^Monsters^^** that target this unit. 
-Add 1 to hit rolls for combat attacks made by this unit that target enemy **^^Monsters^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de impacto de los ataques de combate de **^^Monsters^^** enemigos que tengan como blanco a esta unidad.
+Suma 1 a las tiradas de impacto de los ataques de combate de esta unidad que tengan como blanco a **^^Monsters^^** enemigos.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
@@ -2899,8 +2899,8 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy **^^M
           <characteristics>
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
-            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a visible unit within 12&quot; of this unit to be the target, then make a casting roll of 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly **Deathrattle** or **Deadwalkers** unit, subtract 1 from wound rolls for combat attacks that target that unit for the rest of the turn.</characteristic>
+            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige una unidad visible a 12" o menos de esta unidad como blanco y, después, haz una tirada de lanzamiento de 2D6.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Si el blanco es una unidad enemiga, inflígele D3 de daño mortal. Si el blanco es una unidad **Deathrattle** o **Deadwalkers** amiga, resta 1 a las tiradas para herir de los ataques de combate que tengan como blanco a esa unidad durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
           </characteristics>
           <attributes>
@@ -2912,10 +2912,10 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy **^^M
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 2+, pick 1 of the following effects to apply until the start of your next turn.
-• This unit has a Move characteristic of 12&quot;. 
-• Add 1 to casting rolls, unbinding rolls and banishment rolls for this unit.
-• This unit&apos;s melee weapons have **Crit (Mortal)**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 2+, elige 1 de los siguientes efectos para aplicarlo hasta el inicio de tu próximo turno.
+• Esta unidad tiene un atributo Move de 12".
+• Suma 1 a las tiradas de lanzamiento, de desvinculación y de destierro de esta unidad.
+• Las armas de combate de esta unidad tienen **Crit (Mortal)**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -3011,7 +3011,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy **^^M
         <profile name="Trampled to Dust" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="30e7-f387-da24-9298">
           <characteristics>
             <characteristic name="Timing" id="8e72-4e69-9020-e23e" hidden="false" typeId="652c-3d84-4e7-14f4">Cualquier fase de carga</characteristic>
-            <characteristic name="Declare" id="acae-2496-8621-d7a" hidden="false" typeId="bad3-f9c5-ba46-18cb">Pick an enemy unit that this unit passed across this turn to be the target.</characteristic>
+            <characteristic name="Declare" id="acae-2496-8621-d7a" hidden="false" typeId="bad3-f9c5-ba46-18cb">Elige una unidad enemiga que esta unidad haya atravesado en este turno como blanco.</characteristic>
             <characteristic name="Effect" id="5d18-7b2a-9db7-be6c" hidden="false" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
             <characteristic name="Keywords" id="45d6-6ab1-ed42-8997" hidden="false" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -3224,7 +3224,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy **^^M
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, remove this unit from the battlefield and set it up again on the battlefield more than 9&quot; from all enemy non-**^^Hero^^** units and more than 3&quot; from all enemy **^^Heroes^^**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, retira esta unidad del campo de batalla y vuelve a colocarla en el campo de batalla a más de 9" de todas las unidades enemigas que no sean **^^Hero^^** y a más de 3" de todos los **^^Heroes^^** enemigos.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -3403,7 +3403,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy **^^M
         <profile name="Scrying Pool" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="dd3e-913-4765-42b2">
           <characteristics>
             <characteristic name="Keywords" id="4b9-4531-9ca9-b505" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="8e6f-26d0-c27e-2a13" hidden="false" typeId="fd7f-888d-3257-a12b">If a friendly **^^Soulblight Gravelords^^** unit wholly within 12&quot; of this unit uses the &apos;Redeploy&apos; command, you can pick another friendly **^^Soulblight Gravelords^^** unit wholly within 12&quot; of this unit that has not used a command this phase to use the &apos;Redeploy&apos; command immediately after the first has been resolved (this is an exception to Commands, 1.2). No command point is spent the second time that command is used.</characteristic>
+            <characteristic name="Effect" id="8e6f-26d0-c27e-2a13" hidden="false" typeId="fd7f-888d-3257-a12b">Si una unidad **^^Soulblight Gravelords^^** amiga totalmente a 12" o menos de esta unidad usa la orden &apos;Redeploy&apos;, puedes elegir otra unidad **^^Soulblight Gravelords^^** amiga totalmente a 12" o menos de esta unidad que no haya usado una orden en esta fase para usar la orden &apos;Redeploy&apos; inmediatamente después de resolver la primera (esto es una excepción a Órdenes, 1.2). No se gasta ningún punto de orden la segunda vez que se usa esa orden.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Gray</attribute>
@@ -3428,7 +3428,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy **^^M
         <profile name="Tactical Insight" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7285-c029-2475-d25a">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Friendly **^^Deathrattle^^** and **^^Deadwalkers^^** units have **^^Ward (5+)^^** while they are wholly within 6&quot; of this unit.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades **^^Deathrattle^^** y **^^Deadwalkers^^** amigas tienen **^^Ward (5+)^^** mientras estén totalmente a 6" o menos de esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -3533,7 +3533,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy **^^M
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9dcc-141e-df56-1370">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit has 10 or more damage points, the Attacks characteristic of its **Skeletal Talons** is 5.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, el atributo Attacks de sus **Skeletal Talons** es 5.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -3544,7 +3544,7 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy **^^M
         <profile name="Gaping Maw" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5773-60bc-62a9-15a5">
           <characteristics>
             <characteristic name="Keywords" id="f4f1-9375-1c04-90ba" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="6d01-63c-ad92-5431" hidden="false" typeId="fd7f-888d-3257-a12b">Each time an attack made with this unit&apos;s **Fanged Maw** scores a critical hit, that attack inflicts 6 mortal damage on the target unit and the attack sequence ends.</characteristic>
+            <characteristic name="Effect" id="6d01-63c-ad92-5431" hidden="false" typeId="fd7f-888d-3257-a12b">Cada vez que un ataque hecho con la **Fanged Maw** de esta unidad obtenga un impacto crítico, ese ataque inflige 6 de daño mortal a la unidad blanco y la secuencia de ataque termina.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
@@ -3556,9 +3556,9 @@ Add 1 to hit rolls for combat attacks made by this unit that target enemy **^^M
           <characteristics>
             <characteristic name="Timing" id="829-c603-cda3-b5b6" hidden="false" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" id="1088-2368-e036-a3ab" hidden="false" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó este turno, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
-            <characteristic name="Effect" id="1550-f7fa-24e7-ffe3" hidden="false" typeId="b6f1-ba36-6cd-3b03">Roll a dice for each model in the target unit.
-If 3 or more of the dice have the same value, for the rest of the turn, this unit has **^^Strike-first^^**. 
-If 6 or more of the dice have the same value, for the rest of the turn, this unit has **^^Strike-first^^** and the target cannot use commands.</characteristic>
+            <characteristic name="Effect" id="1550-f7fa-24e7-ffe3" hidden="false" typeId="b6f1-ba36-6cd-3b03">Tira un dado por cada miniatura de la unidad blanco.
+Si 3 o más dados tienen el mismo valor, esta unidad tiene **^^Strike-first^^** durante el resto del turno.
+Si 6 o más dados tienen el mismo valor, durante el resto del turno, esta unidad tiene **^^Strike-first^^** y el blanco no puede usar órdenes.</characteristic>
             <characteristic name="Keywords" id="213e-1680-b892-7b67" hidden="false" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -3671,8 +3671,8 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
         <profile name="Immortal Conqueror" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1e56-8e22-5518-d3e1">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an objective or terrain feature within enemy territory.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the turn, add 1 to hit rolls for attacks made by friendly **^^Deathrattle^^** units while they are wholly within 6&quot; of that objective or terrain feature.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un objetivo o elemento de terreno en territorio enemigo.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 1 a las tiradas de impacto de los ataques de las unidades **^^Deathrattle^^** amigas mientras estén totalmente a 6" o menos de ese objetivo o elemento de terreno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -3685,8 +3685,8 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
         <profile name="Ancient Barrow Curse" hidden="false" id="a4ca-c50d-7cd7-c44a" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">If an attack made with this unit&apos;s **King&apos;s Relic Weapon** scores a critical hit, the target unit becomes **cursed** for the rest of the battle. Subtract 1 from save rolls for **cursed** units even if this unit has been destroyed.
-**Designer&apos;s Note:** *Multiple enemy units can become cursed by this ability but the same enemy unit cannot become cursed more than once.*</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si un ataque hecho con la **King&apos;s Relic Weapon** de esta unidad obtiene un impacto crítico, la unidad blanco queda **maldita** durante el resto de la batalla. Resta 1 a las tiradas de salvación de las unidades **malditas** incluso si esta unidad ha sido destruida.
+**Nota del diseñador:** *Varias unidades enemigas pueden quedar malditas por esta habilidad, pero la misma unidad enemiga no puede quedar maldita más de una vez.*</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -3771,7 +3771,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
         <profile name="Locus of Undeath" hidden="false" id="260c-7c3f-8dcd-c566" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <characteristics>
             <characteristic name="Keywords" id="ecff-3d31-43a5-a94d" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="937-6cd6-447b-9be" hidden="false" typeId="fd7f-888d-3257-a12b">Melee weapons used by other friendly **^^Deadwalkers^^** units have **Crit (Auto-wound)** while they are wholly within 12&quot; of this unit.</characteristic>
+            <characteristic name="Effect" id="937-6cd6-447b-9be" hidden="false" typeId="fd7f-888d-3257-a12b">Las armas de combate usadas por otras unidades **^^Deadwalkers^^** amigas tienen **Crit (Auto-wound)** mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
@@ -3855,7 +3855,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
         <profile name="Guardians of the King" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1016-2da5-b3a2-8369">
           <characteristics>
             <characteristic name="Keywords" id="31be-58-6e90-c7d1" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="7ced-cd27-76b2-58bd" hidden="false" typeId="fd7f-888d-3257-a12b">While any friendly **^^Soulblight Gravelords Infantry Heroes^^** are within this unit&apos;s combat range, both this unit and those friendly units have **^^Ward (5+)^^**.</characteristic>
+            <characteristic name="Effect" id="7ced-cd27-76b2-58bd" hidden="false" typeId="fd7f-888d-3257-a12b">Mientras algún **^^Soulblight Gravelords Infantry Heroes^^** amigo esté dentro del alcance de combate de esta unidad, tanto esta unidad como esas unidades amigas tienen **^^Ward (5+)^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -3975,7 +3975,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad **^^Fight^^** para esta unidad</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick a friendly non-**^^Hero Deathrattle Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit&apos;s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target&apos;s attacks for the rest of the turn.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige una unidad **^^Deathrattle Infantry^^** amiga que no sea **^^Hero^^**, que no haya usado una habilidad **^^Fight^^** en este turno y esté dentro del alcance de combate de esta unidad, como blanco. Se puede elegir al blanco para usar una habilidad **^^Fight^^** inmediatamente después de resolver la habilidad **^^Fight^^** usada por esta unidad. Si se elige para hacerlo, suma 1 a las tiradas de impacto de los ataques del blanco durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -3988,7 +3988,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
         <profile name="King of Shambling Bones" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1d78-a7dc-a253-2c02">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **^^Deathrattle^^** unit within this unit&apos;s combat range to be the target.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad **^^Deathrattle^^** amiga dentro del alcance de combate de esta unidad como blanco.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, las armas de combate del objetivo tienen **Crit (2 Hits)** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -4059,8 +4059,8 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
           <characteristics>
             <characteristic name="Timing" typeId="736-6e3a-d0b5-a1b0">Una vez por turno (ejército), tu fase de combate</characteristic>
             <characteristic name="Cost" typeId="a49e-3082-e2a6-e802">1</characteristic>
-            <characteristic name="Declare" typeId="b77f-7548-840e-c086">Pick a friendly **^^Deathrattle^^** or **^^Deadwalkers^^** unit wholly within 12&quot; of this unit to be the target.</characteristic>
-            <characteristic name="Effect" typeId="2111-3ca8-61dd-a5f0">The target can use 2 **^^Fight^^** abilities this phase. After the first is used, however, the target has **^^Strike-last^^** for the rest of the turn.</characteristic>
+            <characteristic name="Declare" typeId="b77f-7548-840e-c086">Elige una unidad **^^Deathrattle^^** o **^^Deadwalkers^^** amiga totalmente a 12" o menos de esta unidad como blanco.</characteristic>
+            <characteristic name="Effect" typeId="2111-3ca8-61dd-a5f0">El blanco puede usar 2 habilidades **^^Fight^^** en esta fase. Sin embargo, después de usar la primera, el blanco tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="445d-f443-5448-e7ce"/>
           </characteristics>
           <attributes>
@@ -4072,9 +4072,9 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
         <profile name="Undead Minions" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2b42-a7be-8ef9-35aa">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit is within the combat range of a friendly **^^Deathrattle^^** or **^^Deadwalkers^^** unit:
-• This unit has **^^Ward (4+)^^**.
-• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **^^Deathrattle^^** or **^^Deadwalkers^^** unit within this unit&apos;s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Deathrattle^^** o **^^Deadwalkers^^** amiga:
+• Esta unidad tiene **^^Ward (4+)^^**.
+• Cada vez que hagas una tirada de salvaguardia exitosa para esta unidad, asigna 1 punto de daño a una unidad **^^Deathrattle^^** o **^^Deadwalkers^^** amiga dentro del alcance de combate de esta unidad después de resolver la secuencia de daño de esta unidad (no pueden hacerse tiradas de salvaguardia para esos puntos de daño).</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -4149,7 +4149,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige como objetivo una unidad enemiga visible a 12" o menos de esta unidad y después haz una tirada de lanzamiento de 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Until the start of your next turn, while they are wholly within 6&quot; of this unit, friendly **^^Soulblight Gravelords^^** units cannot be picked to be the target of abilities used by the target other than **^^Fight^^** abilities.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Hasta el inicio de tu próximo turno, mientras estén totalmente a 6" o menos de esta unidad, las unidades **^^Soulblight Gravelords^^** amigas no pueden elegirse como blanco de habilidades usadas por el blanco que no sean habilidades **^^Fight^^**.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
           </characteristics>
           <attributes>
@@ -4172,7 +4172,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
           <characteristics>
             <characteristic name="Timing" id="4da8-e104-60ad-566c" hidden="false" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
             <characteristic name="Declare" id="72d7-a25-8f0a-678c" hidden="false" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos todas las unidades enemigas en combate con esta unidad.</characteristic>
-            <characteristic name="Effect" id="7db4-c56f-8216-2271" hidden="false" typeId="b6f1-ba36-6cd-3b03">This unit cannot use the &apos;Serpentine Agility&apos; ability for the rest of the battle. Roll 2D6 for each target. If the roll exceeds the target&apos;s Move characteristic, inflict an amount of mortal damage on the target equal to the difference between the roll and its Move characteristic.</characteristic>
+            <characteristic name="Effect" id="7db4-c56f-8216-2271" hidden="false" typeId="b6f1-ba36-6cd-3b03">Esta unidad no puede usar la habilidad &apos;Serpentine Agility&apos; durante el resto de la batalla. Tira 2D6 por cada blanco. Si la tirada supera el atributo Move del blanco, inflige al blanco una cantidad de daño mortal igual a la diferencia entre la tirada y su atributo Move.</characteristic>
             <characteristic name="Keywords" id="2c03-1072-7264-6008" hidden="false" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -4501,7 +4501,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
         <profile name="Zondara Rivenheart" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5d9e-6e5d-8bbe-fb66">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit&apos;s **Zondara Rivenheart** is on the battlefield, it has **^^Wizard (1)^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras la **Zondara Rivenheart** de esta unidad esté en el campo de batalla, esta unidad tiene **^^Wizard (1)^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Yellow</attribute>
@@ -4513,10 +4513,10 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit is in a **Soulblight Gravelords** army, pick a terrain feature within 3&quot; of this unit, then roll a dice and apply the corresponding effect. You cannot pick the same terrain feature more than once per battle.
-**1 *Cruel Hope:*** No effect.
-**2-4 *Cursed Flesh:*** You can return D3 slain models to this unit.
-**5-6 *Borrowed Power:*** Pick a friendly **^^Soulblight Gravelords Hero^^** wholly within 12&quot; of this unit that does not have an artefact of power. You can pick an artefact of power from the Soulblight Gravelords faction rules that no other friendly **^^Hero^^** has and give it to that **^^Hero^^**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está en un ejército **Soulblight Gravelords**, elige un elemento de terreno a 3" o menos de esta unidad y, después, tira un dado y aplica el efecto correspondiente. No puedes elegir el mismo elemento de terreno más de una vez por batalla.
+**1 *Cruel Hope:*** Sin efecto.
+**2-4 *Cursed Flesh:*** Puedes devolver D3 miniaturas abatidas a esta unidad.
+**5-6 *Borrowed Power:*** Elige un **^^Soulblight Gravelords Hero^^** amigo totalmente a 12" o menos de esta unidad que no tenga un artefacto de poder. Puedes elegir un artefacto de poder de las reglas de facción de Soulblight Gravelords que no tenga ningún otro **^^Hero^^** amigo y otorgárselo a ese **^^Hero^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -4730,10 +4730,10 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit is in combat with any enemy **^^Heroes^^**, roll a D3 and then pick a number of effects from the list below equal to the roll:
-• Add 1 to save rolls for this unit for the rest of the turn.
-• Add 1 to the Attacks characteristic of this unit&apos;s melee weapons for the rest of the turn.
-• Add 1 to the Rend characteristic of this unit&apos;s melee weapons for the rest of the turn.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está en combate con algún **^^Heroes^^** enemigo, tira un D3 y, después, elige tantos efectos de la siguiente lista como el resultado de la tirada:
+• Suma 1 a las tiradas de salvación de esta unidad durante el resto del turno.
+• Suma 1 al atributo Attacks de las armas de combate de esta unidad durante el resto del turno.
+• Suma 1 al atributo Rend de las armas de combate de esta unidad durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -4916,7 +4916,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, this unit has **^^Ward (5+)^^** until the start of your next turn.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, esta unidad tiene **^^Ward (5+)^^** hasta el inicio de tu próximo turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -4929,7 +4929,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
         <profile name="Deintalos the Exile" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ff18-a6fa-e130-d22f">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit&apos;s **Deintalos the Exile** is on the battlefield, it has **^^Wizard (1)^^**. While this unit&apos;s **Prentice Marcov** is on the battlefield, add 1 to casting rolls for this unit.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras el **Deintalos the Exile** de esta unidad esté en el campo de batalla, esta unidad tiene **^^Wizard (1)^^**. Mientras el **Prentice Marcov** de esta unidad esté en el campo de batalla, suma 1 a sus tiradas de lanzamiento.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Yellow</attribute>
@@ -5473,7 +5473,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit&apos;s **King Morlak Velmorn** is on the battlefield, roll a dice for each slain model from this unit. On a 4+, you can return 1 slain model to this unit.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si el **King Morlak Velmorn** de esta unidad está en el campo de batalla, tira un dado por cada miniatura abatida de esta unidad. Con un 4+, puedes devolver 1 miniatura abatida a esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -5676,7 +5676,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad **^^Fight^^** para esta unidad</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick a friendly non-**^^Hero Deathrattle Cavalry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit&apos;s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige una unidad **^^Deathrattle Cavalry^^** amiga que no sea **^^Hero^^**, que no haya usado una habilidad **^^Fight^^** en este turno y esté dentro del alcance de combate de esta unidad, como blanco. Se puede elegir al blanco para usar una habilidad **^^Fight^^** inmediatamente después de resolver la habilidad **^^Fight^^** usada por esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -5784,10 +5784,10 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
         <profile name="Solia, the Tutor" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c663-186d-67b6-6ecd">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">This unit can use this ability while its **Cado Ezechiar** is on the battlefield.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick 1 of the following to apply for the rest of the turn:
-• This unit has **^^Ward (5+)^^**
-• This unit&apos;s **Ezechiarian Greatsword** has **Crit (Mortal)**</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Esta unidad puede usar esta habilidad mientras su **Cado Ezechiar** esté en el campo de batalla.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de las siguientes opciones para aplicarla durante el resto del turno:
+• Esta unidad tiene **^^Ward (5+)^^**.
+• La **Ezechiarian Greatsword** de esta unidad tiene **Crit (Mortal)**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -5800,10 +5800,10 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
         <profile name="Aurelias" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="62a4-7a14-e333-d21a">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">This unit can use this ability while its **Aurelias** is on the battlefield.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick 1 of the following to apply for the rest of the turn:
-• Add 1 to this unit&apos;s power level.
-• Each time a casting roll is made for this unit, you can re-roll 1 of the dice.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Esta unidad puede usar esta habilidad mientras su **Aurelias** esté en el campo de batalla.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de las siguientes opciones para aplicarla durante el resto del turno:
+• Suma 1 al nivel de poder de esta unidad.
+• Cada vez que se haga una tirada de lanzamiento para esta unidad, puedes volver a tirar 1 de los dados.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -5817,8 +5817,8 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
           <characteristics>
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
-            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">This unit can cast this spell while its **Cado Ezechiar** is on the battlefield. Pick a visible unit within 12&quot; of this unit to be the target, then make a casting roll of 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly **Deathrattle** or **Deadwalkers** unit, subtract 1 from wound rolls for combat attacks that target that unit for the rest of the turn.</characteristic>
+            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Esta unidad puede lanzar este hechizo mientras su **Cado Ezechiar** esté en el campo de batalla. Elige una unidad visible a 12" o menos de esta unidad como blanco y, después, haz una tirada de lanzamiento de 2D6.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Si el blanco es una unidad enemiga, inflígele D3 de daño mortal. Si el blanco es una unidad **Deathrattle** o **Deadwalkers** amiga, resta 1 a las tiradas para herir de los ataques de combate que tengan como blanco a esa unidad durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
           </characteristics>
           <attributes>
@@ -5942,8 +5942,8 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
         <profile name="Strike at the Heart" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f633-141c-6a0c-051c">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **Blood Knights** unit that charged this turn and is wholly within 12&quot; of this unit to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Add 1 to the Rend characteristic of that unit&apos;s **Templar Weapons** for the rest of the turn.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad **Blood Knights** amiga que haya cargado en este turno y esté totalmente a 12" o menos de esta unidad como blanco.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 1 al atributo Rend de las **Templar Weapons** de esa unidad durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -5957,7 +5957,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad de **^^Charge^^** para esta unidad</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">You can re-roll the charge roll for that **^^Charge^^** ability. Then, before the charge move is made, you can pick a friendly **Blood Knights** unit that is not in combat, is wholly within 12&quot; of this unit and has not used a **^^Charge^^** ability this turn to be the target. If this unit charges, then, immediately after the **^^Charge^^** ability used by this unit has been resolved, the target can immediately use the &apos;Charge&apos; ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target this phase.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Puedes repetir la tirada de carga de esa habilidad **^^Charge^^**. Después, antes de hacer el movimiento de carga, puedes elegir una unidad **Blood Knights** amiga que no esté en combate, esté totalmente a 12" o menos de esta unidad y no haya usado una habilidad **^^Charge^^** en este turno como blanco. Si esta unidad carga, inmediatamente después de resolver la habilidad **^^Charge^^** usada por esta unidad, el blanco puede usar inmediatamente la habilidad &apos;Charge&apos; incluso si no es tu fase de carga. Además, puedes repetir las tiradas de carga del blanco en esta fase.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -6045,7 +6045,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ad9f-1112-d108-a22e">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, el atributo Attacks de sus **Draconic Claws** es 5.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -6057,7 +6057,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige esta unidad si no ha sido desplegada.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Set up this unit in reserve **high above the battlefield**. It has now been deployed.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca esta unidad en reserva **en lo alto sobre el campo de batalla**. Ahora se considera desplegada.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Deploy^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -6070,7 +6070,7 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
         <profile name="Loathsome Descent" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7f8e-c3f7-7f1c-4adc">
           <characteristics>
             <characteristic name="Timing" id="bd87-b35d-e751-415d" hidden="false" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-            <characteristic name="Declare" id="0c40-b35e-4d67-ce17" hidden="false" typeId="bad3-f9c5-ba46-18cb">Pick this unit if it is **high above the battlefield**.</characteristic>
+            <characteristic name="Declare" id="0c40-b35e-4d67-ce17" hidden="false" typeId="bad3-f9c5-ba46-18cb">Elige esta unidad si está **en lo alto sobre el campo de batalla**.</characteristic>
             <characteristic name="Effect" id="987c-fb7b-d5fe-26b2" hidden="false" typeId="b6f1-ba36-6cd-3b03">Coloca esta unidad en cualquier parte del campo de batalla a más de 9" de todas las unidades enemigas.</characteristic>
             <characteristic name="Keywords" id="7c73-027b-b08f-e2ba" hidden="false" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -6085,10 +6085,10 @@ If 6 or more of the dice have the same value, for the rest of the turn, this un
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a D3. On a 2+, resolve the following effects:
-• Inflict an amount of mortal damage on the target equal to the roll.
-• **Heal (X)** this unit where **X** is an amount equal to the roll.
-This unit can be removed from the battlefield and set up in reserve **high above the battlefield**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Con un 2+, resuelve los siguientes efectos:
+• Inflige al blanco una cantidad de daño mortal igual a la tirada.
+• Aplica **Heal (X)** a esta unidad, donde **X** es una cantidad igual a la tirada.
+Esta unidad puede retirarse del campo de batalla y colocarse en reserva **en lo alto sobre el campo de batalla**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -6193,7 +6193,7 @@ This unit can be removed from the battlefield and set up in reserve **high above
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d20a-16c0-d6ce-2d8b">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, el atributo Attacks de sus **Draconic Claws** es 5.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -6205,7 +6205,7 @@ This unit can be removed from the battlefield and set up in reserve **high above
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), fase de héroe enemiga</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the turn, the target cannot end moves made as part of a non-**^^Charge Move^^** ability within **X**&quot; of this unit, where **X** is equal to your current **fury level**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, el blanco no puede terminar movimientos hechos como parte de una habilidad **^^Move^^** que no sea **^^Charge^^** a **X**" o menos de esta unidad, donde **X** es tu **nivel de furia** actual.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -6219,16 +6219,16 @@ This unit can be removed from the battlefield and set up in reserve **high above
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **rage dice**. If your opponent&apos;s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, pick 1 of the following effects:
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Gasta 1 **dado de ira**. Si el **nivel de furia** de tu oponente es inferior al tuyo, debe aumentar su **nivel de furia** en 1, hasta un máximo de 7. Después, elige 1 de los siguientes efectos:
 
-**Retaliatory Posture:** For the rest of the turn:
-• Ignore positive modifiers to hit rolls and wound rolls for attacks made by enemy units while they are in combat with this unit.
-• Add 1 to save rolls for this unit.
-• Add 1 to hit rolls for this unit&apos;s attacks, including attacks made with **Companion** weapons, that target an enemy unit that used a Fight ability this phase.
+**Retaliatory Posture:** Durante el resto del turno:
+• Ignora los modificadores positivos a las tiradas de impacto y para herir de los ataques de las unidades enemigas mientras estén en combate con esta unidad.
+• Suma 1 a las tiradas de salvación de esta unidad.
+• Suma 1 a las tiradas de impacto de los ataques de esta unidad, incluidos los hechos con armas **Companion**, que tengan como blanco a una unidad enemiga que haya usado una habilidad Fight en esta fase.
 
-**Unrelenting Ferocity:** For the rest of the turn:
-• Ignore negative modifiers to hit rolls and wound rolls for this unit&apos;s attacks.
-• Add 1 to the Rend and Damage characteristics of this unit&apos;s **Companion** melee weapons for attacks that target an enemy unit that has not used a Fight ability this phase.</characteristic>
+**Unrelenting Ferocity:** Durante el resto del turno:
+• Ignora los modificadores negativos a las tiradas de impacto y para herir de los ataques de esta unidad.
+• Suma 1 a los atributos Rend y Damage de las armas de combate **Companion** de esta unidad para ataques que tengan como blanco a una unidad enemiga que no haya usado una habilidad Fight en esta fase.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -6356,7 +6356,7 @@ This unit can be removed from the battlefield and set up in reserve **high above
         <profile name="Locus of Shyish" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3748-1122-e605-e18c">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time a friendly **^^Soulblight Gravelords Wizard^^** casts a **^^Summon Spell^^** from the &apos;Manifestations of the Grave&apos; lore, you can measure the range and visibility from this terrain feature instead.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que un **^^Soulblight Gravelords Wizard^^** amigo lance un **^^Summon Spell^^** del saber &apos;Manifestations of the Grave&apos;, puedes medir el alcance y la visibilidad desde este elemento de terreno en su lugar.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -6367,7 +6367,7 @@ This unit can be removed from the battlefield and set up in reserve **high above
         <profile name="Leeching Soil" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c75c-e355-efae-3bdc">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time a model (friendly or enemy) is slain while it is within 9&quot; of this terrain feature, **Heal (1)** this terrain feature.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una miniatura (amiga o enemiga) sea abatida mientras esté a 9" o menos de este elemento de terreno, aplica **Heal (1)** a este elemento de terreno.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -6402,10 +6402,10 @@ Cover, Impassable**</description>
         <profile name="Draw on Power" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="55da-f4c0-97b3-4eb6">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **^^Soulblight Gravelords Hero^^** wholly within 12&quot; of this **^^Manifestation^^** to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick 1 of the following:
-• **Heal (D3)** the target.
-• Add 1 to the Attacks characteristic of the target&apos;s melee weapons for the rest of the turn. Then, this **^^Manifestation^^** is banished and removed from play.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Soulblight Gravelords Hero^^** amigo totalmente a 12" o menos de esta **^^Manifestation^^** como blanco.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de las siguientes opciones:
+• Aplica **Heal (D3)** al blanco.
+• Suma 1 al atributo Attacks de las armas de combate del blanco durante el resto del turno. Después, esta **^^Manifestation^^** queda desterrada y se retira del juego.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -6446,7 +6446,7 @@ Cover, Impassable**</description>
         <profile name="Leeching Bites" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a84a-d075-6f00-af9e">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time an attack made by this **^^Manifestation^^** scores a critical hit, **Heal (1)** this **^^Manifestation^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que un ataque hecho por esta **^^Manifestation^^** obtenga un impacto crítico, aplica **Heal (1)** a esta **^^Manifestation^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -6457,9 +6457,9 @@ Cover, Impassable**</description>
         <profile name="Multiple Parts" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d0c9-20a2-a2ac-39b8">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">When a number of damage points equal to this **^^Manifestation^^**&apos;s Health characteristic are allocated to it, this **^^Manifestation^^** is destroyed and both its parts are removed from play.
-Each time this **^^Manifestation^^** moves, both its parts must end within 9&quot; of each other.
-Each part of this **^^Manifestation^^** is armed with **Leeching Bites**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando se asigne a esta **^^Manifestation^^** una cantidad de puntos de daño igual a su atributo Health, esta **^^Manifestation^^** queda destruida y sus dos partes se retiran del juego.
+Cada vez que esta **^^Manifestation^^** se mueva, sus dos partes deben terminar a 9" o menos entre sí.
+Cada parte de esta **^^Manifestation^^** está armada con **Leeching Bites**.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -6519,9 +6519,9 @@ Each part of this **^^Manifestation^^** is armed with **Leeching Bites**.</chara
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que esté en combate con esta **^^Manifestation^^**.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 4+, the following effects apply until the start of your next turn:
-• While the target is within 3&quot; of this **^^Manifestation^^**, the target has a maximum control score of 1 that cannot be modified.
-• While the target is within 3&quot; of this **^^Manifestation^^**, the target cannot use **^^Move^^** abilities.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 4+, se aplican los siguientes efectos hasta el inicio de tu próximo turno:
+• Mientras el blanco esté a 3" o menos de esta **^^Manifestation^^**, tiene una puntuación de control máxima de 1 que no puede modificarse.
+• Mientras el blanco esté a 3" o menos de esta **^^Manifestation^^**, no puede usar habilidades **^^Move^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -6534,8 +6534,8 @@ Each part of this **^^Manifestation^^** is armed with **Leeching Bites**.</chara
         <profile name="Inescapable Reach" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6f20-44be-2c46-9782">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">This **^^Manifestation^^** can only use this ability if it has not been set up this turn.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Remove this **^^Manifestation^^** from the battlefield and set it up anywhere on the battlefield more than 9&quot; from all enemy units. Then, roll a D3. On a 2+, this **^^Manifestation^^** can move a number of inches equal to the roll.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Esta **^^Manifestation^^** solo puede usar esta habilidad si no se ha colocado en este turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Retira esta **^^Manifestation^^** del campo de batalla y colócala en cualquier lugar del campo de batalla a más de 9" de todas las unidades enemigas. Después, tira un D3. Con un 2+, esta **^^Manifestation^^** puede moverse una cantidad de pulgadas igual a la tirada.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -6917,9 +6917,9 @@ Each part of this **^^Manifestation^^** is armed with **Leeching Bites**.</chara
                   </modifierGroups>
                   <rules>
                     <rule name="Martial Vampire" id="9744-a376-bb62-7cae" hidden="true">
-                      <description>Change your hero&apos;s Move characteristic to 6&quot;. In addition, your hero gains the **^^Vampire^^** and **^^Wizard (1)^^** keywords and the following regiment options:
-Any **^^Soublight Gravelords^^** units
-In addition, change the Hit and Wound characteristics of their **Grave Blade** to 3+, and it gains **Crit (2 Hits)**.</description>
+                      <description>Cambia el atributo Move de tu héroe a 6". Además, tu héroe obtiene las claves **^^Vampire^^** y **^^Wizard (1)^^** y las siguientes opciones de regimiento:
+Cualquier unidad **^^Soublight Gravelords^^**.
+Además, cambia los atributos Hit y Wound de su **Grave Blade** a 3+, y esta obtiene **Crit (2 Hits)**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -6934,9 +6934,9 @@ In addition, change the Hit and Wound characteristics of their **Grave Blade** t
                     <profile name="Undead Minions" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3a92-9860-41c7-4f32">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit is within the combat range of a friendly **^^Deathrattle^^** or **^^Deadwalkers^^** unit:
-• This unit has **^^Ward (4+)^^**.
-• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly **^^Deathrattle^^** or **^^Deadwalkers^^** unit within this unit&apos;s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Deathrattle^^** o **^^Deadwalkers^^** amiga:
+• Esta unidad tiene **^^Ward (4+)^^**.
+• Cada vez que hagas una tirada de salvaguardia exitosa para esta unidad, asigna 1 punto de daño a una unidad **^^Deathrattle^^** o **^^Deadwalkers^^** amiga dentro del alcance de combate de esta unidad después de resolver la secuencia de daño de esta unidad (no pueden hacerse tiradas de salvaguardia para esos puntos de daño).</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -6958,8 +6958,8 @@ In addition, change the Hit and Wound characteristics of their **Grave Blade** t
                   </modifierGroups>
                   <rules>
                     <rule name="Necromancer" id="889b-0493-a1f0-6567" hidden="true">
-                      <description>Your hero gains the **^^Wizard (1)^^** keyword, the &apos;Undead Minions&apos; ability and the following regiment options:
-Any **^^Deadwakers^^** or **^^Deathrattle^^** units</description>
+                      <description>Tu héroe obtiene la clave **^^Wizard (1)^^**, la habilidad &apos;Undead Minions&apos; y las siguientes opciones de regimiento:
+Cualquier unidad **^^Deadwakers^^** o **^^Deathrattle^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -6981,7 +6981,7 @@ Any **^^Deadwakers^^** or **^^Deathrattle^^** units</description>
                         <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
                         <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">5</characteristic>
                         <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige como objetivo una unidad enemiga visible a 18" o menos de esta unidad y después haz una tirada de lanzamiento de 2D6.</characteristic>
-                        <characteristic name="Effect" typeId="1cb9-a-1345-907f">Until the start of your next turn, each time the target uses a command, you receive 1 command point.</characteristic>
+                        <characteristic name="Effect" typeId="1cb9-a-1345-907f">Hasta el inicio de tu próximo turno, cada vez que el blanco use una orden, recibes 1 punto de orden.</characteristic>
                         <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
                       </characteristics>
                       <attributes>
@@ -7002,8 +7002,8 @@ Any **^^Deadwakers^^** or **^^Deathrattle^^** units</description>
                   </modifierGroups>
                   <rules>
                     <rule name="Arcane Vampire" id="4322-b1c5-abca-13c0" hidden="true">
-                      <description>Change your hero&apos;s Move characteristic to 6&quot;. In addition, your hero gains the **^^Vampire^^** and **^^Wizard (2)^^** keywords, the &apos;Dark Intrigue&apos; ability and the following regiment options:
-Any **^^Soulblight Gravelords^^** units</description>
+                      <description>Cambia el atributo Move de tu héroe a 6". Además, tu héroe obtiene las claves **^^Vampire^^** y **^^Wizard (2)^^**, la habilidad &apos;Dark Intrigue&apos; y las siguientes opciones de regimiento:
+Cualquier unidad **^^Soulblight Gravelords^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7021,7 +7021,7 @@ Any **^^Soulblight Gravelords^^** units</description>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad **^^Fight^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick a friendly **^^Deathrattle Cavalry^^** or **^^Infantry^^** unit that has not used a **^^Fight^^** ability this turn and is within this unit&apos;s combat range to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the ^^Fight^^** ability used by this unit has been resolved.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige una unidad **^^Deathrattle Cavalry^^** o **^^Infantry^^** amiga que no haya usado una habilidad **^^Fight^^** en este turno y esté dentro del alcance de combate de esta unidad como blanco. Se puede elegir al blanco para usar una habilidad **^^Fight^^** inmediatamente después de resolver la habilidad **^^Fight^^** usada por esta unidad.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -7044,8 +7044,8 @@ Any **^^Soulblight Gravelords^^** units</description>
                   </modifierGroups>
                   <rules>
                     <rule name="Wight King" id="44d0-5085-8747-8849" hidden="true">
-                      <description>Change your hero&apos;s Move characteristic to 4&quot; and its **Grave Blade** gains **Crit (Mortal)**. In addition, your hero gains the **^^Deathrattle^^** keyword, the &apos;Immortal Retainers&apos; ability and the following regiment options:
-Any **^^Deathrattle^^** units</description>
+                      <description>Cambia el atributo Move de tu héroe a 4" y su **Grave Blade** obtiene **Crit (Mortal)**. Además, tu héroe obtiene la clave **^^Deathrattle^^**, la habilidad &apos;Immortal Retainers&apos; y las siguientes opciones de regimiento:
+Cualquier unidad **^^Deathrattle^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7097,12 +7097,12 @@ Any **^^Deathrattle^^** units</description>
                   </modifiers>
                   <rules>
                     <rule name="Undead Steed" id="67eb-401c-6069-caec" hidden="true">
-                      <description>Add the **Undead Steed&apos;s Hooves** weapon to your hero&apos;s warscroll. 
-In addition, make the following changes to your hero&apos;s warscroll:
-• Change the Move characteristic to 10&quot;.
-• Change the Health characteristic to 8.
-• Change the Save characteristic to 5+.
-• Replace the **^^Infantry^^** keyword with the **^^Cavalry^^** keyword.</description>
+                      <description>Añade el arma **Undead Steed&apos;s Hooves** a la hoja de unidad de tu héroe.
+Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
+• Cambia el atributo Move a 10".
+• Cambia el atributo Health a 8.
+• Cambia el atributo Save a 5+.
+• Sustituye la clave **^^Infantry^^** por la clave **^^Cavalry^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7111,7 +7111,7 @@ In addition, make the following changes to your hero&apos;s warscroll:
                     <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="84d7-8ec3-7be8-d4d8">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit has 10 or more damage points, the Attacks characteristic of its **Mighty Grave Beast&apos;s Talons** is 4.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, el atributo Attacks de sus **Mighty Grave Beast&apos;s Talons** es 4.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -7135,13 +7135,13 @@ In addition, make the following changes to your hero&apos;s warscroll:
                   </modifiers>
                   <rules>
                     <rule name="Mighty Grave Beast" id="a898-e8c0-f129-7e2b" hidden="true">
-                      <description>Add the **Mighty Grave Beast&apos;s Talons** weapon and the &apos;Battle Damaged&apos; ability to your hero&apos;s warscroll. 
-In addition, make the following changes to your hero&apos;s warscroll:
-• Change the Move characteristic to 12&quot;.
-• Change the Health characteristic to 16.
-• Change the Control characteristic to 5.
-• Change the Save characteristic to 4+.
-• Replace the **^^Infantry^^** keyword with the following keywords: **^^Monster^^**, **^^Fly^^**</description>
+                      <description>Añade el arma **Mighty Grave Beast&apos;s Talons** y la habilidad &apos;Battle Damaged&apos; a la hoja de unidad de tu héroe.
+Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
+• Cambia el atributo Move a 12".
+• Cambia el atributo Health a 16.
+• Cambia el atributo Control a 5.
+• Cambia el atributo Save a 4+.
+• Sustituye la clave **^^Infantry^^** por las siguientes claves: **^^Monster^^**, **^^Fly^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7161,13 +7161,13 @@ In addition, make the following changes to your hero&apos;s warscroll:
                   </modifiers>
                   <rules>
                     <rule name="Spectral Palanquin" id="652c-b838-0144-4907" hidden="true">
-                      <description>Add the **Spectral Host&apos;s Blades** weapon to your hero&apos;s warscroll. 
-In addition, make the following changes to your hero&apos;s warscroll:
-• Change the Move characteristic to 10&quot;.
-• Change the Health characteristic to 12.
-• Change the Control characteristic to 5.
-• Change the Save characteristic to 4+.
-• Replace the **^^Infantry^^** keyword with the following keywords: **^^War Machine^^**, **^^Fly^^**.</description>
+                      <description>Añade el arma **Spectral Host&apos;s Blades** a la hoja de unidad de tu héroe.
+Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
+• Cambia el atributo Move a 10".
+• Cambia el atributo Health a 12.
+• Cambia el atributo Control a 5.
+• Cambia el atributo Save a 4+.
+• Sustituye la clave **^^Infantry^^** por las siguientes claves: **^^War Machine^^**, **^^Fly^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7181,13 +7181,13 @@ In addition, make the following changes to your hero&apos;s warscroll:
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick 1 of the following units to be this unit&apos;s **beast form**:
-• A **Dire Wolves** unit with 1 model.
-• A **Fell Bats** unit with 1 model.
-Set up the **beast form** unit within 1&quot; of this unit, then remove this unit from the battlefield. The **Beast Form** unit can use **^^Move^^** and **^^Core^^** abilities in your next movement phase.
-If the **beast form is destroyed**, before it is removed from play, set up this unit on the battlefield once more within 1&quot; of it.
-In addition, in any combat phase before **^^Fight^^** abilities are used, or at the end of any turn, you can have the **beast form** unit transform back into this unit. If you do so, set up this unit within 1&quot; of the **beast form** unit and remove the **beast form** unit from the battlefield.
-This ability can only be used by an **^^Infantry^^** hero.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de las siguientes unidades como la **forma bestial** de esta unidad:
+• Una unidad **Dire Wolves** con 1 miniatura.
+• Una unidad **Fell Bats** con 1 miniatura.
+Coloca la unidad de **forma bestial** a 1" o menos de esta unidad y, después, retira esta unidad del campo de batalla. La unidad de **forma bestial** puede usar habilidades **^^Move^^** y **^^Core^^** en tu próxima fase de movimiento.
+Si la **forma bestial es destruida**, antes de retirarla del juego, vuelve a colocar esta unidad en el campo de batalla a 1" o menos de ella.
+Además, en cualquier fase de combate antes de usar habilidades **^^Fight^^**, o al final de cualquier turno, puedes hacer que la unidad de **forma bestial** se transforme de nuevo en esta unidad. Si lo haces, coloca esta unidad a 1" o menos de la unidad de **forma bestial** y retira la unidad de **forma bestial** del campo de batalla.
+Esta habilidad solo puede usarla un héroe **^^Infantry^^**.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -7208,7 +7208,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                     <profile name="Acolyte of Necros" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="567f-a3a1-a26b-54b8">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time this unit successfully casts a spell in your hero phase and the casting roll was an unmodified 10+, add 1 to this unit&apos;s power level until the start of your next turn</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad lance un hechizo con éxito en tu fase de héroe y la tirada de lanzamiento sin modificar sea de 10+, suma 1 al nivel de poder de esta unidad hasta el inicio de tu próximo turno.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -7227,7 +7227,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                     <profile name="Fabled Heirlooms" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="db81-4154-6f39-c3a2">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">When this unit is added to your Order of Battle, you can immediately give it 1 artefact of power</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando esta unidad se añada a tu orden de batalla, puedes otorgarle inmediatamente 1 artefacto de poder.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -7253,7 +7253,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                     <profile name="Picky Eater" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="70bd-e4df-47b3-52ae">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit cannot be picked as a target for the &apos;The Hunger&apos; ability unless your opponent&apos;s gneral has the **^^Order^^** keyword. This flaw can only be picked for a **^^Vampire^^** hero.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad no puede elegirse como blanco de la habilidad &apos;The Hunger&apos; a menos que el general de tu oponente tenga la clave **^^Order^^**. Este defecto solo puede elegirse para un héroe **^^Vampire^^**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -7280,7 +7280,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Inicio de la ronda de batalla</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 1-3, for the rest of the battle round, this unit cannot use commands and any heroic trait they have has no effect.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 1-3, durante el resto de la ronda de batalla, esta unidad no puede usar órdenes y cualquier rasgo heroico que tenga no tiene efecto.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -7301,7 +7301,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                     <profile name="Repulsed by the Sacred" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="36db-cef0-2a7e-77cb">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">You cannot make ward rolls for this unit while it is within 12&quot; of an enemy **^^Priest^^** or for damage inflicted on it by a **^^Prayer^^** ability.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">No puedes hacer tiradas de salvaguardia para esta unidad mientras esté a 12" o menos de un **^^Priest^^** enemigo ni para el daño que le inflija una habilidad **^^Prayer^^**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -7320,8 +7320,8 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                     <profile name="Tenuous Grip on Undeath" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4e6c-c006-8535-bb5a">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de tu turno</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">This unit must use this ability if no enemy models were slain by it this turn.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Allocate 1 damage point to this unit (a ward roll cannot be made for that damage point).</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Esta unidad debe usar esta habilidad si no ha abatido ninguna miniatura enemiga en este turno.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Asigna 1 punto de daño a esta unidad (no puede hacerse una tirada de salvaguardia para ese punto de daño).</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -7405,7 +7405,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </constraints>
                   <rules>
                     <rule name="Rending Claws" id="7c81-e2eb-4345-a669" hidden="true">
-                      <description>**^^Monster^^** only. Your hero&apos;s **Mighty Grave Beast&apos;s Talons** have a Damage characteristic of 3.</description>
+                      <description>Solo **^^Monster^^**. Las **Mighty Grave Beast&apos;s Talons** de tu héroe tienen un atributo Damage de 3.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7433,7 +7433,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                     <profile name="Crushing Stomp" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b3fb-c8c6-9f8a-7740">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a non-**^^Monster^^** enemy unit n combat with this unit to be the target.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad enemiga que no sea **^^Monster^^** y esté en combate con esta unidad como blanco.</characteristic>
                         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -7447,7 +7447,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </profiles>
                   <rules>
                     <rule name="Crushing Stomp" id="2197-8936-eeb8-899d" hidden="true">
-                      <description>**^^Monster^^** only. Add the &apos;Crushing Stomp&apos; ability to your hero&apos;s warscroll. You cannot pick this upgrade if your hero has another **^^Rampage^^** ability.</description>
+                      <description>Solo **^^Monster^^**. Añade la habilidad &apos;Crushing Stomp&apos; a la hoja de unidad de tu héroe. No puedes elegir esta mejora si tu héroe tiene otra habilidad **^^Rampage^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7457,7 +7457,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, for the rest of the turn, ward rolls cannot be made for the target and add 1 to the Damage characteristic of this unit&apos;s **Companion** melee weapons.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, durante el resto del turno, no pueden hacerse tiradas de salvaguardia para el blanco y suma 1 al atributo Damage de las armas de combate **Companion** de esta unidad.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -7489,7 +7489,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </constraints>
                   <rules>
                     <rule name="Feed on Sorcery" id="aae7-cbf1-b05a-51aa" hidden="true">
-                      <description>**^^Monster^^** only. Add the &apos;Feed on Sorcery&apos; ability to your hero&apos;s warscroll. You cannot pick this upgrade if your hero has another **^^Rampage^^** ability.</description>
+                      <description>Solo **^^Monster^^**. Añade la habilidad &apos;Feed on Sorcery&apos; a la hoja de unidad de tu héroe. No puedes elegir esta mejora si tu héroe tiene otra habilidad **^^Rampage^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7523,7 +7523,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </constraints>
                   <rules>
                     <rule name="Wailing Gheists" id="d54e-f710-f634-c386" hidden="true">
-                      <description>**^^War Machine^^** only. Add the &apos;Wails of the Damned&apos; ability to your hero&apos;s warscroll.</description>
+                      <description>Solo **^^War Machine^^**. Añade la habilidad &apos;Wails of the Damned&apos; a la hoja de unidad de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7537,7 +7537,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </constraints>
                   <rules>
                     <rule name="Necrotic Breath" id="6bdc-a4dd-1bf1-e34d" hidden="true">
-                      <description>Add the &apos;Necrotic Breath&apos; weapon to your hero&apos;s warscroll. You cannot pick this upgrade if your hero has another **Companion** ranged weapon.</description>
+                      <description>Añade el arma &apos;Necrotic Breath&apos; a la hoja de unidad de tu héroe. No puedes elegir esta mejora si tu héroe tiene otra arma de disparo **Companion**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7587,7 +7587,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </constraints>
                   <rules>
                     <rule name="Swiftblood" id="9f98-7ec6-887a-9894" hidden="true">
-                      <description>**^^Infantry^^** only. Add 1 to your hero&apos;s Move characteristic.</description>
+                      <description>Solo **^^Infantry^^**. Suma 1 al atributo Move de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7631,7 +7631,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </constraints>
                   <rules>
                     <rule name="Dynastic Finery" id="98d3-b16d-5e9f-c1a6" hidden="true">
-                      <description>**^^Vampire^^** only. Your hero has a Save characteristic of 4+.</description>
+                      <description>Solo **^^Vampire^^**. Tu héroe tiene un atributo Save de 4+.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7645,7 +7645,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </constraints>
                   <rules>
                     <rule name="Unholy Strength" id="5096-3c9d-48aa-c5a9" hidden="true">
-                      <description>The wound characteristic of your hero&apos;s **Grave Blade** is 2+.</description>
+                      <description>El atributo Wound de la **Grave Blade** de tu héroe es 2+.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7685,7 +7685,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </constraints>
                   <rules>
                     <rule name="Grave Lancer" id="8434-59fe-2658-2dcc" hidden="true">
-                      <description>**^^Cavalry^^** or **^^Monster^^** only. Your hero&apos;s **Grave Blade** has **Charge (+1 Damage)**.</description>
+                      <description>Solo **^^Cavalry^^** o **^^Monster^^**. La **Grave Blade** de tu héroe tiene **Charge (+1 Damage)**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7745,7 +7745,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                     <profile name="Become the Swarm" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b223-5dba-1d90-f280">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">When this unit is destroyed, roll a D3 for each enemy unit in combat with it. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando esta unidad sea destruida, tira un D3 por cada unidad enemiga en combate con ella. Con un 2+, inflige a esa unidad enemiga una cantidad de daño mortal igual a la tirada.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -7756,7 +7756,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </profiles>
                   <rules>
                     <rule name="Become the Swarm" id="d3e4-5e24-2deb-2878" hidden="true">
-                      <description>Add the &apos;Become the Swarm&apos; ability to your hero&apos;s warscroll.</description>
+                      <description>Añade la habilidad &apos;Become the Swarm&apos; a la hoja de unidad de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7793,7 +7793,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </constraints>
                   <rules>
                     <rule name="Macabre Panoply" id="92d6-589f-514e-7171" hidden="true">
-                      <description>**^^Vampire Infantry^^** or **^^Cavalry^^** or **^^Deathrattle Infantry^^** or **^^Cavalry^^** only. Your hero has a Save characteristic of 3+.</description>
+                      <description>Solo **^^Vampire Infantry^^** o **^^Cavalry^^**, o **^^Deathrattle Infantry^^** o **^^Cavalry^^**. Tu héroe tiene un atributo Save de 3+.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7807,7 +7807,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </constraints>
                   <rules>
                     <rule name="Blade Master" id="f9ee-6061-df33-0c0a" hidden="true">
-                      <description>Add 2 to the Attacks characteristic of your hero&apos;s Grave Blade</description>
+                      <description>Suma 2 al atributo Attacks de la Grave Blade de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7830,7 +7830,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                     <profile name="Undying Companion" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7388-61e6-93fd-14e9">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit&apos;s **Undying Companion** is a token. This unit has **^^Ward (5+)^^** while its **Undying Companion** is on the battlefield. If you make an unmodified ward roll of 1 for this unit, remove its **Undying Companion** from the battlefield.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">El **Undying Companion** de esta unidad es una ficha. Esta unidad tiene **^^Ward (5+)^^** mientras su **Undying Companion** esté en el campo de batalla. Si haces una tirada de salvaguardia sin modificar de 1 para esta unidad, retira su **Undying Companion** del campo de batalla.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -7841,7 +7841,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </profiles>
                   <rules>
                     <rule name="Undying Companion" id="a71e-88d5-ad74-df82" hidden="true">
-                      <description>**^^Infantry^^** only. Add the &apos;Undying Companion&apos; ability to your hero&apos;s warscroll.</description>
+                      <description>Solo **^^Infantry^^**. Añade la habilidad &apos;Undying Companion&apos; a la hoja de unidad de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7869,7 +7869,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                     <profile name="Master of Dark Magics" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="0508-ecf7-514c-fb04">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit is not in combat, add 1 to casting rolls for this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad no esté en combate, suma 1 a sus tiradas de lanzamiento.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -7880,7 +7880,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   </profiles>
                   <rules>
                     <rule name="Master of Dark Magics" id="aeff-88b9-1963-946a" hidden="true">
-                      <description>**^^Wizard^^** only. Add the &apos;Master of Dark Magics&apos; ability to your hero&apos;s warscroll.</description>
+                      <description>Solo **^^Wizard^^**. Añade la habilidad &apos;Master of Dark Magics&apos; a la hoja de unidad de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7913,8 +7913,8 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
           <characteristics>
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">6</characteristic>
-            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Pick a visible enemy **^^Hero^^** within 18&quot; of this unit to be the target. Then, make a casting roll of 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Inflict D3 mortal damage on each other enemy unit within 3&quot; of the target.</characteristic>
+            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige un **^^Hero^^** enemigo visible a 18" o menos de esta unidad como blanco. Después, haz una tirada de lanzamiento de 2D6.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Inflige D3 de daño mortal a cada otra unidad enemiga a 3" o menos del blanco.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
           </characteristics>
           <attributes>
@@ -7924,9 +7924,9 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
         </profile>
         <profile name="Allow Me To Remind You..." typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d96d-e3a1-8d9e-6a87">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn, Reaction: Opponent declared a command for a visible enemy unit within 18&quot; of this unit</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, Reacción: El oponente ha declarado una orden para una unidad enemiga visible a 18" o menos de esta unidad.</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 5+, that command has no effect, it still counts as having been used and the command points spent to use it are still lost.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 5+, esa orden no tiene efecto, sigue contando como usada y los puntos de orden gastados para usarla se pierden igualmente.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -7938,9 +7938,9 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
         </profile>
         <profile name="Lest You Forget..." typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f5b9-495a-91ae-46dd">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Battle Round, Reaction: Opponent declared a **^^Spell^^** or **^^Charge^^** ability for a visible enemy unit within 18&quot; of this unit</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por ronda de batalla, Reacción: El oponente ha declarado una habilidad **^^Spell^^** o **^^Charge^^** para una unidad enemiga visible a 18" o menos de esta unidad.</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick 1 dice from the charge roll or casting roll for that ability. Your opponent must re-roll that dice.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 dado de la tirada de carga o de lanzamiento de esa habilidad. Tu oponente debe volver a tirar ese dado.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -8043,8 +8043,8 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
         <profile name="Unholy Lodestone" hidden="false" id="048a-807d-345d-4dc8" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **Deadwalker Zombies** unit within this unit&apos;s combat range to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Until the start of your next turn, while the target is wholly within 12&quot; of this unit, its &apos;Mindless Ferocity&apos; ability inflicts mortal damage on rolls of 5+ instead of 6+.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad **Deadwalker Zombies** amiga dentro del alcance de combate de esta unidad como blanco.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Hasta el inicio de tu próximo turno, mientras el blanco esté totalmente a 12" o menos de esta unidad, su habilidad &apos;Mindless Ferocity&apos; inflige daño mortal con tiradas de 5+ en lugar de 6+.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -8057,8 +8057,8 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
         <profile name="Necromantic Goad" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="844c-c640-e84d-65d5">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **Deadwalker Zombies** unit that is wholly within 12&quot; of this unit and not in combat to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">The target can move up to 3&quot;. It can move into combat.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad **Deadwalker Zombies** amiga totalmente a 12" o menos de esta unidad y que no esté en combate como blanco.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">El blanco puede moverse hasta 3". Puede entrar en combate.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -8161,8 +8161,8 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                     <profile name="Siphon Spirit" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="162f-3524-4e41-b60d">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de héroe</characteristic>
-                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly non-**^^Hero^^** unit wholly within 12&quot; of this unit to be the target.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Allocate D3 damage points to the target (ward rolls cannot be made), then **Heal (D3)** this unit.</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga que no sea **^^Hero^^**, totalmente a 12" o menos de esta unidad, como blanco.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Asigna D3 puntos de daño al blanco (no pueden hacerse tiradas de salvaguardia) y, después, aplica **Heal (D3)** a esta unidad.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -8275,9 +8275,9 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                   <profiles>
                     <profile name="Cold Commander" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4117-5edb-83a3-91d7">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn, Reaction: you declared the &apos;All-out Attack&apos; command for a friendly unit</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, Reacción: Has declarado la orden &apos;All-out Attack&apos; para una unidad amiga.</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit is wholly within 12&quot; of the unit using the &apos;All-out Attack&apos; command, no command points are spent to use that command.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está totalmente a 12" o menos de la unidad que usa la orden &apos;All-out Attack&apos;, no se gastan puntos de orden para usar esa orden.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -8342,7 +8342,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de movimiento</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Esta unidad puede usar esta habilidad si ha sido destruida.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll 2D6. On a 7+, set up a replacement unit on the battlefield more than 9&quot; from all enemy units.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 2D6. Con un 7+, coloca una unidad de reemplazo en el campo de batalla a más de 9" de todas las unidades enemigas.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -8362,7 +8362,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                     <profile name="Curse-bound Sentinel" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="0c02-8503-9cc9-e32c">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While this unit is wholly within friendly territory, unmodified save rolls of 4+ for it are always successful.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté totalmente en territorio amigo, sus tiradas de salvación sin modificar de 4+ siempre tienen éxito.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -8414,7 +8414,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
           </modifiers>
           <rules>
             <rule name="Path Restrictions" id="eb9f-0ba5-5852-9e49" hidden="true">
-              <description>**^^Soulblight Gravelords Hero^^** only</description>
+              <description>Solo **^^Soulblight Gravelords Hero^^**.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -8490,7 +8490,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflict D3 mortal damage on the target. If the target is a **^^Priest^^**, inflict 3 mortal damage on it instead.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflige D3 de daño mortal al blanco. Si el blanco es **^^Priest^^**, inflígele 3 de daño mortal en su lugar.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -8575,7 +8575,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                     <profile name="Withering Touch" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="29c2-00fc-d61d-cafd">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Subtract 1 from save rolls for enemy units while they are in combat with this unit.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de salvación de las unidades enemigas mientras estén en combate con esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -8637,7 +8637,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
                     <profile name="Doomed Warriors" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="0835-7723-01ef-fbfc">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">When a replacement unit is set up for this unit, it has the same abilities from the &apos;Path of the Revenant&apos; as this unit. In addition, this unit can return as a replacement unit any number of times during the battle.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando se coloque una unidad de reemplazo de esta unidad, tiene las mismas habilidades de &apos;Path of the Revenant&apos; que esta unidad. Además, esta unidad puede regresar como unidad de reemplazo cualquier cantidad de veces durante la batalla.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -8689,7 +8689,7 @@ This ability can only be used by an **^^Infantry^^** hero.</characteristic>
           </modifiers>
           <rules>
             <rule name="Path Restrictions" id="9e53-e88f-432c-9852" hidden="true">
-              <description>Non-**^^Hero Soulblight Gravelords^^** only</description>
+              <description>Solo **^^Soulblight Gravelords^^** que no sean **^^Hero^^**.</description>
             </rule>
           </rules>
         </selectionEntry>
