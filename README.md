@@ -72,19 +72,21 @@ published under a permissive license, so it cannot be relicensed here.*
 | `tools/` | las tres herramientas que generan los `_es.cat` |
 | [`TRADUCIR.md`](TRADUCIR.md) | **cómo colaborar en la traducción** |
 
-Estado actual:
+Estado a 7 de septiembre de 2026: **traducción en curso**.
 
-| Fichero | Cadenas descriptivas |
-| --- | --- |
-| `Age of Sigmar 4.0.gst` | 124 de 137 |
-| `Ogor Mawtribes.cat` | 54 de 58 |
-| `Ogor Mawtribes - Library.cat` | 199 de 220 |
-| `Sons of Behemat.cat` | 46 de 47 |
-| `Sons of Behemat - Library.cat` | 49 de 58 |
+Hay 133 parejas de archivos generadas y verificadas. Esto confirma que sus
+estructuras e identificadores se conservan, pero no que todos sus textos estén
+traducidos. Se ha completado la prosa de las bibliotecas de Blades of Khorne,
+Kharadron Overlords, Sylvaneth y Nighthaunt, y recuperado el JSON de las reglas
+generales desde su versión española existente.
 
-Las cadenas que faltan en cada uno son las que solo contienen palabras clave,
-habilidades de arma o valores de dados (`Companion`, `Crit (Mortal)`,
-`**^^Rampage^^**`, `3D6"`…): no hay nada que traducir en ellas.
+Quedan 17 archivos con 2.725 entradas vacías de más de 90 caracteres, además de
+posibles etiquetas cortas. Las palabras clave, nombres de habilidades de arma
+y datos que deben conservarse en inglés permanecen con valor vacío.
+
+El detalle del avance y los archivos pendientes está en
+[ESTADO-TRADUCCION.md](ESTADO-TRADUCCION.md).
+
 
 ### La regla que no se puede saltar
 

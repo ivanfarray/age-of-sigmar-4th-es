@@ -190,6 +190,12 @@ distintas. Amplíalo cuando aparezca un término nuevo.
 | momentum score | puntuación de ímpetu |
 | battle scripture / library (runas) | escritura de batalla / reserva |
 | empty / full (Cauldron of Blood) | vacía / llena |
+| vexed points (Kharadron Overlords) | puntos de irritación |
+| creeping overgrowth (Sylvaneth) | maleza reptante |
+| overgrown token (Sylvaneth) | marcador de maleza |
+| accused / judged / condemned (Nighthaunt) | acusado/a / juzgado/a / condenado/a |
+| soul point (Nighthaunt) | punto de alma |
+| rally roll / rally point | tirada de reagrupamiento / punto de reagrupamiento |
 
 Fórmulas que se repiten, para copiar tal cual:
 
