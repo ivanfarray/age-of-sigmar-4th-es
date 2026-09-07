@@ -31,7 +31,7 @@
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">6</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige como objetivo una unidad enemiga visible a 18" o menos de esta unidad y después haz una tirada de lanzamiento de 2D6.</characteristic>
             <characteristic name="Effect" typeId="1cb9-a-1345-907f">Hasta el inicio de tu siguiente turno, cada vez que el objetivo sea elegido para usar una habilidad **^^Core^^**, tira un D3. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado. Si esta habilidad destruye al objetivo, no resuelvas el efecto de esa habilidad **^^Core^^**.</characteristic>
-            <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
+            <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Hechizo^^**</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="16b6-0911-f549-a4bd" name="Color">Yellow</attribute>
@@ -145,7 +145,7 @@
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige como objetivo un **^^Hero^^** enemigo visible a 18" o menos de esta unidad y después haz una tirada de lanzamiento de 2D6.</characteristic>
             <characteristic name="Effect" typeId="1cb9-a-1345-907f">Hasta el inicio de tu siguiente turno, cada vez que una unidad enemiga dentro del alcance de combate del objetivo use una orden, salvo que tu oponente gaste 1 **dado de ira** para usar esa orden, la orden no tiene efecto, sigue contando como usada y los puntos de orden gastados para usarla se pierden.</characteristic>
-            <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
+            <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Hechizo^^**</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="16b6-0911-f549-a4bd" name="Color">Yellow</attribute>
@@ -389,7 +389,7 @@
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">4+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Cavalry^^** (+1 Rend)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Caballería^^** (+1 Perforación)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -520,7 +520,7 @@
           </modifiers>
           <rules>
             <rule name="Base Size" id="888e-64f0-43b9-365a" hidden="true">
-              <description>1/8 60x35mm (Champion)
+              <description>1/8 60x35mm (Campeón)
 2/8 32mm
 5/8 28.5mm</description>
             </rule>
@@ -598,7 +598,7 @@
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** o **^^Monster^^** enemigo visible en combate con esta unidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esconde un dado en una de tus manos o debajo de uno de dos recipientes adecuados. Tu oponente debe elegir una de tus manos o recipientes. Si elige el que esconde el dado, esta habilidad no tiene efecto. Si elige el vacío, el objetivo es destruido automáticamente.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
@@ -629,7 +629,7 @@
             <characteristic name="Effect" typeId="1cb9-a-1345-907f">Si el objetivo es una unidad enemiga, inflígele D3 de daño mortal. Si el objetivo es una unidad amiga **^^Death^^**, elige 1 de los siguientes efectos:
 • Devuelve a la unidad objetivo un número de miniaturas abatidas con una característica de Health combinada de hasta 3.
 • El objetivo tiene **^^Ward (5+)^^** hasta el inicio de tu siguiente turno.</characteristic>
-            <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
+            <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Hechizo^^**</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="16b6-0911-f549-a4bd" name="Color">Yellow</attribute>
@@ -802,7 +802,7 @@
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crit (2 Hits)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (2 impactos)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -897,7 +897,7 @@
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó este turno, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Añade 1 a la tirada si el objetivo es un **^^Wizard^^** o **^^Priest^^**. Con un 2+, añade una cantidad igual al resultado a la característica de Attacks de las **Razarak&apos;s Ebon Claws** de esta unidad durante el resto de la fase, pero mientras esta unidad esté en combate con el objetivo, todos los ataques realizados con esa arma esta fase deben tener como objetivo esa unidad enemiga.
 **Nota del diseñador:** *Si el objetivo es un* **^^Wizard^^** *o* **^^Priest^^***, esta habilidad no puede fallar; aun así, debes tirar para determinar el número de ataques adicionales que genera.*</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
@@ -930,7 +930,7 @@
 • Tira un dado adicional.
 Por cada 5+ en esos dados adicionales, repite los puntos anteriores. Después, haz lo mismo por cada 4+ y luego por cada 3+. Por último, por cada 2+, da al objetivo 1 punto de **marchitamiento necrótico** (no tires dados adicionales).
 Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento necrótico**, es destruido automáticamente. En caso contrario, después de la última tirada, inflige al objetivo una cantidad de daño mortal igual al número de puntos de **marchitamiento necrótico** que tenga. Después, esos puntos de **marchitamiento necrótico** se pierden.</characteristic>
-            <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
+            <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Hechizo^^**</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="16b6-0911-f549-a4bd" name="Color">Yellow</attribute>
@@ -965,7 +965,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">3</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Companion</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Compañero</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1037,7 +1037,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Ossiarch Bonereapers Cavalry^^** que no sea **^^Hero^^** totalmente a 12" o menos de esta unidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Gasta 1 punto de **disciplina implacable**. Si esta unidad está en combate, no se gastan puntos de **disciplina implacable**. Las armas de combate del objetivo tienen **Charge (+1 Damage)** durante el resto del turno.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Relentless Discipline^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Disciplina implacable^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
@@ -1071,7 +1071,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
                     <characteristic name="Wnd" id="132c-24f8-9b6f-5b3f" hidden="false" typeId="61c1-22cc-40af-2847">3+</characteristic>
                     <characteristic name="Rnd" id="9787-a059-333e-3c68" hidden="false" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" id="4966-28b9-7d0e-8799" hidden="false" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" id="2837-74c4-8d0b-ce7" hidden="false" typeId="eda3-7332-5db1-4159">Companion</characteristic>
+                    <characteristic name="Ability" id="2837-74c4-8d0b-ce7" hidden="false" typeId="eda3-7332-5db1-4159">Compañero</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1089,7 +1089,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Charge (+1 Damage)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Carga (+1 Daño)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1244,7 +1244,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">4+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crit (2 Hits)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (2 impactos)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1282,7 +1282,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige como objetivo una unidad amiga visible **^^Ossiarch Bonereapers^^** totalmente a 12" o menos del lanzador y después haz una tirada de lanzamiento de 2D6.</characteristic>
             <characteristic name="Effect" typeId="1cb9-a-1345-907f">El objetivo tiene **^^Strike-first^^** durante el resto del turno.</characteristic>
-            <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Spell^^**</characteristic>
+            <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Hechizo^^**</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="16b6-0911-f549-a4bd" name="Color">Yellow</attribute>
@@ -1549,7 +1549,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">4+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Charge (+1 Damage)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Carga (+1 Daño)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1567,7 +1567,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
                     <characteristic name="Wnd" id="def6-a588-eb00-ae53" hidden="false" typeId="61c1-22cc-40af-2847">3+</characteristic>
                     <characteristic name="Rnd" id="3008-cb5d-4784-21aa" hidden="false" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" id="c6ce-962e-bd9c-f9aa" hidden="false" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" id="2d97-60cc-5f17-4aec" hidden="false" typeId="eda3-7332-5db1-4159">Companion</characteristic>
+                    <characteristic name="Ability" id="2d97-60cc-5f17-4aec" hidden="false" typeId="eda3-7332-5db1-4159">Compañero</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1667,7 +1667,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
                     <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">2+</characteristic>
                     <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">1</characteristic>
                     <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">D3+2</characteristic>
-                    <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Crit (2 Hits)</characteristic>
+                    <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Crítico (2 impactos)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1704,7 +1704,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó este turno, elige una unidad enemiga en combate con ella como objetivo enemigo. Después, puedes elegir un **Liege-Kavalos** amigo dentro del alcance de combate de esta unidad como objetivo amigo.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflige D3 de daño mortal al objetivo enemigo. Inflige D3 de daño mortal adicionales al objetivo enemigo si elegiste un objetivo amigo. Después, esta unidad y el objetivo amigo (si lo hay) pueden moverse 10". Pueden atravesar los alcances de combate de las unidades enemigas, pero no pueden terminar ese movimiento en combate.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Core^^**, **^^Attack^^**, **^^Fight^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Ataque^^**, **^^Combate^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
@@ -1771,7 +1771,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
                     <characteristic name="Wnd" id="5874-3499-3bb5-6eba" hidden="false" typeId="61c1-22cc-40af-2847">3+</characteristic>
                     <characteristic name="Rnd" id="9b24-412d-5154-b4b" hidden="false" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" id="418b-bf3d-a384-cd29" hidden="false" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" id="801c-87e-7c74-9cbf" hidden="false" typeId="eda3-7332-5db1-4159">Companion</characteristic>
+                    <characteristic name="Ability" id="801c-87e-7c74-9cbf" hidden="false" typeId="eda3-7332-5db1-4159">Compañero</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1978,7 +1978,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Monster^^** (+1 Rend), Crit (2 Hits)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Monstruo^^** (+1 Perforación), Crítico (2 impactos)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2053,7 +2053,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Monster^^** (+1 Rend), Crit (2 Hits)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Monstruo^^** (+1 Perforación), Crítico (2 impactos)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2308,7 +2308,7 @@ Cover, Unstable**</description>
                 <characteristic name="Wnd" id="e419-bb5f-d3ba-3abf" hidden="false" typeId="d3d5-9dc6-13de-8d1">4+</characteristic>
                 <characteristic name="Rnd" id="bff9-95aa-2cf6-e77c" hidden="false" typeId="d03f-a9ae-3eec-755">1</characteristic>
                 <characteristic name="Dmg" id="b909-c4ac-a899-405b" hidden="false" typeId="96c2-d0a5-ea1e-653b">D3</characteristic>
-                <characteristic name="Ability" id="b0c4-6834-52a6-e630" hidden="false" typeId="d793-3dd7-9c13-741e">Shoot in Combat</characteristic>
+                <characteristic name="Ability" id="b0c4-6834-52a6-e630" hidden="false" typeId="d793-3dd7-9c13-741e">Disparar en combate</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2389,7 +2389,7 @@ Cover, Unstable**</description>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-charge (+1 Rend)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anticarga (+1 Perforación)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2420,7 +2420,7 @@ Cover, Unstable**</description>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">4+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-charge (+1 Rend)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anticarga (+1 Perforación)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2451,7 +2451,7 @@ Cover, Unstable**</description>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">4+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-charge (+1 Rend)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anticarga (+1 Perforación)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2482,7 +2482,7 @@ Cover, Unstable**</description>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">4+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-charge (+1 Rend)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anticarga (+1 Perforación)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2513,7 +2513,7 @@ Cover, Unstable**</description>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">4+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-charge (+1 Rend)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anticarga (+1 Perforación)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2544,7 +2544,7 @@ Cover, Unstable**</description>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">4+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-charge (+1 Rend)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anticarga (+1 Perforación)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2628,7 +2628,7 @@ Cover, Unstable**</description>
                     <characteristic name="Wnd" id="a33c-dbed-3a40-e302" hidden="false" typeId="61c1-22cc-40af-2847">4+</characteristic>
                     <characteristic name="Rnd" id="db8f-da18-1a70-e3b4" hidden="false" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" id="4af3-553c-ad4c-fc8b" hidden="false" typeId="e948-9c71-12a6-6be4">2</characteristic>
-                    <characteristic name="Ability" id="68e6-ba82-b71e-6b51" hidden="false" typeId="eda3-7332-5db1-4159">Crit (2 Hits)</characteristic>
+                    <characteristic name="Ability" id="68e6-ba82-b71e-6b51" hidden="false" typeId="eda3-7332-5db1-4159">Crítico (2 impactos)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2735,7 +2735,7 @@ Cover, Unstable**</description>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">4+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Cavalry^^** (+1 Rend), Crit (2 Hits)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Caballería^^** (+1 Perforación), Crítico (2 impactos)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2858,7 +2858,7 @@ Cover, Unstable**</description>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">4+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Charge (+1 Damage)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Carga (+1 Daño)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2876,7 +2876,7 @@ Cover, Unstable**</description>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Companion</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Compañero</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2986,7 +2986,7 @@ Cover, Unstable**</description>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad ha cargado este turno, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflige D3 de daño mortal al objetivo. Después, puedes retirar esta unidad del campo de batalla y volver a colocarla a 1" o menos del objetivo.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Core^^**, **^^Attack^^**, **^^Fight^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Ataque^^**, **^^Combate^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
@@ -3048,7 +3048,7 @@ Cover, Unstable**</description>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Companion</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Compañero</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3289,7 +3289,7 @@ Si una habilidad fuera a curar o devolver miniaturas abatidas a una unidad enemi
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">4+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Hero^^** (+1 Rend)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Héroe^^** (+1 Perforación)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3400,7 +3400,7 @@ Retira esta unidad del campo de batalla y vuelve a colocarla a 1" o menos del ob
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">4+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Hero^^** (+1 Rend)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Héroe^^** (+1 Perforación)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3627,7 +3627,7 @@ Cada vez que una unidad enemiga visible a 12" o menos de esta unidad sea destrui
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crit (Mortal)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (mortal)</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="increment" value="1" field="60e-35aa-31ed-e488">
@@ -3664,7 +3664,7 @@ Cada vez que una unidad enemiga visible a 12" o menos de esta unidad sea destrui
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Companion</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Compañero</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="append" value="Crit (Mortal)" field="eda3-7332-5db1-4159" join=", ">
@@ -3701,7 +3701,7 @@ Cada vez que una unidad enemiga visible a 12" o menos de esta unidad sea destrui
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Companion</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Compañero</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="append" value="Crit (Mortal)" field="eda3-7332-5db1-4159" join=", ">
@@ -3738,7 +3738,7 @@ Cada vez que una unidad enemiga visible a 12" o menos de esta unidad sea destrui
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Faction Terrain^^** (+1 Rend), Companion</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Terreno de facción^^** (+1 Perforación), Compañero</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="increment" value="1" field="60e-35aa-31ed-e488">
@@ -3860,7 +3860,7 @@ Cada vez que una unidad enemiga visible a 12" o menos de esta unidad sea destrui
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crit (Mortal)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (mortal)</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="increment" value="1" field="60e-35aa-31ed-e488">
@@ -3898,7 +3898,7 @@ Cada vez que una unidad enemiga visible a 12" o menos de esta unidad sea destrui
                     <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">3+</characteristic>
                     <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">1</characteristic>
                     <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">3</characteristic>
-                    <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Companion</characteristic>
+                    <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Compañero</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
