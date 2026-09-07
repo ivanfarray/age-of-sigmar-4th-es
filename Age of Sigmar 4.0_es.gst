@@ -14638,7 +14638,7 @@
                 <characteristic name="Wnd" id="d803-430c-8c66-2f9e" hidden="false" typeId="61c1-22cc-40af-2847">2+</characteristic>
                 <characteristic name="Rnd" id="4303-a4d1-e952-92b9" hidden="false" typeId="eccc-10fa-6958-fb73">2</characteristic>
                 <characteristic name="Dmg" id="20b7-e36f-73be-f2f8" hidden="false" typeId="e948-9c71-12a6-6be4">3</characteristic>
-                <characteristic name="Ability" id="368e-d428-40cf-9130" hidden="false" typeId="eda3-7332-5db1-4159">Anti-**^^Manifestation^^**(+1 Rend)</characteristic>
+                <characteristic name="Ability" id="368e-d428-40cf-9130" hidden="false" typeId="eda3-7332-5db1-4159">Anti-**^^Manifestación^^**(+1 Perforación)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14673,7 +14673,7 @@
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta **^^Manifestation^^** puede moverse una distancia de hasta su característica de Move. Puede atravesar miniaturas durante ese movimiento, pero no puede terminarlo en combate. Después, elige como objetivos hasta 3 unidades enemigas sobre las que esta **^^Manifestation^^** haya pasado durante ese movimiento. Tira un D3 por cada objetivo. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Core^^**, **^^Move^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Movimiento^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
@@ -14713,7 +14713,7 @@
                 <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
                 <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
                 <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crit (Mortal)</characteristic>
+                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (mortal)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14846,7 +14846,7 @@
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta **^^Manifestation^^** puede moverse una distancia de hasta su característica de Move en una dirección (consulta &apos;The Pendulum Swings&apos;). Puede atravesar miniaturas durante ese movimiento y puede terminarlo en combate. Después, elige como objetivos hasta 3 unidades enemigas sobre las que esta **^^Manifestation^^** haya pasado durante ese movimiento o que estén a 1/2" o menos de ella. Tira un D6 por cada objetivo. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Core^^**, **^^Move^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Movimiento^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
@@ -14965,7 +14965,7 @@
                 <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">3+</characteristic>
                 <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">2</characteristic>
                 <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">1</characteristic>
-                <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Shoot in Combat, Anti-**^^WAR MACHINE^^** (+1 Rend)</characteristic>
+                <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Disparar en combate, Anti-**^^MÁQUINA DE GUERRA^^** (+1 Perforación)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14985,7 +14985,7 @@
                 <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
                 <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                 <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^WAR MACHINE^^** (+1 Rend)</characteristic>
+                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^MÁQUINA DE GUERRA^^** (+1 Perforación)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15046,7 +15046,7 @@
                 <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">3+</characteristic>
                 <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">2</characteristic>
                 <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">1</characteristic>
-                <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Shoot in Combat, Anti-**^^INFANTRY^^** (+1 Rend)</characteristic>
+                <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Disparar en combate, Anti-**^^INFANTERÍA^^** (+1 Perforación)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15139,7 +15139,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
                 <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
                 <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                 <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crit (2 Hits)</characteristic>
+                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (2 impactos)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15231,7 +15231,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Infantry Wizard Hero^^** amigo a 3" o menos de esta **^^Manifestation^^**</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta **^^Manifestation^^** puede moverse una distancia de hasta su característica de Move. Puede atravesar miniaturas durante ese movimiento, pero no puede terminarlo en combate. Después, retira el objetivo del campo de batalla y vuelve a colocarlo en el campo de batalla a 3" o menos de esta **^^Manifestation^^** y sin que esté en combate. Después, inflige 1 de daño mortal al objetivo.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Core^^**, **^^Move**^^</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Movimiento**^^</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
@@ -15260,7 +15260,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
                 <characteristic name="Wnd" hidden="false" id="3485-8fed-df5c-7dc8" typeId="61c1-22cc-40af-2847">3+</characteristic>
                 <characteristic name="Rnd" hidden="false" id="e81f-833b-bb77-29ae" typeId="eccc-10fa-6958-fb73">1</characteristic>
                 <characteristic name="Dmg" hidden="false" id="6267-902e-a076-49c" typeId="e948-9c71-12a6-6be4">D3</characteristic>
-                <characteristic name="Ability" hidden="false" id="c79b-9200-2df1-9672" typeId="eda3-7332-5db1-4159">Crit (2 Hits)</characteristic>
+                <characteristic name="Ability" hidden="false" id="c79b-9200-2df1-9672" typeId="eda3-7332-5db1-4159">Crítico (2 impactos)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15317,7 +15317,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
                 <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
                 <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
                 <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crit (Mortal)</characteristic>
+                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (mortal)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15494,7 +15494,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
                 <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">4+</characteristic>
                 <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                 <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Infantry^^** (+1 Rend)</characteristic>
+                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Infantería^^** (+1 Perforación)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15510,7 +15510,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
       <profiles>
         <profile name="Ravenak&apos;s Gnashing Jaws" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="7ae7-f962-b679-feaf">
           <characteristics>
-            <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">3D6&quot;</characteristic>
+            <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">3D6"</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">10</characteristic>
             <characteristic name="Save" typeId="80c7-7691-b6ed-d6a6">6+</characteristic>
             <characteristic name="Banishment" typeId="97a2-d412-9ac-6a37">7+</characteristic>
@@ -15553,7 +15553,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
                 <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                 <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
                 <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Charge (+1 Damage)</characteristic>
+                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Carga (+1 Daño)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15584,7 +15584,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta **^^Manifestation^^** puede moverse una distancia de hasta su característica de Move. Puede atravesar miniaturas durante ese movimiento, pero no puede terminarlo en combate. Después, puedes elegir como objetivo una unidad enemiga sobre la que esta **^^Manifestation^^** haya pasado durante ese movimiento. Tira un dado por cada miniatura de la unidad objetivo. Por cada 5+, inflige 1 de daño mortal al objetivo.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Core^^**, **^^Move^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Movimiento^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
@@ -15613,7 +15613,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
                 <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
                 <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
                 <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Charge (+1 Damage)</characteristic>
+                <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Carga (+1 Daño)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15925,7 +15925,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Tendrils of Light an
         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 1, inflige D3 de daño mortal a ese **^^Hero^^**. Con un 2+:
 • Si ese **^^Hero^^** es un **^^Wizard^^** o un **^^Priest^^**, suma 1 a las tiradas de lanzamiento o de cántico de ese **^^Hero^^** este turno.
 • Si ese **^^Hero^^** no es un **^^Wizard^^** ni un **^^Priest^^**, puede usar la habilidad &apos;Unbind&apos; o &apos;Banish Manifestation&apos; este turno como si tuviera **^^Wizard (1)^^**.</characteristic>
-        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Core^^**</characteristic>
+        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**</characteristic>
         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
       </characteristics>
       <attributes>
@@ -15949,7 +15949,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Tendrils of Light an
 • ***Cauterising Pollen:*** Tira un dado. Con un 1, inflige 1 de daño mortal a cada unidad (amiga y enemiga) a 6" o menos de cualquier **Places of Power**. Con un 3+, **Heal (2)** cada unidad (amiga y enemiga) totalmente a 6" o menos del objetivo.
 • ***Rapid Sprouting:*** Elige un marcador de objetivo Ghyranite o un elemento de escenografía visible a 12" o menos de ese **^^Hero^^** y tira un dado. Con un 3+, ese marcador de objetivo o elemento de escenografía tiene la habilidad &apos;Obscuring&apos; (consulta 1.2) durante el resto de la batalla.
 • ***Tap the Ley Lines:*** Durante el resto del turno, si ese **^^Hero^^** no es un **^^Wizard^^** ni un **^^Priest^^**, puede usar la habilidad &apos;Unbind&apos; o &apos;Banish Manifestation&apos; como si tuviera **^^Wizard (1)^^**.</characteristic>
-        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Core^^**</characteristic>
+        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**</characteristic>
         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
       </characteristics>
       <attributes>
@@ -16090,7 +16090,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Tendrils of Light an
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga que esté en un regimiento, pero que no lo lidere, para que sea la **guardia de honor** de ese regimiento. Puedes elegir una unidad en reserva.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 1 a las tiradas de impacto y de herida de los ataques hechos por esa unidad **guardia de honor** que tengan como objetivo al general enemigo, o a la **guardia de honor** enemiga si está en el regimiento del general enemigo, si el objetivo del ataque está a 12" o menos.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Honour Guard^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Guardia de honor^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
@@ -16106,7 +16106,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Tendrils of Light an
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Resta 1 a la característica de Attacks de las armas de cuerpo a cuerpo de las unidades enemigas mientras estén en combate con la unidad que lidera ese regimiento si se cumplen ambas condiciones:
 • La **guardia de honor** de ese regimiento está totalmente a 6" o menos del líder de ese regimiento.
 • Ni la **guardia de honor** de ese regimiento ni el líder del regimiento han cargado este turno.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Honour Guard^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Guardia de honor^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
@@ -16120,7 +16120,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Tendrils of Light an
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga que no sea **^^Fly Infantry Hero^^** y que esté en un regimiento, pero que no lo lidere, para que sea la **guardia de honor** de ese regimiento. Puedes elegir una unidad en reserva.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 2" a la característica de Move de las unidades amigas que no sean **^^Fly Infantry^^** mientras estén totalmente a 12" o menos de la **guardia de honor**.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Honour Guard^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Guardia de honor^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
@@ -16134,7 +16134,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Tendrils of Light an
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Monster^^** amigo que no sea **^^Unique^^**, que no haya sido reforzado y que esté en un regimiento, pero que no lo lidere, para que sea la **guardia de honor** de ese regimiento. Puedes elegir una unidad en reserva.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esa unidad puede ignorar los efectos de la habilidad &apos;Battle Damaged&apos;. Además, suma 1 a las tiradas de impacto de los ataques de combate hechos por la **guardia de honor**. Esta habilidad también afecta a las armas Companion.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Honour Guard^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Guardia de honor^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
@@ -16154,7 +16154,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Tendrils of Light an
 • **Anti-^^War Machine^^ (+1 Rend)**
 • **Anti-^^Beast^^ (+1 Rend)**
 En cualquier turno en el que esa **guardia de honor** haya cargado, las armas de cuerpo a cuerpo de esa unidad tienen la habilidad de arma que hayas elegido.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Honour Guard^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Guardia de honor^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
           <attributes>
