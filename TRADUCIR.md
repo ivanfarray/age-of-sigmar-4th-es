@@ -103,7 +103,19 @@ OK     Ogor Mawtribes_es.cat  (54/58 cadenas traducidas, 93.1%; 5301 atributos i
 **El `_es.cat` es un artefacto generado: nunca se edita a mano.** Si hay una
 errata, se corrige el JSON y se vuelve a ejecutar el paso 3.
 
-## Qué dejar en inglés dentro de la prosa
+## Etiquetas independientes y referencias en la prosa
+
+**Criterio actualizado por petición del usuario (7 de septiembre de 2026):**
+las etiquetas independientes de claves, habilidades de arma e ingredientes
+también se traducen. Usar las equivalencias de
+[GLOSARIO-ETIQUETAS.md](GLOSARIO-ETIQUETAS.md). Se mantienen intactos los
+atributos XML y las claves inglesas de los JSON. Las expresiones que solo
+contienen datos y los nombres propios sin traducción se registran con su
+valor original, en lugar de dejarlos vacíos.
+
+Las siguientes pautas se aplican a las referencias dentro de la prosa ya
+traducida; no impiden traducir una etiqueta independiente.
+
 
 Como los `name=` no se traducen, los nombres propios que aparecen **dentro** del
 texto también se quedan en inglés. Si no, la regla citaría un nombre que el
@@ -124,8 +136,10 @@ Se quedan en inglés:
 Se traducen: todo lo demás, incluidos los términos de reglas que no son nombres
 (`pile-in move`, `control score`, `fury level`, `damage points`…).
 
-Una cadena que solo contiene palabras clave (`**^^Core^^**, **^^Move^^**`) se
-deja con el valor vacío: no hay nada que traducir en ella.
+Una cadena que solo contiene palabras clave también se traduce: por ejemplo,
+`**^^Core^^**, **^^Move^^**` pasa a `**^^Básica^^**, **^^Movimiento^^**`.
+Un valor vacío indica trabajo pendiente; los datos sin traducción usan el
+mismo texto original como valor.
 
 ## Glosario acordado
 

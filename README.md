@@ -72,22 +72,21 @@ published under a permissive license, so it cannot be relicensed here.*
 | `tools/` | las tres herramientas que generan los `_es.cat` |
 | [`TRADUCIR.md`](TRADUCIR.md) | **cómo colaborar en la traducción** |
 
-Estado a 7 de septiembre de 2026: **prosa pendiente completada en todos los
-catálogos actuales**.
+Estado a 7 de septiembre de 2026: **prosa y etiquetas completadas**.
 
-Hay 133 parejas de archivos generadas y verificadas, con sus estructuras,
-atributos e identificadores conservados. Los JSON contienen 9.165 entradas
-traducidas y 697 entradas que se conservan intencionadamente en inglés:
-palabras clave, habilidades de arma, medidas de peanas, dados e ingredientes.
-Se han revisado todas las entradas vacías y no queda prosa pendiente en ellas.
+Hay 133 parejas de archivos generadas y verificadas. Los JSON contienen 9.862
+entradas resueltas y ningún valor vacío. También se han traducido las claves,
+habilidades de arma e ingredientes que antes se conservaban en inglés. Las
+cifras, medidas y nombres propios sin traducción mantienen su escritura.
 
-Los nombres propios y referencias a habilidades se mantienen en inglés para
-coincidir con los nombres del catálogo. La verificación técnica no sustituye
-una revisión editorial independiente ni pruebas en una aplicación de listas.
+Los atributos XML, incluidos los nombres de unidades y habilidades, siguen
+intactos. Sus referencias dentro de la prosa existente permanecen en inglés;
+las etiquetas independientes tienen sus equivalencias en
+[GLOSARIO-ETIQUETAS.md](GLOSARIO-ETIQUETAS.md).
 
-El detalle del avance y los archivos pendientes está en
-[ESTADO-TRADUCCION.md](ESTADO-TRADUCCION.md).
-
+El detalle de cobertura y validación está en
+[ESTADO-TRADUCCION.md](ESTADO-TRADUCCION.md). La verificación técnica no
+sustituye una revisión editorial independiente ni pruebas en una aplicación.
 
 ### La regla que no se puede saltar
 
