@@ -72,18 +72,18 @@ published under a permissive license, so it cannot be relicensed here.*
 | `tools/` | las tres herramientas que generan los `_es.cat` |
 | [`TRADUCIR.md`](TRADUCIR.md) | **cómo colaborar en la traducción** |
 
-Estado a 7 de septiembre de 2026: **traducción en curso**.
+Estado a 7 de septiembre de 2026: **prosa pendiente completada en todos los
+catálogos actuales**.
 
-Hay 133 parejas de archivos generadas y verificadas. Esto confirma que sus
-estructuras e identificadores se conservan, pero no que todos sus textos estén
-traducidos. El último bloque añade 2.619 traducciones y completa la prosa de
-otras diez bibliotecas de facción, Lores y los dos suplementos de Path to Glory,
-además de las cuatro bibliotecas completadas anteriormente.
+Hay 133 parejas de archivos generadas y verificadas, con sus estructuras,
+atributos e identificadores conservados. Los JSON contienen 9.165 entradas
+traducidas y 697 entradas que se conservan intencionadamente en inglés:
+palabras clave, habilidades de arma, medidas de peanas, dados e ingredientes.
+Se han revisado todas las entradas vacías y no queda prosa pendiente en ellas.
 
-Quedan 4 archivos con 690 entradas vacías de más de 90 caracteres: Cities of
-Sigmar, Regiments of Renown, Soulblight Gravelords y Stormcast Eternals, además
-de posibles etiquetas cortas. Las palabras clave, nombres de habilidades de
-arma y datos que deben conservarse en inglés permanecen con valor vacío.
+Los nombres propios y referencias a habilidades se mantienen en inglés para
+coincidir con los nombres del catálogo. La verificación técnica no sustituye
+una revisión editorial independiente ni pruebas en una aplicación de listas.
 
 El detalle del avance y los archivos pendientes está en
 [ESTADO-TRADUCCION.md](ESTADO-TRADUCCION.md).

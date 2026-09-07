@@ -243,3 +243,43 @@ quiere que coexistan, hay que cambiar el `id` del elemento `<catalogue>` raíz
 
 Antes de hacer commit, ejecuta `python tools/verify-translation.py`. Si no dice
 `OK`, no lo subas.
+
+
+## Términos añadidos al completar las bibliotecas
+
+Las traducciones existentes también usan «blanco» para *target*, «atributo»
+para *characteristic*, «terreno» para *terrain feature*, «tirada para herir»
+para *wound roll* y «repetir la tirada» para *re-roll*. Son equivalentes a las
+formas del glosario anterior. Al modificar una regla, mantener una forma
+coherente dentro de su texto. `Heal (X)` se conserva en inglés.
+
+| Inglés | Español |
+| --- | --- |
+| under orders | bajo órdenes |
+| dark sorcery token | ficha de hechicería oscura |
+| heat token | ficha de calor |
+| zealotry roll | tirada de fanatismo |
+| mark (Cities of Sigmar) | presa |
+| hunted by the Order | perseguido/a por la Orden |
+| scouting ahead | explorando la avanzadilla |
+| consecrated | consagrado/a |
+| resistance roll | tirada de resistencia |
+| soul-bonded charge | protegido vinculado por el alma |
+| questmarked | marcado para la misión |
+| stored energy dice | dado de energía almacenada |
+| beast form | forma bestial |
+| sacrifice point | punto de sacrificio |
+| ruinous energy point | punto de energía ruinosa |
+| in the tunnels below | en los túneles subterráneos |
+| drilling beneath the surface | perforando bajo la superficie |
+| Regiment of Renown / Regiment of Ghyran | Regimiento de Renombre / Regimiento de Ghyran |
+| marked for justice | señalado/a para la justicia |
+| swift point / swift move | punto de rapidez / movimiento rápido |
+| pre-eminent / overlooked | preeminente / relegado/a |
+| oriented target / bewildered target | blanco orientado / blanco desconcertado |
+| unknown location / intended destination | ubicación desconocida / destino previsto |
+| remediation roll / remediated / contaminated | tirada de remediación / remediado/a / contaminado/a |
+| Landmark of Ghyran | hito de Ghyran |
+| Ghyranite Concoction | brebaje ghyranita (conservar la clave inglesa si lleva `^^`) |
+| bone-tithe point | punto de diezmo de huesos |
+| emberstone-enhanced weapon | arma mejorada con piedra ascua |
