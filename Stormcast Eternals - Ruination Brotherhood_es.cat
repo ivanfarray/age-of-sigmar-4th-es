@@ -3,10 +3,10 @@
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Battle Traits: Ruination Brotherhood" hidden="false" id="ff00-83be-470e-9f5c" publicationId="43cd-e9ef-5d4d-87c4">
       <profiles>
-        <profile name="Hallowed Presence" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a1ff-811f-a68f-95f3">
+        <profile name="Presencia sagrada" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a1ff-811f-a68f-95f3">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras las unidades amigas **^^Warrior Chamber^^** estén totalmente a 12" o menos de cualquier unidad amiga **^^Ruination Chamber^^**, esas unidades amigas **^^Warrior Chamber^^** tienen **^^Ward (6+)^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras las unidades amigas **^^Warrior Chamber^^** estén totalmente a 12" o menos de cualquier unidad amiga **^^Cámara de la Ruina^^**, esas unidades amigas **^^Warrior Chamber^^** tienen **^^Ward (6+)^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -14,10 +14,10 @@
             <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
         </profile>
-        <profile name="Entropic Screech" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b029-effa-0516-c3c5">
+        <profile name="Chillido entrópico" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b029-effa-0516-c3c5">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Ruination Chamber Monster^^** amigo que no haya usado ninguna habilidad de **^^Rampage^^** este turno para usar esta habilidad. Después, elige como objetivos hasta 3 unidades enemigas en combate con él.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Cámara de la Ruina Monster^^** amigo que no haya usado ninguna habilidad de **^^Rampage^^** este turno para usar esta habilidad. Después, elige como objetivos hasta 3 unidades enemigas en combate con él.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3 por cada objetivo. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado. La unidad que usa esta habilidad no puede usar más habilidades de **^^Rampage^^** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -28,13 +28,13 @@
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
         </profile>
-        <profile name="Temper the Flaw" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e50c-715e-6c0c-245a">
+        <profile name="Templar el defecto" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e50c-715e-6c0c-245a">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Debes usar esta habilidad al final de cada turno. Cada unidad amiga que no sea **^^Hero Ruination Chamber^^** y que haya usado una habilidad de **^^Fight^^** este turno es un objetivo.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Debes usar esta habilidad al final de cada turno. Cada unidad amiga que no sea **^^Hero Cámara de la Ruina^^** y que haya usado una habilidad de **^^Fight^^** este turno es un objetivo.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Para cada objetivo, elige 1 de los siguientes efectos:
-• ***Guided:*** Si el objetivo está totalmente a 12" o menos de cualquier **^^Ruination Chamber Heroes^^** amigo, devuélvele 1 miniatura abatida.
-• ***Tormented:*** Si el objetivo no está totalmente a 12" o menos de cualquier **^^Ruination Chamber Heroes^^** amigo, se vuelve tormented hasta el final del siguiente turno. Mientras una unidad sea tormented, suma 1 a la característica de Attacks de sus armas de cuerpo a cuerpo, pero no puede disputar objetivos ni usar órdenes.</characteristic>
+• ***Guided:*** Si el objetivo está totalmente a 12" o menos de cualquier **^^Cámara de la Ruina Heroes^^** amigo, devuélvele 1 miniatura abatida.
+• ***Tormented:*** Si el objetivo no está totalmente a 12" o menos de cualquier **^^Cámara de la Ruina Heroes^^** amigo, se vuelve tormented hasta el final del siguiente turno. Mientras una unidad sea tormented, suma 1 a la característica de Attacks de sus armas de cuerpo a cuerpo, pero no puede disputar objetivos ni usar órdenes.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -44,10 +44,10 @@
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
         </profile>
-        <profile name="Ancient Aura" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="68f1-b015-4197-df53">
+        <profile name="Aura ancestral" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="68f1-b015-4197-df53">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército) cualquier fase de héroe</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Ruination Chamber^^**.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Cámara de la Ruina^^**.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esa unidad tiene **^^Ward (5+)^^** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -69,9 +69,9 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Artefacts of Power: Ruination Brotherhood" id="755b-0409-652e-b68e" hidden="false" publicationId="43cd-e9ef-5d4d-87c4">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Hallowed Scrolls" hidden="false" id="06bd-44e6-059b-b5a5">
+            <selectionEntry type="upgrade" import="true" name="Pergaminos sagrados" hidden="false" id="06bd-44e6-059b-b5a5">
               <profiles>
-                <profile name="Hallowed Scrolls" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e020-6da8-9cfa-76af">
+                <profile name="Pergaminos sagrados" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e020-6da8-9cfa-76af">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad es Infantry, tiene **^^Ward (5+)^^**. Si no, tiene **^^Ward (6+)^^**.</characteristic>
@@ -115,12 +115,12 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Heroic Traits: Ruination Brotherhood" id="c320-e896-41f6-9844" hidden="false" publicationId="43cd-e9ef-5d4d-87c4">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Corven Lord" hidden="false" id="1880-9012-887e-cc52">
+            <selectionEntry type="upgrade" import="true" name="Señor de los córvidos" hidden="false" id="1880-9012-887e-cc52">
               <profiles>
-                <profile name="Corven Lord" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e83e-7997-7e6d-dda6">
+                <profile name="Señor de los córvidos" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e83e-7997-7e6d-dda6">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad tiene la habilidad &apos;Ruination Chamber&apos;, puede usar esa habilidad una vez por turno independientemente de si otra unidad amiga la ha usado durante el mismo turno.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad tiene la habilidad &apos;Cámara de la Ruina&apos;, puede usar esa habilidad una vez por turno independientemente de si otra unidad amiga la ha usado durante el mismo turno.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
