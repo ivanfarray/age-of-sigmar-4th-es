@@ -2,6 +2,12 @@
 
 **Completadas la prosa, las etiquetas y los nombres de unidades y armas.**
 
+**Nombres de habilidades: en curso por petición del usuario.** Se están
+añadiendo títulos de habilidades, hechizos y plegarias en los diccionarios
+`translations/names/Abilities - *.es.json`, con sus referencias en las reglas.
+Las cifras de cobertura de nombres de esta página corresponden al bloque
+anterior de unidades y armas; no implican que las habilidades estén terminadas.
+
 - Los 133 JSON contienen 9.862 entradas resueltas y **0 valores vacíos**.
 - Se han rellenado las 697 entradas que antes se conservaban vacías: claves,
   habilidades de arma, etiquetas de peanas e ingredientes, además de registrar
