@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="true" id="2c07-f0f9-8601-d082" name="Helsmiths of Hashut - Library" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="55" revision="19" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
-    <selectionEntry type="unit" import="true" name="Dominator Engine with Immolation Cannons" hidden="false" id="9c89-4ec9-71db-0026" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Máquina dominadora con cañones de inmolación" hidden="false" id="9c89-4ec9-71db-0026" publicationId="487d-9798-0633-8040">
       <profiles>
-        <profile name="Dominator Engine with Immolation Cannons" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ef9a-7830-6c99-e912">
+        <profile name="Máquina dominadora con cañones de inmolación" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ef9a-7830-6c99-e912">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">6&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">10</characteristic>
@@ -15,7 +15,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos 2 o más unidades enemigas visibles a 8" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 2 a la característica de Attacks de los **Immolation Cannons** de esta unidad por cada unidad elegida como objetivo de esta habilidad, pero cada vez que esta unidad use una habilidad de **^^Shoot^^**, debe dirigir a cada una de esas unidades al menos 3 de sus ataques.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 2 a la característica de Attacks de los **Cañones de inmolación** de esta unidad por cada unidad elegida como objetivo de esta habilidad, pero cada vez que esta unidad use una habilidad de **^^Shoot^^**, debe dirigir a cada una de esas unidades al menos 3 de sus ataques.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -46,15 +46,15 @@
         <categoryLink name="AUTOMATON" hidden="false" id="53be-c210-fdda-a2f4" targetId="acb5-f7cf-ee4f-1f00" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Dominator Engine with Immolation Cannons" hidden="false" id="d992-2201-2af1-c440">
+        <selectionEntry type="model" import="true" name="Máquina dominadora con cañones de inmolación" hidden="false" id="d992-2201-2af1-c440">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Immolation Cannons" hidden="false" id="1552-d5fb-d115-eacb">
+            <selectionEntry type="upgrade" import="true" name="Cañones de inmolación" hidden="false" id="1552-d5fb-d115-eacb">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="26fe-4231-c060-7fb6"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8285-6fe8-61d4-ea15"/>
               </constraints>
               <profiles>
-                <profile name="Immolation Cannons" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="d923-93ca-702e-76d0">
+                <profile name="Cañones de inmolación" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="d923-93ca-702e-76d0">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">8&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">5</characteristic>
@@ -67,13 +67,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Horns and Pummelling Strikes" hidden="false" id="5832-ccac-e61e-7e4d">
+            <selectionEntry type="upgrade" import="true" name="Cuernos y golpes contundentes" hidden="false" id="5832-ccac-e61e-7e4d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aeb5-022a-80c4-881d"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e16-bf58-1740-a93b"/>
               </constraints>
               <profiles>
-                <profile name="Horns and Pummelling Strikes" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="82bd-9385-797a-68f4">
+                <profile name="Cuernos y golpes contundentes" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="82bd-9385-797a-68f4">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -98,7 +98,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Urak Taar, the First Daemonsmith" hidden="false" id="a1f1-b30e-abe9-a234" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Urak Taar, el Primer Herrero Demoníaco" hidden="false" id="a1f1-b30e-abe9-a234" publicationId="487d-9798-0633-8040">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9976-e310-14e6-8111" includeChildSelections="true"/>
       </constraints>
@@ -106,7 +106,7 @@
         <entryLink import="true" name="General" hidden="false" id="3b0e-b6a5-c496-28e7" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Urak Taar, the First Daemonsmith" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="24b3-d654-7417-96c4">
+        <profile name="Urak Taar, el Primer Herrero Demoníaco" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="24b3-d654-7417-96c4">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">16</characteristic>
@@ -158,7 +158,7 @@
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="643b-d680-351b-404b">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de **Ghorrakos&apos;s Horns and Hooves** es 4.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de **Cuernos y pezuñas de Ghorrakos** es 4.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -194,7 +194,7 @@
         <categoryLink name="WIZARD (2)" hidden="false" id="2b74-fd2a-9e8a-8248" targetId="8179-697a-9f4c-91d4" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Urak Taar, the First Daemonsmith" hidden="false" id="c165-fc2f-bec4-4eab">
+        <selectionEntry type="model" import="true" name="Urak Taar, el Primer Herrero Demoníaco" hidden="false" id="c165-fc2f-bec4-4eab">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Dumakar" hidden="false" id="87d3-cf12-d931-aa20">
               <constraints>
@@ -214,13 +214,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ruinous Torrents" hidden="false" id="3765-33c2-31ef-63f3">
+            <selectionEntry type="upgrade" import="true" name="Torrentes ruinosos" hidden="false" id="3765-33c2-31ef-63f3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3095-6a9c-2555-7c5a"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57fe-fd9b-d274-0e02"/>
               </constraints>
               <profiles>
-                <profile name="Ruinous Torrents" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="b796-adc8-0b3e-54f5">
+                <profile name="Torrentes ruinosos" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="b796-adc8-0b3e-54f5">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">18&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">6</characteristic>
@@ -233,13 +233,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ghorrakos&apos;s Horns and Hooves" hidden="false" id="66d5-24d0-ac4f-5905">
+            <selectionEntry type="upgrade" import="true" name="Cuernos y pezuñas de Ghorrakos" hidden="false" id="66d5-24d0-ac4f-5905">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec5c-6722-696c-e6d7"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a7a-ec98-134e-0ff1"/>
               </constraints>
               <profiles>
-                <profile name="Ghorrakos&apos;s Horns and Hooves" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="e171-6438-d253-46eb">
+                <profile name="Cuernos y pezuñas de Ghorrakos" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="e171-6438-d253-46eb">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -264,12 +264,12 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Daemonsmith on Infernal Taurus" hidden="false" id="519c-5d32-603a-2fb3" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Herrero demoníaco en toro infernal" hidden="false" id="519c-5d32-603a-2fb3" publicationId="487d-9798-0633-8040">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="1edf-0f11-f5df-c0e1" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Daemonsmith on Infernal Taurus" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="4686-b58e-f856-0f5e">
+        <profile name="Herrero demoníaco en toro infernal" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="4686-b58e-f856-0f5e">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">15</characteristic>
@@ -293,7 +293,7 @@
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1701-5c77-a593-bf4f">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Horns and Hooves** es 4.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Cuernos y pezuñas** es 4.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -341,15 +341,15 @@
         <categoryLink name="WIZARD (1)" hidden="false" id="dc7c-2501-14f8-c92a" targetId="6f28-c3f6-4b1b-8aff" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Daemonsmith on Infernal Taurus" hidden="false" id="06ea-9d9e-de09-a579">
+        <selectionEntry type="model" import="true" name="Herrero demoníaco en toro infernal" hidden="false" id="06ea-9d9e-de09-a579">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Infernal Staff" hidden="false" id="8384-bed4-f7cf-97ce">
+            <selectionEntry type="upgrade" import="true" name="Bastón infernal" hidden="false" id="8384-bed4-f7cf-97ce">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8742-834b-a0cf-ee08"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5b17-1cf6-4f43-6d28"/>
               </constraints>
               <profiles>
-                <profile name="Infernal Staff" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="3cf0-832c-e9de-8acc">
+                <profile name="Bastón infernal" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="3cf0-832c-e9de-8acc">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -361,13 +361,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Hurled Daemonfire" hidden="false" id="d29e-fdc0-3a2e-fefe">
+            <selectionEntry type="upgrade" import="true" name="Fuego demoníaco arrojado" hidden="false" id="d29e-fdc0-3a2e-fefe">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e693-cebb-4671-a1aa"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8560-dc81-3ba1-8ce8"/>
               </constraints>
               <profiles>
-                <profile name="Hurled Daemonfire" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="1859-b453-a200-394b">
+                <profile name="Fuego demoníaco arrojado" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="1859-b453-a200-394b">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">18&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">3</characteristic>
@@ -380,13 +380,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Horns and Hooves" hidden="false" id="ddc5-7272-e007-2607">
+            <selectionEntry type="upgrade" import="true" name="Cuernos y pezuñas" hidden="false" id="ddc5-7272-e007-2607">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c722-1d4a-3b74-f0b7"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="840e-c1f5-8efc-10ff"/>
               </constraints>
               <profiles>
-                <profile name="Horns and Hooves" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="bf50-026c-2f27-b32b">
+                <profile name="Cuernos y pezuñas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="bf50-026c-2f27-b32b">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -411,12 +411,12 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Daemonsmith on Infernal Taurus (Scourge of Aqshy)" hidden="false" id="09a0-81bc-cd2a-161c" publicationId="9e18-bb03-7b60-d4ff">
+    <selectionEntry type="unit" import="true" name="Herrero demoníaco en toro infernal (Azote de Aqshy)" hidden="false" id="09a0-81bc-cd2a-161c" publicationId="9e18-bb03-7b60-d4ff">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="366c-dc5a-c190-75a2" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Daemonsmith on Infernal Taurus" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="85fb-13d8-9a93-c3bc">
+        <profile name="Herrero demoníaco en toro infernal" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="85fb-13d8-9a93-c3bc">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">15</characteristic>
@@ -442,7 +442,7 @@
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8d12-e5ab-1bcb-faa3">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Horns and Hooves** es 4.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Cuernos y pezuñas** es 4.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -493,15 +493,15 @@
         <categoryLink name="WIZARD (1)" hidden="false" id="80d6-75b8-82a9-1e76" targetId="6f28-c3f6-4b1b-8aff" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Daemonsmith on Infernal Taurus" hidden="false" id="c98a-838d-f05c-74b6">
+        <selectionEntry type="model" import="true" name="Herrero demoníaco en toro infernal" hidden="false" id="c98a-838d-f05c-74b6">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Infernal Staff" hidden="false" id="f097-cd59-4772-802e">
+            <selectionEntry type="upgrade" import="true" name="Bastón infernal" hidden="false" id="f097-cd59-4772-802e">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8965-9717-280d-de57"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1dc9-d42a-0ecc-5fec"/>
               </constraints>
               <profiles>
-                <profile name="Infernal Staff" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7000-0c91-0995-ea12">
+                <profile name="Bastón infernal" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7000-0c91-0995-ea12">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -513,13 +513,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Hurled Daemonfire" hidden="false" id="53a6-1308-61f4-9b35">
+            <selectionEntry type="upgrade" import="true" name="Fuego demoníaco arrojado" hidden="false" id="53a6-1308-61f4-9b35">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e610-b42a-2cf1-df8b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c57e-1bdd-b0d5-474f"/>
               </constraints>
               <profiles>
-                <profile name="Hurled Daemonfire" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="8e1e-4bb9-4706-d75a">
+                <profile name="Fuego demoníaco arrojado" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="8e1e-4bb9-4706-d75a">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">18&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">3</characteristic>
@@ -532,13 +532,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Horns and Hooves" hidden="false" id="6995-038a-5614-6601">
+            <selectionEntry type="upgrade" import="true" name="Cuernos y pezuñas" hidden="false" id="6995-038a-5614-6601">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="426c-59bf-308c-b80d"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc81-64a2-f560-e4b3"/>
               </constraints>
               <profiles>
-                <profile name="Horns and Hooves" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ab16-a7e3-1fd4-c888">
+                <profile name="Cuernos y pezuñas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ab16-a7e3-1fd4-c888">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -580,12 +580,12 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Daemonsmith" hidden="false" id="22ff-9dca-f6e0-76cf" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Herrero demoníaco" hidden="false" id="22ff-9dca-f6e0-76cf" publicationId="487d-9798-0633-8040">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="0b6a-9a68-82fd-2d1a" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Daemonsmith" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="15ea-08fe-56ce-2710">
+        <profile name="Herrero demoníaco" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="15ea-08fe-56ce-2710">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">6</characteristic>
@@ -617,15 +617,15 @@
         <categoryLink name="INFANTRY" hidden="false" id="8db2-4452-386c-9f3e" targetId="75d6-6995-dfcc-3898" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Daemonsmith" hidden="false" id="0e34-ed62-835a-0bb4">
+        <selectionEntry type="model" import="true" name="Herrero demoníaco" hidden="false" id="0e34-ed62-835a-0bb4">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Darkiron Talon" hidden="false" id="44b5-e10e-8d00-8b7a">
+            <selectionEntry type="upgrade" import="true" name="Garra de hierro oscuro" hidden="false" id="44b5-e10e-8d00-8b7a">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cac2-bc86-1e02-9357"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19f4-a5ed-71bb-1d48"/>
               </constraints>
               <profiles>
-                <profile name="Darkiron Talon" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f1f2-3a69-67bb-de2b">
+                <profile name="Garra de hierro oscuro" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f1f2-3a69-67bb-de2b">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -637,13 +637,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Hurled Daemonfire" hidden="false" id="3bea-1c35-a7d0-9ffc">
+            <selectionEntry type="upgrade" import="true" name="Fuego demoníaco arrojado" hidden="false" id="3bea-1c35-a7d0-9ffc">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f1e2-aa60-b884-7d69"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18b8-68f1-fa65-3b9a"/>
               </constraints>
               <profiles>
-                <profile name="Hurled Daemonfire" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="c963-ea74-5eb1-270b">
+                <profile name="Fuego demoníaco arrojado" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="c963-ea74-5eb1-270b">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">18&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">3</characteristic>
@@ -669,12 +669,12 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="War Despot" hidden="false" id="9d64-66aa-7eaa-7b55" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Déspota de guerra" hidden="false" id="9d64-66aa-7eaa-7b55" publicationId="487d-9798-0633-8040">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="6e3f-b280-f8d8-ee5f" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="War Despot" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ae98-7af9-f122-5fb2">
+        <profile name="Déspota de guerra" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ae98-7af9-f122-5fb2">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">6</characteristic>
@@ -716,15 +716,15 @@
         <categoryLink name="INFANTRY" hidden="false" id="2c0a-7ce9-6ef9-4c64" targetId="75d6-6995-dfcc-3898" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="War Despot" hidden="false" id="46f1-89b8-2a44-4442">
+        <selectionEntry type="model" import="true" name="Déspota de guerra" hidden="false" id="46f1-89b8-2a44-4442">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Daemonflame Glaive" hidden="false" id="6f67-16fa-2242-bf8e">
+            <selectionEntry type="upgrade" import="true" name="Guja de llama demoníaca" hidden="false" id="6f67-16fa-2242-bf8e">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a47-669f-5371-5c80"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4794-a9a1-cdd8-e734"/>
               </constraints>
               <profiles>
-                <profile name="Daemonflame Glaive" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="54ed-21b7-3b02-f589">
+                <profile name="Guja de llama demoníaca" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="54ed-21b7-3b02-f589">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -749,9 +749,9 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Infernal Razers with Flamehurlers" hidden="false" id="3d15-3f55-b836-84b6" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Arrasadores infernales con lanzallamas" hidden="false" id="3d15-3f55-b836-84b6" publicationId="487d-9798-0633-8040">
       <profiles>
-        <profile name="Infernal Razers with Flamehurlers" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="0682-cb26-b71c-113d">
+        <profile name="Arrasadores infernales con lanzallamas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="0682-cb26-b71c-113d">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">1</characteristic>
@@ -793,7 +793,7 @@
         <categoryLink name="CHAMPION" hidden="false" id="62a4-c039-4ae6-7d2c" targetId="f679-3bcb-d664-9ac3" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Infernal Razer with Flamehurlers" hidden="false" id="5bba-2f68-3cca-2e46" defaultAmount="1,4">
+        <selectionEntry type="model" import="true" name="Arrasador infernal con lanzallamas" hidden="false" id="5bba-2f68-3cca-2e46" defaultAmount="1,4">
           <constraints>
             <constraint type="min" value="5" field="selections" scope="parent" shared="false" id="0567-b1b1-44c8-0957"/>
             <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="b5f5-059d-a588-c88e"/>
@@ -811,13 +811,13 @@
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Karagthrun Flamehurlers" hidden="false" id="84ff-b371-f1e0-343a">
+            <selectionEntry type="upgrade" import="true" name="Lanzallamas karagthrun" hidden="false" id="84ff-b371-f1e0-343a">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="192d-0ac1-6e70-e0e7"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84bb-de29-2437-3db7"/>
               </constraints>
               <profiles>
-                <profile name="Karagthrun Flamehurlers" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="c01f-9a94-9654-8cdc">
+                <profile name="Lanzallamas karagthrun" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="c01f-9a94-9654-8cdc">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">3</characteristic>
@@ -830,13 +830,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Weapon Butt" hidden="false" id="9c93-03b9-c719-0bde">
+            <selectionEntry type="upgrade" import="true" name="Culata de arma" hidden="false" id="9c93-03b9-c719-0bde">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dd12-4bce-b93a-c6c2"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cedf-8304-e65d-48fd"/>
               </constraints>
               <profiles>
-                <profile name="Weapon Butt" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6e3b-5ed4-0673-386f">
+                <profile name="Culata de arma" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6e3b-5ed4-0673-386f">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -871,9 +871,9 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Anointed Sentinels" hidden="false" id="c4f9-62a9-7f8f-1c2e" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Centinelas ungidos" hidden="false" id="c4f9-62a9-7f8f-1c2e" publicationId="487d-9798-0633-8040">
       <profiles>
-        <profile name="Anointed Sentinels" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ffc1-66b9-ad2c-295f">
+        <profile name="Centinelas ungidos" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ffc1-66b9-ad2c-295f">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">4</characteristic>
@@ -915,7 +915,7 @@
         <categoryLink name="CAVALRY" hidden="false" id="b8ab-6e3b-7c61-1f16" targetId="926c-df8c-6841-d49e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Anointed Sentinel" hidden="false" id="6617-db1e-51a9-cb6b" defaultAmount="1,2">
+        <selectionEntry type="model" import="true" name="Centinela ungido" hidden="false" id="6617-db1e-51a9-cb6b" defaultAmount="1,2">
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="false" id="c703-6abb-f2d9-f7e9"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="false" id="990e-cbae-927a-d8c7"/>
@@ -933,13 +933,13 @@
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Thrice-cursed Glaive" hidden="false" id="d574-494a-d46d-856f">
+            <selectionEntry type="upgrade" import="true" name="Guja tres veces maldita" hidden="false" id="d574-494a-d46d-856f">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="851d-7814-0173-684b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7390-529c-7dba-cf2a"/>
               </constraints>
               <profiles>
-                <profile name="Thrice-cursed Glaive" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2ec3-9121-f1fd-0447">
+                <profile name="Guja tres veces maldita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2ec3-9121-f1fd-0447">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -974,9 +974,9 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Anointed Sentinels (Scourge of Aqshy)" hidden="false" id="40ae-7938-ac66-8636" publicationId="9e18-bb03-7b60-d4ff">
+    <selectionEntry type="unit" import="true" name="Centinelas ungidos (Azote de Aqshy)" hidden="false" id="40ae-7938-ac66-8636" publicationId="9e18-bb03-7b60-d4ff">
       <profiles>
-        <profile name="Anointed Sentinels" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f06a-29b3-07d3-cc45">
+        <profile name="Centinelas ungidos" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f06a-29b3-07d3-cc45">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">4</characteristic>
@@ -1019,7 +1019,7 @@
         <categoryLink name="CAVALRY" hidden="false" id="15e3-d831-8f1c-c59b" targetId="926c-df8c-6841-d49e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Anointed Sentinel" hidden="false" id="ea03-e4fb-fdbd-e358" defaultAmount="1,2">
+        <selectionEntry type="model" import="true" name="Centinela ungido" hidden="false" id="ea03-e4fb-fdbd-e358" defaultAmount="1,2">
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="false" id="3bbd-748c-6f65-7770"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="false" id="f6a4-4d80-2c38-e693"/>
@@ -1037,13 +1037,13 @@
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Thrice-cursed Glaive" hidden="false" id="7646-2417-c526-5ec4">
+            <selectionEntry type="upgrade" import="true" name="Guja tres veces maldita" hidden="false" id="7646-2417-c526-5ec4">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="316d-dcba-ecce-5932"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bfd-795d-a4e9-3735"/>
               </constraints>
               <profiles>
-                <profile name="Thrice-cursed Glaive" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0173-5247-d7a3-9c04">
+                <profile name="Guja tres veces maldita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0173-5247-d7a3-9c04">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1095,9 +1095,9 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Infernal Cohort with Hashutite Spears" hidden="false" id="a162-ad2f-0c07-681e" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Cohorte infernal con lanzas hashutitas" hidden="false" id="a162-ad2f-0c07-681e" publicationId="487d-9798-0633-8040">
       <profiles>
-        <profile name="Infernal Cohort with Hashutite Spears" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="5593-78b0-f698-4383">
+        <profile name="Cohorte infernal con lanzas hashutitas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="5593-78b0-f698-4383">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">1</characteristic>
@@ -1156,7 +1156,7 @@
         <categoryLink name="DUARDIN" hidden="false" id="e43f-b4be-845e-2bde" targetId="72e3-7b1b-cb94-4cbd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Infernal Cohort with Hashutite Spear" hidden="false" id="75f8-903c-6d37-ece1" defaultAmount="1,1,1,7">
+        <selectionEntry type="model" import="true" name="Cohorte infernal con lanza hashutita" hidden="false" id="75f8-903c-6d37-ece1" defaultAmount="1,1,1,7">
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="false" id="b591-783c-98a9-25ca"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="false" id="f8d4-3641-96ee-8c31"/>
@@ -1174,13 +1174,13 @@
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Hashutite Spear" hidden="false" id="f77a-f9b9-6fd3-47fe">
+            <selectionEntry type="upgrade" import="true" name="Lanza hashutita" hidden="false" id="f77a-f9b9-6fd3-47fe">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b89-a140-283a-da6a"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31cc-35b3-34e8-ce00"/>
               </constraints>
               <profiles>
-                <profile name="Hashutite Spear" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="77fb-d058-9698-f043">
+                <profile name="Lanza hashutita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="77fb-d058-9698-f043">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1241,9 +1241,9 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hobgrot Vandalz" hidden="false" id="e3f8-99f7-921e-137a" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Vándalos hobgrot" hidden="false" id="e3f8-99f7-921e-137a" publicationId="487d-9798-0633-8040">
       <profiles>
-        <profile name="Hobgrot Vandalz" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="231e-7732-3805-fea3">
+        <profile name="Vándalos hobgrot" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="231e-7732-3805-fea3">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">1</characteristic>
@@ -1276,7 +1276,7 @@
         <categoryLink name="HOBGROT" hidden="false" id="e17f-83ec-0e4e-9e0f" targetId="9e60-0037-86f0-036d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Hobgrot Vandal" hidden="false" id="ac08-5833-8fdc-7e37" defaultAmount="1,1,1,7">
+        <selectionEntry type="model" import="true" name="Vándalo hobgrot" hidden="false" id="ac08-5833-8fdc-7e37" defaultAmount="1,1,1,7">
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="false" id="9728-8366-37d8-6de4"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="false" id="f587-a871-b7de-a157"/>
@@ -1294,13 +1294,13 @@
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Scavenged Weapons" hidden="false" id="8da8-2851-1986-2b13">
+            <selectionEntry type="upgrade" import="true" name="Armas recuperadas" hidden="false" id="8da8-2851-1986-2b13">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d8cb-72e9-3817-acf3"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e860-12f2-329c-25b6"/>
               </constraints>
               <profiles>
-                <profile name="Scavenged Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="aef6-daf9-ad7a-335b">
+                <profile name="Armas recuperadas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="aef6-daf9-ad7a-335b">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -1361,9 +1361,9 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Infernal Cohort with Hashutite Blades" hidden="false" id="15de-86a8-417a-912e" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Cohorte infernal con hojas hashutitas" hidden="false" id="15de-86a8-417a-912e" publicationId="487d-9798-0633-8040">
       <profiles>
-        <profile name="Infernal Cohort with Hashutite Blades" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="4d1d-ce41-8dd7-bef2">
+        <profile name="Cohorte infernal con hojas hashutitas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="4d1d-ce41-8dd7-bef2">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">1</characteristic>
@@ -1418,7 +1418,7 @@
         <categoryLink name="DUARDIN" hidden="false" id="b2c7-47bd-8cdc-7e8e" targetId="72e3-7b1b-cb94-4cbd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Infernal Cohort with Hashutite Blade" hidden="false" id="e222-f7bb-f91f-ffe1" defaultAmount="1,1,1,7">
+        <selectionEntry type="model" import="true" name="Cohorte infernal con hoja hashutita" hidden="false" id="e222-f7bb-f91f-ffe1" defaultAmount="1,1,1,7">
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="false" id="c57d-ea62-14f3-e359"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="false" id="9dd5-87d3-8b91-eed6"/>
@@ -1436,13 +1436,13 @@
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Hashutite Blade" hidden="false" id="05b9-ff7a-ff56-e511">
+            <selectionEntry type="upgrade" import="true" name="Hoja hashutita" hidden="false" id="05b9-ff7a-ff56-e511">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="efd3-f87e-b89c-fe9f"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d4e5-13e6-21ad-c1ce"/>
               </constraints>
               <profiles>
-                <profile name="Hashutite Blade" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="3931-1609-a372-7fc0">
+                <profile name="Hoja hashutita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="3931-1609-a372-7fc0">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1503,9 +1503,9 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Infernal Razers with Blunderbusses" hidden="false" id="5c9b-778c-40a8-1fe3" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Arrasadores infernales con trabucos" hidden="false" id="5c9b-778c-40a8-1fe3" publicationId="487d-9798-0633-8040">
       <profiles>
-        <profile name="Infernal Razers with Blunderbusses" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="cc91-30f5-5fbb-45b4">
+        <profile name="Arrasadores infernales con trabucos" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="cc91-30f5-5fbb-45b4">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">1</characteristic>
@@ -1547,7 +1547,7 @@
         <categoryLink name="CHAMPION" hidden="false" id="0778-eaf5-e764-6e5d" targetId="f679-3bcb-d664-9ac3" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Infernal Razer with Blunderbusses" hidden="false" id="944a-37ef-2b54-d126" defaultAmount="1,4">
+        <selectionEntry type="model" import="true" name="Arrasador infernal con trabucos" hidden="false" id="944a-37ef-2b54-d126" defaultAmount="1,4">
           <constraints>
             <constraint type="min" value="5" field="selections" scope="parent" shared="false" id="a3e2-562f-276c-654c"/>
             <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="2fab-5be9-3eb9-c9d0"/>
@@ -1565,13 +1565,13 @@
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Grizmalok Blunderbusses" hidden="false" id="0b6a-f924-796d-1b7c">
+            <selectionEntry type="upgrade" import="true" name="Trabucos grizmalok" hidden="false" id="0b6a-f924-796d-1b7c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="85b4-7f8c-a9c6-5d62"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b85a-033c-4abd-f237"/>
               </constraints>
               <profiles>
-                <profile name="Grizmalok Blunderbusses" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="da3b-8c46-14e2-9264">
+                <profile name="Trabucos grizmalok" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="da3b-8c46-14e2-9264">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">18&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">1</characteristic>
@@ -1584,13 +1584,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Weapon Butt" hidden="false" id="500f-b682-0358-9aa3">
+            <selectionEntry type="upgrade" import="true" name="Culata de arma" hidden="false" id="500f-b682-0358-9aa3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="21b8-4751-669a-1af7"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25f0-9f99-918c-b34f"/>
               </constraints>
               <profiles>
-                <profile name="Weapon Butt" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="04e7-dacd-5b82-a942">
+                <profile name="Culata de arma" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="04e7-dacd-5b82-a942">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -1625,9 +1625,9 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Bull Centaurs" hidden="false" id="e20f-a1a4-79f8-93af" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Centauros toro" hidden="false" id="e20f-a1a4-79f8-93af" publicationId="487d-9798-0633-8040">
       <profiles>
-        <profile name="Bull Centaurs" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="0502-1288-f77f-5ea3">
+        <profile name="Centauros toro" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="0502-1288-f77f-5ea3">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">4</characteristic>
@@ -1669,7 +1669,7 @@
         <categoryLink name="CAVALRY" hidden="false" id="f643-f06f-50de-93bc" targetId="926c-df8c-6841-d49e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Bull Centaur" hidden="false" id="bbac-127f-3bd8-f62d" defaultAmount="1,2">
+        <selectionEntry type="model" import="true" name="Centauro toro" hidden="false" id="bbac-127f-3bd8-f62d" defaultAmount="1,2">
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="false" id="ec57-f79d-d8f0-027f"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="false" id="63ba-12b4-e850-b65b"/>
@@ -1687,13 +1687,13 @@
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Brazen Mauls" hidden="false" id="407d-0726-41c9-dbc2">
+            <selectionEntry type="upgrade" import="true" name="Mazas de bronce" hidden="false" id="407d-0726-41c9-dbc2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="191c-be46-5573-f4f4"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7927-3b7e-deef-fafd"/>
               </constraints>
               <profiles>
-                <profile name="Brazen Mauls" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b583-2acb-ea92-8534">
+                <profile name="Mazas de bronce" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b583-2acb-ea92-8534">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1728,12 +1728,12 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ashen Elder" hidden="false" id="3203-cefc-0ca4-1251" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Anciano ceniciento" hidden="false" id="3203-cefc-0ca4-1251" publicationId="487d-9798-0633-8040">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="f25c-f20c-c929-178a" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Ashen Elder" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="4af5-fcf5-de79-1d17">
+        <profile name="Anciano ceniciento" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="4af5-fcf5-de79-1d17">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">6</characteristic>
@@ -1776,15 +1776,15 @@
         <categoryLink name="PRIEST (1)" hidden="false" id="6ce3-3f47-dfad-b9d9" targetId="3fe-84f4-cec6-a1c1" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Ashen Elder" hidden="false" id="6c4a-a6a5-d227-2609">
+        <selectionEntry type="model" import="true" name="Anciano ceniciento" hidden="false" id="6c4a-a6a5-d227-2609">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Black Hammer of Hashut" hidden="false" id="c926-61cf-4553-0751">
+            <selectionEntry type="upgrade" import="true" name="Martillo negro de Hashut" hidden="false" id="c926-61cf-4553-0751">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d8de-d6a4-8687-8bef"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e39-112a-c19e-9d6d"/>
               </constraints>
               <profiles>
-                <profile name="Black Hammer of Hashut" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="69e7-7598-5792-7919">
+                <profile name="Martillo negro de Hashut" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="69e7-7598-5792-7919">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1809,9 +1809,9 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Deathshrieker Rocket Battery" hidden="false" id="b683-bbb0-9fd4-6fcc" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Batería de cohetes aullamuerte" hidden="false" id="b683-bbb0-9fd4-6fcc" publicationId="487d-9798-0633-8040">
       <profiles>
-        <profile name="Deathshrieker Rocket Battery" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="01d8-86ab-84e5-bde3">
+        <profile name="Batería de cohetes aullamuerte" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="01d8-86ab-84e5-bde3">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">8</characteristic>
@@ -1823,7 +1823,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, la característica de Damage de los **Hashu-Zharr Rockets** de esta unidad es 5 si el objetivo es un **^^Monster^^** o una **^^War Machine^^**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, la característica de Damage de los **Cohetes Hashu-Zharr** de esta unidad es 5 si el objetivo es un **^^Monster^^** o una **^^War Machine^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1854,15 +1854,15 @@
         <categoryLink name="WAR MACHINE" hidden="false" id="b35f-35b0-cb8c-1e59" targetId="f7bc-b618-4b5d-2bae" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Deathshrieker Rocket Battery" hidden="false" id="203c-9fb9-a147-0bdd">
+        <selectionEntry type="model" import="true" name="Batería de cohetes aullamuerte" hidden="false" id="203c-9fb9-a147-0bdd">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Hashu-Zharr Rockets" hidden="false" id="61de-2a79-83f3-a4b3">
+            <selectionEntry type="upgrade" import="true" name="Cohetes Hashu-Zharr" hidden="false" id="61de-2a79-83f3-a4b3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2825-e286-4b4d-a0ce"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db2f-fae6-7d09-c50a"/>
               </constraints>
               <profiles>
-                <profile name="Hashu-Zharr Rockets" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="10e1-7136-5a31-c943">
+                <profile name="Cohetes Hashu-Zharr" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="10e1-7136-5a31-c943">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">24&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">3</characteristic>
@@ -1875,13 +1875,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Artillerist Weapons" hidden="false" id="9884-79eb-51e8-4690">
+            <selectionEntry type="upgrade" import="true" name="Armas de artillero" hidden="false" id="9884-79eb-51e8-4690">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3a0d-e1fb-3e5d-1417"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bfc6-af7f-f3d1-1871"/>
               </constraints>
               <profiles>
-                <profile name="Artillerist Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6e5f-8f20-a073-96a7">
+                <profile name="Armas de artillero" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6e5f-8f20-a073-96a7">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -1906,9 +1906,9 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Tormentor Bombard" hidden="false" id="b198-5cf9-e447-35c6" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Bombarda atormentadora" hidden="false" id="b198-5cf9-e447-35c6" publicationId="487d-9798-0633-8040">
       <profiles>
-        <profile name="Tormentor Bombard" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="9b98-ac1c-7140-07b6">
+        <profile name="Bombarda atormentadora" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="9b98-ac1c-7140-07b6">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">8</characteristic>
@@ -1948,15 +1948,15 @@
         <categoryLink name="WAR MACHINE" hidden="false" id="04c8-53de-0e66-83d1" targetId="f7bc-b618-4b5d-2bae" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Tormentor Bombard" hidden="false" id="5a30-66f5-b630-69eb">
+        <selectionEntry type="model" import="true" name="Bombarda atormentadora" hidden="false" id="5a30-66f5-b630-69eb">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Torrent of Ruinous Energy" hidden="false" id="87d3-c9d4-8684-0270">
+            <selectionEntry type="upgrade" import="true" name="Torrente de energía ruinosa" hidden="false" id="87d3-c9d4-8684-0270">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ffe-104a-502d-251f"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="773b-ad11-a000-1a4a"/>
               </constraints>
               <profiles>
-                <profile name="Torrent of Ruinous Energy" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="ca14-be4b-df01-884b">
+                <profile name="Torrente de energía ruinosa" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="ca14-be4b-df01-884b">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">30&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">4</characteristic>
@@ -1969,13 +1969,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Artillerist Weapons" hidden="false" id="93f8-547f-17ae-f829">
+            <selectionEntry type="upgrade" import="true" name="Armas de artillero" hidden="false" id="93f8-547f-17ae-f829">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="717d-1996-23d5-8529"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="231c-13eb-5674-20d2"/>
               </constraints>
               <profiles>
-                <profile name="Artillerist Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="bb8c-0158-e2b1-6648">
+                <profile name="Armas de artillero" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="bb8c-0158-e2b1-6648">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2000,9 +2000,9 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Dominator Engine with Bane Maces" hidden="false" id="c3d1-b2bd-e8d8-d171" publicationId="487d-9798-0633-8040">
+    <selectionEntry type="unit" import="true" name="Máquina dominadora con mazas de perdición" hidden="false" id="c3d1-b2bd-e8d8-d171" publicationId="487d-9798-0633-8040">
       <profiles>
-        <profile name="Dominator Engine with Bane Maces" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="2d1a-2f67-672f-2db3">
+        <profile name="Máquina dominadora con mazas de perdición" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="2d1a-2f67-672f-2db3">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">6&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">10</characteristic>
@@ -2045,15 +2045,15 @@
         <categoryLink name="AUTOMATON" hidden="false" id="bff2-625b-d554-0d50" targetId="acb5-f7cf-ee4f-1f00" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Dominator Engine with Bane Maces" hidden="false" id="ae4c-7197-25a6-c617">
+        <selectionEntry type="model" import="true" name="Máquina dominadora con mazas de perdición" hidden="false" id="ae4c-7197-25a6-c617">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Bane Maces" hidden="false" id="bc83-ac26-0205-49e5">
+            <selectionEntry type="upgrade" import="true" name="Mazas de perdición" hidden="false" id="bc83-ac26-0205-49e5">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0491-4ad8-d33c-9fd9"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bca2-4cb7-d775-5226"/>
               </constraints>
               <profiles>
-                <profile name="Bane Maces" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="20a5-16d4-5a60-61ef">
+                <profile name="Mazas de perdición" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="20a5-16d4-5a60-61ef">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2078,17 +2078,17 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Anvil of Apotheosis: Helsmiths of Hashut Hero" hidden="true" id="4f90-3fa4-8f1e-1ef8" publicationId="487d-9798-0633-8040" flatten="false" collapsible="true">
+    <selectionEntry type="unit" import="true" name="Yunque de la apoteosis: héroe de los Herreros Infernales de Hashut" hidden="true" id="4f90-3fa4-8f1e-1ef8" publicationId="487d-9798-0633-8040" flatten="false" collapsible="true">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Anvil of Apotheosis: Helsmiths of Hashut Hero" hidden="false" id="cae7-889d-45b8-b814">
+        <selectionEntry type="model" import="true" name="Yunque de la apoteosis: héroe de los Herreros Infernales de Hashut" hidden="false" id="cae7-889d-45b8-b814">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Hashutite Blade" hidden="false" id="4a07-4717-bcc9-6722">
+            <selectionEntry type="upgrade" import="true" name="Hoja hashutita" hidden="false" id="4a07-4717-bcc9-6722">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="276a-4830-8afb-ad51"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6bb0-25a0-5e06-aebf"/>
               </constraints>
               <profiles>
-                <profile name="Hashutite Blade" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="97ec-7fba-4dc6-424b">
+                <profile name="Hoja hashutita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="97ec-7fba-4dc6-424b">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -2179,9 +2179,9 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Horns and Hooves" hidden="true" id="a06f-7b47-40a2-c119">
+            <selectionEntry type="upgrade" import="true" name="Cuernos y pezuñas" hidden="true" id="a06f-7b47-40a2-c119">
               <profiles>
-                <profile name="Horns and Hooves" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="e235-752e-0a04-f4d3">
+                <profile name="Cuernos y pezuñas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="e235-752e-0a04-f4d3">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2209,9 +2209,9 @@
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crushing Horns and Hooves" hidden="true" id="231d-c3d2-7a9d-9dfc">
+            <selectionEntry type="upgrade" import="true" name="Cuernos y pezuñas aplastantes" hidden="true" id="231d-c3d2-7a9d-9dfc">
               <profiles>
-                <profile name="Crushing Horns and Hooves" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="512b-5547-a442-e2af">
+                <profile name="Cuernos y pezuñas aplastantes" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="512b-5547-a442-e2af">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2239,9 +2239,9 @@
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Flesh-melting Aura" hidden="true" id="a35b-bea4-480a-8b01">
+            <selectionEntry type="upgrade" import="true" name="Aura fundecarne" hidden="true" id="a35b-bea4-480a-8b01">
               <profiles>
-                <profile name="Flesh-melting Aura" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="c518-d7a0-b075-7d82">
+                <profile name="Aura fundecarne" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="c518-d7a0-b075-7d82">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">10&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">D6</characteristic>
@@ -2281,7 +2281,7 @@
         <entryLink import="true" name="General" hidden="false" id="b8f8-75d4-9d49-9699" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Anvil of Apotheosis: Helsmiths of Hashut Hero" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f376-9bb8-e3ff-db90">
+        <profile name="Yunque de la apoteosis: héroe de los Herreros Infernales de Hashut" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f376-9bb8-e3ff-db90">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">6</characteristic>
@@ -2354,7 +2354,7 @@
                   </modifiers>
                   <rules>
                     <rule name="Warlord" id="1c36-3fa4-0392-71cb" hidden="true">
-                      <description>Cambia la característica de Save de tu héroe a 3+. Su **Hashutite Blade** tiene una característica de Attacks de 5 y **Crit (Mortal)**. Gana las siguientes opciones de regimiento:
+                      <description>Cambia la característica de Save de tu héroe a 3+. Su **Hoja hashutita** tiene una característica de Attacks de 5 y **Crit (Mortal)**. Gana las siguientes opciones de regimiento:
 Cualquier unidad **^^Helsmiths of Hashut^^**</description>
                     </rule>
                   </rules>
@@ -2371,7 +2371,7 @@ Cualquier unidad **^^Helsmiths of Hashut^^**</description>
                   </modifiers>
                   <rules>
                     <rule name="Infernal Sorcerer" id="a5a6-8461-8c95-83b1" hidden="true">
-                      <description>Tu héroe gana la palabra clave **^^Wizard (1)^^**. Su **Hashutite Blade** tiene una característica de Attacks de 5 y **Crit (Mortal)**. Gana las siguientes opciones de regimiento:
+                      <description>Tu héroe gana la palabra clave **^^Wizard (1)^^**. Su **Hoja hashutita** tiene una característica de Attacks de 5 y **Crit (Mortal)**. Gana las siguientes opciones de regimiento:
 Cualquier unidad **^^Helsmiths of Hashut^^**</description>
                     </rule>
                   </rules>
@@ -2460,7 +2460,7 @@ Cualquier unidad **^^Helsmiths of Hashut^^**</description>
                     <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2bff-fc89-3ceb-dff2">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Horns and Hooves** es 5.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Cuernos y pezuñas** es 5.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -2485,7 +2485,7 @@ Cualquier unidad **^^Helsmiths of Hashut^^**</description>
                   </profiles>
                   <rules>
                     <rule name="Infernal Taurus" id="f9ac-7858-7c6c-1c1b" hidden="true">
-                      <description>Añade el arma **Horns and Hooves** y las habilidades &apos;Battle Damaged&apos; y &apos;Daemonic Resilience&apos; al pergamino de batalla de tu héroe.
+                      <description>Añade el arma **Cuernos y pezuñas** y las habilidades &apos;Battle Damaged&apos; y &apos;Daemonic Resilience&apos; al pergamino de batalla de tu héroe.
 Además, haz los siguientes cambios en el pergamino de batalla de tu héroe:
 • Cambia la característica de Move a 10".
 • Cambia la característica de Health a 12.
@@ -2516,7 +2516,7 @@ Además, haz los siguientes cambios en el pergamino de batalla de tu héroe:
                     <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8f33-ce03-5c3a-719a">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Crushing Horns and Hooves** es 5.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Cuernos y pezuñas aplastantes** es 5.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -2541,7 +2541,7 @@ Además, haz los siguientes cambios en el pergamino de batalla de tu héroe:
                   </profiles>
                   <rules>
                     <rule name="Venerable Taurus" id="1552-eb96-f7ce-00b9" hidden="true">
-                      <description>Añade el arma **Crushing Horns and Hooves** y las habilidades &apos;Battle Damaged&apos; y &apos;Daemonic Resilience&apos; al pergamino de batalla de tu héroe.
+                      <description>Añade el arma **Cuernos y pezuñas aplastantes** y las habilidades &apos;Battle Damaged&apos; y &apos;Daemonic Resilience&apos; al pergamino de batalla de tu héroe.
 Además, haz los siguientes cambios en el pergamino de batalla de tu héroe:
 • Cambia la característica de Move a 10".
 • Cambia la característica de Health a 14.
@@ -2767,7 +2767,7 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Flesh-melting Aura" hidden="false" id="c49b-3fbd-e241-5942" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Aura fundecarne" hidden="false" id="c49b-3fbd-e241-5942" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-5"/>
@@ -2779,7 +2779,7 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
                   </constraints>
                   <rules>
                     <rule name="Flesh-melting Aura" id="74cb-aea8-7905-6351" hidden="true">
-                      <description>Añade el arma **Flesh-melting Aura** al pergamino de batalla de tu héroe.</description>
+                      <description>Añade el arma **Aura fundecarne** al pergamino de batalla de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -2925,7 +2925,7 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
                   </constraints>
                   <rules>
                     <rule name="Foe-seeking Hexes" id="ee9d-7131-f87d-0b8b" hidden="true">
-                      <description>La característica de Hit del **Hashutite Blade** de tu héroe es 2+.</description>
+                      <description>La característica de Hit del **Hoja hashutita** de tu héroe es 2+.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -2941,7 +2941,7 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
                   </constraints>
                   <rules>
                     <rule name="Malignant Brawn" id="2da7-e4a9-7770-1abd" hidden="true">
-                      <description>La característica de Wound del **Hashutite Blade** de tu héroe es 3+.</description>
+                      <description>La característica de Wound del **Hoja hashutita** de tu héroe es 3+.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -2957,7 +2957,7 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
                   </constraints>
                   <rules>
                     <rule name="Cuneiform-etched Blade" id="0bfe-3f1b-80f7-f570" hidden="true">
-                      <description>El **Hashutite Blade** de tu héroe tiene **Crit (Mortal)**.</description>
+                      <description>El **Hoja hashutita** de tu héroe tiene **Crit (Mortal)**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -2987,7 +2987,7 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
                   </selectionEntryGroups>
                   <rules>
                     <rule name="Spiteful Rivalry" id="ef69-59d7-3e3f-3ce0" hidden="true">
-                      <description>El **Hashutite Blade** de tu héroe tiene **Anti-X (+1 Rend)**, donde **X** es una de las siguientes palabras clave: **^^Infantry^^**, **^^Cavalry^^**, **^^Monster^^**, **^^War Machine^^**, **^^Wizard^^** o **^^Priest^^**</description>
+                      <description>El **Hoja hashutita** de tu héroe tiene **Anti-X (+1 Rend)**, donde **X** es una de las siguientes palabras clave: **^^Infantry^^**, **^^Cavalry^^**, **^^Monster^^**, **^^War Machine^^**, **^^Wizard^^** o **^^Priest^^**</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -3037,7 +3037,7 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
                   </constraints>
                   <rules>
                     <rule name="Rigorously Trained" id="d582-2b83-fe6f-b281" hidden="true">
-                      <description>Suma 2 a la característica de Attacks del **Hashutite Blade** de tu héroe.</description>
+                      <description>Suma 2 a la característica de Attacks del **Hoja hashutita** de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -3096,7 +3096,7 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="The Blood of the Bull" hidden="false" id="35e3-f1fc-1f7a-8151" publicationId="9dee-a6b2-4b42-bfee">
+    <selectionEntry type="unit" import="true" name="La Sangre del Toro" hidden="false" id="35e3-f1fc-1f7a-8151" publicationId="9dee-a6b2-4b42-bfee">
       <categoryLinks>
         <categoryLink name="INFANTRY" hidden="false" id="1860-2ed4-4343-9237" targetId="75d6-6995-dfcc-3898" primary="true"/>
         <categoryLink name="UNIQUE" hidden="false" id="3b10-8055-65fc-3111" targetId="72ce-2188-70bf-2dbd" primary="false"/>
@@ -3108,7 +3108,7 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
         <categoryLink name="HELSMITHS OF HASHUT" hidden="false" id="8009-77d8-b93d-5199" targetId="905e-30fb-4d0f-4685" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="The Blood of the Bull" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="afb9-4af8-8364-5cc4">
+        <profile name="La Sangre del Toro" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="afb9-4af8-8364-5cc4">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
@@ -3132,19 +3132,19 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Zuldrakka the Hateful" hidden="false" id="270d-21f2-7f73-cecd">
+        <selectionEntry type="model" import="true" name="Zuldrakka el Rencoroso" hidden="false" id="270d-21f2-7f73-cecd">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="55e7-8e23-55f5-c67e"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fe1-f64b-ad53-08c0"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Daemonflame Weapons" hidden="false" id="5dbc-6b2c-1d2d-e9b7">
+            <selectionEntry type="upgrade" import="true" name="Armas de llama demoníaca" hidden="false" id="5dbc-6b2c-1d2d-e9b7">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24e8-5cbe-9754-b84e"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="472e-d8bf-c617-30c7"/>
               </constraints>
               <profiles>
-                <profile name="Daemonflame Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b740-2a7d-e6de-88f3">
+                <profile name="Armas de llama demoníaca" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b740-2a7d-e6de-88f3">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -3178,19 +3178,19 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Grisk Back-stabba" hidden="false" id="13e4-3ded-6d8a-8f6f">
+        <selectionEntry type="model" import="true" name="Grisk Apuñalador" hidden="false" id="13e4-3ded-6d8a-8f6f">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d3db-edb7-aaac-0599"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="76d5-6780-1188-08b3"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Blades and Fists" hidden="false" id="886b-bee3-8def-1c7a">
+            <selectionEntry type="upgrade" import="true" name="Hojas y puños" hidden="false" id="886b-bee3-8def-1c7a">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4de3-bd99-ec83-b870"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d82a-3c8f-7c58-e69d"/>
               </constraints>
               <profiles>
-                <profile name="Blades and Fists" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7af2-357e-74aa-98bf">
+                <profile name="Hojas y puños" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7af2-357e-74aa-98bf">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -3209,19 +3209,19 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Tokkor the Immolator" hidden="false" id="549d-c4da-b4cc-ebd5">
+        <selectionEntry type="model" import="true" name="Tokkor el Inmolador" hidden="false" id="549d-c4da-b4cc-ebd5">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ac6-e4e3-4944-b0c2"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cad-5cd6-f5a6-0a83"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Blades and Fists" hidden="false" id="c548-ec5f-ab2e-414b">
+            <selectionEntry type="upgrade" import="true" name="Hojas y puños" hidden="false" id="c548-ec5f-ab2e-414b">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b130-8e2b-590e-d126"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c6b-cdc3-7afb-ac12"/>
               </constraints>
               <profiles>
-                <profile name="Blades and Fists" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2dfd-8d22-ed8a-91b4">
+                <profile name="Hojas y puños" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2dfd-8d22-ed8a-91b4">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -3233,13 +3233,13 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Master-crafted Flamehurler" hidden="false" id="a968-b74c-d48e-45f4">
+            <selectionEntry type="upgrade" import="true" name="Lanzallamas de artesanía magistral" hidden="false" id="a968-b74c-d48e-45f4">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d115-bdde-3f70-8e8b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26a1-98b7-a0c9-45b5"/>
               </constraints>
               <profiles>
-                <profile name="Master-crafted Flamehurler" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="bd02-9084-6d2f-a8b3">
+                <profile name="Lanzallamas de artesanía magistral" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="bd02-9084-6d2f-a8b3">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">4</characteristic>
@@ -3265,13 +3265,13 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cce-37f7-40a6-d17d"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Daemonflame Weapons" hidden="false" id="2aab-a7d3-3317-66ab">
+            <selectionEntry type="upgrade" import="true" name="Armas de llama demoníaca" hidden="false" id="2aab-a7d3-3317-66ab">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b4cd-5b5a-47b2-3c4c"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35ea-0448-1df4-337f"/>
               </constraints>
               <profiles>
-                <profile name="Daemonflame Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2422-0a5b-082c-aba6">
+                <profile name="Armas de llama demoníaca" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2422-0a5b-082c-aba6">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -3296,13 +3296,13 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6fee-bee8-8c58-6cf8"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Daemonflame Weapons" hidden="false" id="dec0-a98e-ea24-864a">
+            <selectionEntry type="upgrade" import="true" name="Armas de llama demoníaca" hidden="false" id="dec0-a98e-ea24-864a">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="03b6-3865-d78c-e131"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f04-7257-d417-67d3"/>
               </constraints>
               <profiles>
-                <profile name="Daemonflame Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0f81-2d03-df6f-9623">
+                <profile name="Armas de llama demoníaca" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0f81-2d03-df6f-9623">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -3348,9 +3348,9 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b7cd-e844-2725-6cd0" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Infernal Cohort with Hashutite Blades (Scourge of Ghyran)" hidden="true" id="42dc-3f22-809b-661d" publicationId="f894-7929-f79a-a269">
+    <selectionEntry type="unit" import="true" name="Cohorte infernal con hojas hashutitas (Azote de Ghyran)" hidden="true" id="42dc-3f22-809b-661d" publicationId="f894-7929-f79a-a269">
       <profiles>
-        <profile name="Infernal Cohort with Hashutite Blades" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f045-bbd9-6825-ddcb">
+        <profile name="Cohorte infernal con hojas hashutitas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f045-bbd9-6825-ddcb">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">1</characteristic>
@@ -3361,7 +3361,7 @@ Además, al final de cada batalla, tira un dado. Con un 1, da a esta unidad 1 **
         <profile name="Take Up Their Arms" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="07c9-3243-2af7-17e7">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo otra unidad amiga visible que no sea **^^Hobgrot Helsmiths of Hashut Infantry^^**, una **Deathshrieker Rocket Battery** o un **Tormentor Bombard**, a 12" o menos de esta unidad.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo otra unidad amiga visible que no sea **^^Hobgrot Helsmiths of Hashut Infantry^^**, una **Batería de cohetes aullamuerte** o un **Bombarda atormentadora**, a 12" o menos de esta unidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Retira hasta 3 miniaturas de esta unidad. Después, si el objetivo es una unidad **^^Infantry^^**, devuelve al objetivo un número de miniaturas abatidas igual al número de miniaturas que has retirado de esta unidad. Si el objetivo es una **^^War Machine^^**, cura un número de puntos de daño asignados al objetivo igual al número de miniaturas que has retirado de esta unidad.
 Las miniaturas retiradas de esta unidad por esta habilidad no pueden devolverse a esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -3409,7 +3409,7 @@ Las miniaturas retiradas de esta unidad por esta habilidad no pueden devolverse 
         <categoryLink name="DUARDIN" hidden="false" id="fc0f-18da-2db0-7573" targetId="72e3-7b1b-cb94-4cbd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Infernal Cohort with Hashutite Blade" hidden="false" id="a15f-0a7b-fc31-9b15" defaultAmount="1,1,1,7">
+        <selectionEntry type="model" import="true" name="Cohorte infernal con hoja hashutita" hidden="false" id="a15f-0a7b-fc31-9b15" defaultAmount="1,1,1,7">
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="false" id="4b92-0bd2-225c-2a3e"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="false" id="b0b1-f477-fee0-f938"/>
@@ -3427,13 +3427,13 @@ Las miniaturas retiradas de esta unidad por esta habilidad no pueden devolverse 
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Hashutite Blade" hidden="false" id="6bf0-680e-beee-c478">
+            <selectionEntry type="upgrade" import="true" name="Hoja hashutita" hidden="false" id="6bf0-680e-beee-c478">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c65-34c1-d8bb-e4a6"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a37d-2472-5a3c-dff0"/>
               </constraints>
               <profiles>
-                <profile name="Hashutite Blade" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="1b2d-81fa-290d-b20b">
+                <profile name="Hoja hashutita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="1b2d-81fa-290d-b20b">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -3511,12 +3511,12 @@ Las miniaturas retiradas de esta unidad por esta habilidad no pueden devolverse 
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="War Despot (Scourge of Ghyran)" hidden="true" id="c468-1c57-cdaf-d9c1" publicationId="f894-7929-f79a-a269">
+    <selectionEntry type="unit" import="true" name="Déspota de guerra (Azote de Ghyran)" hidden="true" id="c468-1c57-cdaf-d9c1" publicationId="f894-7929-f79a-a269">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="f9e8-89e6-00a7-2def" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="War Despot" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="102d-b055-9565-ba7e">
+        <profile name="Déspota de guerra" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="102d-b055-9565-ba7e">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">6</characteristic>
@@ -3564,15 +3564,15 @@ Si hay un objetivo amigo, durante el resto del turno:
         <categoryLink name="INFANTRY" hidden="false" id="f0fd-3f0e-69e3-f482" targetId="75d6-6995-dfcc-3898" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="War Despot" hidden="false" id="d287-433f-c16b-1592">
+        <selectionEntry type="model" import="true" name="Déspota de guerra" hidden="false" id="d287-433f-c16b-1592">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Daemonflame Glaive" hidden="false" id="1386-4c68-ad0f-5f5f">
+            <selectionEntry type="upgrade" import="true" name="Guja de llama demoníaca" hidden="false" id="1386-4c68-ad0f-5f5f">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d3fa-5b42-6e3c-cac3"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65f8-6460-c179-92ce"/>
               </constraints>
               <profiles>
-                <profile name="Daemonflame Glaive" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="af26-d84a-f3be-e742">
+                <profile name="Guja de llama demoníaca" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="af26-d84a-f3be-e742">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
