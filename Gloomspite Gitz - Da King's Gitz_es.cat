@@ -131,8 +131,8 @@
                 <profile name="Da King&apos;s Adjutant" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="5939-9dfe-b508-9604">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), final de tu turno</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">No puedes usar esta habilidad y la habilidad &apos;Moonclan Lairs&apos; del **Bad Moon Loonshrine** en el mismo turno. Mientras esta unidad esté a 12" o menos de un **Bad Moon Loonshrine** amigo, elige como objetivo una unidad amiga no reforzada, que no sea **^^Hero^^** ni **^^Monster King&apos;s Gitz^^**, y que haya sido destruida.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca una unidad de reemplazo totalmente a 12" o menos de un **Bad Moon Loonshrine** amigo y a más de 3" de todas las unidades enemigas.</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">No puedes usar esta habilidad y la habilidad &apos;Moonclan Lairs&apos; del **Santuario lunático de la Mala Luna** en el mismo turno. Mientras esta unidad esté a 12" o menos de un **Santuario lunático de la Mala Luna** amigo, elige como objetivo una unidad amiga no reforzada, que no sea **^^Hero^^** ni **^^Monster King&apos;s Gitz^^**, y que haya sido destruida.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca una unidad de reemplazo totalmente a 12" o menos de un **Santuario lunático de la Mala Luna** amigo y a más de 3" de todas las unidades enemigas.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -258,7 +258,7 @@
         <profile name="The Moon and the Loon" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="18ec-9d8d-3648-cd38">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras una unidad amiga esté totalmente a 9" o menos de un **Skragrott** amigo, una **Malevolent Moon** amiga o un **Bad Moon Loonshrine** amigo:
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras una unidad amiga esté totalmente a 9" o menos de un **Skragrott** amigo, una **Luna malévola** amiga o un **Santuario lunático de la Mala Luna** amigo:
 • Suma 5 a la puntuación de control de las unidades amigas que no sean **^^Squig Moonclan^^**.
 • En lugar de tirar el dado para determinar la característica de Move de una unidad amiga **^^Squig^^**, puedes usar un valor de 4.</characteristic>
           </characteristics>
@@ -393,13 +393,13 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Bad Moon Loonshrine" hidden="false" id="c472-a2ba-3f6b-9277" type="selectionEntry" targetId="d5f4-405d-70b2-2701"/>
+    <entryLink import="true" name="Santuario lunático de la Mala Luna" hidden="false" id="c472-a2ba-3f6b-9277" type="selectionEntry" targetId="d5f4-405d-70b2-2701"/>
     <entryLink import="true" name="Battle Traits: The King&apos;s Gitz" hidden="false" id="3da3-302a-7de5-8d26" type="selectionEntry" targetId="dd5f-b1f5-f617-f490">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a902-53de-806f-1d3b" includeChildSelections="true"/>
       </constraints>
     </entryLink>
-    <entryLink import="true" name="Boingrot Bounderz" hidden="false" id="7b0f-3503-4615-d7e2" type="selectionEntry" targetId="2e50-954-9c1-37cb">
+    <entryLink import="true" name="Saltadores boingrot" hidden="false" id="7b0f-3503-4615-d7e2" type="selectionEntry" targetId="2e50-954-9c1-37cb">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="6584-32f0-3957-2b4b" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="042d-6a42-a0b2-6932" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
@@ -430,7 +430,7 @@
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="5b73-4e29-e758-f771" targetId="3573-2154-d2f7-c352" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Dankhold Troggoth" hidden="false" id="2264-a199-47dc-f5e5" type="selectionEntry" targetId="9be3-6dc9-3f14-4553">
+    <entryLink import="true" name="Troggoth de la gruta húmeda" hidden="false" id="2264-a199-47dc-f5e5" type="selectionEntry" targetId="9be3-6dc9-3f14-4553">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -499,7 +499,7 @@
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="12d6-b42b-bfcf-37f1" targetId="3573-2154-d2f7-c352" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Fellwater Troggoths" hidden="false" id="751e-c7da-1d68-ccd4" type="selectionEntry" targetId="3f7c-ecc-b9dc-ccda">
+    <entryLink import="true" name="Troggoths de aguas fétidas" hidden="false" id="751e-c7da-1d68-ccd4" type="selectionEntry" targetId="3f7c-ecc-b9dc-ccda">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="85ba-b7cd-a62f-d058" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="0930-1caf-c141-622b" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
@@ -543,7 +543,7 @@
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="58b1-6b44-17fa-878b" targetId="3573-2154-d2f7-c352" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Fellwater Troggoths (Scourge of Aqshy)" hidden="false" id="f934-ca56-9fb4-dfa2" type="selectionEntry" targetId="6132-f299-106b-97e0">
+    <entryLink import="true" name="Troggoths de aguas fétidas (Azote de Aqshy)" hidden="false" id="f934-ca56-9fb4-dfa2" type="selectionEntry" targetId="6132-f299-106b-97e0">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="2000-84bd-225a-f9e4" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="7e21-5184-a1b0-12c8" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
@@ -587,7 +587,7 @@
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="1d31-f6c4-024b-a9f2" targetId="3573-2154-d2f7-c352" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Fungoid Cave-Shaman" hidden="false" id="d6ea-4fab-93b8-2cbb" type="selectionEntry" targetId="5f35-ca66-398-bf72">
+    <entryLink import="true" name="Chamán cavernícola fungoide" hidden="false" id="d6ea-4fab-93b8-2cbb" type="selectionEntry" targetId="5f35-ca66-398-bf72">
       <categoryLinks>
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="a301-c800-c669-3283" targetId="3573-2154-d2f7-c352" primary="false"/>
         <categoryLink name="Restrict General" hidden="false" id="5ca5-97d7-3406-e37f" targetId="abcb-73d0-2b6c-4f17" primary="false"/>
@@ -670,7 +670,7 @@
         <categoryLink name="Moonclan Infantry" hidden="false" id="d0cc-0835-6d49-dac8" targetId="e5fb-0063-4e6f-e20c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Grinkrak&apos;s Looncourt" hidden="false" id="230d-54b4-f16d-f91e" type="selectionEntry" targetId="07da-8a50-69be-b0c1">
+    <entryLink import="true" name="Corte Lunática de Grinkrak" hidden="false" id="230d-54b4-f16d-f91e" type="selectionEntry" targetId="07da-8a50-69be-b0c1">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -699,7 +699,7 @@
         <categoryLink name="Moonclan Infantry" hidden="false" id="767a-e978-b586-47dc" targetId="e5fb-0063-4e6f-e20c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Loonboss" hidden="false" id="bf7d-2407-6a24-6e13" type="selectionEntry" targetId="ab7d-16d4-876a-3066">
+    <entryLink import="true" name="Jefe lunático" hidden="false" id="bf7d-2407-6a24-6e13" type="selectionEntry" targetId="ab7d-16d4-876a-3066">
       <categoryLinks>
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="f7e3-6f81-4b21-a794" targetId="3573-2154-d2f7-c352" primary="false"/>
         <categoryLink name="Restrict General" hidden="false" id="6765-9f80-21f1-10bf" targetId="abcb-73d0-2b6c-4f17" primary="false"/>
@@ -765,7 +765,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Loonboss on Giant Cave Squig" hidden="false" id="0883-0864-f6a8-9a6d" type="selectionEntry" targetId="66d2-f3d2-93a9-581">
+    <entryLink import="true" name="Jefe lunático en garrapato cavernícola gigante" hidden="false" id="0883-0864-f6a8-9a6d" type="selectionEntry" targetId="66d2-f3d2-93a9-581">
       <categoryLinks>
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="47ea-aeaa-26d9-8f92" targetId="3573-2154-d2f7-c352" primary="false"/>
         <categoryLink name="Restrict General" hidden="false" id="887c-3290-6ed9-a6f3" targetId="abcb-73d0-2b6c-4f17" primary="false"/>
@@ -832,7 +832,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Loonboss on Mangler Squigs" hidden="false" id="1a59-7564-a881-eab0" type="selectionEntry" targetId="7b26-310a-27fd-151">
+    <entryLink import="true" name="Jefe lunático en garrapatos despachurradores" hidden="false" id="1a59-7564-a881-eab0" type="selectionEntry" targetId="7b26-310a-27fd-151">
       <categoryLinks>
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="4958-da32-6eef-8f08" targetId="3573-2154-d2f7-c352" primary="false"/>
         <categoryLink name="Restrict General" hidden="false" id="18d4-e5c2-13c1-8ef0" targetId="abcb-73d0-2b6c-4f17" primary="false"/>
@@ -884,7 +884,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Loonboss with Giant Cave Squig" hidden="false" id="d235-ace3-bb68-ee81" type="selectionEntry" targetId="649e-1067-7300-bde2">
+    <entryLink import="true" name="Jefe lunático con garrapato cavernícola gigante" hidden="false" id="d235-ace3-bb68-ee81" type="selectionEntry" targetId="649e-1067-7300-bde2">
       <categoryLinks>
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="3424-6008-f69e-fef9" targetId="3573-2154-d2f7-c352" primary="false"/>
         <categoryLink name="Restrict General" hidden="false" id="19d1-51ef-3ffe-c34c" targetId="abcb-73d0-2b6c-4f17" primary="false"/>
@@ -990,7 +990,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Loonsmasha Fanatics" hidden="false" id="0579-f07b-2aff-e08d" type="selectionEntry" targetId="1ca-65e-4f4a-ffb7">
+    <entryLink import="true" name="Fanáticos aplastalunas" hidden="false" id="0579-f07b-2aff-e08d" type="selectionEntry" targetId="1ca-65e-4f4a-ffb7">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="373a-1475-8d28-636e" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="b8ba-fbcc-8c9d-92c2" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
@@ -1022,7 +1022,7 @@
         <categoryLink name="Moonclan Infantry" hidden="false" id="6717-4718-a449-6e04" targetId="e5fb-0063-4e6f-e20c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Madcap Shaman" hidden="false" id="b629-7a93-6936-670e" type="selectionEntry" targetId="11a4-4608-799e-1ec7">
+    <entryLink import="true" name="Chamán sombreriloco" hidden="false" id="b629-7a93-6936-670e" type="selectionEntry" targetId="11a4-4608-799e-1ec7">
       <categoryLinks>
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="2fa3-72f9-9969-0d02" targetId="3573-2154-d2f7-c352" primary="false"/>
         <categoryLink name="Restrict General" hidden="false" id="f415-9686-fd8b-9086" targetId="abcb-73d0-2b6c-4f17" primary="false"/>
@@ -1063,7 +1063,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Mangler Squigs" hidden="false" id="f4ed-f8d9-5642-d1a5" type="selectionEntry" targetId="7d29-9cf8-1621-e523">
+    <entryLink import="true" name="Garrapatos despachurradores" hidden="false" id="f4ed-f8d9-5642-d1a5" type="selectionEntry" targetId="7d29-9cf8-1621-e523">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1121,7 +1121,7 @@
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="cf65-ebfc-700b-02ba" targetId="3573-2154-d2f7-c352" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Moonclan Shootas" hidden="false" id="b71f-1e52-5917-7a3b" type="selectionEntry" targetId="b8a3-fc8f-cbdf-9424">
+    <entryLink import="true" name="Tiradores del clan lunar" hidden="false" id="b71f-1e52-5917-7a3b" type="selectionEntry" targetId="b8a3-fc8f-cbdf-9424">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="b027-199d-fe96-295a" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="9dc6-d897-dc7a-3bb4" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
@@ -1153,7 +1153,7 @@
         <categoryLink name="Moonclan Infantry" hidden="false" id="ca9c-f987-da38-60b2" targetId="e5fb-0063-4e6f-e20c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Moonclan Stabbas" hidden="false" id="7dd7-39fe-b866-bb3c" type="selectionEntry" targetId="8be0-b46d-7d03-f8e2">
+    <entryLink import="true" name="Pinchadores del clan lunar" hidden="false" id="7dd7-39fe-b866-bb3c" type="selectionEntry" targetId="8be0-b46d-7d03-f8e2">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="5123-ae7e-9b5b-cfc9" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="9e82-8cb9-ae8a-06e8" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
@@ -1185,7 +1185,7 @@
         <categoryLink name="Moonclan Infantry" hidden="false" id="a69a-6060-340d-26fe" targetId="e5fb-0063-4e6f-e20c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Rabble-Rowza" hidden="false" id="6d39-fac3-208b-f315" type="selectionEntry" targetId="13ce-b7ed-f419-cdd">
+    <entryLink import="true" name="Agitador de turbas" hidden="false" id="6d39-fac3-208b-f315" type="selectionEntry" targetId="13ce-b7ed-f419-cdd">
       <categoryLinks>
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="629c-985b-2f45-1342" targetId="3573-2154-d2f7-c352" primary="false"/>
         <categoryLink name="Restrict General" hidden="false" id="fdd2-c903-e903-bf38" targetId="abcb-73d0-2b6c-4f17" primary="false"/>
@@ -1252,7 +1252,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Skragrott, the Loonking" hidden="false" id="9986-33b9-8f67-d0af" type="selectionEntry" targetId="fda8-9470-94b7-46fa">
+    <entryLink import="true" name="Skragrott, el Rey Lunático" hidden="false" id="9986-33b9-8f67-d0af" type="selectionEntry" targetId="fda8-9470-94b7-46fa">
       <categoryLinks>
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="de97-e604-858d-3728" targetId="3573-2154-d2f7-c352" primary="false"/>
       </categoryLinks>
@@ -1300,7 +1300,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Sneaky Snufflers" hidden="false" id="f050-53a6-784f-5a17" type="selectionEntry" targetId="3b3c-9e13-1ddc-7f74">
+    <entryLink import="true" name="Olfateadores furtivos" hidden="false" id="f050-53a6-784f-5a17" type="selectionEntry" targetId="3b3c-9e13-1ddc-7f74">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="8575-8a5d-5cd7-7744" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="369c-251c-9e3f-af85" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
@@ -1332,7 +1332,7 @@
         <categoryLink name="Moonclan Infantry" hidden="false" id="6740-185e-cc72-2463" targetId="e5fb-0063-4e6f-e20c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Sporesplatta Fanatics" hidden="false" id="9ec5-2e1e-b8e8-84e7" type="selectionEntry" targetId="618-3bfc-edf1-a568">
+    <entryLink import="true" name="Fanáticos esparceesporas" hidden="false" id="9ec5-2e1e-b8e8-84e7" type="selectionEntry" targetId="618-3bfc-edf1-a568">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="1e47-1e47-87e1-53fc" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="664c-ac4d-ed1c-9e82" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
@@ -1364,7 +1364,7 @@
         <categoryLink name="Moonclan Infantry" hidden="false" id="6cc8-6478-6020-14f9" targetId="e5fb-0063-4e6f-e20c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Squig Herd" hidden="false" id="8302-f690-6745-9a8a" type="selectionEntry" targetId="5e58-eff2-c9a6-7227">
+    <entryLink import="true" name="Rebaño de garrapatos" hidden="false" id="8302-f690-6745-9a8a" type="selectionEntry" targetId="5e58-eff2-c9a6-7227">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="6561-3359-399d-1e03" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="0582-db39-68a4-4562" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
@@ -1418,7 +1418,7 @@
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="8801-1e05-a3bf-e218" targetId="3573-2154-d2f7-c352" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Squig Hoppers" hidden="false" id="b841-26d0-0d51-20c4" type="selectionEntry" targetId="d378-a542-6aa9-ccf9">
+    <entryLink import="true" name="Jinetes saltadores de garrapato" hidden="false" id="b841-26d0-0d51-20c4" type="selectionEntry" targetId="d378-a542-6aa9-ccf9">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="1551-5ded-4fb0-0534" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="2a50-c921-01cd-67b7" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
@@ -1449,7 +1449,7 @@
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="3cd6-4c24-4dfb-f8e9" targetId="3573-2154-d2f7-c352" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Squigboss with Gnasha-squig" hidden="false" id="576a-3364-266e-8194" type="selectionEntry" targetId="3e89-813a-bb70-e48c">
+    <entryLink import="true" name="Jefe de garrapatos con garrapato rechinante" hidden="false" id="576a-3364-266e-8194" type="selectionEntry" targetId="3e89-813a-bb70-e48c">
       <categoryLinks>
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="9d2f-fe64-d4a9-f31c" targetId="3573-2154-d2f7-c352" primary="false"/>
         <categoryLink name="Restrict General" hidden="false" id="f10a-7cc3-6544-c770" targetId="abcb-73d0-2b6c-4f17" primary="false"/>
@@ -1516,7 +1516,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Zarbag&apos;s Gitz" hidden="false" id="7a4a-387c-267f-4e36" type="selectionEntry" targetId="5ebb-a3a6-b5a9-86c9">
+    <entryLink import="true" name="Tipejos de Zarbag" hidden="false" id="7a4a-387c-267f-4e36" type="selectionEntry" targetId="5ebb-a3a6-b5a9-86c9">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1545,7 +1545,7 @@
         <categoryLink name="Moonclan Infantry" hidden="false" id="06f0-1dc3-a866-0bef" targetId="e5fb-0063-4e6f-e20c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Rockgut Troggoths" hidden="false" id="5cf1-1cf3-3f44-0cbe" type="selectionEntry" targetId="6b55-8302-d5fe-f8b">
+    <entryLink import="true" name="Troggoths triparrocosa" hidden="false" id="5cf1-1cf3-3f44-0cbe" type="selectionEntry" targetId="6b55-8302-d5fe-f8b">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="07e1-c294-132c-d6aa" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="2892-41e0-b016-1d7e" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
@@ -1589,7 +1589,7 @@
         <categoryLink name="KING&apos;S GITZ" hidden="false" id="71d2-3524-b5fe-062e" targetId="3573-2154-d2f7-c352" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Loonsmasha Fanatics (Scourge of Ghyran)" hidden="false" id="fb1e-4311-beaf-d9af" type="selectionEntry" targetId="5dee-8665-7880-096b">
+    <entryLink import="true" name="Fanáticos aplastalunas (Azote de Ghyran)" hidden="false" id="fb1e-4311-beaf-d9af" type="selectionEntry" targetId="5dee-8665-7880-096b">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="2f84-0ea4-3c66-54b3" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="4975-134f-16fd-7f45" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
@@ -1621,7 +1621,7 @@
         <categoryLink name="Moonclan Infantry" hidden="false" id="eeee-c871-c86f-17ba" targetId="e5fb-0063-4e6f-e20c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Sporesplatta Fanatics (Scourge of Ghyran)" hidden="false" id="e287-fcfe-d6af-1610" type="selectionEntry" targetId="78fe-025d-e1b5-511f">
+    <entryLink import="true" name="Fanáticos esparceesporas (Azote de Ghyran)" hidden="false" id="e287-fcfe-d6af-1610" type="selectionEntry" targetId="78fe-025d-e1b5-511f">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="a6e0-8af1-46e9-a339" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="1395-fe01-36da-7fac" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
@@ -1653,7 +1653,7 @@
         <categoryLink name="Moonclan Infantry" hidden="false" id="5de5-bbf6-c902-6490" targetId="e5fb-0063-4e6f-e20c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Anvil of Apotheosis: Grot Hero" hidden="false" id="7c28-71b7-f66b-e70e" type="selectionEntry" targetId="3ffe-7c86-f14a-985e">
+    <entryLink import="true" name="Yunque de la apoteosis: héroe grot" hidden="false" id="7c28-71b7-f66b-e70e" type="selectionEntry" targetId="3ffe-7c86-f14a-985e">
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="e8be-c72a-49c0-e892" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="9b8b-d0f1-3bc2-f3ab" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
