@@ -25,6 +25,8 @@ def main(argv):
         return 1
 
     mapping = bscat.load_translations(bscat.json_path(source))
+    names = bscat.load_names()
+    translate_references = bscat.reference_translator(names)
     xml = bscat.read_source(source)
     counts, _ = bscat.translatable(xml)
     if not mapping and counts:
@@ -38,16 +40,22 @@ def main(argv):
         text = bscat.decode(match.group(3))
         target = mapping.get(text)
         if target is None:
+            target = text
+        else:
+            used.add(text)
+        target = translate_references(target)
+        if target == text and text not in mapping:
             return match.group(0)
-        used.add(text)
         # Los saltos de linea del JSON se escriben con el mismo fin de linea
         # que use el fichero fuente.
         body = bscat.encode(target.replace('\r\n', '\n').replace('\n', eol))
         return match.group(1) + body + match.group(4)
 
     out = bscat.TEXT_SPAN.sub(replace, xml)
+    out = bscat.localize_names(out, names)
     target_path = bscat.output_path(source)
-    open(target_path, 'w', encoding='utf-8', newline='').write(out)
+    with open(target_path, 'w', encoding='utf-8', newline='') as handle:
+        handle.write(out)
 
     unused = sorted(set(mapping) - used)
     total = len(counts)

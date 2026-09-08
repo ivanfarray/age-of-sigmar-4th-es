@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
-"""Paso 3: demuestra que solo ha cambiado el texto descriptivo.
+"""Paso 3: valida texto y nombres autorizados, protegiendo IDs y estructura.
 
     python tools/verify-translation.py "Ogor Mawtribes.cat"
 
-Compara "Ogor Mawtribes.cat" con "Ogor Mawtribes_es.cat" y falla (codigo de
-salida 1) si algo mas ha cambiado. No es una revision "a ojo": vacia todos
-los spans de texto de los dos ficheros y compara el resto byte a byte, ademas
-de comprobar uno por uno todos los valores de atributo y la estructura.
+Compara los nombres contra el diccionario y el texto contra las traducciones.
+El resto del XML debe coincidir byte a byte con el original, incluidos todos
+los identificadores, atributos tecnicos y la estructura.
 
 Sin argumentos, verifica todos los pares *_es.cat / *_es.gst del directorio.
 """
@@ -33,6 +32,8 @@ def check(source):
 
     original = bscat.read_source(source)
     spanish = bscat.read_source(translated)
+    names = bscat.load_names()
+    expected_names = bscat.localize_names(original, names)
     problems = []
 
     try:
@@ -40,15 +41,15 @@ def check(source):
     except Exception as exc:
         problems.append('XML mal formado: %s' % exc)
 
-    if bscat.strip_text(original) != bscat.strip_text(spanish):
-        a, b = bscat.strip_text(original), bscat.strip_text(spanish)
+    if bscat.strip_text(expected_names) != bscat.strip_text(spanish):
+        a, b = bscat.strip_text(expected_names), bscat.strip_text(spanish)
         at = next((i for i in range(min(len(a), len(b))) if a[i] != b[i]),
                   min(len(a), len(b)))
         problems.append('ha cambiado algo fuera del texto descriptivo, en el '
                         'offset %d:\n      original: %r\n      traducido: %r'
                         % (at, a[max(0, at - 70):at + 70], b[max(0, at - 70):at + 70]))
 
-    va, vb = ATTR.findall(original), ATTR.findall(spanish)
+    va, vb = ATTR.findall(expected_names), ATTR.findall(spanish)
     if va != vb:
         problems.append('los atributos no coinciden (%d vs %d)' % (len(va), len(vb)))
         for attr in CRITICAL:
@@ -74,8 +75,20 @@ def check(source):
 
     counts, _ = bscat.translatable(original)
     mapping = bscat.load_translations(bscat.json_path(source))
+    translate_references = bscat.reference_translator(names)
+    original_spans = list(bscat.iter_spans(original))
+    spanish_spans = list(bscat.iter_spans(spanish))
+    norm = lambda text: text.replace('\r\n', '\n')
+    if len(original_spans) != len(spanish_spans):
+        print('FALLO  %s: distinto numero de textos descriptivos' % label)
+        return False
+    for (text, _), (actual, _) in zip(original_spans, spanish_spans):
+        expected = translate_references(mapping.get(text, text))
+        if norm(expected) != norm(actual):
+            print('FALLO  %s: texto no coincide con los diccionarios: %r' % (label, text[:80]))
+            return False
     done = sum(1 for k in counts if k in mapping)
-    print('OK     %s  (%d/%d cadenas traducidas, %.1f%%; %d atributos intactos)'
+    print('OK     %s  (%d/%d cadenas traducidas, %.1f%%; %d atributos verificados)'
           % (label, done, len(counts),
              100.0 * done / len(counts) if counts else 100.0, len(va)))
     return True

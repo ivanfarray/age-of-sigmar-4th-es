@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 """Utilidades compartidas para traducir ficheros BattleScribe (.cat / .gst).
 
-Idea central: NO se parsea y vuelve a serializar el XML. Se localizan los
-rangos de bytes que contienen texto descriptivo y se sustituyen solo esos.
-Todo lo demas (ids, atributos, orden de atributos, comillas, indentacion,
-saltos de linea) queda intacto por construccion.
+Idea central: NO se parsea y vuelve a serializar el XML. Se sustituyen rangos
+de texto descriptivo y atributos name autorizados por los diccionarios.
+Los identificadores, enlaces y demas atributos permanecen intactos.
 
 El texto descriptivo es el contenido de <description> y <characteristic>.
-Los atributos NUNCA se tocan: eso deja fuera name=, id=, targetId=, typeId=
-y type=, que es exactamente lo que no se debe traducir.
+Solo se permiten nombres registrados de entradas, perfiles y enlaces visibles.
+Los atributos id, targetId, typeId y type nunca se traducen.
 """
 import io
 import os
@@ -59,7 +58,8 @@ def encode(text):
 
 def read_source(path):
     """Lee el fichero sin normalizar saltos de linea."""
-    return io.open(path, encoding='utf-8', newline='').read()
+    with io.open(path, encoding='utf-8', newline='') as handle:
+        return handle.read()
 
 
 def eol_of(text):
@@ -112,7 +112,8 @@ def load_translations(path):
     import json
     if not os.path.exists(path):
         return {}
-    raw = json.load(io.open(path, encoding='utf-8'))
+    with io.open(path, encoding='utf-8') as handle:
+        raw = json.load(handle)
     out = {}
     for key, value in raw.items():
         if key.startswith('_'):
@@ -122,3 +123,46 @@ def load_translations(path):
         if value.strip():
             out[key] = value
     return out
+
+
+NAME_TAG = re.compile(r'<(?:selectionEntry|selectionEntryGroup|profile|entryLink|infoLink)\b(?:"[^"]*"|\x27[^\x27]*\x27|[^\x27">])*>')
+NAME_ATTR = re.compile(r'(\sname\s*=\s*)(["\x27])(.*?)\2')
+
+
+def load_names():
+    """Load reviewed display-name mappings, separate from descriptive text."""
+    import glob
+    mapping = {}
+    for path in sorted(glob.glob(os.path.join(TRANSLATIONS_DIR, 'names', '*.json'))):
+        for key, value in load_translations(path).items():
+            if key in mapping and mapping[key] != value:
+                raise ValueError('Conflicting name translation: %r' % key)
+            mapping[key] = value
+    return mapping
+
+
+def localize_names(xml, mapping):
+    """Only approved name attributes on display entries/profiles/links change."""
+    def tag_replace(tag):
+        def attr_replace(attr):
+            name = decode(attr.group(3))
+            value = mapping.get(name, name)
+            if value == name:
+                return attr.group(0)
+            value = encode(value).replace('"', '&quot;')
+            return attr.group(1) + attr.group(2) + value + attr.group(2)
+        return NAME_ATTR.sub(attr_replace, tag.group(0))
+    return NAME_TAG.sub(tag_replace, xml)
+
+
+def reference_translator(mapping):
+    """Replace whole name references once, longest first, retaining whitespace."""
+    changed = {k: v for k, v in mapping.items() if k != v}
+    if not changed:
+        return lambda text: text
+    normalized = {re.sub(r'\s+', ' ', k): v for k, v in changed.items()}
+    alternatives = [r'\s+'.join(re.escape(part) for part in name.split(' '))
+                    for name in sorted(normalized, key=len, reverse=True)]
+    pattern = re.compile(r'(?<![\w])(?:' + '|'.join(alternatives) + r')(?![\w])')
+    return lambda text: pattern.sub(
+        lambda match: normalized[re.sub(r'\s+', ' ', match.group(0))], text)
