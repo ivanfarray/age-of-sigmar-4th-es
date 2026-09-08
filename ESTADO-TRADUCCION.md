@@ -1,6 +1,6 @@
-# Estado de la traducción — 7 de septiembre de 2026
+# Estado de la traducción — 8 de septiembre de 2026
 
-**Completadas la prosa y las etiquetas anteriormente pendientes.**
+**Completadas la prosa, las etiquetas y los nombres de unidades y armas.**
 
 - Los 133 JSON contienen 9.862 entradas resueltas y **0 valores vacíos**.
 - Se han rellenado las 697 entradas que antes se conservaban vacías: claves,
@@ -11,17 +11,29 @@
   hayan traducido cifras o inventado equivalentes para esos nombres.
 - Las 133 parejas de archivos originales/españoles pasan la verificación de
   estructura y atributos XML. Cada archivo generado en este bloque se ha
-  contrastado también con su JSON. No se han modificado los originales ingleses,
-  los identificadores, atributos ni las claves de los diccionarios.
+  contrastado también con sus diccionarios. No se han modificado los originales
+  ingleses, los identificadores, los atributos técnicos ni las claves de prosa.
+  Los únicos atributos traducidos son los nombres visibles autorizados.
 - Las cifras de las nuevas entradas coinciden con las originales.
 - Las equivalencias se documentan en [GLOSARIO-ETIQUETAS.md](GLOSARIO-ETIQUETAS.md).
 
+## Nombres de unidades y armas
+
+Se han revisado **3.248 nombres distintos**: 3.077 tienen equivalencia
+española y 171 conservan su denominación. No quedan nombres pendientes en
+la comprobación de cobertura. Los 133 pares generados pasan la verificación
+completa y las cinco pruebas del generador de nombres pasan.
+
 ## Alcance
 
-Se traduce el contenido de `description` y `characteristic`. Los nombres de
-unidades, armas y habilidades almacenados en atributos XML siguen en inglés,
-igual que sus referencias dentro de la prosa existente. Las etiquetas
-independientes ahora se muestran en español por petición expresa del usuario.
+Se traduce el contenido de `description` y `characteristic`, además de los
+nombres visibles de unidades, armas y manifestaciones registrados en
+`translations/names/`. Se incluyen personajes, variantes, Legends y nombres
+condicionados por el tamaño de la unidad. El generador actualiza también sus
+referencias en las reglas. Los nombres propios sin equivalente se conservan;
+las traducciones son de aficionado. Los nombres de habilidades, encabezados y
+categorías que no figuran en esos diccionarios permanecen como en el original.
+La cobertura de nombres se detalla en [GLOSARIO-NOMBRES.md](GLOSARIO-NOMBRES.md).
 No se han enviado las reglas a un traductor externo.
 
 La verificación técnica no sustituye una revisión editorial independiente ni

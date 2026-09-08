@@ -2,8 +2,8 @@
 """Utilidades compartidas para traducir ficheros BattleScribe (.cat / .gst).
 
 Idea central: NO se parsea y vuelve a serializar el XML. Se sustituyen rangos
-de texto descriptivo y atributos name autorizados por los diccionarios.
-Los identificadores, enlaces y demas atributos permanecen intactos.
+de texto descriptivo y nombres autorizados por los diccionarios, incluidos
+los valores de modificadores de nombre. Los atributos tecnicos permanecen intactos.
 
 El texto descriptivo es el contenido de <description> y <characteristic>.
 Solo se permiten nombres registrados de entradas, perfiles y enlaces visibles.
@@ -127,6 +127,9 @@ def load_translations(path):
 
 NAME_TAG = re.compile(r'<(?:selectionEntry|selectionEntryGroup|profile|entryLink|infoLink)\b(?:"[^"]*"|\x27[^\x27]*\x27|[^\x27">])*>')
 NAME_ATTR = re.compile(r'(\sname\s*=\s*)(["\x27])(.*?)\2')
+MODIFIER_TAG = re.compile(r'<modifier\b(?:"[^"]*"|\x27[^\x27]*\x27|[^\x27">])*>')
+VALUE_ATTR = re.compile(r'(\svalue\s*=\s*)(["\x27])(.*?)\2')
+NAME_FIELD = re.compile(r'\sfield\s*=\s*(["\x27])name\1')
 
 
 def load_names():
@@ -142,7 +145,7 @@ def load_names():
 
 
 def localize_names(xml, mapping):
-    """Only approved name attributes on display entries/profiles/links change."""
+    """Translate approved display names and conditional name-modifier values."""
     def tag_replace(tag):
         def attr_replace(attr):
             name = decode(attr.group(3))
@@ -152,7 +155,18 @@ def localize_names(xml, mapping):
             value = encode(value).replace('"', '&quot;')
             return attr.group(1) + attr.group(2) + value + attr.group(2)
         return NAME_ATTR.sub(attr_replace, tag.group(0))
-    return NAME_TAG.sub(tag_replace, xml)
+    result = NAME_TAG.sub(tag_replace, xml)
+    def modifier_replace(tag):
+        if not NAME_FIELD.search(tag.group(0)):
+            return tag.group(0)
+        def value_replace(attr):
+            name = decode(attr.group(3))
+            value = mapping.get(name, name)
+            if value == name:
+                return attr.group(0)
+            return attr.group(1) + attr.group(2) + encode(value).replace('"', '&quot;') + attr.group(2)
+        return VALUE_ATTR.sub(value_replace, tag.group(0))
+    return MODIFIER_TAG.sub(modifier_replace, result)
 
 
 def reference_translator(mapping):

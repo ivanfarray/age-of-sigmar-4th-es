@@ -3,8 +3,9 @@
 Por petición del usuario, también se traducen las etiquetas independientes,
 habilidades de arma, claves e ingredientes que antes se dejaban vacíos.
 Estas equivalencias son traducciones de aficionado, no nomenclatura oficial.
-Los atributos XML `name`, los identificadores y las referencias técnicas no
-cambian. Las referencias inglesas dentro de la prosa existente se conservan.
+Los identificadores y las referencias técnicas no cambian. Desde el 8 de
+septiembre de 2026, los nombres de unidades y armas y sus referencias en la
+prosa se traducen mediante [GLOSARIO-NOMBRES.md](GLOSARIO-NOMBRES.md).
 
 Los datos numéricos, las medidas y nombres propios como Waaagh! y Asydrazor
 conservan su escritura. Se registran explícitamente en los JSON para distinguirlos

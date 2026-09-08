@@ -15,8 +15,10 @@ el mismo aviso.
 
 ## Qué se traduce y qué no
 
-Los `.cat` y `.gst` son XML. Solo se traduce el **contenido descriptivo**: el
-texto que hay dentro de `<description>` y `<characteristic>`.
+Los `.cat` y `.gst` son XML. Se traduce el **contenido descriptivo** dentro de
+`<description>` y `<characteristic>` y, por petición del usuario del 8 de
+septiembre de 2026, los **nombres visibles de unidades y armas** registrados
+en `translations/names/`, incluidas sus manifestaciones y variantes.
 
 ```xml
 <selectionEntry id="6353-cb84-ac7f-9a15" name="Bull Charge">
@@ -33,16 +35,16 @@ texto que hay dentro de `<description>` y `<characteristic>`.
 
 | Se traduce | No se toca |
 | --- | --- |
-| Texto dentro de `<description>` | Cualquier atributo, sin excepción |
+| Texto dentro de `<description>` | Atributos técnicos y nombres no registrados |
 | Texto dentro de `<characteristic>` | `id`, `targetId`, `typeId`, `entryId`, `publicationId`, `gameSystemId` |
-| | `name=` (unidades, armas, habilidades, encabezados) |
-| | `type=`, `field=`, `scope=`, `value=` |
+| `name=` registrado de `selectionEntry`, `selectionEntryGroup`, `profile`, `entryLink`, `infoLink` | Nombres de tipos de perfil, categorías y encabezados |
+| `value=` registrado de `modifier` solo cuando `field="name"` | `type=`, `field=`, `scope=` y valores de reglas |
 | | Orden de atributos, indentación, comillas, saltos de línea |
 
 **La regla que no se puede saltar: los IDs no se traducen.** Las herramientas de
-`tools/` no tocan atributos por construcción — no reescriben el XML, localizan
-los rangos de bytes del texto y sustituyen solo esos — y `verify-translation.py`
-lo comprueba después.
+`tools/` no reescriben el XML: sustituyen rangos de texto y nombres autorizados.
+`verify-translation.py` exige la equivalencia exacta con los diccionarios para
+esos cambios y que todo lo demás sea idéntico al original.
 
 ## Requisitos
 
@@ -73,7 +75,11 @@ rápido):
 
 ### 2. Rellenar el JSON
 
-Es el **único fichero que se edita a mano**.
+Los JSON son los **únicos datos de traducción que se editan a mano**. Los nombres
+se mantienen por separado en `translations/names/<ejército>.es.json`, con las
+claves inglesas exactas y sus equivalencias. Una clave compartida entre
+ejércitos debe tener el mismo valor; el generador rechaza conflictos. Revisar
+[GLOSARIO-NOMBRES.md](GLOSARIO-NOMBRES.md) antes de añadir equivalencias.
 
 - **No toques las claves.** Son la cadena inglesa exacta, byte a byte. Si cambias
   una coma, esa cadena deja de encontrarse y se queda sin traducir. Algunas
@@ -91,13 +97,13 @@ python tools/apply-translation.py "Ogor Mawtribes.cat"   # escribe Ogor Mawtribe
 python tools/verify-translation.py                       # verifica todos los pares
 ```
 
-`verify-translation.py` vacía el texto descriptivo de los dos ficheros y compara
-el resto **byte a byte**, además de contrastar los valores de atributo uno por
-uno y la estructura. Si algo fuera del texto ha cambiado, falla con código 1 y
-dice en qué offset. Salida esperada:
+`verify-translation.py` calcula primero los nombres autorizados, vacía el texto
+descriptivo y compara el resto **byte a byte**. También contrasta los atributos,
+la estructura y cada texto con los diccionarios de prosa y nombres. Un cambio
+no autorizado falla con código 1. Ejemplo del formato de salida:
 
 ```
-OK     Ogor Mawtribes_es.cat  (54/58 cadenas traducidas, 93.1%; 5301 atributos intactos)
+OK     Ejemplo_es.cat  (58/58 cadenas traducidas, 100.0%; 5301 atributos verificados)
 ```
 
 **El `_es.cat` es un artefacto generado: nunca se edita a mano.** Si hay una
@@ -109,7 +115,7 @@ errata, se corrige el JSON y se vuelve a ejecutar el paso 3.
 las etiquetas independientes de claves, habilidades de arma e ingredientes
 también se traducen. Usar las equivalencias de
 [GLOSARIO-ETIQUETAS.md](GLOSARIO-ETIQUETAS.md). Se mantienen intactos los
-atributos XML y las claves inglesas de los JSON. Las expresiones que solo
+atributos técnicos y las claves inglesas de los JSON. Las expresiones que solo
 contienen datos y los nombres propios sin traducción se registran con su
 valor original, en lugar de dejarlos vacíos.
 
@@ -117,9 +123,25 @@ Las siguientes pautas se aplican a las referencias dentro de la prosa ya
 traducida; no impiden traducir una etiqueta independiente.
 
 
-Como los `name=` no se traducen, los nombres propios que aparecen **dentro** del
-texto también se quedan en inglés. Si no, la regla citaría un nombre que el
-jugador no encuentra en ninguna parte del pergamino.
+Los nombres de unidades y armas registrados se sustituyen automáticamente
+también **dentro** del texto generado. No hace falta cambiar manualmente sus
+referencias en los JSON de prosa: conservar las claves inglesas originales.
+Se usan coincidencias completas, sensibles a mayúsculas y de mayor longitud
+primero, sin sustituciones encadenadas. Al cambiar un nombre, regenerar todos
+los catálogos que lo citan, incluidos bibliotecas y Regimientos de Renombre.
+
+Comprobar la cobertura tras actualizar los originales:
+
+```bash
+python tools/verify-name-coverage.py
+python tools/test-name-translation.py
+python tools/verify-translation.py
+```
+
+La primera comprobación detecta nombres pendientes de unidades, armas,
+manifestaciones, alias y modificadores de nombre, incluso los del sistema
+general `.gst`. Las pruebas comprueban que el generador acepta los nombres
+registrados y rechaza cambios en identificadores, nombres y prosa no autorizados.
 
 Se quedan en inglés:
 
@@ -130,8 +152,8 @@ Se quedan en inglés:
 - Habilidades de arma: `Crit (2 Hits)`, `Crit (Mortal)`, `Companion`,
   `Anti-Monster (+1 Rend)`, `Charge (+1 Damage)`, `Heal (D3)`.
 - Nombres de características: `característica de Health`, `de Attacks`, `de Rend`.
-- Nombres de unidades, armas, artefactos, trofeos y efectos, incluidos los que
-  van en `***negrita cursiva***`: `***Squeezed Head***`, `***Steaming Brains***`.
+- Nombres de artefactos, trofeos y efectos no registrados en el diccionario de
+  nombres, incluidos `***Squeezed Head***` y `***Steaming Brains***`.
 
 Se traducen: todo lo demás, incluidos los términos de reglas que no son nombres
 (`pile-in move`, `control score`, `fury level`, `damage points`…).

@@ -30,6 +30,11 @@ class NameTranslationTests(unittest.TestCase):
         result = bscat.localize_names("<entryLink name='Hunter &amp; Wolf' targetId='x'/>", {'Hunter & Wolf': 'Cazador "Lobo"'})
         self.assertEqual(result, "<entryLink name='Cazador &quot;Lobo&quot;' targetId='x'/>")
 
+    def test_conditional_display_names_preserve_rules(self):
+        xml = '<modifier type="set" field="name" value="Guard (1 model)"/><modifier type="increment" field="attacks" value="Guard (1 model)"/>'
+        expected = '<modifier type="set" field="name" value="Guardia (1 miniatura)"/><modifier type="increment" field="attacks" value="Guard (1 model)"/>'
+        self.assertEqual(bscat.localize_names(xml, {'Guard (1 model)': 'Guardia (1 miniatura)'}), expected)
+
     def test_references_use_longest_name_without_cascading(self):
         translate = bscat.reference_translator({'Hunter': 'Cazador', 'Ice Hunter': 'Hunter', 'Blade': 'Espada'})
         self.assertEqual(translate('**Ice\nHunter** and Hunter, Hunters, Blades, Blade.'), '**Hunter** and Cazador, Hunters, Blades, Espada.')

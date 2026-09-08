@@ -72,16 +72,20 @@ published under a permissive license, so it cannot be relicensed here.*
 | `tools/` | las tres herramientas que generan los `_es.cat` |
 | [`TRADUCIR.md`](TRADUCIR.md) | **cómo colaborar en la traducción** |
 
-Estado a 7 de septiembre de 2026: **prosa y etiquetas completadas**.
+Estado a 8 de septiembre de 2026: **prosa, etiquetas y nombres de unidades y armas completados**.
 
 Hay 133 parejas de archivos generadas y verificadas. Los JSON contienen 9.862
 entradas resueltas y ningún valor vacío. También se han traducido las claves,
 habilidades de arma e ingredientes que antes se conservaban en inglés. Las
 cifras, medidas y nombres propios sin traducción mantienen su escritura.
 
-Los atributos XML, incluidos los nombres de unidades y habilidades, siguen
-intactos. Sus referencias dentro de la prosa existente permanecen en inglés;
-las etiquetas independientes tienen sus equivalencias en
+Los nombres visibles de unidades, armas y manifestaciones se traducen mediante
+los diccionarios de `translations/names/`, incluidas las variantes de Legends
+y los nombres condicionados por el número de miniaturas. El generador también
+actualiza sus referencias en las reglas. Se conservan los nombres propios sin
+equivalente y todos los identificadores y enlaces técnicos. Las equivalencias
+son traducciones de aficionado, no terminología oficial de Games Workshop.
+Véanse [GLOSARIO-NOMBRES.md](GLOSARIO-NOMBRES.md) y
 [GLOSARIO-ETIQUETAS.md](GLOSARIO-ETIQUETAS.md).
 
 El detalle de cobertura y validación está en
@@ -90,10 +94,12 @@ sustituye una revisión editorial independiente ni pruebas en una aplicación.
 
 ### La regla que no se puede saltar
 
-Solo se traduce el contenido descriptivo: el texto dentro de `<description>` y
-`<characteristic>`. **Los IDs no se traducen nunca**, ni `name=`, ni `type=`, ni
-ningún otro atributo. `tools/verify-translation.py` lo comprueba byte a byte en
-cada ejecución. Los detalles, en [`TRADUCIR.md`](TRADUCIR.md).
+**Los IDs no se traducen nunca.** Se traduce el contenido de `<description>` y
+`<characteristic>` y los nombres visibles registrados en los diccionarios.
+Fuera de esos nombres, los atributos y la estructura permanecen intactos.
+`tools/verify-translation.py` contrasta los cambios autorizados y el texto con
+los diccionarios, y compara el resto byte a byte. Los detalles, en
+[`TRADUCIR.md`](TRADUCIR.md).
 
 ### Aviso sobre los `_es.cat`
 

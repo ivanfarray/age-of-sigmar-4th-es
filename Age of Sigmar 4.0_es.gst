@@ -14566,9 +14566,9 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b248-b1b0-3c2c-69d3"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Krondspine Incarnate of Ghur" hidden="false" id="4ba0-e87-36e0-db58">
+    <selectionEntry type="unit" import="true" name="Encarnación Krondspine de Ghur" hidden="false" id="4ba0-e87-36e0-db58">
       <profiles>
-        <profile name="Krondspine Incarnate of Ghur" hidden="false" id="e47b-8a7e-1e7-d17b" typeId="1287-3a-9799-7e40" typeName="Manifestation">
+        <profile name="Encarnación Krondspine de Ghur" hidden="false" id="e47b-8a7e-1e7-d17b" typeId="1287-3a-9799-7e40" typeName="Manifestation">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">10&quot;</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">12</characteristic>
@@ -14629,9 +14629,9 @@
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Amberbone Claws and Fangs" hidden="false" id="6ba7-2a4d-632e-c8b0">
+        <selectionEntry type="upgrade" import="true" name="Garras y colmillos de hueso de ámbar" hidden="false" id="6ba7-2a4d-632e-c8b0">
           <profiles>
-            <profile name="Amberbone Claws and Fangs" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="245d-e7e2-477e-edb0">
+            <profile name="Garras y colmillos de hueso de ámbar" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="245d-e7e2-477e-edb0">
               <characteristics>
                 <characteristic name="Atk" id="89de-6c24-68b4-75ea" hidden="false" typeId="60e-35aa-31ed-e488">6</characteristic>
                 <characteristic name="Hit" id="5da4-f289-2fb3-1145" hidden="false" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -14649,7 +14649,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Purple Sun of Shyish" hidden="false" id="e7a5-e611-4c13-22d0">
+    <selectionEntry type="unit" import="true" name="Sol púrpura de Shyish" hidden="false" id="e7a5-e611-4c13-22d0">
       <categoryLinks>
         <categoryLink targetId="70a4-383f-421f-52cd" id="4dc8-eece-d5b7-2df3" primary="false" name="WARD (6+)"/>
         <categoryLink targetId="bff0-8be9-719f-4afc" id="4658-ba98-3211-8adb" primary="false" name="MANIFESTATION"/>
@@ -14657,7 +14657,7 @@
         <categoryLink targetId="b979-4c3e-7d0e-6921" id="b4b6-e31a-8fb6-620b" primary="false" name="FLY"/>
       </categoryLinks>
       <profiles>
-        <profile name="Purple Sun of Shyish" hidden="false" id="3156-8963-342f-53d" typeId="1287-3a-9799-7e40" typeName="Manifestation">
+        <profile name="Sol púrpura de Shyish" hidden="false" id="3156-8963-342f-53d" typeId="1287-3a-9799-7e40" typeName="Manifestation">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">8&quot;</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">10</characteristic>
@@ -14700,13 +14700,13 @@
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Transmuting Rays" hidden="false" id="242c-f4ee-4ed8-2440">
+        <selectionEntry type="upgrade" import="true" name="Rayos transmutadores" hidden="false" id="242c-f4ee-4ed8-2440">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0430-3dcb-6bc0-01b5-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0430-3dcb-6bc0-01b5-max"/>
           </constraints>
           <profiles>
-            <profile name="Transmuting Rays" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="aabd-6cde-e7a9-d614">
+            <profile name="Rayos transmutadores" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="aabd-6cde-e7a9-d614">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2D6</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -14720,14 +14720,14 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Soulsnare Shackles" hidden="false" id="dee3-92a0-27e7-252a">
+    <selectionEntry type="unit" import="true" name="Grilletes atrapaalmas" hidden="false" id="dee3-92a0-27e7-252a">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="29ee-593-8425-f708" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="ab7-d07a-63d3-1a97" targetId="bff0-8be9-719f-4afc" primary="false"/>
         <categoryLink name="ENDLESS SPELL" hidden="false" id="ed1a-f0e9-999-ab2" targetId="e7bc-543-4076-553c" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Soulsnare Shackles" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="4888-7dd4-3ede-bdca">
+        <profile name="Grilletes atrapaalmas" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="4888-7dd4-3ede-bdca">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">-</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">6</characteristic>
@@ -14772,14 +14772,14 @@
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Soulscream Bridge" hidden="false" id="523f-bd78-e418-9922">
+    <selectionEntry type="unit" import="true" name="Puente del grito de las almas" hidden="false" id="523f-bd78-e418-9922">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="318f-f7c-cd32-cab6" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="596c-59e1-d1fd-87be" targetId="bff0-8be9-719f-4afc" primary="false"/>
         <categoryLink name="ENDLESS SPELL" hidden="false" id="50a1-db29-d340-ea9d" targetId="e7bc-543-4076-553c" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Soulscream Bridge" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="c218-cfa9-8c80-3625">
+        <profile name="Puente del grito de las almas" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="c218-cfa9-8c80-3625">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">-</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">12</characteristic>
@@ -14822,7 +14822,7 @@
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Aethervoid Pendulum" hidden="false" id="fcb6-ae80-2e58-aadb">
+    <selectionEntry type="unit" import="true" name="Péndulo del vacío etéreo" hidden="false" id="fcb6-ae80-2e58-aadb">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="fd2e-8c73-ab69-88f" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="c4b3-67a0-2c15-4ec2" targetId="bff0-8be9-719f-4afc" primary="false"/>
@@ -14830,7 +14830,7 @@
         <categoryLink targetId="b979-4c3e-7d0e-6921" id="6fb9-7a2-ef68-53d" primary="false" name="FLY"/>
       </categoryLinks>
       <profiles>
-        <profile name="Aethervoid Pendulum" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="691f-3aec-489d-f87e">
+        <profile name="Péndulo del vacío etéreo" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="691f-3aec-489d-f87e">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">8&quot;</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">6</characteristic>
@@ -14873,14 +14873,14 @@
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Chronomantic Cogs" hidden="false" id="1aba-bc38-e988-d79f">
+    <selectionEntry type="unit" import="true" name="Engranajes cronománticos" hidden="false" id="1aba-bc38-e988-d79f">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="70e7-b4bd-717a-1d6" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="3892-8061-dc6e-371d" targetId="bff0-8be9-719f-4afc" primary="false"/>
         <categoryLink name="ENDLESS SPELL" hidden="false" id="aa97-cbed-b236-8dcf" targetId="e7bc-543-4076-553c" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Chronomantic Cogs" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="6432-469d-b6e3-20d5">
+        <profile name="Engranajes cronománticos" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="6432-469d-b6e3-20d5">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">-</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">6</characteristic>
@@ -14914,7 +14914,7 @@
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="The Burning Head" hidden="false" id="e1cc-64dc-f765-b9cc">
+    <selectionEntry type="unit" import="true" name="La Cabeza Ardiente" hidden="false" id="e1cc-64dc-f765-b9cc">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="954-d964-bf0c-b4d2" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="90c0-fa5b-aeea-6cbb" targetId="bff0-8be9-719f-4afc" primary="false"/>
@@ -14922,7 +14922,7 @@
         <categoryLink name="FLY" hidden="false" id="a7a8-a86b-cfad-413b" targetId="b979-4c3e-7d0e-6921" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="The Burning Head" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="3bb4-8bdc-dcfd-4b1f">
+        <profile name="La Cabeza Ardiente" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="3bb4-8bdc-dcfd-4b1f">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">8&quot;</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">6</characteristic>
@@ -14951,13 +14951,13 @@
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Burning Breath" hidden="false" id="1bb7-383a-9ce1-9c19">
+        <selectionEntry type="upgrade" import="true" name="Aliento ardiente" hidden="false" id="1bb7-383a-9ce1-9c19">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f7fb-9f96-6bd6-78e3-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7fb-9f96-6bd6-78e3-max"/>
           </constraints>
           <profiles>
-            <profile name="Burning Breath" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="7435-8f4c-8e52-f57a">
+            <profile name="Aliento ardiente" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="7435-8f4c-8e52-f57a">
               <characteristics>
                 <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">10&quot;</characteristic>
                 <characteristic name="Atk" typeId="aa17-4296-2887-e05d">D6</characteristic>
@@ -14970,7 +14970,7 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Flaming Maw" hidden="false" id="b4bd-e7bd-fd0c-0143">
+        <selectionEntry type="upgrade" import="true" name="Fauces flamígeras" hidden="false" id="b4bd-e7bd-fd0c-0143">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5bff-ed2f-64f0-f6c6-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5bff-ed2f-64f0-f6c6-max"/>
@@ -14978,7 +14978,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df11-82bf-c6d1-793b-max"/>
           </constraints>
           <profiles>
-            <profile name="Flaming Maw" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="64ae-5cff-df66-8a57">
+            <profile name="Fauces flamígeras" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="64ae-5cff-df66-8a57">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2D6</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -14992,7 +14992,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Horrorghast" hidden="false" id="f935-2383-94ba-3be2">
+    <selectionEntry type="unit" import="true" name="Espectro del horror" hidden="false" id="f935-2383-94ba-3be2">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="eb53-fa27-65fb-8a6f" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="2e4c-94ee-1b98-89b7" targetId="bff0-8be9-719f-4afc" primary="false"/>
@@ -15000,7 +15000,7 @@
         <categoryLink name="FLY" hidden="false" id="70e9-e96a-3671-b408" targetId="b979-4c3e-7d0e-6921" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Horrorghast" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="2833-2e28-abb4-1da8">
+        <profile name="Espectro del horror" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="2833-2e28-abb4-1da8">
           <characteristics>
             <characteristic name="Move" hidden="false" id="123-9b49-f52c-2f85" typeId="c28a-6000-2a0b-e7cf">8&quot;</characteristic>
             <characteristic name="Health" hidden="false" id="4aa9-94bf-e54a-3990" typeId="d1b9-3068-515-131e">6</characteristic>
@@ -15032,13 +15032,13 @@
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Scream of Terror" hidden="false" id="6e41-ef10-2c1a-9888">
+        <selectionEntry type="upgrade" import="true" name="Grito de terror" hidden="false" id="6e41-ef10-2c1a-9888">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6d47-c316-bd69-2a07-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d47-c316-bd69-2a07-max"/>
           </constraints>
           <profiles>
-            <profile name="Scream of Terror" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="263b-a289-2895-1180">
+            <profile name="Grito de terror" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="263b-a289-2895-1180">
               <characteristics>
                 <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">10&quot;</characteristic>
                 <characteristic name="Atk" typeId="aa17-4296-2887-e05d">6</characteristic>
@@ -15051,13 +15051,13 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Deathly Touch" hidden="false" id="b3aa-53de-054e-e702">
+        <selectionEntry type="upgrade" import="true" name="Toque mortal" hidden="false" id="b3aa-53de-054e-e702">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1b1-4341-cf10-a0c8-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1b1-4341-cf10-a0c8-max"/>
           </constraints>
           <profiles>
-            <profile name="Deathly Touch" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b88f-9683-454e-a50d">
+            <profile name="Toque mortal" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b88f-9683-454e-a50d">
               <characteristics>
                 <characteristic name="Atk" hidden="false" id="902f-6fd4-500f-e52b" typeId="60e-35aa-31ed-e488">4</characteristic>
                 <characteristic name="Hit" hidden="false" id="d809-3a12-584e-3c42" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -15071,7 +15071,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Malevolent Maelstrom" hidden="false" id="e699-49b7-d2b8-d5fc">
+    <selectionEntry type="unit" import="true" name="Remolino malévolo" hidden="false" id="e699-49b7-d2b8-d5fc">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="f445-f6f0-e0dd-8aac" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="3eec-eca0-777d-fcdc" targetId="bff0-8be9-719f-4afc" primary="false"/>
@@ -15079,7 +15079,7 @@
         <categoryLink name="FLY" hidden="false" id="6ccb-94f1-d4a7-864f" targetId="b979-4c3e-7d0e-6921" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Malevolent Maelstrom" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="3df8-4174-3366-b3f9">
+        <profile name="Remolino malévolo" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="3df8-4174-3366-b3f9">
           <characteristics>
             <characteristic name="Move" hidden="false" id="da5c-d2fe-4fdc-b111" typeId="c28a-6000-2a0b-e7cf">8&quot;</characteristic>
             <characteristic name="Health" hidden="false" id="c1a0-f090-295-8665" typeId="d1b9-3068-515-131e">6</characteristic>
@@ -15126,13 +15126,13 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Lashing Tendrils of Energy" hidden="false" id="b578-6b4f-7ef7-657b">
+        <selectionEntry type="upgrade" import="true" name="Zarcillos azotadores de energía" hidden="false" id="b578-6b4f-7ef7-657b">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c5f-80ab-34eb-2f3e-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c5f-80ab-34eb-2f3e-max"/>
           </constraints>
           <profiles>
-            <profile name="Lashing Tendrils of Energy" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c1af-c968-3cd2-19f9">
+            <profile name="Zarcillos azotadores de energía" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c1af-c968-3cd2-19f9">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2D6</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -15146,14 +15146,14 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Shards of Valagharr" hidden="false" id="94f6-4321-fd80-f20e">
+    <selectionEntry type="unit" import="true" name="Fragmentos de Valagharr" hidden="false" id="94f6-4321-fd80-f20e">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="d1dd-7035-e029-1d70" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="b24d-1d35-47ed-6504" targetId="bff0-8be9-719f-4afc" primary="false"/>
         <categoryLink name="ENDLESS SPELL" hidden="false" id="6288-1d21-134a-18e" targetId="e7bc-543-4076-553c" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Shards of Valagharr" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="332-7949-ffcb-dd41">
+        <profile name="Fragmentos de Valagharr" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="332-7949-ffcb-dd41">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">-</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">8</characteristic>
@@ -15207,7 +15207,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lauchon the Soulseeker" hidden="false" id="a26b-cd08-8f9d-90b0">
+    <selectionEntry type="unit" import="true" name="Lauchon el Buscador de Almas" hidden="false" id="a26b-cd08-8f9d-90b0">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="6dd9-aa8f-d6a5-1863" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="8e22-445f-2f12-d721" targetId="bff0-8be9-719f-4afc" primary="false"/>
@@ -15215,7 +15215,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         <categoryLink name="FLY" hidden="false" id="8283-86e3-e2fb-1af3" targetId="b979-4c3e-7d0e-6921" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Lauchon the Soulseeker" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="aba2-9339-7892-5db5">
+        <profile name="Lauchon el Buscador de Almas" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="aba2-9339-7892-5db5">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">12&quot;</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">10</characteristic>
@@ -15247,13 +15247,13 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Scything Oar" hidden="false" id="f1d8-bd99-52a3-f955">
+        <selectionEntry type="upgrade" import="true" name="Remo segador" hidden="false" id="f1d8-bd99-52a3-f955">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="33c2-2f09-78db-1366-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="33c2-2f09-78db-1366-max"/>
           </constraints>
           <profiles>
-            <profile name="Scything Oar" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="576e-f8da-691-f732">
+            <profile name="Remo segador" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="576e-f8da-691-f732">
               <characteristics>
                 <characteristic name="Atk" hidden="false" id="2685-1d07-362d-1178" typeId="60e-35aa-31ed-e488">3</characteristic>
                 <characteristic name="Hit" hidden="false" id="c445-8dc4-5e85-74f0" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -15267,7 +15267,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Quicksilver Swords" hidden="false" id="8cde-fafe-2b2a-ced5">
+    <selectionEntry type="unit" import="true" name="Espadas de azogue" hidden="false" id="8cde-fafe-2b2a-ced5">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="daa3-b5c-6bd9-9ca7" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="adb6-f19e-dae5-7cf0" targetId="bff0-8be9-719f-4afc" primary="false"/>
@@ -15275,7 +15275,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         <categoryLink name="FLY" hidden="false" id="7c05-c0ae-c982-2b31" targetId="b979-4c3e-7d0e-6921" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Quicksilver Swords" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="b9ce-ff7d-278e-63a4">
+        <profile name="Espadas de azogue" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="b9ce-ff7d-278e-63a4">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">8&quot;</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">6</characteristic>
@@ -15304,13 +15304,13 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Quicksilver Blades" hidden="false" id="c2bf-5142-c110-8358">
+        <selectionEntry type="upgrade" import="true" name="Hojas de azogue" hidden="false" id="c2bf-5142-c110-8358">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5df4-0a71-56d6-9bb2-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5df4-0a71-56d6-9bb2-max"/>
           </constraints>
           <profiles>
-            <profile name="Quicksilver Blades" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="76bf-d02-c7d-3778">
+            <profile name="Hojas de azogue" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="76bf-d02-c7d-3778">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">12</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -15427,7 +15427,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         <categoryLink name="Command Model" hidden="false" id="dc08-ebbc-3cd5-cbd8" targetId="9c77-5e0b-a20f-d885" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Emerald Lifeswarm" hidden="false" id="3071-fc11-4eb8-bbcc">
+    <selectionEntry type="unit" import="true" name="Enjambre vital esmeralda" hidden="false" id="3071-fc11-4eb8-bbcc">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="9e9c-897f-632f-ef74" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="dd97-fb7e-6148-444d" targetId="bff0-8be9-719f-4afc" primary="false"/>
@@ -15435,7 +15435,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         <categoryLink name="FLY" hidden="false" id="d1e6-fcdb-82e7-b9a7" targetId="b979-4c3e-7d0e-6921" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Emerald Lifeswarm" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="d532-f4c0-1d71-1a19">
+        <profile name="Enjambre vital esmeralda" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="d532-f4c0-1d71-1a19">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">8&quot;</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">5</characteristic>
@@ -15481,13 +15481,13 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Swarming Bites" hidden="false" id="20b7-15dc-4c6f-aa3f">
+        <selectionEntry type="upgrade" import="true" name="Mordiscos del enjambre" hidden="false" id="20b7-15dc-4c6f-aa3f">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0a0e-b376-c79f-ce7a-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a0e-b376-c79f-ce7a-max"/>
           </constraints>
           <profiles>
-            <profile name="Swarming Bites" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="9a05-9547-1ad1-2bf8">
+            <profile name="Mordiscos del enjambre" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="9a05-9547-1ad1-2bf8">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2D6</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -15501,14 +15501,14 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ravenak&apos;s Gnashing Jaws" hidden="false" id="41c4-2f6a-0d3c-a23e">
+    <selectionEntry type="unit" import="true" name="Mandíbulas Rechinantes de Ravenak" hidden="false" id="41c4-2f6a-0d3c-a23e">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="9011-7f76-7af6-a7f0" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="7c1e-a735-5c49-f97f" targetId="bff0-8be9-719f-4afc" primary="false"/>
         <categoryLink name="ENDLESS SPELL" hidden="false" id="1b9c-ac1f-ad9c-5cb6" targetId="e7bc-543-4076-553c" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Ravenak&apos;s Gnashing Jaws" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="7ae7-f962-b679-feaf">
+        <profile name="Mandíbulas Rechinantes de Ravenak" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="7ae7-f962-b679-feaf">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">3D6"</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">10</characteristic>
@@ -15540,13 +15540,13 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Gnashing Jaws" hidden="false" id="38be-e0f1-fa02-2a7c">
+        <selectionEntry type="upgrade" import="true" name="Mandíbulas rechinantes" hidden="false" id="38be-e0f1-fa02-2a7c">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2e36-3cf9-148b-a491-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e36-3cf9-148b-a491-max"/>
           </constraints>
           <profiles>
-            <profile name="Gnashing Jaws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="44ec-0340-a597-8bc5">
+            <profile name="Mandíbulas rechinantes" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="44ec-0340-a597-8bc5">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">10</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -15560,7 +15560,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Suffocating Gravetide" hidden="false" id="1885-a1aa-bf5d-6d0d">
+    <selectionEntry type="unit" import="true" name="Marea sepulcral asfixiante" hidden="false" id="1885-a1aa-bf5d-6d0d">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="4bb7-1cff-08a5-7e05" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="3ca6-7c53-de77-a676" targetId="bff0-8be9-719f-4afc" primary="false"/>
@@ -15568,7 +15568,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         <categoryLink name="FLY" hidden="false" id="bf15-dadc-3aa4-beda" targetId="b979-4c3e-7d0e-6921" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Suffocating Gravetide" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="8e89-c81d-535c-2f7c">
+        <profile name="Marea sepulcral asfixiante" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="8e89-c81d-535c-2f7c">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">12&quot;</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">8</characteristic>
@@ -15600,13 +15600,13 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Spectral Riptide" hidden="false" id="8a2f-96ab-9b30-631a">
+        <selectionEntry type="upgrade" import="true" name="Resaca espectral" hidden="false" id="8a2f-96ab-9b30-631a">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1a3b-4c3e-220f-75c2-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a3b-4c3e-220f-75c2-max"/>
           </constraints>
           <profiles>
-            <profile name="Spectral Riptide" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c343-4a03-1aee-ad42">
+            <profile name="Resaca espectral" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c343-4a03-1aee-ad42">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">8</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -15620,7 +15620,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Geminids of Uhl-Gysh" hidden="false" id="d420-1699-5ad9-1956">
+    <selectionEntry type="unit" import="true" name="Gemínidas de Uhl-Gysh" hidden="false" id="d420-1699-5ad9-1956">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="ad12-1701-306b-ba7b" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="e5b2-5aaf-629c-c01d" targetId="bff0-8be9-719f-4afc" primary="false"/>
@@ -15628,7 +15628,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         <categoryLink name="FLY" hidden="false" id="1cda-1921-a1b4-e805" targetId="b979-4c3e-7d0e-6921" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Geminids of Uhl-Gysh" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="94c2-884a-d92d-6dec">
+        <profile name="Gemínidas de Uhl-Gysh" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="94c2-884a-d92d-6dec">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">8&quot;</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">8</characteristic>
@@ -15639,7 +15639,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Tendrils of Light and Shadow" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7752-7084-5da1-812b">
+        <profile name="Zarcillos de luz y sombra" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7752-7084-5da1-812b">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades enemigas no pueden usar órdenes mientras estén a 3" o menos de cualquiera de las dos partes de esta **^^Manifestation^^**.</characteristic>
@@ -15655,7 +15655,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Health de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y ambas partes se retiran del juego.
 Cada vez que esta **^^Manifestation^^** se mueva, ambas partes deben terminar a 9" o menos la una de la otra.
-Cada parte de esta **^^Manifestation^^** está armada con **Tendrils of Light and Shadow**.</characteristic>
+Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y sombra**.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -15670,13 +15670,13 @@ Cada parte de esta **^^Manifestation^^** está armada con **Tendrils of Light an
         </rule>
       </rules>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="New Entry" hidden="false" id="b944-7b73-d976-a932">
+        <selectionEntry type="upgrade" import="true" name="Nueva entrada" hidden="false" id="b944-7b73-d976-a932">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="Tendrils of Light and Shadow-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="Tendrils of Light and Shadow-max"/>
           </constraints>
           <profiles>
-            <profile name="Tendrils of Light and Shadow" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0c28-2be0-928b-a49e">
+            <profile name="Zarcillos de luz y sombra" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0c28-2be0-928b-a49e">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -15690,14 +15690,14 @@ Cada parte de esta **^^Manifestation^^** está armada con **Tendrils of Light an
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Umbral Spellportal" hidden="false" id="0552-183c-1b2a-d117">
+    <selectionEntry type="unit" import="true" name="Portal de hechizos umbrío" hidden="false" id="0552-183c-1b2a-d117">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="3957-427a-8722-4dcc" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="77cd-8e1b-744e-55ca" targetId="bff0-8be9-719f-4afc" primary="false"/>
         <categoryLink name="ENDLESS SPELL" hidden="false" id="3aad-ae4c-67fd-695b" targetId="e7bc-543-4076-553c" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Umbral Spellportal" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="7729-640a-ccd5-4c5d">
+        <profile name="Portal de hechizos umbrío" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="7729-640a-ccd5-4c5d">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">-</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">8</characteristic>
@@ -15740,14 +15740,14 @@ Cada parte de esta **^^Manifestation^^** está armada con **Tendrils of Light an
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Prismatic Palisade" hidden="false" id="015a-4e4f-322f-ccff">
+    <selectionEntry type="unit" import="true" name="Empalizada prismática" hidden="false" id="015a-4e4f-322f-ccff">
       <categoryLinks>
         <categoryLink name="WARD (6+)" hidden="false" id="1f3f-0573-29ad-a5e0" targetId="70a4-383f-421f-52cd" primary="false"/>
         <categoryLink name="MANIFESTATION" hidden="false" id="82bc-8ae6-ff24-0e66" targetId="bff0-8be9-719f-4afc" primary="false"/>
         <categoryLink name="ENDLESS SPELL" hidden="false" id="48fa-d4b4-0597-3104" targetId="e7bc-543-4076-553c" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Prismatic Palisade" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="05da-2fbd-a0cb-4d2a">
+        <profile name="Empalizada prismática" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="05da-2fbd-a0cb-4d2a">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">-</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">8</characteristic>
