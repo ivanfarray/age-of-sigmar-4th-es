@@ -8383,7 +8383,7 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Conqueror Cogfort" hidden="false" id="2325-8939-e7a3-5c84" publicationId="a746-732d-1a22-460">
+    <selectionEntry type="unit" import="true" name="Fortaleza mecánica conquistadora" hidden="false" id="2325-8939-e7a3-5c84" publicationId="a746-732d-1a22-460">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="4197-eeaf-1143-013c" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="ORDER" hidden="false" id="a940-abc8-c219-76df" targetId="ee22-3575-6590-25c" primary="false"/>
@@ -8395,7 +8395,7 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
         <entryLink import="true" name="General" hidden="false" id="0081-105a-b71d-e218" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Conqueror Cogfort" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="62af-9173-ae0a-346d">
+        <profile name="Fortaleza mecánica conquistadora" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="62af-9173-ae0a-346d">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">6&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">25</characteristic>
@@ -8407,7 +8407,7 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño:
-• La característica de Attacks de sus **Crushing Iron Feet** es 3.
+• La característica de Attacks de sus **Pies de hierro aplastantes** es 3.
 • Tiene una característica de Control de 5.</characteristic>
           </characteristics>
           <attributes>
@@ -8423,8 +8423,8 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 o más de los siguientes efectos. Por cada efecto que elijas, otorga a esta unidad tantas **fichas de calor** como el número indicado junto a él.
 **1 *Breaching Assist!*:** Si esta unidad usa la habilidad &apos;Sally Forth&apos; en este turno, las armas de combate usadas por los blancos de esa habilidad tienen **Charge (+1 Damage)** durante el resto del turno.
 **2 *Full Throttle*:** Durante el resto del turno, el atributo Move de esta unidad es 10".
-**3 *Repel Boarders!*:** Durante el resto del turno, suma 2 al atributo Attacks de los **Leadshotters** y **Crushing Iron Feet** de esta unidad.
-**4 *Disengage Safeties!*:** Durante el resto del turno, el atributo Attacks del **Realmscorcher Flame Cannon** de esta unidad es 22.
+**3 *Repel Boarders!*:** Durante el resto del turno, suma 2 al atributo Attacks de los **Leadshotters** y **Pies de hierro aplastantes** de esta unidad.
+**4 *Disengage Safeties!*:** Durante el resto del turno, el atributo Attacks del **Cañón de llamas abrasarreinos** de esta unidad es 22.
 **6 *Get Us Out of Here!*:** Durante el resto del turno, esta unidad puede usar habilidades **^^Shoot^^** incluso si ha usado una habilidad **^^Retreat^^** en el mismo turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -8476,15 +8476,15 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Conqueror Cogfort" hidden="false" id="a4c6-e3aa-4c07-3b68">
+        <selectionEntry type="model" import="true" name="Fortaleza mecánica conquistadora" hidden="false" id="a4c6-e3aa-4c07-3b68">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Realmscorcher Flame Cannon" hidden="false" id="92de-51b9-d18e-7eee">
+            <selectionEntry type="upgrade" import="true" name="Cañón de llamas abrasarreinos" hidden="false" id="92de-51b9-d18e-7eee">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ebb1-2908-e462-1415"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c1c-0687-7809-e204"/>
               </constraints>
               <profiles>
-                <profile name="Realmscorcher Flame Cannon" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="e0d6-9be4-bf97-4ecc">
+                <profile name="Cañón de llamas abrasarreinos" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="e0d6-9be4-bf97-4ecc">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">18&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">6D6</characteristic>
@@ -8497,13 +8497,13 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crew&apos;s Leadshotters" hidden="false" id="3c5f-3dcd-573d-355a">
+            <selectionEntry type="upgrade" import="true" name="Escopetas de plomo de la dotación" hidden="false" id="3c5f-3dcd-573d-355a">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba90-e891-3c40-d2f3"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5be6-9c55-4b3f-7986"/>
               </constraints>
               <profiles>
-                <profile name="Crew&apos;s Leadshotters" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="0fcb-cf6a-177e-b0c2">
+                <profile name="Escopetas de plomo de la dotación" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="0fcb-cf6a-177e-b0c2">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">6</characteristic>
@@ -8516,13 +8516,13 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crushing Iron Feet" hidden="false" id="d95c-2b45-b73d-34bb">
+            <selectionEntry type="upgrade" import="true" name="Pies de hierro aplastantes" hidden="false" id="d95c-2b45-b73d-34bb">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e34-e31c-7e27-3716"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2453-d168-471b-a34e"/>
               </constraints>
               <profiles>
-                <profile name="Crushing Iron Feet" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="8deb-64aa-347e-6f6d">
+                <profile name="Pies de hierro aplastantes" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="8deb-64aa-347e-6f6d">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -8547,7 +8547,7 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Cannonade Cogfort" hidden="false" id="2f5f-4d22-ec07-566c" publicationId="a746-732d-1a22-460">
+    <selectionEntry type="unit" import="true" name="Fortaleza mecánica cañonera" hidden="false" id="2f5f-4d22-ec07-566c" publicationId="a746-732d-1a22-460">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="af54-1780-5a38-baca" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="ORDER" hidden="false" id="674d-f53a-90a9-52d7" targetId="ee22-3575-6590-25c" primary="false"/>
@@ -8559,7 +8559,7 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
         <entryLink import="true" name="General" hidden="false" id="560c-302b-61a1-5885" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Cannonade Cogfort" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="e3e5-de1a-48ba-6fe5">
+        <profile name="Fortaleza mecánica cañonera" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="e3e5-de1a-48ba-6fe5">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">6&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">25</characteristic>
@@ -8571,7 +8571,7 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño:
-• La característica de Attacks de sus **Crushing Iron Feet** es 3.
+• La característica de Attacks de sus **Pies de hierro aplastantes** es 3.
 • Tiene una característica de Control de 5.</characteristic>
           </characteristics>
           <attributes>
@@ -8587,7 +8587,7 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 o más de los siguientes efectos. Por cada efecto que elijas, otorga a esta unidad tantas **fichas de calor** como el número indicado junto a él.
 **1 *Launch Countermeasures!*:** Hasta el inicio de tu próximo turno, resta 1 a las tiradas de impacto de los ataques de disparo que tengan como blanco a otras unidades **^^Sigmarite^^** amigas mientras estén totalmente a 12" o menos de esta unidad y **bajo órdenes**.
 **2 *Full Throttle*:** Durante el resto del turno, el atributo Move de esta unidad es 10".
-**3 *Calculate Firing Solution!*:** Durante el resto del turno, cada vez que esta unidad use una habilidad **^^Shoot^^**, puedes repetir 1 tirada de impacto y 1 tirada para herir de los ataques de disparo hechos con el **Godbreaker Cannon** de esta unidad.
+**3 *Calculate Firing Solution!*:** Durante el resto del turno, cada vez que esta unidad use una habilidad **^^Shoot^^**, puedes repetir 1 tirada de impacto y 1 tirada para herir de los ataques de disparo hechos con el **Cañón rompedioses** de esta unidad.
 **6 *Get Us Out of Here!*:** Durante el resto del turno, esta unidad puede usar habilidades **^^Shoot^^** incluso si ha usado una habilidad **^^Retreat^^** en el mismo turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -8614,9 +8614,9 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: Declaraste una habilidad **^^Shoot^^** para esta unidad.</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está **bajo órdenes**, tira un dado. Con un 3+, elige 1 de los siguientes efectos.
-***Nullshot:*** Resta 1 a las tiradas de salvaguardia para los puntos de daño infligidos por ataques hechos con el **Godbreaker Cannon** de esta unidad en esta fase.
-***Heavy Shot:*** Suma 1 al atributo Rend del **Godbreaker Cannon** de esta unidad en esta fase.
-***Grapeshot:*** Después de resolver esa habilidad **^^Shoot^^**, si todos los ataques hechos con el **Godbreaker Cannon** de esta unidad han tenido como blanco a la misma unidad enemiga, inflige D3 de daño mortal a cada otra unidad enemiga dentro del alcance de combate de esa unidad enemiga.</characteristic>
+***Nullshot:*** Resta 1 a las tiradas de salvaguardia para los puntos de daño infligidos por ataques hechos con el **Cañón rompedioses** de esta unidad en esta fase.
+***Heavy Shot:*** Suma 1 al atributo Rend del **Cañón rompedioses** de esta unidad en esta fase.
+***Grapeshot:*** Después de resolver esa habilidad **^^Shoot^^**, si todos los ataques hechos con el **Cañón rompedioses** de esta unidad han tenido como blanco a la misma unidad enemiga, inflige D3 de daño mortal a cada otra unidad enemiga dentro del alcance de combate de esa unidad enemiga.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -8628,15 +8628,15 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Cannonade Cogfort" hidden="false" id="7acb-000f-d70c-a444">
+        <selectionEntry type="model" import="true" name="Fortaleza mecánica cañonera" hidden="false" id="7acb-000f-d70c-a444">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Godbreaker Cannon" hidden="false" id="13b3-655e-c066-38fd">
+            <selectionEntry type="upgrade" import="true" name="Cañón rompedioses" hidden="false" id="13b3-655e-c066-38fd">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f960-67d3-9791-8b52"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="705e-1e7a-1eff-88e4"/>
               </constraints>
               <profiles>
-                <profile name="Godbreaker Cannon" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="5b43-92c5-e0b1-1649">
+                <profile name="Cañón rompedioses" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="5b43-92c5-e0b1-1649">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">24&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">4</characteristic>
@@ -8649,13 +8649,13 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Breacher Cannon" hidden="false" id="9b87-681a-0e27-e557">
+            <selectionEntry type="upgrade" import="true" name="Cañón de brecha" hidden="false" id="9b87-681a-0e27-e557">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df72-1a93-35e6-19de"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c468-945b-c984-804d"/>
               </constraints>
               <profiles>
-                <profile name="Breacher Cannon" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="ae2f-ad51-9389-dcc3">
+                <profile name="Cañón de brecha" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="ae2f-ad51-9389-dcc3">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">6</characteristic>
@@ -8668,13 +8668,13 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crew&apos;s Leadshotters" hidden="false" id="29b2-45ac-8145-29b6">
+            <selectionEntry type="upgrade" import="true" name="Escopetas de plomo de la dotación" hidden="false" id="29b2-45ac-8145-29b6">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0c7d-64ab-43c9-043d"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="889a-a82a-048d-9287"/>
               </constraints>
               <profiles>
-                <profile name="Crew&apos;s Leadshotters" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="bfd5-4843-632f-4204">
+                <profile name="Escopetas de plomo de la dotación" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="bfd5-4843-632f-4204">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">6</characteristic>
@@ -8687,13 +8687,13 @@ Mientras esta unidad esté dentro del alcance de combate de una unidad **^^Sigma
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crushing Iron Feet" hidden="false" id="1a00-e1d9-e28e-dd5e">
+            <selectionEntry type="upgrade" import="true" name="Pies de hierro aplastantes" hidden="false" id="1a00-e1d9-e28e-dd5e">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="644f-29bb-feac-d288"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0eb2-500a-6725-7003"/>
               </constraints>
               <profiles>
-                <profile name="Crushing Iron Feet" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f4de-b999-ee8c-d4b8">
+                <profile name="Pies de hierro aplastantes" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f4de-b999-ee8c-d4b8">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>

@@ -11,7 +11,7 @@ La unidad que use esta habilidad y los objetivos:
 • no pueden estar **bajo órdenes**
 • deben ser cada uno de un tipo de unidad distinto.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la ronda de batalla, la unidad que use esta habilidad y los objetivos están **bajo órdenes**.
-**Nota del diseñador:** *&apos;Tipo de unidad&apos; hace referencia al nombre del warscroll (Reglas Básicas, 4.0), por ejemplo, &apos;Cannonade Cogfort&apos; o &apos;Mallus Forgepriest&apos;.*</characteristic>
+**Nota del diseñador:** *&apos;Tipo de unidad&apos; hace referencia al nombre del warscroll (Reglas Básicas, 4.0), por ejemplo, &apos;Fortaleza mecánica cañonera&apos; o &apos;Mallus Forgepriest&apos;.*</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -51,7 +51,7 @@ La unidad que use esta habilidad y los objetivos:
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño:
-• La característica de Attacks de sus **Crushing Iron Feet** es 3.
+• La característica de Attacks de sus **Pies de hierro aplastantes** es 3.
 • Tiene una característica de Control de 5.</characteristic>
           </characteristics>
           <attributes>
@@ -65,11 +65,11 @@ La unidad que use esta habilidad y los objetivos:
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 o más de los siguientes efectos para aplicarlos durante el resto del turno. Por cada efecto que elijas, da a esta unidad un número de **fichas de calor** igual al número que aparece junto a él.
-**1 *Load Triple Shot!*:** El **Breacher Cannon** de esta unidad tiene **Crit (2 Hits)**.
+**1 *Load Triple Shot!*:** El **Cañón de brecha** de esta unidad tiene **Crit (2 Hits)**.
 **1 *Go, Go, Go!*:** Al hacer tiradas de carga para esta unidad, suma 1 al número de dados tirados, hasta un máximo de 3, después retira 1 dado a tu elección y usa los dados restantes como tirada de carga.
-**3 *Get Us In There!*:** Las **Crushing Iron Feet** de esta unidad tienen **Charge (+1 Damage)**
-**3 *Load Chain Shot!*:** Cada vez que esta unidad use una habilidad de **^^Shoot^^**, después de resolver esa habilidad, si alguna miniatura enemiga ha sido abatida por ataques hechos con el **Breacher Cannon** de esta unidad, por cada miniatura abatida por esos ataques, inflige 1 de daño mortal a la unidad de esa miniatura.
-**4 *Disengage Safeties!*:**La característica de Attacks del **Realmscorcher Flame Cannon** de esta unidad es 22.</characteristic>
+**3 *Get Us In There!*:** Las **Pies de hierro aplastantes** de esta unidad tienen **Charge (+1 Damage)**
+**3 *Load Chain Shot!*:** Cada vez que esta unidad use una habilidad de **^^Shoot^^**, después de resolver esa habilidad, si alguna miniatura enemiga ha sido abatida por ataques hechos con el **Cañón de brecha** de esta unidad, por cada miniatura abatida por esos ataques, inflige 1 de daño mortal a la unidad de esa miniatura.
+**4 *Disengage Safeties!*:**La característica de Attacks del **Cañón de llamas abrasarreinos** de esta unidad es 22.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -94,13 +94,13 @@ La unidad que use esta habilidad y los objetivos:
       <selectionEntries>
         <selectionEntry type="model" import="true" name="The Iron March Immolator Cogfort" hidden="false" id="ece1-8ccb-db82-f0ba">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Realmscorcher Flame Cannon" hidden="false" id="4795-8c5b-5d18-6ca7">
+            <selectionEntry type="upgrade" import="true" name="Cañón de llamas abrasarreinos" hidden="false" id="4795-8c5b-5d18-6ca7">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a3f9-3d47-6edc-93bb"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ea9-fd8c-541b-176f"/>
               </constraints>
               <profiles>
-                <profile name="Realmscorcher Flame Cannon" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="ba20-e596-d6a8-ee74">
+                <profile name="Cañón de llamas abrasarreinos" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="ba20-e596-d6a8-ee74">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">18&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">6D6</characteristic>
@@ -113,13 +113,13 @@ La unidad que use esta habilidad y los objetivos:
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crew&apos;s Leadshotters" hidden="false" id="1a46-0d8e-c56a-9a1d">
+            <selectionEntry type="upgrade" import="true" name="Escopetas de plomo de la dotación" hidden="false" id="1a46-0d8e-c56a-9a1d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f9d7-1989-f297-68b9"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69f6-de77-785a-4c54"/>
               </constraints>
               <profiles>
-                <profile name="Crew&apos;s Leadshotters" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="52cc-dc98-12d5-3b97">
+                <profile name="Escopetas de plomo de la dotación" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="52cc-dc98-12d5-3b97">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">6</characteristic>
@@ -132,13 +132,13 @@ La unidad que use esta habilidad y los objetivos:
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crushing Iron Feet" hidden="false" id="6f96-7a16-2180-5097">
+            <selectionEntry type="upgrade" import="true" name="Pies de hierro aplastantes" hidden="false" id="6f96-7a16-2180-5097">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e671-cc6e-91a5-66bc"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d320-3e18-bc7c-eaa4"/>
               </constraints>
               <profiles>
-                <profile name="Crushing Iron Feet" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0bbb-8450-232d-f807">
+                <profile name="Pies de hierro aplastantes" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0bbb-8450-232d-f807">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -150,13 +150,13 @@ La unidad que use esta habilidad y los objetivos:
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Breacher Cannon" hidden="false" id="a327-6c92-d7b4-61ee">
+            <selectionEntry type="upgrade" import="true" name="Cañón de brecha" hidden="false" id="a327-6c92-d7b4-61ee">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="993f-d118-b8f4-7933"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="02be-0de2-68da-1279"/>
               </constraints>
               <profiles>
-                <profile name="Breacher Cannon" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="a353-bfc7-a563-0aa8">
+                <profile name="Cañón de brecha" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="a353-bfc7-a563-0aa8">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">6</characteristic>
@@ -207,7 +207,7 @@ La unidad que use esta habilidad y los objetivos:
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño:
-• La característica de Attacks de sus **Crushing Iron Feet** es 3.
+• La característica de Attacks de sus **Pies de hierro aplastantes** es 3.
 • Tiene una característica de Control de 5.</characteristic>
           </characteristics>
           <attributes>
@@ -221,10 +221,10 @@ La unidad que use esta habilidad y los objetivos:
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 o más de los siguientes efectos para aplicarlos durante el resto del turno. Por cada efecto que elijas, da a esta unidad un número de **fichas de calor** igual al número que aparece junto a él.
-**1 *Trample Them to Dust!*:** Las **Crushing Iron Feet** de esta unidad tienen **Anti-^^Monster^^ (+1 Rend)**.
+**1 *Trample Them to Dust!*:** Las **Pies de hierro aplastantes** de esta unidad tienen **Anti-^^Monster^^ (+1 Rend)**.
 **1 *Go, Go, Go!*:** Al hacer tiradas de carga para esta unidad, suma 1 al número de dados tirados, hasta un máximo de 3, después retira 1 dado a tu elección y usa los dados restantes como tirada de carga.
-**2 *Get Us In There!*:** Las **Crushing Iron Feet** de esta unidad tienen **Charge (+1 Damage)**
-**2 *Load Heavy Shot!*:** Suma 1 a la característica de Rend del **Godbreaker Cannon** de esta unidad, pero todos los ataques de esta unidad hechos con esa arma este turno deben tener como objetivo la misma unidad enemiga.
+**2 *Get Us In There!*:** Las **Pies de hierro aplastantes** de esta unidad tienen **Charge (+1 Damage)**
+**2 *Load Heavy Shot!*:** Suma 1 a la característica de Rend del **Cañón rompedioses** de esta unidad, pero todos los ataques de esta unidad hechos con esa arma este turno deben tener como objetivo la misma unidad enemiga.
 **2 *Full Throttle!*:** La característica de Move de esta unidad es 10".</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -278,13 +278,13 @@ La unidad que use esta habilidad y los objetivos:
       <selectionEntries>
         <selectionEntry type="model" import="true" name="The Iron March Linebreaker Cogfort" hidden="false" id="839e-47ed-caf7-567f">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Godbreaker Cannon" hidden="false" id="9bd7-435d-6ceb-fb3c">
+            <selectionEntry type="upgrade" import="true" name="Cañón rompedioses" hidden="false" id="9bd7-435d-6ceb-fb3c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="351a-42e9-27a3-0ae9"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="560b-122d-cac7-e048"/>
               </constraints>
               <profiles>
-                <profile name="Godbreaker Cannon" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="c906-73c5-50cf-bab8">
+                <profile name="Cañón rompedioses" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="c906-73c5-50cf-bab8">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">24&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">4</characteristic>
@@ -297,13 +297,13 @@ La unidad que use esta habilidad y los objetivos:
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crew&apos;s Leadshotters" hidden="false" id="e541-6bf1-8999-fbe0">
+            <selectionEntry type="upgrade" import="true" name="Escopetas de plomo de la dotación" hidden="false" id="e541-6bf1-8999-fbe0">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3dda-2431-d72b-2a9b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="90d5-e5b9-26da-9706"/>
               </constraints>
               <profiles>
-                <profile name="Crew&apos;s Leadshotters" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="7fc1-2ed0-b3f3-38af">
+                <profile name="Escopetas de plomo de la dotación" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="7fc1-2ed0-b3f3-38af">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">6</characteristic>
@@ -316,13 +316,13 @@ La unidad que use esta habilidad y los objetivos:
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crushing Iron Feet" hidden="false" id="d19f-dcd6-a25e-b96d">
+            <selectionEntry type="upgrade" import="true" name="Pies de hierro aplastantes" hidden="false" id="d19f-dcd6-a25e-b96d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9511-358f-b8a7-e4cb"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f329-348c-32d5-9c3c"/>
               </constraints>
               <profiles>
-                <profile name="Crushing Iron Feet" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="1d1f-23ae-5053-ba7f">
+                <profile name="Pies de hierro aplastantes" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="1d1f-23ae-5053-ba7f">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -541,7 +541,7 @@ La unidad que use esta habilidad y los objetivos:
                 <profile name="Broadmoore and Louse" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="lf64-mh8f-7f3d-9j0d">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 2 a la característica de Attacks de las **Crew&apos;s Leadshotters** de esta unidad. Además, si esta unidad es destruida, antes de retirarla de la partida, tira un dado. Con un 3+, puedes colocar un **Freeguild Marshal and Relic Envoy** totalmente a 6" o menos de esta unidad y sin estar en combate. Esa unidad tiene la palabra clave **^^Iron March^^**.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 2 a la característica de Attacks de las **Escopetas de plomo de la dotación** de esta unidad. Además, si esta unidad es destruida, antes de retirarla de la partida, tira un dado. Con un 3+, puedes colocar un **Freeguild Marshal and Relic Envoy** totalmente a 6" o menos de esta unidad y sin estar en combate. Esa unidad tiene la palabra clave **^^Iron March^^**.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -809,7 +809,7 @@ La unidad que use esta habilidad y los objetivos:
         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c2df-ee1c-6ee2-4693"/>
       </constraints>
     </entryLink>
-    <entryLink import="true" name="Conqueror Cogfort" hidden="false" id="f146-0461-6e08-77ce" type="selectionEntry" targetId="2325-8939-e7a3-5c84">
+    <entryLink import="true" name="Fortaleza mecánica conquistadora" hidden="false" id="f146-0461-6e08-77ce" type="selectionEntry" targetId="2325-8939-e7a3-5c84">
       <costs>
         <cost name="pts" typeId="points" value="440"/>
       </costs>
@@ -862,7 +862,7 @@ La unidad que use esta habilidad y los objetivos:
         <categoryLink name="IRON MARCH" hidden="false" id="a0b7-b0bd-b1de-fe3b" targetId="77eb-d945-738f-69dc" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Cannonade Cogfort" hidden="false" id="ba8f-1b83-8bf2-1e15" type="selectionEntry" targetId="2f5f-4d22-ec07-566c">
+    <entryLink import="true" name="Fortaleza mecánica cañonera" hidden="false" id="ba8f-1b83-8bf2-1e15" type="selectionEntry" targetId="2f5f-4d22-ec07-566c">
       <costs>
         <cost name="pts" typeId="points" value="530"/>
       </costs>
