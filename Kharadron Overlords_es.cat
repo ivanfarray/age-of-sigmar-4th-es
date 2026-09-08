@@ -13,7 +13,7 @@
         <profile name="Skyvessel Cover" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e798-72bd-b061-35b8" publicationId="d4a9-b568-9525-d6ac">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de impacto de los ataques que tengan como objetivo unidades amigas **^^Kharadron Overlords Infantry^^** que no hayan cargado en el mismo turno, mientras estén totalmente a 6" o menos de un **Arkanaut Ironclad** o **Arkanaut Frigate** amigo que no haya cargado en el mismo turno.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de impacto de los ataques que tengan como objetivo unidades amigas **^^Kharadron Overlords Infantry^^** que no hayan cargado en el mismo turno, mientras estén totalmente a 6" o menos de un **Acorazado arkanauta** o **Fragata arkanauta** amigo que no haya cargado en el mismo turno.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -312,7 +312,7 @@ Retira los objetivos del campo de batalla. Después de que el **^^Skyvessel^^** 
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Battle, Any Combat Phase</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Retira esta unidad del campo de batalla y vuelve a colocarla totalmente a 3" o menos de un **^^Skyvessel^^** amigo o de un **Zontari Endrin Dock** y a más de 9" de todas las unidades enemigas.
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Retira esta unidad del campo de batalla y vuelve a colocarla totalmente a 3" o menos de un **^^Skyvessel^^** amigo o de un **Muelle endrín Zontari** y a más de 9" de todas las unidades enemigas.
 </characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -396,7 +396,7 @@ Retira los objetivos del campo de batalla. Después de que el **^^Skyvessel^^** 
             <profile name="Entrenched Crews" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2a10-c76c-c675-266e">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), inicio de la ronda de batalla</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta 3 unidades amigas **Arkanaut Company**.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta 3 unidades amigas **Compañía arkanauta**.</characteristic>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la ronda de batalla, si el objetivo no ha sido colocado esta ronda de batalla y mientras no se haya movido este turno, resta 1 a la característica de Rend de los ataques que tengan como objetivo esa unidad.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -476,7 +476,7 @@ Retira los objetivos del campo de batalla. Después de que el **^^Skyvessel^^** 
             <profile name="Gritty Fortune-Hunters" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true" includeChildSelections="true" includeChildForces="true" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="926-5173-f928-4921">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades amigas **Vongrim Harpoon Crew** y **Vongrim Salvagers** tienen **^^Ward (6+)^^** mientras estén disputando un marcador de objetivo.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades amigas **Dotación de arponeros vongrim** y **Recuperadores vongrim** tienen **^^Ward (6+)^^** mientras estén disputando un marcador de objetivo.</characteristic>
               </characteristics>
               <attributes>
                 <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -1054,7 +1054,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <entryLinks>
-    <entryLink import="true" name="Aether-Khemist" hidden="false" id="201-4924-5e0a-4515" type="selectionEntry" targetId="26a7-80ea-22a-21ca">
+    <entryLink import="true" name="Alquimista etéreo" hidden="false" id="201-4924-5e0a-4515" type="selectionEntry" targetId="26a7-80ea-22a-21ca">
       <entryLinks>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="c614-76c5-81f8-ea1e" type="selectionEntryGroup" targetId="f067-97fa-4baa-58b5"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="297c-557d-dc8a-1887" type="selectionEntryGroup" targetId="8729-9ec4-fe73-ef22"/>
@@ -1117,7 +1117,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Aetheric Navigator" hidden="false" id="f560-4986-ccff-c086" type="selectionEntry" targetId="145-80eb-ca00-b9f">
+    <entryLink import="true" name="Navegante etéreo" hidden="false" id="f560-4986-ccff-c086" type="selectionEntry" targetId="145-80eb-ca00-b9f">
       <entryLinks>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="30da-52c9-3de5-d1ec" type="selectionEntryGroup" targetId="f067-97fa-4baa-58b5"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="4f89-2279-cbec-3ff4" type="selectionEntryGroup" targetId="8729-9ec4-fe73-ef22"/>
@@ -1180,7 +1180,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Arkanaut Admiral" hidden="false" id="8299-7522-ae24-cc6e" type="selectionEntry" targetId="1b27-b5aa-79ae-4130">
+    <entryLink import="true" name="Almirante arkanauta" hidden="false" id="8299-7522-ae24-cc6e" type="selectionEntry" targetId="1b27-b5aa-79ae-4130">
       <entryLinks>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="618b-12b7-3aa0-a8d8" type="selectionEntryGroup" targetId="f067-97fa-4baa-58b5"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="652a-e274-1881-3441" type="selectionEntryGroup" targetId="8729-9ec4-fe73-ef22"/>
@@ -1228,7 +1228,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Brokk Grungsson, Lord-Magnate of Barak-Nar" hidden="false" id="c39a-7785-e9ba-6b2" type="selectionEntry" targetId="e071-391c-e920-ac59">
+    <entryLink import="true" name="Brokk Grungsson, Señor Magnate de Barak-Nar" hidden="false" id="c39a-7785-e9ba-6b2" type="selectionEntry" targetId="e071-391c-e920-ac59">
       <costs>
         <cost name="pts" typeId="points" value="260"/>
       </costs>
@@ -1270,7 +1270,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Codewright" hidden="false" id="4409-20da-fa37-a3e0" type="selectionEntry" targetId="bed0-dd91-c45b-71df">
+    <entryLink import="true" name="Escriba del Código" hidden="false" id="4409-20da-fa37-a3e0" type="selectionEntry" targetId="bed0-dd91-c45b-71df">
       <entryLinks>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="51d7-a56d-8f10-5a5" type="selectionEntryGroup" targetId="f067-97fa-4baa-58b5"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="f4e-fffd-fcdf-5256" type="selectionEntryGroup" targetId="8729-9ec4-fe73-ef22"/>
@@ -1376,7 +1376,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Endrinmaster with Dirigible Suit" hidden="false" id="7927-fec3-a5e9-4d56" type="selectionEntry" targetId="a505-e76e-45f8-7874">
+    <entryLink import="true" name="Maestro endrinero con traje dirigible" hidden="false" id="7927-fec3-a5e9-4d56" type="selectionEntry" targetId="a505-e76e-45f8-7874">
       <entryLinks>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="e20-da0c-3de2-721b" type="selectionEntryGroup" targetId="f067-97fa-4baa-58b5"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="512f-cbb-ff91-a930" type="selectionEntryGroup" targetId="8729-9ec4-fe73-ef22"/>
@@ -1439,7 +1439,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Endrinmaster with Endrinharness" hidden="false" id="1e09-20c6-e001-f984" type="selectionEntry" targetId="3124-cf12-7803-f34b">
+    <entryLink import="true" name="Maestro endrinero con arnés endrín" hidden="false" id="1e09-20c6-e001-f984" type="selectionEntry" targetId="3124-cf12-7803-f34b">
       <entryLinks>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="8145-329d-fffb-72f" type="selectionEntryGroup" targetId="f067-97fa-4baa-58b5"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="ac72-3ef-b9ef-29b1" type="selectionEntryGroup" targetId="8729-9ec4-fe73-ef22"/>
@@ -1502,7 +1502,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Arkanaut Company" hidden="false" id="4380-6f1-9400-8062" type="selectionEntry" targetId="a86c-b6ef-d754-bcb7">
+    <entryLink import="true" name="Compañía arkanauta" hidden="false" id="4380-6f1-9400-8062" type="selectionEntry" targetId="a86c-b6ef-d754-bcb7">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1531,7 +1531,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         <cost name="pts" typeId="points" value="80"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Arkanaut Frigate" hidden="false" id="c3fd-862b-2ce2-1fed" type="selectionEntry" targetId="fb94-3fa7-35ae-7a3c">
+    <entryLink import="true" name="Fragata arkanauta" hidden="false" id="c3fd-862b-2ce2-1fed" type="selectionEntry" targetId="fb94-3fa7-35ae-7a3c">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditionGroups>
@@ -1633,7 +1633,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Arkanaut Ironclad" hidden="false" id="a859-5e57-3c39-313b" type="selectionEntry" targetId="2b23-328b-3916-4947">
+    <entryLink import="true" name="Acorazado arkanauta" hidden="false" id="a859-5e57-3c39-313b" type="selectionEntry" targetId="2b23-328b-3916-4947">
       <entryLinks>
         <entryLink import="true" name="Paths" hidden="false" id="5b9e-5966-a4cd-6ac9" type="selectionEntryGroup" targetId="89d2-c6e7-76d7-b21b"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="84b9-def1-fb2e-a75d" type="selectionEntryGroup" targetId="bc80-e576-07c4-aac3"/>
@@ -1740,7 +1740,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Endrinriggers" hidden="false" id="6f8-4cb0-d377-8800" type="selectionEntry" targetId="4c3c-1a00-2c49-87ce">
+    <entryLink import="true" name="Aparejadores endrineros" hidden="false" id="6f8-4cb0-d377-8800" type="selectionEntry" targetId="4c3c-1a00-2c49-87ce">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="64a6-740d-efc7-f2b8" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="e682-f54d-5b79-1644" type="selectionEntryGroup" targetId="89d2-c6e7-76d7-b21b"/>
@@ -1769,7 +1769,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         <cost name="pts" typeId="points" value="100"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Grundstok Gunhauler" hidden="false" id="2f7d-b7b4-e14a-b240" type="selectionEntry" targetId="66fa-6ab8-35c3-beef">
+    <entryLink import="true" name="Cañonera Grundstok" hidden="false" id="2f7d-b7b4-e14a-b240" type="selectionEntry" targetId="66fa-6ab8-35c3-beef">
       <entryLinks>
         <entryLink import="true" name="Paths" hidden="false" id="e8b6-4241-3823-c73c" type="selectionEntryGroup" targetId="89d2-c6e7-76d7-b21b"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ae59-b44e-7393-7881" type="selectionEntryGroup" targetId="bc80-e576-07c4-aac3"/>
@@ -1876,7 +1876,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Grundstok Thunderers" hidden="false" id="2bc0-f758-186e-4c88" type="selectionEntry" targetId="9f81-a727-f6ab-e7cc">
+    <entryLink import="true" name="Atronadores Grundstok" hidden="false" id="2bc0-f758-186e-4c88" type="selectionEntry" targetId="9f81-a727-f6ab-e7cc">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="1459-a31d-b996-6dc" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="b0fa-1ce9-1de7-e7c0" type="selectionEntryGroup" targetId="89d2-c6e7-76d7-b21b"/>
@@ -1912,7 +1912,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         <cost name="pts" typeId="points" value="130"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Skywardens" hidden="false" id="3c87-3893-9539-22e2" type="selectionEntry" targetId="bc2-ce5c-7ccc-4145">
+    <entryLink import="true" name="Guardianes celestes" hidden="false" id="3c87-3893-9539-22e2" type="selectionEntry" targetId="bc2-ce5c-7ccc-4145">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="4bca-7ddd-aaff-7fef" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="149e-6daf-7e8c-b52f" type="selectionEntryGroup" targetId="89d2-c6e7-76d7-b21b"/>
@@ -1941,7 +1941,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         <cost name="pts" typeId="points" value="130"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Thundrik&apos;s Profiteers" hidden="false" id="e23b-b58f-2c22-eacb" type="selectionEntry" targetId="f8f4-d0c6-cf7c-071d">
+    <entryLink import="true" name="Especuladores de Thundrik" hidden="false" id="e23b-b58f-2c22-eacb" type="selectionEntry" targetId="f8f4-d0c6-cf7c-071d">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1971,7 +1971,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8f14-2f05-bebb-2d44" includeChildSelections="true"/>
       </constraints>
     </entryLink>
-    <entryLink import="true" name="Grundstok Gunhauler (Scourge of Ghyran)" hidden="false" id="364b-5d7b-a019-3acf" type="selectionEntry" targetId="7794-c2d1-ee85-acc3">
+    <entryLink import="true" name="Cañonera Grundstok (Azote de Ghyran)" hidden="false" id="364b-5d7b-a019-3acf" type="selectionEntry" targetId="7794-c2d1-ee85-acc3">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="e5b7-06a0-63ad-7470" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="bccb-e8dc-e9e5-e1e9" type="selectionEntryGroup" targetId="89d2-c6e7-76d7-b21b"/>
@@ -2079,7 +2079,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Codewright (Scourge of Ghyran)" hidden="false" id="1f2b-4916-646e-a0c7" type="selectionEntry" targetId="bfc1-e4ca-5c68-6a8a">
+    <entryLink import="true" name="Escriba del Código (Azote de Ghyran)" hidden="false" id="1f2b-4916-646e-a0c7" type="selectionEntry" targetId="bfc1-e4ca-5c68-6a8a">
       <entryLinks>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="5c07-0767-58fe-307c" type="selectionEntryGroup" targetId="f067-97fa-4baa-58b5"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="8c46-6bc9-6b3f-80b0" type="selectionEntryGroup" targetId="8729-9ec4-fe73-ef22"/>
@@ -2142,7 +2142,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Anvil of Apotheosis: Kharadron Overlords Hero" hidden="false" id="4246-8e7f-cc34-b25b" targetId="71cd-521a-4a20-7db4" type="selectionEntry">
+    <entryLink import="true" name="Yunque de la apoteosis: héroe de los Señores Kharadron" hidden="false" id="4246-8e7f-cc34-b25b" targetId="71cd-521a-4a20-7db4" type="selectionEntry">
       <entryLinks>
         <entryLink import="true" name="Renown" hidden="false" id="6b6f-93bd-1875-58f0" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Warlord" hidden="false" id="bade-7c95-f6bf-0ec3" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
@@ -2177,7 +2177,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Null-Khemist" hidden="false" id="3358-86f5-d0dc-6085" type="selectionEntry" targetId="c2f9-9e81-959a-2251">
+    <entryLink import="true" name="Alquimista anulador" hidden="false" id="3358-86f5-d0dc-6085" type="selectionEntry" targetId="c2f9-9e81-959a-2251">
       <entryLinks>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="11bc-3db1-cf8d-6f91" type="selectionEntryGroup" targetId="f067-97fa-4baa-58b5"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="2bca-5763-d0db-97f3" type="selectionEntryGroup" targetId="8729-9ec4-fe73-ef22"/>
@@ -2241,7 +2241,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Vongrim Salvagers" hidden="false" id="f3a9-71a0-600c-aed7" type="selectionEntry" targetId="54b0-7eb3-f2dc-f7b9">
+    <entryLink import="true" name="Recuperadores vongrim" hidden="false" id="f3a9-71a0-600c-aed7" type="selectionEntry" targetId="54b0-7eb3-f2dc-f7b9">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="01ee-9c42-634a-9522" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="6cfe-4679-cbec-b227" type="selectionEntryGroup" targetId="89d2-c6e7-76d7-b21b"/>
@@ -2277,7 +2277,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         <cost name="pts" typeId="points" value="110"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Vongrim Harpoon Crew" hidden="false" id="54b0-df0d-569c-85ca" type="selectionEntry" targetId="b38b-f2bc-47a8-658e">
+    <entryLink import="true" name="Dotación de arponeros vongrim" hidden="false" id="54b0-df0d-569c-85ca" type="selectionEntry" targetId="b38b-f2bc-47a8-658e">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="ad47-7b8d-751d-c2dc" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="c7cc-6845-cb86-4fa9" type="selectionEntryGroup" targetId="89d2-c6e7-76d7-b21b"/>
@@ -2313,9 +2313,9 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         <cost name="pts" typeId="points" value="120"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Zontari Endrin Dock" hidden="false" id="cc73-85db-ce94-dd16" type="selectionEntry" targetId="2c4d-116f-02a1-88ce" defaultAmount="0">
+    <entryLink import="true" name="Muelle endrín Zontari" hidden="false" id="cc73-85db-ce94-dd16" type="selectionEntry" targetId="2c4d-116f-02a1-88ce" defaultAmount="0">
       <entryLinks>
-        <entryLink import="true" name="Auto-Endrin" hidden="false" id="203c-20f6-d925-5451" type="selectionEntry" targetId="34f5-2761-de10-6710">
+        <entryLink import="true" name="Autoendrín" hidden="false" id="203c-20f6-d925-5451" type="selectionEntry" targetId="34f5-2761-de10-6710">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7b3d-a38b-cd3b-baf8-min"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b3d-a38b-cd3b-baf8-max"/>
@@ -2340,7 +2340,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Null-Khemist (Scourge of Aqshy)" hidden="false" id="d49f-e410-e363-b151" type="selectionEntry" targetId="6767-12c0-9a93-79c1">
+    <entryLink import="true" name="Alquimista anulador (Azote de Aqshy)" hidden="false" id="d49f-e410-e363-b151" type="selectionEntry" targetId="6767-12c0-9a93-79c1">
       <entryLinks>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="6d4b-6545-8ce5-ba46" type="selectionEntryGroup" targetId="f067-97fa-4baa-58b5"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="b467-ace9-cdb1-1ee9" type="selectionEntryGroup" targetId="8729-9ec4-fe73-ef22"/>
@@ -2404,7 +2404,7 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Endrinriggers (Scourge of Aqshy)" hidden="false" id="e104-a53b-df6d-5bb3" type="selectionEntry" targetId="ee63-f534-d8c0-b0ca">
+    <entryLink import="true" name="Aparejadores endrineros (Azote de Aqshy)" hidden="false" id="e104-a53b-df6d-5bb3" type="selectionEntry" targetId="ee63-f534-d8c0-b0ca">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="1a89-4640-ca38-3e2b" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Paths" hidden="false" id="8bb0-00d3-fab7-3c65" type="selectionEntryGroup" targetId="89d2-c6e7-76d7-b21b"/>
