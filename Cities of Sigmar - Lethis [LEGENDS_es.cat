@@ -183,9 +183,9 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
-    <selectionEntry type="unit" import="true" name="Lethisian Consecrators" hidden="false" id="65aa-9225-2241-82b0" publicationId="dadd-06f0-3f38-c6f3">
+    <selectionEntry type="unit" import="true" name="Consagradores lethisianos" hidden="false" id="65aa-9225-2241-82b0" publicationId="dadd-06f0-3f38-c6f3">
       <profiles>
-        <profile name="Lethisian Consecrators" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="e0d6-cd70-9334-57b5">
+        <profile name="Consagradores lethisianos" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="e0d6-cd70-9334-57b5">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">1</characteristic>
@@ -196,7 +196,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <profile name="Blessed Fire" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2f50-eafd-5345-a766">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad tiene un **Devout Flamebringer**, elige como objetivo una unidad enemiga visible a 10" o menos de esta unidad.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad tiene un **Portallamas devoto**, elige como objetivo una unidad enemiga visible a 10" o menos de esta unidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, durante el resto del turno, el objetivo no puede terminar movimientos de carga a 1/2" o menos de esta unidad a menos que la tirada de carga sin modificar haya sido 5 o más.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -220,19 +220,19 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <cost name="‎" id="c77c-da95-8c2a-6479" hidden="false" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Lethisian Consecrator" hidden="false" id="a4b8-c394-6072-6a69" defaultAmount="1,9">
+        <selectionEntry type="model" import="true" name="Consagrador lethisiano" hidden="false" id="a4b8-c394-6072-6a69" defaultAmount="1,9">
           <constraints>
             <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="a528-861d-ef29-b3a0"/>
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="1e26-be10-64d2-abe1"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Consecrator Arsenal" hidden="false" id="b07c-c366-b6ff-5aa8">
+            <selectionEntry type="upgrade" import="true" name="Arsenal de consagrador" hidden="false" id="b07c-c366-b6ff-5aa8">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="11bc-3783-a730-a051"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cee3-b445-d245-eaab"/>
               </constraints>
               <profiles>
-                <profile name="Consecrator Arsenal" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="176d-840f-671e-fa3b">
+                <profile name="Arsenal de consagrador" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="176d-840f-671e-fa3b">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">10&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">1</characteristic>
@@ -245,13 +245,13 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Consecrator Bardiche" hidden="false" id="59d7-26ca-7a66-cfc6">
+            <selectionEntry type="upgrade" import="true" name="Bardiche de consagrador" hidden="false" id="59d7-26ca-7a66-cfc6">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c25f-550b-7223-b817"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="acf2-4894-e396-f4b3"/>
               </constraints>
               <profiles>
-                <profile name="Consecrator Bardiche" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="d8d0-60b1-7f8d-9479">
+                <profile name="Bardiche de consagrador" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="d8d0-60b1-7f8d-9479">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -297,19 +297,19 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Devout Flamebringer" hidden="false" id="22ba-65b4-42d6-a032" defaultAmount="1,9">
+        <selectionEntry type="model" import="true" name="Portallamas devoto" hidden="false" id="22ba-65b4-42d6-a032" defaultAmount="1,9">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="66c9-4ced-16cb-eb33"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a95b-d5aa-48f2-0712"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Consecrator Arsenal" hidden="false" id="9150-cf87-3c41-0be2">
+            <selectionEntry type="upgrade" import="true" name="Arsenal de consagrador" hidden="false" id="9150-cf87-3c41-0be2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9ff0-381f-08c4-0072"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="310b-78e1-d7f8-3a3a"/>
               </constraints>
               <profiles>
-                <profile name="Consecrator Arsenal" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="1baa-a658-9c73-7c85">
+                <profile name="Arsenal de consagrador" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="1baa-a658-9c73-7c85">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">10&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">1</characteristic>
@@ -322,13 +322,13 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Consecrator Bardiche" hidden="false" id="de5a-e9f2-bad2-61be">
+            <selectionEntry type="upgrade" import="true" name="Bardiche de consagrador" hidden="false" id="de5a-e9f2-bad2-61be">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb89-a360-d773-bce8"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1375-2d27-21b1-2d75"/>
               </constraints>
               <profiles>
-                <profile name="Consecrator Bardiche" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c576-4205-80aa-6729">
+                <profile name="Bardiche de consagrador" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c576-4205-80aa-6729">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -415,7 +415,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="Reference" hidden="false" id="d48f-f46c-a8dd-70cd" targetId="3360-1158-e879-9606" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Raven Priest of Morrda" hidden="false" id="9ba6-d04d-2dbd-1c2c" publicationId="dadd-06f0-3f38-c6f3">
+    <selectionEntry type="unit" import="true" name="Sacerdote del Cuervo de Morrda" hidden="false" id="9ba6-d04d-2dbd-1c2c" publicationId="dadd-06f0-3f38-c6f3">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="b771-a9a2-7996-e2ba" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="ORDER" hidden="false" id="6911-fa60-d937-fa06" targetId="ee22-3575-6590-25c" primary="false"/>
@@ -429,7 +429,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <entryLink import="true" name="General" hidden="false" id="a1d8-0a67-881a-de44" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Raven Priest of Morrda" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="7055-fd0b-2563-c9b4">
+        <profile name="Sacerdote del Cuervo de Morrda" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="7055-fd0b-2563-c9b4">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -455,15 +455,15 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Raven Priest of Morrda" hidden="false" id="a0e9-c811-7767-3ecf">
+        <selectionEntry type="model" import="true" name="Sacerdote del Cuervo de Morrda" hidden="false" id="a0e9-c811-7767-3ecf">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Morrdan Hammer" hidden="false" id="f886-467c-234b-b657">
+            <selectionEntry type="upgrade" import="true" name="Martillo de Morrda" hidden="false" id="f886-467c-234b-b657">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="da83-346a-1d17-ab14"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5494-fb92-49e6-c800"/>
               </constraints>
               <profiles>
-                <profile name="Morrdan Hammer" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="61b9-28f9-cede-e0e3">
+                <profile name="Martillo de Morrda" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="61b9-28f9-cede-e0e3">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -556,7 +556,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Assassin" hidden="false" id="293a-bfcf-6e11-753e" type="selectionEntry" targetId="41db-4a11-69e4-4f72">
+    <entryLink import="true" name="Asesino" hidden="false" id="293a-bfcf-6e11-753e" type="selectionEntry" targetId="41db-4a11-69e4-4f72">
       <costs>
         <cost name="pts" typeId="points" value="150"/>
       </costs>
@@ -607,7 +607,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="a2dd-7ff9-f8b5-d40e" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Black Ark Fleetmaster" hidden="false" id="87f4-e1c2-6021-ceee" type="selectionEntry" targetId="f2f1-e20a-f709-15a">
+    <entryLink import="true" name="Señor de la flota del Arca Negra" hidden="false" id="87f4-e1c2-6021-ceee" type="selectionEntry" targetId="f2f1-e20a-f709-15a">
       <costs>
         <cost name="pts" typeId="points" value="90"/>
       </costs>
@@ -658,7 +658,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="1fe6-8a1b-34dd-96f5" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Cogsmith" hidden="false" id="0e80-b1cc-f1ec-890e" type="selectionEntry" targetId="89d6-1612-ce3c-50e9">
+    <entryLink import="true" name="Herrero de engranajes" hidden="false" id="0e80-b1cc-f1ec-890e" type="selectionEntry" targetId="89d6-1612-ce3c-50e9">
       <costs>
         <cost name="pts" typeId="points" value="110"/>
       </costs>
@@ -722,7 +722,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="42ff-9b87-0b2b-2cb7" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Dreadlord on Black Dragon" hidden="false" id="f58b-f7b1-e6db-008d" type="selectionEntry" targetId="3f66-4297-15aa-e6e">
+    <entryLink import="true" name="Señor del terror en dragón negro" hidden="false" id="f58b-f7b1-e6db-008d" type="selectionEntry" targetId="3f66-4297-15aa-e6e">
       <costs>
         <cost name="pts" typeId="points" value="260"/>
       </costs>
@@ -773,7 +773,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="1e70-3574-761d-c923" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Freeguild Cavalier-Marshal" hidden="false" id="8930-2d41-aed3-8cac" type="selectionEntry" targetId="f921-535b-9f7d-615f">
+    <entryLink import="true" name="Mariscal de caballería de los Gremios Libres" hidden="false" id="8930-2d41-aed3-8cac" type="selectionEntry" targetId="f921-535b-9f7d-615f">
       <costs>
         <cost name="pts" typeId="points" value="120"/>
       </costs>
@@ -839,7 +839,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="7dfd-6776-a2df-9418" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Freeguild Marshal and Relic Envoy" hidden="false" id="6e86-c109-115d-e969" type="selectionEntry" targetId="326c-d13-626c-cfd">
+    <entryLink import="true" name="Mariscal de los Gremios Libres y emisario de reliquias" hidden="false" id="6e86-c109-115d-e969" type="selectionEntry" targetId="326c-d13-626c-cfd">
       <costs>
         <cost name="pts" typeId="points" value="110"/>
       </costs>
@@ -905,7 +905,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="0666-ba8b-dcbe-cd53" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Freeguild Marshal on Griffon" hidden="false" id="7371-073d-8671-e7f1" type="selectionEntry" targetId="c0d6-b8a8-c799-e09e">
+    <entryLink import="true" name="Mariscal de los Gremios Libres en grifo" hidden="false" id="7371-073d-8671-e7f1" type="selectionEntry" targetId="c0d6-b8a8-c799-e09e">
       <costs>
         <cost name="pts" typeId="points" value="230"/>
       </costs>
@@ -956,7 +956,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="d8f4-27b6-5e94-3bd1" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Fusil-Major on Ogor Warhulk" hidden="false" id="a900-fa7b-16a8-3489" type="selectionEntry" targetId="7934-6325-c7ed-3d7b">
+    <entryLink import="true" name="Mayor fusilero en coloso de guerra ogor" hidden="false" id="a900-fa7b-16a8-3489" type="selectionEntry" targetId="7934-6325-c7ed-3d7b">
       <costs>
         <cost name="pts" typeId="points" value="160"/>
       </costs>
@@ -1022,7 +1022,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="4889-fbc0-5fc8-b629" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Steam Tank Commander" hidden="false" id="f5c9-098b-7d82-566d" type="selectionEntry" targetId="6bc7-2301-7561-6983">
+    <entryLink import="true" name="Comandante de tanque de vapor" hidden="false" id="f5c9-098b-7d82-566d" type="selectionEntry" targetId="6bc7-2301-7561-6983">
       <costs>
         <cost name="pts" typeId="points" value="250"/>
       </costs>
@@ -1073,7 +1073,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="810e-bb16-ce8b-0185" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Black Ark Corsairs" hidden="false" id="5662-0746-2414-0a0e" type="selectionEntry" targetId="e0b6-cd1a-833e-3ff3">
+    <entryLink import="true" name="Corsarios del Arca Negra" hidden="false" id="5662-0746-2414-0a0e" type="selectionEntry" targetId="e0b6-cd1a-833e-3ff3">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1105,7 +1105,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="Aelf Infantry" hidden="false" id="4ed3-0433-2794-7ae2" targetId="9356-07fd-f4a3-d3c0" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Black Guard" hidden="false" id="02bd-5f88-00fd-a404" type="selectionEntry" targetId="4041-4683-8028-c73a">
+    <entryLink import="true" name="Guardia negra" hidden="false" id="02bd-5f88-00fd-a404" type="selectionEntry" targetId="4041-4683-8028-c73a">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1137,7 +1137,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="Aelf Infantry" hidden="false" id="1d5d-e0c6-d1c8-a98a" targetId="9356-07fd-f4a3-d3c0" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Gyrobomber" hidden="false" id="0c0c-1e3f-a65e-4888" type="selectionEntry" targetId="f6b5-64f8-206a-1789">
+    <entryLink import="true" name="Girobombardero" hidden="false" id="0c0c-1e3f-a65e-4888" type="selectionEntry" targetId="f6b5-64f8-206a-1789">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1167,7 +1167,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="10f7-73b6-a969-2154" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Bleakswords" hidden="false" id="9d5a-983c-e4ac-5d97" type="selectionEntry" targetId="67d2-d2ce-84c1-70b3">
+    <entryLink import="true" name="Espadas lúgubres" hidden="false" id="9d5a-983c-e4ac-5d97" type="selectionEntry" targetId="67d2-d2ce-84c1-70b3">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1199,7 +1199,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="Aelf Infantry" hidden="false" id="e669-62d7-67af-d708" targetId="9356-07fd-f4a3-d3c0" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Freeguild Steelhelms" hidden="false" id="5369-0bb1-b0ad-b5c7" type="selectionEntry" targetId="db97-62b-745a-8db7">
+    <entryLink import="true" name="Yelmos de acero de los Gremios Libres" hidden="false" id="5369-0bb1-b0ad-b5c7" type="selectionEntry" targetId="db97-62b-745a-8db7">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1231,7 +1231,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="4326-5bbe-0ec0-1fa9" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Gyrocopter" hidden="false" id="ef27-9ee8-9c35-ecbd" type="selectionEntry" targetId="a641-c2fa-e6d1-40ff">
+    <entryLink import="true" name="Girocóptero" hidden="false" id="ef27-9ee8-9c35-ecbd" type="selectionEntry" targetId="a641-c2fa-e6d1-40ff">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1261,7 +1261,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="8c79-a730-92a8-4ef5" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Celestial Hurricanum" hidden="false" id="0d91-5fad-bbdb-c020" type="selectionEntry" targetId="d5a5-3182-b4f8-52a">
+    <entryLink import="true" name="Huracanum celestial" hidden="false" id="0d91-5fad-bbdb-c020" type="selectionEntry" targetId="d5a5-3182-b4f8-52a">
       <costs>
         <cost name="pts" typeId="points" value="170"/>
       </costs>
@@ -1287,7 +1287,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="2e2a-24fb-2d06-504c" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Executioners" hidden="false" id="17ea-2e5a-bce9-0b8b" type="selectionEntry" targetId="dc42-b5e2-69cb-8cd7">
+    <entryLink import="true" name="Verdugos" hidden="false" id="17ea-2e5a-bce9-0b8b" type="selectionEntry" targetId="dc42-b5e2-69cb-8cd7">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1319,7 +1319,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="Aelf Infantry" hidden="false" id="33d7-b0e0-e65a-91b5" targetId="9356-07fd-f4a3-d3c0" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Darkshards" hidden="false" id="4648-5d73-d5a0-5503" type="selectionEntry" targetId="4c41-9957-d6c2-78e3">
+    <entryLink import="true" name="Fragmentos oscuros" hidden="false" id="4648-5d73-d5a0-5503" type="selectionEntry" targetId="4c41-9957-d6c2-78e3">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1351,7 +1351,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="Aelf Infantry" hidden="false" id="7fdd-8ab8-6a5f-ef38" targetId="9356-07fd-f4a3-d3c0" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Dark Riders" hidden="false" id="c523-7a23-342d-02d7" type="selectionEntry" targetId="b118-28da-4ebc-615b">
+    <entryLink import="true" name="Jinetes oscuros" hidden="false" id="c523-7a23-342d-02d7" type="selectionEntry" targetId="b118-28da-4ebc-615b">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1382,7 +1382,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="a8a2-9571-7a1c-1aba" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Freeguild Command Corps Adjutants" hidden="false" id="f9c3-52a1-8828-e381" type="selectionEntry" targetId="9e34-2f0c-69ff-e722">
+    <entryLink import="true" name="Ayudantes del cuerpo de mando de los Gremios Libres" hidden="false" id="f9c3-52a1-8828-e381" type="selectionEntry" targetId="9e34-2f0c-69ff-e722">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1413,7 +1413,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="2bd0-13b7-c73a-509a" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Dreadspears" hidden="false" id="89ec-c277-7e0c-e0a7" type="selectionEntry" targetId="a787-69e-f77f-18d9">
+    <entryLink import="true" name="Lanzas del terror" hidden="false" id="89ec-c277-7e0c-e0a7" type="selectionEntry" targetId="a787-69e-f77f-18d9">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1444,7 +1444,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="07a8-afc9-b728-2dac" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Drakespawn Chariot" hidden="false" id="61ba-2bfc-e593-67ab" type="selectionEntry" targetId="672e-438c-24a6-5fc4">
+    <entryLink import="true" name="Carro de dracoengendros" hidden="false" id="61ba-2bfc-e593-67ab" type="selectionEntry" targetId="672e-438c-24a6-5fc4">
       <costs>
         <cost name="pts" typeId="points" value="110"/>
       </costs>
@@ -1469,7 +1469,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="e59a-3d65-1d07-8733" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Drakespawn Knights" hidden="false" id="5991-8b61-ee19-35ea" type="selectionEntry" targetId="5507-3979-c08f-1f0d">
+    <entryLink import="true" name="Caballeros en dracoengendros" hidden="false" id="5991-8b61-ee19-35ea" type="selectionEntry" targetId="5507-3979-c08f-1f0d">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1500,7 +1500,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="8e50-f620-136b-2d5b" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Flagellants" hidden="false" id="b0f0-263a-597d-c125" type="selectionEntry" targetId="6da4-e6bc-e5f6-3751">
+    <entryLink import="true" name="Flagelantes" hidden="false" id="b0f0-263a-597d-c125" type="selectionEntry" targetId="6da4-e6bc-e5f6-3751">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1532,7 +1532,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="8586-9189-e842-e5d8" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Freeguild Cavaliers" hidden="false" id="f955-95a1-4773-69ef" type="selectionEntry" targetId="80f5-4df3-c41b-f6f7">
+    <entryLink import="true" name="Caballeros de los Gremios Libres" hidden="false" id="f955-95a1-4773-69ef" type="selectionEntry" targetId="80f5-4df3-c41b-f6f7">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1564,7 +1564,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="0f26-36e3-92b9-da02" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Freeguild Fusiliers" hidden="false" id="ed30-173f-6ae8-7ded" type="selectionEntry" targetId="5fac-f8bc-2c88-9252">
+    <entryLink import="true" name="Fusileros de los Gremios Libres" hidden="false" id="ed30-173f-6ae8-7ded" type="selectionEntry" targetId="5fac-f8bc-2c88-9252">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1596,7 +1596,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="594b-06bd-d036-9138" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Hammerers" hidden="false" id="a3f7-00ee-a35c-a0fd" type="selectionEntry" targetId="e8a7-8dbf-12ec-5753">
+    <entryLink import="true" name="Martilladores" hidden="false" id="a3f7-00ee-a35c-a0fd" type="selectionEntry" targetId="e8a7-8dbf-12ec-5753">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1627,7 +1627,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="02bc-426c-a1a4-d0da" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Ironbreakers" hidden="false" id="f641-5bf4-407f-f04f" type="selectionEntry" targetId="d831-4103-fb92-eb5b">
+    <entryLink import="true" name="Rompehierros" hidden="false" id="f641-5bf4-407f-f04f" type="selectionEntry" targetId="d831-4103-fb92-eb5b">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1658,7 +1658,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="80c0-c9b9-594a-f8f9" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Scourgerunner Chariot" hidden="false" id="2210-6439-f510-e540" type="selectionEntry" targetId="e03f-92f0-5e5d-924a">
+    <entryLink import="true" name="Carro azotador" hidden="false" id="2210-6439-f510-e540" type="selectionEntry" targetId="e03f-92f0-5e5d-924a">
       <costs>
         <cost name="pts" typeId="points" value="110"/>
       </costs>
@@ -1683,7 +1683,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="d576-62c6-d777-4817" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Luminark of Hysh" hidden="false" id="aa5f-c6cd-cfed-3dd4" type="selectionEntry" targetId="9d8a-508e-c6e4-b096">
+    <entryLink import="true" name="Luminarca de Hysh" hidden="false" id="aa5f-c6cd-cfed-3dd4" type="selectionEntry" targetId="9d8a-508e-c6e4-b096">
       <costs>
         <cost name="pts" typeId="points" value="230"/>
       </costs>
@@ -1734,7 +1734,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="c178-a3d3-7531-a452" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Irondrakes" hidden="false" id="0b3c-2d96-c68b-4969" type="selectionEntry" targetId="a4a9-4579-5a50-9ddb">
+    <entryLink import="true" name="Dracos de hierro" hidden="false" id="0b3c-2d96-c68b-4969" type="selectionEntry" targetId="a4a9-4579-5a50-9ddb">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1765,7 +1765,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="40f6-72d1-67e7-9dd8" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Ironweld Great Cannon" hidden="false" id="657a-2ee7-8ee8-75ce" type="selectionEntry" targetId="8186-4957-8449-590c">
+    <entryLink import="true" name="Gran cañón del Arsenal de Hierro" hidden="false" id="657a-2ee7-8ee8-75ce" type="selectionEntry" targetId="8186-4957-8449-590c">
       <costs>
         <cost name="pts" typeId="points" value="140"/>
       </costs>
@@ -1804,7 +1804,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="4eb3-aed6-ffea-d612"/>
       </constraints>
     </entryLink>
-    <entryLink import="true" name="Longbeards" hidden="false" id="f5b1-f5d5-8932-d485" type="selectionEntry" targetId="8ee5-3161-46c0-d0a2">
+    <entryLink import="true" name="Barbaslargas" hidden="false" id="f5b1-f5d5-8932-d485" type="selectionEntry" targetId="8ee5-3161-46c0-d0a2">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1835,7 +1835,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="d37d-6f47-2cd3-b7da" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Steam Tank" hidden="false" id="647b-cd8a-5900-4873" type="selectionEntry" targetId="293f-584a-25a2-c45c">
+    <entryLink import="true" name="Tanque de vapor" hidden="false" id="647b-cd8a-5900-4873" type="selectionEntry" targetId="293f-584a-25a2-c45c">
       <costs>
         <cost name="pts" typeId="points" value="240"/>
       </costs>
@@ -1861,7 +1861,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="f0b8-f72b-3b7d-0de4" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Wildercorps Hunters" hidden="false" id="414a-d97d-bf57-ba42" type="selectionEntry" targetId="f9e7-7b02-8660-65f7">
+    <entryLink import="true" name="Cazadores de los cuerpos agrestes" hidden="false" id="414a-d97d-bf57-ba42" type="selectionEntry" targetId="f9e7-7b02-8660-65f7">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1892,7 +1892,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="6d7e-d97a-6962-a26f" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="War Hydra" hidden="false" id="6398-b7b7-0095-482e" type="selectionEntry" targetId="7031-9a79-bad7-203a">
+    <entryLink import="true" name="Hidra de guerra" hidden="false" id="6398-b7b7-0095-482e" type="selectionEntry" targetId="7031-9a79-bad7-203a">
       <costs>
         <cost name="pts" typeId="points" value="170"/>
       </costs>
@@ -1922,7 +1922,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="157d-26d9-ede8-b228" includeChildSelections="true"/>
       </constraints>
     </entryLink>
-    <entryLink import="true" name="Freeguild Cavaliers (Scourge of Ghyran)" hidden="false" id="609a-891b-d1b3-0cfe" type="selectionEntry" targetId="1d9d-c777-641c-68ba">
+    <entryLink import="true" name="Caballeros de los Gremios Libres (Azote de Ghyran)" hidden="false" id="609a-891b-d1b3-0cfe" type="selectionEntry" targetId="1d9d-c777-641c-68ba">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -1954,7 +1954,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="0371-ea98-3ebb-9aa7" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Amethyst Knellmage" hidden="false" id="4569-f756-5a2e-50f1" type="selectionEntry" targetId="4e2b-f8f0-8fad-1d28">
+    <entryLink import="true" name="Mago del tañido amatista" hidden="false" id="4569-f756-5a2e-50f1" type="selectionEntry" targetId="4e2b-f8f0-8fad-1d28">
       <costs>
         <cost name="pts" typeId="points" value="110"/>
       </costs>
@@ -2107,7 +2107,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="372f-70c7-fc4c-6c6c" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Freeguild Command Corps Auxiliaries" hidden="false" id="d8b7-8bbb-04ba-16c9" type="selectionEntry" targetId="6c35-5d85-17e7-7800">
+    <entryLink import="true" name="Auxiliares del cuerpo de mando de los Gremios Libres" hidden="false" id="d8b7-8bbb-04ba-16c9" type="selectionEntry" targetId="6c35-5d85-17e7-7800">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -2146,7 +2146,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <constraint type="max" value="0" field="selections" scope="force" shared="true" id="73f0-9264-aace-c02a" includeChildSelections="true"/>
       </constraints>
     </entryLink>
-    <entryLink import="true" name="Freeguild Command Corps Whisperblade" hidden="false" id="e58e-7489-a8e5-37c7" type="selectionEntry" targetId="a8a0-8b9e-2108-e7d1">
+    <entryLink import="true" name="Hoja susurrante del cuerpo de mando de los Gremios Libres" hidden="false" id="e58e-7489-a8e5-37c7" type="selectionEntry" targetId="a8a0-8b9e-2108-e7d1">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -2185,7 +2185,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <constraint type="max" value="0" field="selections" scope="force" shared="true" id="55cf-d99e-0e3c-881a" includeChildSelections="true"/>
       </constraints>
     </entryLink>
-    <entryLink import="true" name="Freeguild Gallants" hidden="false" id="6cbf-c687-0dcf-5505" type="selectionEntry" targetId="7785-645b-e8f0-62af">
+    <entryLink import="true" name="Gallardos de los Gremios Libres" hidden="false" id="6cbf-c687-0dcf-5505" type="selectionEntry" targetId="7785-645b-e8f0-62af">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -2217,7 +2217,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="ca98-6187-a0d6-5018" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Freeguild Grenadiers" hidden="false" id="9b43-ae25-9eb7-eda8" type="selectionEntry" targetId="7edc-047b-2e3b-6914">
+    <entryLink import="true" name="Granaderos de los Gremios Libres" hidden="false" id="9b43-ae25-9eb7-eda8" type="selectionEntry" targetId="7edc-047b-2e3b-6914">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -2248,7 +2248,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="35cc-c32e-577c-9fb5" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Gate Gargants" hidden="false" id="ca37-4a22-1fc2-15da" type="selectionEntry" targetId="7998-c3aa-9d41-ee11">
+    <entryLink import="true" name="Gigantes de la puerta" hidden="false" id="ca37-4a22-1fc2-15da" type="selectionEntry" targetId="7998-c3aa-9d41-ee11">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -2278,7 +2278,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="62e0-482c-2194-71f4" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Dawner&apos;s Triumph" hidden="false" id="913f-43a5-7e96-6ac0" type="selectionEntry" targetId="2be6-daba-0245-2e2a">
+    <entryLink import="true" name="Triunfo del portador del alba" hidden="false" id="913f-43a5-7e96-6ac0" type="selectionEntry" targetId="2be6-daba-0245-2e2a">
       <modifiers>
         <modifier type="set" value="0" field="points">
           <conditionGroups>
@@ -2294,7 +2294,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Lethisian Consecrators" hidden="false" id="3d5c-a117-b8fe-884e" type="selectionEntry" targetId="65aa-9225-2241-82b0">
+    <entryLink import="true" name="Consagradores lethisianos" hidden="false" id="3d5c-a117-b8fe-884e" type="selectionEntry" targetId="65aa-9225-2241-82b0">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -2326,7 +2326,7 @@ Si esta unidad ya es **^^Wizard^^**, suma 1 a sus tiradas de lanzamiento.</chara
         <categoryLink name="LETHIS" hidden="false" id="a24b-a36e-cd46-aa45" targetId="9051-5f2f-99bb-f809" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Raven Priest of Morrda" hidden="false" id="e85a-1458-bdf2-33d7" type="selectionEntry" targetId="9ba6-d04d-2dbd-1c2c">
+    <entryLink import="true" name="Sacerdote del Cuervo de Morrda" hidden="false" id="e85a-1458-bdf2-33d7" type="selectionEntry" targetId="9ba6-d04d-2dbd-1c2c">
       <costs>
         <cost name="pts" typeId="points" value="140"/>
       </costs>
