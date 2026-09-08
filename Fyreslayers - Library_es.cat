@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="true" id="c401-2e10-cae8-d7f1" name="Fyreslayers - Library" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="15" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
-    <selectionEntry type="unit" import="true" name="Auric Runesmiter on Magmadroth" hidden="false" id="268e-676d-c731-7d26" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Golpearrunas áurico en Magmadroth" hidden="false" id="268e-676d-c731-7d26" publicationId="693f-85d0-db98-543c">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="c1df-438e-284d-94c2" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="MONSTER" hidden="false" id="b694-5293-61f1-f50a" targetId="6d54-625c-d063-13e2" primary="false"/>
@@ -16,7 +16,7 @@
         <entryLink import="true" name="General" hidden="false" id="ad97-ba9-5669-14c5" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Auric Runesmiter on Magmadroth" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="6529-f516-5d3d-626">
+        <profile name="Golpearrunas áurico en Magmadroth" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="6529-f516-5d3d-626">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">14</characteristic>
@@ -66,7 +66,7 @@
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5162-9f4c-6746-f1f5">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Magmadroth&apos;s Claws and Horns** es 4.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Garras y cuernos de Magmadroth** es 4.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -76,15 +76,15 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Auric Runesmiter on Magmadroth" hidden="false" id="80d0-4144-5e69-7e19">
+        <selectionEntry type="model" import="true" name="Golpearrunas áurico en Magmadroth" hidden="false" id="80d0-4144-5e69-7e19">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Latch-axe" hidden="false" id="472d-39d9-2a4c-32dc">
+            <selectionEntry type="upgrade" import="true" name="Hacha de gancho" hidden="false" id="472d-39d9-2a4c-32dc">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="23a9-55d8-5438-6179"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9110-111b-c033-4be2"/>
               </constraints>
               <profiles>
-                <profile name="Latch-axe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="83d7-e4be-aeb9-1a30">
+                <profile name="Hacha de gancho" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="83d7-e4be-aeb9-1a30">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -96,13 +96,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Roaring Fyrestream" hidden="false" id="1db8-ccb8-5414-c801">
+            <selectionEntry type="upgrade" import="true" name="Torrente ígneo rugiente" hidden="false" id="1db8-ccb8-5414-c801">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8548-3014-518-3944"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73e5-927f-d19c-aef1"/>
               </constraints>
               <profiles>
-                <profile name="Roaring Fyrestream" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="cc76-63a4-1966-c8d3">
+                <profile name="Torrente ígneo rugiente" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="cc76-63a4-1966-c8d3">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">10&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">4</characteristic>
@@ -115,13 +115,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magmadroth&apos;s Blazing Maw" hidden="false" id="157c-9563-cfb0-22dc">
+            <selectionEntry type="upgrade" import="true" name="Fauces ardientes de Magmadroth" hidden="false" id="157c-9563-cfb0-22dc">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2207-c4a2-2254-514b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ba6-b7d7-5012-b557"/>
               </constraints>
               <profiles>
-                <profile name="Magmadroth&apos;s Blazing Maw" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="cf81-1b99-932e-96ee">
+                <profile name="Fauces ardientes de Magmadroth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="cf81-1b99-932e-96ee">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -133,13 +133,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magmadroth&apos;s Claws and Horns" hidden="false" id="e9b0-dc04-7e98-a751">
+            <selectionEntry type="upgrade" import="true" name="Garras y cuernos de Magmadroth" hidden="false" id="e9b0-dc04-7e98-a751">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6bc-8efb-106b-ae3c"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f592-f35-534a-d20c"/>
               </constraints>
               <profiles>
-                <profile name="Magmadroth&apos;s Claws and Horns" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="4457-f1d4-a498-5ef9">
+                <profile name="Garras y cuernos de Magmadroth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="4457-f1d4-a498-5ef9">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -164,7 +164,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Grimhold Exile" hidden="false" id="145f-e68f-3a4e-c25a" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Exiliado de fortaleza sombría" hidden="false" id="145f-e68f-3a4e-c25a" publicationId="693f-85d0-db98-543c">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="2416-bc6-8d78-cf4d" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="ORDER" hidden="false" id="bf8c-8d10-e463-2c9b" targetId="ee22-3575-6590-25c" primary="false"/>
@@ -177,7 +177,7 @@
         <entryLink import="true" name="General" hidden="false" id="a9ac-5ee3-64f4-91e8" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Grimhold Exile" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="e874-66da-a26b-2612">
+        <profile name="Exiliado de fortaleza sombría" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="e874-66da-a26b-2612">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">6</characteristic>
@@ -215,15 +215,15 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Grimhold Exile" hidden="false" id="5e78-b19f-f426-d676">
+        <selectionEntry type="model" import="true" name="Exiliado de fortaleza sombría" hidden="false" id="5e78-b19f-f426-d676">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Fyre-rune Hammers" hidden="false" id="8e84-3eb6-a35b-6aea">
+            <selectionEntry type="upgrade" import="true" name="Martillos de runas ígneas" hidden="false" id="8e84-3eb6-a35b-6aea">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="440f-73a5-b2fd-cd66"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c3c-bfa0-d339-14e1"/>
               </constraints>
               <profiles>
-                <profile name="Fyre-rune Hammers" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="20a1-7558-52be-497c">
+                <profile name="Martillos de runas ígneas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="20a1-7558-52be-497c">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -248,7 +248,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Auric Flamekeeper" hidden="false" id="4a5c-a6be-cecb-a47a" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Guardián de la llama áurico" hidden="false" id="4a5c-a6be-cecb-a47a" publicationId="693f-85d0-db98-543c">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="73e4-9f75-760a-27ca" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="ORDER" hidden="false" id="87be-b9b5-ecc5-ff1d" targetId="ee22-3575-6590-25c" primary="false"/>
@@ -261,7 +261,7 @@
         <entryLink import="true" name="General" hidden="false" id="e84d-b753-ec08-24cd" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Auric Flamekeeper" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="2f1e-21e2-1563-2753">
+        <profile name="Guardián de la llama áurico" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="2f1e-21e2-1563-2753">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -288,15 +288,15 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Auric Flamekeeper" hidden="false" id="e569-ac21-e3e7-5c7d">
+        <selectionEntry type="model" import="true" name="Guardián de la llama áurico" hidden="false" id="e569-ac21-e3e7-5c7d">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Brazier Axe" hidden="false" id="f8e2-219-6975-8d9d">
+            <selectionEntry type="upgrade" import="true" name="Hacha brasero" hidden="false" id="f8e2-219-6975-8d9d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e111-8141-57e6-f177"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0ee-f80-b46b-fc7e"/>
               </constraints>
               <profiles>
-                <profile name="Brazier Axe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="175b-e173-cf00-c48d">
+                <profile name="Hacha brasero" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="175b-e173-cf00-c48d">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -321,7 +321,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Auric Runefather on Magmadroth" hidden="false" id="37e2-9685-abe9-bc10" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Padre rúnico áurico en Magmadroth" hidden="false" id="37e2-9685-abe9-bc10" publicationId="693f-85d0-db98-543c">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="aef4-dee-62b7-f0d7" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="MONSTER" hidden="false" id="2a47-d45e-7a5d-1413" targetId="6d54-625c-d063-13e2" primary="false"/>
@@ -336,7 +336,7 @@
         <entryLink import="true" name="General" hidden="false" id="a1e5-e2b9-80fb-8004" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Auric Runefather on Magmadroth" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ba1a-f114-a619-d8a4">
+        <profile name="Padre rúnico áurico en Magmadroth" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ba1a-f114-a619-d8a4">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">14</characteristic>
@@ -386,7 +386,7 @@
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6a3f-a7e8-b510-153a">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Magmadroth&apos;s Claws and Horns** es 4.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Garras y cuernos de Magmadroth** es 4.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -396,15 +396,15 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Auric Runefather on Magmadroth" hidden="false" id="9946-f8ae-2717-9535">
+        <selectionEntry type="model" import="true" name="Padre rúnico áurico en Magmadroth" hidden="false" id="9946-f8ae-2717-9535">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Latchkey Grandaxe" hidden="false" id="daa4-2c9b-8b53-8da2">
+            <selectionEntry type="upgrade" import="true" name="Gran hacha llave" hidden="false" id="daa4-2c9b-8b53-8da2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e754-1561-4b59-7dbd"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a3e-613c-c7df-62b4"/>
               </constraints>
               <profiles>
-                <profile name="Latchkey Grandaxe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="43b3-f23b-f4ef-dbfb">
+                <profile name="Gran hacha llave" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="43b3-f23b-f4ef-dbfb">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -416,13 +416,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Roaring Fyrestream" hidden="false" id="35b3-c5e-b8c1-7636">
+            <selectionEntry type="upgrade" import="true" name="Torrente ígneo rugiente" hidden="false" id="35b3-c5e-b8c1-7636">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea61-950c-d479-7539"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="233e-8bf6-7fce-fadf"/>
               </constraints>
               <profiles>
-                <profile name="Roaring Fyrestream" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="3635-d5d9-b374-1786">
+                <profile name="Torrente ígneo rugiente" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="3635-d5d9-b374-1786">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">10&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">4</characteristic>
@@ -435,13 +435,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magmadroth&apos;s Blazing Maw" hidden="false" id="a517-96fa-6414-a70f">
+            <selectionEntry type="upgrade" import="true" name="Fauces ardientes de Magmadroth" hidden="false" id="a517-96fa-6414-a70f">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef36-4699-b732-ee28"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17ab-4f78-e528-bc00"/>
               </constraints>
               <profiles>
-                <profile name="Magmadroth&apos;s Blazing Maw" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="40be-88bc-e21c-66c9">
+                <profile name="Fauces ardientes de Magmadroth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="40be-88bc-e21c-66c9">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -453,13 +453,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magmadroth&apos;s Claws and Horns" hidden="false" id="fa86-6b2f-e277-6ca3">
+            <selectionEntry type="upgrade" import="true" name="Garras y cuernos de Magmadroth" hidden="false" id="fa86-6b2f-e277-6ca3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f2f7-7617-fffa-2d47"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b79-8f69-9f1d-c860"/>
               </constraints>
               <profiles>
-                <profile name="Magmadroth&apos;s Claws and Horns" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c0b5-3ea8-dbe3-f870">
+                <profile name="Garras y cuernos de Magmadroth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c0b5-3ea8-dbe3-f870">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -484,7 +484,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Auric Runeson on Magmadroth" hidden="false" id="de0d-34a7-ac61-53de" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Hijo rúnico áurico en Magmadroth" hidden="false" id="de0d-34a7-ac61-53de" publicationId="693f-85d0-db98-543c">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="7272-8e57-cdda-ab50" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="MONSTER" hidden="false" id="9209-841f-3662-e5aa" targetId="6d54-625c-d063-13e2" primary="false"/>
@@ -498,7 +498,7 @@
         <entryLink import="true" name="General" hidden="false" id="b5af-cf70-bf99-efe6" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Auric Runeson on Magmadroth" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="65b5-fca3-bf4a-4497">
+        <profile name="Hijo rúnico áurico en Magmadroth" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="65b5-fca3-bf4a-4497">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">14</characteristic>
@@ -520,7 +520,7 @@
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="42ec-909f-19c6-c41f">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Magmadroth&apos;s Claws and Horns** es 4.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Garras y cuernos de Magmadroth** es 4.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -545,7 +545,7 @@
         <profile name="Vying for Glory" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9310-2dd1-ffd9-39f4">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad destruya un **^^Monster^^**, suma 1 a la característica de Attacks de las **Ancestral Weapons** de esta unidad durante el resto de la batalla. Esta unidad puede verse afectada por esta habilidad varias veces y los efectos son acumulativos.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad destruya un **^^Monster^^**, suma 1 a la característica de Attacks de las **Armas ancestrales** de esta unidad durante el resto de la batalla. Esta unidad puede verse afectada por esta habilidad varias veces y los efectos son acumulativos.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -555,15 +555,15 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Auric Runeson on Magmadroth" hidden="false" id="5f94-db21-96ed-b75d">
+        <selectionEntry type="model" import="true" name="Hijo rúnico áurico en Magmadroth" hidden="false" id="5f94-db21-96ed-b75d">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ancestral Weapons" hidden="false" id="9341-9ae5-616c-6e78">
+            <selectionEntry type="upgrade" import="true" name="Armas ancestrales" hidden="false" id="9341-9ae5-616c-6e78">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="35a6-82b6-9c1-79b6"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eae7-27e9-6ab6-8d7c"/>
               </constraints>
               <profiles>
-                <profile name="Ancestral Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="8681-f0f1-1dd6-c521">
+                <profile name="Armas ancestrales" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="8681-f0f1-1dd6-c521">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -575,13 +575,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Roaring Fyrestream" hidden="false" id="93a1-c14e-a481-448a">
+            <selectionEntry type="upgrade" import="true" name="Torrente ígneo rugiente" hidden="false" id="93a1-c14e-a481-448a">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2743-46b3-8e08-cc80"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd61-675-c016-f01a"/>
               </constraints>
               <profiles>
-                <profile name="Roaring Fyrestream" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="96b0-5ce0-6856-3721">
+                <profile name="Torrente ígneo rugiente" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="96b0-5ce0-6856-3721">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">10&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">4</characteristic>
@@ -594,13 +594,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magmadroth&apos;s Blazing Maw" hidden="false" id="3d3c-11f9-17c-c5f4">
+            <selectionEntry type="upgrade" import="true" name="Fauces ardientes de Magmadroth" hidden="false" id="3d3c-11f9-17c-c5f4">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a704-12c7-fac4-175"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbf2-6159-48a8-f69d"/>
               </constraints>
               <profiles>
-                <profile name="Magmadroth&apos;s Blazing Maw" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7e63-b1df-cd6b-8813">
+                <profile name="Fauces ardientes de Magmadroth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7e63-b1df-cd6b-8813">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -612,13 +612,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magmadroth&apos;s Claws and Horns" hidden="false" id="e1b3-47e7-a903-aeef">
+            <selectionEntry type="upgrade" import="true" name="Garras y cuernos de Magmadroth" hidden="false" id="e1b3-47e7-a903-aeef">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e50a-1062-2e8-4fa2"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f473-6d32-d8fa-3d3a"/>
               </constraints>
               <profiles>
-                <profile name="Magmadroth&apos;s Claws and Horns" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="303d-9e40-fc98-3b44">
+                <profile name="Garras y cuernos de Magmadroth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="303d-9e40-fc98-3b44">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -643,7 +643,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Auric Runeson" hidden="false" id="94e6-d5d5-c8e6-7282" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Hijo rúnico áurico" hidden="false" id="94e6-d5d5-c8e6-7282" publicationId="693f-85d0-db98-543c">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="6be2-187a-332-6e44" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="ORDER" hidden="false" id="f2b8-f4f-e95e-ef2c" targetId="ee22-3575-6590-25c" primary="false"/>
@@ -656,7 +656,7 @@
         <entryLink import="true" name="General" hidden="false" id="40a5-9a32-1c73-a2b0" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Auric Runeson" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="63e4-4d1-bfc9-dc95">
+        <profile name="Hijo rúnico áurico" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="63e4-4d1-bfc9-dc95">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -691,15 +691,15 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Auric Runeson" hidden="false" id="4706-cfbc-b81f-33b9">
+        <selectionEntry type="model" import="true" name="Hijo rúnico áurico" hidden="false" id="4706-cfbc-b81f-33b9">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ancestral Weapons" hidden="false" id="901f-816b-d5f8-cacb">
+            <selectionEntry type="upgrade" import="true" name="Armas ancestrales" hidden="false" id="901f-816b-d5f8-cacb">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8df2-4145-87f-4069"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="485d-987e-4731-f0da"/>
               </constraints>
               <profiles>
-                <profile name="Ancestral Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2f93-2f24-3b71-4ad8">
+                <profile name="Armas ancestrales" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2f93-2f24-3b71-4ad8">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -724,7 +724,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Auric Runesmiter" hidden="false" id="7b03-4613-6b5b-a9ce" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Golpearrunas áurico" hidden="false" id="7b03-4613-6b5b-a9ce" publicationId="693f-85d0-db98-543c">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="59ef-ab61-945e-ffb8" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="ORDER" hidden="false" id="8a1-20e0-7c42-7599" targetId="ee22-3575-6590-25c" primary="false"/>
@@ -738,7 +738,7 @@
         <entryLink import="true" name="General" hidden="false" id="bcd9-ad52-25f0-986" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Auric Runesmiter" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="3df4-ea4-3618-24c8">
+        <profile name="Golpearrunas áurico" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="3df4-ea4-3618-24c8">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -776,15 +776,15 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Auric Runesmiter" hidden="false" id="d96d-e7ba-362d-73ee">
+        <selectionEntry type="model" import="true" name="Golpearrunas áurico" hidden="false" id="d96d-e7ba-362d-73ee">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Latch-axe" hidden="false" id="3909-d6f1-93a-9ab7">
+            <selectionEntry type="upgrade" import="true" name="Hacha de gancho" hidden="false" id="3909-d6f1-93a-9ab7">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db4a-c424-8853-64f2"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="59c0-f1c5-1d76-3da8"/>
               </constraints>
               <profiles>
-                <profile name="Latch-axe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="dba4-7280-f235-4c3b">
+                <profile name="Hacha de gancho" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="dba4-7280-f235-4c3b">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -809,7 +809,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Auric Runemaster" hidden="false" id="21bf-d0a3-f872-2def" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Maestro rúnico áurico" hidden="false" id="21bf-d0a3-f872-2def" publicationId="693f-85d0-db98-543c">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="b24e-d556-e8ab-ef05" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="ORDER" hidden="false" id="f668-2e3-5cdf-64df" targetId="ee22-3575-6590-25c" primary="false"/>
@@ -823,7 +823,7 @@
         <entryLink import="true" name="General" hidden="false" id="5e7-1dc0-fdd3-d91a" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Auric Runemaster" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="1db0-7b21-3764-1ef2">
+        <profile name="Maestro rúnico áurico" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="1db0-7b21-3764-1ef2">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -863,15 +863,15 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Auric Runemaster" hidden="false" id="cda1-b920-2c10-9461">
+        <selectionEntry type="model" import="true" name="Maestro rúnico áurico" hidden="false" id="cda1-b920-2c10-9461">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Brazier Staff" hidden="false" id="6e0c-539-ec01-a276">
+            <selectionEntry type="upgrade" import="true" name="Bastón brasero" hidden="false" id="6e0c-539-ec01-a276">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e498-da1d-f952-a409"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c750-fd93-664b-4c7e"/>
               </constraints>
               <profiles>
-                <profile name="Brazier Staff" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="983f-d6c3-7777-108a">
+                <profile name="Bastón brasero" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="983f-d6c3-7777-108a">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -896,7 +896,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Battlesmith" hidden="false" id="eb16-2bd1-6982-c82d" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Herrero de batalla" hidden="false" id="eb16-2bd1-6982-c82d" publicationId="693f-85d0-db98-543c">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="110a-eab-8eaa-8b70" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="ORDER" hidden="false" id="9ea0-c535-f588-15ad" targetId="ee22-3575-6590-25c" primary="false"/>
@@ -909,7 +909,7 @@
         <entryLink import="true" name="General" hidden="false" id="5666-b468-dff4-c59c" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Battlesmith" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="2db9-61a0-3da8-4d8f">
+        <profile name="Herrero de batalla" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="2db9-61a0-3da8-4d8f">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -941,15 +941,15 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Battlesmith" hidden="false" id="ac10-40d-59c2-305a">
+        <selectionEntry type="model" import="true" name="Herrero de batalla" hidden="false" id="ac10-40d-59c2-305a">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ancestral Battle-axe" hidden="false" id="c064-d8b4-4be8-43d3">
+            <selectionEntry type="upgrade" import="true" name="Hacha de batalla ancestral" hidden="false" id="c064-d8b4-4be8-43d3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="520c-9891-a13d-ebec"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eec0-2aae-eba5-afec"/>
               </constraints>
               <profiles>
-                <profile name="Ancestral Battle-axe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="871c-6585-9032-3f2a">
+                <profile name="Hacha de batalla ancestral" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="871c-6585-9032-3f2a">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -974,7 +974,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Grimwrath Berzerker" hidden="false" id="1b3c-edf1-cb89-c9" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Bersérker de ira sombría" hidden="false" id="1b3c-edf1-cb89-c9" publicationId="693f-85d0-db98-543c">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="5004-5b2d-b4d-cdd0" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="ORDER" hidden="false" id="5149-9d2-1d55-b052" targetId="ee22-3575-6590-25c" primary="false"/>
@@ -987,7 +987,7 @@
         <entryLink import="true" name="General" hidden="false" id="39eb-7668-5314-f558" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Grimwrath Berzerker" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="c6e6-d289-4915-119b">
+        <profile name="Bersérker de ira sombría" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="c6e6-d289-4915-119b">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -1030,15 +1030,15 @@ Si una **^^Fyreslayers Hero^^** amiga totalmente a 6" o menos de esta unidad es 
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Grimwrath Berzerker" hidden="false" id="b551-cf82-cd6a-9793">
+        <selectionEntry type="model" import="true" name="Bersérker de ira sombría" hidden="false" id="b551-cf82-cd6a-9793">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Fyrestorm Greataxe" hidden="false" id="74d8-5a7-86f3-2413">
+            <selectionEntry type="upgrade" import="true" name="Gran hacha de tormenta ígnea" hidden="false" id="74d8-5a7-86f3-2413">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ff06-46f0-e74-4fa"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8fe-5e21-46a1-705a"/>
               </constraints>
               <profiles>
-                <profile name="Fyrestorm Greataxe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="a66-83c7-a677-fa4b">
+                <profile name="Gran hacha de tormenta ígnea" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="a66-83c7-a677-fa4b">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1063,7 +1063,7 @@ Si una **^^Fyreslayers Hero^^** amiga totalmente a 6" o menos de esta unidad es 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Auric Runefather" hidden="false" id="aa8-9db3-b817-6324" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Padre rúnico áurico" hidden="false" id="aa8-9db3-b817-6324" publicationId="693f-85d0-db98-543c">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="c521-75b4-b06f-dbf0" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="ORDER" hidden="false" id="590e-f99e-bb77-c2d7" targetId="ee22-3575-6590-25c" primary="false"/>
@@ -1077,7 +1077,7 @@ Si una **^^Fyreslayers Hero^^** amiga totalmente a 6" o menos de esta unidad es 
         <entryLink import="true" name="General" hidden="false" id="158b-8032-5821-6877" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Auric Runefather" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="eafd-cc37-9572-3afe">
+        <profile name="Padre rúnico áurico" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="eafd-cc37-9572-3afe">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -1115,15 +1115,15 @@ Si una **^^Fyreslayers Hero^^** amiga totalmente a 6" o menos de esta unidad es 
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Auric Runefather" hidden="false" id="a434-cf38-24dc-15b7">
+        <selectionEntry type="model" import="true" name="Padre rúnico áurico" hidden="false" id="a434-cf38-24dc-15b7">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Latchkey Grandaxe" hidden="false" id="f7bf-a1fb-4594-66e2">
+            <selectionEntry type="upgrade" import="true" name="Gran hacha llave" hidden="false" id="f7bf-a1fb-4594-66e2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ebb8-9a79-93ea-fb6b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="617f-72ae-5f76-6b53"/>
               </constraints>
               <profiles>
-                <profile name="Latchkey Grandaxe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="3d22-1daf-8d9d-2019">
+                <profile name="Gran hacha llave" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="3d22-1daf-8d9d-2019">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1148,7 +1148,7 @@ Si una **^^Fyreslayers Hero^^** amiga totalmente a 6" o menos de esta unidad es 
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Doomseeker" hidden="false" id="2a37-8d73-b1ba-576d" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Buscador de la perdición" hidden="false" id="2a37-8d73-b1ba-576d" publicationId="693f-85d0-db98-543c">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="3847-84b-d32f-c669" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="ORDER" hidden="false" id="6df4-e69c-c09d-ad4d" targetId="ee22-3575-6590-25c" primary="false"/>
@@ -1161,7 +1161,7 @@ Si una **^^Fyreslayers Hero^^** amiga totalmente a 6" o menos de esta unidad es 
         <entryLink import="true" name="General" hidden="false" id="cb2a-9956-bb43-8577" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Doomseeker" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="9895-8541-54fc-4792">
+        <profile name="Buscador de la perdición" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="9895-8541-54fc-4792">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -1197,15 +1197,15 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Doomseeker" hidden="false" id="c873-39f5-73f7-f3fa">
+        <selectionEntry type="model" import="true" name="Buscador de la perdición" hidden="false" id="c873-39f5-73f7-f3fa">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Doomseeker Weapons" hidden="false" id="adcc-b06c-94ab-5d59">
+            <selectionEntry type="upgrade" import="true" name="Armas de buscador de la perdición" hidden="false" id="adcc-b06c-94ab-5d59">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8d75-fdc0-729b-91aa"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b88f-7a10-976d-f949"/>
               </constraints>
               <profiles>
-                <profile name="Doomseeker Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="d867-e11f-5e48-1de6">
+                <profile name="Armas de buscador de la perdición" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="d867-e11f-5e48-1de6">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1230,9 +1230,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Auric Hearthguard" hidden="false" id="c2d0-1db-e516-2344" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Guardia del hogar áurica" hidden="false" id="c2d0-1db-e516-2344" publicationId="693f-85d0-db98-543c">
       <profiles>
-        <profile name="Auric Hearthguard" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="33ca-3418-98b5-60a7">
+        <profile name="Guardia del hogar áurica" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="33ca-3418-98b5-60a7">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
@@ -1262,7 +1262,7 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         <categoryLink name="MUSICIAN (1/10)" hidden="false" id="8522-552b-b33-3c65" targetId="eeed-ef77-b0d-fa9d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Auric Hearthguard" hidden="false" id="a968-db0-69a-93c2" defaultAmount="1,4">
+        <selectionEntry type="model" import="true" name="Guardia del hogar áurica" hidden="false" id="a968-db0-69a-93c2" defaultAmount="1,4">
           <constraints>
             <constraint type="min" value="5" field="selections" scope="parent" shared="false" id="1e13-5810-757b-f08e"/>
             <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="d93a-1f9c-95d3-21a9"/>
@@ -1280,13 +1280,13 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Magmapike" hidden="false" id="ad85-3aef-c6c6-be56">
+            <selectionEntry type="upgrade" import="true" name="Pica de magma" hidden="false" id="ad85-3aef-c6c6-be56">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5ea-9dd-9a4f-46ca"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97b4-f350-66e1-3c0d"/>
               </constraints>
               <profiles>
-                <profile name="Magmapike" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5661-8ee4-9085-5e5d">
+                <profile name="Pica de magma" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5661-8ee4-9085-5e5d">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1296,7 +1296,7 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
                     <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
-                <profile name="Magmapike" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="9f04-f592-4ef7-7c7f">
+                <profile name="Pica de magma" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="9f04-f592-4ef7-7c7f">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">2</characteristic>
@@ -1333,9 +1333,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hearthguard Berzerkers with Berzerker Broadaxes" hidden="false" id="d6c7-9adb-d1fd-2446" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Bersérkers de la guardia del hogar con hachas anchas de bersérker" hidden="false" id="d6c7-9adb-d1fd-2446" publicationId="693f-85d0-db98-543c">
       <profiles>
-        <profile name="Hearthguard Berzerkers with Berzerker Broadaxes" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="17ad-7bd8-dad0-85d4">
+        <profile name="Bersérkers de la guardia del hogar con hachas anchas de bersérker" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="17ad-7bd8-dad0-85d4">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
@@ -1375,7 +1375,7 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         <categoryLink name="DUARDIN" hidden="false" id="27fc-d686-9712-7182" targetId="72e3-7b1b-cb94-4cbd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Hearthguard Berzerkers with Berzerker Broadaxes" hidden="false" id="53dd-11df-d64e-be8e" defaultAmount="1,4">
+        <selectionEntry type="model" import="true" name="Bersérkers de la guardia del hogar con hachas anchas de bersérker" hidden="false" id="53dd-11df-d64e-be8e" defaultAmount="1,4">
           <constraints>
             <constraint type="min" value="5" field="selections" scope="parent" shared="false" id="5c21-47bd-7e11-301e"/>
             <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="532e-aa32-c8c4-3b07"/>
@@ -1393,13 +1393,13 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Berzerker Broadaxe" hidden="false" id="594c-fdcf-253e-b4e8">
+            <selectionEntry type="upgrade" import="true" name="Hacha ancha de bersérker" hidden="false" id="594c-fdcf-253e-b4e8">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="408c-a6fd-b826-c5bb"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b5f-efa3-b07f-ffc0"/>
               </constraints>
               <profiles>
-                <profile name="Berzerker Broadaxe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="3b98-229f-dc1e-318b">
+                <profile name="Hacha ancha de bersérker" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="3b98-229f-dc1e-318b">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1435,9 +1435,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Vulkite Berzerkers with Fyresteel Weapons" hidden="false" id="88f4-30cc-1cfd-b6fa" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Bersérkers vulkitas con armas de acero ígneo" hidden="false" id="88f4-30cc-1cfd-b6fa" publicationId="693f-85d0-db98-543c">
       <profiles>
-        <profile name="Vulkite Berzerkers with Fyresteel Weapons" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="55dd-95bc-de1d-a077">
+        <profile name="Bersérkers vulkitas con armas de acero ígneo" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="55dd-95bc-de1d-a077">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
@@ -1467,7 +1467,7 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         <categoryLink name="MUSICIAN (1/10)" hidden="false" id="add6-1ace-fe1e-a99" targetId="eeed-ef77-b0d-fa9d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Vulkite Berzerkers with Fyresteel Weapons" hidden="false" id="73c8-cd9a-c322-2d4d" defaultAmount="1,1,8">
+        <selectionEntry type="model" import="true" name="Bersérkers vulkitas con armas de acero ígneo" hidden="false" id="73c8-cd9a-c322-2d4d" defaultAmount="1,1,8">
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="false" id="3e1f-38d7-2bff-2f19"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="false" id="420e-b1be-cb66-2f1a"/>
@@ -1485,13 +1485,13 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Fyresteel Weapons" hidden="false" id="7085-7a89-d0b3-ba70">
+            <selectionEntry type="upgrade" import="true" name="Armas de acero ígneo" hidden="false" id="7085-7a89-d0b3-ba70">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b3e0-76e4-58f4-410b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2608-b294-69a9-7706"/>
               </constraints>
               <profiles>
-                <profile name="Fyresteel Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b29a-f2dc-2f6f-e268">
+                <profile name="Armas de acero ígneo" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b29a-f2dc-2f6f-e268">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -1540,9 +1540,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Vulkyn Flameseekers" hidden="false" id="f6d4-e62b-c0a9-ba01" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Buscallamas vulkyn" hidden="false" id="f6d4-e62b-c0a9-ba01" publicationId="693f-85d0-db98-543c">
       <profiles>
-        <profile name="Vulkyn Flameseekers" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="bf3b-d8b8-bf97-6a51">
+        <profile name="Buscallamas vulkyn" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="bf3b-d8b8-bf97-6a51">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
@@ -1577,7 +1577,7 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         <cost name="⬤" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Vulkyn Runefather" hidden="false" id="e85-faeb-f0ec-c198" defaultAmount="1">
+        <selectionEntry type="model" import="true" name="Padre rúnico vulkyn" hidden="false" id="e85-faeb-f0ec-c198" defaultAmount="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="acd5-9a88-6152-a9ca"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="23bc-ec12-2a08-865d"/>
@@ -1595,9 +1595,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Vulkyn Weapons" hidden="false" id="c4e4-93e7-fef9-48b7">
+            <selectionEntry type="upgrade" import="true" name="Armas vulkyn" hidden="false" id="c4e4-93e7-fef9-48b7">
               <profiles>
-                <profile name="Vulkyn Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="fee3-5304-341d-f20e">
+                <profile name="Armas vulkyn" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="fee3-5304-341d-f20e">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1660,9 +1660,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Emberteeth" hidden="false" id="6770-c337-d503-90e7">
+            <selectionEntry type="upgrade" import="true" name="Dientes de brasa" hidden="false" id="6770-c337-d503-90e7">
               <profiles>
-                <profile name="Emberteeth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="a61b-4926-b26c-cd41">
+                <profile name="Dientes de brasa" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="a61b-4926-b26c-cd41">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1685,7 +1685,7 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Vulkyn Flameseeker" hidden="false" id="d1c0-dfdb-7f45-d9f4" defaultAmount="7">
+        <selectionEntry type="model" import="true" name="Buscallamas vulkyn" hidden="false" id="d1c0-dfdb-7f45-d9f4" defaultAmount="7">
           <constraints>
             <constraint type="min" value="7" field="selections" scope="parent" shared="false" id="71f2-f808-31c5-4149"/>
             <constraint type="max" value="7" field="selections" scope="parent" shared="false" id="d1d2-2e59-9f25-9d12"/>
@@ -1703,9 +1703,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Vulkyn Weapons" hidden="false" id="e9bf-3bc8-6c4c-2673">
+            <selectionEntry type="upgrade" import="true" name="Armas vulkyn" hidden="false" id="e9bf-3bc8-6c4c-2673">
               <profiles>
-                <profile name="Vulkyn Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="8b15-7376-48e2-c5f9">
+                <profile name="Armas vulkyn" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="8b15-7376-48e2-c5f9">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1731,9 +1731,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Vulkite Berzerkers with Bladed Slingshields" hidden="false" id="b1bf-7551-a8ec-80f" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Bersérkers vulkitas con escudos arrojadizos de filos" hidden="false" id="b1bf-7551-a8ec-80f" publicationId="693f-85d0-db98-543c">
       <profiles>
-        <profile name="Vulkite Berzerkers with Bladed Slingshields" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="7fbe-1fc1-a317-5f0d">
+        <profile name="Bersérkers vulkitas con escudos arrojadizos de filos" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="7fbe-1fc1-a317-5f0d">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
@@ -1763,7 +1763,7 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         <categoryLink name="MUSICIAN (1/10)" hidden="false" id="ca91-782b-4605-2e8f" targetId="eeed-ef77-b0d-fa9d" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Vulkite Berzerkers with Bladed Slingshields" hidden="false" id="4e08-e8aa-3c96-39db" defaultAmount="1,1,8">
+        <selectionEntry type="model" import="true" name="Bersérkers vulkitas con escudos arrojadizos de filos" hidden="false" id="4e08-e8aa-3c96-39db" defaultAmount="1,1,8">
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="false" id="59f9-2d22-5060-96ad"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="false" id="51fd-cbdb-54c3-d84f"/>
@@ -1781,13 +1781,13 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Fyresteel Weapons" hidden="false" id="605-9b0e-596e-ce3e">
+            <selectionEntry type="upgrade" import="true" name="Armas de acero ígneo" hidden="false" id="605-9b0e-596e-ce3e">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dca1-288c-d6a0-95d6"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5cf7-66d0-74d-4fa9"/>
               </constraints>
               <profiles>
-                <profile name="Fyresteel Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7827-20db-7359-356c">
+                <profile name="Armas de acero ígneo" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7827-20db-7359-356c">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -1836,9 +1836,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Hearthguard Berzerkers with Flamestrike Poleaxes" hidden="false" id="194c-db4d-bae8-1372" publicationId="693f-85d0-db98-543c">
+    <selectionEntry type="unit" import="true" name="Bersérkers de la guardia del hogar con hachas de asta de golpe flamígero" hidden="false" id="194c-db4d-bae8-1372" publicationId="693f-85d0-db98-543c">
       <profiles>
-        <profile name="Hearthguard Berzerkers with Flamestrike Poleaxes" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="82a2-7f5b-5d1e-4730">
+        <profile name="Bersérkers de la guardia del hogar con hachas de asta de golpe flamígero" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="82a2-7f5b-5d1e-4730">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
@@ -1881,7 +1881,7 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         <categoryLink name="DUARDIN" hidden="false" id="2969-1910-df46-ec65" targetId="72e3-7b1b-cb94-4cbd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Hearthguard Berzerkers with Flamestrike Poleaxes" hidden="false" id="f9ec-2006-ca62-f90d" defaultAmount="1,4">
+        <selectionEntry type="model" import="true" name="Bersérkers de la guardia del hogar con hachas de asta de golpe flamígero" hidden="false" id="f9ec-2006-ca62-f90d" defaultAmount="1,4">
           <constraints>
             <constraint type="min" value="5" field="selections" scope="parent" shared="false" id="1120-4d93-76b1-2fe9"/>
             <constraint type="max" value="5" field="selections" scope="parent" shared="false" id="121e-c5b1-b88b-88bb"/>
@@ -1899,13 +1899,13 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Flamestrike Poleaxe" hidden="false" id="2d63-3122-6259-107d">
+            <selectionEntry type="upgrade" import="true" name="Hacha de asta de golpe flamígero" hidden="false" id="2d63-3122-6259-107d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9e9b-a3a5-a906-1e8"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3bd1-6996-b070-1ecb"/>
               </constraints>
               <profiles>
-                <profile name="Flamestrike Poleaxe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="96d-805a-5b9e-417">
+                <profile name="Hacha de asta de golpe flamígero" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="96d-805a-5b9e-417">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1941,9 +1941,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Runic Fyrewall" hidden="false" id="62d9-5397-25fb-ec2">
+    <selectionEntry type="unit" import="true" name="Muro ígneo rúnico" hidden="false" id="62d9-5397-25fb-ec2">
       <profiles>
-        <profile name="Runic Fyrewall" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="9930-f9c0-29b6-bea6">
+        <profile name="Muro ígneo rúnico" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="9930-f9c0-29b6-bea6">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">-</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">8</characteristic>
@@ -1984,9 +1984,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Molten Infernoth" hidden="false" id="bc11-e1c6-f5de-ed0b">
+    <selectionEntry type="unit" import="true" name="Infernoth fundido" hidden="false" id="bc11-e1c6-f5de-ed0b">
       <profiles>
-        <profile name="Molten Infernoth" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="969b-4be7-8187-6bff">
+        <profile name="Infernoth fundido" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="969b-4be7-8187-6bff">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">8&quot;</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">10</characteristic>
@@ -2021,9 +2021,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         <categoryLink name="FYRESLAYERS" hidden="false" id="61ac-2fd8-178-79bd" targetId="6a02-a995-fd92-d806" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Raging Torrents of Lava" hidden="false" id="c2f3-3368-145d-de34">
+        <selectionEntry type="upgrade" import="true" name="Torrentes de lava furiosos" hidden="false" id="c2f3-3368-145d-de34">
           <profiles>
-            <profile name="Raging Torrents of Lava" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="9cd3-fbab-5166-de57">
+            <profile name="Torrentes de lava furiosos" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="9cd3-fbab-5166-de57">
               <characteristics>
                 <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">8&quot;</characteristic>
                 <characteristic name="Atk" typeId="aa17-4296-2887-e05d">2</characteristic>
@@ -2040,9 +2040,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="53d7-9550-ba8b-3ba2"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Molten Claws" hidden="false" id="75a-ed2a-c85f-ace5">
+        <selectionEntry type="upgrade" import="true" name="Garras fundidas" hidden="false" id="75a-ed2a-c85f-ace5">
           <profiles>
-            <profile name="Molten Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="58f6-e34a-156f-8274">
+            <profile name="Garras fundidas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="58f6-e34a-156f-8274">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2065,9 +2065,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Zharrgron Flame-spitter" hidden="false" id="f214-324b-6674-cf4">
+    <selectionEntry type="unit" import="true" name="Escupellamas Zharrgron" hidden="false" id="f214-324b-6674-cf4">
       <profiles>
-        <profile name="Zharrgron Flame-spitter" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="c59e-1cd7-2b58-252f">
+        <profile name="Escupellamas Zharrgron" typeId="1287-3a-9799-7e40" typeName="Manifestation" hidden="false" id="c59e-1cd7-2b58-252f">
           <characteristics>
             <characteristic name="Move" typeId="c28a-6000-2a0b-e7cf">-</characteristic>
             <characteristic name="Health" typeId="d1b9-3068-515-131e">5</characteristic>
@@ -2078,7 +2078,7 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
             <attribute name="Base Size" typeId="50db-066e-a3e7-696f"/>
           </attributes>
         </profile>
-        <profile name="Magma Blast" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="97c7-796b-448b-db56">
+        <profile name="Ráfaga de magma" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="97c7-796b-448b-db56">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de impacto de los ataques de disparo de esta **^^Manifestation^^** si la unidad objetivo tiene 10 o más miniaturas. En su lugar, suma 1 a las tiradas de impacto y de herida si la unidad objetivo tiene 15 o más miniaturas.</characteristic>
@@ -2098,9 +2098,9 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         <categoryLink name="FYRESLAYERS" hidden="false" id="6459-da75-696b-8f49" targetId="6a02-a995-fd92-d806" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Magma Blast" hidden="false" id="61e2-673f-7d52-ea57">
+        <selectionEntry type="upgrade" import="true" name="Ráfaga de magma" hidden="false" id="61e2-673f-7d52-ea57">
           <profiles>
-            <profile name="Magma Blast" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="60b7-3ae6-2681-d2a1">
+            <profile name="Ráfaga de magma" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="60b7-3ae6-2681-d2a1">
               <characteristics>
                 <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">18&quot;</characteristic>
                 <characteristic name="Atk" typeId="aa17-4296-2887-e05d">8</characteristic>
@@ -2124,7 +2124,7 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Magmic Battleforge" hidden="false" id="d4be-ace4-55bc-ea7c" publicationId="81a9-3dbf-dbc5-672e">
+    <selectionEntry type="unit" import="true" name="Forja de batalla magmática" hidden="false" id="d4be-ace4-55bc-ea7c" publicationId="81a9-3dbf-dbc5-672e">
       <categoryLinks>
         <categoryLink name="FACTION TERRAIN" hidden="false" id="9c87-2885-4d70-3354" targetId="cdd6-ffa1-9b32-4cb8" primary="true"/>
         <categoryLink name="FYRESLAYERS" hidden="false" id="5d8c-c849-849-5829" targetId="6a02-a995-fd92-d806" primary="false"/>
@@ -2132,7 +2132,7 @@ Si esta unidad es destruida mientras está en combate con su presa, inflige 3 pu
         <categoryLink name="WARD (6+)" hidden="false" id="9156-ec92-8eaa-c4e2" targetId="70a4-383f-421f-52cd" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Magmic Battleforge" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f8aa-afc7-d193-56bf">
+        <profile name="Forja de batalla magmática" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f8aa-afc7-d193-56bf">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">-</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">8</characteristic>
@@ -2179,7 +2179,7 @@ Cover, Impassable, Obscuring**</description>
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="The Chosen Axes" hidden="false" id="79e4-f929-c8d1-d8cf" publicationId="9dee-a6b2-4b42-bfee">
+    <selectionEntry type="unit" import="true" name="Las Hachas Elegidas" hidden="false" id="79e4-f929-c8d1-d8cf" publicationId="9dee-a6b2-4b42-bfee">
       <categoryLinks>
         <categoryLink name="ORDER" hidden="false" id="192a-602f-173c-0967" targetId="ee22-3575-6590-25c" primary="false"/>
         <categoryLink name="INFANTRY" hidden="false" id="a9fc-553b-2068-0f7e" targetId="75d6-6995-dfcc-3898" primary="true"/>
@@ -2191,7 +2191,7 @@ Cover, Impassable, Obscuring**</description>
         <categoryLink name="FYRESLAYERS" hidden="false" id="2df0-55ef-6ab1-32c3" targetId="6a02-a995-fd92-d806" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="The Chosen Axes" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ab13-874a-d1f2-4dfc">
+        <profile name="Las Hachas Elegidas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ab13-874a-d1f2-4dfc">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">3</characteristic>
@@ -2223,19 +2223,19 @@ Cover, Impassable, Obscuring**</description>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Tefk Flamebearer" hidden="false" id="dc29-8ff2-04a4-55ab">
+        <selectionEntry type="model" import="true" name="Tefk Portallamas" hidden="false" id="dc29-8ff2-04a4-55ab">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bfd3-2154-6cb2-2915"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e50e-4c7b-8c56-9149"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Fyresteel Weapons" hidden="false" id="25a6-2120-906e-2ac7">
+            <selectionEntry type="upgrade" import="true" name="Armas de acero ígneo" hidden="false" id="25a6-2120-906e-2ac7">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="86c5-3561-56aa-e3e7"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="812d-312c-1e11-a7bb"/>
               </constraints>
               <profiles>
-                <profile name="Fyresteel Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="fcf6-8f31-cee4-b99b">
+                <profile name="Armas de acero ígneo" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="fcf6-8f31-cee4-b99b">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2260,13 +2260,13 @@ Cover, Impassable, Obscuring**</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f78-9317-5d7f-736d"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Latchkey Grandaxe" hidden="false" id="a4aa-212e-c6e4-ac91">
+            <selectionEntry type="upgrade" import="true" name="Gran hacha llave" hidden="false" id="a4aa-212e-c6e4-ac91">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b07a-4a0c-b1c7-5b67"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb1d-b250-2f8f-cdb2"/>
               </constraints>
               <profiles>
-                <profile name="Latchkey Grandaxe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="33fe-3986-b098-d58a">
+                <profile name="Gran hacha llave" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="33fe-3986-b098-d58a">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -2299,19 +2299,19 @@ Cover, Impassable, Obscuring**</description>
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Mad Maegrim" hidden="false" id="501c-9ef0-8f36-b241">
+        <selectionEntry type="model" import="true" name="Maegrim el Loco" hidden="false" id="501c-9ef0-8f36-b241">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2144-9ebd-8696-c989"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc97-a0e9-bee3-39ef"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Fyresteel Weapons" hidden="false" id="62f6-59fd-f40d-80c7">
+            <selectionEntry type="upgrade" import="true" name="Armas de acero ígneo" hidden="false" id="62f6-59fd-f40d-80c7">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8e3f-6b24-bac4-049d"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1092-11f0-845f-203c"/>
               </constraints>
               <profiles>
-                <profile name="Fyresteel Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2ff0-e3a1-991d-193f">
+                <profile name="Armas de acero ígneo" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2ff0-e3a1-991d-193f">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2330,19 +2330,19 @@ Cover, Impassable, Obscuring**</description>
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Vol Orrukbane" hidden="false" id="c411-d757-ff37-ec0c">
+        <selectionEntry type="model" import="true" name="Vol Azote de Orruks" hidden="false" id="c411-d757-ff37-ec0c">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f4c3-69c1-3cff-97d8"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5980-811d-b2a3-f506"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Fyresteel Weapons" hidden="false" id="e8c1-886b-20b8-9848">
+            <selectionEntry type="upgrade" import="true" name="Armas de acero ígneo" hidden="false" id="e8c1-886b-20b8-9848">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="40f0-7b82-83c5-a650"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2313-52e2-484f-0cab"/>
               </constraints>
               <profiles>
-                <profile name="Fyresteel Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="d728-8b39-e61e-5096">
+                <profile name="Armas de acero ígneo" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="d728-8b39-e61e-5096">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2373,7 +2373,7 @@ Cover, Impassable, Obscuring**</description>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fc71-841a-3c7d-2a4c" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Auric Runeson on Magmadroth (Scourge of Ghyran)" hidden="true" id="153d-5d1c-c0c6-54cc" publicationId="f894-7929-f79a-a269">
+    <selectionEntry type="unit" import="true" name="Hijo rúnico áurico en Magmadroth (Azote de Ghyran)" hidden="true" id="153d-5d1c-c0c6-54cc" publicationId="f894-7929-f79a-a269">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="3334-9d72-4b6a-5f54" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="MONSTER" hidden="false" id="9b81-f41f-fed4-de22" targetId="6d54-625c-d063-13e2" primary="false"/>
@@ -2387,7 +2387,7 @@ Cover, Impassable, Obscuring**</description>
         <entryLink import="true" name="General" hidden="false" id="dcd2-eb5e-c7c6-c20a" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Auric Runeson on Magmadroth" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="2622-56ed-81ff-c012">
+        <profile name="Hijo rúnico áurico en Magmadroth" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="2622-56ed-81ff-c012">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">14</characteristic>
@@ -2409,7 +2409,7 @@ Cover, Impassable, Obscuring**</description>
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c90f-f0c1-e590-2b1e">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Magmadroth&apos;s Claws and Horns** es 4.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Garras y cuernos de Magmadroth** es 4.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -2420,7 +2420,7 @@ Cover, Impassable, Obscuring**</description>
         <profile name="Fire, Blood, and Vengeance" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6399-bf4a-70fc-9465">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **Auric Runefather on Magmadroth** amigo en el campo de batalla.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **Padre rúnico áurico en Magmadroth** amigo en el campo de batalla.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 1 a la característica de Damage de las armas de combate cuerpo a cuerpo de esta unidad, incluidas las armas **Companion**, mientras el objetivo esté en combate, dañado o destruido.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -2447,15 +2447,15 @@ Cover, Impassable, Obscuring**</description>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Auric Runeson on Magmadroth" hidden="false" id="2eef-84d9-0e4d-5c5d">
+        <selectionEntry type="model" import="true" name="Hijo rúnico áurico en Magmadroth" hidden="false" id="2eef-84d9-0e4d-5c5d">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ancestral Weapons" hidden="false" id="a86f-b834-e5e0-4fc0">
+            <selectionEntry type="upgrade" import="true" name="Armas ancestrales" hidden="false" id="a86f-b834-e5e0-4fc0">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3773-a357-9d87-da8c"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a8d-611a-27d8-c46d"/>
               </constraints>
               <profiles>
-                <profile name="Ancestral Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="a14e-e6f1-c270-77d7">
+                <profile name="Armas ancestrales" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="a14e-e6f1-c270-77d7">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -2467,13 +2467,13 @@ Cover, Impassable, Obscuring**</description>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Roaring Fyrestream" hidden="false" id="59d3-f7a8-43bd-2d7a">
+            <selectionEntry type="upgrade" import="true" name="Torrente ígneo rugiente" hidden="false" id="59d3-f7a8-43bd-2d7a">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ae31-55ac-e2e5-fc92"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="430a-6f8c-1638-0505"/>
               </constraints>
               <profiles>
-                <profile name="Roaring Fyrestream" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="8b47-b044-9567-8754">
+                <profile name="Torrente ígneo rugiente" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="8b47-b044-9567-8754">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">10&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">4</characteristic>
@@ -2486,13 +2486,13 @@ Cover, Impassable, Obscuring**</description>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magmadroth&apos;s Blazing Maw" hidden="false" id="b6b2-0967-e019-f47f">
+            <selectionEntry type="upgrade" import="true" name="Fauces ardientes de Magmadroth" hidden="false" id="b6b2-0967-e019-f47f">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5b0b-385b-424b-294a"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65f5-b3d6-0ea4-74f9"/>
               </constraints>
               <profiles>
-                <profile name="Magmadroth&apos;s Blazing Maw" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6d82-7670-c1d3-3782">
+                <profile name="Fauces ardientes de Magmadroth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6d82-7670-c1d3-3782">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2504,13 +2504,13 @@ Cover, Impassable, Obscuring**</description>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magmadroth&apos;s Claws and Horns" hidden="false" id="9a49-7842-3ebb-336d">
+            <selectionEntry type="upgrade" import="true" name="Garras y cuernos de Magmadroth" hidden="false" id="9a49-7842-3ebb-336d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="00df-86ab-9e26-3f49"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6196-b830-86d4-90ad"/>
               </constraints>
               <profiles>
-                <profile name="Magmadroth&apos;s Claws and Horns" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="830e-5dc3-ffe0-386d">
+                <profile name="Garras y cuernos de Magmadroth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="830e-5dc3-ffe0-386d">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2552,7 +2552,7 @@ Cover, Impassable, Obscuring**</description>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Auric Runeson on Magmadroth (Scourge of Aqshy)" hidden="true" id="d7ea-c712-766e-4585" publicationId="9e18-bb03-7b60-d4ff">
+    <selectionEntry type="unit" import="true" name="Hijo rúnico áurico en Magmadroth (Azote de Aqshy)" hidden="true" id="d7ea-c712-766e-4585" publicationId="9e18-bb03-7b60-d4ff">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="8d59-1a23-2c01-1df1" targetId="6e72-1656-d554-528a" primary="true"/>
         <categoryLink name="MONSTER" hidden="false" id="19ae-8ba3-85df-dd6d" targetId="6d54-625c-d063-13e2" primary="false"/>
@@ -2566,7 +2566,7 @@ Cover, Impassable, Obscuring**</description>
         <entryLink import="true" name="General" hidden="false" id="3d5c-b103-648b-3eb2" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Auric Runeson on Magmadroth" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="83da-4dfc-9a19-c0d0">
+        <profile name="Hijo rúnico áurico en Magmadroth" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="83da-4dfc-9a19-c0d0">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">14</characteristic>
@@ -2588,7 +2588,7 @@ Cover, Impassable, Obscuring**</description>
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a296-9f7c-4b85-a2ca">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Magmadroth&apos;s Claws and Horns** es 4.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Garras y cuernos de Magmadroth** es 4.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -2599,7 +2599,7 @@ Cover, Impassable, Obscuring**</description>
         <profile name="Fire, Blood and Vengeance" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f15a-2a66-9a1d-0d99">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **Auric Runefather on Magmadroth** amigo en el campo de batalla.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **Padre rúnico áurico en Magmadroth** amigo en el campo de batalla.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 1 a la característica de Damage de las armas de combate cuerpo a cuerpo de esta unidad, incluidas las armas **Companion**, mientras el objetivo esté en combate, dañado o destruido.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -2629,15 +2629,15 @@ Cover, Impassable, Obscuring**</description>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Auric Runeson on Magmadroth" hidden="false" id="37a1-b10c-8e45-83a8">
+        <selectionEntry type="model" import="true" name="Hijo rúnico áurico en Magmadroth" hidden="false" id="37a1-b10c-8e45-83a8">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ancestral Weapons" hidden="false" id="4e60-22d3-ab30-438b">
+            <selectionEntry type="upgrade" import="true" name="Armas ancestrales" hidden="false" id="4e60-22d3-ab30-438b">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="18a6-647d-5933-45cc"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe1f-851f-91d8-531b"/>
               </constraints>
               <profiles>
-                <profile name="Ancestral Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="a345-dda1-f21c-1a94">
+                <profile name="Armas ancestrales" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="a345-dda1-f21c-1a94">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -2649,13 +2649,13 @@ Cover, Impassable, Obscuring**</description>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Roaring Fyrestream" hidden="false" id="78f0-cd5b-da49-9b1d">
+            <selectionEntry type="upgrade" import="true" name="Torrente ígneo rugiente" hidden="false" id="78f0-cd5b-da49-9b1d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3334-5a87-dd20-255b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eda8-9dbc-8f9a-1bca"/>
               </constraints>
               <profiles>
-                <profile name="Roaring Fyrestream" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="882f-cf93-7dd6-1f32">
+                <profile name="Torrente ígneo rugiente" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="882f-cf93-7dd6-1f32">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">10&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">4</characteristic>
@@ -2668,13 +2668,13 @@ Cover, Impassable, Obscuring**</description>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magmadroth&apos;s Blazing Maw" hidden="false" id="7d2f-b2fa-fd9c-b6cd">
+            <selectionEntry type="upgrade" import="true" name="Fauces ardientes de Magmadroth" hidden="false" id="7d2f-b2fa-fd9c-b6cd">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fa9d-44a2-05ff-59f2"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2da8-86fe-703b-2e1f"/>
               </constraints>
               <profiles>
-                <profile name="Magmadroth&apos;s Blazing Maw" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ca0d-71f5-fc19-9f27">
+                <profile name="Fauces ardientes de Magmadroth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ca0d-71f5-fc19-9f27">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2686,13 +2686,13 @@ Cover, Impassable, Obscuring**</description>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magmadroth&apos;s Claws and Horns" hidden="false" id="c8f9-73c8-e2b8-bbf8">
+            <selectionEntry type="upgrade" import="true" name="Garras y cuernos de Magmadroth" hidden="false" id="c8f9-73c8-e2b8-bbf8">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3dc6-1686-7482-aada"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46a5-78c0-8004-6b61"/>
               </constraints>
               <profiles>
-                <profile name="Magmadroth&apos;s Claws and Horns" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="41ae-104e-d12d-66b0">
+                <profile name="Garras y cuernos de Magmadroth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="41ae-104e-d12d-66b0">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2734,9 +2734,9 @@ Cover, Impassable, Obscuring**</description>
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Vulkyn Flameseekers (Scourge of Aqshy)" hidden="false" id="3358-ef6e-0c9f-fc84" publicationId="9e18-bb03-7b60-d4ff">
+    <selectionEntry type="unit" import="true" name="Buscallamas vulkyn (Azote de Aqshy)" hidden="false" id="3358-ef6e-0c9f-fc84" publicationId="9e18-bb03-7b60-d4ff">
       <profiles>
-        <profile name="Vulkyn Flameseekers" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f90a-55c8-8e85-ac3f">
+        <profile name="Buscallamas vulkyn" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f90a-55c8-8e85-ac3f">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
@@ -2752,7 +2752,7 @@ Cover, Impassable, Obscuring**</description>
 Después, elige 1 de los siguientes efectos para aplicarlo hasta el inicio de tu siguiente turno, donde **X** es igual a tu **nivel de furia**.
 ***Vigour of the Ur-Salamander*:** Suma **X**" a la característica de Move de esta unidad.
 ***Fiery Determination*:** Suma **X** a la puntuación de control de esta unidad.
-***Kyndlewrath*:** Suma **X** a la característica de Attacks de las **Emberteeth** de esta unidad.</characteristic>
+***Kyndlewrath*:** Suma **X** a la característica de Attacks de las **Dientes de brasa** de esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2775,7 +2775,7 @@ Después, elige 1 de los siguientes efectos para aplicarlo hasta el inicio de tu
         <cost name="⬤" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Vulkyn Runefather" hidden="false" id="4232-c7f0-4772-3963" defaultAmount="1">
+        <selectionEntry type="model" import="true" name="Padre rúnico vulkyn" hidden="false" id="4232-c7f0-4772-3963" defaultAmount="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="7e01-92b7-f73d-fa37"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4bb6-be64-6697-eeea"/>
@@ -2793,9 +2793,9 @@ Después, elige 1 de los siguientes efectos para aplicarlo hasta el inicio de tu
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Vulkyn Weapons" hidden="false" id="3ff7-fdde-a203-a4b2">
+            <selectionEntry type="upgrade" import="true" name="Armas vulkyn" hidden="false" id="3ff7-fdde-a203-a4b2">
               <profiles>
-                <profile name="Vulkyn Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="fa9a-113d-2552-ee75">
+                <profile name="Armas vulkyn" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="fa9a-113d-2552-ee75">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -2858,9 +2858,9 @@ Después, elige 1 de los siguientes efectos para aplicarlo hasta el inicio de tu
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Emberteeth" hidden="false" id="f1de-78ff-fe6a-9992">
+            <selectionEntry type="upgrade" import="true" name="Dientes de brasa" hidden="false" id="f1de-78ff-fe6a-9992">
               <profiles>
-                <profile name="Emberteeth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c503-ad35-715a-7844">
+                <profile name="Dientes de brasa" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c503-ad35-715a-7844">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -2883,7 +2883,7 @@ Después, elige 1 de los siguientes efectos para aplicarlo hasta el inicio de tu
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Vulkyn Flameseeker" hidden="false" id="d655-da83-751b-e814" defaultAmount="7">
+        <selectionEntry type="model" import="true" name="Buscallamas vulkyn" hidden="false" id="d655-da83-751b-e814" defaultAmount="7">
           <constraints>
             <constraint type="min" value="7" field="selections" scope="parent" shared="false" id="1bfe-d944-a1f1-6920"/>
             <constraint type="max" value="7" field="selections" scope="parent" shared="false" id="f692-1179-b819-034c"/>
@@ -2901,9 +2901,9 @@ Después, elige 1 de los siguientes efectos para aplicarlo hasta el inicio de tu
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Vulkyn Weapons" hidden="false" id="6052-7f79-f02c-4f80">
+            <selectionEntry type="upgrade" import="true" name="Armas vulkyn" hidden="false" id="6052-7f79-f02c-4f80">
               <profiles>
-                <profile name="Vulkyn Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0fd2-3fb2-42bb-d88c">
+                <profile name="Armas vulkyn" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0fd2-3fb2-42bb-d88c">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
