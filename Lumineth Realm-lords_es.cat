@@ -10,7 +10,7 @@
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Battle Traits: Lumineth Realm-lords" hidden="false" id="1c21-9f7d-e38f-9ac8">
       <profiles>
-        <profile name="Depict Rune" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d178-fd0d-9ed5-3975" publicationId="9ed1-cf74-eb97-dee2">
+        <profile name="Trazar runa" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d178-fd0d-9ed5-3975" publicationId="9ed1-cf74-eb97-dee2">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por ronda de batalla (ejército), inicio de la ronda de batalla</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -49,9 +49,9 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Heirlooms of Hysh" id="fb81-8d79-ce7-1968" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Silver Wand" hidden="false" id="1113-982b-c805-a7bd" publicationId="9ed1-cf74-eb97-dee2">
+            <selectionEntry type="upgrade" import="true" name="Varita de plata" hidden="false" id="1113-982b-c805-a7bd" publicationId="9ed1-cf74-eb97-dee2">
               <profiles>
-                <profile name="Silver Wand" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="cd4e-d13b-7f73-c2f6">
+                <profile name="Varita de plata" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="cd4e-d13b-7f73-c2f6">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad no es Wizard, puede usar la habilidad &apos;Unbind&apos; como si tuviera **^^Wizard (1)^^**. En caso contrario, suma 1 a las tiradas de lanzamiento de esta unidad.</characteristic>
@@ -72,9 +72,9 @@
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Waystone" hidden="false" id="78f2-d016-a23b-a09c" publicationId="9ed1-cf74-eb97-dee2">
+            <selectionEntry type="upgrade" import="true" name="Piedra guía" hidden="false" id="78f2-d016-a23b-a09c" publicationId="9ed1-cf74-eb97-dee2">
               <profiles>
-                <profile name="Waystone" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bf55-c85d-6f2e-3371">
+                <profile name="Piedra guía" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bf55-c85d-6f2e-3371">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -93,9 +93,9 @@
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="959c-9509-7058-8cf" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Phoenix Stone" hidden="false" id="4613-9bbd-2a04-ba17" publicationId="9ed1-cf74-eb97-dee2">
+            <selectionEntry type="upgrade" import="true" name="Piedra del fénix" hidden="false" id="4613-9bbd-2a04-ba17" publicationId="9ed1-cf74-eb97-dee2">
               <profiles>
-                <profile name="Phoenix Stone" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7cdd-1a67-41c3-1518">
+                <profile name="Piedra del fénix" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7cdd-1a67-41c3-1518">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La primera vez que esta unidad fuera a ser destruida, antes de retirarla de la partida, tira un dado. Con un 3+, esta unidad no es destruida y los puntos de daño restantes que se le hayan infligido no tienen efecto. Después, **Heal (D3)** esta unidad.</characteristic>
@@ -142,7 +142,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61fa-1f52-39d2-3430"/>
           </constraints>
           <profiles>
-            <profile name="Arcane Focus" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4593-d3fc-f5bb-b4e3">
+            <profile name="Foco arcano" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4593-d3fc-f5bb-b4e3">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                 <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las habilidades de **^^Spell^^** del Lore of Hysh o del Lore of the Awakened Realms usadas por **^^Lumineth Realm-lords Wizards^^** amigos tienen la palabra clave **^^Unlimited^^**. Sin embargo, no puedes elegir la misma unidad como objetivo de la misma habilidad de **^^Spell^^** en el mismo turno.</characteristic>
@@ -165,7 +165,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eaf4-edf3-9280-7447"/>
           </constraints>
           <profiles>
-            <profile name="Trick of the Light" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c5c1-9ee-b41e-e2bb">
+            <profile name="Truco de la luz" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c5c1-9ee-b41e-e2bb">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                 <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades amigas **^^Lumineth Realm-lords^^** pueden usar la orden &apos;Power Through&apos; aunque no hayan cargado este turno.</characteristic>
@@ -203,7 +203,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="148f-c2a2-3777-e910"/>
           </constraints>
           <profiles>
-            <profile name="Strike as One" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="58e9-8167-aa44-b500">
+            <profile name="Golpear como uno solo" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="58e9-8167-aa44-b500">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                 <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando los jugadores estén alternando la elección de unidades para usar una habilidad de **^^Fight^^**, cuando te toque elegir una unidad, puedes elegir 2 unidades amigas **^^Lumineth Realm-lords^^** en lugar de 1. Resuelve la segunda habilidad de **^^Fight^^** inmediatamente después de la primera.</characteristic>
@@ -241,7 +241,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2716-ed8e-58f9-f6d5"/>
           </constraints>
           <profiles>
-            <profile name="Ancient Spirits" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7b6f-1ed6-7be5-a3e5">
+            <profile name="Espíritus ancestrales" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7b6f-1ed6-7be5-a3e5">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de héroe</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Lumineth Realm-lords Monster^^** amigo.</characteristic>
@@ -286,9 +286,9 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Facets of Brilliance" id="4d3f-ebb6-2595-b0fc" hidden="false">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Flawless Commander" hidden="false" id="5c02-bbe6-5614-e08c" publicationId="9ed1-cf74-eb97-dee2">
+            <selectionEntry type="upgrade" import="true" name="Comandante impecable" hidden="false" id="5c02-bbe6-5614-e08c" publicationId="9ed1-cf74-eb97-dee2">
               <profiles>
-                <profile name="Flawless Commander" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="424f-ecb-4817-2eb5">
+                <profile name="Comandante impecable" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="424f-ecb-4817-2eb5">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta 3 unidades amigas visibles **^^Lumineth Realm-lords Infantry^^** que estén totalmente a 18" o menos de esta unidad.</characteristic>
@@ -307,9 +307,9 @@
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ced5-6a3e-44dd-ba9a" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Masterful Tactician" hidden="false" id="b529-e265-113b-6bbe" publicationId="9ed1-cf74-eb97-dee2">
+            <selectionEntry type="upgrade" import="true" name="Táctico magistral" hidden="false" id="b529-e265-113b-6bbe" publicationId="9ed1-cf74-eb97-dee2">
               <profiles>
-                <profile name="Masterful Tactician" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c2ad-fd41-13a4-5261">
+                <profile name="Táctico magistral" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c2ad-fd41-13a4-5261">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redeploy&apos; para una unidad amiga **^^Lumineth Realm‑lords^^** que esté totalmente a 12" o menos de esta unidad</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -328,13 +328,13 @@
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4f5c-81a9-b615-5cb7" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Acolyte of the Runes" hidden="false" id="5378-7875-43c4-4eb1" publicationId="9ed1-cf74-eb97-dee2">
+            <selectionEntry type="upgrade" import="true" name="Acólito de las runas" hidden="false" id="5378-7875-43c4-4eb1" publicationId="9ed1-cf74-eb97-dee2">
               <profiles>
-                <profile name="Acolyte of the Runes" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2bcf-44e6-e1e8-a4ff">
+                <profile name="Acólito de las runas" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2bcf-44e6-e1e8-a4ff">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Inicio de la ronda de batalla</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Lumineth Realm-lords Hero^^** amigo que esté totalmente a 12" o menos de esta unidad.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Ese **^^Hero^^** puede ser elegido como objetivo adicional la próxima vez que uses la habilidad &apos;Depict Rune&apos;.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Ese **^^Hero^^** puede ser elegido como objetivo adicional la próxima vez que uses la habilidad &apos;Trazar runa&apos;.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -358,9 +358,9 @@
         </selectionEntryGroup>
         <selectionEntryGroup name="Aspects of Enlightenment" id="e04a-7a3c-fcd1-ba5d" hidden="true" publicationId="f894-7929-f79a-a269">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Aetherquartz Requisitioner" hidden="false" id="b6ad-6ae2-f5da-81c7">
+            <selectionEntry type="upgrade" import="true" name="Requisador de cuarzo etéreo" hidden="false" id="b6ad-6ae2-f5da-81c7">
               <profiles>
-                <profile name="Aetherquartz Requisitioner" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c83e-72e0-0149-7886">
+                <profile name="Requisador de cuarzo etéreo" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c83e-72e0-0149-7886">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, reacción: Has declarado una habilidad de **^^Spell^^** para un **^^Lumineth Realm-lords Wizard^^** dentro del alcance de combate de esta unidad</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -379,9 +379,9 @@
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="90a3-3793-1eda-32c2" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Martial Perfectionist" hidden="false" id="e4db-e9c3-5c41-cf56">
+            <selectionEntry type="upgrade" import="true" name="Perfeccionista marcial" hidden="false" id="e4db-e9c3-5c41-cf56">
               <profiles>
-                <profile name="Martial Perfectionist" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1d13-5cd9-fe0f-f6d8">
+                <profile name="Perfeccionista marcial" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1d13-5cd9-fe0f-f6d8">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 12" o menos de esta unidad que esté dañada o que haya tenido alguna miniatura abatida este turno.</characteristic>
@@ -400,9 +400,9 @@
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4021-de61-6601-401f" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Flawless Commander" hidden="false" id="de7a-3534-8d52-7949">
+            <selectionEntry type="upgrade" import="true" name="Comandante impecable" hidden="false" id="de7a-3534-8d52-7949">
               <profiles>
-                <profile name="Flawless Commander" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c450-d8ce-40e4-ed3b">
+                <profile name="Comandante impecable" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c450-d8ce-40e4-ed3b">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 2" a la característica de Move de las unidades amigas **^^Lumineth Realm-lords Infantry^^** mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
@@ -439,9 +439,9 @@
         </selectionEntryGroup>
         <selectionEntryGroup name="Facets of Brilliance" id="867c-5b8b-31f2-e25c" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Scholar of the Sigils" hidden="false" id="c8c0-a19b-c000-b137" publicationId="9e18-bb03-7b60-d4ff">
+            <selectionEntry type="upgrade" import="true" name="Erudito de los sigilos" hidden="false" id="c8c0-a19b-c000-b137" publicationId="9e18-bb03-7b60-d4ff">
               <profiles>
-                <profile name="Scholar of the Sigils" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4724-42c4-96b8-2c45">
+                <profile name="Erudito de los sigilos" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4724-42c4-96b8-2c45">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -465,9 +465,9 @@
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="48ff-6cc6-6ac3-f3b9" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Peerless Swordsman" hidden="false" id="a6b1-78ff-a6d7-376f" publicationId="9e18-bb03-7b60-d4ff">
+            <selectionEntry type="upgrade" import="true" name="Espadachín sin igual" hidden="false" id="a6b1-78ff-a6d7-376f" publicationId="9e18-bb03-7b60-d4ff">
               <profiles>
-                <profile name="Peerless Swordsman" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="8512-bd9a-1660-d32d">
+                <profile name="Espadachín sin igual" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="8512-bd9a-1660-d32d">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga con un tamaño inicial de 1 que esté en combate con esta unidad, y después elige 1 de las armas de cuerpo a cuerpo de esta unidad que no sean **Companion** para que sea el arma de parada.</characteristic>
@@ -486,9 +486,9 @@
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5678-5a8f-affa-6abd" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Dispassionate Soul" hidden="false" id="e950-9df4-1d76-9308" publicationId="9e18-bb03-7b60-d4ff">
+            <selectionEntry type="upgrade" import="true" name="Alma desapasionada" hidden="false" id="e950-9df4-1d76-9308" publicationId="9e18-bb03-7b60-d4ff">
               <profiles>
-                <profile name="Dispassionate Soul" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="db00-c65d-3234-fd9c">
+                <profile name="Alma desapasionada" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="db00-c65d-3234-fd9c">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, final de tu turno</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -671,9 +671,9 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Flawless Manoeuvres" id="b290-0d8d-1333-c1c8" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Perfect Footwork" hidden="false" id="4a32-9ce6-ce05-06c9" publicationId="9e18-bb03-7b60-d4ff">
+            <selectionEntry type="upgrade" import="true" name="Juego de pies perfecto" hidden="false" id="4a32-9ce6-ce05-06c9" publicationId="9e18-bb03-7b60-d4ff">
               <profiles>
-                <profile name="Perfect Footwork" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a3a5-6862-7d17-a3b4">
+                <profile name="Juego de pies perfecto" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a3a5-6862-7d17-a3b4">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de movimiento enemiga</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -712,9 +712,9 @@
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Patient Strike" hidden="false" id="6da6-8112-e745-f3b2" publicationId="9e18-bb03-7b60-d4ff">
+            <selectionEntry type="upgrade" import="true" name="Golpe paciente" hidden="false" id="6da6-8112-e745-f3b2" publicationId="9e18-bb03-7b60-d4ff">
               <profiles>
-                <profile name="Patient Strike" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="af99-e3d6-969e-cef5">
+                <profile name="Golpe paciente" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="af99-e3d6-969e-cef5">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de combate enemiga</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
@@ -753,9 +753,9 @@
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Dazzling Phalanx" hidden="false" id="dba5-d64f-18be-266d" publicationId="9e18-bb03-7b60-d4ff">
+            <selectionEntry type="upgrade" import="true" name="Falange deslumbrante" hidden="false" id="dba5-d64f-18be-266d" publicationId="9e18-bb03-7b60-d4ff">
               <profiles>
-                <profile name="Dazzling Phalanx" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="643b-c2ac-cf89-82bc">
+                <profile name="Falange deslumbrante" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="643b-c2ac-cf89-82bc">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: El oponente ha declarado una habilidad de **^^Charge^^** para una unidad a 9" o menos de esta unidad y visible para ella</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
