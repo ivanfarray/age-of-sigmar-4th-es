@@ -13,7 +13,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si no hay más de 1 **Feculent Gnarlmaw** amigo en el campo de batalla, puedes colocar un **Feculent Gnarlmaw** totalmente a 12" o menos de esta unidad y a más de 3" de todas las unidades enemigas, los objetivos y los demás elementos de escenografía.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si no hay más de 1 **Fauces retorcidas feculentas** amigo en el campo de batalla, puedes colocar un **Fauces retorcidas feculentas** totalmente a 12" o menos de esta unidad y a más de 3" de todas las unidades enemigas, los objetivos y los demás elementos de escenografía.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -34,7 +34,7 @@
         <profile name="Beast Handler" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b226-8a5b-e21b-6393">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad **Beast of Nurgle** amiga que haya sido destruida.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad **Bestia de Nurgle** amiga que haya sido destruida.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, coloca una unidad de reemplazo totalmente a 12" o menos de esta unidad y a más de 9" de todas las unidades enemigas.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -48,7 +48,7 @@
         <profile name="Gnarlmaw Whisperer" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2a32-11d3-c7bd-5b40">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de tu turno</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **Feculent Gnarlmaw** amigo.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **Fauces retorcidas feculentas** amigo.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Retira el objetivo del campo de batalla y vuelve a colocarlo totalmente a 12" o menos de esta unidad y a más de 3" de todas las unidades enemigas, los objetivos y los demás elementos de escenografía.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -72,13 +72,13 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Horticulous Slimux" hidden="false" id="7839-1e95-ed94-fe19">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Lopping Shears" hidden="false" id="e86b-b929-20c7-8490">
+            <selectionEntry type="upgrade" import="true" name="Tijeras de podar" hidden="false" id="e86b-b929-20c7-8490">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f85f-df62-a438-e235"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44f4-e05a-9b6f-5245"/>
               </constraints>
               <profiles>
-                <profile name="Lopping Shears" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="996f-afd1-66de-fbd8">
+                <profile name="Tijeras de podar" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="996f-afd1-66de-fbd8">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -90,13 +90,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Slime-encrusted Jaws" hidden="false" id="cb1e-9651-90d4-40bd">
+            <selectionEntry type="upgrade" import="true" name="Mandíbulas cubiertas de baba" hidden="false" id="cb1e-9651-90d4-40bd">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fff4-1955-3d9b-834f"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60ca-b7f2-b86d-a663"/>
               </constraints>
               <profiles>
-                <profile name="Slime-encrusted Jaws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="61cc-d84c-824f-7afc">
+                <profile name="Mandíbulas cubiertas de baba" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="61cc-d84c-824f-7afc">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -121,12 +121,12 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lord of Plagues" hidden="false" id="542a-9c27-908f-8c30" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Señor de las plagas" hidden="false" id="542a-9c27-908f-8c30" publicationId="9c71-86cb-e1d0-ec8d">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="f6bf-e1c6-12ba-4ea5" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Lord of Plagues" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="25ce-e99b-7118-1971">
+        <profile name="Señor de las plagas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="25ce-e99b-7118-1971">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">7</characteristic>
@@ -137,8 +137,8 @@
         <profile name="Sevenfold Slaughter" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="8d36-892d-9940-32ea">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad **Rotswords** amiga que no haya cargado este turno y esté totalmente a 12" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 2+, suma 1 a la característica de Attacks de las **Ruined Master-crafted Weapons** del objetivo durante el resto del turno.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad **Espadas pútridas** amiga que no haya cargado este turno y esté totalmente a 12" o menos de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 2+, suma 1 a la característica de Attacks de las **Armas de artesanía magistral arruinadas** del objetivo durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -151,7 +151,7 @@
         <profile name="Lord of the Infected Legions" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="62bc-578a-c14f-7d60">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de herida de los ataques de combate de las unidades **Rotswords** amigas que no hayan cargado este turno mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de herida de los ataques de combate de las unidades **Espadas pútridas** amigas que no hayan cargado este turno mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -169,15 +169,15 @@
         <categoryLink name="WARD (6+)" hidden="false" id="4548-1c2f-2001-8515" targetId="70a4-383f-421f-52cd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Lord of Plagues" hidden="false" id="3398-ea0d-f6e8-ec77">
+        <selectionEntry type="model" import="true" name="Señor de las plagas" hidden="false" id="3398-ea0d-f6e8-ec77">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Plague-ridden Great Blade" hidden="false" id="bb6c-2ad9-d081-12d3">
+            <selectionEntry type="upgrade" import="true" name="Gran hoja plagada" hidden="false" id="bb6c-2ad9-d081-12d3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a719-5c2d-2153-3da8"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2e4-ece1-3c60-fcbf"/>
               </constraints>
               <profiles>
-                <profile name="Plague-ridden Great Blade" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ac26-c454-78a6-783a">
+                <profile name="Gran hoja plagada" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ac26-c454-78a6-783a">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -202,12 +202,12 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Great Unclean One" hidden="false" id="bbb9-4b05-be8a-af89" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Gran Inmundicia" hidden="false" id="bbb9-4b05-be8a-af89" publicationId="9c71-86cb-e1d0-ec8d">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="c0da-de54-fb52-72d9" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Great Unclean One" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="78a-1c63-a8cd-d4fb">
+        <profile name="Gran Inmundicia" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="78a-1c63-a8cd-d4fb">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">6&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">20</characteristic>
@@ -247,7 +247,7 @@
             <characteristic name="Timing" typeId="736-6e3a-d0b5-a1b0">Una vez por turno (ejército), tu fase de movimiento</characteristic>
             <characteristic name="Cost" typeId="a49e-3082-e2a6-e802">1</characteristic>
             <characteristic name="Declare" typeId="b77f-7548-840e-c086">Elige como objetivo una unidad **^^Maggotkin of Nurgle Daemon^^** amiga que empezara la batalla con 3 o más miniaturas y haya sido destruida.</characteristic>
-            <characteristic name="Effect" typeId="2111-3ca8-61dd-a5f0">Coloca una unidad de reemplazo con la mitad de las miniaturas de la unidad objetivo (redondeando hacia arriba) totalmente a 6" o menos de esta unidad o de un **Feculent Gnarlmaw** amigo y a más de 9" de todas las unidades enemigas.</characteristic>
+            <characteristic name="Effect" typeId="2111-3ca8-61dd-a5f0">Coloca una unidad de reemplazo con la mitad de las miniaturas de la unidad objetivo (redondeando hacia arriba) totalmente a 6" o menos de esta unidad o de un **Fauces retorcidas feculentas** amigo y a más de 9" de todas las unidades enemigas.</characteristic>
             <characteristic name="Keywords" typeId="445d-f443-5448-e7ce"/>
           </characteristics>
           <attributes>
@@ -259,7 +259,7 @@
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a99f-1b24-64b9-afed">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Colossal Blight Weapons** es 3.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Armas de plaga colosales** es 3.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -278,15 +278,15 @@
         <categoryLink name="DAEMON" hidden="false" id="57e0-2cde-17e8-9e5f" targetId="dc0b-e417-51f4-10f0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Great Unclean One" hidden="false" id="ae51-81d-58ac-7259">
+        <selectionEntry type="model" import="true" name="Gran Inmundicia" hidden="false" id="ae51-81d-58ac-7259">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Noxious Bile" hidden="false" id="641a-a008-7b06-9ca6">
+            <selectionEntry type="upgrade" import="true" name="Bilis nociva" hidden="false" id="641a-a008-7b06-9ca6">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7ee2-cfd3-ab27-5985"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39a8-fd05-7492-63c7"/>
               </constraints>
               <profiles>
-                <profile name="Noxious Bile" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="5cb1-32e8-371d-e52">
+                <profile name="Bilis nociva" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="5cb1-32e8-371d-e52">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">7&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">D3+3</characteristic>
@@ -299,13 +299,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Colossal Blight Weapons" hidden="false" id="cf87-574a-867a-a056">
+            <selectionEntry type="upgrade" import="true" name="Armas de plaga colosales" hidden="false" id="cf87-574a-867a-a056">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3403-a99c-231d-6e2"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f45d-9788-a3de-7886"/>
               </constraints>
               <profiles>
-                <profile name="Colossal Blight Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="670e-4512-b1c8-4f33">
+                <profile name="Armas de plaga colosales" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="670e-4512-b1c8-4f33">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -330,7 +330,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="The Glottkin" hidden="false" id="d561-75fb-fd5f-57a5" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Los Glottkin" hidden="false" id="d561-75fb-fd5f-57a5" publicationId="9c71-86cb-e1d0-ec8d">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3d38-895a-cc1-133e" includeChildSelections="true"/>
       </constraints>
@@ -341,7 +341,7 @@
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9826-92d8-2722-c66b">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de **Ghurk&apos;s Tentacle** es 3.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de **Tentáculo de Ghurk** es 3.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -349,7 +349,7 @@
             <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
         </profile>
-        <profile name="The Glottkin" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="89ae-5ae8-3f5c-781f">
+        <profile name="Los Glottkin" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="89ae-5ae8-3f5c-781f">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">6&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">24</characteristic>
@@ -424,15 +424,15 @@
         <categoryLink name="WARD (6+)" hidden="false" id="3c40-6524-432b-094e" targetId="70a4-383f-421f-52cd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="The Glottkin" hidden="false" id="c01a-e8e8-275b-dffc">
+        <selectionEntry type="model" import="true" name="Los Glottkin" hidden="false" id="c01a-e8e8-275b-dffc">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ghurk&apos;s Lamprey Maw" hidden="false" id="798a-c33a-a32-5ad2">
+            <selectionEntry type="upgrade" import="true" name="Fauces de lamprea de Ghurk" hidden="false" id="798a-c33a-a32-5ad2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a777-5aef-5883-af4e"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6aef-12c-f275-4e4c"/>
               </constraints>
               <profiles>
-                <profile name="Ghurk&apos;s Lamprey Maw" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="229c-c358-e893-4119">
+                <profile name="Fauces de lamprea de Ghurk" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="229c-c358-e893-4119">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -444,13 +444,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ghurk&apos;s Tentacle" hidden="false" id="66bc-62f-2ffe-1da">
+            <selectionEntry type="upgrade" import="true" name="Tentáculo de Ghurk" hidden="false" id="66bc-62f-2ffe-1da">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="77e0-8614-83af-d11d"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df7b-5f95-999d-d3ea"/>
               </constraints>
               <profiles>
-                <profile name="Ghurk&apos;s Tentacle" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="576d-9108-da23-ff54">
+                <profile name="Tentáculo de Ghurk" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="576d-9108-da23-ff54">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -462,13 +462,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Otto&apos;s Scythe" hidden="false" id="9dd9-6cfa-1a95-166e">
+            <selectionEntry type="upgrade" import="true" name="Guadaña de Otto" hidden="false" id="9dd9-6cfa-1a95-166e">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="96e3-762a-43d5-9db0"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f0a0-404a-acb6-b26d"/>
               </constraints>
               <profiles>
-                <profile name="Otto&apos;s Scythe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="cf4d-3fc7-acc4-61bd">
+                <profile name="Guadaña de Otto" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="cf4d-3fc7-acc4-61bd">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -493,12 +493,12 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Spoilpox Scrivener, Herald of Nurgle" hidden="false" id="d44-acf2-9394-f93" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Escriba de la viruela corruptora, Heraldo de Nurgle" hidden="false" id="d44-acf2-9394-f93" publicationId="9c71-86cb-e1d0-ec8d">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="fbf3-d530-27e0-e979" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Spoilpox Scrivener, Herald of Nurgle" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="26b1-7b9f-f973-6bf4">
+        <profile name="Escriba de la viruela corruptora, Heraldo de Nurgle" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="26b1-7b9f-f973-6bf4">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -509,7 +509,7 @@
         <profile name="Keep Counting, I&apos;m Watching You" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="ba07-4997-d508-1bdb">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad **Plaguebearers** amiga totalmente a 12" o menos de esta unidad.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad **Portadores de plaga** amiga totalmente a 12" o menos de esta unidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 2+, elige 1 de los siguientes efectos para aplicarlo hasta el inicio de tu siguiente turno:
 ***Tally of Blows:*** Suma 1 a las tiradas de herida de los ataques de combate del objetivo.
 ***Recorded Stamina:*** Suma 5 a la puntuación de control del objetivo.</characteristic>
@@ -546,15 +546,15 @@
         <categoryLink name="INFANTRY" hidden="false" id="fd18-7a8f-646a-ca9b" targetId="75d6-6995-dfcc-3898" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Spoilpox Scrivener, Herald of Nurgle" hidden="false" id="cd4a-ac2e-8003-dfde">
+        <selectionEntry type="model" import="true" name="Escriba de la viruela corruptora, Heraldo de Nurgle" hidden="false" id="cd4a-ac2e-8003-dfde">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Disgusting Sneezes" hidden="false" id="cf67-8794-76aa-6433">
+            <selectionEntry type="upgrade" import="true" name="Estornudos repugnantes" hidden="false" id="cf67-8794-76aa-6433">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="68b4-6fc2-ff9c-1385"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f79-85bb-ebe4-c8ea"/>
               </constraints>
               <profiles>
-                <profile name="Disgusting Sneezes" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="7f1c-98ba-8901-7d2d">
+                <profile name="Estornudos repugnantes" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="7f1c-98ba-8901-7d2d">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">7&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">D6</characteristic>
@@ -567,13 +567,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Distended Maw" hidden="false" id="6863-b7df-56d0-9e7a">
+            <selectionEntry type="upgrade" import="true" name="Fauces distendidas" hidden="false" id="6863-b7df-56d0-9e7a">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b33d-7e79-6f3c-56f2"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f44e-b77f-7cbe-54cb"/>
               </constraints>
               <profiles>
-                <profile name="Distended Maw" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2e0f-127f-d270-9811">
+                <profile name="Fauces distendidas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2e0f-127f-d270-9811">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -598,12 +598,12 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sloppity Bilepiper, Herald of Nurgle" hidden="false" id="29d8-9408-2148-b2c9" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Sloppity Gaitabiliosa, Heraldo de Nurgle" hidden="false" id="29d8-9408-2148-b2c9" publicationId="9c71-86cb-e1d0-ec8d">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="63b1-cc6a-a2f9-3047" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Sloppity Bilepiper, Herald of Nurgle" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="563a-95ee-1e25-ed8d">
+        <profile name="Sloppity Gaitabiliosa, Heraldo de Nurgle" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="563a-95ee-1e25-ed8d">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -638,7 +638,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <categoryLink name="INFANTRY" hidden="false" id="140-c450-a1e7-a16c" targetId="75d6-6995-dfcc-3898" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Sloppity Bilepiper, Herald of Nurgle" hidden="false" id="cb9b-3778-6186-a015">
+        <selectionEntry type="model" import="true" name="Sloppity Gaitabiliosa, Heraldo de Nurgle" hidden="false" id="cb9b-3778-6186-a015">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Marotter" hidden="false" id="54c-2047-c407-a72f">
               <constraints>
@@ -671,9 +671,9 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Beast of Nurgle" hidden="false" id="8197-2f04-e647-f5c" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Bestia de Nurgle" hidden="false" id="8197-2f04-e647-f5c" publicationId="9c71-86cb-e1d0-ec8d">
       <profiles>
-        <profile name="Beast of Nurgle" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="b756-df5-c86e-f5a1">
+        <profile name="Bestia de Nurgle" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="b756-df5-c86e-f5a1">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">7&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">8</characteristic>
@@ -707,19 +707,19 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <cost name="‎" id="655c-b4a9-b5d9-4130" hidden="false" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Beast of Nurgle" hidden="false" id="e848-7195-c93b-9fd">
+        <selectionEntry type="model" import="true" name="Bestia de Nurgle" hidden="false" id="e848-7195-c93b-9fd">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="236c-7d6-d3e-9cb9"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9970-ba66-73f9-40e3"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Filthy Claws and Slobbering Maw" hidden="false" id="c75a-65f2-3572-d864">
+            <selectionEntry type="upgrade" import="true" name="Garras inmundas y fauces babeantes" hidden="false" id="c75a-65f2-3572-d864">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="be-1f75-27ec-3c88"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c932-2074-93c1-63da"/>
               </constraints>
               <profiles>
-                <profile name="Filthy Claws and Slobbering Maw" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="68d8-cd8-7c5d-e907">
+                <profile name="Garras inmundas y fauces babeantes" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="68d8-cd8-7c5d-e907">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -743,9 +743,9 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <infoLink name="Beast" id="9f58-1a9c-c31b-409b" hidden="false" type="profile" targetId="8e01-c681-8a44-8f44"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Putrid Blightkings" hidden="false" id="9951-ae95-5386-f8cf" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Reyes de la plaga pútridos" hidden="false" id="9951-ae95-5386-f8cf" publicationId="9c71-86cb-e1d0-ec8d">
       <profiles>
-        <profile name="Putrid Blightkings" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="bf80-df32-276-ea74">
+        <profile name="Reyes de la plaga pútridos" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="bf80-df32-276-ea74">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">3</characteristic>
@@ -783,19 +783,19 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <cost name="‎" id="203-74f0-dad-ad49" hidden="false" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Putrid Blightking" hidden="false" id="cc14-1755-fca4-4ced" defaultAmount="1,1,3">
+        <selectionEntry type="model" import="true" name="Rey de la plaga pútrido" hidden="false" id="cc14-1755-fca4-4ced" defaultAmount="1,1,3">
           <constraints>
             <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="8ae7-e307-2422-4ac3" automatic="true"/>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="2c45-c931-cfca-23b" automatic="true"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Blighted Weapons" hidden="false" id="99a1-7c20-292d-c217">
+            <selectionEntry type="upgrade" import="true" name="Armas infectadas" hidden="false" id="99a1-7c20-292d-c217">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f163-49fb-5bb-361d"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab9b-f399-6adc-83fe"/>
               </constraints>
               <profiles>
-                <profile name="Pox-blighted Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="390b-69af-84a5-dbf2">
+                <profile name="Armas infectadas de viruela" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="390b-69af-84a5-dbf2">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -856,9 +856,9 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Putrid Blightkings (Scourge of Aqshy)" hidden="false" id="0ca9-6528-8c0f-a96d" publicationId="9e18-bb03-7b60-d4ff">
+    <selectionEntry type="unit" import="true" name="Reyes de la plaga pútridos (Azote de Aqshy)" hidden="false" id="0ca9-6528-8c0f-a96d" publicationId="9e18-bb03-7b60-d4ff">
       <profiles>
-        <profile name="Putrid Blightkings" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f3b8-30e7-0b12-352f">
+        <profile name="Reyes de la plaga pútridos" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f3b8-30e7-0b12-352f">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">3</characteristic>
@@ -908,19 +908,19 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <cost name="‎" id="a4b0-7b8a-4a4b-cb0e" hidden="false" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Putrid Blightking" hidden="false" id="df51-338a-ca04-dcad" defaultAmount="1,1,3">
+        <selectionEntry type="model" import="true" name="Rey de la plaga pútrido" hidden="false" id="df51-338a-ca04-dcad" defaultAmount="1,1,3">
           <constraints>
             <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="4066-d1a3-0a3b-de4e"/>
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="0e9a-4547-b6d5-9d30"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Blighted Weapons" hidden="false" id="9122-6655-728f-cdbd">
+            <selectionEntry type="upgrade" import="true" name="Armas infectadas" hidden="false" id="9122-6655-728f-cdbd">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="494a-e3b7-29cb-61b1"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fd2-1f2f-9f0e-9d7d"/>
               </constraints>
               <profiles>
-                <profile name="Pox-blighted Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ef4b-2663-1c19-f53f">
+                <profile name="Armas infectadas de viruela" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ef4b-2663-1c19-f53f">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1012,7 +1012,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Esta unidad solo puede usar esta habilidad si ha sido destruida.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca una unidad de reemplazo totalmente a 6" o menos de un **Feculent Gnarlmaw** amigo y a más de 9" de todas las unidades enemigas.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca una unidad de reemplazo totalmente a 6" o menos de un **Fauces retorcidas feculentas** amigo y a más de 9" de todas las unidades enemigas.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1040,13 +1040,13 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="f296-17c8-2ebd-24f8"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Tiny Razor-sharp Teeth" hidden="false" id="4f9-108b-7831-a9f2">
+            <selectionEntry type="upgrade" import="true" name="Diminutos dientes afilados" hidden="false" id="4f9-108b-7831-a9f2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="96e4-e7bb-470c-9d95"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3657-49c7-c045-50d8"/>
               </constraints>
               <profiles>
-                <profile name="Tiny Razor-sharp Teeth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="4a34-cb62-5bc3-ee83">
+                <profile name="Diminutos dientes afilados" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="4a34-cb62-5bc3-ee83">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">5+</characteristic>
@@ -1082,9 +1082,9 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <infoLink name="Beast" id="1995-fd71-8d5d-233a" hidden="false" type="profile" targetId="8e01-c681-8a44-8f44"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Pusgoyle Blightlords" hidden="false" id="fef0-a956-3083-4cf3" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Señores de la plaga pusgoyle" hidden="false" id="fef0-a956-3083-4cf3" publicationId="9c71-86cb-e1d0-ec8d">
       <profiles>
-        <profile name="Pusgoyle Blightlords" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="fcf4-6ae7-7f11-df36">
+        <profile name="Señores de la plaga pusgoyle" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="fcf4-6ae7-7f11-df36">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">8</characteristic>
@@ -1095,7 +1095,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <profile name="Relentless Attackers" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f605-733a-b0d1-87b5">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Rend del **Flyrider&apos;s Arsenal** de esta unidad para ataques que tengan como objetivo unidades enemigas que disputen un objetivo.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Rend del **Arsenal de jinete de mosca** de esta unidad para ataques que tengan como objetivo unidades enemigas que disputen un objetivo.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
@@ -1127,19 +1127,19 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <cost name="‎" id="59ea-bb77-6cf4-6dbc" hidden="false" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Pusgoyle Blightlords" hidden="false" id="f7ee-b2a1-a0fa-8a89">
+        <selectionEntry type="model" import="true" name="Señores de la plaga pusgoyle" hidden="false" id="f7ee-b2a1-a0fa-8a89">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7479-509f-8c31-baf9" automatic="true"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3e99-d074-61bb-ba16" automatic="true"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Flyrider&apos;s Arsenal" hidden="false" id="e1a9-a456-a5e7-82c3">
+            <selectionEntry type="upgrade" import="true" name="Arsenal de jinete de mosca" hidden="false" id="e1a9-a456-a5e7-82c3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fad8-e383-baab-7e2e"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be04-8bfe-f7d4-114e"/>
               </constraints>
               <profiles>
-                <profile name="Flyrider&apos;s Arsenal" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6a77-668e-587a-21a2">
+                <profile name="Arsenal de jinete de mosca" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6a77-668e-587a-21a2">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1151,13 +1151,13 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Rot Fly&apos;s Mouthparts and Sting" hidden="false" id="df32-5e13-6c36-8787">
+            <selectionEntry type="upgrade" import="true" name="Piezas bucales y aguijón de mosca de la podredumbre" hidden="false" id="df32-5e13-6c36-8787">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f5e7-7823-8f84-474f"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba09-285d-5ec3-e7a7"/>
               </constraints>
               <profiles>
-                <profile name="Rot Fly&apos;s Mouthparts and Sting" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="26e8-1d3b-9e4b-c2f7">
+                <profile name="Piezas bucales y aguijón de mosca de la podredumbre" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="26e8-1d3b-9e4b-c2f7">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -1211,7 +1211,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="66e4-b8e8-2237-bd41">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de su **Gnarlrod** es 3.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de su **Vara retorcida** es 3.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -1280,13 +1280,13 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Rotigus" hidden="false" id="16f6-a6e9-b74a-eff1">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gnarlrod" hidden="false" id="e530-b232-13b4-c203">
+            <selectionEntry type="upgrade" import="true" name="Vara retorcida" hidden="false" id="e530-b232-13b4-c203">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2e29-a182-6d1a-d1b6"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3f9-1a3a-5069-554e"/>
               </constraints>
               <profiles>
-                <profile name="Gnarlrod" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c31-67fd-5317-360a">
+                <profile name="Vara retorcida" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c31-67fd-5317-360a">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1298,13 +1298,13 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Fanged Maws" hidden="false" id="32ff-2eda-f4ad-c64d">
+            <selectionEntry type="upgrade" import="true" name="Fauces dentadas" hidden="false" id="32ff-2eda-f4ad-c64d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="776c-9fa9-e5fb-72b3"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fc77-2f45-9402-4cec"/>
               </constraints>
               <profiles>
-                <profile name="Fanged Maws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="368c-3019-9d61-e99d">
+                <profile name="Fauces dentadas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="368c-3019-9d61-e99d">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1329,7 +1329,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Gutrot Spume" hidden="false" id="5586-2cfb-7451-aedc" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Gutrot Espuma" hidden="false" id="5586-2cfb-7451-aedc" publicationId="9c71-86cb-e1d0-ec8d">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8bfc-19cb-601a-a863" includeChildSelections="true"/>
       </constraints>
@@ -1351,7 +1351,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
         </profile>
-        <profile name="Gutrot Spume" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="568e-e879-14d9-d74a">
+        <profile name="Gutrot Espuma" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="568e-e879-14d9-d74a">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">7</characteristic>
@@ -1398,15 +1398,15 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <categoryLink name="WARD (6+)" hidden="false" id="6a06-8413-cf61-e14d" targetId="70a4-383f-421f-52cd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Gutrot Spume" hidden="false" id="f5e2-2b72-f4bb-a7a4">
+        <selectionEntry type="model" import="true" name="Gutrot Espuma" hidden="false" id="f5e2-2b72-f4bb-a7a4">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Rot-pocked Axe" hidden="false" id="7a03-cc75-a40a-f458">
+            <selectionEntry type="upgrade" import="true" name="Hacha picada de podredumbre" hidden="false" id="7a03-cc75-a40a-f458">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fde9-848f-2347-35f8"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa73-61d2-a6da-9daf"/>
               </constraints>
               <profiles>
-                <profile name="Rot-pocked Axe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="8d6d-4eec-4c1a-8145">
+                <profile name="Hacha picada de podredumbre" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="8d6d-4eec-4c1a-8145">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1431,7 +1431,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Morbidex Twiceborn" hidden="false" id="4de5-75a7-bc3d-8ced" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Morbidex Nacido Dos Veces" hidden="false" id="4de5-75a7-bc3d-8ced" publicationId="9c71-86cb-e1d0-ec8d">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="be73-a602-70d9-edf0" includeChildSelections="true"/>
       </constraints>
@@ -1442,7 +1442,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7595-2783-c489-4ea3">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de **Tripletongue&apos;s Claws** es 3.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de **Garras de Triplelengua** es 3.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -1450,7 +1450,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
             <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
         </profile>
-        <profile name="Morbidex Twiceborn" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="680a-b312-f3f1-995a">
+        <profile name="Morbidex Nacido Dos Veces" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="680a-b312-f3f1-995a">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">14</characteristic>
@@ -1512,15 +1512,15 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <categoryLink name="WARD (6+)" hidden="false" id="fb63-3cda-9778-487c" targetId="70a4-383f-421f-52cd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Morbidex Twiceborn" hidden="false" id="586e-ae3f-7908-9d6b">
+        <selectionEntry type="model" import="true" name="Morbidex Nacido Dos Veces" hidden="false" id="586e-ae3f-7908-9d6b">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Tripletongue&apos;s Slabrous Tongues" hidden="false" id="873c-a30e-d3c7-a89c">
+            <selectionEntry type="upgrade" import="true" name="Lenguas babosas de Triplelengua" hidden="false" id="873c-a30e-d3c7-a89c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1b29-3cef-3eee-d410"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8aad-f0b9-ce7f-66dd"/>
               </constraints>
               <profiles>
-                <profile name="Tripletongue&apos;s Slabrous Tongues" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="5226-8129-e2d8-6b93">
+                <profile name="Lenguas babosas de Triplelengua" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="5226-8129-e2d8-6b93">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">7&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">3</characteristic>
@@ -1533,13 +1533,13 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Fleshreaper Scythe" hidden="false" id="d82d-24a0-c18f-d6c1">
+            <selectionEntry type="upgrade" import="true" name="Guadaña segacarne" hidden="false" id="d82d-24a0-c18f-d6c1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="80d5-e3e1-76ad-1f3c"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e9c-f05a-1c55-bd12"/>
               </constraints>
               <profiles>
-                <profile name="Fleshreaper Scythe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f526-14e5-428c-e2c9">
+                <profile name="Guadaña segacarne" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f526-14e5-428c-e2c9">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1551,13 +1551,13 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Tripletongue&apos;s Claws" hidden="false" id="939-a628-e00-f11c">
+            <selectionEntry type="upgrade" import="true" name="Garras de Triplelengua" hidden="false" id="939-a628-e00-f11c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="444-7d56-6a0b-c1aa"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f851-b9dc-94d1-e29d"/>
               </constraints>
               <profiles>
-                <profile name="Tripletongue&apos;s Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6233-c2a6-405c-29ea">
+                <profile name="Garras de Triplelengua" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6233-c2a6-405c-29ea">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -1582,7 +1582,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Bloab Rotspawned" hidden="false" id="5d0c-177b-8fbf-c3ee" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Bloab Nacido de la Podredumbre" hidden="false" id="5d0c-177b-8fbf-c3ee" publicationId="9c71-86cb-e1d0-ec8d">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b6fc-e00a-4479-3be9" includeChildSelections="true"/>
       </constraints>
@@ -1593,7 +1593,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="af6d-d533-ed12-742d">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de **Bilespurter&apos;s Claws** es 3.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de **Garras de Escupebilis** es 3.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -1601,7 +1601,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
             <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
         </profile>
-        <profile name="Bloab Rotspawned" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="d0b6-b6c1-df15-868">
+        <profile name="Bloab Nacido de la Podredumbre" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="d0b6-b6c1-df15-868">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">14</characteristic>
@@ -1648,15 +1648,15 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <categoryLink name="WARD (6+)" hidden="false" id="046a-4525-a7ca-f63f" targetId="70a4-383f-421f-52cd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Bloab Rotspawned" hidden="false" id="f40a-e06c-77b3-5f92">
+        <selectionEntry type="model" import="true" name="Bloab Nacido de la Podredumbre" hidden="false" id="f40a-e06c-77b3-5f92">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Bilespurter&apos;s Vile Bile" hidden="false" id="9e74-8d99-52d9-e35f">
+            <selectionEntry type="upgrade" import="true" name="Bilis vil de Escupebilis" hidden="false" id="9e74-8d99-52d9-e35f">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d07d-2a8e-cb4e-c392"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50c6-cc70-5cf-7417"/>
               </constraints>
               <profiles>
-                <profile name="Bilespurter&apos;s Vile Bile" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="a90-cf8a-e5cf-5ddb">
+                <profile name="Bilis vil de Escupebilis" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="a90-cf8a-e5cf-5ddb">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">7&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">7</characteristic>
@@ -1669,13 +1669,13 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Harvestman&apos;s Scythe" hidden="false" id="1389-a6b4-44f3-8a19">
+            <selectionEntry type="upgrade" import="true" name="Guadaña de cosechador" hidden="false" id="1389-a6b4-44f3-8a19">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3894-385c-1c69-b218"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c7b-2c13-744a-1560"/>
               </constraints>
               <profiles>
-                <profile name="Harvestman&apos;s Scythe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="423c-e99f-beb4-16b3">
+                <profile name="Guadaña de cosechador" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="423c-e99f-beb4-16b3">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1693,7 +1693,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6222-e9ee-49f1-ea49"/>
               </constraints>
               <profiles>
-                <profile name="Bilespurter&apos;s Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f184-dc22-ce28-dc09">
+                <profile name="Garras de Escupebilis" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f184-dc22-ce28-dc09">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -1718,12 +1718,12 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Poxbringer, Herald of Nurgle" hidden="false" id="3f9b-a5f1-3290-cd8a" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Portador de viruela, Heraldo de Nurgle" hidden="false" id="3f9b-a5f1-3290-cd8a" publicationId="9c71-86cb-e1d0-ec8d">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="3fa3-8948-75b4-edc" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Poxbringer, Herald of Nurgle" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="a43c-e9c1-1690-1d15">
+        <profile name="Portador de viruela, Heraldo de Nurgle" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="a43c-e9c1-1690-1d15">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -1735,7 +1735,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad **^^Fight^^** para esta unidad</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad **Plaguebearers** amiga que no haya usado una habilidad **^^Fight^^** este turno y esté dentro del alcance de combate de esta unidad. El objetivo puede ser elegido para usar una habilidad **^^Fight^^** inmediatamente después de resolver la habilidad **^^Fight^^** usada por esta unidad. Si es elegido para hacerlo, suma 1 a la característica de Attacks de sus armas de combate durante el resto del turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad **Portadores de plaga** amiga que no haya usado una habilidad **^^Fight^^** este turno y esté dentro del alcance de combate de esta unidad. El objetivo puede ser elegido para usar una habilidad **^^Fight^^** inmediatamente después de resolver la habilidad **^^Fight^^** usada por esta unidad. Si es elegido para hacerlo, suma 1 a la característica de Attacks de sus armas de combate durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1756,15 +1756,15 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <categoryLink name="INFANTRY" hidden="false" id="2cbb-899e-8084-7010" targetId="75d6-6995-dfcc-3898" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Poxbringer, Herald of Nurgle" hidden="false" id="6279-7e3d-25a4-f212">
+        <selectionEntry type="model" import="true" name="Portador de viruela, Heraldo de Nurgle" hidden="false" id="6279-7e3d-25a4-f212">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Corrupted Balesword" hidden="false" id="a490-1dd0-e5f-154e">
+            <selectionEntry type="upgrade" import="true" name="Espada funesta corrupta" hidden="false" id="a490-1dd0-e5f-154e">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="75dc-9bc8-9e66-7b78"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="912c-c26f-363a-ed27"/>
               </constraints>
               <profiles>
-                <profile name="Corrupted Balesword" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ed3e-4b2c-7395-415d">
+                <profile name="Espada funesta corrupta" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ed3e-4b2c-7395-415d">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -1789,7 +1789,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Orghotts Daemonspew" hidden="false" id="b30a-a7ad-baf5-52a9" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Orghotts Vomitademonios" hidden="false" id="b30a-a7ad-baf5-52a9" publicationId="9c71-86cb-e1d0-ec8d">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="356e-5cf-3a4d-d1bc" includeChildSelections="true"/>
       </constraints>
@@ -1800,7 +1800,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5a68-280b-b2a5-53aa">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de **Whippermaw&apos;s Claws** es 3.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de **Garras de Fauces Azotadoras** es 3.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -1808,7 +1808,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
             <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
         </profile>
-        <profile name="Orghotts Daemonspew" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="7134-a4cf-77eb-6591">
+        <profile name="Orghotts Vomitademonios" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="7134-a4cf-77eb-6591">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">14</characteristic>
@@ -1852,15 +1852,15 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <categoryLink name="WARD (6+)" hidden="false" id="2230-48b3-7c9b-ab0e" targetId="70a4-383f-421f-52cd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Orghotts Daemonspew" hidden="false" id="f0a6-d0d7-3ef8-3099">
+        <selectionEntry type="model" import="true" name="Orghotts Vomitademonios" hidden="false" id="f0a6-d0d7-3ef8-3099">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Whippermaw&apos;s Grasping Tongue" hidden="false" id="c657-89cd-d3f8-1ee9">
+            <selectionEntry type="upgrade" import="true" name="Lengua prensil de Fauces Azotadoras" hidden="false" id="c657-89cd-d3f8-1ee9">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb79-82ec-370f-296d"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce28-1c1b-aa4a-8841"/>
               </constraints>
               <profiles>
-                <profile name="Whippermaw&apos;s Grasping Tongue" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="fbcb-776b-90d7-430">
+                <profile name="Lengua prensil de Fauces Azotadoras" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="fbcb-776b-90d7-430">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">7&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">1</characteristic>
@@ -1873,13 +1873,13 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="The Rotaxes" hidden="false" id="8d82-ca9-3658-4f5b">
+            <selectionEntry type="upgrade" import="true" name="Las Hachas Pútridas" hidden="false" id="8d82-ca9-3658-4f5b">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7337-30d8-33e8-fee"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fad4-f8d8-4d3a-e05a"/>
               </constraints>
               <profiles>
-                <profile name="The Rotaxes" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7f60-ffb2-bd8-8883">
+                <profile name="Las Hachas Pútridas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7f60-ffb2-bd8-8883">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">7</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -1891,13 +1891,13 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Whippermaw&apos;s Claws" hidden="false" id="c8e0-cfa7-acb9-5772">
+            <selectionEntry type="upgrade" import="true" name="Garras de Fauces Azotadoras" hidden="false" id="c8e0-cfa7-acb9-5772">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="707-7be-f5ec-811a"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="964b-4985-6db-d17c"/>
               </constraints>
               <profiles>
-                <profile name="Whippermaw&apos;s Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="d4e4-fab7-163f-fa38">
+                <profile name="Garras de Fauces Azotadoras" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="d4e4-fab7-163f-fa38">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -1922,12 +1922,12 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Rotbringer Sorcerer" hidden="false" id="8fe7-5f8f-68ac-b786" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Hechicero portador de podredumbre" hidden="false" id="8fe7-5f8f-68ac-b786" publicationId="9c71-86cb-e1d0-ec8d">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="4034-1009-826-84b2" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Rotbringer Sorcerer" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f4e5-7991-55b-924f">
+        <profile name="Hechicero portador de podredumbre" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f4e5-7991-55b-924f">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">6</characteristic>
@@ -1960,15 +1960,15 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <categoryLink name="WARD (6+)" hidden="false" id="98d3-9637-632c-d969" targetId="70a4-383f-421f-52cd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Rotbringer Sorcerer" hidden="false" id="36b6-320c-7e7c-16db">
+        <selectionEntry type="model" import="true" name="Hechicero portador de podredumbre" hidden="false" id="36b6-320c-7e7c-16db">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Rotwood Staff" hidden="false" id="c09-bbe3-5db6-6856">
+            <selectionEntry type="upgrade" import="true" name="Bastón de madera podrida" hidden="false" id="c09-bbe3-5db6-6856">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="93c9-2579-6c0c-1c6b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64f0-eaec-e14a-d299"/>
               </constraints>
               <profiles>
-                <profile name="Rotwood Staff" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="cc0f-830-9933-52b5">
+                <profile name="Bastón de madera podrida" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="cc0f-830-9933-52b5">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -1993,12 +1993,12 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lord of Afflictions" hidden="false" id="3da0-ddfc-c8f-5e80" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Señor de las aflicciones" hidden="false" id="3da0-ddfc-c8f-5e80" publicationId="9c71-86cb-e1d0-ec8d">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="f4ee-8f36-6a2f-4a9e" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Lord of Afflictions" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="85c1-6d8d-32e7-1266">
+        <profile name="Señor de las aflicciones" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="85c1-6d8d-32e7-1266">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">8</characteristic>
@@ -2009,8 +2009,8 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <profile name="Master of Rot Flies" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b742-948a-9f11-4c59">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad ha cargado este turno, elige como objetivos esta unidad y hasta 2 unidades **Pusgoyle Blightlords** amigas totalmente a 12" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 1 a la característica de Rend de las armas de combate **Rot Fly&apos;s Mouthparts and Sting** de los objetivos durante el resto del turno.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad ha cargado este turno, elige como objetivos esta unidad y hasta 2 unidades **Señores de la plaga pusgoyle** amigas totalmente a 12" o menos de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 1 a la característica de Rend de las armas de combate **Piezas bucales y aguijón de mosca de la podredumbre** de los objetivos durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2045,15 +2045,15 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <categoryLink name="WARD (6+)" hidden="false" id="05f0-9b57-70d0-6629" targetId="70a4-383f-421f-52cd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Lord of Afflictions" hidden="false" id="e70b-293d-979b-b0ed">
+        <selectionEntry type="model" import="true" name="Señor de las aflicciones" hidden="false" id="e70b-293d-979b-b0ed">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Festerspike" hidden="false" id="f4e7-5be-2f59-917c">
+            <selectionEntry type="upgrade" import="true" name="Púa purulenta" hidden="false" id="f4e7-5be-2f59-917c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b232-2a43-82e0-4655"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be15-d3a2-ad32-9cd8"/>
               </constraints>
               <profiles>
-                <profile name="Festerspike" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="afa9-b578-5d8b-88ee">
+                <profile name="Púa purulenta" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="afa9-b578-5d8b-88ee">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -2065,13 +2065,13 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Rot Fly&apos;s Mouthparts and Sting" hidden="false" id="f1d1-ef8f-676f-3f8b">
+            <selectionEntry type="upgrade" import="true" name="Piezas bucales y aguijón de mosca de la podredumbre" hidden="false" id="f1d1-ef8f-676f-3f8b">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1ac2-ecc8-5472-ad73"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fea7-ee79-ce5-2df9"/>
               </constraints>
               <profiles>
-                <profile name="Rot Fly&apos;s Mouthparts and Sting" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c9fc-bb4f-c215-36f8">
+                <profile name="Piezas bucales y aguijón de mosca de la podredumbre" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c9fc-bb4f-c215-36f8">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2096,12 +2096,12 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Harbinger of Decay" hidden="false" id="c473-7f30-9a81-12d4" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Heraldo de la descomposición" hidden="false" id="c473-7f30-9a81-12d4" publicationId="9c71-86cb-e1d0-ec8d">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="aefc-10a9-d264-8cf4" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Harbinger of Decay" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="8ef7-80c7-17a3-251d">
+        <profile name="Heraldo de la descomposición" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="8ef7-80c7-17a3-251d">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">7</characteristic>
@@ -2113,7 +2113,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), fase de héroe enemiga</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga a 18" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Si el objetivo está a 6" o menos de una unidad **Sloven Knights** amiga, puedes tirar un D6 en su lugar. Si el resultado iguala o supera la característica de Control del objetivo, resta 1 a las tiradas de herida de sus ataques hasta el inicio de tu siguiente turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Si el objetivo está a 6" o menos de una unidad **Caballeros mugrientos** amiga, puedes tirar un D6 en su lugar. Si el resultado iguala o supera la característica de Control del objetivo, resta 1 a las tiradas de herida de sus ataques hasta el inicio de tu siguiente turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2148,15 +2148,15 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <categoryLink name="WARD (6+)" hidden="false" id="b4cc-eb1a-fd56-993d" targetId="70a4-383f-421f-52cd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Harbinger of Decay" hidden="false" id="e283-dac2-a856-4589">
+        <selectionEntry type="model" import="true" name="Heraldo de la descomposición" hidden="false" id="e283-dac2-a856-4589">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Grim Rotsword or Plague Scythe" hidden="false" id="37a5-d463-da1f-2a94">
+            <selectionEntry type="upgrade" import="true" name="Espada pútrida siniestra o guadaña de plaga" hidden="false" id="37a5-d463-da1f-2a94">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3d22-ee60-75e2-cb48"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="661c-f3dd-348e-e6be"/>
               </constraints>
               <profiles>
-                <profile name="Grim Rotsword or Plague Scythe" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6cca-f7d7-47d0-d1d5">
+                <profile name="Espada pútrida siniestra o guadaña de plaga" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6cca-f7d7-47d0-d1d5">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -2168,13 +2168,13 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Daemonic Mount&apos;s Flyblown Bite" hidden="false" id="e1cf-ab58-e94-f78">
+            <selectionEntry type="upgrade" import="true" name="Mordisco infestado de moscas de montura demoníaca" hidden="false" id="e1cf-ab58-e94-f78">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="632f-a74b-1fee-fdd8"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31ef-bfac-7632-1129"/>
               </constraints>
               <profiles>
-                <profile name="Daemonic Mount&apos;s Flyblown Bite" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="fde9-5d8d-a886-c92a">
+                <profile name="Mordisco infestado de moscas de montura demoníaca" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="fde9-5d8d-a886-c92a">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">5+</characteristic>
@@ -2199,12 +2199,12 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Lord of Blights" hidden="false" id="b0b6-7b56-5e4-a46" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Señor de las infecciones" hidden="false" id="b0b6-7b56-5e4-a46" publicationId="9c71-86cb-e1d0-ec8d">
       <entryLinks>
         <entryLink import="true" name="General" hidden="false" id="ff82-a3d-9ce4-bc7" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Lord of Blights" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ec35-fc1e-1973-c9f2">
+        <profile name="Señor de las infecciones" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ec35-fc1e-1973-c9f2">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">7</characteristic>
@@ -2215,7 +2215,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <profile name="Thrice-ripened Death&apos;s Heads" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="62e8-d90f-82bb-4f1e">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que haya cargado este turno y esté en combate con esta unidad o con un **Plague Drones** amigo totalmente a 12" o menos de esta unidad.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que haya cargado este turno y esté en combate con esta unidad o con un **Zánganos de plaga** amigo totalmente a 12" o menos de esta unidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -2229,7 +2229,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <profile name="Festering Bulwark" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="cd47-668b-9fe5-10e4">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos esta unidad y una unidad **Putrid Blightkings** amiga a 3" o menos de esta unidad.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos esta unidad y una unidad **Reyes de la plaga pútridos** amiga a 3" o menos de esta unidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, ignora los modificadores negativos a las tiradas de salvación de los objetivos durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -2250,15 +2250,15 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <categoryLink name="WARD (6+)" hidden="false" id="1ff1-9f7d-5270-d195" targetId="70a4-383f-421f-52cd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Lord of Blights" hidden="false" id="5c7a-6e61-42b6-3db0">
+        <selectionEntry type="model" import="true" name="Señor de las infecciones" hidden="false" id="5c7a-6e61-42b6-3db0">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Bubotic Hammer" hidden="false" id="fc22-73bf-ba19-53a9">
+            <selectionEntry type="upgrade" import="true" name="Martillo bubónico" hidden="false" id="fc22-73bf-ba19-53a9">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="97e4-c1c5-d78b-57f3"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3509-41c6-3a1c-6fe6"/>
               </constraints>
               <profiles>
-                <profile name="Bubotic Hammer" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="bad-ec1f-c1f1-daa9">
+                <profile name="Martillo bubónico" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="bad-ec1f-c1f1-daa9">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -2283,9 +2283,9 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Plague Drones" hidden="false" id="18c2-5ea0-f7f6-639f" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Zánganos de plaga" hidden="false" id="18c2-5ea0-f7f6-639f" publicationId="9c71-86cb-e1d0-ec8d">
       <profiles>
-        <profile name="Plague Drones" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="3100-56ac-4c32-7540">
+        <profile name="Zánganos de plaga" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="3100-56ac-4c32-7540">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -2331,19 +2331,19 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <cost name="‎" id="74e7-38d4-585-84d3" hidden="false" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Plague Drone" hidden="false" id="2568-b8ba-6be1-ac8a" defaultAmount="1,1,1">
+        <selectionEntry type="model" import="true" name="Zángano de plaga" hidden="false" id="2568-b8ba-6be1-ac8a" defaultAmount="1,1,1">
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="505e-126c-ecca-fddb" automatic="true"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="7f27-f13c-b593-b6f1" automatic="true"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Noxious Plaguesword" hidden="false" id="6a0c-2ecb-1080-2ce1">
+            <selectionEntry type="upgrade" import="true" name="Espada de plaga nociva" hidden="false" id="6a0c-2ecb-1080-2ce1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="743f-eefb-8c70-beef"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b51e-188a-5ec5-53a"/>
               </constraints>
               <profiles>
-                <profile name="Noxious Plaguesword" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="3560-600b-2247-58c7">
+                <profile name="Espada de plaga nociva" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="3560-600b-2247-58c7">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2361,7 +2361,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14be-4be4-b12-73dd"/>
               </constraints>
               <profiles>
-                <profile name="Rot Fly&apos;s Mouthparts and Sting" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="3613-aeec-b724-bada">
+                <profile name="Piezas bucales y aguijón de mosca de la podredumbre" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="3613-aeec-b724-bada">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2435,9 +2435,9 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Rotmire Creed" hidden="false" id="6ad6-e6a2-391d-74f3" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Credo del Cenagal Pútrido" hidden="false" id="6ad6-e6a2-391d-74f3" publicationId="9c71-86cb-e1d0-ec8d">
       <profiles>
-        <profile name="Rotmire Creed" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="5133-b86-a92b-edde">
+        <profile name="Credo del Cenagal Pútrido" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="5133-b86-a92b-edde">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">1</characteristic>
@@ -2469,19 +2469,19 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <cost name="‎" id="f5c5-3a7c-c4-7788" hidden="false" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Rotmire Creed" hidden="false" id="60de-f5c8-4117-541c" defaultAmount="1,9">
+        <selectionEntry type="model" import="true" name="Credo del Cenagal Pútrido" hidden="false" id="60de-f5c8-4117-541c" defaultAmount="1,9">
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="90b6-3dfd-39a2-859f" automatic="true"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="ae7-6121-1d2e-f00d" negative="false" automatic="true"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Bilewood Weapons" hidden="false" id="6a48-dbca-3a58-e771">
+            <selectionEntry type="upgrade" import="true" name="Armas de madera biliar" hidden="false" id="6a48-dbca-3a58-e771">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ec6b-929-2405-8287"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab14-fd5-bef2-bd69"/>
               </constraints>
               <profiles>
-                <profile name="Bilewood Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2317-5747-82b0-4df5">
+                <profile name="Armas de madera biliar" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2317-5747-82b0-4df5">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2493,13 +2493,13 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Contagion Blowpipes" hidden="false" id="99b7-4728-2dc9-7297">
+            <selectionEntry type="upgrade" import="true" name="Cerbatanas del contagio" hidden="false" id="99b7-4728-2dc9-7297">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bcc0-f2f8-c05c-79b2"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a521-3513-6ceb-1a14"/>
               </constraints>
               <profiles>
-                <profile name="Contagion Blowpipes" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="f5a2-9aff-e6ab-ec1f">
+                <profile name="Cerbatanas del contagio" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="f5a2-9aff-e6ab-ec1f">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">2</characteristic>
@@ -2557,9 +2557,9 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Plaguebearers" hidden="false" id="479f-7f60-d7d1-5b0f" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Portadores de plaga" hidden="false" id="479f-7f60-d7d1-5b0f" publicationId="9c71-86cb-e1d0-ec8d">
       <profiles>
-        <profile name="Plaguebearers" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="98d8-7aa2-cc51-241c">
+        <profile name="Portadores de plaga" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="98d8-7aa2-cc51-241c">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
@@ -2593,19 +2593,19 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <cost name="‎" id="2de3-d93a-811a-3a84" hidden="false" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Plaguebearer" hidden="false" id="c991-f5e9-2fcd-d7bd" defaultAmount="1,1,1,7">
+        <selectionEntry type="model" import="true" name="Portador de plaga" hidden="false" id="c991-f5e9-2fcd-d7bd" defaultAmount="1,1,1,7">
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="949f-ec44-3386-1a26" automatic="true"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="366b-2aeb-5974-f8ce" automatic="true"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Plaguesword" hidden="false" id="7577-5396-3a31-9edd">
+            <selectionEntry type="upgrade" import="true" name="Espada de plaga" hidden="false" id="7577-5396-3a31-9edd">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4233-bf2-7e92-cfc8"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c610-1b14-be20-8de9"/>
               </constraints>
               <profiles>
-                <profile name="Plaguesword" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c759-5717-4dcc-d907">
+                <profile name="Espada de plaga" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c759-5717-4dcc-d907">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2679,7 +2679,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Feculent Gnarlmaw" hidden="false" id="f4aa-9ef3-286-f6db" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Fauces retorcidas feculentas" hidden="false" id="f4aa-9ef3-286-f6db" publicationId="9c71-86cb-e1d0-ec8d">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="92a1-d1b7-25-8651" includeChildSelections="true"/>
       </constraints>
@@ -2687,7 +2687,7 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <entryLink import="true" name="General" hidden="false" id="fd92-b947-dcc3-a66a" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Feculent Gnarlmaw" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="9af6-1f5b-6927-f926">
+        <profile name="Fauces retorcidas feculentas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="9af6-1f5b-6927-f926">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">-</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">7</characteristic>
@@ -2740,13 +2740,13 @@ Si has elegido una unidad enemiga como objetivo, tira un dado. Si el resultado i
         <categoryLink name="FACTION TERRAIN" hidden="false" id="8deb-1aab-e2aa-7d47" targetId="cdd6-ffa1-9b32-4cb8" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Maggot-infested Mouth" hidden="false" id="21b9-3425-9744-b76e">
+        <selectionEntry type="upgrade" import="true" name="Boca infestada de gusanos" hidden="false" id="21b9-3425-9744-b76e">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="56fe-7af5-56a3-5836"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c8c7-dee0-dd5-2548"/>
           </constraints>
           <profiles>
-            <profile name="Maggot-infested Mouth" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5c7-18b-3711-f81d">
+            <profile name="Boca infestada de gusanos" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5c7-18b-3711-f81d">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2769,7 +2769,7 @@ Cover, Impassable**</description>
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Epidemius, Tallyman of Nurgle" hidden="false" id="5b0d-37e4-73a4-f952" publicationId="9dee-a6b2-4b42-bfee">
+    <selectionEntry type="unit" import="true" name="Epidemius, Contable de Nurgle" hidden="false" id="5b0d-37e4-73a4-f952" publicationId="9dee-a6b2-4b42-bfee">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1c64-d767-e738-4694"/>
       </constraints>
@@ -2777,7 +2777,7 @@ Cover, Impassable**</description>
         <entryLink import="true" name="General" hidden="false" id="d1f0-17ee-e200-50e8" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Epidemius, Tallyman of Nurgle" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="5a61-648b-d397-c2e9">
+        <profile name="Epidemius, Contable de Nurgle" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="5a61-648b-d397-c2e9">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">7</characteristic>
@@ -2813,15 +2813,15 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
         <categoryLink name="DAEMON" hidden="false" id="d3de-6cb6-0520-5686" targetId="dc0b-e417-51f4-10f0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Epidemius, Tallyman of Nurgle" hidden="false" id="0677-2831-7864-e47d">
+        <selectionEntry type="model" import="true" name="Epidemius, Contable de Nurgle" hidden="false" id="0677-2831-7864-e47d">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Epidemius&apos;s Balesword" hidden="false" id="889b-15f0-5d5a-c8fc">
+            <selectionEntry type="upgrade" import="true" name="Espada funesta de Epidemius" hidden="false" id="889b-15f0-5d5a-c8fc">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="94dc-50cc-03d0-75ef"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c07b-dcd4-5a42-5978"/>
               </constraints>
               <profiles>
-                <profile name="Epidemius&apos;s Balesword" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="fe0d-98fe-dd39-27a6">
+                <profile name="Espada funesta de Epidemius" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="fe0d-98fe-dd39-27a6">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2833,13 +2833,13 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Mound of Nurglings" hidden="false" id="a797-99e3-ea98-107c">
+            <selectionEntry type="upgrade" import="true" name="Montón de nurglings" hidden="false" id="a797-99e3-ea98-107c">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9165-b54c-4eca-83ab"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1895-0e15-1bc2-729b"/>
               </constraints>
               <profiles>
-                <profile name="Mound of Nurglings" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="739c-c189-e281-8877">
+                <profile name="Montón de nurglings" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="739c-c189-e281-8877">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">10</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">5+</characteristic>
@@ -2871,7 +2871,7 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Doktor Festus" hidden="false" id="65b1-8753-01c7-2fa9" publicationId="9dee-a6b2-4b42-bfee">
+    <selectionEntry type="unit" import="true" name="Doctor Festus" hidden="false" id="65b1-8753-01c7-2fa9" publicationId="9dee-a6b2-4b42-bfee">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="002d-51b9-5a30-a942"/>
       </constraints>
@@ -2879,7 +2879,7 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
         <entryLink import="true" name="General" hidden="false" id="fb7c-4a67-19c3-0125" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Doktor Festus" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="2b1d-b11f-eac9-f9c8">
+        <profile name="Doctor Festus" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="2b1d-b11f-eac9-f9c8">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">6</characteristic>
@@ -2927,15 +2927,15 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
         <categoryLink name="WIZARD (1)" hidden="false" id="74ce-e3cc-97e3-1ce2" targetId="6f28-c3f6-4b1b-8aff" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Doktor Festus" hidden="false" id="ad03-b0ed-ce4f-655d">
+        <selectionEntry type="model" import="true" name="Doctor Festus" hidden="false" id="ad03-b0ed-ce4f-655d">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Plague Staff" hidden="false" id="c18c-1dab-42a5-8f6b">
+            <selectionEntry type="upgrade" import="true" name="Bastón de plaga" hidden="false" id="c18c-1dab-42a5-8f6b">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6295-7ef5-4cdb-a7c0"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5580-c1e2-2ed8-3c0d"/>
               </constraints>
               <profiles>
-                <profile name="Plague Staff" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="e5d8-603b-e5bb-f6dd">
+                <profile name="Bastón de plaga" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="e5d8-603b-e5bb-f6dd">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -2967,7 +2967,7 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="The Wurmspat" hidden="false" id="1c5d-ff4a-56da-b62a" publicationId="9dee-a6b2-4b42-bfee">
+    <selectionEntry type="unit" import="true" name="Los Escupidos del Gusano" hidden="false" id="1c5d-ff4a-56da-b62a" publicationId="9dee-a6b2-4b42-bfee">
       <categoryLinks>
         <categoryLink name="INFANTRY" hidden="false" id="7ded-e5a3-f0da-b2f8" targetId="75d6-6995-dfcc-3898" primary="true"/>
         <categoryLink name="UNIQUE" hidden="false" id="0884-03c0-ba52-cea9" targetId="72ce-2188-70bf-2dbd" primary="false"/>
@@ -2979,7 +2979,7 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
         <categoryLink name="WARD (5+)" hidden="false" id="20b8-7241-bbc3-f9c1" targetId="52cc-95fd-6cd3-8f72" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="The Wurmspat" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="d5aa-e5e5-c9e6-d0d9">
+        <profile name="Los Escupidos del Gusano" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="d5aa-e5e5-c9e6-d0d9">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">4</characteristic>
@@ -2991,7 +2991,7 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si la **Fecula Flyblown** de esta unidad está en el campo de batalla, suma 1 a su nivel de poder durante el resto del turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si la **Fecula Infestamoscas** de esta unidad está en el campo de batalla, suma 1 a su nivel de poder durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -3001,10 +3001,10 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
         </profile>
-        <profile name="Fecula Flyblown" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="88cf-9cca-938c-491e">
+        <profile name="Fecula Infestamoscas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="88cf-9cca-938c-491e">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras la **Fecula Flyblown** de esta unidad esté en el campo de batalla, esta unidad tiene **^^Wizard (1)^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras la **Fecula Infestamoscas** de esta unidad esté en el campo de batalla, esta unidad tiene **^^Wizard (1)^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Yellow</attribute>
@@ -3014,19 +3014,19 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Fecula Flyblown" hidden="false" id="e5a8-59b9-27e2-4a0e">
+        <selectionEntry type="model" import="true" name="Fecula Infestamoscas" hidden="false" id="e5a8-59b9-27e2-4a0e">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e13f-a4fa-791d-db50"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f51c-ea92-076b-31c4"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Blighted Weapons" hidden="false" id="6157-f6b1-f398-326d">
+            <selectionEntry type="upgrade" import="true" name="Armas infectadas" hidden="false" id="6157-f6b1-f398-326d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d37d-ac53-8584-acad"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ec3-c763-8608-ef04"/>
               </constraints>
               <profiles>
-                <profile name="Blighted Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7127-6b3f-2d27-4074">
+                <profile name="Armas infectadas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7127-6b3f-2d27-4074">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -3060,19 +3060,19 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Ghulgoch the Butcher" hidden="false" id="3746-a68d-8f2b-3ac3">
+        <selectionEntry type="model" import="true" name="Ghulgoch el Carnicero" hidden="false" id="3746-a68d-8f2b-3ac3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cc5e-4ba6-a557-1e64"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3391-5005-0a19-0b26"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Blighted Weapons" hidden="false" id="24b7-dcc6-0e35-69ea">
+            <selectionEntry type="upgrade" import="true" name="Armas infectadas" hidden="false" id="24b7-dcc6-0e35-69ea">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="81cc-096b-9c5a-cf1a"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd4a-701b-2773-ca3b"/>
               </constraints>
               <profiles>
-                <profile name="Blighted Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0ae3-38ee-75e8-3db6">
+                <profile name="Armas infectadas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0ae3-38ee-75e8-3db6">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -3091,19 +3091,19 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Sepsimus, Plaguesworn" hidden="false" id="3442-f933-1d84-91ef">
+        <selectionEntry type="model" import="true" name="Sepsimus, Juramentado de la Plaga" hidden="false" id="3442-f933-1d84-91ef">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="64ce-72bc-d7e2-689e"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab82-55bb-b5cd-1184"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Blighted Weapons" hidden="false" id="9736-eaa9-fe7e-0b88">
+            <selectionEntry type="upgrade" import="true" name="Armas infectadas" hidden="false" id="9736-eaa9-fe7e-0b88">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0160-d60e-8ba1-e44e"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89e2-7db6-e560-810f"/>
               </constraints>
               <profiles>
-                <profile name="Blighted Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ac24-1d90-7174-543b">
+                <profile name="Armas infectadas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ac24-1d90-7174-543b">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -3134,7 +3134,7 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d521-2238-22be-edc6" includeChildForces="true" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Grandfather&apos;s Gardeners" hidden="false" id="c031-2a32-ee55-4a1c" publicationId="9dee-a6b2-4b42-bfee">
+    <selectionEntry type="unit" import="true" name="Jardineros del Abuelo" hidden="false" id="c031-2a32-ee55-4a1c" publicationId="9dee-a6b2-4b42-bfee">
       <categoryLinks>
         <categoryLink name="INFANTRY" hidden="false" id="4c50-e6a7-d0f2-893e" targetId="75d6-6995-dfcc-3898" primary="true"/>
         <categoryLink name="UNIQUE" hidden="false" id="0a5b-2989-f657-f573" targetId="72ce-2188-70bf-2dbd" primary="false"/>
@@ -3147,7 +3147,7 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
         <categoryLink name="STANDARD BEARER" hidden="false" id="62c6-d6c8-1e7c-d826" targetId="8b4d-69b4-dbc6-3beb" primary="false"/>
       </categoryLinks>
       <profiles>
-        <profile name="Grandfather&apos;s Gardeners" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="03ae-85d4-990c-7a26">
+        <profile name="Jardineros del Abuelo" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="03ae-85d4-990c-7a26">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">3</characteristic>
@@ -3182,19 +3182,19 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Phleghmus Potbelly" hidden="false" id="62e2-3476-0c07-c4d8">
+        <selectionEntry type="model" import="true" name="Phleghmus Panzón" hidden="false" id="62e2-3476-0c07-c4d8">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fefc-6e70-fd0c-568c"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98a6-e5d8-1116-85cd"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gardening Tools" hidden="false" id="00d0-776e-b333-9736">
+            <selectionEntry type="upgrade" import="true" name="Herramientas de jardinería" hidden="false" id="00d0-776e-b333-9736">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="30d4-3f16-0097-af57"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5714-d69a-abe3-2257"/>
               </constraints>
               <profiles>
-                <profile name="Gardening Tools" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2ef4-c39f-cc73-7118">
+                <profile name="Herramientas de jardinería" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2ef4-c39f-cc73-7118">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -3234,13 +3234,13 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c18-f78e-5619-6795"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gardening Tools" hidden="false" id="9a9c-caf4-fb03-c935">
+            <selectionEntry type="upgrade" import="true" name="Herramientas de jardinería" hidden="false" id="9a9c-caf4-fb03-c935">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="188c-bc66-b795-635e"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb52-2718-8589-cb59"/>
               </constraints>
               <profiles>
-                <profile name="Gardening Tools" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="54ec-1421-a064-d7c7">
+                <profile name="Herramientas de jardinería" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="54ec-1421-a064-d7c7">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -3265,13 +3265,13 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2e7-3f93-a517-410b"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gardening Tools" hidden="false" id="8ef3-0645-88f4-d44f">
+            <selectionEntry type="upgrade" import="true" name="Herramientas de jardinería" hidden="false" id="8ef3-0645-88f4-d44f">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f77-cfa8-c697-d8b9"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4fc-5c1f-10af-4644"/>
               </constraints>
               <profiles>
-                <profile name="Gardening Tools" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="401a-a2fb-53bd-03cd">
+                <profile name="Herramientas de jardinería" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="401a-a2fb-53bd-03cd">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -3290,19 +3290,19 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Maggoty Strewg" hidden="false" id="a444-df46-5025-466d">
+        <selectionEntry type="model" import="true" name="Strewg el Agusanado" hidden="false" id="a444-df46-5025-466d">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e2f7-f15a-31c4-9686"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe22-41a2-f1d5-0b63"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gardening Tools" hidden="false" id="4ce9-e99c-a9ad-4efb">
+            <selectionEntry type="upgrade" import="true" name="Herramientas de jardinería" hidden="false" id="4ce9-e99c-a9ad-4efb">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24ea-dcfd-ac8a-7f8e"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47d3-3b9b-3922-d8ab"/>
               </constraints>
               <profiles>
-                <profile name="Gardening Tools" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="9752-3cb2-616e-dfe2">
+                <profile name="Herramientas de jardinería" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="9752-3cb2-616e-dfe2">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -3321,19 +3321,19 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="model" import="true" name="Bug-Eyed Dripterus" hidden="false" id="a84c-33a5-dcf8-501f">
+        <selectionEntry type="model" import="true" name="Dripterus Ojos Saltones" hidden="false" id="a84c-33a5-dcf8-501f">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d719-d9a7-fda8-e357"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aae2-1c3e-0c7c-a744"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gardening Tools" hidden="false" id="a42c-fa7f-9d3d-28f4">
+            <selectionEntry type="upgrade" import="true" name="Herramientas de jardinería" hidden="false" id="a42c-fa7f-9d3d-28f4">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="00c9-d676-b175-feb3"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="470f-2a5c-cfa0-4834"/>
               </constraints>
               <profiles>
-                <profile name="Gardening Tools" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5f40-998e-0932-2906">
+                <profile name="Herramientas de jardinería" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5f40-998e-0932-2906">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -3379,7 +3379,7 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3333-427e-ad3e-0288" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Rotigus (Scourge of Ghyran)" hidden="true" id="d5ae-2efe-d4e1-01a1" publicationId="f894-7929-f79a-a269">
+    <selectionEntry type="unit" import="true" name="Rotigus (Azote de Ghyran)" hidden="true" id="d5ae-2efe-d4e1-01a1" publicationId="f894-7929-f79a-a269">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d42c-b41c-b624-e73e" includeChildSelections="true"/>
       </constraints>
@@ -3390,7 +3390,7 @@ Al final de la ronda de batalla, se pierden los **puntos de recuento** que no ha
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3b09-0be4-4f30-00ae">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de su **Gnarlrod** es 3.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de su **Vara retorcida** es 3.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -3471,13 +3471,13 @@ Después, inflige 1 daño mortal a cada unidad enemiga dentro del alcance de esa
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Rotigus" hidden="false" id="a37b-a0ba-8893-1a09">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gnarlrod" hidden="false" id="0880-b2da-666c-9179">
+            <selectionEntry type="upgrade" import="true" name="Vara retorcida" hidden="false" id="0880-b2da-666c-9179">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9223-e31e-9376-0aeb"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e33-f065-9745-bc33"/>
               </constraints>
               <profiles>
-                <profile name="Gnarlrod" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c824-fa1b-6161-dddd">
+                <profile name="Vara retorcida" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c824-fa1b-6161-dddd">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -3489,13 +3489,13 @@ Después, inflige 1 daño mortal a cada unidad enemiga dentro del alcance de esa
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Fanged Maws" hidden="false" id="6dfa-99e9-963a-8831">
+            <selectionEntry type="upgrade" import="true" name="Fauces dentadas" hidden="false" id="6dfa-99e9-963a-8831">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2131-5607-a60c-5355"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d902-a4a1-5c4e-92fa"/>
               </constraints>
               <profiles>
-                <profile name="Fanged Maws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5a15-2ba2-d2cc-a701">
+                <profile name="Fauces dentadas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5a15-2ba2-d2cc-a701">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -3507,13 +3507,13 @@ Después, inflige 1 daño mortal a cada unidad enemiga dentro del alcance de esa
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Host of Nurglings" hidden="false" id="d250-c39d-8fc7-8962">
+            <selectionEntry type="upgrade" import="true" name="Hueste de nurglings" hidden="false" id="d250-c39d-8fc7-8962">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bd9c-2905-c172-36b7"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7ae1-e03f-8000-3d48"/>
               </constraints>
               <profiles>
-                <profile name="Host of Nurglings" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="dedd-3050-7e62-313b">
+                <profile name="Hueste de nurglings" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="dedd-3050-7e62-313b">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">10</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">5+</characteristic>
@@ -3555,7 +3555,7 @@ Después, inflige 1 daño mortal a cada unidad enemiga dentro del alcance de esa
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Shaman Foulhoof" hidden="false" id="e676-1e6d-0d6e-f9de" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Chamán Pezuña Inmunda" hidden="false" id="e676-1e6d-0d6e-f9de" publicationId="9c71-86cb-e1d0-ec8d">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4bfa-af9b-9c12-f3e5" includeChildSelections="true"/>
       </constraints>
@@ -3576,7 +3576,7 @@ Después, inflige 1 daño mortal a cada unidad enemiga dentro del alcance de esa
             <attribute name="Parent Node" typeId="da27-8d61-f955-5031">Defensive</attribute>
           </attributes>
         </profile>
-        <profile name="Shaman Foulhoof" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="b22b-8df3-3d27-58fe">
+        <profile name="Chamán Pezuña Inmunda" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="b22b-8df3-3d27-58fe">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">6&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -3610,15 +3610,15 @@ Después, inflige 1 daño mortal a cada unidad enemiga dentro del alcance de esa
         <categoryLink name="WIZARD (1)" hidden="false" id="574c-9950-1762-f2ae" targetId="6f28-c3f6-4b1b-8aff" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Shaman Foulhoof" hidden="false" id="52da-4bc9-e9f8-26ea">
+        <selectionEntry type="model" import="true" name="Chamán Pezuña Inmunda" hidden="false" id="52da-4bc9-e9f8-26ea">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Rotstave" hidden="false" id="d8ac-9d22-9651-dcce">
+            <selectionEntry type="upgrade" import="true" name="Bastón pútrido" hidden="false" id="d8ac-9d22-9651-dcce">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="51fc-fa9c-117a-9fd7"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97bf-9ac3-383d-e69e"/>
               </constraints>
               <profiles>
-                <profile name="Rotstave" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="20a0-04e2-6253-e13d">
+                <profile name="Bastón pútrido" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="20a0-04e2-6253-e13d">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -3643,7 +3643,7 @@ Después, inflige 1 daño mortal a cada unidad enemiga dentro del alcance de esa
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Festus the Leechlord" hidden="false" id="3226-6035-594a-b682" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Festus, Señor de las Sanguijuelas" hidden="false" id="3226-6035-594a-b682" publicationId="9c71-86cb-e1d0-ec8d">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a0cd-e3c6-026e-9aae" includeChildSelections="true"/>
       </constraints>
@@ -3654,7 +3654,7 @@ Después, inflige 1 daño mortal a cada unidad enemiga dentro del alcance de esa
         <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="dfcb-be8b-6baf-8d54">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de **Gathoblyt&apos;s Fanged Maw** es 3.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de **Fauces dentadas de Gathoblyt** es 3.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -3662,7 +3662,7 @@ Después, inflige 1 daño mortal a cada unidad enemiga dentro del alcance de esa
             <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
         </profile>
-        <profile name="Festus the Leechlord" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="d15e-3c73-be84-66c7">
+        <profile name="Festus, Señor de las Sanguijuelas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="d15e-3c73-be84-66c7">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">14</characteristic>
@@ -3725,15 +3725,15 @@ Después, inflige 1 daño mortal a cada unidad enemiga dentro del alcance de esa
         <categoryLink name="WARD (5+)" hidden="false" id="b8e1-6902-8c12-f7c8" targetId="52cc-95fd-6cd3-8f72" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Festus the Leechlord" hidden="false" id="8e18-4f65-476a-8181">
+        <selectionEntry type="model" import="true" name="Festus, Señor de las Sanguijuelas" hidden="false" id="8e18-4f65-476a-8181">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gnarled Plague Staff" hidden="false" id="aedd-99d7-4870-9c29">
+            <selectionEntry type="upgrade" import="true" name="Bastón de plaga retorcido" hidden="false" id="aedd-99d7-4870-9c29">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="383a-2f03-99cd-01e9"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d091-0980-cb35-f82b"/>
               </constraints>
               <profiles>
-                <profile name="Gnarled Plague Staff" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f058-3552-d0c2-2810">
+                <profile name="Bastón de plaga retorcido" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f058-3552-d0c2-2810">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -3745,13 +3745,13 @@ Después, inflige 1 daño mortal a cada unidad enemiga dentro del alcance de esa
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Gathoblyt&apos;s Fanged Maw" hidden="false" id="1004-8b6b-e205-aafd">
+            <selectionEntry type="upgrade" import="true" name="Fauces dentadas de Gathoblyt" hidden="false" id="1004-8b6b-e205-aafd">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="81a8-8916-5c55-d286"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="28eb-5cac-115d-d8c2"/>
               </constraints>
               <profiles>
-                <profile name="Gathoblyt&apos;s Fanged Maw" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="670a-3acd-ab44-5584">
+                <profile name="Fauces dentadas de Gathoblyt" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="670a-3acd-ab44-5584">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -3776,7 +3776,7 @@ Después, inflige 1 daño mortal a cada unidad enemiga dentro del alcance de esa
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Gelgus Pust, the Prince of Sores" hidden="false" id="5fef-f075-9e25-ee6a" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Gelgus Pust, el Príncipe de las Llagas" hidden="false" id="5fef-f075-9e25-ee6a" publicationId="9c71-86cb-e1d0-ec8d">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0012-d513-da9e-2e33" includeChildSelections="true"/>
       </constraints>
@@ -3801,7 +3801,7 @@ Después, inflige 1 daño mortal a cada unidad enemiga dentro del alcance de esa
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
         </profile>
-        <profile name="Gelgus Pust, the Prince of Sores" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="bf30-faeb-e19a-6785">
+        <profile name="Gelgus Pust, el Príncipe de las Llagas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="bf30-faeb-e19a-6785">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">8</characteristic>
@@ -3861,15 +3861,15 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         <categoryLink name="FLY" hidden="false" id="c4bc-dfc0-1211-d424" targetId="b979-4c3e-7d0e-6921" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Gelgus Pust, the Prince of Sores" hidden="false" id="ab96-174d-6d88-6ca9">
+        <selectionEntry type="model" import="true" name="Gelgus Pust, el Príncipe de las Llagas" hidden="false" id="ab96-174d-6d88-6ca9">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Malady and Contagion" hidden="false" id="b4ae-172f-e5c3-ccac">
+            <selectionEntry type="upgrade" import="true" name="Enfermedad y Contagio" hidden="false" id="b4ae-172f-e5c3-ccac">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="49a3-f5d9-bba8-c874"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6649-358f-90be-6824"/>
               </constraints>
               <profiles>
-                <profile name="Malady and Contagion" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="eee7-a9f5-3b51-3f6e">
+                <profile name="Enfermedad y Contagio" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="eee7-a9f5-3b51-3f6e">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">7</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -3894,9 +3894,9 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Cankerborn" hidden="false" id="d82c-ba5b-b703-0ab7" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Nacido de la llaga" hidden="false" id="d82c-ba5b-b703-0ab7" publicationId="9c71-86cb-e1d0-ec8d">
       <profiles>
-        <profile name="Cankerborn" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="4bbe-7272-507e-4a71">
+        <profile name="Nacido de la llaga" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="4bbe-7272-507e-4a71">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">6</characteristic>
@@ -3960,19 +3960,19 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         <cost name="‎" id="d79a-0d21-92cc-47f9" hidden="false" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Cankerborn" hidden="false" id="4f14-0682-fd86-bd91" defaultAmount="2">
+        <selectionEntry type="model" import="true" name="Nacido de la llaga" hidden="false" id="4f14-0682-fd86-bd91" defaultAmount="2">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="7077-be9e-a7cf-101a"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="b3bc-ae03-aa8e-fa15"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Blightblades" hidden="false" id="e5c9-4645-b26a-4d6d">
+            <selectionEntry type="upgrade" import="true" name="Hojas de plaga" hidden="false" id="e5c9-4645-b26a-4d6d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8ff1-c6e5-3e09-cb92"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14d3-a324-6eed-c3e0"/>
               </constraints>
               <profiles>
-                <profile name="Blightblades" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f3e4-5622-bc2f-7db8">
+                <profile name="Hojas de plaga" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f3e4-5622-bc2f-7db8">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -4050,13 +4050,13 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="38b4-0ee0-8feb-8ba2" automatic="true"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Corroded Weapons" hidden="false" id="d824-73d0-eeb5-6bfa">
+            <selectionEntry type="upgrade" import="true" name="Armas corroídas" hidden="false" id="d824-73d0-eeb5-6bfa">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="48c3-1cb1-ad2f-08c1"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7af8-e7df-5be6-cce9"/>
               </constraints>
               <profiles>
-                <profile name="Corroded Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2eee-7211-db7a-a810">
+                <profile name="Armas corroídas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="2eee-7211-db7a-a810">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -4130,9 +4130,9 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sloven Knights" hidden="false" id="16b5-3022-8c0f-976e" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Caballeros mugrientos" hidden="false" id="16b5-3022-8c0f-976e" publicationId="9c71-86cb-e1d0-ec8d">
       <profiles>
-        <profile name="Sloven Knights" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="a0c9-167b-b6ce-f263">
+        <profile name="Caballeros mugrientos" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="a0c9-167b-b6ce-f263">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">4</characteristic>
@@ -4167,19 +4167,19 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         <cost name="‎" id="b55e-8ec0-bb6f-1ef3" hidden="false" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Sloven Knight" hidden="false" id="40a6-066c-b28a-86bf" defaultAmount="1,2">
+        <selectionEntry type="model" import="true" name="Caballero mugriento" hidden="false" id="40a6-066c-b28a-86bf" defaultAmount="1,2">
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="ae34-0f74-4756-6d9f" automatic="true"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d375-ff7f-7a72-d5ac" automatic="true"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Entropic Bludgeons" hidden="false" id="bbfd-d378-ac93-c044">
+            <selectionEntry type="upgrade" import="true" name="Cachiporras entrópicas" hidden="false" id="bbfd-d378-ac93-c044">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5948-edab-4f6b-039a"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcfd-85f6-04c5-3b6c"/>
               </constraints>
               <profiles>
-                <profile name="Entropic Bludgeons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="9ce2-3651-0d5f-b02e">
+                <profile name="Cachiporras entrópicas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="9ce2-3651-0d5f-b02e">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -4191,13 +4191,13 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Foetid Nag&apos;s Hooves" hidden="false" id="e39c-f2a4-918b-506f">
+            <selectionEntry type="upgrade" import="true" name="Cascos de jamelgo fétido" hidden="false" id="e39c-f2a4-918b-506f">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="679c-c810-102d-f881"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b8ce-21e1-0be5-1925"/>
               </constraints>
               <profiles>
-                <profile name="Foetid Nag&apos;s Hooves" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f794-a5a5-5330-a32b">
+                <profile name="Cascos de jamelgo fétido" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f794-a5a5-5330-a32b">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">5+</characteristic>
@@ -4245,9 +4245,9 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sloven Knights (Scourge of Aqshy)" hidden="false" id="0c0e-7f14-fa95-989f" publicationId="9e18-bb03-7b60-d4ff">
+    <selectionEntry type="unit" import="true" name="Caballeros mugrientos (Azote de Aqshy)" hidden="false" id="0c0e-7f14-fa95-989f" publicationId="9e18-bb03-7b60-d4ff">
       <profiles>
-        <profile name="Sloven Knights" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="fb28-6148-e049-92ca">
+        <profile name="Caballeros mugrientos" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="fb28-6148-e049-92ca">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">4</characteristic>
@@ -4282,19 +4282,19 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         <cost name="‎" id="609b-b2de-74fb-7891" hidden="false" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Sloven Knight" hidden="false" id="adc4-6f45-d09e-e495" defaultAmount="1,2">
+        <selectionEntry type="model" import="true" name="Caballero mugriento" hidden="false" id="adc4-6f45-d09e-e495" defaultAmount="1,2">
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="b166-f87d-00a0-4f30" automatic="true"/>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="daf0-e41d-4646-14ae" automatic="true"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Entropic Bludgeons" hidden="false" id="3f44-1e08-b6f3-b006">
+            <selectionEntry type="upgrade" import="true" name="Cachiporras entrópicas" hidden="false" id="3f44-1e08-b6f3-b006">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9815-a5ca-a890-490b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="044f-b3db-72f9-3979"/>
               </constraints>
               <profiles>
-                <profile name="Entropic Bludgeons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="de36-9bcf-80e4-6a36">
+                <profile name="Cachiporras entrópicas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="de36-9bcf-80e4-6a36">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -4306,13 +4306,13 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Foetid Nag&apos;s Hooves" hidden="false" id="0186-e21c-b056-2ac2">
+            <selectionEntry type="upgrade" import="true" name="Cascos de jamelgo fétido" hidden="false" id="0186-e21c-b056-2ac2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3f62-9ab7-d993-8795"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8e41-0094-63ac-5608"/>
               </constraints>
               <profiles>
-                <profile name="Foetid Nag&apos;s Hooves" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="671a-c730-30ba-382e">
+                <profile name="Cascos de jamelgo fétido" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="671a-c730-30ba-382e">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">5+</characteristic>
@@ -4377,9 +4377,9 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Pox-Wretches" hidden="false" id="27c3-be21-f827-610f" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Desdichados de la viruela" hidden="false" id="27c3-be21-f827-610f" publicationId="9c71-86cb-e1d0-ec8d">
       <profiles>
-        <profile name="Pox-Wretches" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="12f8-4ffd-9ecb-8772">
+        <profile name="Desdichados de la viruela" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="12f8-4ffd-9ecb-8772">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">1</characteristic>
@@ -4425,19 +4425,19 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         <cost name="‎" id="52bb-8074-b3c1-ca6c" hidden="false" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Pox-Wretch" hidden="false" id="1d9e-9ddb-da31-789c" defaultAmount="1,13">
+        <selectionEntry type="model" import="true" name="Desdichado de la viruela" hidden="false" id="1d9e-9ddb-da31-789c" defaultAmount="1,13">
           <constraints>
             <constraint type="min" value="14" field="selections" scope="parent" shared="true" id="aace-8cb5-e0fb-df40" automatic="true"/>
             <constraint type="max" value="14" field="selections" scope="parent" shared="true" id="84b2-a84f-7411-c6f8" automatic="true"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Decaying Weapons" hidden="false" id="6df6-526a-4ab7-427a">
+            <selectionEntry type="upgrade" import="true" name="Armas putrefactas" hidden="false" id="6df6-526a-4ab7-427a">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cf52-8d3f-493b-4a31"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb02-0e29-de1c-1344"/>
               </constraints>
               <profiles>
-                <profile name="Decaying Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="336b-17e1-51ff-26e8">
+                <profile name="Armas putrefactas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="336b-17e1-51ff-26e8">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -4485,7 +4485,7 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Belga the Cystwitch" hidden="false" id="ac24-667b-4672-4e78" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Belga la Bruja del Quiste" hidden="false" id="ac24-667b-4672-4e78" publicationId="9c71-86cb-e1d0-ec8d">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7047-d341-4eab-09d7" includeChildSelections="true"/>
       </constraints>
@@ -4498,7 +4498,7 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
             <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Tu fase de héroe</characteristic>
             <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">4</characteristic>
             <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Elige como objetivo una unidad enemiga **^^Diseased^^** visible a 18" o menos de esta unidad; después, haz una tirada de cántico de D6.</characteristic>
-            <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Inflige D3 daño mortal al objetivo. Después, inflige 1 daño mortal a cada otra unidad enemiga **^^Diseased^^** a 3" o menos del objetivo. Si la tirada de cántico es de 9+, también puedes elegir una unidad **Plaguebearers** amiga a 12" o menos del objetivo. Por cada miniatura **^^Infantry^^** enemiga abatida por esta habilidad este turno, puedes devolver 1 miniatura abatida a esa unidad amiga.</characteristic>
+            <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Inflige D3 daño mortal al objetivo. Después, inflige 1 daño mortal a cada otra unidad enemiga **^^Diseased^^** a 3" o menos del objetivo. Si la tirada de cántico es de 9+, también puedes elegir una unidad **Portadores de plaga** amiga a 12" o menos del objetivo. Por cada miniatura **^^Infantry^^** enemiga abatida por esta habilidad este turno, puedes devolver 1 miniatura abatida a esa unidad amiga.</characteristic>
             <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Plegaria^^**</characteristic>
           </characteristics>
           <attributes>
@@ -4507,7 +4507,7 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
             <attribute name="Parent Node" typeId="5d25-63d6-3935-9312"/>
           </attributes>
         </profile>
-        <profile name="Belga the Cystwitch" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="99db-5bca-e01d-8a89">
+        <profile name="Belga la Bruja del Quiste" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="99db-5bca-e01d-8a89">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">7</characteristic>
@@ -4543,15 +4543,15 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         <categoryLink name="WARD (6+)" hidden="false" id="40fc-6575-aa60-ab84" targetId="70a4-383f-421f-52cd" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Belga the Cystwitch" hidden="false" id="3dca-edd0-82e1-9fbb">
+        <selectionEntry type="model" import="true" name="Belga la Bruja del Quiste" hidden="false" id="3dca-edd0-82e1-9fbb">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Thrice-tainted Staff" hidden="false" id="b4e2-336f-351e-eea5">
+            <selectionEntry type="upgrade" import="true" name="Bastón tres veces corrupto" hidden="false" id="b4e2-336f-351e-eea5">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24f9-1806-7ea0-ccf1"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14ca-bcec-a8a8-dc4b"/>
               </constraints>
               <profiles>
-                <profile name="Thrice-tainted Staff" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="9dc0-aed3-6263-0a96">
+                <profile name="Bastón tres veces corrupto" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="9dc0-aed3-6263-0a96">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -4576,9 +4576,9 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Rotswords" hidden="false" id="17cc-0dd4-0154-7db5" publicationId="9c71-86cb-e1d0-ec8d">
+    <selectionEntry type="unit" import="true" name="Espadas pútridas" hidden="false" id="17cc-0dd4-0154-7db5" publicationId="9c71-86cb-e1d0-ec8d">
       <profiles>
-        <profile name="Rotswords" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="dcbe-f9fe-9cf8-f6d9">
+        <profile name="Espadas pútridas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="dcbe-f9fe-9cf8-f6d9">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
@@ -4615,19 +4615,19 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         <cost name="‎" id="f51c-cf73-eafd-11aa" hidden="false" typeId="1dd2-2af7-76a2-2423" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Rotsword" hidden="false" id="02e3-299b-2964-b7cd" defaultAmount="1,1,1,7">
+        <selectionEntry type="model" import="true" name="Espada pútrida" hidden="false" id="02e3-299b-2964-b7cd" defaultAmount="1,1,1,7">
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="37c3-c206-2ca7-911c" automatic="true"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="f257-6ec3-9202-1254" automatic="true"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ruined Master-crafted Weapons" hidden="false" id="5e83-1baa-28c3-5385">
+            <selectionEntry type="upgrade" import="true" name="Armas de artesanía magistral arruinadas" hidden="false" id="5e83-1baa-28c3-5385">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="59d2-3494-545b-b838"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef1e-2223-6799-59db"/>
               </constraints>
               <profiles>
-                <profile name="Ruined Master-crafted Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="a318-f935-19c9-0eb0">
+                <profile name="Armas de artesanía magistral arruinadas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="a318-f935-19c9-0eb0">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -4701,17 +4701,17 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Anvil of Apotheosis: Maggotkin of Nurgle Hero" hidden="true" id="9f03-3365-5802-14e6" publicationId="9c71-86cb-e1d0-ec8d" flatten="false" collapsible="true">
+    <selectionEntry type="unit" import="true" name="Yunque de la apoteosis: héroe de los Agusanados de Nurgle" hidden="true" id="9f03-3365-5802-14e6" publicationId="9c71-86cb-e1d0-ec8d" flatten="false" collapsible="true">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Anvil of Apotheosis: Maggotkin of Nurgle Hero" hidden="false" id="b3e0-bcf9-91f5-a7df">
+        <selectionEntry type="model" import="true" name="Yunque de la apoteosis: héroe de los Agusanados de Nurgle" hidden="false" id="b3e0-bcf9-91f5-a7df">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Great Blight Weapon" hidden="false" id="6692-50fd-3322-7622">
+            <selectionEntry type="upgrade" import="true" name="Gran arma de plaga" hidden="false" id="6692-50fd-3322-7622">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1a83-03f7-cad2-90f7" automatic="true"/>
                 <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="4f7d-229e-225c-9c50" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Great Blight Weapon" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="bdef-bbcf-f1a0-d7ad">
+                <profile name="Gran arma de plaga" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="bdef-bbcf-f1a0-d7ad">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -4772,9 +4772,9 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Rot Fly&apos;s Mouthparts and Sting" hidden="true" id="5ccf-7839-b7b2-3dc6" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Piezas bucales y aguijón de mosca de la podredumbre" hidden="true" id="5ccf-7839-b7b2-3dc6" defaultAmount="0">
               <profiles>
-                <profile name="Rot Fly&apos;s Mouthparts and Sting" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="19aa-b289-130b-9546">
+                <profile name="Piezas bucales y aguijón de mosca de la podredumbre" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="19aa-b289-130b-9546">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -4802,9 +4802,9 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Trio of Death&apos;s Heads" hidden="true" id="ef68-ca81-1586-d095" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Trío de cabezas de muerte" hidden="true" id="ef68-ca81-1586-d095" defaultAmount="0">
               <profiles>
-                <profile name="Trio of Death&apos;s Heads" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="cc1e-873f-305b-92fe">
+                <profile name="Trío de cabezas de muerte" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="cc1e-873f-305b-92fe">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">18&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">9</characteristic>
@@ -4833,9 +4833,9 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Pox Maggoth&apos;s Claws" hidden="true" id="e36d-22e0-99c6-2127" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Garras de maggoth de la viruela" hidden="true" id="e36d-22e0-99c6-2127" defaultAmount="0">
               <profiles>
-                <profile name="Pox Maggoth&apos;s Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ff52-6707-4d21-6bca">
+                <profile name="Garras de maggoth de la viruela" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ff52-6707-4d21-6bca">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -4863,9 +4863,9 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Snotshower Sneeze" hidden="true" id="ee93-fa33-5788-0c99" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Estornudo de lluvia de mocos" hidden="true" id="ee93-fa33-5788-0c99" defaultAmount="0">
               <profiles>
-                <profile name="Snotshower Sneeze" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="b033-0d0f-f623-87e9">
+                <profile name="Estornudo de lluvia de mocos" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="b033-0d0f-f623-87e9">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">10&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">7</characteristic>
@@ -4894,13 +4894,13 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Septic Weapon" hidden="false" id="ec67-8b38-7b68-c506">
+            <selectionEntry type="upgrade" import="true" name="Arma séptica" hidden="false" id="ec67-8b38-7b68-c506">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7593-832d-354b-c3e4" automatic="true"/>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1d55-4abf-75ff-68c5" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Septic Weapon" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6ddc-fcc6-9ee6-3fbf">
+                <profile name="Arma séptica" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6ddc-fcc6-9ee6-3fbf">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -4976,13 +4976,13 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Pestilential Weapon" hidden="false" id="c591-27c4-5c8a-8a2b">
+            <selectionEntry type="upgrade" import="true" name="Arma pestilente" hidden="false" id="c591-27c4-5c8a-8a2b">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="11e8-9c24-f99b-f8f2" automatic="true"/>
                 <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="481e-cd96-b6a8-11b5" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Pestilential Weapon" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ac20-efda-21c1-fb99">
+                <profile name="Arma pestilente" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="ac20-efda-21c1-fb99">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -5054,7 +5054,7 @@ Mientras una unidad enemiga esté a 6" o menos de un elemento de escenografía *
         <entryLink import="true" name="General" hidden="false" id="24d5-98f6-4c5b-4116" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Anvil of Apotheosis: Maggotkin of Nurgle Hero" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="de0a-2d7a-5e7f-0db1">
+        <profile name="Yunque de la apoteosis: héroe de los Agusanados de Nurgle" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="de0a-2d7a-5e7f-0db1">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">4&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -5176,7 +5176,7 @@ Cualquier unidad **^^Rotbringers^^**</description>
                     <rule name="Infected Warrior" id="c425-5bcb-ddfb-2be2" hidden="true">
                       <description>Tu héroe tiene la palabra clave **^^Rotbringers^^** y las siguientes opciones de regimiento:
 Cualquier unidad **^^Rotbringers^^**
-Además, cambia su característica de Health a 7, cambia su característica de Save a 3+ y sustituye su arma de combate por una **Great Blight Weapon**.</description>
+Además, cambia su característica de Health a 7, cambia su característica de Save a 3+ y sustituye su arma de combate por una **Gran arma de plaga**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5284,7 +5284,7 @@ Cualquier unidad **^^Rotbringers^^**</description>
                     <rule name="Plague Daemon" id="04f4-665a-1cf9-364d" hidden="true">
                       <description>Tu héroe obtiene las palabras clave **^^Daemon^^** y **^^Ward (5+)^^** y las siguientes opciones de regimiento:
 Cualquier unidad **^^Maggotkin of Nurgle Daemon^^**
-Además, sustituye el arma de combate de tu héroe por una **Pestilential Weapon**.</description>
+Además, sustituye el arma de combate de tu héroe por una **Arma pestilente**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5336,7 +5336,7 @@ Además, sustituye el arma de combate de tu héroe por una **Pestilential Weapon
                   </modifiers>
                   <rules>
                     <rule name="Rot Fly" id="0a44-c616-1c69-576f" hidden="true">
-                      <description>Añade el arma **Rot Fly&apos;s Mouthparts and Sting** al pergamino de tu héroe.
+                      <description>Añade el arma **Piezas bucales y aguijón de mosca de la podredumbre** al pergamino de tu héroe.
 Además, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Move a 8".
 • Cambia la característica de Health a 8.
@@ -5363,7 +5363,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="afeb-74de-300d-c430">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Pox Maggoth&apos;s Claws** es 3.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Garras de maggoth de la viruela** es 3.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -5374,7 +5374,7 @@ Además, realiza los siguientes cambios en su pergamino:
                   </profiles>
                   <rules>
                     <rule name="Pox Maggoth" id="0252-a6f7-f189-e8ca" hidden="true">
-                      <description>Añade el arma **Pox Maggoth&apos;s Claws** y la habilidad &apos;Battle Damaged&apos; al pergamino de tu héroe.
+                      <description>Añade el arma **Garras de maggoth de la viruela** y la habilidad &apos;Battle Damaged&apos; al pergamino de tu héroe.
 Además, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Move a 8".
 • Cambia la característica de Health a 14.
@@ -5622,7 +5622,7 @@ Si tu héroe es **Cavalry^^**, suma 2" a su característica de Move.</descriptio
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Snotshower Sneeze" hidden="false" id="4961-5b17-186f-edb9" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Estornudo de lluvia de mocos" hidden="false" id="4961-5b17-186f-edb9" sortIndex="3">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -5634,7 +5634,7 @@ Si tu héroe es **Cavalry^^**, suma 2" a su característica de Move.</descriptio
                   </constraints>
                   <rules>
                     <rule name="Snotshower Sneeze" id="cf02-dbfc-3ab6-7585" hidden="true">
-                      <description>Añade el arma **Snotshower Sneeze** al pergamino de tu héroe.</description>
+                      <description>Añade el arma **Estornudo de lluvia de mocos** al pergamino de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5791,7 +5791,7 @@ Si tu héroe es **Cavalry^^**, suma 2" a su característica de Move.</descriptio
                   </constraints>
                   <rules>
                     <rule name="Blood Poisoning" id="38cc-d2ce-5422-b209" hidden="true">
-                      <description>La característica de Wound del **Septic Weapon** de tu héroe es 2.</description>
+                      <description>La característica de Wound del **Arma séptica** de tu héroe es 2.</description>
                     </rule>
                   </rules>
                   <modifiers>
@@ -5861,7 +5861,7 @@ Si tu héroe es **Cavalry^^**, suma 2" a su característica de Move.</descriptio
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Trio of Death&apos;s Heads" hidden="false" id="07d5-0e3b-2c65-b50c" sortIndex="6">
+                <selectionEntry type="upgrade" import="true" name="Trío de cabezas de muerte" hidden="false" id="07d5-0e3b-2c65-b50c" sortIndex="6">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -5873,7 +5873,7 @@ Si tu héroe es **Cavalry^^**, suma 2" a su característica de Move.</descriptio
                   </constraints>
                   <rules>
                     <rule name="Trio of Death&apos;s Heads" id="aa66-0c1b-fef0-c180" hidden="true">
-                      <description>Añade el arma &apos;Trio of Death&apos;s Heads&apos; al pergamino de tu héroe.</description>
+                      <description>Añade el arma &apos;Trío de cabezas de muerte&apos; al pergamino de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
