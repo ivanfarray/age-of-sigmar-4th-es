@@ -536,7 +536,7 @@
         <profile name="&apos;Neh Neh Na-neh Neh! Can&apos;t Catch Me!&quot;" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b55c-7af6-d223-dc6f">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad **^^Monster^^** o **^^Beast^^** amiga visible.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad **^^Monster^^** o **^^Bestia^^** amiga visible.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, el objetivo puede usar habilidades **^^Charge^^** aunque haya usado una habilidad **^^Run^^** en el mismo turno, pero cada vez que use una habilidad **^^Move^^**, debe terminar el movimiento más cerca de esta unidad.
 Además, durante el resto del turno, la primera vez que el objetivo termine un movimiento dentro del alcance de combate de esta unidad, inflige D6 daño mortal a esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -1100,7 +1100,7 @@ Además, durante el resto del turno, la primera vez que el objetivo termine un m
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Beast" id="7ec2-8b00-589e-807" hidden="false" type="profile" targetId="8e01-c681-8a44-8f44"/>
+        <infoLink name="Bestia" id="7ec2-8b00-589e-807" hidden="false" type="profile" targetId="8e01-c681-8a44-8f44"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Pinchadores del clan lunar" hidden="false" id="8be0-b46d-7d03-f8e2" publicationId="a395-7bc4-71eb-46df">
@@ -1184,7 +1184,7 @@ Además, durante el resto del turno, la primera vez que el objetivo termine un m
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae98-2fc0-4942-cddc" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="461e-9906-e46e-a6c5" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="461e-9906-e46e-a6c5" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="8be0-b46d-7d03-f8e2" shared="true" id="3fdf-eb69-221f-b02b" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="41f7-70dd-a852-3454"/>
@@ -1197,7 +1197,7 @@ Además, durante el resto del turno, la primera vez que el objetivo termine un m
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="c56d-cfaf-fdbd-3675" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="c56d-cfaf-fdbd-3675" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <modifiers>
                     <modifier type="increment" value="1" field="adc9-269b-ce0d-7551">
                       <repeats>
@@ -1210,7 +1210,7 @@ Además, durante el resto del turno, la primera vez que el objetivo termine un m
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3bc8-a166-a413-4cfd"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="8c18-688-3380-d440" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="8c18-688-3380-d440" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4480-9673-b57c-304a"/>
                     <constraint type="max" value="1" field="selections" scope="8be0-b46d-7d03-f8e2" shared="true" id="33df-f330-c891-616" includeChildSelections="true"/>
@@ -1520,7 +1520,7 @@ Además, durante el resto del turno, la primera vez que el objetivo termine un m
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa5f-5eee-d51c-58ed" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="2537-3997-93b9-ffd3" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="2537-3997-93b9-ffd3" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3868-b2d0-bf80-c84f"/>
                     <constraint type="max" value="1" field="selections" scope="2e50-954-9c1-37cb" shared="true" id="ff62-3630-5f1f-7ec4" includeChildSelections="true"/>
@@ -1629,7 +1629,7 @@ Además, durante el resto del turno, la primera vez que el objetivo termine un m
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="775b-92e5-62af-b123" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="a906-b0ae-8d5c-3bc8" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="a906-b0ae-8d5c-3bc8" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="b8a3-fc8f-cbdf-9424" shared="true" id="d47f-8f0e-e24a-d63e" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad7b-ba0b-6a49-68f0"/>
@@ -1642,7 +1642,7 @@ Además, durante el resto del turno, la primera vez que el objetivo termine un m
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="c0aa-3605-4bb5-f4f" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="c0aa-3605-4bb5-f4f" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <modifiers>
                     <modifier type="increment" value="1" field="133-b129-b0d7-492">
                       <repeats>
@@ -1655,7 +1655,7 @@ Además, durante el resto del turno, la primera vez que el objetivo termine un m
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78d5-49f6-925c-d46a"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="f2d3-f89-997c-9983" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="f2d3-f89-997c-9983" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8fb-eca0-b633-bc5b"/>
                     <constraint type="max" value="1" field="selections" scope="b8a3-fc8f-cbdf-9424" shared="true" id="84d2-c201-e04-23cd" includeChildSelections="true"/>
@@ -2007,7 +2007,7 @@ Además, durante el resto del turno, la primera vez que el objetivo termine un m
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4e6-87c9-9fef-963f" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="ebd5-c41f-9ad9-c95a" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="ebd5-c41f-9ad9-c95a" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="787e-9e76-7c5c-f3b7" shared="true" id="d417-3f70-c30e-b56f" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3e5-ce3f-f50-bc29"/>
@@ -2020,7 +2020,7 @@ Además, durante el resto del turno, la primera vez que el objetivo termine un m
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="648-e477-456f-1b8e" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="648-e477-456f-1b8e" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <modifiers>
                     <modifier type="increment" value="1" field="cca4-8215-d4aa-a732">
                       <repeats>
@@ -2033,7 +2033,7 @@ Además, durante el resto del turno, la primera vez que el objetivo termine un m
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f22-56bb-3030-9264"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="db1b-e083-b3b2-12b4" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="db1b-e083-b3b2-12b4" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="736a-722e-7288-5e98"/>
                     <constraint type="max" value="1" field="selections" scope="787e-9e76-7c5c-f3b7" shared="true" id="b732-e834-d2a1-8ea1" includeChildSelections="true"/>
@@ -2152,7 +2152,7 @@ Además, durante el resto del turno, la primera vez que el objetivo termine un m
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="634d-c6a3-706c-3afd" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="ce-47f8-58af-5b9e" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="ce-47f8-58af-5b9e" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e92b-2767-d62f-27ee"/>
                     <constraint type="max" value="1" field="selections" scope="d378-a542-6aa9-ccf9" shared="true" id="b1e6-9bc3-3ca4-eedc" includeChildSelections="true"/>
@@ -3019,7 +3019,7 @@ Después, con un 5+, el objetivo tiene **^^Strike-last^^** durante el resto del 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4960-3c7-28b-3653" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="25d5-83da-b44d-c031" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="25d5-83da-b44d-c031" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="3ce3-c35d-8e78-fa3f" shared="true" id="3fab-ad6a-fac-d59b" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc01-2203-8e21-33a9"/>
@@ -3032,7 +3032,7 @@ Después, con un 5+, el objetivo tiene **^^Strike-last^^** durante el resto del 
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="d0ed-46fc-9179-733b" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="d0ed-46fc-9179-733b" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <modifiers>
                     <modifier type="increment" value="1" field="4cd5-2b18-4b52-9e71">
                       <repeats>
@@ -3045,7 +3045,7 @@ Después, con un 5+, el objetivo tiene **^^Strike-last^^** durante el resto del 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e60-b53c-5952-cc32"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="bea5-457e-6139-bc50" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="bea5-457e-6139-bc50" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9732-5943-2cbc-7e13"/>
                     <constraint type="max" value="1" field="selections" scope="3ce3-c35d-8e78-fa3f" shared="true" id="2187-e6da-7e17-4986" includeChildSelections="true"/>
@@ -3675,7 +3675,7 @@ Después, elige una unidad **^^Infantry^^** enemiga por encima de la cual haya p
         <profile name="Wall Crawler" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5175-0e58-2b9e-f2e8">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta **^^Manifestation^^** puede atravesar elementos de escenografía como si tuviera **^^Fly^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta **^^Manifestation^^** puede atravesar elementos de escenografía como si tuviera **^^Volar^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Gray</attribute>
@@ -4438,7 +4438,7 @@ Cover, Impassable**</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e071-6111-3104-350f" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="cf1c-725a-ee2c-dec2" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                <entryLink import="true" name="Campeón" hidden="false" id="cf1c-725a-ee2c-dec2" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="07da-8a50-69be-b0c1" shared="true" id="5657-7aba-1e5b-db72"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0dbf-5387-af24-d6eb"/>
@@ -4878,7 +4878,7 @@ Cover, Impassable**</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="afe3-d189-3b53-0aed" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="021b-4e8f-9015-f89d" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                <entryLink import="true" name="Campeón" hidden="false" id="021b-4e8f-9015-f89d" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="5ebb-a3a6-b5a9-86c9" shared="true" id="c573-cb95-f7a7-b62f"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c86-78a2-5acf-27b6"/>
@@ -5281,7 +5281,7 @@ Add 1 to the Rend characteristic of this unit's **Wolfgit Weapons** while it con
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e86-ae0f-39f2-cc11" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="d0e7-1d7f-6f67-6855" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                <entryLink import="true" name="Campeón" hidden="false" id="d0e7-1d7f-6f67-6855" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="8019-bea9-51a0-352b" shared="true" id="6555-236c-ac78-fb4e"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd64-72fe-619f-523a"/>
@@ -6095,7 +6095,7 @@ Add 1 to the Rend characteristic of this unit's **Wolfgit Weapons** while it con
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d79-0598-ccfb-3ff8" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="4bfa-5cc8-f984-e6ec" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="4bfa-5cc8-f984-e6ec" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c257-0fe3-b90a-926a"/>
                     <constraint type="max" value="1" field="selections" scope="6fff-0633-62a4-cd02" shared="true" id="e201-033d-7d23-c016" includeChildSelections="true"/>
@@ -6231,7 +6231,7 @@ Después, puedes gastar 1 **dado de ira**. Si lo haces:
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6a3-c5aa-42c5-09e6" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="73a2-fb41-cdc5-054a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="73a2-fb41-cdc5-054a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9eef-f64a-4975-729f"/>
                     <constraint type="max" value="1" field="selections" scope="0856-236a-c8c5-1a66" shared="true" id="0a93-a280-8fba-904c" includeChildSelections="true"/>
@@ -6509,7 +6509,7 @@ Después, puedes gastar 1 **dado de ira**. Si lo haces:
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="781b-c1e7-624d-f129" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="aaba-66c5-0a52-f1d8" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="aaba-66c5-0a52-f1d8" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8aca-efad-797c-5cdc"/>
                     <constraint type="max" value="1" field="selections" scope="052d-8f9c-151a-c74b" shared="true" id="5aca-a276-2998-4865" includeChildSelections="true"/>
@@ -6972,7 +6972,7 @@ Además, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Move a D6+6".
 • Cambia la característica de Health a 6.
 • Sustituye la palabra clave **^^Infantry^^** por **^^Cavalry^^**.
-• Añade las palabras clave **^^Squig^^**, **^^Moonclan^^** y **^^Fly^^**.</description>
+• Añade las palabras clave **^^Squig^^**, **^^Moonclan^^** y **^^Volar^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7051,7 +7051,7 @@ Además, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Health a 12.
 • Cambia la característica de Control a 5.
 • Sustituye la palabra clave **^^Infantry^^** por **^^Monster^^**.
-• Añade las palabras clave **^^Squig^^**, **^^Moonclan^^** y **^^Fly^^**.</description>
+• Añade las palabras clave **^^Squig^^**, **^^Moonclan^^** y **^^Volar^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8611,7 +8611,7 @@ Además, realiza los siguientes cambios en su pergamino:
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno:
 • Esta unidad tiene **^^Strike-first^^**.
 • Duplica la característica de Attacks de sus armas de combate.
-• Los ataques de esta unidad deben tener como objetivo un **^^Monster^^** o **^^Beast^^** enemigo.</characteristic>
+• Los ataques de esta unidad deben tener como objetivo un **^^Monster^^** o **^^Bestia^^** enemigo.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -8664,7 +8664,7 @@ Además, realiza los siguientes cambios en su pergamino:
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63db-8402-5517-1511" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="15b4-4600-fb76-486a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                <entryLink import="true" name="Campeón" hidden="false" id="15b4-4600-fb76-486a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="e15b-2f63-bd45-3159" shared="true" id="9d3c-564d-52aa-d472"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8957-89ed-4701-0cc0"/>
@@ -8816,7 +8816,7 @@ Además, realiza los siguientes cambios en su pergamino:
     <profile name="Wall Crawler" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="abfa-3e89-53c2-8773">
       <characteristics>
         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede atravesar elementos de escenografía como si tuviera **^^Fly^^**.</characteristic>
+        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede atravesar elementos de escenografía como si tuviera **^^Volar^^**.</characteristic>
       </characteristics>
       <attributes>
         <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Gray</attribute>

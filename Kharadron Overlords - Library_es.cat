@@ -245,7 +245,7 @@
         <profile name="Light Bomb Racks" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="8ca2-a9b5-3fa8-31cb">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que no tenga **^^Fly^^** y sobre la que esta unidad haya pasado esta fase.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que no tenga **^^Volar^^** y sobre la que esta unidad haya pasado esta fase.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 4 dados. Por cada 4+, inflige 1 de daño mortal al objetivo.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -1050,13 +1050,13 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="effd-4e20-d01c-601a" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="f3f2-eebb-ad50-593f" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="f3f2-eebb-ad50-593f" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab6f-f68b-cab4-6af4"/>
                     <constraint type="max" value="1" field="selections" scope="9f81-a727-f6ab-e7cc" shared="true" id="e6fb-a194-cb0a-aba" includeChildSelections="true"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="e6f-933c-3236-9f22" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="e6f-933c-3236-9f22" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="9f81-a727-f6ab-e7cc" shared="true" id="e167-c386-f35f-d126"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f748-643a-def1-5b98"/>
@@ -1289,7 +1289,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfe-cb6f-c9fa-2e38" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="d072-2e07-7bbc-a7ed" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="d072-2e07-7bbc-a7ed" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a132-7d36-68a2-54df"/>
                     <constraint type="max" value="1" field="selections" scope="a86c-b6ef-d754-bcb7" shared="true" id="6718-fc96-f786-b3de" includeChildSelections="true"/>
@@ -1580,7 +1580,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="511d-ac29-3079-1ec0" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="542e-fe1c-bcda-c53a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="542e-fe1c-bcda-c53a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8714-881f-8c34-e185"/>
                     <constraint type="max" value="1" field="selections" scope="4c3c-1a00-2c49-87ce" shared="true" id="362-13d7-5690-ae25" includeChildSelections="true"/>
@@ -1873,7 +1873,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="935-1285-e859-260f" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="bfd7-eafc-bb35-aa67" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="bfd7-eafc-bb35-aa67" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8494-c9b1-1381-afc9"/>
                     <constraint type="max" value="1" field="selections" scope="bc2-ce5c-7ccc-4145" shared="true" id="ff03-7336-ad30-7203" includeChildSelections="true"/>
@@ -2060,7 +2060,7 @@
         <profile name="Heavy Bomb Racks" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="ef89-b9ef-172f-4ce9">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que no tenga **^^Fly^^** y sobre la que esta unidad haya pasado esta fase.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que no tenga **^^Volar^^** y sobre la que esta unidad haya pasado esta fase.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 10 dados. Por cada 4+, inflige 1 de daño mortal al objetivo.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -2204,7 +2204,7 @@
         <profile name="Medium Bomb Racks" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="ad22-ff4d-646b-8544">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que no tenga **^^Fly^^** y sobre la que esta unidad haya pasado esta fase.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que no tenga **^^Volar^^** y sobre la que esta unidad haya pasado esta fase.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 6 dados. Por cada 4+, inflige 1 de daño mortal al objetivo.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -3047,7 +3047,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d6c-9640-ca0e-f3d6" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="baf4-ed8f-ff19-8845" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="baf4-ed8f-ff19-8845" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="df4d-4bcd-8703-c1fd"/>
                     <constraint type="max" value="1" field="selections" scope="54b0-7eb3-f2dc-f7b9" shared="true" id="79a4-ff51-0a92-a5a5" includeChildSelections="true"/>
@@ -3161,7 +3161,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b5d1-8945-2320-1326" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="429e-9233-1396-f2e3" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="429e-9233-1396-f2e3" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c716-a321-cb60-2651"/>
                     <constraint type="max" value="1" field="selections" scope="b38b-f2bc-47a8-658e" shared="true" id="84d9-5dfc-58ff-665f" includeChildSelections="true"/>
@@ -3628,7 +3628,7 @@ Además, sustituye la **Pistola kharadron** de tu héroe por un **Kharadron Anat
                   </modifiers>
                   <rules>
                     <rule name="Endrineers Guild Mechanist" id="1777-bbc7-26a4-eda5" hidden="true">
-                      <description>Tu héroe obtiene **^^Fly^^**, el arma **Dirgible Suit Tools** y las siguientes opciones de regimiento:
+                      <description>Tu héroe obtiene **^^Volar^^**, el arma **Dirgible Suit Tools** y las siguientes opciones de regimiento:
 Cualquier unidad **^^Kharadron Overlords^^**
 Además, cambia la característica de Move de tu héroe a 12".</description>
                     </rule>
@@ -4674,7 +4674,7 @@ Cualquier unidad **^^Kharadron Overlords^^**</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5255-d7cf-fe4c-222c" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="b9fd-184e-681a-c70a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="b9fd-184e-681a-c70a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="465e-07de-c1da-c1c3"/>
                     <constraint type="max" value="1" field="selections" scope="4c3c-1a00-2c49-87ce" shared="true" id="8b00-2225-a1c9-de1f" includeChildSelections="true"/>
@@ -4791,7 +4791,7 @@ Cualquier unidad **^^Kharadron Overlords^^**</description>
                     <profile name="Learned in the Ways of the Wind" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5f23-cdfb-ad10-af5e">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad enemiga a 9" o menos de esta unidad use una habilidad **^^Move^^**, los efectos de la habilidad &apos;Fly&apos; no se aplican a esa unidad.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad enemiga a 9" o menos de esta unidad use una habilidad **^^Move^^**, los efectos de la habilidad &apos;Volar&apos; no se aplican a esa unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>

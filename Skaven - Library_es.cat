@@ -791,7 +791,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">6</characteristic>
-            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige una unidad enemiga visible que no tenga **^^Fly^^** y esté a 13" o menos de esta unidad como blanco y, después, haz una tirada de lanzamiento de 2D6.</characteristic>
+            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige una unidad enemiga visible que no tenga **^^Volar^^** y esté a 13" o menos de esta unidad como blanco y, después, haz una tirada de lanzamiento de 2D6.</characteristic>
             <characteristic name="Effect" typeId="1cb9-a-1345-907f">Si la tirada de lanzamiento supera el atributo **^^Move^^** del blanco, inflige al blanco una cantidad de daño mortal igual a la diferencia entre la tirada de lanzamiento y su atributo **^^Move^^**.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Hechizo^^**</characteristic>
           </characteristics>
@@ -1422,7 +1422,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** enemigo visible.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, esta unidad y las unidades **Jezzails de llave disforme** amigas totalmente a 13" o menos de esta unidad pueden ignorar los efectos de la habilidad &apos;Guarded Hero&apos; (Reglas básicas, 25.0) al elegir los blancos de sus ataques de disparo.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, esta unidad y las unidades **Jezzails de llave disforme** amigas totalmente a 13" o menos de esta unidad pueden ignorar los efectos de la habilidad &apos;Héroe protegido&apos; (Reglas básicas, 25.0) al elegir los blancos de sus ataques de disparo.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1761,7 +1761,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2668-70b8-6a3f-7934"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="9c94-3c1c-1c38-939e" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="9c94-3c1c-1c38-939e" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="160-3400-6da6-eb08" shared="true" id="ba4e-c6c0-0829-9390" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ff5-2696-b27d-94fe"/>
@@ -2742,7 +2742,7 @@ Después, elige hasta 3 unidades enemigas que esta unidad haya atravesado durant
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3c5-ae89-4583-fc35"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="2867-7c24-5872-cb42" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="2867-7c24-5872-cb42" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="f51a-f96d-8cde-824c" shared="true" id="2988-d9b5-6d42-f27f" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5415-acc1-52ce-a706"/>
@@ -2924,7 +2924,7 @@ Después, elige hasta 3 unidades enemigas que esta unidad haya atravesado durant
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85ce-5797-2eb1-1e1f"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="d493-6b45-da70-362b" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="d493-6b45-da70-362b" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <modifiers>
                     <modifier type="increment" value="1" field="5506-bd42-66a5-c00b">
                       <repeats>
@@ -2937,7 +2937,7 @@ Después, elige hasta 3 unidades enemigas que esta unidad haya atravesado durant
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d081-a191-1b8a-be06"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="cce6-e4df-6ddd-244d" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="cce6-e4df-6ddd-244d" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="38fa-afa3-6368-1722" shared="true" id="1b4a-9a40-a3dc-eaaf" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="904f-1620-b954-c687"/>
@@ -2950,7 +2950,7 @@ Después, elige hasta 3 unidades enemigas que esta unidad haya atravesado durant
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="39bc-66b7-93ee-cc05" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="39bc-66b7-93ee-cc05" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="38fa-afa3-6368-1722" shared="true" id="6c79-1ebe-54e2-91ff" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d9b-f487-e33d-db9d"/>
@@ -3045,7 +3045,7 @@ Después, elige hasta 3 unidades enemigas que esta unidad haya atravesado durant
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8203-35f4-6296-a889"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="a680-184c-42d9-fd72" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="a680-184c-42d9-fd72" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <modifiers>
                     <modifier type="increment" value="1" field="2612-ecbd-7f62-c3e1">
                       <repeats>
@@ -3058,7 +3058,7 @@ Después, elige hasta 3 unidades enemigas que esta unidad haya atravesado durant
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d4-4a44-dd84-ff89"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="2d1c-1c14-d988-bf99" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="2d1c-1c14-d988-bf99" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="605a-d055-1afc-a02c" shared="true" id="1167-8aba-6b7d-206a" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e282-b23c-677e-486e"/>
@@ -3071,7 +3071,7 @@ Después, elige hasta 3 unidades enemigas que esta unidad haya atravesado durant
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="2a05-7175-b10-5404" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="2a05-7175-b10-5404" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="605a-d055-1afc-a02c" shared="true" id="42d8-ed22-5bbf-9bdc" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b982-248-6fcc-d4a8"/>
@@ -3163,7 +3163,7 @@ Después, elige hasta 3 unidades enemigas que esta unidad haya atravesado durant
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="880d-fe38-59ea-40e"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="599-dbfe-7b44-9c77" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="599-dbfe-7b44-9c77" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <modifiers>
                     <modifier type="increment" value="1" field="664-7978-a80e-4945">
                       <repeats>
@@ -3176,7 +3176,7 @@ Después, elige hasta 3 unidades enemigas que esta unidad haya atravesado durant
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="209b-8c5d-ed7f-1b9f"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="2c27-b320-9fc5-636a" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="2c27-b320-9fc5-636a" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="fed2-4975-ae44-473" shared="true" id="740d-3499-2143-19ea" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb50-f949-17ee-863c"/>
@@ -3189,7 +3189,7 @@ Después, elige hasta 3 unidades enemigas que esta unidad haya atravesado durant
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="c01d-817a-be5f-c13a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="c01d-817a-be5f-c13a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="fed2-4975-ae44-473" shared="true" id="4746-70de-4cb8-7131" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79d3-35ea-7c92-780a"/>
@@ -3944,7 +3944,7 @@ Sin embargo, por cada tirada de impacto sin modificar de 1 de un ataque hecho co
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2db7-5ec7-1439-b4"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="482e-1e66-8bad-b03c" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="482e-1e66-8bad-b03c" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="687e-ab15-48d9-4103" shared="true" id="6ee0-c70f-52f3-3bdf" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f4a-49cb-ab0d-f367"/>
@@ -4421,7 +4421,7 @@ Cobertura**</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a085-d63f-54b5-8753"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="7f7e-3856-d416-5648" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                <entryLink import="true" name="Campeón" hidden="false" id="7f7e-3856-d416-5648" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="4f4c-4e64-71f7-d4b2" shared="true" id="4390-623f-14be-65ce" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c45a-b18d-2a2c-9438"/>
@@ -5397,7 +5397,7 @@ Cobertura**</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e30-7ae1-0639-ffa4"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="7578-d202-7e5a-1e0a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="7578-d202-7e5a-1e0a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="f187-0277-e210-7c65" shared="true" id="dacc-60f1-cfe8-e81f" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="331a-614a-19cc-357c"/>
@@ -8015,7 +8015,7 @@ Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a348-7d6a-f1b6-f2ef"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="9978-d080-8686-3d3a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="9978-d080-8686-3d3a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="687e-ab15-48d9-4103" shared="true" id="e216-81a0-34e1-d220" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3abc-f5ba-1929-dfd8"/>

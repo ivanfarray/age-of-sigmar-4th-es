@@ -804,7 +804,7 @@
         <profile name="Groundshaker" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7124-769a-aafd-7b38">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga **^^Infantry^^** o **^^Cavalry^^** que no tenga **^^Fly^^** y esté en combate con esta unidad.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga **^^Infantry^^** o **^^Cavalry^^** que no tenga **^^Volar^^** y esté en combate con esta unidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, el objetivo tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -1280,7 +1280,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d466-6a08-3574-729b" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="5fc7-f299-b0de-ba8f" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="5fc7-f299-b0de-ba8f" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b56c-d7f3-c027-f1d3"/>
                     <constraint type="max" value="1" field="selections" scope="a457-63b8-99fb-b82f" shared="true" id="ebcc-24e1-b6fd-33c4" includeChildSelections="true"/>
@@ -1528,7 +1528,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d0b-d500-36a8-fcdd" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="d84e-7d2c-8b46-cef7" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                <entryLink import="true" name="Campeón" hidden="false" id="d84e-7d2c-8b46-cef7" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b582-b36c-15a8-c6f8"/>
                   </constraints>
@@ -1623,7 +1623,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="356d-e734-9049-c523" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="aab1-f8b-a74d-3ed8" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="aab1-f8b-a74d-3ed8" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46c9-118a-1e3c-cb2e"/>
                     <constraint type="max" value="1" field="selections" scope="bede-574b-208d-f486" shared="true" id="e98d-519a-6a1a-74fa" includeChildSelections="true"/>
@@ -1751,7 +1751,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db3a-42af-f557-932b" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="d31a-487b-cafb-e5" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="d31a-487b-cafb-e5" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="8d4f-cdc2-f74f-daac" shared="true" id="4ec5-3069-2c86-88d8" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8396-42e5-87f-6430"/>
@@ -1764,7 +1764,7 @@
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="af70-f5c2-8b05-41a8" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0">
+                <entryLink import="true" name="Músico" hidden="false" id="af70-f5c2-8b05-41a8" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0">
                   <modifiers>
                     <modifier type="increment" value="1" field="684b-b2a0-bf0d-9ad3">
                       <repeats>
@@ -1777,7 +1777,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4141-a78d-3aa8-272b"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="1706-ab44-fc66-b1f9" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="1706-ab44-fc66-b1f9" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca10-9bbf-8330-9288"/>
                     <constraint type="max" value="1" field="selections" scope="8d4f-cdc2-f74f-daac" shared="true" id="4895-6321-5dc0-3862" includeChildSelections="true"/>
@@ -1904,7 +1904,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb18-23e2-99fa-c410" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="295-444-5e87-1008" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="295-444-5e87-1008" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48da-fe04-6f84-3187"/>
                     <constraint type="max" value="1" field="selections" scope="7395-623b-7652-b8c6" shared="true" id="3ae9-b136-97c4-28e1" includeChildSelections="true"/>
@@ -2011,7 +2011,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="243a-a71-636a-8a03" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="9f37-67ce-cae6-89a8" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="9f37-67ce-cae6-89a8" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48d6-1265-b296-a7e6"/>
                     <constraint type="max" value="1" field="selections" scope="7403-c67e-a2d-a1af" shared="true" id="4982-52f5-2af6-6540" includeChildSelections="true"/>
@@ -2118,7 +2118,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="50df-3666-d93f-4e9e" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="a839-4ceb-d35e-4887" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="a839-4ceb-d35e-4887" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcdd-3557-28d0-fdfc"/>
                     <constraint type="max" value="1" field="selections" scope="577a-d471-c08e-6ff4" shared="true" id="638d-573b-daa4-e8f7" includeChildSelections="true"/>
@@ -2210,7 +2210,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf68-295a-c186-cf07" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="83e8-d03-f79-ba0b" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="83e8-d03-f79-ba0b" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="821-e931-42ec-7da3"/>
                     <constraint type="max" value="1" field="selections" scope="ccce-ab0c-7c1-bbc2" shared="true" id="a513-b683-2dab-2cdf" includeChildSelections="true"/>
@@ -2338,7 +2338,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="94eb-a9eb-871a-56e8" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="c9d6-f785-4d9f-65e5" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="c9d6-f785-4d9f-65e5" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="766a-54f1-440b-b878" shared="true" id="b7fc-5999-9806-983f" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3e-17c9-99f-a4c6"/>
@@ -2351,7 +2351,7 @@
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="8cb3-828a-f93f-9c34" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0">
+                <entryLink import="true" name="Músico" hidden="false" id="8cb3-828a-f93f-9c34" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0">
                   <modifiers>
                     <modifier type="increment" value="1" field="b75f-df01-4370-f35e">
                       <repeats>
@@ -2364,7 +2364,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe76-a2a-d4b0-ef51"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="a98a-daf2-b9c4-321f" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="a98a-daf2-b9c4-321f" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de0e-8112-3614-9fc3"/>
                     <constraint type="max" value="1" field="selections" scope="766a-54f1-440b-b878" shared="true" id="a57d-d4bc-63d0-fa37" includeChildSelections="true"/>
@@ -2459,7 +2459,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9acd-fe96-a3be-a8dc" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="bd8c-1a4d-855b-47d0" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="bd8c-1a4d-855b-47d0" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="d0bc-bdf6-3a68-4aa9" shared="true" id="ab62-feff-d57e-75a6" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6690-5941-553e-fcff"/>
@@ -2472,7 +2472,7 @@
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="99fd-3766-b876-1a58" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="99fd-3766-b876-1a58" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <modifiers>
                     <modifier type="increment" value="1" field="6bc1-e1b7-6d4a-7f34">
                       <repeats>
@@ -2485,7 +2485,7 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8810-d676-4a8f-9843"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="38e1-a6e3-aedb-7add" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="38e1-a6e3-aedb-7add" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b0d-e114-681-4031"/>
                     <constraint type="max" value="1" field="selections" scope="d0bc-bdf6-3a68-4aa9" shared="true" id="10dc-2298-6d47-4e1" includeChildSelections="true"/>
@@ -2948,7 +2948,7 @@ Cover, Unstable, Obscuring**</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="42f0-c0d6-a4ce-5e3a" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="885c-1a11-baf7-43c0" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                <entryLink import="true" name="Campeón" hidden="false" id="885c-1a11-baf7-43c0" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb4b-d211-5407-7ca3"/>
                     <constraint type="max" value="1" field="selections" scope="57ce-ad2e-d412-37f5" shared="true" id="cf4d-0a6f-3f75-c8ea" includeChildSelections="true"/>
@@ -3069,7 +3069,7 @@ Cover, Unstable, Obscuring**</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="852f-d4c1-ef7a-d9c9" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="ea2d-2646-98e9-eae1" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                <entryLink import="true" name="Campeón" hidden="false" id="ea2d-2646-98e9-eae1" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cddd-9c9f-7909-3da9"/>
                     <constraint type="max" value="1" field="selections" scope="c0d2-82ed-9fc0-3deb" shared="true" id="c41f-ecca-3a88-7032" includeChildSelections="true"/>
@@ -3227,7 +3227,7 @@ Cover, Unstable, Obscuring**</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6242-c433-f285-c391" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Musician" hidden="false" id="f2ff-1dcd-a457-2daf" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="1">
+                <entryLink import="true" name="Músico" hidden="false" id="f2ff-1dcd-a457-2daf" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="1">
                   <modifiers>
                     <modifier type="increment" value="1" field="accc-93cd-425b-6489">
                       <repeats>
@@ -3488,7 +3488,7 @@ Además, si el objetivo no es **^^Kurnothi^^**, añade 1 a las características 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1df0-bef4-7c88-3e66" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="4114-df89-d227-8896" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="4114-df89-d227-8896" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="4f4f-8ec1-d16d-880e" shared="true" id="71c1-f100-f659-221e" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="907d-f571-cb9c-376d"/>
@@ -3501,7 +3501,7 @@ Además, si el objetivo no es **^^Kurnothi^^**, añade 1 a las características 
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="eaad-e2bc-f759-bf66" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0">
+                <entryLink import="true" name="Músico" hidden="false" id="eaad-e2bc-f759-bf66" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0">
                   <modifiers>
                     <modifier type="increment" value="1" field="042d-f99c-4b6c-96b2">
                       <repeats>
@@ -3514,7 +3514,7 @@ Además, si el objetivo no es **^^Kurnothi^^**, añade 1 a las características 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e47c-a505-a935-1613"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="6c3b-a9ec-434e-da74" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="6c3b-a9ec-434e-da74" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="97c1-f17a-4da8-e46c"/>
                     <constraint type="max" value="1" field="selections" scope="4f4f-8ec1-d16d-880e" shared="true" id="1173-b279-b228-13e8" includeChildSelections="true"/>
@@ -3613,7 +3613,7 @@ Además, si el objetivo no es **^^Kurnothi^^**, añade 1 a las características 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b924-3bd3-9251-5865" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="3b18-3f42-64d2-8f82" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                <entryLink import="true" name="Campeón" hidden="false" id="3b18-3f42-64d2-8f82" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="669f-7714-dc25-277b"/>
                     <constraint type="max" value="1" field="selections" scope="5c29-c1ee-6dd4-a32b" shared="true" id="314f-e7f6-0d57-94db" includeChildSelections="true"/>
@@ -4267,7 +4267,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
 • Cambia la característica de Move a 12".
 • Cambia la característica de Health a 7.
 • Sustituye la palabra clave **^^Infantry^^** por la palabra clave **^^Cavalry^^**.
-• Añade la palabra clave **^^Fly^^**.</description>
+• Añade la palabra clave **^^Volar^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -4872,7 +4872,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                   </constraints>
                   <rules>
                     <rule name="Zephyrspite" id="268a-935c-be5f-94f6" hidden="true">
-                      <description>Solo **^^Infantry^^**. Añade 4" a la característica de **^^Move^^** de tu héroe. Tu héroe tiene **^^Fly^^**.</description>
+                      <description>Solo **^^Infantry^^**. Añade 4" a la característica de **^^Move^^** de tu héroe. Tu héroe tiene **^^Volar^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -6014,7 +6014,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c4a-fa3f-4522-076b" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="b48f-736b-d30c-9185" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="b48f-736b-d30c-9185" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20d6-da37-3874-da9a"/>
                     <constraint type="max" value="1" field="selections" scope="7403-c67e-a2d-a1af" shared="true" id="0ce1-e1b9-b915-5a0e" includeChildSelections="true"/>

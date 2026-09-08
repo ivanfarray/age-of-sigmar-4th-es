@@ -231,7 +231,7 @@
                 <profile name="Airborne Horror" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ab60-30b8-f632-68c7">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad tiene **Wings**, tiene un atributo Move de 10" y tiene **^^Fly^^**.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad tiene **Wings**, tiene un atributo Move de 10" y tiene **^^Volar^^**.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Gray</attribute>
@@ -244,7 +244,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a9f-2cbd-7745-de67"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Fly" id="facb-8937-0d86-a52c" hidden="false" type="profile" targetId="8e01-c601-8a44-8f74"/>
+                <infoLink name="Volar" id="facb-8937-0d86-a52c" hidden="false" type="profile" targetId="8e01-c601-8a44-8f74"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Trophy Rack" hidden="false" id="ad30-6e8a-518f-d7ce">
@@ -1117,7 +1117,7 @@
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="1381-d2b6-c7c0-672e" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Musician" hidden="false" id="33c1-affc-9419-1fe7" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0">
+                <entryLink import="true" name="Músico" hidden="false" id="33c1-affc-9419-1fe7" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="dc36-25e9-9522-971e" shared="true" id="afd6-e20-8ef3-f2f7" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="993f-a86c-e2fb-f859"/>
@@ -1130,13 +1130,13 @@
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="eb23-2c9b-e872-1c89" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="eb23-2c9b-e872-1c89" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="dc36-25e9-9522-971e" shared="true" id="28be-c707-b3d5-5c6d" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d3a-4a7d-63e6-85bf"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="fd72-cf0d-ef97-b756" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="fd72-cf0d-ef97-b756" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="dc36-25e9-9522-971e" shared="true" id="62ad-b427-9414-3e46" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8cfd-babc-f099-d2be"/>
@@ -2644,7 +2644,7 @@ If this unit is contesting an objective you control that is wholly within enem
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="9fb1-af07-1515-c537" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Musician" hidden="false" id="654a-27ed-9d39-ca5b" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="654a-27ed-9d39-ca5b" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="df89-794a-4994-8293" shared="true" id="179c-5c87-6d21-ceb5"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b38-396e-3b92-e6a8"/>
@@ -2657,7 +2657,7 @@ If this unit is contesting an objective you control that is wholly within enem
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="300d-99ae-4e1c-d477" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="300d-99ae-4e1c-d477" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="df89-794a-4994-8293" shared="true" id="4127-b150-e092-3daa"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e17a-4974-4b56-1c72"/>
@@ -2670,7 +2670,7 @@ If this unit is contesting an objective you control that is wholly within enem
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="4ec9-9c37-85f1-72cf" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="4ec9-9c37-85f1-72cf" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="df89-794a-4994-8293" shared="true" id="5675-ee7b-2d15-f737"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce2a-b055-34f6-9a1e"/>
@@ -2791,13 +2791,13 @@ If this unit is contesting an objective you control that is wholly within enem
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="1968-3f49-2da8-c024" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="36f2-4ec-f347-a3cb" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="36f2-4ec-f347-a3cb" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="27c4-2bbe-3811-30fc" shared="true" id="d85b-ed30-e1d1-8668" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40d3-bd36-b53e-8e5f"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="458-6972-222a-df6d" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="458-6972-222a-df6d" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="27c4-2bbe-3811-30fc" shared="true" id="56f0-e8bc-f64a-de7" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b86-77c1-854c-ac08"/>
@@ -2810,7 +2810,7 @@ If this unit is contesting an objective you control that is wholly within enem
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="f62d-ce1b-e2a1-4c81" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="f62d-ce1b-e2a1-4c81" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="27c4-2bbe-3811-30fc" shared="true" id="9fdc-4989-456d-e733" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17dc-f46d-d9ac-46cc"/>
@@ -2898,7 +2898,7 @@ If this unit is contesting an objective you control that is wholly within enem
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Beast" id="1359-4b02-22b0-66bb" hidden="false" type="profile" targetId="8e01-c681-8a44-8f44"/>
+        <infoLink name="Bestia" id="1359-4b02-22b0-66bb" hidden="false" type="profile" targetId="8e01-c681-8a44-8f44"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Bruto de la matanza" hidden="false" id="652-2c4a-e24c-cc02" publicationId="6357-5d77-a2b2-f86b">
@@ -3258,7 +3258,7 @@ If this unit is contesting an objective you control that is wholly within enem
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="7798-240f-4a6b-fdd8" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="c4c8-ca65-a291-9860" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="c4c8-ca65-a291-9860" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="82e2-c548-4d0f-3f1e" shared="true" id="9d9a-a07b-df05-ed4c" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6f76-9a0e-3f57-5ea1"/>
@@ -3446,7 +3446,7 @@ If this unit is contesting an objective you control that is wholly within enem
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="9314-c1a8-2f03-c4da" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="6d64-327e-8197-a234" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="6d64-327e-8197-a234" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="3aa3-1abd-dbb-4a18" shared="true" id="b153-b14d-89c7-c10" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c4c2-364e-a90f-7c01"/>
@@ -3459,7 +3459,7 @@ If this unit is contesting an objective you control that is wholly within enem
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="4986-5db7-790f-a59d" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="4986-5db7-790f-a59d" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="3aa3-1abd-dbb-4a18" shared="true" id="751f-84a2-4c6f-9fc2" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8fd6-ca5-c72d-3a85"/>
@@ -3472,7 +3472,7 @@ If this unit is contesting an objective you control that is wholly within enem
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="2049-2f43-bdf-e81c" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="2049-2f43-bdf-e81c" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="3aa3-1abd-dbb-4a18" shared="true" id="8bce-d760-dbf1-36b8" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d31-fb8-70ac-f4ff"/>
@@ -3568,7 +3568,7 @@ If this unit is contesting an objective you control that is wholly within enem
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Beast" id="7c46-8e79-edf7-2158" hidden="false" type="profile" targetId="8e01-c681-8a44-8f44"/>
+        <infoLink name="Bestia" id="7c46-8e79-edf7-2158" hidden="false" type="profile" targetId="8e01-c681-8a44-8f44"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Bestia del vórtice mutalith" hidden="false" id="321d-437b-9c00-e25d" publicationId="6357-5d77-a2b2-f86b">
@@ -4098,7 +4098,7 @@ Después de aplicar el efecto elegido, restablece los **puntos de sacrificio** d
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Beast" id="260c-71b5-629f-21d6" hidden="false" type="profile" targetId="8e01-c681-8a44-8f44"/>
+        <infoLink name="Bestia" id="260c-71b5-629f-21d6" hidden="false" type="profile" targetId="8e01-c681-8a44-8f44"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Caudillo del Juramento Oscuro en corcel de guerra" hidden="false" id="6bde-370e-478d-cf24" publicationId="6357-5d77-a2b2-f86b">
@@ -4283,13 +4283,13 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="47b4-cb57-b2de-c01" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="ef56-5ca2-3b5a-fcd" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="ef56-5ca2-3b5a-fcd" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="d19d-83a0-f443-4e83" shared="true" id="2c48-c665-501-3c14" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba84-c228-99c3-93d0"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="ec13-ba29-10c9-260a" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="ec13-ba29-10c9-260a" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b64-6474-b5e2-583c"/>
                     <constraint type="max" value="1" field="selections" scope="d19d-83a0-f443-4e83" shared="true" id="3dea-999c-360a-66a7" includeChildSelections="true"/>
@@ -4302,7 +4302,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="29ca-f904-d59b-3450" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="29ca-f904-d59b-3450" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47f4-28cb-d36-5c29"/>
                     <constraint type="max" value="1" field="selections" scope="d19d-83a0-f443-4e83" shared="true" id="1e7b-db7c-6713-260b" includeChildSelections="true"/>
@@ -4410,13 +4410,13 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="ffb4-67f1-f405-e45c" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="d3b3-e1f2-69cd-a19c" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="d3b3-e1f2-69cd-a19c" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="7f31-5d2b-4916-28fc" shared="true" id="534d-6e93-9b81-264a" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4158-6ee6-3cda-c1fb"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="8cfb-b21c-24f0-3106" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="8cfb-b21c-24f0-3106" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6496-980b-19a5-6862"/>
                     <constraint type="max" value="1" field="selections" scope="7f31-5d2b-4916-28fc" shared="true" id="d22d-b07e-9198-f4fd" includeChildSelections="true"/>
@@ -4429,7 +4429,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="b8ca-5c0f-1d73-1173" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="b8ca-5c0f-1d73-1173" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d988-8ce1-52ed-f652"/>
                     <constraint type="max" value="1" field="selections" scope="7f31-5d2b-4916-28fc" shared="true" id="6f5c-eaf1-3c9f-1477" includeChildSelections="true"/>
@@ -4562,7 +4562,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="1b4f-eafb-2ba6-369d" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="205a-2ffe-3b56-195c" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="205a-2ffe-3b56-195c" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="32a0-6285-a243-3a38" shared="true" id="29c1-e1f7-8766-dba9" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e1c-f887-ba80-cab5"/>
@@ -4575,7 +4575,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="a240-e1a3-d9c4-273a" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="a240-e1a3-d9c4-273a" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="32a0-6285-a243-3a38" shared="true" id="fe74-202a-16c5-dce2" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cf-4b62-ef6c-9416"/>
@@ -4588,7 +4588,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Champion" hidden="false" id="2b57-7a29-3f5a-dcb0" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="2b57-7a29-3f5a-dcb0" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de48-7a83-91d4-98a3"/>
                     <constraint type="max" value="1" field="selections" scope="32a0-6285-a243-3a38" shared="true" id="1626-bd20-ec51-771" includeChildSelections="true"/>
@@ -4750,13 +4750,13 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
             </selectionEntryGroup>
             <selectionEntryGroup name="Command Models" id="139d-d87-9ca5-3a1c" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="f89e-9b3b-c5b7-77ba" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="f89e-9b3b-c5b7-77ba" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b903-c450-5ef6-8656"/>
                     <constraint type="max" value="1" field="selections" scope="30f5-9b05-d94a-fdfb" shared="true" id="e18a-223c-297c-c314" includeChildSelections="true"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Musician" hidden="false" id="c9b0-8559-6a55-71e8" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
+                <entryLink import="true" name="Músico" hidden="false" id="c9b0-8559-6a55-71e8" type="selectionEntry" targetId="2475-183b-3802-4431" defaultAmount="0,1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="30f5-9b05-d94a-fdfb" shared="true" id="dcd5-3d80-46ec-9750" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d50b-1f12-951f-7719"/>
@@ -4769,7 +4769,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="6770-b1c0-20f3-3b01" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="6770-b1c0-20f3-3b01" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="30f5-9b05-d94a-fdfb" shared="true" id="c4e0-23a1-309f-35d8" includeChildSelections="true"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cb2-15b9-9c87-d70d"/>
@@ -5402,7 +5402,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="2912-5f56-72a4-fcd1" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="29d2-b21c-0f12-a711" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="29d2-b21c-0f12-a711" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dcd0-c83c-8d60-ca6f"/>
                     <constraint type="max" value="1" field="selections" scope="4146-b722-ff22-610d" shared="true" id="6c07-ca7f-ff2f-d68d" includeChildSelections="true"/>
@@ -5541,7 +5541,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="8315-ee80-0fb3-3bd6" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="0071-5dd3-f058-65bc" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="0071-5dd3-f058-65bc" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f989-bd38-a748-8e23"/>
                     <constraint type="max" value="1" field="selections" scope="b5e1-1ff0-d451-335e" shared="true" id="127a-4c02-53e3-dd2f" includeChildSelections="true"/>
@@ -5677,7 +5677,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="8f2d-008f-7019-7147" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="c025-f67a-002b-9624" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="c025-f67a-002b-9624" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae72-688c-f0ed-9bb1"/>
                     <constraint type="max" value="1" field="selections" scope="5a21-301b-7e70-62fd" shared="true" id="0568-8b83-4f20-8168" includeChildSelections="true"/>
@@ -5811,13 +5811,13 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="f0d3-fbaf-7780-ec3c" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="5da2-b2b2-9c8c-4c4d" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="5da2-b2b2-9c8c-4c4d" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb8f-7701-ec90-4a13"/>
                     <constraint type="max" value="1" field="selections" scope="9a4c-e68d-108d-98f5" shared="true" id="25d4-d17e-e5ba-9303" includeChildSelections="true"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Standard Bearer" hidden="false" id="e421-7e64-a2b7-0a84" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,1,0">
+                <entryLink import="true" name="Portaestandarte" hidden="false" id="e421-7e64-a2b7-0a84" type="selectionEntry" targetId="7f34-77c9-597-62c3" defaultAmount="0,1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b3fe-aa92-30ed-ac66"/>
                     <constraint type="max" value="1" field="selections" scope="9a4c-e68d-108d-98f5" shared="true" id="8566-184c-85b8-7c5b" includeChildSelections="true"/>
@@ -5995,7 +5995,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="c0d8-ed1f-0d44-eb76" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="2e87-924c-d9b0-9661" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="2e87-924c-d9b0-9661" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1511-6750-7691-b788"/>
                     <constraint type="max" value="1" field="selections" scope="78f8-9ac5-641f-8b5c" shared="true" id="07e8-6c0e-c9c2-ed05" includeChildSelections="true"/>
@@ -6122,7 +6122,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="f1e7-0a94-c7f9-3787" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="819e-8880-3cfd-00d5" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="819e-8880-3cfd-00d5" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b56-8101-15ea-b634"/>
                     <constraint type="max" value="1" field="selections" scope="cc95-e171-14b9-002f" shared="true" id="d143-fa80-07ca-e4d5" includeChildSelections="true"/>
@@ -6225,7 +6225,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="ee96-99fb-17de-9b3f" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="bd3e-0978-d91f-57f1" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="bd3e-0978-d91f-57f1" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed1d-4279-6874-2343"/>
                     <constraint type="max" value="1" field="selections" scope="62a3-63bf-2306-e2a2" shared="true" id="3032-0e0a-7322-50c7" includeChildSelections="true"/>
@@ -6350,7 +6350,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="2cc7-220a-3ccc-a5f4" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="2084-0227-6276-e668" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="2084-0227-6276-e668" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee11-d0e2-9fec-8ae8"/>
                     <constraint type="max" value="1" field="selections" scope="066a-b04a-44ea-fca2" shared="true" id="231c-e19c-fb41-079b" includeChildSelections="true"/>
@@ -6538,7 +6538,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="0d80-43a5-dedc-b9bd" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="c7ef-7978-29b5-3f29" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="c7ef-7978-29b5-3f29" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4b0-c618-0f18-2448"/>
                     <constraint type="max" value="1" field="selections" scope="6aef-12ed-3dc9-2c83" shared="true" id="d787-3df5-01ce-5636" includeChildSelections="true"/>
@@ -6596,7 +6596,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad incluye un **Primer Colmillo**, elige una unidad enemiga en combate con esta unidad como blanco.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Si el blanco es **^^Beast^^** o **^^Monster^^**, tira un dado en su lugar. Con un 2+, inflige al blanco una cantidad de daño mortal igual a la tirada.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Si el blanco es **^^Bestia^^** o **^^Monster^^**, tira un dado en su lugar. Con un 2+, inflige al blanco una cantidad de daño mortal igual a la tirada.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -6659,7 +6659,7 @@ Add 1 to the Attacks characteristic of this unit's Rune-etched Weapons while i
           <selectionEntryGroups>
             <selectionEntryGroup name="Command Models" id="8605-0734-edcb-c2d0" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="0e78-8f28-b637-f77a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
+                <entryLink import="true" name="Campeón" hidden="false" id="0e78-8f28-b637-f77a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1,0">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b9e-773d-0c52-a476"/>
                     <constraint type="max" value="1" field="selections" scope="056b-6839-dc2f-46db" shared="true" id="c2db-b916-1a10-f797" includeChildSelections="true"/>
@@ -6818,7 +6818,7 @@ If this unit is contesting an objective you control that is wholly within enemy
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b866-c582-a37c-2a43" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="aba2-f4d1-92fc-428c" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                <entryLink import="true" name="Campeón" hidden="false" id="aba2-f4d1-92fc-428c" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4285-e0dc-e465-47a6"/>
                     <constraint type="max" value="1" field="selections" scope="1bb9-8fa7-8bf8-e4a2" shared="true" id="982e-cb46-18d9-3810" includeChildSelections="true"/>
@@ -7102,7 +7102,7 @@ This unit has **^^Ward (5+)^^** while it is contesting an objective you control.
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d55-0606-c12d-59ef" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="c0f3-8e9e-073b-c48a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                <entryLink import="true" name="Campeón" hidden="false" id="c0f3-8e9e-073b-c48a" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5296-d947-c95b-3d8e"/>
                     <constraint type="max" value="1" field="selections" scope="c9bb-a2c8-8c92-a00c" shared="true" id="0577-2c76-e200-b43d" includeChildSelections="true"/>
@@ -7300,7 +7300,7 @@ This unit has **^^Ward (5+)^^** while it is contesting an objective you control.
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1f43-2624-13fb-e081" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Champion" hidden="false" id="bee3-91d2-03cf-6b8f" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
+                <entryLink import="true" name="Campeón" hidden="false" id="bee3-91d2-03cf-6b8f" type="selectionEntry" targetId="9c21-1746-9873-a5b5" defaultAmount="1">
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="204e-b36f-84e9-6faf"/>
                     <constraint type="max" value="1" field="selections" scope="8046-a145-5d79-aa66" shared="true" id="b652-320e-24b7-549a" includeChildSelections="true"/>
@@ -8174,7 +8174,7 @@ Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
                   </constraints>
                   <rules>
                     <rule name="Winged Beast" id="3960-e878-b1d5-3449" hidden="true">
-                      <description>Solo **^^Cavalry^^** o **^^Monster^^**. Tu héroe obtiene la clave **^^Fly^^**.</description>
+                      <description>Solo **^^Cavalry^^** o **^^Monster^^**. Tu héroe obtiene la clave **^^Volar^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>

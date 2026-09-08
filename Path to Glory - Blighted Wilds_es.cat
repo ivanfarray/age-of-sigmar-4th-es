@@ -33,7 +33,7 @@
                     <profile name="Forest Strider" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f5c8-336a-9b19-06a2">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede atravesar elementos de escenografía como si tuviera **^^Fly^^**.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede atravesar elementos de escenografía como si tuviera **^^Volar^^**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -717,7 +717,7 @@
                     <profile name="Hunter&apos;s Call" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b9a4-5f8c-855e-7454">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad haga un movimiento de aproximación, se mueve como si tuviera **^^Fly^^** y puede moverse 6" en lugar de 3".</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad haga un movimiento de aproximación, se mueve como si tuviera **^^Volar^^** y puede moverse 6" en lugar de 3".</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -1573,7 +1573,7 @@
                     <profile name="Traversal Gear" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6589-8d8f-2be5-f4e8">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede atravesar elementos de escenografía como si tuviera **^^Fly^^**.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede atravesar elementos de escenografía como si tuviera **^^Volar^^**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -1818,7 +1818,7 @@
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Los siguientes efectos se aplican hasta el inicio de tu siguiente turno:
 • Resta 1 a las tiradas de lanzamiento y de cántico de cada objetivo.
 • Reduce a la mitad la característica de Move de cada objetivo.
-• Los efectos de la habilidad &apos;Fly&apos; no se aplican a los objetivos.</characteristic>
+• Los efectos de la habilidad &apos;Volar&apos; no se aplican a los objetivos.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -2315,7 +2315,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
               </modifiers>
               <rules>
                 <rule name="Ghyranite Colossus" id="fe7b-1562-e618-e1ea" hidden="true">
-                  <description>Solo unidades que no sean **^^Hero^^** ni **^^Beast^^**.
+                  <description>Solo unidades que no sean **^^Hero^^** ni **^^Bestia^^**.
 Si la unidad es **^^Infantry^^**, **^^Monster^^** o un **Bombarda ghyranita**, añade las armas **Fauces de monstruosidad ghyranita** y **Garras de monstruosidad ghyranita** y la habilidad &apos;Daños de batalla&apos; al pergamino de tu héroe de regimiento. Si la unidad es un **Carro ghyranita**, sustituye su arma **Companion** por **Fauces de monstruosidad ghyranita** y **Garras de monstruosidad ghyranita**.
 Además, realiza los siguientes cambios en el pergamino de tu héroe de regimiento:
 • Cambia la característica de Move a 12".
@@ -2340,7 +2340,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
         </selectionEntryGroup>
         <selectionEntryGroup name="Upgrades" id="b23c-9470-e041-df8d" hidden="false" sortIndex="2">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Champion" hidden="false" id="c9cb-b967-a94e-baaa" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Campeón" hidden="false" id="c9cb-b967-a94e-baaa" sortIndex="1">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-1"/>
@@ -2355,11 +2355,11 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
               </constraints>
               <rules>
                 <rule name="Champion" id="c370-0766-092d-1fad" hidden="true">
-                  <description>Esta unidad tiene un campeón y la palabra clave **^^Champion^^**.</description>
+                  <description>Esta unidad tiene un campeón y la palabra clave **^^Campeón^^**.</description>
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Musician" hidden="false" id="7c62-4655-9dc8-965c" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Músico" hidden="false" id="7c62-4655-9dc8-965c" sortIndex="3">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-1"/>
@@ -2379,11 +2379,11 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
               </constraints>
               <rules>
                 <rule name="Musician" id="b37c-dfad-1d30-ce10" hidden="true">
-                  <description>Solo si no es **^^Beast^^**. Esta unidad tiene un músico y la palabra clave **^^Musician^^**.</description>
+                  <description>Solo si no es **^^Bestia^^**. Esta unidad tiene un músico y la palabra clave **^^Músico^^**.</description>
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Standard Bearer" hidden="false" id="c537-26f5-d5d1-e20f" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Portaestandarte" hidden="false" id="c537-26f5-d5d1-e20f" sortIndex="2">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-1"/>
@@ -2403,7 +2403,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
               </constraints>
               <rules>
                 <rule name="Standard Bearer" id="1538-fcd2-ec5f-55a8" hidden="true">
-                  <description>Solo si no es **^^Beast^^**. Esta unidad tiene un portaestandarte y la palabra clave **^^Standard Bearer^^**.</description>
+                  <description>Solo si no es **^^Bestia^^**. Esta unidad tiene un portaestandarte y la palabra clave **^^Portaestandarte^^**.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -5523,7 +5523,7 @@ Además, realiza los siguientes cambios en su pergamino:
                   </constraints>
                   <rules>
                     <rule name="Sky-born" id="09e9-bb81-a109-774e" hidden="true">
-                      <description>Tu héroe de regimiento tiene **^^Fly^^**.</description>
+                      <description>Tu héroe de regimiento tiene **^^Volar^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8204,7 +8204,7 @@ Además, realiza los siguientes cambios en su pergamino:
                   </modifiers>
                   <rules>
                     <rule name="Reinforced Metalith" id="282d-c88a-2de1-204a" hidden="true">
-                      <description>Tu hito de Ghyran tiene la palabra clave **^^Fly^^**. Además, realiza los siguientes cambios en su pergamino:
+                      <description>Tu hito de Ghyran tiene la palabra clave **^^Volar^^**. Además, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Move a 4". Este elemento de escenografía puede usar habilidades **^^Move^^** que no sean órdenes ni **^^Charge^^** como si fuera una unidad.</description>
                     </rule>
                   </rules>
@@ -10104,7 +10104,7 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         <categoryLink name="BEAST" hidden="false" id="466d-d5b3-1cd2-f5c1" targetId="b224-8c8e-ca93-9860" primary="true"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Beast" id="74df-b235-64e4-167a" hidden="false" type="profile" targetId="8e01-c681-8a44-8f44"/>
+        <infoLink name="Bestia" id="74df-b235-64e4-167a" hidden="false" type="profile" targetId="8e01-c681-8a44-8f44"/>
       </infoLinks>
       <modifierGroups>
         <modifierGroup type="and">

@@ -162,7 +162,7 @@
     <categoryEntry name="DEATH" hidden="false" id="d484-a2d7-cf4f-c4a0"/>
     <categoryEntry name="HERO" hidden="false" id="6e72-1656-d554-528a">
       <infoLinks>
-        <infoLink name="Guarded Hero" id="a27b-f91f-4ad0-d8a4" hidden="false" type="profile" targetId="3bc-444a-5cf8-e4d">
+        <infoLink name="Héroe protegido" id="a27b-f91f-4ad0-d8a4" hidden="false" type="profile" targetId="3bc-444a-5cf8-e4d">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
@@ -182,7 +182,7 @@
     <categoryEntry name="INFANTRY" hidden="false" id="75d6-6995-dfcc-3898"/>
     <categoryEntry name="WARD (6+)" hidden="false" id="70a4-383f-421f-52cd">
       <infoLinks>
-        <infoLink name="Ward Save" id="2f4b-a2bc-b51a-2542" hidden="false" type="profile" targetId="ed70-f30-2f5a-747f"/>
+        <infoLink name="Salvación de protección" id="2f4b-a2bc-b51a-2542" hidden="false" type="profile" targetId="ed70-f30-2f5a-747f"/>
       </infoLinks>
     </categoryEntry>
     <categoryEntry name="OSSIARCH BONEREAPERS" hidden="false" id="5603-d1-a021-331e"/>
@@ -198,12 +198,12 @@
     <categoryEntry name="WIZARD (9)" hidden="false" id="5a9b-95b7-c807-341f"/>
     <categoryEntry name="FLY" hidden="false" id="b979-4c3e-7d0e-6921">
       <infoLinks>
-        <infoLink name="Fly" id="0fb5-79bc-38be-2693" hidden="false" type="profile" targetId="8e01-c601-8a44-8f74"/>
+        <infoLink name="Volar" id="0fb5-79bc-38be-2693" hidden="false" type="profile" targetId="8e01-c601-8a44-8f74"/>
       </infoLinks>
     </categoryEntry>
     <categoryEntry name="WARD (5+)" hidden="false" id="52cc-95fd-6cd3-8f72">
       <infoLinks>
-        <infoLink name="Ward Save" id="f6f6-14d4-4515-9ed2" hidden="false" type="profile" targetId="ed70-f30-2f5a-747f"/>
+        <infoLink name="Salvación de protección" id="f6f6-14d4-4515-9ed2" hidden="false" type="profile" targetId="ed70-f30-2f5a-747f"/>
       </infoLinks>
     </categoryEntry>
     <categoryEntry name="WIZARD (3)" hidden="false" id="8bc-6d63-e37f-9239"/>
@@ -229,7 +229,7 @@
     <categoryEntry name="NIGHTHAUNT" id="e3a4-4581-9f76-4215" hidden="false"/>
     <categoryEntry name="WARD (4+)" id="f99f-98ee-909f-57cd" hidden="false">
       <infoLinks>
-        <infoLink name="Ward Save" id="bda6-d02e-20b0-c04a" hidden="false" type="profile" targetId="ed70-f30-2f5a-747f"/>
+        <infoLink name="Salvación de protección" id="bda6-d02e-20b0-c04a" hidden="false" type="profile" targetId="ed70-f30-2f5a-747f"/>
       </infoLinks>
     </categoryEntry>
     <categoryEntry name="MUSICIAN (1/4)" id="fe9c-1d27-a698-5f31" hidden="false"/>
@@ -354,7 +354,7 @@
     <categoryEntry name="ORRUK" id="86bf-1ccb-b937-c9d7" hidden="false"/>
     <categoryEntry name="WARD (3+)" id="70eb-9b87-b57a-f9f6" hidden="false">
       <infoLinks>
-        <infoLink name="Ward Save" id="1edc-df0f-0ec1-12c6" hidden="false" type="profile" targetId="ed70-f30-2f5a-747f"/>
+        <infoLink name="Salvación de protección" id="1edc-df0f-0ec1-12c6" hidden="false" type="profile" targetId="ed70-f30-2f5a-747f"/>
       </infoLinks>
     </categoryEntry>
     <categoryEntry name="PLEDGED TO TZEENTCH" id="cd13-c472-ceff-5bd8" hidden="false"/>
@@ -14579,7 +14579,7 @@
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Devourer of Magics" hidden="false" id="61af-1ae8-5d5e-d349" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Devorador de magias" hidden="false" id="61af-1ae8-5d5e-d349" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -14593,7 +14593,7 @@
             <attribute typeId="2d74-4dcd-8468-87fa" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Arcane Predator" hidden="false" id="9456-22b9-7885-e464" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+        <profile name="Depredador arcano" hidden="false" id="9456-22b9-7885-e464" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <characteristics>
             <characteristic name="Keywords" id="a127-f3da-a547-5260" hidden="false" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" id="7b71-374f-1953-bd99" hidden="false" typeId="fd7f-888d-3257-a12b">Puedes sumar 1 al número de dados que se tiran al hacer tiradas de carga para esta **^^Manifestation^^**, hasta un máximo de 3, mientras esté a 18" o menos de alguna **^^Manifestation^^** enemiga, pero, si lo haces, debe terminar el movimiento de carga a 1/2" o menos de una **^^Manifestation^^** enemiga.</characteristic>
@@ -14604,7 +14604,7 @@
             <attribute typeId="e2e1-15ca-d345-22b8" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Wild Form" hidden="false" id="4f4-6041-9f7e-2585" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+        <profile name="Forma salvaje" hidden="false" id="4f4-6041-9f7e-2585" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <characteristics>
             <characteristic name="Keywords" id="b594-1d0d-ae7c-afba" hidden="false" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" id="b137-be1-a320-9e97" hidden="false" typeId="fd7f-888d-3257-a12b">Cada vez que esta **^^Manifestation^^** sea objetivo de la habilidad &apos;Banish Manifestation&apos;, si fuera a ser desterrada, no lo es. En su lugar, asígnale 6 puntos de daño (no pueden hacerse tiradas de salvaguardia contra esos puntos de daño).</characteristic>
@@ -14668,7 +14668,7 @@
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="End Given Form" hidden="false" id="42b5-c322-7e12-371c" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="El fin hecho forma" hidden="false" id="42b5-c322-7e12-371c" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -14682,7 +14682,7 @@
             <attribute typeId="2d74-4dcd-8468-87fa" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Pull of the Nadir" hidden="false" id="c99-9240-9da1-d029" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+        <profile name="Atracción del nadir" hidden="false" id="c99-9240-9da1-d029" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de salvación de las unidades amigas y enemigas mientras estén a 3" o menos de esta **^^Manifestation^^**.</characteristic>
@@ -14738,7 +14738,7 @@
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Bound for the Great Oubliette" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6817-e507-443e-1ff4">
+        <profile name="Rumbo a la Gran Mazmorra" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6817-e507-443e-1ff4">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Por cada parte de esta **^^Manifestation^^**, puedes elegir como objetivos una unidad enemiga a 3" o menos de esa parte. No puedes elegir la misma unidad como objetivo de esta habilidad más de una vez por turno.</characteristic>
@@ -14790,7 +14790,7 @@
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Deathly Passage" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f4c4-3de7-898a-b7d8">
+        <profile name="Pasaje mortal" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f4c4-3de7-898a-b7d8">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga que esté totalmente a 6" o menos de una parte de esta **^^Manifestation^^**.</characteristic>
@@ -14841,11 +14841,11 @@
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Scything Blade" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="54d0-e6a1-c6e8-46a7">
+        <profile name="Hoja segadora" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="54d0-e6a1-c6e8-46a7">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta **^^Manifestation^^** puede moverse una distancia de hasta su característica de Move en una dirección (consulta &apos;The Pendulum Swings&apos;). Puede atravesar miniaturas durante ese movimiento y puede terminarlo en combate. Después, elige como objetivos hasta 3 unidades enemigas sobre las que esta **^^Manifestation^^** haya pasado durante ese movimiento o que estén a 1/2" o menos de ella. Tira un D6 por cada objetivo. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta **^^Manifestation^^** puede moverse una distancia de hasta su característica de Move en una dirección (consulta &apos;El péndulo oscila&apos;). Puede atravesar miniaturas durante ese movimiento y puede terminarlo en combate. Después, elige como objetivos hasta 3 unidades enemigas sobre las que esta **^^Manifestation^^** haya pasado durante ese movimiento o que estén a 1/2" o menos de ella. Tira un D6 por cada objetivo. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Movimiento^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -14855,7 +14855,7 @@
             <attribute typeId="2d74-4dcd-8468-87fa" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="The Pendulum Swings" hidden="false" id="9ec5-1011-c05e-5045" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+        <profile name="El péndulo oscila" hidden="false" id="9ec5-1011-c05e-5045" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <characteristics>
             <characteristic name="Keywords" id="f377-977c-5a3f-90f0" hidden="false" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" id="4518-14cc-a17b-4c45" hidden="false" typeId="fd7f-888d-3257-a12b">Esta **^^Manifestation^^** no puede usar habilidades de **^^Charge^^** ni de **^^Fight^^**. Además, cuando esta **^^Manifestation^^** se mueva, debe moverse en línea recta en la dirección a la que apunta la punta de la hoja del péndulo o en la dirección opuesta a aquella a la que apunta la punta de la hoja del péndulo</characteristic>
@@ -14891,7 +14891,7 @@
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Mechanisms of Time" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="ad92-932-6f56-1d97">
+        <profile name="Mecanismos del tiempo" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="ad92-932-6f56-1d97">
           <characteristics>
             <characteristic name="Timing" id="cc32-48b1-3ad0-f0a4" hidden="false" typeId="652c-3d84-4e7-14f4">Una vez por turno, tu fase de héroe</characteristic>
             <characteristic name="Declare" id="34aa-2b46-59a7-1b9d" hidden="false" typeId="bad3-f9c5-ba46-18cb"/>
@@ -14933,7 +14933,7 @@
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Burning Up" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c08-79dc-f4d5-dc9f">
+        <profile name="Consumirse en llamas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c08-79dc-f4d5-dc9f">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta **^^Manifestation^^** use una habilidad de **^^Shoot^^**, después de resolver esa habilidad, asigna 1 punto de daño a esta **^^Manifestation^^** (no pueden hacerse tiradas de salvaguardia contra ese punto de daño).</characteristic>
@@ -15011,7 +15011,7 @@
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Harbinger of Horror" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a59-1e45-94a8-3c90">
+        <profile name="Heraldo del horror" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a59-1e45-94a8-3c90">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de disparo</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que haya sido objetivo de los ataques de disparo de esta **^^Manifestation^^** en esta fase.</characteristic>
@@ -15090,7 +15090,7 @@
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Morbid Detonation" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b8a4-541-b62-cf62">
+        <profile name="Detonación mórbida" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b8a4-541-b62-cf62">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Debes usar esta habilidad, y solo puedes usarla, si esta unidad tiene 6 **puntos de vorágine**. Elige como objetivos todas las unidades (amigas y enemigas) a 9" o menos de ella.</characteristic>
@@ -15104,7 +15104,7 @@
             <attribute typeId="2d74-4dcd-8468-87fa" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Necrotic Vortex" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c711-ce6-1fb6-7abc">
+        <profile name="Vórtice necrótico" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c711-ce6-1fb6-7abc">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Da 1 **punto de vorágine** a esta **^^Manifestation^^** cada vez que:
@@ -15164,7 +15164,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Phantasmal Translocation" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="425b-721a-d7a1-26d4">
+        <profile name="Translocación fantasmal" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="425b-721a-d7a1-26d4">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -15189,10 +15189,10 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <attribute typeId="e2e1-15ca-d345-22b8" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Ensnaring Soul-drain" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9d0c-ae55-1df5-ec0e">
+        <profile name="Drenaje de almas atrapador" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9d0c-ae55-1df5-ec0e">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad enemiga use una habilidad de **^^Move^^** mientras esté a 9" o menos de alguna de las partes de esta Manifestation, los efectos de la habilidad &apos;Fly&apos; no se le aplican. Las unidades enemigas no pueden colocarse a 9" o menos de ninguna de las dos partes de esta **^^Manifestation^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad enemiga use una habilidad de **^^Move^^** mientras esté a 9" o menos de alguna de las partes de esta Manifestation, los efectos de la habilidad &apos;Volar&apos; no se le aplican. Las unidades enemigas no pueden colocarse a 9" o menos de ninguna de las dos partes de esta **^^Manifestation^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Gray</attribute>
@@ -15226,7 +15226,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Traverse the Tides of Death" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2e3f-3b03-af72-7a50">
+        <profile name="Atravesar las mareas de la muerte" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2e3f-3b03-af72-7a50">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Infantry Wizard Hero^^** amigo a 3" o menos de esta **^^Manifestation^^**</characteristic>
@@ -15286,7 +15286,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Dancing Blades" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7b11-c623-fc14-4639">
+        <profile name="Hojas danzantes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7b11-c623-fc14-4639">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">No pueden hacerse tiradas de salvaguardia contra los puntos de daño infligidos por los ataques de esta **^^Manifestation^^**.</characteristic>
@@ -15324,9 +15324,9 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Standard Bearer" hidden="false" id="7f34-77c9-597-62c3">
+    <selectionEntry type="upgrade" import="true" name="Portaestandarte" hidden="false" id="7f34-77c9-597-62c3">
       <profiles>
-        <profile name="Standard Bearer" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1ec9-5b34-74df-6e40">
+        <profile name="Portaestandarte" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1ec9-5b34-74df-6e40">
           <characteristics>
             <characteristic name="Keywords" id="7823-b5d2-96c3-f2d" hidden="false" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" id="41a0-f4d3-94f7-b5f2" hidden="false" typeId="fd7f-888d-3257-a12b">Mientras esta unidad contenga algún portaestandarte, suma 1 a la puntuación de control de esta unidad.</characteristic>
@@ -15349,9 +15349,9 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         <categoryLink name="Command Model" hidden="false" id="544f-980b-4323-b8f" targetId="9c77-5e0b-a20f-d885" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Champion" hidden="false" id="9c21-1746-9873-a5b5">
+    <selectionEntry type="upgrade" import="true" name="Campeón" hidden="false" id="9c21-1746-9873-a5b5">
       <profiles>
-        <profile name="Champion" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6ba-36a4-3848-65d1">
+        <profile name="Campeón" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6ba-36a4-3848-65d1">
           <characteristics>
             <characteristic name="Keywords" id="2928-d479-3f0c-d702" hidden="false" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" id="88e8-86d2-bf52-5c71" hidden="false" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Attacks de las armas usadas por los campeones de esta unidad.</characteristic>
@@ -15374,10 +15374,10 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Champion" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="cfed-845b-b46c-fc6d">
+        <profile name="Campeón" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="cfed-845b-b46c-fc6d">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Attacks de las armas usadas por los campeones de esta unidad. Si esta unidad es un **^^Beast^^**, esta habilidad afecta a las armas **Companion** de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Attacks de las armas usadas por los campeones de esta unidad. Si esta unidad es un **^^Bestia^^**, esta habilidad afecta a las armas **Companion** de esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
@@ -15402,9 +15402,9 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         <categoryLink name="Command Model" hidden="false" id="36ae-3209-9960-66c0" targetId="9c77-5e0b-a20f-d885" primary="false"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Musician" hidden="false" id="2475-183b-3802-4431">
+    <selectionEntry type="upgrade" import="true" name="Músico" hidden="false" id="2475-183b-3802-4431">
       <profiles>
-        <profile name="Musician" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ef81-53a1-5559-5aa1">
+        <profile name="Músico" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ef81-53a1-5559-5aa1">
           <characteristics>
             <characteristic name="Keywords" id="98bb-35ab-5c54-88ea" hidden="false" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" id="2464-8e0d-db9b-bf62" hidden="false" typeId="fd7f-888d-3257-a12b">Mientras esta unidad contenga algún músico, si usa la orden &apos;Rally&apos;, puedes hacer una tirada de reagrupamiento adicional de D6.</characteristic>
@@ -15446,7 +15446,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Restored Vigour" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2899-7afa-38bc-a40e">
+        <profile name="Vigor restaurado" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2899-7afa-38bc-a40e">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -15460,7 +15460,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <attribute typeId="2d74-4dcd-8468-87fa" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Bounteous Healing" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="5d6d-9bfb-60e3-db42">
+        <profile name="Curación abundante" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="5d6d-9bfb-60e3-db42">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga a 3" o menos de esta **^^Manifestation^^**.</characteristic>
@@ -15519,7 +15519,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Ravening Hunger" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9b8b-617a-3c69-2af9">
+        <profile name="Hambre voraz" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9b8b-617a-3c69-2af9">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de carga</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta **^^Manifestation^^** ha cargado este turno, elige como objetivo una unidad enemiga a 1" o menos de ella.</characteristic>
@@ -15579,7 +15579,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Pulled to the Grave" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1fa3-5209-8869-8d58">
+        <profile name="Arrastrado a la tumba" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1fa3-5209-8869-8d58">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -15719,7 +15719,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
             <attribute typeId="e2e1-15ca-d345-22b8" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Arcane Passage" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b327-e576-8829-814d">
+        <profile name="Pasaje arcano" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b327-e576-8829-814d">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Wizard^^** amigo a 3" o menos de esta **^^Manifestation^^**.</characteristic>
@@ -15758,7 +15758,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Blinding Light" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fc0c-9252-758c-533c">
+        <profile name="Luz cegadora" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fc0c-9252-758c-533c">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta **^^Manifestation^^** no puede ser objetivo de ataques de disparo. Además, una unidad no puede ser objetivo de ataques de disparo si es imposible trazar una línea recta desde una miniatura de la unidad atacante hasta una miniatura de la unidad objetivo sin que esa línea atraviese esta **^^Manifestation^^**.</characteristic>
@@ -15816,13 +15816,13 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
       <description>Esta arma puede usarse para hacer ataques de disparo aunque la unidad atacante esté en combate.</description>
     </rule>
     <rule name="Cover" id="df46-5d90-8a18-6608" hidden="false">
-      <description>Resta 1 a las tiradas de impacto de los ataques que tengan como objetivo una unidad que esté detrás de este elemento de escenografía o totalmente sobre él, a menos que esa unidad haya cargado este turno o tenga la palabra clave **^^Fly^^**.</description>
+      <description>Resta 1 a las tiradas de impacto de los ataques que tengan como objetivo una unidad que esté detrás de este elemento de escenografía o totalmente sobre él, a menos que esa unidad haya cargado este turno o tenga la palabra clave **^^Volar^^**.</description>
     </rule>
     <rule name="Impassable" id="fd0b-e72f-a215-64e2" hidden="false">
       <description>Las miniaturas no pueden atravesar ninguna parte de este elemento de escenografía, ni colocarse sobre ella, ni terminar movimientos sobre ella.</description>
     </rule>
     <rule name="Obscuring" id="bcd4-2c7b-5338-82f8" hidden="true">
-      <description>Una unidad no puede ser objetivo de ataques de disparo si está detrás de este elemento de escenografía o totalmente sobre él, a menos que tenga la palabra clave **^^Fly^^**.</description>
+      <description>Una unidad no puede ser objetivo de ataques de disparo si está detrás de este elemento de escenografía o totalmente sobre él, a menos que tenga la palabra clave **^^Volar^^**.</description>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditions>
@@ -15832,7 +15832,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
       </modifiers>
     </rule>
     <rule name="Obscuring" id="e40f-b982-0721-291b" hidden="true">
-      <description>Mientras todas las miniaturas de una unidad que no sea **^^Monster^^** y que no tenga la palabra clave **Fly^^** estén a 1" o menos de este elemento de escenografía, se aplica lo siguiente:
+      <description>Mientras todas las miniaturas de una unidad que no sea **^^Monster^^** y que no tenga la palabra clave **Volar^^** estén a 1" o menos de este elemento de escenografía, se aplica lo siguiente:
 • Esa unidad solo es visible para las unidades enemigas que estén dentro de su alcance de combate.
 • La característica de Range de las armas de esa unidad se reduce a la mitad (redondeando hacia abajo a la pulgada más cercana).</description>
       <modifiers>
@@ -15844,14 +15844,14 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
       </modifiers>
     </rule>
     <rule name="Place of Power" id="bc59-9616-faae-992c" hidden="false">
-      <description>Los **^^Heroes^^** a 3" o menos de este elemento de escenografía pueden usar la habilidad &apos;Activate Place of Power&apos;.</description>
+      <description>Los **^^Heroes^^** a 3" o menos de este elemento de escenografía pueden usar la habilidad &apos;Activar lugar de poder&apos;.</description>
     </rule>
     <rule name="Unstable" id="8182-41a0-866a-ff5f" hidden="false">
       <description>Las miniaturas pueden atravesar cualquier parte de este elemento de escenografía que mida más de 1" de alto, pero no pueden colocarse sobre ella ni terminar ningún tipo de movimiento sobre ella.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile name="Fly" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8e01-c601-8a44-8f74">
+    <profile name="Volar" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8e01-c601-8a44-8f74">
       <characteristics>
         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad se mueve, ignora otras miniaturas, los elementos de escenografía y los alcances de combate de las unidades enemigas. No puede terminar su movimiento en combate a menos que lo especifique la habilidad que le permitió moverse. Ignora cualquier distancia vertical que recorra esta unidad.</characteristic>
@@ -15869,7 +15869,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         </modifier>
       </modifiers>
     </profile>
-    <profile name="Beast" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8e01-c681-8a44-8f44">
+    <profile name="Bestia" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8e01-c681-8a44-8f44">
       <characteristics>
         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad tiene una puntuación de control máxima de 1.</characteristic>
@@ -15880,7 +15880,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         <attribute typeId="e2e1-15ca-d345-22b8" name="Parent Node"/>
       </attributes>
     </profile>
-    <profile name="Ward Save" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ed70-f30-2f5a-747f">
+    <profile name="Salvación de protección" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ed70-f30-2f5a-747f">
       <characteristics>
         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">En el paso 1 de la secuencia de daño (consulta 18.0), haz una **tirada de salvaguardia** de D6 por cada **punto de daño** de la **reserva de daño** de esta unidad. Si el resultado iguala o supera el **valor de salvaguardia** de esta unidad, retira ese punto de daño de la reserva de daño.</characteristic>
@@ -15898,7 +15898,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         </modifier>
       </modifiers>
     </profile>
-    <profile name="Guarded Hero" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3bc-444a-5cf8-e4d">
+    <profile name="Héroe protegido" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3bc-444a-5cf8-e4d">
       <characteristics>
         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si este **^^Hero^^** está dentro del alcance de combate de una unidad amiga que no sea un **^^Hero^^**:
@@ -15918,7 +15918,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         </modifier>
       </modifiers>
     </profile>
-    <profile name="Activate Place of Power" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="true" id="6968-28a3-3f2c-dfcc">
+    <profile name="Activar lugar de poder" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="true" id="6968-28a3-3f2c-dfcc">
       <characteristics>
         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Inicio de cualquier turno</characteristic>
         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Hero^^** amigo a 3" o menos de un **Place of Power** para usar esta habilidad y, después, elige ese **Place of Power** como objetivo.</characteristic>
@@ -15941,7 +15941,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         </modifier>
       </modifiers>
     </profile>
-    <profile name="Activate Place of Power" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="true" id="83a0-e945-ccde-9525">
+    <profile name="Activar lugar de poder" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="true" id="83a0-e945-ccde-9525">
       <characteristics>
         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), inicio de cualquier turno</characteristic>
         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Hero^^** amigo a 3" o menos de un **Place of Power** para usar esta habilidad y, después, elige ese **Place of Power** como objetivo.</characteristic>
@@ -16085,7 +16085,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="Priority Target" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="8bb9-a31d-4540-0425">
+        <profile name="Objetivo prioritario" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="8bb9-a31d-4540-0425">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga que esté en un regimiento, pero que no lo lidere, para que sea la **guardia de honor** de ese regimiento. Puedes elegir una unidad en reserva.</characteristic>
@@ -16099,7 +16099,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
             <attribute typeId="2d74-4dcd-8468-87fa" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Bodyguard" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4a1a-5004-d133-ac9c">
+        <profile name="Guardaespaldas" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4a1a-5004-d133-ac9c">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga que esté en un regimiento, pero que no lo lidere, para que sea la **guardia de honor** de ese regimiento. Puedes elegir una unidad en reserva.</characteristic>
@@ -16115,11 +16115,11 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
             <attribute typeId="2d74-4dcd-8468-87fa" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Field Sergeant" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="54eb-6de5-1e82-a796">
+        <profile name="Sargento de campaña" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="54eb-6de5-1e82-a796">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga que no sea **^^Fly Infantry Hero^^** y que esté en un regimiento, pero que no lo lidere, para que sea la **guardia de honor** de ese regimiento. Puedes elegir una unidad en reserva.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 2" a la característica de Move de las unidades amigas que no sean **^^Fly Infantry^^** mientras estén totalmente a 12" o menos de la **guardia de honor**.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga que no sea **^^Volar Infantry Hero^^** y que esté en un regimiento, pero que no lo lidere, para que sea la **guardia de honor** de ese regimiento. Puedes elegir una unidad en reserva.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 2" a la característica de Move de las unidades amigas que no sean **^^Volar Infantry^^** mientras estén totalmente a 12" o menos de la **guardia de honor**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Guardia de honor^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -16129,7 +16129,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
             <attribute typeId="2d74-4dcd-8468-87fa" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Prized Beast" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6ad6-dccc-c9b9-dabc">
+        <profile name="Bestia preciada" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6ad6-dccc-c9b9-dabc">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Monster^^** amigo que no sea **^^Unique^^**, que no haya sido reforzado y que esté en un regimiento, pero que no lo lidere, para que sea la **guardia de honor** de ese regimiento. Puedes elegir una unidad en reserva.</characteristic>
@@ -16143,7 +16143,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
             <attribute typeId="2d74-4dcd-8468-87fa" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Special Assignment" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="99f1-c5a8-8a2e-4d27">
+        <profile name="Misión especial" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="99f1-c5a8-8a2e-4d27">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga que esté en un regimiento, pero que no lo lidere, para que sea la **guardia de honor** de ese regimiento. Puedes elegir una unidad en reserva.</characteristic>
@@ -16152,7 +16152,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
 • **Anti-^^Cavalry^^ (+1 Rend)**
 • **Anti-^^Monster^^ (+1 Rend)**
 • **Anti-^^War Machine^^ (+1 Rend)**
-• **Anti-^^Beast^^ (+1 Rend)**
+• **Anti-^^Bestia^^ (+1 Rend)**
 En cualquier turno en el que esa **guardia de honor** haya cargado, las armas de cuerpo a cuerpo de esa unidad tienen la habilidad de arma que hayas elegido.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Guardia de honor^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -16182,7 +16182,7 @@ En cualquier turno en el que esa **guardia de honor** haya cargado, las armas de
       </constraints>
       <rules>
         <rule id="5202-75df-1d9a-9f02" hidden="false">
-          <description>Oculta las habilidades de las reglas básicas (por ejemplo, &apos;Fly&apos; y &apos;Ward Save&apos;) para que no aparezcan en los pergaminos de batalla. Puede resultar útil para imprimir con buen formato.</description>
+          <description>Oculta las habilidades de las reglas básicas (por ejemplo, &apos;Volar&apos; y &apos;Salvación de protección&apos;) para que no aparezcan en los pergaminos de batalla. Puede resultar útil para imprimir con buen formato.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -16212,12 +16212,12 @@ En cualquier turno en el que esa **guardia de honor** haya cargado, las armas de
       <selectionEntryGroups>
         <selectionEntryGroup name="Battle Tactic Cards" id="e3d8-8106-a496-2ece" hidden="true" flatten="true" defaultSelectionEntryId="none">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Master the Paths" hidden="false" id="f5d1-f1d9-1dd5-5061" sortIndex="1" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Dominar los senderos" hidden="false" id="f5d1-f1d9-1dd5-5061" sortIndex="1" defaultAmount="0">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68d6-02a5-2080-eb32"/>
               </constraints>
               <profiles>
-                <profile name="Master the Paths" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="c45f-dc73-39f3-24c9">
+                <profile name="Dominar los senderos" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="c45f-dc73-39f3-24c9">
                   <characteristics>
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df"/>
                     <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Cut Off The Head:
@@ -16231,12 +16231,12 @@ Completas esta táctica de batalla al final de tu turno si al menos tres unidade
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Restless Energy" hidden="false" id="5ab4-540d-4e00-5c62" sortIndex="2" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Energía inquieta" hidden="false" id="5ab4-540d-4e00-5c62" sortIndex="2" defaultAmount="0">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ca2-bae5-733f-9c3d"/>
               </constraints>
               <profiles>
-                <profile name="Restless Energy" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="7978-d16f-1a08-39e6">
+                <profile name="Energía inquieta" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="7978-d16f-1a08-39e6">
                   <characteristics>
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df"/>
                     <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Water With Blood:
@@ -16249,12 +16249,12 @@ Completas esta táctica de batalla al final de tu turno si controlas todos los m
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Intercept and Recover" hidden="false" id="545c-5467-b8b6-2b1b" sortIndex="3" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Interceptar y recuperar" hidden="false" id="545c-5467-b8b6-2b1b" sortIndex="3" defaultAmount="0">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="267c-8452-a744-5760"/>
               </constraints>
               <profiles>
-                <profile name="Intercept and Recover" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="a365-06ad-19a1-528d">
+                <profile name="Interceptar y recuperar" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="a365-06ad-19a1-528d">
                   <characteristics>
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df">• Al inicio de la batalla, tu oponente debe elegir 3 de sus unidades que estén en el campo de batalla para que lleven un Ghyranite Treasure. No puede elegir elementos de escenografía de facción ni **^^Manifestations^^**. Una unidad solo puede llevar 1 Ghyranite Treasure. Si tu oponente tiene menos de 3 unidades en el campo de batalla, completas automáticamente un número de estas tácticas de batalla, empezando por la táctica de batalla **Domination** (seguida de la de **Strike** y después la de **Affray**), hasta que el número de tácticas de batalla sin completar restantes sea igual al número de unidades enemigas que haya en el campo de batalla.
 • Si fuiste segundo en la ronda de batalla anterior y eliges ir primero en la ronda de batalla actual, tu oponente puede retirar 1 Ghyranite Treasure de una de sus unidades al inicio de la ronda de batalla.
@@ -16269,12 +16269,12 @@ Completas esta táctica de batalla al final de tu turno si en esta batalla se ha
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Wrathful Cycles" hidden="false" id="f55e-5058-7696-bf7a" sortIndex="4" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Ciclos iracundos" hidden="false" id="f55e-5058-7696-bf7a" sortIndex="4" defaultAmount="0">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbbf-4f2b-8fc5-321f"/>
               </constraints>
               <profiles>
-                <profile name="Wrathful Cycles" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="23e0-e35a-83c2-1c6e">
+                <profile name="Ciclos iracundos" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="23e0-e35a-83c2-1c6e">
                   <characteristics>
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df"/>
                     <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Defiant Surge:
@@ -16287,12 +16287,12 @@ Completas esta táctica de batalla al final de tu turno si hay una unidad amiga 
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Scouting Force" hidden="false" id="2adf-8d5d-6fd6-9bb4" sortIndex="5" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Fuerza exploradora" hidden="false" id="2adf-8d5d-6fd6-9bb4" sortIndex="5" defaultAmount="0">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75f3-1f73-31eb-e109"/>
               </constraints>
               <profiles>
-                <profile name="Scouting Force" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="5fc5-3a71-00e9-29f6">
+                <profile name="Fuerza exploradora" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="5fc5-3a71-00e9-29f6">
                   <characteristics>
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df">Al inicio de la batalla, elige cada unidad amiga que no sea **^^Hero Infantry^^** ni **^^Hero Cavalry^^** y que no se haya colocado en reserva con una habilidad de **^^Deploy^^** para que se convierta en una unidad exploradora. No puedes completar estas tácticas de batalla con unidades exploradoras que estén en combate. Las unidades de reemplazo que sustituyan a unidades exploradoras también son unidades exploradoras.</characteristic>
                     <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Raiding Party:
@@ -16305,12 +16305,12 @@ Completas esta táctica de batalla al final de tu turno si una unidad explorador
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Attuned to Ghyran" hidden="false" id="71aa-cea6-7469-01dd" sortIndex="6" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="En sintonía con Ghyran" hidden="false" id="71aa-cea6-7469-01dd" sortIndex="6" defaultAmount="0">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6410-127c-5cb7-4d12"/>
               </constraints>
               <profiles>
-                <profile name="Attuned to Ghyran" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="85c3-aaa3-373c-c2ad">
+                <profile name="En sintonía con Ghyran" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="85c3-aaa3-373c-c2ad">
                   <characteristics>
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df"/>
                     <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Sacred Centrality:
@@ -16340,12 +16340,12 @@ Completas esta táctica de batalla al final de tu turno si no hay unidades enemi
         </selectionEntryGroup>
         <selectionEntryGroup name="Battle Tactic Cards" id="21dd-5bf2-a282-e727" hidden="true" flatten="true" defaultSelectionEntryId="none">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Blazing Onslaught" hidden="false" id="7d3c-b9b7-6412-d44e" sortIndex="1" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Asalto ardiente" hidden="false" id="7d3c-b9b7-6412-d44e" sortIndex="1" defaultAmount="0">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="410f-e994-a5e8-69ad"/>
               </constraints>
               <profiles>
-                <profile name="Blazing Onslaught" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="fbf2-b24d-3649-0bf6">
+                <profile name="Asalto ardiente" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="fbf2-b24d-3649-0bf6">
                   <characteristics>
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df">Al inicio de la batalla, después de usar todas las habilidades de la fase de despliegue pero antes de determinar qué jugador tomará el primer turno, tu oponente debe elegir 1 elemento de escenografía que no sea **^^Faction Terrain^^** dentro de su territorio para que sea su **escondite**. El **escondite** no puede retirarse del campo de batalla en ningún momento durante la batalla.</characteristic>
                     <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Master of Arms:
@@ -16358,12 +16358,12 @@ Completas esta táctica de batalla al final de tu turno si este turno se han des
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Siege of Ashes" hidden="false" id="f94b-bda7-237e-74be" sortIndex="2" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Asedio de cenizas" hidden="false" id="f94b-bda7-237e-74be" sortIndex="2" defaultAmount="0">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b53-c638-0fc8-0296"/>
               </constraints>
               <profiles>
-                <profile name="Siege of Ashes" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="da1d-2f3d-f13b-9145">
+                <profile name="Asedio de cenizas" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="da1d-2f3d-f13b-9145">
                   <characteristics>
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df"/>
                     <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Form a Wall:
@@ -16378,12 +16378,12 @@ Completas esta táctica de batalla al final de tu turno si hay 3 o más unidades
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Burning for Vengeance" hidden="false" id="2cf4-fa15-532b-64af" sortIndex="5" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Arder de venganza" hidden="false" id="2cf4-fa15-532b-64af" sortIndex="5" defaultAmount="0">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2449-f637-3fba-03bc"/>
               </constraints>
               <profiles>
-                <profile name="Burning for Vengeance" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="e290-4688-d4fb-5b36">
+                <profile name="Arder de venganza" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="e290-4688-d4fb-5b36">
                   <characteristics>
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df">Al inicio de la batalla, después de usar todas las habilidades de la fase de despliegue pero antes de determinar qué jugador tomará el primer turno, elige un **^^Hero^^** enemigo que esté en el campo de batalla o en reserva para que sea el **fugitivo** durante el resto de la batalla.</characteristic>
                     <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Search Every Inch:
@@ -16400,12 +16400,12 @@ Completas esta táctica de batalla al final de tu turno si se cumple 1 de las si
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Legend of the Parch" hidden="false" id="c816-cb18-a434-8c1c" sortIndex="6" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Leyenda del Secarral" hidden="false" id="c816-cb18-a434-8c1c" sortIndex="6" defaultAmount="0">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58d8-abf6-308e-581e"/>
               </constraints>
               <profiles>
-                <profile name="Legend of the Parch" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="7789-3674-22c7-c365">
+                <profile name="Leyenda del Secarral" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="7789-3674-22c7-c365">
                   <characteristics>
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df"/>
                     <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Daring Rescue:
@@ -16418,12 +16418,12 @@ Completas esta táctica de batalla al final de tu turno si controlas un marcador
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Flanking Firestorm" hidden="false" id="7865-8113-df4e-f70a" sortIndex="3" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Tormenta de fuego de flanqueo" hidden="false" id="7865-8113-df4e-f70a" sortIndex="3" defaultAmount="0">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d487-b612-3d52-ec0a"/>
               </constraints>
               <profiles>
-                <profile name="Flanking Firestorm" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="03ff-7737-7ea9-0378">
+                <profile name="Tormenta de fuego de flanqueo" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="03ff-7737-7ea9-0378">
                   <characteristics>
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df"/>
                     <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Ambuscade:
@@ -16436,12 +16436,12 @@ Completas esta táctica de batalla al final de tu turno si hay más unidades ami
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Smokescreen" hidden="false" id="069b-7c31-ccb1-fcb5" sortIndex="4" defaultAmount="0">
+            <selectionEntry type="upgrade" import="true" name="Cortina de humo" hidden="false" id="069b-7c31-ccb1-fcb5" sortIndex="4" defaultAmount="0">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f3d-b1e8-11eb-e4fe"/>
               </constraints>
               <profiles>
-                <profile name="Smokescreen" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="326a-9a4f-26dd-ebd5">
+                <profile name="Cortina de humo" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="326a-9a4f-26dd-ebd5">
                   <characteristics>
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df"/>
                     <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Keep the Enemy Close:
