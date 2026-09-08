@@ -14754,7 +14754,7 @@
             <attribute typeId="2d74-4dcd-8468-87fa" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Multiple Parts" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9e13-160b-4a87-da4e">
+        <profile name="Múltiples partes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9e13-160b-4a87-da4e">
           <characteristics>
             <characteristic name="Keywords" id="db71-825d-3b88-6be7" hidden="false" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" id="d397-af49-6056-8a09" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Health de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y todas sus partes se retiran del juego.</characteristic>
@@ -14804,7 +14804,7 @@
             <attribute typeId="2d74-4dcd-8468-87fa" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Multiple Parts" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="676c-91fa-8432-ee8d">
+        <profile name="Múltiples partes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="676c-91fa-8432-ee8d">
           <characteristics>
             <characteristic name="Keywords" id="9ed2-a67d-f047-7f70" hidden="false" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" id="2112-d788-edc-c9c2" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Health de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y ambas partes se retiran del juego.</characteristic>
@@ -15178,7 +15178,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <attribute typeId="2d74-4dcd-8468-87fa" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Multiple Parts" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="86da-767f-a1d7-9b8a">
+        <profile name="Múltiples partes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="86da-767f-a1d7-9b8a">
           <characteristics>
             <characteristic name="Keywords" id="434c-ed87-d083-fa30" hidden="false" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" id="31bb-78b1-9282-62e1" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Health de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y ambas partes se retiran del juego.</characteristic>
@@ -15650,7 +15650,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
             <attribute typeId="e2e1-15ca-d345-22b8" name="Parent Node"/>
           </attributes>
         </profile>
-        <profile name="Multiple Parts" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7f8e-f2c5-2638-f35d">
+        <profile name="Múltiples partes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7f8e-f2c5-2638-f35d">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Health de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y ambas partes se retiran del juego.
@@ -15708,7 +15708,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
             <attribute typeId="50db-066e-a3e7-696f" name="Base Size"/>
           </attributes>
         </profile>
-        <profile name="Multiple Parts" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ba4a-41ff-85b6-17e7">
+        <profile name="Múltiples partes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ba4a-41ff-85b6-17e7">
           <characteristics>
             <characteristic name="Keywords" id="1d02-2f0d-4af8-2ee8" hidden="false" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" id="9a99-b896-4fe2-087c" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Health de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y ambas partes se retiran del juego.</characteristic>
@@ -16133,7 +16133,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Monster^^** amigo que no sea **^^Unique^^**, que no haya sido reforzado y que esté en un regimiento, pero que no lo lidere, para que sea la **guardia de honor** de ese regimiento. Puedes elegir una unidad en reserva.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esa unidad puede ignorar los efectos de la habilidad &apos;Battle Damaged&apos;. Además, suma 1 a las tiradas de impacto de los ataques de combate hechos por la **guardia de honor**. Esta habilidad también afecta a las armas Companion.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esa unidad puede ignorar los efectos de la habilidad &apos;Daños de batalla&apos;. Además, suma 1 a las tiradas de impacto de los ataques de combate hechos por la **guardia de honor**. Esta habilidad también afecta a las armas Companion.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Guardia de honor^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
