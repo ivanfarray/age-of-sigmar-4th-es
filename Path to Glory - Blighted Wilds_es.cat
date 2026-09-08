@@ -2283,8 +2283,8 @@ Después, realiza los siguientes cambios en su pergamino:
               </modifiers>
               <rules>
                 <rule name="Ghyranite Fiend" id="3af9-549c-7ed3-751d" hidden="true">
-                  <description>Solo **^^Infantry^^** que no sea **^^Hero^^** o **Ghyranite Chariot**.
-Si la unidad es **^^Infantry^^**, añade el arma **Ghyranite Demonio bestial&apos;s Jaws** al pergamino de tu héroe de regimiento. Si la unidad es un **Ghyranite Chariot**, sustituye su arma **Companion** por **Ghyranite Demonio bestial&apos;s Jaws**.
+                  <description>Solo **^^Infantry^^** que no sea **^^Hero^^** o **Carro ghyranita**.
+Si la unidad es **^^Infantry^^**, añade el arma **Mandíbulas de demonio bestial ghyranita** al pergamino de tu héroe de regimiento. Si la unidad es un **Carro ghyranita**, sustituye su arma **Companion** por **Mandíbulas de demonio bestial ghyranita**.
 Además, realiza los siguientes cambios en el pergamino de tu héroe de regimiento:
 • Cambia la característica de Move a 10".
 • Suma 6 a la característica de Health.
@@ -2316,7 +2316,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
               <rules>
                 <rule name="Ghyranite Colossus" id="fe7b-1562-e618-e1ea" hidden="true">
                   <description>Solo unidades que no sean **^^Hero^^** ni **^^Beast^^**.
-Si la unidad es **^^Infantry^^**, **^^Monster^^** o un **Ghyranite Bombard**, añade las armas **Ghyranite Monstrosity&apos;s Maw** y **Ghyranite Monstrosity&apos;s Claws** y la habilidad &apos;Battle Damaged&apos; al pergamino de tu héroe de regimiento. Si la unidad es un **Ghyranite Chariot**, sustituye su arma **Companion** por **Ghyranite Monstrosity&apos;s Maw** y **Ghyranite Monstrosity&apos;s Claws**.
+Si la unidad es **^^Infantry^^**, **^^Monster^^** o un **Bombarda ghyranita**, añade las armas **Fauces de monstruosidad ghyranita** y **Garras de monstruosidad ghyranita** y la habilidad &apos;Battle Damaged&apos; al pergamino de tu héroe de regimiento. Si la unidad es un **Carro ghyranita**, sustituye su arma **Companion** por **Fauces de monstruosidad ghyranita** y **Garras de monstruosidad ghyranita**.
 Además, realiza los siguientes cambios en el pergamino de tu héroe de regimiento:
 • Cambia la característica de Move a 12".
 • Suma 5 a la característica de Health.
@@ -2451,7 +2451,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c73c-fb00-ddd5-6eff"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Fiend&apos;s Jaws" hidden="true" id="1467-5281-1dcf-5df3">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas de demonio bestial ghyranita" hidden="true" id="1467-5281-1dcf-5df3">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2460,7 +2460,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Maw" hidden="true" id="9018-c4c9-6415-0b41">
+                    <selectionEntry type="upgrade" import="true" name="Fauces de coloso ghyranita" hidden="true" id="9018-c4c9-6415-0b41">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2469,7 +2469,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Mount&apos;s Teeth, Hooves or Claws" hidden="true" id="3c0e-e6bd-1499-6b8f">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, pezuñas o garras de montura ghyranita" hidden="true" id="3c0e-e6bd-1499-6b8f">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2478,7 +2478,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Claws" hidden="true" id="2158-84fb-c526-044f">
+                    <selectionEntry type="upgrade" import="true" name="Garras de coloso ghyranita" hidden="true" id="2158-84fb-c526-044f">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2487,7 +2487,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Charioteer&apos;s Ghyranite Weapons" hidden="true" id="db30-f7e6-c81e-6c56">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de auriga" hidden="true" id="db30-f7e6-c81e-6c56">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2496,7 +2496,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves or Claws" hidden="true" id="f0bc-6734-5153-06c1">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="f0bc-6734-5153-06c1">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2505,7 +2505,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Massive Punch or Kick" hidden="true" id="8746-5dc7-671b-d754">
+                    <selectionEntry type="upgrade" import="true" name="Puñetazo o patada enorme" hidden="true" id="8746-5dc7-671b-d754">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2514,7 +2514,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Ghyranite Club" hidden="true" id="b0c5-5fd7-2f8d-e8e4">
+                    <selectionEntry type="upgrade" import="true" name="Garrote ghyranita monstruoso" hidden="true" id="b0c5-5fd7-2f8d-e8e4">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2523,7 +2523,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Jaws and Claws" hidden="true" id="4c2f-62fc-51a0-415a">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras monstruosas" hidden="true" id="4c2f-62fc-51a0-415a">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2532,7 +2532,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Savage Jaws and Claws" hidden="true" id="f246-6986-c30e-93a5">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras salvajes" hidden="true" id="f246-6986-c30e-93a5">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2541,7 +2541,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Brutal Ghyranite Weapons" hidden="true" id="d205-7d26-eeae-5645">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas brutales" hidden="true" id="d205-7d26-eeae-5645">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2550,7 +2550,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Weapons" hidden="true" id="36af-b7a2-2656-6e5a">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas" hidden="true" id="36af-b7a2-2656-6e5a">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditionGroups>
@@ -2564,7 +2564,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Crew&apos;s Ghyranite Weapons" hidden="true" id="f6b5-bf67-9437-faf3">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de la dotación" hidden="true" id="f6b5-bf67-9437-faf3">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2608,7 +2608,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69bb-ae29-8772-956e"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Fiend&apos;s Jaws" hidden="true" id="22ae-425f-ad4c-f215">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas de demonio bestial ghyranita" hidden="true" id="22ae-425f-ad4c-f215">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2617,7 +2617,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Maw" hidden="true" id="83d5-cc31-637e-e32d">
+                    <selectionEntry type="upgrade" import="true" name="Fauces de coloso ghyranita" hidden="true" id="83d5-cc31-637e-e32d">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2626,7 +2626,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Mount&apos;s Teeth, Hooves or Claws" hidden="true" id="ca64-c11f-8706-3ecd">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, pezuñas o garras de montura ghyranita" hidden="true" id="ca64-c11f-8706-3ecd">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2635,7 +2635,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Claws" hidden="true" id="b179-ed3c-145c-b830">
+                    <selectionEntry type="upgrade" import="true" name="Garras de coloso ghyranita" hidden="true" id="b179-ed3c-145c-b830">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2644,7 +2644,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Charioteer&apos;s Ghyranite Weapons" hidden="true" id="880d-c5a7-bfee-ef60">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de auriga" hidden="true" id="880d-c5a7-bfee-ef60">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2653,7 +2653,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves or Claws" hidden="true" id="8e4c-6a73-5181-4621">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="8e4c-6a73-5181-4621">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2662,7 +2662,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Massive Punch or Kick" hidden="true" id="2156-c9b0-a722-ff59">
+                    <selectionEntry type="upgrade" import="true" name="Puñetazo o patada enorme" hidden="true" id="2156-c9b0-a722-ff59">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2671,7 +2671,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Ghyranite Club" hidden="true" id="e8a7-23c3-9554-64c7">
+                    <selectionEntry type="upgrade" import="true" name="Garrote ghyranita monstruoso" hidden="true" id="e8a7-23c3-9554-64c7">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2680,7 +2680,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Jaws and Claws" hidden="true" id="6203-a3be-a29a-19ef">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras monstruosas" hidden="true" id="6203-a3be-a29a-19ef">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2689,7 +2689,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Savage Jaws and Claws" hidden="true" id="7b1b-f77e-603f-949a">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras salvajes" hidden="true" id="7b1b-f77e-603f-949a">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2698,7 +2698,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Brutal Ghyranite Weapons" hidden="true" id="2f24-29a0-d5bf-c3cc">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas brutales" hidden="true" id="2f24-29a0-d5bf-c3cc">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2707,7 +2707,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Weapons" hidden="true" id="f74f-f236-5f6c-9152">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas" hidden="true" id="f74f-f236-5f6c-9152">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditionGroups>
@@ -2721,7 +2721,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Crew&apos;s Ghyranite Weapons" hidden="true" id="9eae-2a0a-3e8e-f69f">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de la dotación" hidden="true" id="9eae-2a0a-3e8e-f69f">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2764,7 +2764,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e16-a036-a243-c1f1"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Fiend&apos;s Jaws" hidden="true" id="49dd-a803-77bd-1c53">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas de demonio bestial ghyranita" hidden="true" id="49dd-a803-77bd-1c53">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2773,7 +2773,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Maw" hidden="true" id="7e49-cb01-09a4-2228">
+                    <selectionEntry type="upgrade" import="true" name="Fauces de coloso ghyranita" hidden="true" id="7e49-cb01-09a4-2228">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2782,7 +2782,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Long-range Weapon" hidden="true" id="0add-24c1-9e7c-6efa">
+                    <selectionEntry type="upgrade" import="true" name="Arma de largo alcance ghyranita" hidden="true" id="0add-24c1-9e7c-6efa">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2791,7 +2791,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Mount&apos;s Teeth, Hooves or Claws" hidden="true" id="ac34-c787-4012-1fe1">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, pezuñas o garras de montura ghyranita" hidden="true" id="ac34-c787-4012-1fe1">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2800,7 +2800,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Claws" hidden="true" id="cdc1-fb45-b0cd-b240">
+                    <selectionEntry type="upgrade" import="true" name="Garras de coloso ghyranita" hidden="true" id="cdc1-fb45-b0cd-b240">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2809,7 +2809,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Close-range Weapon" hidden="true" id="63aa-6459-ecb5-9aba">
+                    <selectionEntry type="upgrade" import="true" name="Arma de corto alcance ghyranita" hidden="true" id="63aa-6459-ecb5-9aba">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2818,7 +2818,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Charioteer&apos;s Ghyranite Weapons" hidden="true" id="fad7-7c8a-16c6-b2e5">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de auriga" hidden="true" id="fad7-7c8a-16c6-b2e5">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2827,7 +2827,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves or Claws" hidden="true" id="3df1-bfe7-51e6-609e">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="3df1-bfe7-51e6-609e">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2836,7 +2836,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Massive Punch or Kick" hidden="true" id="9540-146d-f8f5-3fbf">
+                    <selectionEntry type="upgrade" import="true" name="Puñetazo o patada enorme" hidden="true" id="9540-146d-f8f5-3fbf">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2845,7 +2845,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Ghyranite Club" hidden="true" id="40e0-8432-67f6-2ef0">
+                    <selectionEntry type="upgrade" import="true" name="Garrote ghyranita monstruoso" hidden="true" id="40e0-8432-67f6-2ef0">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2854,7 +2854,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Jaws and Claws" hidden="true" id="01d0-4ccf-3eb2-aee0">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras monstruosas" hidden="true" id="01d0-4ccf-3eb2-aee0">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2863,7 +2863,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Savage Jaws and Claws" hidden="true" id="2729-1ae7-058e-4420">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras salvajes" hidden="true" id="2729-1ae7-058e-4420">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2872,7 +2872,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Brutal Ghyranite Weapons" hidden="true" id="3215-4247-4177-890e">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas brutales" hidden="true" id="3215-4247-4177-890e">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2881,7 +2881,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Weapons" hidden="true" id="533e-e64c-63b5-12cb">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas" hidden="true" id="533e-e64c-63b5-12cb">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditionGroups>
@@ -2895,7 +2895,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Projectile Weapons" hidden="true" id="f32d-cf0a-ded4-475c">
+                    <selectionEntry type="upgrade" import="true" name="Armas de proyectiles ghyranitas" hidden="true" id="f32d-cf0a-ded4-475c">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2904,7 +2904,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Crew&apos;s Ghyranite Weapons" hidden="true" id="ba06-23d1-7b57-2e6a">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de la dotación" hidden="true" id="ba06-23d1-7b57-2e6a">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2947,7 +2947,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6084-1f60-b175-2ee3"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Fiend&apos;s Jaws" hidden="true" id="6189-8d1e-8311-42c7">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas de demonio bestial ghyranita" hidden="true" id="6189-8d1e-8311-42c7">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2956,7 +2956,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Maw" hidden="true" id="8421-9663-0ec7-6849">
+                    <selectionEntry type="upgrade" import="true" name="Fauces de coloso ghyranita" hidden="true" id="8421-9663-0ec7-6849">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2965,7 +2965,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Long-range Weapon" hidden="true" id="bd11-0415-492e-e082">
+                    <selectionEntry type="upgrade" import="true" name="Arma de largo alcance ghyranita" hidden="true" id="bd11-0415-492e-e082">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2974,7 +2974,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Mount&apos;s Teeth, Hooves or Claws" hidden="true" id="2e56-ded9-985f-149e">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, pezuñas o garras de montura ghyranita" hidden="true" id="2e56-ded9-985f-149e">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2983,7 +2983,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Claws" hidden="true" id="2dec-7aa9-777b-e592">
+                    <selectionEntry type="upgrade" import="true" name="Garras de coloso ghyranita" hidden="true" id="2dec-7aa9-777b-e592">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -2992,7 +2992,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Close-range Weapon" hidden="true" id="1a07-e05b-4633-f18a">
+                    <selectionEntry type="upgrade" import="true" name="Arma de corto alcance ghyranita" hidden="true" id="1a07-e05b-4633-f18a">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3001,7 +3001,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Charioteer&apos;s Ghyranite Weapons" hidden="true" id="e4d1-06c8-91bb-9cc4">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de auriga" hidden="true" id="e4d1-06c8-91bb-9cc4">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3010,7 +3010,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves or Claws" hidden="true" id="be9a-6600-1ddb-e928">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="be9a-6600-1ddb-e928">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3019,7 +3019,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Massive Punch or Kick" hidden="true" id="2eed-af6d-af79-3b15">
+                    <selectionEntry type="upgrade" import="true" name="Puñetazo o patada enorme" hidden="true" id="2eed-af6d-af79-3b15">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3028,7 +3028,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Ghyranite Club" hidden="true" id="5c6a-9909-a03a-ce1f">
+                    <selectionEntry type="upgrade" import="true" name="Garrote ghyranita monstruoso" hidden="true" id="5c6a-9909-a03a-ce1f">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3037,7 +3037,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Jaws and Claws" hidden="true" id="cacd-f951-3e96-7521">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras monstruosas" hidden="true" id="cacd-f951-3e96-7521">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3046,7 +3046,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Savage Jaws and Claws" hidden="true" id="4c78-bc5f-49b2-3269">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras salvajes" hidden="true" id="4c78-bc5f-49b2-3269">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3055,7 +3055,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Brutal Ghyranite Weapons" hidden="true" id="f24f-882b-097f-255d">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas brutales" hidden="true" id="f24f-882b-097f-255d">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3064,7 +3064,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Weapons" hidden="true" id="519b-3668-0986-3921">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas" hidden="true" id="519b-3668-0986-3921">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditionGroups>
@@ -3078,7 +3078,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Projectile Weapons" hidden="true" id="e2bc-351a-3c91-965f">
+                    <selectionEntry type="upgrade" import="true" name="Armas de proyectiles ghyranitas" hidden="true" id="e2bc-351a-3c91-965f">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3087,7 +3087,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Crew&apos;s Ghyranite Weapons" hidden="true" id="e158-218c-c9af-8475">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de la dotación" hidden="true" id="e158-218c-c9af-8475">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3112,7 +3112,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Long-range Weapon" hidden="false" id="6cfc-64cf-22bb-3d09" sortIndex="10">
+            <selectionEntry type="upgrade" import="true" name="Arma de largo alcance ghyranita" hidden="false" id="6cfc-64cf-22bb-3d09" sortIndex="10">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
@@ -3140,11 +3140,11 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
               </constraints>
               <rules>
                 <rule name="Ghyranite Long-range Weapon" id="1c93-230b-d605-d289" hidden="true">
-                  <description>Añade **Ghyranite Long-range Weapon** al pergamino de una unidad. No puedes elegir esta mejora para una unidad que ya tenga un arma a distancia.</description>
+                  <description>Añade **Arma de largo alcance ghyranita** al pergamino de una unidad. No puedes elegir esta mejora para una unidad que ya tenga un arma a distancia.</description>
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Close-range Weapon" hidden="false" id="1082-c623-0f2d-dbc3" sortIndex="9">
+            <selectionEntry type="upgrade" import="true" name="Arma de corto alcance ghyranita" hidden="false" id="1082-c623-0f2d-dbc3" sortIndex="9">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
@@ -3155,7 +3155,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
               </constraints>
               <rules>
                 <rule name="Ghyranite Close-range Weapon" id="59a5-05e7-2e16-5a2a" hidden="true">
-                  <description>Añade **Ghyranite Close-range Weapon** al pergamino de una unidad. No puedes elegir esta mejora para una unidad que ya tenga un arma a distancia.</description>
+                  <description>Añade **Arma de corto alcance ghyranita** al pergamino de una unidad. No puedes elegir esta mejora para una unidad que ya tenga un arma a distancia.</description>
                 </rule>
               </rules>
               <modifiers>
@@ -3219,7 +3219,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf5c-aeb8-62f6-d840"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Fiend&apos;s Jaws" hidden="true" id="8dfc-c264-4e4d-c22d">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas de demonio bestial ghyranita" hidden="true" id="8dfc-c264-4e4d-c22d">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3228,7 +3228,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Maw" hidden="true" id="c491-4ffb-d957-6746">
+                    <selectionEntry type="upgrade" import="true" name="Fauces de coloso ghyranita" hidden="true" id="c491-4ffb-d957-6746">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3237,7 +3237,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Long-range Weapon" hidden="true" id="90f9-9f2a-dce5-150e">
+                    <selectionEntry type="upgrade" import="true" name="Arma de largo alcance ghyranita" hidden="true" id="90f9-9f2a-dce5-150e">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3246,7 +3246,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Mount&apos;s Teeth, Hooves or Claws" hidden="true" id="f207-897b-349c-34ed">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, pezuñas o garras de montura ghyranita" hidden="true" id="f207-897b-349c-34ed">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3255,7 +3255,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Claws" hidden="true" id="5b8d-2ec8-de53-d926">
+                    <selectionEntry type="upgrade" import="true" name="Garras de coloso ghyranita" hidden="true" id="5b8d-2ec8-de53-d926">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3264,7 +3264,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Close-range Weapon" hidden="true" id="752d-a76e-9417-d3e9">
+                    <selectionEntry type="upgrade" import="true" name="Arma de corto alcance ghyranita" hidden="true" id="752d-a76e-9417-d3e9">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3273,7 +3273,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Charioteer&apos;s Ghyranite Weapons" hidden="true" id="b9e6-b63d-ef62-fe66">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de auriga" hidden="true" id="b9e6-b63d-ef62-fe66">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3282,7 +3282,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves or Claws" hidden="true" id="b71c-08f8-05b5-d20c">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="b71c-08f8-05b5-d20c">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3291,7 +3291,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Massive Punch or Kick" hidden="true" id="0f3f-af9c-48f4-ecb6">
+                    <selectionEntry type="upgrade" import="true" name="Puñetazo o patada enorme" hidden="true" id="0f3f-af9c-48f4-ecb6">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3300,7 +3300,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Ghyranite Club" hidden="true" id="6ac0-9ddd-dbc5-0667">
+                    <selectionEntry type="upgrade" import="true" name="Garrote ghyranita monstruoso" hidden="true" id="6ac0-9ddd-dbc5-0667">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3309,7 +3309,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Jaws and Claws" hidden="true" id="5078-30ac-e604-7b3b">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras monstruosas" hidden="true" id="5078-30ac-e604-7b3b">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3318,7 +3318,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Savage Jaws and Claws" hidden="true" id="9f4c-7af9-e35b-e490">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras salvajes" hidden="true" id="9f4c-7af9-e35b-e490">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3327,7 +3327,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Brutal Ghyranite Weapons" hidden="true" id="9b8b-2cb0-c34b-d2de">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas brutales" hidden="true" id="9b8b-2cb0-c34b-d2de">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3336,7 +3336,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Weapons" hidden="true" id="a1fe-b9f5-efae-410b">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas" hidden="true" id="a1fe-b9f5-efae-410b">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditionGroups>
@@ -3350,7 +3350,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Projectile Weapons" hidden="true" id="45a9-1a77-5ec2-af69">
+                    <selectionEntry type="upgrade" import="true" name="Armas de proyectiles ghyranitas" hidden="true" id="45a9-1a77-5ec2-af69">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3359,7 +3359,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Crew&apos;s Ghyranite Weapons" hidden="true" id="2101-48ab-6a59-9f1f">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de la dotación" hidden="true" id="2101-48ab-6a59-9f1f">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3402,7 +3402,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5c4-d4de-b144-0130"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Fiend&apos;s Jaws" hidden="true" id="eb51-9aba-bb5f-0993">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas de demonio bestial ghyranita" hidden="true" id="eb51-9aba-bb5f-0993">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3411,7 +3411,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Maw" hidden="true" id="d197-f14d-0c6f-4901">
+                    <selectionEntry type="upgrade" import="true" name="Fauces de coloso ghyranita" hidden="true" id="d197-f14d-0c6f-4901">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3420,7 +3420,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Long-range Weapon" hidden="true" id="ee25-a4cb-4821-1906">
+                    <selectionEntry type="upgrade" import="true" name="Arma de largo alcance ghyranita" hidden="true" id="ee25-a4cb-4821-1906">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3429,7 +3429,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Mount&apos;s Teeth, Hooves or Claws" hidden="true" id="a08b-7102-e0a1-a0ae">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, pezuñas o garras de montura ghyranita" hidden="true" id="a08b-7102-e0a1-a0ae">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3438,7 +3438,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Claws" hidden="true" id="a819-43da-837e-c7a7">
+                    <selectionEntry type="upgrade" import="true" name="Garras de coloso ghyranita" hidden="true" id="a819-43da-837e-c7a7">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3447,7 +3447,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Close-range Weapon" hidden="true" id="5af8-b860-5927-b192">
+                    <selectionEntry type="upgrade" import="true" name="Arma de corto alcance ghyranita" hidden="true" id="5af8-b860-5927-b192">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3456,7 +3456,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Charioteer&apos;s Ghyranite Weapons" hidden="true" id="56f8-65b2-c434-8bf7">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de auriga" hidden="true" id="56f8-65b2-c434-8bf7">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3465,7 +3465,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves or Claws" hidden="true" id="0f7d-ceb6-66ac-33d6">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="0f7d-ceb6-66ac-33d6">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3474,7 +3474,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Massive Punch or Kick" hidden="true" id="bbf8-888a-c26c-3ce9">
+                    <selectionEntry type="upgrade" import="true" name="Puñetazo o patada enorme" hidden="true" id="bbf8-888a-c26c-3ce9">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3483,7 +3483,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Ghyranite Club" hidden="true" id="6d2f-cb48-8418-720c">
+                    <selectionEntry type="upgrade" import="true" name="Garrote ghyranita monstruoso" hidden="true" id="6d2f-cb48-8418-720c">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3492,7 +3492,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Jaws and Claws" hidden="true" id="2b47-ef24-a36a-ae19">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras monstruosas" hidden="true" id="2b47-ef24-a36a-ae19">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3501,7 +3501,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Savage Jaws and Claws" hidden="true" id="15fe-fcd9-14cf-fc2d">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras salvajes" hidden="true" id="15fe-fcd9-14cf-fc2d">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3510,7 +3510,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Brutal Ghyranite Weapons" hidden="true" id="beb2-9cef-f67e-7c54">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas brutales" hidden="true" id="beb2-9cef-f67e-7c54">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3519,7 +3519,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Weapons" hidden="true" id="a6de-700c-da64-104e">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas" hidden="true" id="a6de-700c-da64-104e">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditionGroups>
@@ -3533,7 +3533,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Projectile Weapons" hidden="true" id="9741-f8f5-e1ed-3063">
+                    <selectionEntry type="upgrade" import="true" name="Armas de proyectiles ghyranitas" hidden="true" id="9741-f8f5-e1ed-3063">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3542,7 +3542,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Crew&apos;s Ghyranite Weapons" hidden="true" id="5446-2a48-0c18-2374">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de la dotación" hidden="true" id="5446-2a48-0c18-2374">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3643,7 +3643,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f701-acd3-0d6b-242b"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Fiend&apos;s Jaws" hidden="true" id="74b2-80b6-7f9e-cd48">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas de demonio bestial ghyranita" hidden="true" id="74b2-80b6-7f9e-cd48">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3652,7 +3652,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Maw" hidden="true" id="b4a1-c9f2-7558-899c">
+                    <selectionEntry type="upgrade" import="true" name="Fauces de coloso ghyranita" hidden="true" id="b4a1-c9f2-7558-899c">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3661,7 +3661,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Mount&apos;s Teeth, Hooves or Claws" hidden="true" id="ec0a-92ec-8f91-f9f6">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, pezuñas o garras de montura ghyranita" hidden="true" id="ec0a-92ec-8f91-f9f6">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3670,7 +3670,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Claws" hidden="true" id="2886-8e71-68ab-862e">
+                    <selectionEntry type="upgrade" import="true" name="Garras de coloso ghyranita" hidden="true" id="2886-8e71-68ab-862e">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3679,7 +3679,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Charioteer&apos;s Ghyranite Weapons" hidden="true" id="de56-8184-eaa8-b217">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de auriga" hidden="true" id="de56-8184-eaa8-b217">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3688,7 +3688,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves or Claws" hidden="true" id="8b8f-2e89-49a7-7b9e">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="8b8f-2e89-49a7-7b9e">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3697,7 +3697,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Massive Punch or Kick" hidden="true" id="7d97-6b5f-6db4-0dd0">
+                    <selectionEntry type="upgrade" import="true" name="Puñetazo o patada enorme" hidden="true" id="7d97-6b5f-6db4-0dd0">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3706,7 +3706,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Ghyranite Club" hidden="true" id="7ea3-c138-9237-e3b3">
+                    <selectionEntry type="upgrade" import="true" name="Garrote ghyranita monstruoso" hidden="true" id="7ea3-c138-9237-e3b3">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3715,7 +3715,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Jaws and Claws" hidden="true" id="674d-f75b-256a-9f01">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras monstruosas" hidden="true" id="674d-f75b-256a-9f01">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3724,7 +3724,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Savage Jaws and Claws" hidden="true" id="1785-e195-0edf-5e44">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras salvajes" hidden="true" id="1785-e195-0edf-5e44">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3733,7 +3733,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Brutal Ghyranite Weapons" hidden="true" id="0718-d5bc-6dd0-dcd5">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas brutales" hidden="true" id="0718-d5bc-6dd0-dcd5">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3742,7 +3742,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Weapons" hidden="true" id="14e6-0a5f-e489-153d">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas" hidden="true" id="14e6-0a5f-e489-153d">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditionGroups>
@@ -3756,7 +3756,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Crew&apos;s Ghyranite Weapons" hidden="true" id="2c55-88f6-841b-3e6b">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de la dotación" hidden="true" id="2c55-88f6-841b-3e6b">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3799,7 +3799,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1409-11f9-2cba-1c94"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Fiend&apos;s Jaws" hidden="true" id="41a5-61f6-7b64-e45c">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas de demonio bestial ghyranita" hidden="true" id="41a5-61f6-7b64-e45c">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3808,7 +3808,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Maw" hidden="true" id="6aef-6882-19e6-594b">
+                    <selectionEntry type="upgrade" import="true" name="Fauces de coloso ghyranita" hidden="true" id="6aef-6882-19e6-594b">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3817,7 +3817,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Mount&apos;s Teeth, Hooves or Claws" hidden="true" id="5cd3-952a-081d-6715">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, pezuñas o garras de montura ghyranita" hidden="true" id="5cd3-952a-081d-6715">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3826,7 +3826,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Claws" hidden="true" id="a349-b00a-2036-dcc7">
+                    <selectionEntry type="upgrade" import="true" name="Garras de coloso ghyranita" hidden="true" id="a349-b00a-2036-dcc7">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3835,7 +3835,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Charioteer&apos;s Ghyranite Weapons" hidden="true" id="2081-c935-fe77-1c1b">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de auriga" hidden="true" id="2081-c935-fe77-1c1b">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3844,7 +3844,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves or Claws" hidden="true" id="093b-dcd7-9501-8d71">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="093b-dcd7-9501-8d71">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3853,7 +3853,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Massive Punch or Kick" hidden="true" id="0755-9800-e7b4-bcae">
+                    <selectionEntry type="upgrade" import="true" name="Puñetazo o patada enorme" hidden="true" id="0755-9800-e7b4-bcae">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3862,7 +3862,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Ghyranite Club" hidden="true" id="dba1-5759-02b2-9364">
+                    <selectionEntry type="upgrade" import="true" name="Garrote ghyranita monstruoso" hidden="true" id="dba1-5759-02b2-9364">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3871,7 +3871,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Jaws and Claws" hidden="true" id="92d8-5eb5-4737-9147">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras monstruosas" hidden="true" id="92d8-5eb5-4737-9147">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3880,7 +3880,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Savage Jaws and Claws" hidden="true" id="6381-fcb3-058f-0df7">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras salvajes" hidden="true" id="6381-fcb3-058f-0df7">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3889,7 +3889,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Brutal Ghyranite Weapons" hidden="true" id="ef0c-76a4-30d1-d096">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas brutales" hidden="true" id="ef0c-76a4-30d1-d096">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3898,7 +3898,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Weapons" hidden="true" id="5ac6-67b3-1b97-7ccd">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas" hidden="true" id="5ac6-67b3-1b97-7ccd">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditionGroups>
@@ -3912,7 +3912,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Crew&apos;s Ghyranite Weapons" hidden="true" id="2b0b-9c4d-66a7-dee2">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de la dotación" hidden="true" id="2b0b-9c4d-66a7-dee2">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3955,7 +3955,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ffd-4365-831e-3f97"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Fiend&apos;s Jaws" hidden="true" id="7103-112d-6133-d935">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas de demonio bestial ghyranita" hidden="true" id="7103-112d-6133-d935">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3964,7 +3964,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Maw" hidden="true" id="1ede-574c-d4f6-64e3">
+                    <selectionEntry type="upgrade" import="true" name="Fauces de coloso ghyranita" hidden="true" id="1ede-574c-d4f6-64e3">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3973,7 +3973,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Long-range Weapon" hidden="true" id="e2ee-23b7-a8c5-364d">
+                    <selectionEntry type="upgrade" import="true" name="Arma de largo alcance ghyranita" hidden="true" id="e2ee-23b7-a8c5-364d">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3982,7 +3982,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Mount&apos;s Teeth, Hooves or Claws" hidden="true" id="ae0e-8c18-a876-e883">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, pezuñas o garras de montura ghyranita" hidden="true" id="ae0e-8c18-a876-e883">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -3991,7 +3991,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Claws" hidden="true" id="b7cf-3cf3-cb04-40f0">
+                    <selectionEntry type="upgrade" import="true" name="Garras de coloso ghyranita" hidden="true" id="b7cf-3cf3-cb04-40f0">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -4000,7 +4000,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Close-range Weapon" hidden="true" id="b7c8-f33f-d2be-9de2">
+                    <selectionEntry type="upgrade" import="true" name="Arma de corto alcance ghyranita" hidden="true" id="b7c8-f33f-d2be-9de2">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -4009,7 +4009,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Charioteer&apos;s Ghyranite Weapons" hidden="true" id="f376-faf4-145a-321c">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de auriga" hidden="true" id="f376-faf4-145a-321c">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -4018,7 +4018,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves or Claws" hidden="true" id="359c-87b2-c4ee-e009">
+                    <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="359c-87b2-c4ee-e009">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -4027,7 +4027,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Massive Punch or Kick" hidden="true" id="da4f-28e7-0969-1559">
+                    <selectionEntry type="upgrade" import="true" name="Puñetazo o patada enorme" hidden="true" id="da4f-28e7-0969-1559">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -4036,7 +4036,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Ghyranite Club" hidden="true" id="c512-4477-fa86-d5f7">
+                    <selectionEntry type="upgrade" import="true" name="Garrote ghyranita monstruoso" hidden="true" id="c512-4477-fa86-d5f7">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -4045,7 +4045,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Monstrous Jaws and Claws" hidden="true" id="576a-a134-de26-1d5e">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras monstruosas" hidden="true" id="576a-a134-de26-1d5e">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -4054,7 +4054,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Savage Jaws and Claws" hidden="true" id="0bec-a9f8-e215-25f5">
+                    <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras salvajes" hidden="true" id="0bec-a9f8-e215-25f5">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -4063,7 +4063,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Brutal Ghyranite Weapons" hidden="true" id="1801-0109-bba4-edcc">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas brutales" hidden="true" id="1801-0109-bba4-edcc">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -4072,7 +4072,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Weapons" hidden="true" id="3bb5-4293-0175-aa4b">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas" hidden="true" id="3bb5-4293-0175-aa4b">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditionGroups>
@@ -4086,7 +4086,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Ghyranite Projectile Weapons" hidden="true" id="f44e-ba53-a155-fdf2">
+                    <selectionEntry type="upgrade" import="true" name="Armas de proyectiles ghyranitas" hidden="true" id="f44e-ba53-a155-fdf2">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -4095,7 +4095,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                         </modifier>
                       </modifiers>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Crew&apos;s Ghyranite Weapons" hidden="true" id="f68d-fce7-e829-3a10">
+                    <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de la dotación" hidden="true" id="f68d-fce7-e829-3a10">
                       <modifiers>
                         <modifier type="set" value="false" field="hidden">
                           <conditions>
@@ -4126,13 +4126,13 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
     </selectionEntryGroup>
     <selectionEntryGroup name="Anvil Weapons" id="a6ad-a669-ba63-b342" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Ghyranite Fiend&apos;s Jaws" hidden="true" id="1a57-325a-5c92-73b7">
+        <selectionEntry type="upgrade" import="true" name="Mandíbulas de demonio bestial ghyranita" hidden="true" id="1a57-325a-5c92-73b7">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9469-dbf0-27ae-712d"/>
             <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="7a18-8703-6eab-b800"/>
           </constraints>
           <profiles>
-            <profile name="Ghyranite Fiend&apos;s Jaws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="aa38-cb94-ab53-fad6">
+            <profile name="Mandíbulas de demonio bestial ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="aa38-cb94-ab53-fad6">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -4203,13 +4203,13 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
             </modifierGroup>
           </modifierGroups>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Maw" hidden="true" id="a6a4-bf0a-76f5-1ff6">
+        <selectionEntry type="upgrade" import="true" name="Fauces de coloso ghyranita" hidden="true" id="a6a4-bf0a-76f5-1ff6">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5300-84bc-a639-dd4e"/>
             <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="b0cd-ce16-8a0d-5334"/>
           </constraints>
           <profiles>
-            <profile name="Ghyranite Colossus&apos;s Maw" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="93fd-e676-eaae-6247">
+            <profile name="Fauces de coloso ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="93fd-e676-eaae-6247">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -4280,13 +4280,13 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
             </modifierGroup>
           </modifierGroups>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Ghyranite Long-range Weapon" hidden="true" id="4133-e832-ea4d-8a1e">
+        <selectionEntry type="upgrade" import="true" name="Arma de largo alcance ghyranita" hidden="true" id="4133-e832-ea4d-8a1e">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6b13-4506-9dac-84d4"/>
             <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="c11e-ec5c-a758-9f90"/>
           </constraints>
           <profiles>
-            <profile name="Ghyranite Long-range Weapon" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="0cba-216d-5a37-91ba">
+            <profile name="Arma de largo alcance ghyranita" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="0cba-216d-5a37-91ba">
               <characteristics>
                 <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">24&quot;</characteristic>
                 <characteristic name="Atk" typeId="aa17-4296-2887-e05d">2</characteristic>
@@ -4338,13 +4338,13 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
             </modifierGroup>
           </modifierGroups>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Ghyranite Mount&apos;s Teeth, Hooves or Claws" hidden="true" id="eb3f-2a0f-3221-8f19">
+        <selectionEntry type="upgrade" import="true" name="Dientes, pezuñas o garras de montura ghyranita" hidden="true" id="eb3f-2a0f-3221-8f19">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7206-6888-c746-4b55"/>
             <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="74a0-e1c5-8d8c-2811"/>
           </constraints>
           <profiles>
-            <profile name="Ghyranite Mount&apos;s Teeth, Hooves or Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="d3f8-2ac0-e490-7a77">
+            <profile name="Dientes, pezuñas o garras de montura ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="d3f8-2ac0-e490-7a77">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">5+</characteristic>
@@ -4415,13 +4415,13 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
             </modifierGroup>
           </modifierGroups>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus&apos;s Claws" hidden="true" id="10e3-9169-ca44-5fab">
+        <selectionEntry type="upgrade" import="true" name="Garras de coloso ghyranita" hidden="true" id="10e3-9169-ca44-5fab">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="00dc-a618-0d9e-06d6"/>
             <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="dc06-4e65-89af-8dc3"/>
           </constraints>
           <profiles>
-            <profile name="Ghyranite Colossus&apos;s Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="9fc3-6b88-0566-2514">
+            <profile name="Garras de coloso ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="9fc3-6b88-0566-2514">
               <characteristics>
                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -4492,13 +4492,13 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
             </modifierGroup>
           </modifierGroups>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Ghyranite Close-range Weapon" hidden="true" id="4fe3-59c6-d6d1-4fbb">
+        <selectionEntry type="upgrade" import="true" name="Arma de corto alcance ghyranita" hidden="true" id="4fe3-59c6-d6d1-4fbb">
           <constraints>
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="20f0-d62b-eba5-ad8b"/>
             <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="39bb-be84-33dd-008c"/>
           </constraints>
           <profiles>
-            <profile name="Ghyranite Close-range Weapon" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="233e-cc7f-bb4e-9731">
+            <profile name="Arma de corto alcance ghyranita" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="233e-cc7f-bb4e-9731">
               <characteristics>
                 <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
                 <characteristic name="Atk" typeId="aa17-4296-2887-e05d">2</characteristic>
@@ -5215,7 +5215,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="unit" import="true" name="Regiment Hero" hidden="false" id="406c-30a6-64c3-66a4">
+    <selectionEntry type="unit" import="true" name="Héroe del regimiento" hidden="false" id="406c-30a6-64c3-66a4">
       <selectionEntryGroups>
         <selectionEntryGroup name="The Anvil of Apotheosis" id="de1b-0425-2229-5739" hidden="false">
           <selectionEntryGroups>
@@ -5233,7 +5233,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                   </costs>
                   <rules>
                     <rule name="Wizard Hero" id="5c52-f9c4-9c30-4524" hidden="true">
-                      <description>Tu héroe de regimiento tiene la palabra clave **^^Wizard (1)^^**. Además, sustituye su arma de combate por un **Wizard&apos;s Staff**.</description>
+                      <description>Tu héroe de regimiento tiene la palabra clave **^^Wizard (1)^^**. Además, sustituye su arma de combate por un **Bastón de mago**.</description>
                     </rule>
                   </rules>
                   <modifiers>
@@ -5252,7 +5252,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                   </modifiers>
                   <rules>
                     <rule name="Priest Hero" id="a63f-46c3-7dd6-14ae" hidden="true">
-                      <description>Tu héroe de regimiento tiene la palabra clave **^^Priest (1)^^**. Además, sustituye su arma de combate por un **Holy Sceptre**.</description>
+                      <description>Tu héroe de regimiento tiene la palabra clave **^^Priest (1)^^**. Además, sustituye su arma de combate por un **Cetro sagrado**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5266,7 +5266,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                   <rules>
                     <rule name="Gigantic Hero" id="5c0c-34d7-6017-e71a" hidden="true">
                       <description>Cambia la característica de Move de tu héroe de regimiento a 6", su característica de Health a 8 y su característica de Control a 5.
-Además, sustituye su arma de combate por una **Great Weapon of Renown**.</description>
+Además, sustituye su arma de combate por una **Gran arma de renombre**.</description>
                     </rule>
                   </rules>
                   <modifiers>
@@ -5286,7 +5286,7 @@ Además, sustituye su arma de combate por una **Great Weapon of Renown**.</descr
                     <rule name="Gargantuan Hero" id="b1de-326a-ddd4-28d0" hidden="true">
                       <description>Sustituye la palabra clave **^^Infantry^^** de tu héroe de regimiento por **^^Monster^^**.
 Cambia su característica de Move a 8", su característica de Health a 12 y su característica de Control a 10.
-Además, sustituye su arma de combate por una **Monstrous Weapon of Renown** y **Massive Punches or Kicks**.</description>
+Además, sustituye su arma de combate por una **Arma monstruosa de renombre** y **Puñetazos o patadas enormes**.</description>
                     </rule>
                   </rules>
                   <modifiers>
@@ -5317,7 +5317,7 @@ Además, sustituye su arma de combate por una **Monstrous Weapon of Renown** y *
                   </modifiers>
                   <rules>
                     <rule name="Ghyranite Steed" id="6534-bd3b-2b7c-cfa2" hidden="true">
-                      <description>Añade el arma **Ghyranite Steed&apos;s Teeth, Hooves, or Claws** al pergamino de tu héroe de regimiento.
+                      <description>Añade el arma **Dientes, cascos o garras de corcel ghyranita** al pergamino de tu héroe de regimiento.
 Además, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Move a 12".
 • Suma 2 a la característica de Health.
@@ -5343,7 +5343,7 @@ Además, realiza los siguientes cambios en su pergamino:
                   </modifiers>
                   <rules>
                     <rule name="Ghyranite Behemoth" id="83c8-f2a4-7bff-b857" hidden="true">
-                      <description>Añade el arma **Ghyranite Behemoth&apos;s Jaws** al pergamino de tu héroe de regimiento.
+                      <description>Añade el arma **Mandíbulas de coloso ghyranita** al pergamino de tu héroe de regimiento.
 Además, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Move a 10".
 • Suma 6 a la característica de Health.
@@ -5370,7 +5370,7 @@ Además, realiza los siguientes cambios en su pergamino:
                   </modifiers>
                   <rules>
                     <rule name="Ghyranite Monstrosity" id="f3dc-2b8b-3ff6-c993" hidden="true">
-                      <description>Añade las armas **Ghyranite Monstrosity&apos;s Maw** y **Ghyranite Monstrosity&apos;s Claws** y la habilidad &apos;Battle Damaged&apos; al pergamino de tu héroe de regimiento.
+                      <description>Añade las armas **Fauces de monstruosidad ghyranita** y **Garras de monstruosidad ghyranita** y la habilidad &apos;Battle Damaged&apos; al pergamino de tu héroe de regimiento.
 Además, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Move a 12".
 • Suma 8 a la característica de Health.
@@ -5383,7 +5383,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     <profile name="Battle Damaged" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d1f7-f85b-6979-12cf">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Ghyranite Monstrosity&apos;s Claws** es 4.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, la característica de Attacks de sus **Garras de monstruosidad ghyranita** es 4.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -5592,9 +5592,9 @@ Además, realiza los siguientes cambios en su pergamino:
                   <selectionEntryGroups>
                     <selectionEntryGroup id="7c93-c6bc-c2e9-adc3" hidden="false" flatten="true">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Behemoth&apos;s Jaws" hidden="true" id="d552-475e-0b32-8fbb">
+                        <selectionEntry type="upgrade" import="true" name="Mandíbulas de coloso ghyranita" hidden="true" id="d552-475e-0b32-8fbb">
                           <profiles>
-                            <profile name="Ghyranite Behemoth&apos;s Jaws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f20e-16cf-6cc8-e958">
+                            <profile name="Mandíbulas de coloso ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f20e-16cf-6cc8-e958">
                               <characteristics>
                                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -5619,9 +5619,9 @@ Además, realiza los siguientes cambios en su pergamino:
                             <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="3b71-aeaa-5d86-0512"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Monstrosity&apos;s Claws" hidden="true" id="218b-143d-eba8-92ce">
+                        <selectionEntry type="upgrade" import="true" name="Garras de monstruosidad ghyranita" hidden="true" id="218b-143d-eba8-92ce">
                           <profiles>
-                            <profile name="Ghyranite Monstrosity&apos;s Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="542a-a849-2e59-da84">
+                            <profile name="Garras de monstruosidad ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="542a-a849-2e59-da84">
                               <characteristics>
                                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -5646,7 +5646,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="b75a-8dd7-dfa6-c972"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Monstrosity&apos;s Maw" hidden="true" id="437c-999d-e32e-527f">
+                        <selectionEntry type="upgrade" import="true" name="Fauces de monstruosidad ghyranita" hidden="true" id="437c-999d-e32e-527f">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5661,7 +5661,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="5503-dbf7-00fa-f645"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves, or Claws" hidden="true" id="3daf-1291-35e9-70d8">
+                        <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="3daf-1291-35e9-70d8">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5676,7 +5676,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="c68d-81c9-5282-5dfb"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Holy Sceptre" hidden="true" id="8527-e287-b375-5c9f">
+                        <selectionEntry type="upgrade" import="true" name="Cetro sagrado" hidden="true" id="8527-e287-b375-5c9f">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5691,7 +5691,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="cc58-e52c-f831-67da"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Massive Punches or Kicks" hidden="true" id="5edf-66a0-45d7-1349">
+                        <selectionEntry type="upgrade" import="true" name="Puñetazos o patadas enormes" hidden="true" id="5edf-66a0-45d7-1349">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5706,7 +5706,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="c0d3-49c3-09ce-9d0b"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Monstrous Weapon of Renown" hidden="true" id="4465-dbd4-1c8b-9103">
+                        <selectionEntry type="upgrade" import="true" name="Arma monstruosa de renombre" hidden="true" id="4465-dbd4-1c8b-9103">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5721,7 +5721,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="d1ee-7e54-44be-fa41"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Weapon of Renown" hidden="false" id="28ab-f4f0-7b8a-c8ef">
+                        <selectionEntry type="upgrade" import="true" name="Arma de renombre" hidden="false" id="28ab-f4f0-7b8a-c8ef">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5743,7 +5743,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="5f49-f9fa-3390-63d0"/>
                           </constraints>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Wizard&apos;s Staff" hidden="true" id="29d9-7a1a-6152-0b08">
+                        <selectionEntry type="upgrade" import="true" name="Bastón de mago" hidden="true" id="29d9-7a1a-6152-0b08">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5798,9 +5798,9 @@ Además, realiza los siguientes cambios en su pergamino:
                   <selectionEntryGroups>
                     <selectionEntryGroup id="836e-09ca-652d-1c05" hidden="false" flatten="true">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Behemoth&apos;s Jaws" hidden="true" id="ab61-ba2d-7560-3431">
+                        <selectionEntry type="upgrade" import="true" name="Mandíbulas de coloso ghyranita" hidden="true" id="ab61-ba2d-7560-3431">
                           <profiles>
-                            <profile name="Ghyranite Behemoth&apos;s Jaws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b352-66ad-1aaa-440a">
+                            <profile name="Mandíbulas de coloso ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b352-66ad-1aaa-440a">
                               <characteristics>
                                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -5822,9 +5822,9 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Monstrosity&apos;s Claws" hidden="true" id="6156-106b-177e-4f66">
+                        <selectionEntry type="upgrade" import="true" name="Garras de monstruosidad ghyranita" hidden="true" id="6156-106b-177e-4f66">
                           <profiles>
-                            <profile name="Ghyranite Monstrosity&apos;s Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="dae3-a956-6056-e680">
+                            <profile name="Garras de monstruosidad ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="dae3-a956-6056-e680">
                               <characteristics>
                                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -5846,7 +5846,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Monstrosity&apos;s Maw" hidden="true" id="04b8-7535-980d-c852">
+                        <selectionEntry type="upgrade" import="true" name="Fauces de monstruosidad ghyranita" hidden="true" id="04b8-7535-980d-c852">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5858,7 +5858,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves, or Claws" hidden="true" id="ce17-1f91-2457-8c4c">
+                        <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="ce17-1f91-2457-8c4c">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5870,7 +5870,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Great Weapon of Renown" hidden="true" id="b2cd-35a7-1877-27d8">
+                        <selectionEntry type="upgrade" import="true" name="Gran arma de renombre" hidden="true" id="b2cd-35a7-1877-27d8">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5882,7 +5882,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Holy Sceptre" hidden="true" id="5e42-ccef-5af7-4494">
+                        <selectionEntry type="upgrade" import="true" name="Cetro sagrado" hidden="true" id="5e42-ccef-5af7-4494">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5894,7 +5894,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Massive Punches or Kicks" hidden="true" id="dbcb-634a-69f0-e46c">
+                        <selectionEntry type="upgrade" import="true" name="Puñetazos o patadas enormes" hidden="true" id="dbcb-634a-69f0-e46c">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5906,7 +5906,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Monstrous Weapon of Renown" hidden="true" id="4a87-eade-ddef-7dc2">
+                        <selectionEntry type="upgrade" import="true" name="Arma monstruosa de renombre" hidden="true" id="4a87-eade-ddef-7dc2">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5918,7 +5918,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Weapon of Renown" hidden="false" id="b730-5ff5-bc35-04d6">
+                        <selectionEntry type="upgrade" import="true" name="Arma de renombre" hidden="false" id="b730-5ff5-bc35-04d6">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5937,7 +5937,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Wizard&apos;s Staff" hidden="true" id="0d3d-97b7-6eff-1666">
+                        <selectionEntry type="upgrade" import="true" name="Bastón de mago" hidden="true" id="0d3d-97b7-6eff-1666">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5949,7 +5949,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Heavy Ranged Weapon" hidden="true" id="aea3-b9d2-efe9-d416">
+                        <selectionEntry type="upgrade" import="true" name="Arma pesada a distancia ghyranita" hidden="true" id="aea3-b9d2-efe9-d416">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -5961,7 +5961,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Ranged Weapon" hidden="true" id="2439-bf53-d590-1ebb">
+                        <selectionEntry type="upgrade" import="true" name="Arma a distancia ghyranita" hidden="true" id="2439-bf53-d590-1ebb">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6003,7 +6003,7 @@ Además, realiza los siguientes cambios en su pergamino:
                   <selectionEntryGroups>
                     <selectionEntryGroup id="e13a-4ef0-4f8d-b6d6" hidden="false" flatten="true">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves, or Claws" hidden="true" id="f02d-5b9c-336c-f59e">
+                        <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="f02d-5b9c-336c-f59e">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6015,7 +6015,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Great Weapon of Renown" hidden="true" id="7819-5f5d-a510-a350">
+                        <selectionEntry type="upgrade" import="true" name="Gran arma de renombre" hidden="true" id="7819-5f5d-a510-a350">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6027,7 +6027,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Holy Sceptre" hidden="true" id="55f1-03e1-6c95-b497">
+                        <selectionEntry type="upgrade" import="true" name="Cetro sagrado" hidden="true" id="55f1-03e1-6c95-b497">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6039,7 +6039,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Massive Punches or Kicks" hidden="true" id="cd30-e7b0-4ca6-1af2">
+                        <selectionEntry type="upgrade" import="true" name="Puñetazos o patadas enormes" hidden="true" id="cd30-e7b0-4ca6-1af2">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6051,7 +6051,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Monstrous Weapon of Renown" hidden="true" id="57da-de15-48a7-b13b">
+                        <selectionEntry type="upgrade" import="true" name="Arma monstruosa de renombre" hidden="true" id="57da-de15-48a7-b13b">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6063,7 +6063,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Weapon of Renown" hidden="false" id="7009-352e-3283-b4c7">
+                        <selectionEntry type="upgrade" import="true" name="Arma de renombre" hidden="false" id="7009-352e-3283-b4c7">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6082,7 +6082,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Wizard&apos;s Staff" hidden="true" id="a6e0-d038-65d7-d893">
+                        <selectionEntry type="upgrade" import="true" name="Bastón de mago" hidden="true" id="a6e0-d038-65d7-d893">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6094,7 +6094,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Heavy Ranged Weapon" hidden="true" id="0112-3d19-cf53-95ce">
+                        <selectionEntry type="upgrade" import="true" name="Arma pesada a distancia ghyranita" hidden="true" id="0112-3d19-cf53-95ce">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6106,7 +6106,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Ranged Weapon" hidden="true" id="d89f-022e-d629-9d19">
+                        <selectionEntry type="upgrade" import="true" name="Arma a distancia ghyranita" hidden="true" id="d89f-022e-d629-9d19">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6148,7 +6148,7 @@ Además, realiza los siguientes cambios en su pergamino:
                   <selectionEntryGroups>
                     <selectionEntryGroup id="69ba-37b3-ba2f-b46d" hidden="false" flatten="true">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Great Weapon of Renown" hidden="true" id="f807-d898-9c33-b915">
+                        <selectionEntry type="upgrade" import="true" name="Gran arma de renombre" hidden="true" id="f807-d898-9c33-b915">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6160,7 +6160,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Holy Sceptre" hidden="true" id="b686-6765-cc64-ecad">
+                        <selectionEntry type="upgrade" import="true" name="Cetro sagrado" hidden="true" id="b686-6765-cc64-ecad">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6172,7 +6172,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Massive Punches or Kicks" hidden="true" id="adef-09bd-2653-1c3a">
+                        <selectionEntry type="upgrade" import="true" name="Puñetazos o patadas enormes" hidden="true" id="adef-09bd-2653-1c3a">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6184,7 +6184,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Monstrous Weapon of Renown" hidden="true" id="26dc-62ed-e990-0a3f">
+                        <selectionEntry type="upgrade" import="true" name="Arma monstruosa de renombre" hidden="true" id="26dc-62ed-e990-0a3f">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6196,7 +6196,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Weapon of Renown" hidden="false" id="0fbf-dcf4-1d7a-1ca3">
+                        <selectionEntry type="upgrade" import="true" name="Arma de renombre" hidden="false" id="0fbf-dcf4-1d7a-1ca3">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6215,7 +6215,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Wizard&apos;s Staff" hidden="true" id="5f6a-6ffe-a37c-f8d4">
+                        <selectionEntry type="upgrade" import="true" name="Bastón de mago" hidden="true" id="5f6a-6ffe-a37c-f8d4">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6227,7 +6227,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Heavy Ranged Weapon" hidden="true" id="259b-f250-3af6-d8f9">
+                        <selectionEntry type="upgrade" import="true" name="Arma pesada a distancia ghyranita" hidden="true" id="259b-f250-3af6-d8f9">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6239,7 +6239,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Ranged Weapon" hidden="true" id="5b3f-8587-d934-2d14">
+                        <selectionEntry type="upgrade" import="true" name="Arma a distancia ghyranita" hidden="true" id="5b3f-8587-d934-2d14">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6313,9 +6313,9 @@ Además, realiza los siguientes cambios en su pergamino:
                   <selectionEntryGroups>
                     <selectionEntryGroup id="40c6-300c-fde0-ba15" hidden="false" flatten="true">
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Behemoth&apos;s Jaws" hidden="true" id="cd30-d81b-a50f-174a">
+                        <selectionEntry type="upgrade" import="true" name="Mandíbulas de coloso ghyranita" hidden="true" id="cd30-d81b-a50f-174a">
                           <profiles>
-                            <profile name="Ghyranite Behemoth&apos;s Jaws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="dd8c-4841-efb2-fcb3">
+                            <profile name="Mandíbulas de coloso ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="dd8c-4841-efb2-fcb3">
                               <characteristics>
                                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -6337,9 +6337,9 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Monstrosity&apos;s Claws" hidden="true" id="67c9-50d6-0463-8fcf">
+                        <selectionEntry type="upgrade" import="true" name="Garras de monstruosidad ghyranita" hidden="true" id="67c9-50d6-0463-8fcf">
                           <profiles>
-                            <profile name="Ghyranite Monstrosity&apos;s Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7f1e-bd3a-81cc-8b5e">
+                            <profile name="Garras de monstruosidad ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="7f1e-bd3a-81cc-8b5e">
                               <characteristics>
                                 <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                                 <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -6361,7 +6361,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Monstrosity&apos;s Maw" hidden="true" id="5b12-a2d9-eaf8-c9f0">
+                        <selectionEntry type="upgrade" import="true" name="Fauces de monstruosidad ghyranita" hidden="true" id="5b12-a2d9-eaf8-c9f0">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6373,7 +6373,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves, or Claws" hidden="true" id="4b1f-b8fc-e14a-f4d0">
+                        <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="4b1f-b8fc-e14a-f4d0">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6385,7 +6385,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Great Weapon of Renown" hidden="true" id="8a97-f08a-9f34-156f">
+                        <selectionEntry type="upgrade" import="true" name="Gran arma de renombre" hidden="true" id="8a97-f08a-9f34-156f">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6397,7 +6397,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Holy Sceptre" hidden="true" id="a485-a02f-957e-a875">
+                        <selectionEntry type="upgrade" import="true" name="Cetro sagrado" hidden="true" id="a485-a02f-957e-a875">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6409,7 +6409,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Massive Punches or Kicks" hidden="true" id="b865-ca1c-d266-78d7">
+                        <selectionEntry type="upgrade" import="true" name="Puñetazos o patadas enormes" hidden="true" id="b865-ca1c-d266-78d7">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6421,7 +6421,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Monstrous Weapon of Renown" hidden="true" id="3947-fdb1-e9d3-2c9d">
+                        <selectionEntry type="upgrade" import="true" name="Arma monstruosa de renombre" hidden="true" id="3947-fdb1-e9d3-2c9d">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6433,7 +6433,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Weapon of Renown" hidden="false" id="2d21-44b9-8bae-ab45">
+                        <selectionEntry type="upgrade" import="true" name="Arma de renombre" hidden="false" id="2d21-44b9-8bae-ab45">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6452,7 +6452,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Wizard&apos;s Staff" hidden="true" id="f989-c1e0-5f9a-f000">
+                        <selectionEntry type="upgrade" import="true" name="Bastón de mago" hidden="true" id="f989-c1e0-5f9a-f000">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6464,7 +6464,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Heavy Ranged Weapon" hidden="true" id="1e8d-a365-67fc-646c">
+                        <selectionEntry type="upgrade" import="true" name="Arma pesada a distancia ghyranita" hidden="true" id="1e8d-a365-67fc-646c">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6476,7 +6476,7 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifierGroup>
                           </modifierGroups>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Ghyranite Ranged Weapon" hidden="true" id="fe40-5453-c0ca-2e66">
+                        <selectionEntry type="upgrade" import="true" name="Arma a distancia ghyranita" hidden="true" id="fe40-5453-c0ca-2e66">
                           <modifierGroups>
                             <modifierGroup type="and">
                               <modifiers>
@@ -6532,7 +6532,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Ghyranite Ranged Weapon" hidden="false" id="404f-4613-668d-16b5" sortIndex="14">
+                <selectionEntry type="upgrade" import="true" name="Arma a distancia ghyranita" hidden="false" id="404f-4613-668d-16b5" sortIndex="14">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -6551,11 +6551,11 @@ Además, realiza los siguientes cambios en su pergamino:
                   </constraints>
                   <rules>
                     <rule name="Ghyranite Ranged Weapon" id="eb15-bb18-2dc3-b1d1" hidden="true">
-                      <description>Añade un **Ghyranite Ranged Weapon** al pergamino de tu héroe de regimiento. No puedes elegir esta mejora si tu héroe de regimiento ya tiene un arma a distancia.</description>
+                      <description>Añade un **Arma a distancia ghyranita** al pergamino de tu héroe de regimiento. No puedes elegir esta mejora si tu héroe de regimiento ya tiene un arma a distancia.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Ghyranite Heavy Ranged Weapon" hidden="false" id="e2b2-bdeb-3d73-7de7" sortIndex="15">
+                <selectionEntry type="upgrade" import="true" name="Arma pesada a distancia ghyranita" hidden="false" id="e2b2-bdeb-3d73-7de7" sortIndex="15">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -6574,7 +6574,7 @@ Además, realiza los siguientes cambios en su pergamino:
                   </constraints>
                   <rules>
                     <rule name="Ghyranite Heavy Ranged Weapon" id="e57c-7081-188c-a889" hidden="true">
-                      <description>Añade un **Ghyranite Heavy Ranged Weapon** al pergamino de tu héroe de regimiento. No puedes elegir esta mejora si tu héroe de regimiento ya tiene un arma a distancia.</description>
+                      <description>Añade un **Arma pesada a distancia ghyranita** al pergamino de tu héroe de regimiento. No puedes elegir esta mejora si tu héroe de regimiento ya tiene un arma a distancia.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -6584,15 +6584,15 @@ Además, realiza los siguientes cambios en su pergamino:
         </selectionEntryGroup>
       </selectionEntryGroups>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Regiment Hero" hidden="false" id="e45a-1807-3a21-0377">
+        <selectionEntry type="model" import="true" name="Héroe del regimiento" hidden="false" id="e45a-1807-3a21-0377">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Weapon of Renown" hidden="false" id="b93c-8644-cfeb-fb8a">
+            <selectionEntry type="upgrade" import="true" name="Arma de renombre" hidden="false" id="b93c-8644-cfeb-fb8a">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9edb-39b9-3f95-e2a9"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a65-2c64-db1c-cd7c"/>
               </constraints>
               <profiles>
-                <profile name="Weapon of Renown" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f0a8-a980-7473-7ca4">
+                <profile name="Arma de renombre" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="f0a8-a980-7473-7ca4">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -6675,9 +6675,9 @@ Además, realiza los siguientes cambios en su pergamino:
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Monstrosity&apos;s Claws" hidden="true" id="13c3-8674-d692-57c8">
+            <selectionEntry type="upgrade" import="true" name="Garras de monstruosidad ghyranita" hidden="true" id="13c3-8674-d692-57c8">
               <profiles>
-                <profile name="Ghyranite Monstrosity&apos;s Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="92db-c99c-027e-7b34">
+                <profile name="Garras de monstruosidad ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="92db-c99c-027e-7b34">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -6727,9 +6727,9 @@ Además, realiza los siguientes cambios en su pergamino:
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Holy Sceptre" hidden="true" id="5245-fc5b-f86c-63f8">
+            <selectionEntry type="upgrade" import="true" name="Cetro sagrado" hidden="true" id="5245-fc5b-f86c-63f8">
               <profiles>
-                <profile name="Holy Sceptre" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="92f2-1811-0b15-9809">
+                <profile name="Cetro sagrado" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="92f2-1811-0b15-9809">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -6809,9 +6809,9 @@ Además, realiza los siguientes cambios en su pergamino:
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Wizard&apos;s Staff" hidden="true" id="fde7-27cf-c302-a995">
+            <selectionEntry type="upgrade" import="true" name="Bastón de mago" hidden="true" id="fde7-27cf-c302-a995">
               <profiles>
-                <profile name="Wizard&apos;s Staff" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0338-5e17-b2bd-3cc4">
+                <profile name="Bastón de mago" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0338-5e17-b2bd-3cc4">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -6891,9 +6891,9 @@ Además, realiza los siguientes cambios en su pergamino:
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Great Weapon of Renown" hidden="true" id="5eea-7c04-0c1a-d4bf">
+            <selectionEntry type="upgrade" import="true" name="Gran arma de renombre" hidden="true" id="5eea-7c04-0c1a-d4bf">
               <profiles>
-                <profile name="Great Weapon of Renown" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="82ae-63fb-3e88-1f66">
+                <profile name="Gran arma de renombre" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="82ae-63fb-3e88-1f66">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -6968,9 +6968,9 @@ Además, realiza los siguientes cambios en su pergamino:
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Monstrous Weapon of Renown" hidden="true" id="9619-f5cf-c481-9e34">
+            <selectionEntry type="upgrade" import="true" name="Arma monstruosa de renombre" hidden="true" id="9619-f5cf-c481-9e34">
               <profiles>
-                <profile name="Monstrous Weapon of Renown" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="a69b-b3e9-acc2-ecaf">
+                <profile name="Arma monstruosa de renombre" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="a69b-b3e9-acc2-ecaf">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -7050,9 +7050,9 @@ Además, realiza los siguientes cambios en su pergamino:
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Massive Punches or Kicks" hidden="true" id="305f-6cf6-ef5d-3bea">
+            <selectionEntry type="upgrade" import="true" name="Puñetazos o patadas enormes" hidden="true" id="305f-6cf6-ef5d-3bea">
               <profiles>
-                <profile name="Massive Punches or Kicks" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0ba6-56b1-38a9-70d7">
+                <profile name="Puñetazos o patadas enormes" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="0ba6-56b1-38a9-70d7">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -7132,9 +7132,9 @@ Además, realiza los siguientes cambios en su pergamino:
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves, or Claws" hidden="true" id="e697-3087-18c5-36fa">
+            <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="true" id="e697-3087-18c5-36fa">
               <profiles>
-                <profile name="Ghyranite Steed&apos;s Teeth, Hooves, or Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="53b3-7cef-5828-71bc">
+                <profile name="Dientes, cascos o garras de corcel ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="53b3-7cef-5828-71bc">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">5+</characteristic>
@@ -7184,9 +7184,9 @@ Además, realiza los siguientes cambios en su pergamino:
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Behemoth&apos;s Jaws" hidden="true" id="2578-3c3f-dc1b-b0c1">
+            <selectionEntry type="upgrade" import="true" name="Mandíbulas de coloso ghyranita" hidden="true" id="2578-3c3f-dc1b-b0c1">
               <profiles>
-                <profile name="Ghyranite Behemoth&apos;s Jaws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c773-cd20-4a63-e4b9">
+                <profile name="Mandíbulas de coloso ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="c773-cd20-4a63-e4b9">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -7236,9 +7236,9 @@ Además, realiza los siguientes cambios en su pergamino:
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Monstrosity&apos;s Maw" hidden="true" id="0d38-dbe1-5a45-500c">
+            <selectionEntry type="upgrade" import="true" name="Fauces de monstruosidad ghyranita" hidden="true" id="0d38-dbe1-5a45-500c">
               <profiles>
-                <profile name="Ghyranite Monstrosity&apos;s Maw" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="1e73-c2c8-ff57-c0f5">
+                <profile name="Fauces de monstruosidad ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="1e73-c2c8-ff57-c0f5">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -7288,9 +7288,9 @@ Además, realiza los siguientes cambios en su pergamino:
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Heavy Ranged Weapon" hidden="true" id="cfb3-a10b-f19c-4900">
+            <selectionEntry type="upgrade" import="true" name="Arma pesada a distancia ghyranita" hidden="true" id="cfb3-a10b-f19c-4900">
               <profiles>
-                <profile name="Ghyranite Heavy Ranged Weapon" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="a95d-f344-ad89-6633">
+                <profile name="Arma pesada a distancia ghyranita" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="a95d-f344-ad89-6633">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">24&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">2</characteristic>
@@ -7376,9 +7376,9 @@ Además, realiza los siguientes cambios en su pergamino:
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Ranged Weapon" hidden="true" id="ef0e-50a6-1a00-3b1a">
+            <selectionEntry type="upgrade" import="true" name="Arma a distancia ghyranita" hidden="true" id="ef0e-50a6-1a00-3b1a">
               <profiles>
-                <profile name="Ghyranite Ranged Weapon" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="b00a-1d41-e601-fba4">
+                <profile name="Arma a distancia ghyranita" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="b00a-1d41-e601-fba4">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">3</characteristic>
@@ -7475,7 +7475,7 @@ Además, realiza los siguientes cambios en su pergamino:
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f54f-0419-8299-0a89" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
-        <profile name="Regiment Hero" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f098-8eaa-3400-da55">
+        <profile name="Héroe del regimiento" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="f098-8eaa-3400-da55">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">5</characteristic>
@@ -7683,17 +7683,17 @@ Además, realiza los siguientes cambios en su pergamino:
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ghyranite Bombard" hidden="false" id="f0b6-b8c7-eb61-76f5">
+    <selectionEntry type="unit" import="true" name="Bombarda ghyranita" hidden="false" id="f0b6-b8c7-eb61-76f5">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Ghyranite Bombard" hidden="false" id="5089-5978-ec4e-a114">
+        <selectionEntry type="model" import="true" name="Bombarda ghyranita" hidden="false" id="5089-5978-ec4e-a114">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Projectile Weapons" hidden="false" id="df7e-bfd7-24af-cf21">
+            <selectionEntry type="upgrade" import="true" name="Armas de proyectiles ghyranitas" hidden="false" id="df7e-bfd7-24af-cf21">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2e05-e696-4d4c-7a4d"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="714b-8161-99e9-a915"/>
               </constraints>
               <profiles>
-                <profile name="Ghyranite Projectile Weapons" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="4a00-17d5-cc16-772f">
+                <profile name="Armas de proyectiles ghyranitas" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="4a00-17d5-cc16-772f">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">24&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">2</characteristic>
@@ -7733,13 +7733,13 @@ Además, realiza los siguientes cambios en su pergamino:
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crew&apos;s Ghyranite Weapons" hidden="false" id="0162-454c-8b01-4929">
+            <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de la dotación" hidden="false" id="0162-454c-8b01-4929">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="10ad-5cbd-bbdd-6f5b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3e0-bd26-fe28-da24"/>
               </constraints>
               <profiles>
-                <profile name="Crew&apos;s Ghyranite Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5546-1dd0-aae0-87cb">
+                <profile name="Armas ghyranitas de la dotación" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="5546-1dd0-aae0-87cb">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -7820,7 +7820,7 @@ Además, realiza los siguientes cambios en su pergamino:
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Ghyranite Bombard" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="b304-b01a-b5a7-37d2">
+        <profile name="Bombarda ghyranita" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="b304-b01a-b5a7-37d2">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">10</characteristic>
@@ -8030,17 +8030,17 @@ Además, realiza los siguientes cambios en su pergamino:
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Landmark of Ghyran" hidden="true" id="37d3-9d2b-13ba-a002" publicationId="836f-b899-80c0-0f72" flatten="false" collapsible="false">
+    <selectionEntry type="unit" import="true" name="Hito de Ghyran" hidden="true" id="37d3-9d2b-13ba-a002" publicationId="836f-b899-80c0-0f72" flatten="false" collapsible="false">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Landmark of Ghyran" hidden="false" id="e309-d877-b225-8176">
+        <selectionEntry type="model" import="true" name="Hito de Ghyran" hidden="false" id="e309-d877-b225-8176">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Magical Defences" hidden="false" id="8423-828d-a8c1-f90a">
+            <selectionEntry type="upgrade" import="true" name="Defensas mágicas" hidden="false" id="8423-828d-a8c1-f90a">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e970-5f1d-3ecc-a3b5" automatic="true"/>
                 <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="cef3-bbc7-54e4-af53" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Magical Defences" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="d9d2-c1f7-a564-6897">
+                <profile name="Defensas mágicas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="d9d2-c1f7-a564-6897">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2D6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -8064,13 +8064,13 @@ Además, realiza los siguientes cambios en su pergamino:
                 </modifierGroup>
               </modifierGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magical Bolts" hidden="false" id="ebeb-449e-eaaf-6650">
+            <selectionEntry type="upgrade" import="true" name="Rayos mágicos" hidden="false" id="ebeb-449e-eaaf-6650">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="c00b-eb3a-6a88-06f4" automatic="true"/>
                 <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="ba4a-5e44-ba39-3d7b" automatic="true"/>
               </constraints>
               <profiles>
-                <profile name="Magical Bolts" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="1dc4-24ad-6d68-1257">
+                <profile name="Rayos mágicos" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon" hidden="false" id="1dc4-24ad-6d68-1257">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">3</characteristic>
@@ -8106,7 +8106,7 @@ Además, realiza los siguientes cambios en su pergamino:
         <entryLink import="true" name="General" hidden="false" id="9fdd-871c-4ddd-2e60" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
       </entryLinks>
       <profiles>
-        <profile name="Landmark of Ghyran" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="7a87-daee-ec32-c0c6">
+        <profile name="Hito de Ghyran" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="7a87-daee-ec32-c0c6">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">-</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">8</characteristic>
@@ -8521,7 +8521,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     </modifier>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Magical Defences" hidden="false" id="d492-42e6-3eb1-bc6f" sortIndex="6">
+                <selectionEntry type="upgrade" import="true" name="Defensas mágicas" hidden="false" id="d492-42e6-3eb1-bc6f" sortIndex="6">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -8533,11 +8533,11 @@ Además, realiza los siguientes cambios en su pergamino:
                   </constraints>
                   <rules>
                     <rule name="Magical Defences" id="574e-756b-75c2-ad6d" hidden="true">
-                      <description>Añade **Magical Defences** al pergamino de tu hito de Ghyran.</description>
+                      <description>Añade **Defensas mágicas** al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Magical Bolts" hidden="false" id="5d3a-0b0e-d159-00dd" sortIndex="5">
+                <selectionEntry type="upgrade" import="true" name="Rayos mágicos" hidden="false" id="5d3a-0b0e-d159-00dd" sortIndex="5">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -8549,7 +8549,7 @@ Además, realiza los siguientes cambios en su pergamino:
                   </constraints>
                   <rules>
                     <rule name="Magical Bolts" id="4dfc-4e07-4895-9e1e" hidden="true">
-                      <description>Añade el perfil de arma **Magical Bolts** al pergamino de tu hito de Ghyran.</description>
+                      <description>Añade el perfil de arma **Rayos mágicos** al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -9114,17 +9114,17 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ghyranite Warriors" hidden="false" id="8746-d8d6-e39d-328a">
+    <selectionEntry type="unit" import="true" name="Guerreros ghyranitas" hidden="false" id="8746-d8d6-e39d-328a">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Ghyranite Warrior" hidden="false" id="3ec6-fc05-5323-e7c9">
+        <selectionEntry type="model" import="true" name="Guerrero ghyranita" hidden="false" id="3ec6-fc05-5323-e7c9">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Weapons" hidden="false" id="a97f-17d6-a02b-f7d5">
+            <selectionEntry type="upgrade" import="true" name="Armas ghyranitas" hidden="false" id="a97f-17d6-a02b-f7d5">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4d2a-cee1-4230-004d"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8347-e166-7294-7e69"/>
               </constraints>
               <profiles>
-                <profile name="Ghyranite Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="bea6-aab5-cd39-eb1a">
+                <profile name="Armas ghyranitas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="bea6-aab5-cd39-eb1a">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -9200,7 +9200,7 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Ghyranite Warriors" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="0a19-90cc-e625-c5e2">
+        <profile name="Guerreros ghyranitas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="0a19-90cc-e625-c5e2">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">1</characteristic>
@@ -9410,17 +9410,17 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ghyranite Guardians" hidden="false" id="e1f6-2104-a66c-9a0f">
+    <selectionEntry type="unit" import="true" name="Guardianes ghyranitas" hidden="false" id="e1f6-2104-a66c-9a0f">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Ghyranite Guardian" hidden="false" id="855f-7f4d-deb4-c778">
+        <selectionEntry type="model" import="true" name="Guardián ghyranita" hidden="false" id="855f-7f4d-deb4-c778">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Weapons" hidden="false" id="4998-8d5f-5cfc-7471">
+            <selectionEntry type="upgrade" import="true" name="Armas ghyranitas" hidden="false" id="4998-8d5f-5cfc-7471">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="98b1-18c8-7b69-d343"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60bf-f0e6-6665-1842"/>
               </constraints>
               <profiles>
-                <profile name="Ghyranite Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b44a-fc15-6e67-acba">
+                <profile name="Armas ghyranitas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b44a-fc15-6e67-acba">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -9496,7 +9496,7 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Ghyranite Guardians" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="a001-8275-d870-9977">
+        <profile name="Guardianes ghyranitas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="a001-8275-d870-9977">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">2</characteristic>
@@ -9706,17 +9706,17 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ghyranite Elite Warriors" hidden="false" id="1432-0334-2200-3e7e">
+    <selectionEntry type="unit" import="true" name="Guerreros de élite ghyranitas" hidden="false" id="1432-0334-2200-3e7e">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Ghyranite Elite Warrior" hidden="false" id="b1a6-bd15-2828-bea0">
+        <selectionEntry type="model" import="true" name="Guerrero de élite ghyranita" hidden="false" id="b1a6-bd15-2828-bea0">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Brutal Ghyranite Weapons" hidden="false" id="e6de-7695-1075-0682">
+            <selectionEntry type="upgrade" import="true" name="Armas ghyranitas brutales" hidden="false" id="e6de-7695-1075-0682">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ecdd-78a4-bce2-93f9"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7454-a104-68f0-dced"/>
               </constraints>
               <profiles>
-                <profile name="Brutal Ghyranite Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b3c5-c8db-e05f-dc55">
+                <profile name="Armas ghyranitas brutales" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b3c5-c8db-e05f-dc55">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -9792,7 +9792,7 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Ghyranite Elite Warriors" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="7c59-0d09-ed08-a60e">
+        <profile name="Guerreros de élite ghyranitas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="7c59-0d09-ed08-a60e">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">5&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">4</characteristic>
@@ -10002,17 +10002,17 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ghyranite Beasts" hidden="false" id="9da1-d73d-ab35-bad3">
+    <selectionEntry type="unit" import="true" name="Bestias ghyranitas" hidden="false" id="9da1-d73d-ab35-bad3">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Ghyranite Beast" hidden="false" id="5c41-0099-4561-21fc">
+        <selectionEntry type="model" import="true" name="Bestia ghyranita" hidden="false" id="5c41-0099-4561-21fc">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Savage Jaws and Claws" hidden="false" id="d81b-343f-509d-2a42">
+            <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras salvajes" hidden="false" id="d81b-343f-509d-2a42">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f26b-404c-0e8a-8735"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a3f-ada8-24af-0f59"/>
               </constraints>
               <profiles>
-                <profile name="Savage Jaws and Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="11fc-c681-d05e-5bf2">
+                <profile name="Mandíbulas y garras salvajes" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="11fc-c681-d05e-5bf2">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -10088,7 +10088,7 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Ghyranite Beasts" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="9b41-8967-69ce-f29d">
+        <profile name="Bestias ghyranitas" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="9b41-8967-69ce-f29d">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">7&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">1</characteristic>
@@ -10301,17 +10301,17 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ghyranite Monster" hidden="false" id="75d5-6522-e965-9d7e">
+    <selectionEntry type="unit" import="true" name="Monstruo ghyranita" hidden="false" id="75d5-6522-e965-9d7e">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Ghyranite Monster" hidden="false" id="2498-3068-d57a-a0e3">
+        <selectionEntry type="model" import="true" name="Monstruo ghyranita" hidden="false" id="2498-3068-d57a-a0e3">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Monstrous Jaws and Claws" hidden="false" id="ec1a-b707-ad40-c4b9">
+            <selectionEntry type="upgrade" import="true" name="Mandíbulas y garras monstruosas" hidden="false" id="ec1a-b707-ad40-c4b9">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b522-c2eb-f18b-9833"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc37-c7e6-1eb7-82f6"/>
               </constraints>
               <profiles>
-                <profile name="Monstrous Jaws and Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="eaa6-084f-a714-4a7f">
+                <profile name="Mandíbulas y garras monstruosas" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="eaa6-084f-a714-4a7f">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -10387,7 +10387,7 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Ghyranite Monster" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="fd51-b773-e2a3-d227">
+        <profile name="Monstruo ghyranita" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="fd51-b773-e2a3-d227">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">8</characteristic>
@@ -10597,17 +10597,17 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ghyranite Gargant" hidden="false" id="58de-c790-e51b-6b4c">
+    <selectionEntry type="unit" import="true" name="Gigante ghyranita" hidden="false" id="58de-c790-e51b-6b4c">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Ghyranite Gargant" hidden="false" id="8bd9-bde6-7a46-7260">
+        <selectionEntry type="model" import="true" name="Gigante ghyranita" hidden="false" id="8bd9-bde6-7a46-7260">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Massive Punch or Kick" hidden="false" id="b65f-1a80-4ff4-b6c1">
+            <selectionEntry type="upgrade" import="true" name="Puñetazo o patada enorme" hidden="false" id="b65f-1a80-4ff4-b6c1">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="25c3-25b6-a89d-e8a7"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35ef-30cf-1d35-ca47"/>
               </constraints>
               <profiles>
-                <profile name="Massive Punch or Kick" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="144f-c54a-4312-3adf">
+                <profile name="Puñetazo o patada enorme" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="144f-c54a-4312-3adf">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">2</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -10666,13 +10666,13 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Monstrous Ghyranite Club" hidden="false" id="ce39-b96b-2926-8c31">
+            <selectionEntry type="upgrade" import="true" name="Garrote ghyranita monstruoso" hidden="false" id="ce39-b96b-2926-8c31">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2d39-3b04-f77b-698b"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b666-3e3d-4dcb-f59b"/>
               </constraints>
               <profiles>
-                <profile name="Monstrous Ghyranite Club" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6349-08f3-8e51-7df2">
+                <profile name="Garrote ghyranita monstruoso" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="6349-08f3-8e51-7df2">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -10748,7 +10748,7 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Ghyranite Gargant" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="a3e2-d8d7-3700-57d9">
+        <profile name="Gigante ghyranita" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="a3e2-d8d7-3700-57d9">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">12</characteristic>
@@ -10958,17 +10958,17 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ghyranite Chariot" hidden="false" id="2752-678a-0e51-69a2">
+    <selectionEntry type="unit" import="true" name="Carro ghyranita" hidden="false" id="2752-678a-0e51-69a2">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Ghyranite Chariot" hidden="false" id="2e9f-d991-313a-247d">
+        <selectionEntry type="model" import="true" name="Carro ghyranita" hidden="false" id="2e9f-d991-313a-247d">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Charioteer&apos;s Ghyranite Weapons" hidden="false" id="47c3-4f7e-f0cc-a998">
+            <selectionEntry type="upgrade" import="true" name="Armas ghyranitas de auriga" hidden="false" id="47c3-4f7e-f0cc-a998">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba15-0bc9-2488-aff7"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d0da-5ea1-39a5-2473"/>
               </constraints>
               <profiles>
-                <profile name="Charioteer&apos;s Ghyranite Weapons" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="908a-adaf-0466-3dc2">
+                <profile name="Armas ghyranitas de auriga" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="908a-adaf-0466-3dc2">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -11027,13 +11027,13 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Steed&apos;s Teeth, Hooves or Claws" hidden="false" id="2c06-4d5a-65b8-99d0">
+            <selectionEntry type="upgrade" import="true" name="Dientes, cascos o garras de corcel ghyranita" hidden="false" id="2c06-4d5a-65b8-99d0">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8635-729f-7034-3f5a"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d2e-d1a8-e58c-3cfc"/>
               </constraints>
               <profiles>
-                <profile name="Ghyranite Steed&apos;s Teeth, Hooves or Claws" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b8d8-c892-4853-ce30">
+                <profile name="Dientes, cascos o garras de corcel ghyranita" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon" hidden="false" id="b8d8-c892-4853-ce30">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">5+</characteristic>
@@ -11126,7 +11126,7 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Ghyranite Chariot" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ed78-d320-d15d-212c">
+        <profile name="Carro ghyranita" typeId="ff03-376e-972f-8ab2" typeName="Unit" hidden="false" id="ed78-d320-d15d-212c">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">12&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">8</characteristic>
@@ -11338,6 +11338,6 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
     </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Landmark of Ghyran" hidden="false" id="d735-f388-cf22-de13" type="selectionEntry" targetId="37d3-9d2b-13ba-a002"/>
+    <entryLink import="true" name="Hito de Ghyran" hidden="false" id="d735-f388-cf22-de13" type="selectionEntry" targetId="37d3-9d2b-13ba-a002"/>
   </entryLinks>
 </catalogue>
