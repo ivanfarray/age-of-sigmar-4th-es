@@ -111,7 +111,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="Stalled Reinforcements" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c608-7aa8-9907-2cb8">
+        <profile name="Refuerzos retrasados" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c608-7aa8-9907-2cb8">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos un número de unidades amigas con un valor en puntos combinado igual o superior al valor excedente.</characteristic>
@@ -125,7 +125,7 @@
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
         </profile>
-        <profile name="Timely Arrival" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9f95-6d0a-0979-008b">
+        <profile name="Llegada oportuna" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9f95-6d0a-0979-008b">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **refuerzo retrasado** amigo.</characteristic>
@@ -139,7 +139,7 @@
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
         </profile>
-        <profile name="Aqshian Anger" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c181-2805-a78a-ce14">
+        <profile name="Ira de Aqshy" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c181-2805-a78a-ce14">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si una unidad usa la orden &apos;All-out Attack&apos;, añade 1 a las tiradas de impacto de los ataques cuyo objetivo sea esa unidad durante el resto de la fase.</characteristic>
@@ -150,7 +150,7 @@
             <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
         </profile>
-        <profile name="Poisoned Domain" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9ae5-e4eb-80c8-38e0">
+        <profile name="Dominio envenenado" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9ae5-e4eb-80c8-38e0">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de tu turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos todas las unidades (amigas y enemigas) a 1" o menos de cualquier elemento de escenografía.</characteristic>
@@ -164,7 +164,7 @@
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
         </profile>
-        <profile name="Collect Emberstone" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="ffb2-60af-70cb-abd1">
+        <profile name="Recolectar ascualita" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="ffb2-60af-70cb-abd1">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de tu turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un cúmulo de piedra ascua en el campo de batalla y determina su control como si fuera un objetivo (Reglas básicas, 32.2). Si controlas ese cúmulo de piedra ascua, elige como objetivo una unidad amiga a 3" o menos de él que no esté en combate y no tenga un **marcador de piedra ascua**.</characteristic>
@@ -178,7 +178,7 @@
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
         </profile>
-        <profile name="Filled with Fury" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d22c-d8ce-609f-f8fc">
+        <profile name="Lleno de furia" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d22c-d8ce-609f-f8fc">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras una unidad tenga un marcador de piedra ascua:
@@ -191,7 +191,7 @@
             <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
         </profile>
-        <profile name="Dig for Emberstone" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f3a9-817d-5ca5-62db">
+        <profile name="Excavar en busca de ascualita" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f3a9-817d-5ca5-62db">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de la última ronda de batalla</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un objetivo que controles como **yacimiento**. No puedes elegir el mismo objetivo más de una vez por batalla. Después, elige como objetivo una unidad amiga que no esté en combate y esté disputando ese **yacimiento**.</characteristic>
@@ -218,9 +218,9 @@
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="8237-e983-936b-b9b9" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Mobile Construction" hidden="false" id="0ed7-1a28-a19f-a37e">
+                <selectionEntry type="upgrade" import="true" name="Construcción móvil" hidden="false" id="0ed7-1a28-a19f-a37e">
                   <profiles>
-                    <profile name="Mobile Construction" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="dd91-e941-bd07-8379">
+                    <profile name="Construcción móvil" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="dd91-e941-bd07-8379">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Move^^**, añade 2" a la distancia que puede moverse</characteristic>
@@ -236,9 +236,9 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e83e-29a2-6a1c-8e07"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Surly Crew" hidden="false" id="cbe5-7710-02b3-2a94">
+                <selectionEntry type="upgrade" import="true" name="Tripulación hosca" hidden="false" id="cbe5-7710-02b3-2a94">
                   <profiles>
-                    <profile name="Surly Crew" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="567a-256e-f9d2-7d32">
+                    <profile name="Tripulación hosca" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="567a-256e-f9d2-7d32">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Attacks de las armas de cuerpo a cuerpo de esta unidad.</characteristic>
@@ -285,9 +285,9 @@
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="6aff-b53a-40a5-5f13" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="King of the Hill" hidden="false" id="6d20-b9d0-a46c-4187">
+                <selectionEntry type="upgrade" import="true" name="Rey de la colina" hidden="false" id="6d20-b9d0-a46c-4187">
                   <profiles>
-                    <profile name="King of the Hill" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="db9e-85a7-9223-99ba">
+                    <profile name="Rey de la colina" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="db9e-85a7-9223-99ba">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté disputando un objetivo, las unidades enemigas **^^Infantry^^** y **^^Cavalry^^** no pueden disputar ese objetivo.</characteristic>
@@ -303,9 +303,9 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2627-0d08-482d-93e5"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Veteran Spotter" hidden="false" id="87a2-be14-6dc3-e925">
+                <selectionEntry type="upgrade" import="true" name="Observador veterano" hidden="false" id="87a2-be14-6dc3-e925">
                   <profiles>
-                    <profile name="Veteran Spotter" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="610e-4d7d-b272-3b36">
+                    <profile name="Observador veterano" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="610e-4d7d-b272-3b36">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede ignorar los efectos de la habilidad &apos;Héroe protegido&apos; al elegir objetivos para sus ataques de disparo.</characteristic>
@@ -347,9 +347,9 @@
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="be99-7e44-fc8d-b68c" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Blackpowder Munitions" hidden="false" id="f523-0e56-8a99-6dfc">
+                <selectionEntry type="upgrade" import="true" name="Municiones de pólvora negra" hidden="false" id="f523-0e56-8a99-6dfc">
                   <profiles>
-                    <profile name="Blackpowder Munitions" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a47c-7424-2845-f45a">
+                    <profile name="Municiones de pólvora negra" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a47c-7424-2845-f45a">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, reacción: has declarado una habilidad de **^^Shoot^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -368,9 +368,9 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5267-9bd7-975d-4ac3"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Trained Hands" hidden="false" id="4f76-cf41-2e9c-0d0e">
+                <selectionEntry type="upgrade" import="true" name="Manos adiestradas" hidden="false" id="4f76-cf41-2e9c-0d0e">
                   <profiles>
-                    <profile name="Trained Hands" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bc8f-157a-f465-be4a">
+                    <profile name="Manos adiestradas" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bc8f-157a-f465-be4a">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, reacción: has declarado una habilidad de **^^Shoot^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -415,9 +415,9 @@
             </selectionEntryGroup>
             <selectionEntryGroup name="Legendary" id="bded-581a-271b-11a4" hidden="false" sortIndex="4">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Quick Repositioning" hidden="false" id="96f9-347b-5d4e-ca40">
+                <selectionEntry type="upgrade" import="true" name="Reposicionamiento rápido" hidden="false" id="96f9-347b-5d4e-ca40">
                   <profiles>
-                    <profile name="Quick Repositioning" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="58ca-cca8-2d0a-0fee">
+                    <profile name="Reposicionamiento rápido" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="58ca-cca8-2d0a-0fee">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que haya cargado este turno y esté en combate con esta unidad.</characteristic>
@@ -436,9 +436,9 @@
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="971b-4100-0ea2-b7fb"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Perfect Trajectory" hidden="false" id="7989-2096-2666-642e">
+                <selectionEntry type="upgrade" import="true" name="Trayectoria perfecta" hidden="false" id="7989-2096-2666-642e">
                   <profiles>
-                    <profile name="Perfect Trajectory" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2c62-904b-6adf-4094">
+                    <profile name="Trayectoria perfecta" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2c62-904b-6adf-4094">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">
@@ -504,9 +504,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="d8d6-b79b-a877-2b19" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Mind Set Aflame" hidden="false" id="fa65-d641-0ff0-610f">
+                <selectionEntry type="upgrade" import="true" name="Mente en llamas" hidden="false" id="fa65-d641-0ff0-610f">
                   <profiles>
-                    <profile name="Mind Set Aflame" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9972-8688-2f6c-1504">
+                    <profile name="Mente en llamas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9972-8688-2f6c-1504">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La habilidad &apos;Daños de batalla&apos; no tiene efecto sobre esta unidad.</characteristic>
@@ -566,9 +566,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="b434-a837-fe67-ea9b" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Agile Onslaught" hidden="false" id="b765-2d01-d4c8-3892">
+                <selectionEntry type="upgrade" import="true" name="Embestida ágil" hidden="false" id="b765-2d01-d4c8-3892">
                   <profiles>
-                    <profile name="Agile Onslaught" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8498-6c3e-4f3f-b3d8">
+                    <profile name="Embestida ágil" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8498-6c3e-4f3f-b3d8">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Puedes volver a tirar las tiradas de carga de esta unidad.</characteristic>
@@ -584,9 +584,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="891f-eb3d-439f-42eb"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Burning Bloodlust" hidden="false" id="079a-3871-034d-274a">
+                <selectionEntry type="upgrade" import="true" name="Sed de sangre ardiente" hidden="false" id="079a-3871-034d-274a">
                   <profiles>
-                    <profile name="Burning Bloodlust" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6f5d-caad-0efe-8ee8">
+                    <profile name="Sed de sangre ardiente" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6f5d-caad-0efe-8ee8">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: El oponente declaró la orden &apos;All-out Attack&apos; para una unidad en combate con esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -631,9 +631,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="5049-48bc-c2db-39e4" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Furnace of Fury" hidden="false" id="0286-4bee-03f4-59e3">
+                <selectionEntry type="upgrade" import="true" name="Horno de furia" hidden="false" id="0286-4bee-03f4-59e3">
                   <profiles>
-                    <profile name="Furnace of Fury" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="bbe5-f2a6-5c41-d8a7">
+                    <profile name="Horno de furia" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="bbe5-f2a6-5c41-d8a7">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar 2 habilidades **^^Rampage^^** diferentes en el mismo turno.</characteristic>
@@ -649,9 +649,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce03-4d94-18d0-b5ec"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Unnatural Resilience" hidden="false" id="b5cc-2083-668f-004f">
+                <selectionEntry type="upgrade" import="true" name="Resistencia antinatural" hidden="false" id="b5cc-2083-668f-004f">
                   <profiles>
-                    <profile name="Unnatural Resilience" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c239-5a72-de8b-d382">
+                    <profile name="Resistencia antinatural" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c239-5a72-de8b-d382">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad tiene **^^Ward (6+)^^**.</characteristic>
@@ -693,9 +693,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
             </selectionEntryGroup>
             <selectionEntryGroup name="Legendary" id="8d02-bf55-0f0d-81f4" hidden="false" sortIndex="4">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Unrestrained Aggression" hidden="false" id="1258-7a2b-334c-061d">
+                <selectionEntry type="upgrade" import="true" name="Agresividad desenfrenada" hidden="false" id="1258-7a2b-334c-061d">
                   <profiles>
-                    <profile name="Unrestrained Aggression" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ea49-fc72-2844-debc">
+                    <profile name="Agresividad desenfrenada" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ea49-fc72-2844-debc">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas de esta unidad tienen **Crit (2 Hits)**. Esta habilidad también afecta a las armas **Companion**.</characteristic>
@@ -711,9 +711,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="313f-6e38-8122-0cb1"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Obsidian Bones" hidden="false" id="bcee-bfac-30eb-94d6">
+                <selectionEntry type="upgrade" import="true" name="Huesos de obsidiana" hidden="false" id="bcee-bfac-30eb-94d6">
                   <profiles>
-                    <profile name="Obsidian Bones" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="aeb7-5df9-19f9-c575">
+                    <profile name="Huesos de obsidiana" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="aeb7-5df9-19f9-c575">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de salvación de esta unidad.</characteristic>
@@ -771,9 +771,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="636e-9417-f568-5676" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Dependable Assault" hidden="false" id="4be1-e19e-7d83-5c35">
+                <selectionEntry type="upgrade" import="true" name="Asalto fiable" hidden="false" id="4be1-e19e-7d83-5c35">
                   <profiles>
-                    <profile name="Dependable Assault" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="731a-906d-a4ca-2683">
+                    <profile name="Asalto fiable" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="731a-906d-a4ca-2683">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de carga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -792,9 +792,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d69-9e76-8cbe-51ab"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="First to the Fight" hidden="false" id="c4ae-e337-107b-4505">
+                <selectionEntry type="upgrade" import="true" name="El primero en combatir" hidden="false" id="c4ae-e337-107b-4505">
                   <profiles>
-                    <profile name="First to the Fight" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d90b-1e4a-46a1-6bf0">
+                    <profile name="El primero en combatir" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d90b-1e4a-46a1-6bf0">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 2 a las tiradas de carga de esta unidad.</characteristic>
@@ -841,9 +841,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="df6c-54f7-a28f-51d3" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Veteran&apos;s Eye" hidden="false" id="73fe-0914-d513-dd9c">
+                <selectionEntry type="upgrade" import="true" name="Ojo de veterano" hidden="false" id="73fe-0914-d513-dd9c">
                   <profiles>
-                    <profile name="Veteran&apos;s Eye" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fd17-2de2-a2ae-6533">
+                    <profile name="Ojo de veterano" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fd17-2de2-a2ae-6533">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a las tiradas de impacto de los ataques de combate de esta unidad.</characteristic>
@@ -859,9 +859,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5351-45ad-dfc5-2098"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Powerful Bruiser" hidden="false" id="2443-86bb-a95f-5a94">
+                <selectionEntry type="upgrade" import="true" name="Matón poderoso" hidden="false" id="2443-86bb-a95f-5a94">
                   <profiles>
-                    <profile name="Powerful Bruiser" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="dbe6-ffb4-995d-28d3">
+                    <profile name="Matón poderoso" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="dbe6-ffb4-995d-28d3">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a las tiradas de herida de los ataques de combate de esta unidad.</characteristic>
@@ -903,9 +903,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="2add-333f-f579-d099" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Reckless Brutality" hidden="false" id="fe6c-d66e-03df-cfbd">
+                <selectionEntry type="upgrade" import="true" name="Brutalidad temeraria" hidden="false" id="fe6c-d66e-03df-cfbd">
                   <profiles>
-                    <profile name="Reckless Brutality" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="82c9-b515-e96a-9a3d">
+                    <profile name="Brutalidad temeraria" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="82c9-b515-e96a-9a3d">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -926,9 +926,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4c76-98a2-ad49-c53c"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Deathdealer" hidden="false" id="3a85-0ff1-f18a-10ca">
+                <selectionEntry type="upgrade" import="true" name="Portador de muerte" hidden="false" id="3a85-0ff1-f18a-10ca">
                   <profiles>
-                    <profile name="Deathdealer" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="92bd-100c-7dfd-a087">
+                    <profile name="Portador de muerte" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="92bd-100c-7dfd-a087">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos todas las unidades enemigas en combate con esta unidad.</characteristic>
@@ -973,9 +973,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
             </selectionEntryGroup>
             <selectionEntryGroup name="Legendary" id="5cdd-2d9b-0325-ef98" hidden="false" sortIndex="4">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Devastating Strength" hidden="false" id="9305-7d6e-2f05-55b6">
+                <selectionEntry type="upgrade" import="true" name="Fuerza devastadora" hidden="false" id="9305-7d6e-2f05-55b6">
                   <profiles>
-                    <profile name="Devastating Strength" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2ec2-2551-01cc-167e">
+                    <profile name="Fuerza devastadora" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2ec2-2551-01cc-167e">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -994,9 +994,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05e8-cdf5-5ca9-4222"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Flurry of Attacks" hidden="false" id="5613-c42b-2aaa-a5cd">
+                <selectionEntry type="upgrade" import="true" name="Aluvión de ataques" hidden="false" id="5613-c42b-2aaa-a5cd">
                   <profiles>
-                    <profile name="Flurry of Attacks" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f190-7072-1638-ba6f">
+                    <profile name="Aluvión de ataques" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f190-7072-1638-ba6f">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 2 a la característica de Attacks de las armas de cuerpo a cuerpo de esta unidad.</characteristic>
@@ -1049,9 +1049,9 @@ While this unit is contesting an objective that you control, add 6&quot; to the
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="54cb-4d08-579e-2247" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Anti-Cavalry Tactics" hidden="false" id="8348-7c24-64cc-9cf9">
+                <selectionEntry type="upgrade" import="true" name="Tácticas contra la caballería" hidden="false" id="8348-7c24-64cc-9cf9">
                   <profiles>
-                    <profile name="Anti-Cavalry Tactics" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b2d8-3d9b-7c68-46f0">
+                    <profile name="Tácticas contra la caballería" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b2d8-3d9b-7c68-46f0">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">
@@ -1076,9 +1076,9 @@ While each model in this unit is contesting an objective wholly within friendly 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f326-67cc-034c-797f"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Indomitable Defenders" hidden="false" id="3a67-f392-0f5d-be91">
+                <selectionEntry type="upgrade" import="true" name="Defensores indomables" hidden="false" id="3a67-f392-0f5d-be91">
                   <profiles>
-                    <profile name="Indomitable Defenders" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4aed-9402-1adf-e4ee">
+                    <profile name="Defensores indomables" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4aed-9402-1adf-e4ee">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">
@@ -1129,9 +1129,9 @@ While each model in this unit is contesting an objective that is not wholly wit
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="b507-2af6-3aee-9d45" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Thin the Ranks" hidden="false" id="d2b1-e3f6-b9e2-aacb">
+                <selectionEntry type="upgrade" import="true" name="Diezmar las filas" hidden="false" id="d2b1-e3f6-b9e2-aacb">
                   <profiles>
-                    <profile name="Thin the Ranks" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9d20-9e40-bc63-1370">
+                    <profile name="Diezmar las filas" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9d20-9e40-bc63-1370">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no ha cargado este turno, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
@@ -1150,9 +1150,9 @@ While each model in this unit is contesting an objective that is not wholly wit
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="af46-0e81-39ee-de26"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Defence Above All" hidden="false" id="c370-0ca6-2c0a-71e7">
+                <selectionEntry type="upgrade" import="true" name="La defensa ante todo" hidden="false" id="c370-0ca6-2c0a-71e7">
                   <profiles>
-                    <profile name="Defence Above All" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="0880-8f88-5c28-fa4f">
+                    <profile name="La defensa ante todo" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="0880-8f88-5c28-fa4f">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -1226,9 +1226,9 @@ While this unit is contesting an objective within friendly territory, enemy uni
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7dca-ed47-a734-aca9"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Fortress Formation" hidden="false" id="059b-f3ab-bd45-802c">
+                <selectionEntry type="upgrade" import="true" name="Formación de fortaleza" hidden="false" id="059b-f3ab-bd45-802c">
                   <profiles>
-                    <profile name="Fortress Formation" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8f07-c271-ffc0-dba5">
+                    <profile name="Formación de fortaleza" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8f07-c271-ffc0-dba5">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras cada miniatura de esta unidad esté disputando un objetivo que no esté dentro del territorio enemigo, las miniaturas enemigas que tengan una característica de Health inferior a la de esta unidad no pueden disputar objetivos mientras estén en combate con esta unidad.</characteristic>
@@ -1270,9 +1270,9 @@ While this unit is contesting an objective within friendly territory, enemy uni
             </selectionEntryGroup>
             <selectionEntryGroup name="Legendary" id="74ed-4b7d-d94c-8af5" hidden="false" sortIndex="4">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Made of Stone" hidden="false" id="ab76-52bd-7994-78f4">
+                <selectionEntry type="upgrade" import="true" name="Hecho de piedra" hidden="false" id="ab76-52bd-7994-78f4">
                   <profiles>
-                    <profile name="Made of Stone" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9380-9d96-9626-e7f5">
+                    <profile name="Hecho de piedra" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9380-9d96-9626-e7f5">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">
@@ -1297,9 +1297,9 @@ While this unit is contesting an objective within friendly territory, the **Cha
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6ee-9eaa-52ef-7022"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Fight Fire with Fire" hidden="false" id="5cc7-be4c-d1c5-81db">
+                <selectionEntry type="upgrade" import="true" name="Combatir el fuego con fuego" hidden="false" id="5cc7-be4c-d1c5-81db">
                   <profiles>
-                    <profile name="Fight Fire with Fire" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5448-6d5b-5eb8-4883">
+                    <profile name="Combatir el fuego con fuego" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5448-6d5b-5eb8-4883">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad está en combate con una unidad enemiga que use la orden &apos;All-out Attack&apos;, añade 1 a las tiradas de salvación de esta unidad durante el resto del turno</characteristic>
@@ -1357,9 +1357,9 @@ While this unit is contesting an objective within friendly territory, the **Cha
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="5ca6-8eb6-a2eb-f9bf" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Hot-blooded Charge" hidden="false" id="fd1b-e47e-b056-e397">
+                <selectionEntry type="upgrade" import="true" name="Carga de sangre caliente" hidden="false" id="fd1b-e47e-b056-e397">
                   <profiles>
-                    <profile name="Hot-blooded Charge" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3295-30e0-1656-d536">
+                    <profile name="Carga de sangre caliente" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3295-30e0-1656-d536">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a las tiradas de carga de esta unidad mientras esté totalmente dentro del territorio enemigo.</characteristic>
@@ -1375,9 +1375,9 @@ While this unit is contesting an objective within friendly territory, the **Cha
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="788f-ee47-d4f0-da0f"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Terrifying Stampede" hidden="false" id="a6ae-1513-ac4c-c05a">
+                <selectionEntry type="upgrade" import="true" name="Estampida aterradora" hidden="false" id="a6ae-1513-ac4c-c05a">
                   <profiles>
-                    <profile name="Terrifying Stampede" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2b18-7ffd-3afb-eaa3">
+                    <profile name="Estampida aterradora" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2b18-7ffd-3afb-eaa3">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad cargó este turno, añade 5 a su puntuación de control durante el resto del turno.</characteristic>
@@ -1419,9 +1419,9 @@ While this unit is contesting an objective within friendly territory, the **Cha
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="5cbb-49fa-fa49-f210" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Shrouded by Smoke" hidden="false" id="5fad-1a57-424a-0695">
+                <selectionEntry type="upgrade" import="true" name="Envuelto en humo" hidden="false" id="5fad-1a57-424a-0695">
                   <profiles>
-                    <profile name="Shrouded by Smoke" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="66af-6ba3-1106-095e">
+                    <profile name="Envuelto en humo" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="66af-6ba3-1106-095e">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de herida de los ataques de disparo cuyo objetivo sea esta unidad.</characteristic>
@@ -1437,9 +1437,9 @@ While this unit is contesting an objective within friendly territory, the **Cha
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61f8-5da0-c01b-3381"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Hardy Steeds" hidden="false" id="6839-b6bf-245e-3c2d">
+                <selectionEntry type="upgrade" import="true" name="Corceles resistentes" hidden="false" id="6839-b6bf-245e-3c2d">
                   <profiles>
-                    <profile name="Hardy Steeds" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="60ac-98ed-ef25-2148">
+                    <profile name="Corceles resistentes" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="60ac-98ed-ef25-2148">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste una habilidad **^^Run^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -1485,9 +1485,9 @@ Además, esta unidad no puede usar habilidades **^^Charge^^** durante el resto d
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="6118-2d42-45b5-c3ab" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Sunder Their Spears" hidden="false" id="44f4-0839-db2b-89dd">
+                <selectionEntry type="upgrade" import="true" name="Quebrar sus lanzas" hidden="false" id="44f4-0839-db2b-89dd">
                   <profiles>
-                    <profile name="Sunder Their Spears" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f453-5a6d-4d52-550b">
+                    <profile name="Quebrar sus lanzas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f453-5a6d-4d52-550b">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La habilidad de arma **Anti-charge (+1 Rend)** no tiene efecto sobre los ataques que tengan como objetivo esta unidad.</characteristic>
@@ -1503,9 +1503,9 @@ Además, esta unidad no puede usar habilidades **^^Charge^^** durante el resto d
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed6c-b73b-6b0e-b01a"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Staggering Charge" hidden="false" id="0c00-fa01-b22b-1bbb">
+                <selectionEntry type="upgrade" import="true" name="Carga tambaleante" hidden="false" id="0c00-fa01-b22b-1bbb">
                   <profiles>
-                    <profile name="Staggering Charge" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="65e0-2e4e-efa8-9749">
+                    <profile name="Carga tambaleante" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="65e0-2e4e-efa8-9749">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">
@@ -1589,9 +1589,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bde7-bbe5-44f2-d8b3"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Furious Mounts" hidden="false" id="3801-a16f-c403-7afc">
+                <selectionEntry type="upgrade" import="true" name="Monturas furiosas" hidden="false" id="3801-a16f-c403-7afc">
                   <profiles>
-                    <profile name="Furious Mounts" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="40de-2492-fb84-46fa">
+                    <profile name="Monturas furiosas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="40de-2492-fb84-46fa">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté en territorio enemigo, sus armas **Companion** tienen **Crit (Mortal)**.</characteristic>
@@ -1649,9 +1649,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="7e4d-6663-6406-53ca" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Thundering Bulk" hidden="false" id="7c62-808f-7f96-ed65">
+                <selectionEntry type="upgrade" import="true" name="Mole atronadora" hidden="false" id="7c62-808f-7f96-ed65">
                   <profiles>
-                    <profile name="Thundering Bulk" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2258-3393-3f8e-793c">
+                    <profile name="Mole atronadora" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2258-3393-3f8e-793c">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use la orden &apos;Power Through&apos;, inflige 1 de daño mortal adicional al objetivo.</characteristic>
@@ -1667,9 +1667,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a7e4-9384-26aa-45f0"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Alpha Beast" hidden="false" id="f746-fdef-d71b-c534">
+                <selectionEntry type="upgrade" import="true" name="Bestia alfa" hidden="false" id="f746-fdef-d71b-c534">
                   <profiles>
-                    <profile name="Alpha Beast" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1417-a9ce-6ac1-16f6">
+                    <profile name="Bestia alfa" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1417-a9ce-6ac1-16f6">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 2 a las puntuaciones de control de los **^^Monsters^^** enemigos mientras estén en combate con esta unidad.</characteristic>
@@ -1699,9 +1699,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="201e-b60f-26ae-7f17" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Wrestle Down" hidden="false" id="a49f-1655-7164-b296">
+                <selectionEntry type="upgrade" import="true" name="Derribar a la fuerza" hidden="false" id="a49f-1655-7164-b296">
                   <profiles>
-                    <profile name="Wrestle Down" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3acd-ae32-f0ca-9a30">
+                    <profile name="Derribar a la fuerza" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3acd-ae32-f0ca-9a30">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad no puede ser elegida como objetivo de habilidades de **^^Rampage^^** enemigas.</characteristic>
@@ -1717,9 +1717,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29fa-5898-472d-a5a6"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Bestial Bellows" hidden="false" id="e803-a3f1-670f-0dc1">
+                <selectionEntry type="upgrade" import="true" name="Bramidos bestiales" hidden="false" id="e803-a3f1-670f-0dc1">
                   <profiles>
-                    <profile name="Bestial Bellows" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="61b0-ed9e-f9a1-6cba">
+                    <profile name="Bramidos bestiales" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="61b0-ed9e-f9a1-6cba">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Los efectos de las habilidades &apos;Campeón&apos;, &apos;Portaestandarte&apos; y &apos;Músico&apos; no se aplican a las unidades enemigas mientras estén a 12" o menos de esta unidad.</characteristic>
@@ -1742,9 +1742,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="ccc8-ac9d-efba-2e10" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Animal Fury" hidden="false" id="7d4f-914f-26eb-2d9c">
+                <selectionEntry type="upgrade" import="true" name="Furia animal" hidden="false" id="7d4f-914f-26eb-2d9c">
                   <profiles>
-                    <profile name="Animal Fury" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="438c-dc85-ae2f-ffe2">
+                    <profile name="Furia animal" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="438c-dc85-ae2f-ffe2">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a la característica de Attacks de las armas de esta unidad. Esto también afecta a las armas que tengan la habilidad de arma **Companion**</characteristic>
@@ -1760,9 +1760,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b708-d7df-2f6a-2df2"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Volcanic Charge" hidden="false" id="8570-149e-7034-9910">
+                <selectionEntry type="upgrade" import="true" name="Carga volcánica" hidden="false" id="8570-149e-7034-9910">
                   <profiles>
-                    <profile name="Volcanic Charge" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6e30-ef49-1309-f78e">
+                    <profile name="Carga volcánica" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6e30-ef49-1309-f78e">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de carga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -1788,9 +1788,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Legendary" id="b291-0443-4ac7-8f1d" hidden="false" sortIndex="4">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Pulversing Blows" hidden="false" id="1089-866c-8faf-96d0">
+                <selectionEntry type="upgrade" import="true" name="Golpes pulverizadores" hidden="false" id="1089-866c-8faf-96d0">
                   <profiles>
-                    <profile name="Pulversing Blows" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="eec2-8ab6-456d-0536">
+                    <profile name="Golpes pulverizadores" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="eec2-8ab6-456d-0536">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible en combate con esta unidad.</characteristic>
@@ -1809,9 +1809,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3a7c-5121-49a4-c2a4"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Obliterating Impact" hidden="false" id="d173-394c-3e36-56a4">
+                <selectionEntry type="upgrade" import="true" name="Impacto aniquilador" hidden="false" id="d173-394c-3e36-56a4">
                   <profiles>
-                    <profile name="Obliterating Impact" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2795-1bc6-0f5f-4f86">
+                    <profile name="Impacto aniquilador" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2795-1bc6-0f5f-4f86">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó este turno, elige como objetivo una unidad enemiga visible a 1" o menos de ella.</characteristic>
@@ -1853,9 +1853,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="7650-8d32-b3d0-3717" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Ancient Technique" hidden="false" id="07a3-493a-5b4f-f0ba">
+                <selectionEntry type="upgrade" import="true" name="Técnica ancestral" hidden="false" id="07a3-493a-5b4f-f0ba">
                   <profiles>
-                    <profile name="Ancient Technique" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="ad2d-d40c-23eb-956c">
+                    <profile name="Técnica ancestral" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="ad2d-d40c-23eb-956c">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, reacción: Declaraste una habilidad **^^Summon Hechizo^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -1874,9 +1874,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e3c-4f16-4146-67ce"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Master Banisher" hidden="false" id="5fb6-ae91-3a8d-6f96">
+                <selectionEntry type="upgrade" import="true" name="Maestro desterrador" hidden="false" id="5fb6-ae91-3a8d-6f96">
                   <profiles>
-                    <profile name="Master Banisher" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c08b-f4a5-bcae-de26">
+                    <profile name="Maestro desterrador" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c08b-f4a5-bcae-de26">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 2 a las tiradas de destierro de esta unidad.</characteristic>
@@ -1906,9 +1906,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="9726-f0fb-3091-6e44" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Total Banishment" hidden="false" id="dd1a-68c7-bd11-1637">
+                <selectionEntry type="upgrade" import="true" name="Destierro total" hidden="false" id="dd1a-68c7-bd11-1637">
                   <profiles>
-                    <profile name="Total Banishment" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d19d-bf37-3185-c6ce">
+                    <profile name="Destierro total" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d19d-bf37-3185-c6ce">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), final de la ronda de batalla</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -1927,9 +1927,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6951-4666-9d62-bf3f"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Expert Summoner" hidden="false" id="0dd1-4aa3-4783-3bb8">
+                <selectionEntry type="upgrade" import="true" name="Invocador experto" hidden="false" id="0dd1-4aa3-4783-3bb8">
                   <profiles>
-                    <profile name="Expert Summoner" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="407a-f4d2-c4ae-b9fe">
+                    <profile name="Invocador experto" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="407a-f4d2-c4ae-b9fe">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 3" a la distancia a la que pueden colocarse totalmente las **^^Manifestations^^** invocadas por esta unidad.</characteristic>
@@ -1973,9 +1973,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60ed-11ee-f4a8-4a60"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Disrupting Presence" hidden="false" id="05c3-21aa-0291-dcd9">
+                <selectionEntry type="upgrade" import="true" name="Presencia perturbadora" hidden="false" id="05c3-21aa-0291-dcd9">
                   <profiles>
-                    <profile name="Disrupting Presence" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ac29-28a7-b9bc-6065">
+                    <profile name="Presencia perturbadora" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ac29-28a7-b9bc-6065">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad enemiga a 12" o menos de esta unidad use una habilidad **^^Summon Hechizo^^**, resta 2 a la tirada de lanzamiento de ese hechizo</characteristic>
@@ -1998,9 +1998,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Legendary" id="e0bb-dad0-1dbd-ad61" hidden="false" sortIndex="4">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Silence the Aether" hidden="false" id="1ed3-aeb4-28d0-ccfb">
+                <selectionEntry type="upgrade" import="true" name="Silenciar el éter" hidden="false" id="1ed3-aeb4-28d0-ccfb">
                   <profiles>
-                    <profile name="Silence the Aether" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fd2b-8768-9923-c119">
+                    <profile name="Silenciar el éter" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fd2b-8768-9923-c119">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades enemigas a 12" o menos de esta unidad no pueden usar habilidades **^^Summon Hechizo^^**.</characteristic>
@@ -2016,9 +2016,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3479-5837-8c40-1121"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Supreme Conjurer" hidden="false" id="a0e9-1d0b-23b1-127e">
+                <selectionEntry type="upgrade" import="true" name="Conjurador supremo" hidden="false" id="a0e9-1d0b-23b1-127e">
                   <profiles>
-                    <profile name="Supreme Conjurer" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="98ae-4183-470e-65e5">
+                    <profile name="Conjurador supremo" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="98ae-4183-470e-65e5">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), reacción: Declaraste una habilidad **^^Summon Hechizo^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -2070,9 +2070,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="3ae8-069e-5c51-3358" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Deft Assault" hidden="false" id="02db-afa4-01f5-80e4">
+                <selectionEntry type="upgrade" import="true" name="Asalto diestro" hidden="false" id="02db-afa4-01f5-80e4">
                   <profiles>
-                    <profile name="Deft Assault" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="0b8e-ee6e-c9b7-dbc8">
+                    <profile name="Asalto diestro" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="0b8e-ee6e-c9b7-dbc8">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de combate enemiga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -2091,9 +2091,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b9a-0927-0157-f2f9"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Fleet Steed" hidden="false" id="b56c-d06d-d0d7-a929">
+                <selectionEntry type="upgrade" import="true" name="Corcel veloz" hidden="false" id="b56c-d06d-d0d7-a929">
                   <profiles>
-                    <profile name="Fleet Steed" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6c43-fd94-2097-99cb">
+                    <profile name="Corcel veloz" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6c43-fd94-2097-99cb">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Move^^**, añade 2" a la distancia que puede moverse.</characteristic>
@@ -2123,9 +2123,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="fc1b-5e18-97b9-d3fe" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Ashplain Runner" hidden="false" id="f295-c49c-3e6b-4c90">
+                <selectionEntry type="upgrade" import="true" name="Corredor de las llanuras de ceniza" hidden="false" id="f295-c49c-3e6b-4c90">
                   <profiles>
-                    <profile name="Ashplain Runner" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="03e5-aba9-2c48-6165">
+                    <profile name="Corredor de las llanuras de ceniza" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="03e5-aba9-2c48-6165">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de carga de esta unidad.</characteristic>
@@ -2141,9 +2141,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0945-79fc-2ccc-b3ff"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Saddlemaster" hidden="false" id="fd15-e48d-f4d5-7c71">
+                <selectionEntry type="upgrade" import="true" name="Maestro de la montura" hidden="false" id="fd15-e48d-f4d5-7c71">
                   <profiles>
-                    <profile name="Saddlemaster" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="faf7-a386-30c3-a247">
+                    <profile name="Maestro de la montura" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="faf7-a386-30c3-a247">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades **^^Shoot^^** aunque haya usado una habilidad **^^Run^^** en el mismo turno.</characteristic>
@@ -2166,9 +2166,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="6a1d-c611-5ba5-c143" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="From Doom&apos;s Jaws" hidden="false" id="9da7-bb0a-5f59-6bd5">
+                <selectionEntry type="upgrade" import="true" name="De las fauces de la perdición" hidden="false" id="9da7-bb0a-5f59-6bd5">
                   <profiles>
-                    <profile name="From Doom&apos;s Jaws" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d022-bda7-7d28-cc19">
+                    <profile name="De las fauces de la perdición" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d022-bda7-7d28-cc19">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las habilidades **^^Retreat^^** no infligen daño mortal a esta unidad.</characteristic>
@@ -2184,9 +2184,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f46c-88fc-513f-f9e7"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Follow-up Strike" hidden="false" id="fd1b-835c-f969-cd1c">
+                <selectionEntry type="upgrade" import="true" name="Golpe de continuación" hidden="false" id="fd1b-835c-f969-cd1c">
                   <profiles>
-                    <profile name="Follow-up Strike" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2eb4-429a-e46c-5381">
+                    <profile name="Golpe de continuación" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2eb4-429a-e46c-5381">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -2233,9 +2233,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0d5-80ff-338e-afbc"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Daring Deathblow" hidden="false" id="42ba-7d72-4a13-a6e3">
+                <selectionEntry type="upgrade" import="true" name="Golpe mortal audaz" hidden="false" id="42ba-7d72-4a13-a6e3">
                   <profiles>
-                    <profile name="Daring Deathblow" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="43f8-de69-5b9c-851a">
+                    <profile name="Golpe mortal audaz" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="43f8-de69-5b9c-851a">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad es destruida por un ataque de combate, tira 12 dados. Por cada 5+, inflige 1 de daño mortal a la unidad atacante después de resolver la habilidad **^^Fight^^**.</characteristic>
@@ -2274,9 +2274,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="b61f-cf74-b5eb-69c7" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Take the Lead" hidden="false" id="4d9a-d59f-d42f-54d9">
+                <selectionEntry type="upgrade" import="true" name="Tomar la delantera" hidden="false" id="4d9a-d59f-d42f-54d9">
                   <profiles>
-                    <profile name="Take the Lead" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3885-24a9-ec03-78fe">
+                    <profile name="Tomar la delantera" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3885-24a9-ec03-78fe">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté en combate con una unidad enemiga que tenga **^^Strike-first^^**, esta unidad tiene **^^Strike-first^^**.</characteristic>
@@ -2292,9 +2292,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4754-a9b3-7f61-495d"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Deflection" hidden="false" id="69fe-78b1-593c-bcda">
+                <selectionEntry type="upgrade" import="true" name="Desvío" hidden="false" id="69fe-78b1-593c-bcda">
                   <profiles>
-                    <profile name="Deflection" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a962-1509-52aa-cb73">
+                    <profile name="Desvío" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a962-1509-52aa-cb73">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las habilidades de arma que se aplican con un impacto crítico no tienen efecto sobre los ataques cuyo objetivo sea esta unidad.</characteristic>
@@ -2324,9 +2324,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="effa-afe5-853e-b8e6" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Precise Thrust" hidden="false" id="af62-739f-f80a-b23e">
+                <selectionEntry type="upgrade" import="true" name="Estocada precisa" hidden="false" id="af62-739f-f80a-b23e">
                   <profiles>
-                    <profile name="Precise Thrust" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="acc3-7807-8cf7-ea2c">
+                    <profile name="Estocada precisa" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="acc3-7807-8cf7-ea2c">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">No pueden hacerse tiradas de salvaguardia para las unidades enemigas mientras estén en combate con esta unidad.</characteristic>
@@ -2342,9 +2342,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1caa-df5a-e14d-2e1a"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Deadly Riposte" hidden="false" id="c0d5-cbac-e1a4-ea00">
+                <selectionEntry type="upgrade" import="true" name="Réplica letal" hidden="false" id="c0d5-cbac-e1a4-ea00">
                   <profiles>
-                    <profile name="Deadly Riposte" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="0dd0-0144-8061-5522">
+                    <profile name="Réplica letal" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="0dd0-0144-8061-5522">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: El oponente declaró una habilidad **^^Fight^^** cuyo objetivo era esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -2372,9 +2372,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="b3b4-176d-2cbd-07bd" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Astounding Technique" hidden="false" id="2680-6226-faab-f82f">
+                <selectionEntry type="upgrade" import="true" name="Técnica asombrosa" hidden="false" id="2680-6226-faab-f82f">
                   <profiles>
-                    <profile name="Astounding Technique" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1a05-22bf-2d6f-a79a">
+                    <profile name="Técnica asombrosa" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1a05-22bf-2d6f-a79a">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Los ataques de combate de esta unidad logran impactos críticos con tiradas de impacto sin modificar de 5+.</characteristic>
@@ -2390,9 +2390,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="09bf-d899-f3c0-7b74"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Swift as the Will" hidden="false" id="b2e1-c5e4-0138-fd98">
+                <selectionEntry type="upgrade" import="true" name="Veloz como la voluntad" hidden="false" id="b2e1-c5e4-0138-fd98">
                   <profiles>
-                    <profile name="Swift as the Will" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="3141-cb59-dd7b-9015">
+                    <profile name="Veloz como la voluntad" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="3141-cb59-dd7b-9015">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: El oponente declaró una habilidad **^^Fight^^** cuyo objetivo era esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -2418,9 +2418,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Legendary" id="89df-9e4f-a043-af7e" hidden="false" sortIndex="4">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Apotheosis of Steel" hidden="false" id="d45d-fc09-e913-956b">
+                <selectionEntry type="upgrade" import="true" name="Apoteosis del acero" hidden="false" id="d45d-fc09-e913-956b">
                   <profiles>
-                    <profile name="Apotheosis of Steel" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d253-b710-0c0a-536d">
+                    <profile name="Apoteosis del acero" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d253-b710-0c0a-536d">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que un ataque de combate cuyo objetivo sea esta unidad no consiga un impacto exitoso, inflige 1 de daño mortal a la unidad atacante después de resolver la habilidad **^^Fight^^**.</characteristic>
@@ -2436,9 +2436,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e475-8a72-64e2-0239"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="To Surpass All" hidden="false" id="97fe-b1d8-4f10-2408">
+                <selectionEntry type="upgrade" import="true" name="Superar a todos" hidden="false" id="97fe-b1d8-4f10-2408">
                   <profiles>
-                    <profile name="To Surpass All" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="46cc-6b60-3787-ab74">
+                    <profile name="Superar a todos" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="46cc-6b60-3787-ab74">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La primera vez que una habilidad **^^Attack^^** usada por esta unidad destruya una unidad enemiga, esta unidad tiene **^^Ward (6+)^^** durante el resto de la batalla. Añade 1 a las tiradas de salvaguardia de esta unidad por cada unidad enemiga adicional destruida por una habilidad **^^Attack^^** usada por esta unidad, hasta un máximo de 2.</characteristic>
@@ -2477,9 +2477,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="cf35-5954-2e3a-bfc5" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Beck and Call" hidden="false" id="fb41-d591-518b-a89b">
+                <selectionEntry type="upgrade" import="true" name="A su entera disposición" hidden="false" id="fb41-d591-518b-a89b">
                   <profiles>
-                    <profile name="Beck and Call" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="495e-7357-d9ea-0974">
+                    <profile name="A su entera disposición" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="495e-7357-d9ea-0974">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste la orden &apos;All-out Attack&apos; para un **^^Infantry Hero^^** dentro del alcance de combate de esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -2498,9 +2498,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4cc-e4bf-acf9-03d6"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Hidden in the Ranks" hidden="false" id="6076-b1dd-cbc8-63bd">
+                <selectionEntry type="upgrade" import="true" name="Oculto entre las filas" hidden="false" id="6076-b1dd-cbc8-63bd">
                   <profiles>
-                    <profile name="Hidden in the Ranks" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="595b-7dc3-657a-1397">
+                    <profile name="Oculto entre las filas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="595b-7dc3-657a-1397">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de herida de los ataques a distancia cuyo objetivo sean **^^Heroes^^** amigos que no sean **^^Monster^^** mientras estén dentro del alcance de combate de esta unidad.</characteristic>
@@ -2523,9 +2523,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="ba57-0a3e-ceb9-bac4" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Cut-throat Fighters" hidden="false" id="a7b9-3951-e13f-bf8d">
+                <selectionEntry type="upgrade" import="true" name="Combatientes degolladores" hidden="false" id="a7b9-3951-e13f-bf8d">
                   <profiles>
-                    <profile name="Cut-throat Fighters" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bf41-3a9f-4b71-d6e2">
+                    <profile name="Combatientes degolladores" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bf41-3a9f-4b71-d6e2">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de combate enemiga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no cargó este turno, elige como objetivo una unidad enemiga dentro de su alcance de combate.</characteristic>
@@ -2544,9 +2544,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9639-9f03-4ed1-0431"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Bold and Stalwart" hidden="false" id="853a-3ba1-d1cd-b007">
+                <selectionEntry type="upgrade" import="true" name="Audaz y firme" hidden="false" id="853a-3ba1-d1cd-b007">
                   <profiles>
-                    <profile name="Bold and Stalwart" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6859-5a6f-30a9-d2f1">
+                    <profile name="Audaz y firme" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6859-5a6f-30a9-d2f1">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras haya un **^^Hero^^** amigo que no sea **^^Monster^^** dentro del alcance de combate de esta unidad, añade 5 a la puntuación de control de esta unidad.</characteristic>
@@ -2569,9 +2569,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="4943-2b3a-6845-663a" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Fortified Defences" hidden="false" id="90e4-f7c7-9ccf-f619">
+                <selectionEntry type="upgrade" import="true" name="Defensas fortificadas" hidden="false" id="90e4-f7c7-9ccf-f619">
                   <profiles>
-                    <profile name="Fortified Defences" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="febc-e0a4-d7c5-0b84">
+                    <profile name="Defensas fortificadas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="febc-e0a4-d7c5-0b84">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad no ha usado una habilidad **^^Move^^** ni ha hecho un movimiento de aproximación este turno, añade 1 a sus tiradas de salvación.</characteristic>
@@ -2587,9 +2587,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77ec-1cff-b82f-e85b"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Devoted Lifewards" hidden="false" id="9612-44fc-b29b-4cb6">
+                <selectionEntry type="upgrade" import="true" name="Guardianes vitales devotos" hidden="false" id="9612-44fc-b29b-4cb6">
                   <profiles>
-                    <profile name="Devoted Lifewards" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1f57-46a0-c800-331f">
+                    <profile name="Guardianes vitales devotos" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1f57-46a0-c800-331f">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Los **^^Infantry Heroes^^** amigos tienen **^^Ward (5+)^^** mientras estén totalmente dentro del alcance de combate de esta unidad.</characteristic>
@@ -2633,9 +2633,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ab7-f315-dcd0-6812"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Cast Them Back" hidden="false" id="f445-6f59-e699-e66c">
+                <selectionEntry type="upgrade" import="true" name="Hacerlos retroceder" hidden="false" id="f445-6f59-e699-e66c">
                   <profiles>
-                    <profile name="Cast Them Back" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f582-3ddd-3ff1-6258">
+                    <profile name="Hacerlos retroceder" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f582-3ddd-3ff1-6258">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades enemigas **^^Infantry^^** no pueden disputar objetivos mientras estén en combate con esta unidad.</characteristic>
@@ -2673,9 +2673,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="dd65-b34d-1edf-aef8" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Heard by the Divine" hidden="false" id="f778-6481-4b99-65fe">
+                <selectionEntry type="upgrade" import="true" name="Escuchado por la divinidad" hidden="false" id="f778-6481-4b99-65fe">
                   <profiles>
-                    <profile name="Heard by the Divine" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7125-161e-59d6-2a70">
+                    <profile name="Escuchado por la divinidad" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7125-161e-59d6-2a70">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, reacción: Declaraste una habilidad **^^Summon Prayer^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -2694,9 +2694,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6576-dd26-e836-6ce3"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Sacred Aura" hidden="false" id="ec6f-1278-7f3e-6405">
+                <selectionEntry type="upgrade" import="true" name="Aura sagrada" hidden="false" id="ec6f-1278-7f3e-6405">
                   <profiles>
-                    <profile name="Sacred Aura" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="95c8-eec9-9aff-3549">
+                    <profile name="Aura sagrada" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="95c8-eec9-9aff-3549">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una plegaria entonada por esta unidad sea respondida, aplica **Heal (1)** a cada unidad amiga a 3" o menos de ella.</characteristic>
@@ -2726,9 +2726,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="f7df-e797-ff90-0807" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Test Their Faith" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true" includeChildSelections="true" includeChildForces="true" hidden="false" id="9b0d-b486-f3c1-aef0">
+                <selectionEntry type="upgrade" import="true" name="Poner a prueba su fe" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true" includeChildSelections="true" includeChildForces="true" hidden="false" id="9b0d-b486-f3c1-aef0">
                   <profiles>
-                    <profile name="Test Their Faith" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true" includeChildSelections="true" includeChildForces="true" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4097-d242-0e84-64ac">
+                    <profile name="Poner a prueba su fe" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true" includeChildSelections="true" includeChildForces="true" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4097-d242-0e84-64ac">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad destierre una **^^Manifestation^^** enemiga, inflige D6 de daño mortal a la unidad que la invocó.</characteristic>
@@ -2744,9 +2744,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b92-80e7-c217-2fa4"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Incandescent Faith" hidden="false" id="8b7c-315f-b026-52bd">
+                <selectionEntry type="upgrade" import="true" name="Fe incandescente" hidden="false" id="8b7c-315f-b026-52bd">
                   <profiles>
-                    <profile name="Incandescent Faith" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e388-5a9e-7e1f-6848">
+                    <profile name="Fe incandescente" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e388-5a9e-7e1f-6848">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 6" a la distancia a la que pueden colocarse totalmente las **^^Manifestations^^** invocadas por esta unidad.</characteristic>
@@ -2769,9 +2769,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="9818-7841-1a41-dbe3" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Restore the Faithful" hidden="false" id="8fd0-fefe-0bb1-7bdb">
+                <selectionEntry type="upgrade" import="true" name="Restaurar a los fieles" hidden="false" id="8fd0-fefe-0bb1-7bdb">
                   <profiles>
-                    <profile name="Restore the Faithful" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="3c43-3640-51a6-2a51">
+                    <profile name="Restaurar a los fieles" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="3c43-3640-51a6-2a51">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -2790,9 +2790,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58ae-9272-d50d-9e3d"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Resolute Conviction" hidden="false" id="0ed6-461f-09ed-b247">
+                <selectionEntry type="upgrade" import="true" name="Convicción firme" hidden="false" id="0ed6-461f-09ed-b247">
                   <profiles>
-                    <profile name="Resolute Conviction" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="da59-3936-d8e0-21d5">
+                    <profile name="Convicción firme" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="da59-3936-d8e0-21d5">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una **^^Manifestation^^** dentro del alcance de combate de esta unidad</characteristic>
@@ -2818,9 +2818,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Legendary" id="f08a-25c0-a2c9-0295" hidden="false" sortIndex="4">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Dominant Dogma" hidden="false" id="3ca8-1748-314b-5b97">
+                <selectionEntry type="upgrade" import="true" name="Dogma dominante" hidden="false" id="3ca8-1748-314b-5b97">
                   <profiles>
-                    <profile name="Dominant Dogma" typeId="5946-234-d7b4-6195" typeName="Ability (Prayer)" hidden="false" id="8962-4472-459b-9cdc">
+                    <profile name="Dogma dominante" typeId="5946-234-d7b4-6195" typeName="Ability (Prayer)" hidden="false" id="8962-4472-459b-9cdc">
                       <characteristics>
                         <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Una vez por turno, reacción: Declaraste una habilidad **^^Summon Prayer^^** para esta unidad</characteristic>
                         <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef"/>
@@ -2839,9 +2839,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2ee-faeb-ce53-889a"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Sparking Divinity" hidden="false" id="4078-96e6-7e8d-6219">
+                <selectionEntry type="upgrade" import="true" name="Divinidad chispeante" hidden="false" id="4078-96e6-7e8d-6219">
                   <profiles>
-                    <profile name="Sparking Divinity" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d07c-1d96-b2ea-c7d7">
+                    <profile name="Divinidad chispeante" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d07c-1d96-b2ea-c7d7">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Summon Prayer^^** y la plegaria sea respondida, añade 1 al nivel de poder de esta unidad durante el resto de la batalla.</characteristic>
@@ -2887,9 +2887,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="9a92-672a-5081-dea5" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Tireless Pursuers" hidden="false" id="0447-ab35-9e63-15cc">
+                <selectionEntry type="upgrade" import="true" name="Perseguidores incansables" hidden="false" id="0447-ab35-9e63-15cc">
                   <profiles>
-                    <profile name="Tireless Pursuers" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b5b5-227c-bf2e-1397">
+                    <profile name="Perseguidores incansables" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b5b5-227c-bf2e-1397">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Move^^**, añade 2" a la distancia que puede moverse</characteristic>
@@ -2905,9 +2905,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="491a-96b4-6b8d-280f"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Powerful Legs" hidden="false" id="d3ec-0e19-1eb2-665d">
+                <selectionEntry type="upgrade" import="true" name="Piernas poderosas" hidden="false" id="d3ec-0e19-1eb2-665d">
                   <profiles>
-                    <profile name="Powerful Legs" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="beb0-d4ae-cf53-3e33">
+                    <profile name="Piernas poderosas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="beb0-d4ae-cf53-3e33">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de carga de esta unidad.</characteristic>
@@ -2930,9 +2930,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="16a2-9888-5029-ad03" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Sparking Claws" hidden="false" id="9dfc-81a5-5d81-e33c">
+                <selectionEntry type="upgrade" import="true" name="Garras chispeantes" hidden="false" id="9dfc-81a5-5d81-e33c">
                   <profiles>
-                    <profile name="Sparking Claws" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="942f-fbcd-de99-8b5e">
+                    <profile name="Garras chispeantes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="942f-fbcd-de99-8b5e">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas de combate de esta unidad tienen **Crit (Auto-wound)**. Esta habilidad también afecta a las armas **Companion**.</characteristic>
@@ -2948,9 +2948,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="461a-253a-cda4-40df"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Hunter&apos;s Instinct" hidden="false" id="528f-3ee0-0503-fad5">
+                <selectionEntry type="upgrade" import="true" name="Instinto del cazador" hidden="false" id="528f-3ee0-0503-fad5">
                   <profiles>
-                    <profile name="Hunter&apos;s Instinct" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="14ba-6292-d1fb-5868">
+                    <profile name="Instinto del cazador" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="14ba-6292-d1fb-5868">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a las tiradas de impacto de los ataques de combate de esta unidad. Esta habilidad también afecta a las armas **Companion**.</characteristic>
@@ -2973,9 +2973,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="755e-2c26-6eb5-3bc0" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Weakening Blow" hidden="false" id="1998-50b1-2a29-040d">
+                <selectionEntry type="upgrade" import="true" name="Golpe debilitador" hidden="false" id="1998-50b1-2a29-040d">
                   <profiles>
-                    <profile name="Weakening Blow" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e37b-4c76-0404-2951">
+                    <profile name="Golpe debilitador" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e37b-4c76-0404-2951">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Monster^^** enemigo en combate con esta unidad.</characteristic>
@@ -2994,9 +2994,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="653b-c39e-49d8-3b6f"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Scattering Pack" hidden="false" id="181a-4090-0471-f452">
+                <selectionEntry type="upgrade" import="true" name="Manada dispersa" hidden="false" id="181a-4090-0471-f452">
                   <profiles>
-                    <profile name="Scattering Pack" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="626f-d2a0-6479-5b11">
+                    <profile name="Manada dispersa" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="626f-d2a0-6479-5b11">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad no puede ser elegida como objetivo de habilidades de **^^Rampage^^** enemigas.</characteristic>
@@ -3019,9 +3019,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Legendary" id="5de8-07dc-8a53-3a5d" hidden="false" sortIndex="4">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Frothing" hidden="false" id="13c4-b3d5-063a-ecf9">
+                <selectionEntry type="upgrade" import="true" name="Espumeante" hidden="false" id="13c4-b3d5-063a-ecf9">
                   <profiles>
-                    <profile name="Frothing" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1d6f-0bd3-51de-4346">
+                    <profile name="Espumeante" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1d6f-0bd3-51de-4346">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora el primer punto de daño que se fuera a asignar a esta unidad en cada fase.</characteristic>
@@ -3037,9 +3037,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0563-0208-571d-f0a2"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Natural Armour" hidden="false" id="2286-9387-cd8d-134b">
+                <selectionEntry type="upgrade" import="true" name="Armadura natural" hidden="false" id="2286-9387-cd8d-134b">
                   <profiles>
-                    <profile name="Natural Armour" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="cf72-6628-41bd-5e47">
+                    <profile name="Armadura natural" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="cf72-6628-41bd-5e47">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad tiene **^^Ward (5+)^^**.</characteristic>
@@ -3077,9 +3077,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="1b53-1719-b578-db90" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Lead By Example" hidden="false" id="eeb8-8081-7b86-e826">
+                <selectionEntry type="upgrade" import="true" name="Predicar con el ejemplo" hidden="false" id="eeb8-8081-7b86-e826">
                   <profiles>
-                    <profile name="Lead By Example" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="732d-0d5f-2689-5374">
+                    <profile name="Predicar con el ejemplo" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="732d-0d5f-2689-5374">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de carga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó esta fase, elige como objetivo otra unidad amiga totalmente a 12" o menos de ella.</characteristic>
@@ -3098,9 +3098,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb82-bc5e-108d-024a"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Inspirational" hidden="false" id="5cda-3985-efbf-430b">
+                <selectionEntry type="upgrade" import="true" name="Inspirador" hidden="false" id="5cda-3985-efbf-430b">
                   <profiles>
-                    <profile name="Inspirational" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="0f9f-b623-b155-1fbe">
+                    <profile name="Inspirador" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="0f9f-b623-b155-1fbe">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de héroe</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga que no sea **^^Hero^^** totalmente a 12" o menos de esta unidad.</characteristic>
@@ -3133,9 +3133,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="75ee-7edd-2b2a-5789" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Magnificent Fury" hidden="false" id="4ece-632b-7852-c6fb">
+                <selectionEntry type="upgrade" import="true" name="Furia magnífica" hidden="false" id="4ece-632b-7852-c6fb">
                   <profiles>
-                    <profile name="Magnificent Fury" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4258-c2cd-37fc-7a05">
+                    <profile name="Furia magnífica" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4258-c2cd-37fc-7a05">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté en combate, añade 1 a las tiradas de herida de los ataques de combate de otras unidades amigas mientras estén dentro del alcance de combate de esta unidad.</characteristic>
@@ -3151,9 +3151,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdf2-f67a-f954-e88f"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Stand Firm" hidden="false" id="9678-1822-92c0-1325">
+                <selectionEntry type="upgrade" import="true" name="Mantenerse firme" hidden="false" id="9678-1822-92c0-1325">
                   <profiles>
-                    <profile name="Stand Firm" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="58e3-906b-6c13-9311">
+                    <profile name="Mantenerse firme" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="58e3-906b-6c13-9311">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos esta unidad y una unidad amiga que no sea **^^Hero^^** dentro de su alcance de combate.</characteristic>
@@ -3179,9 +3179,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="d7a2-9f27-4ca9-caaa" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Martial Exemplar" hidden="false" id="10ad-a07c-f2d2-54fe">
+                <selectionEntry type="upgrade" import="true" name="Ejemplo marcial" hidden="false" id="10ad-a07c-f2d2-54fe">
                   <profiles>
-                    <profile name="Martial Exemplar" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="3d44-6475-338a-1712">
+                    <profile name="Ejemplo marcial" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="3d44-6475-338a-1712">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad destruyó una unidad enemiga este turno, elige como objetivo otra unidad amiga visible totalmente a 12" o menos de esta unidad.</characteristic>
@@ -3200,9 +3200,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96f9-c95f-b568-cc91"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Drillmaster" hidden="false" id="65b8-761d-6a51-aa4d">
+                <selectionEntry type="upgrade" import="true" name="Instructor" hidden="false" id="65b8-761d-6a51-aa4d">
                   <profiles>
-                    <profile name="Drillmaster" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d2ef-6efc-9d87-5f18">
+                    <profile name="Instructor" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d2ef-6efc-9d87-5f18">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está en combate, elige como objetivo otra unidad amiga dentro de su alcance de combate.</characteristic>
@@ -3228,9 +3228,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Legendary" id="89f9-1e59-f7af-88bd" hidden="false" sortIndex="4">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="&apos;To Arms!&apos;" hidden="false" id="0d7e-e1d6-b2c5-ac55">
+                <selectionEntry type="upgrade" import="true" name="¡A las armas!" hidden="false" id="0d7e-e1d6-b2c5-ac55">
                   <profiles>
-                    <profile name="&apos;To Arms!&apos;" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9667-e949-1d07-ca17">
+                    <profile name="¡A las armas!" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9667-e949-1d07-ca17">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está en combate, elige como objetivo otra unidad amiga totalmente a 12" o menos de esta unidad que esté en combate.</characteristic>
@@ -3249,9 +3249,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb78-27e6-e967-bc25"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Decisive Strike" hidden="false" id="907c-6f56-7f86-138d">
+                <selectionEntry type="upgrade" import="true" name="Golpe decisivo" hidden="false" id="907c-6f56-7f86-138d">
                   <profiles>
-                    <profile name="Decisive Strike" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d103-a558-c8f9-5f45">
+                    <profile name="Golpe decisivo" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d103-a558-c8f9-5f45">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de combate enemiga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no está en combate, elige como objetivos todas las unidades amigas dentro de su alcance de combate que no estén en combate.</characteristic>
@@ -3288,9 +3288,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="00fe-95fa-a0fe-2abd" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Focused Sorcery" hidden="false" id="0416-da23-0f5b-23a7">
+                <selectionEntry type="upgrade" import="true" name="Hechicería concentrada" hidden="false" id="0416-da23-0f5b-23a7">
                   <profiles>
-                    <profile name="Focused Sorcery" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5c79-5c5e-4449-f8de">
+                    <profile name="Hechicería concentrada" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5c79-5c5e-4449-f8de">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La primera vez que esta unidad use una habilidad **^^Hechizo^^** que no sea **^^Summon^^** en cada fase, añade 2 a la tirada de lanzamiento de ese hechizo.</characteristic>
@@ -3306,9 +3306,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9734-bf83-b202-3cbc"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Power Disruptor" hidden="false" id="e357-63f6-3d42-186c">
+                <selectionEntry type="upgrade" import="true" name="Perturbador de poder" hidden="false" id="e357-63f6-3d42-186c">
                   <profiles>
-                    <profile name="Power Disruptor" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7041-389a-53da-a296">
+                    <profile name="Perturbador de poder" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7041-389a-53da-a296">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a las tiradas de desvinculación de esta unidad. Además, esta unidad puede usar la habilidad &apos;Unbind&apos; si el **^^Wizard^^** enemigo que lanza el hechizo está en cualquier lugar del campo de batalla en lugar de a 30" o menos de esta unidad.</characteristic>
@@ -3338,9 +3338,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="a557-1813-b1dc-e7e0" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Overspilling Power" hidden="false" id="6dfd-5dc9-ade8-fcb7">
+                <selectionEntry type="upgrade" import="true" name="Poder desbordante" hidden="false" id="6dfd-5dc9-ade8-fcb7">
                   <profiles>
-                    <profile name="Overspilling Power" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="8cc8-78af-183c-e49e">
+                    <profile name="Poder desbordante" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="8cc8-78af-183c-e49e">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de tu turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -3359,9 +3359,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcf2-7033-0c52-ae1b"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Honed Talent" hidden="false" id="f6e1-6b09-a56d-f15d">
+                <selectionEntry type="upgrade" import="true" name="Talento perfeccionado" hidden="false" id="f6e1-6b09-a56d-f15d">
                   <profiles>
-                    <profile name="Honed Talent" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e371-a32f-9be7-53ec">
+                    <profile name="Talento perfeccionado" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e371-a32f-9be7-53ec">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si la tirada de lanzamiento de esta unidad es un doble, añade 1 a su nivel de poder durante el resto de la fase.</characteristic>
@@ -3384,9 +3384,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="e3cd-d33c-2b12-45c3" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Arcane Onslaught" hidden="false" id="d5e1-c659-f5a2-f455">
+                <selectionEntry type="upgrade" import="true" name="Embestida arcana" hidden="false" id="d5e1-c659-f5a2-f455">
                   <profiles>
-                    <profile name="Arcane Onslaught" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5ef6-2695-aaa0-bfc6">
+                    <profile name="Embestida arcana" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5ef6-2695-aaa0-bfc6">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Unlimited Hechizo^^**, puedes elegir hasta 2 unidades válidas como objetivos en lugar de 1.</characteristic>
@@ -3402,9 +3402,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce55-f43c-086d-e14b"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Arcane Avalanche" hidden="false" id="58ae-2e36-388c-b292">
+                <selectionEntry type="upgrade" import="true" name="Avalancha arcana" hidden="false" id="58ae-2e36-388c-b292">
                   <profiles>
-                    <profile name="Arcane Avalanche" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e877-5306-5ba2-6d33">
+                    <profile name="Avalancha arcana" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e877-5306-5ba2-6d33">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, tu fase de héroe</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -3430,9 +3430,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Legendary" id="7eb2-cd3d-dff5-bd1c" hidden="false" sortIndex="4">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Shield of Eldritch Flame" hidden="false" id="8078-c3f2-f18e-6d18">
+                <selectionEntry type="upgrade" import="true" name="Escudo de llamas sobrenaturales" hidden="false" id="8078-c3f2-f18e-6d18">
                   <profiles>
-                    <profile name="Shield of Eldritch Flame" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="34e2-4d32-2ee3-32f6">
+                    <profile name="Escudo de llamas sobrenaturales" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="34e2-4d32-2ee3-32f6">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: El oponente declaró una habilidad **^^Fight^^** cuyo objetivo era esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -3454,9 +3454,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f17a-2d17-6c33-562d"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Draw on Destruction" hidden="false" id="3b8c-4961-55f6-ef92">
+                <selectionEntry type="upgrade" import="true" name="Nutrirse de la destrucción" hidden="false" id="3b8c-4961-55f6-ef92">
                   <profiles>
-                    <profile name="Draw on Destruction" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="745c-bff3-4110-d614">
+                    <profile name="Nutrirse de la destrucción" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="745c-bff3-4110-d614">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de tu turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -3508,9 +3508,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="7072-af5f-748e-2d86" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Caked in Gore" hidden="false" id="eb92-ba76-02e1-983d">
+                <selectionEntry type="upgrade" import="true" name="Cubierto de sangre seca" hidden="false" id="eb92-ba76-02e1-983d">
                   <profiles>
-                    <profile name="Caked in Gore" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1dbd-ab1d-b1cb-97eb">
+                    <profile name="Cubierto de sangre seca" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1dbd-ab1d-b1cb-97eb">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 10 a la puntuación de control de esta unidad mientras esté en combate.</characteristic>
@@ -3526,9 +3526,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="298f-81b6-b892-27c7"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Lost in the Melee" hidden="false" id="d769-e12c-cecd-8326">
+                <selectionEntry type="upgrade" import="true" name="Perdido en la refriega" hidden="false" id="d769-e12c-cecd-8326">
                   <profiles>
-                    <profile name="Lost in the Melee" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="21bb-cd47-097e-2eb3">
+                    <profile name="Perdido en la refriega" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="21bb-cd47-097e-2eb3">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad no puede ser objetivo de ataques de disparo mientras esté en combate.</characteristic>
@@ -3558,9 +3558,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="742d-41fa-feb1-6755" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Gifted Gladiator" hidden="false" id="baec-78f9-e327-d840">
+                <selectionEntry type="upgrade" import="true" name="Gladiador talentoso" hidden="false" id="baec-78f9-e327-d840">
                   <profiles>
-                    <profile name="Gifted Gladiator" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="17b4-bab4-5539-53b6">
+                    <profile name="Gladiador talentoso" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="17b4-bab4-5539-53b6">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste la orden &apos;All-out Attack&apos; o &apos;All-out Defence&apos; para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -3579,9 +3579,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1045-760c-3108-94bc"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Quick Fire" hidden="false" id="64eb-f2e4-5b9d-869b">
+                <selectionEntry type="upgrade" import="true" name="Fuego rápido" hidden="false" id="64eb-f2e4-5b9d-869b">
                   <profiles>
-                    <profile name="Quick Fire" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="58e1-43f9-c13a-a7ff">
+                    <profile name="Fuego rápido" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="58e1-43f9-c13a-a7ff">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de disparo</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está en combate, elige 1 de sus armas a distancia como arma objetivo y elige una unidad enemiga en combate con ella como unidad objetivo.</characteristic>
@@ -3607,9 +3607,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="46c8-be5b-b08b-6045" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Blindsiding Barrage" hidden="false" id="8556-117f-cb44-0f25">
+                <selectionEntry type="upgrade" import="true" name="Bombardeo por sorpresa" hidden="false" id="8556-117f-cb44-0f25">
                   <profiles>
-                    <profile name="Blindsiding Barrage" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="0e52-e008-43d2-b424">
+                    <profile name="Bombardeo por sorpresa" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="0e52-e008-43d2-b424">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad cargó esta ronda de batalla, tiene **^^Strike-first^^** durante el resto de la ronda de batalla.</characteristic>
@@ -3625,9 +3625,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d16-bb39-b40a-2c06"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Bringer of Carnage" hidden="false" id="e17e-7838-2f4f-db61">
+                <selectionEntry type="upgrade" import="true" name="Portador de carnicería" hidden="false" id="e17e-7838-2f4f-db61">
                   <profiles>
-                    <profile name="Bringer of Carnage" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e3b1-6d55-090f-3951">
+                    <profile name="Portador de carnicería" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e3b1-6d55-090f-3951">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está en combate, elige como objetivo 1 de sus armas de combate que no sean **Companion**.</characteristic>
@@ -3653,9 +3653,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Legendary" id="0c15-a64f-5524-6b8b" hidden="false" sortIndex="4">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="To Fight Eternal" hidden="false" id="8b51-ff0c-3c91-4212">
+                <selectionEntry type="upgrade" import="true" name="Combatir eternamente" hidden="false" id="8b51-ff0c-3c91-4212">
                   <profiles>
-                    <profile name="To Fight Eternal" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f4a0-5094-33e8-bc77">
+                    <profile name="Combatir eternamente" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f4a0-5094-33e8-bc77">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -3674,9 +3674,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35b3-c770-4bdf-7678"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Slice and Dice" hidden="false" id="2d66-3816-adc7-7c81">
+                <selectionEntry type="upgrade" import="true" name="Cortar y despedazar" hidden="false" id="2d66-3816-adc7-7c81">
                   <profiles>
-                    <profile name="Slice and Dice" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="38e2-b334-d842-7cae">
+                    <profile name="Cortar y despedazar" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="38e2-b334-d842-7cae">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -3718,9 +3718,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="e712-ea13-f27b-cf78" hidden="false" sortIndex="1">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Paragon of Faith" hidden="false" id="ccbb-ea0d-6a2f-0774">
+                <selectionEntry type="upgrade" import="true" name="Modelo de fe" hidden="false" id="ccbb-ea0d-6a2f-0774">
                   <profiles>
-                    <profile name="Paragon of Faith" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="029a-27cf-cf25-5724">
+                    <profile name="Modelo de fe" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="029a-27cf-cf25-5724">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -3739,9 +3739,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0bf-232f-fa18-0f18"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Scourging Castigation" hidden="false" id="07a3-bf38-fd93-dc79">
+                <selectionEntry type="upgrade" import="true" name="Castigo flagelante" hidden="false" id="07a3-bf38-fd93-dc79">
                   <profiles>
-                    <profile name="Scourging Castigation" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d514-0322-50cd-88d3">
+                    <profile name="Castigo flagelante" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d514-0322-50cd-88d3">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Priest^^** enemigo a 12" o menos de esta unidad.</characteristic>
@@ -3774,9 +3774,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Elite" id="911f-9920-169c-3fd7" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Firebrand Exhortations" hidden="false" id="27df-12e1-c619-a86e">
+                <selectionEntry type="upgrade" import="true" name="Exhortaciones incendiarias" hidden="false" id="27df-12e1-c619-a86e">
                   <profiles>
-                    <profile name="Firebrand Exhortations" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2e74-634c-6893-bc81">
+                    <profile name="Exhortaciones incendiarias" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2e74-634c-6893-bc81">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -3795,9 +3795,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4db8-54b6-e0f6-1532"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Refute the False" hidden="false" id="97e8-99c4-4a65-29de">
+                <selectionEntry type="upgrade" import="true" name="Refutar la falsedad" hidden="false" id="97e8-99c4-4a65-29de">
                   <profiles>
-                    <profile name="Refute the False" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b056-12c4-1b01-9bf6">
+                    <profile name="Refutar la falsedad" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b056-12c4-1b01-9bf6">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de cántico de las unidades enemigas mientras estén a 12" o menos de esta unidad.</characteristic>
@@ -3820,9 +3820,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Mighty" id="8c05-e646-d559-cff0" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Assured Devotion" hidden="false" id="0b36-48fa-5c4e-1b18">
+                <selectionEntry type="upgrade" import="true" name="Devoción segura" hidden="false" id="0b36-48fa-5c4e-1b18">
                   <profiles>
-                    <profile name="Assured Devotion" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5f52-cc97-e5dd-d9ef">
+                    <profile name="Devoción segura" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5f52-cc97-e5dd-d9ef">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una tirada de cántico sin modificar de un **^^Priest^^** enemigo sea de 1, da a esta unidad D3 puntos de ritual.</characteristic>
@@ -3838,9 +3838,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e87e-c851-ef35-cba9"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Smite False Prophets" hidden="false" id="4529-7347-aa9e-bd76">
+                <selectionEntry type="upgrade" import="true" name="Castigar a los falsos profetas" hidden="false" id="4529-7347-aa9e-bd76">
                   <profiles>
-                    <profile name="Smite False Prophets" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5def-3dc0-8fb4-7e59">
+                    <profile name="Castigar a los falsos profetas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5def-3dc0-8fb4-7e59">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                         <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad entone una plegaria y la tirada de cántico sea de 12+, inflige 1 de daño mortal a cada **^^Priest^^** enemigo y **^^Wizard^^** enemigo en el campo de batalla.</characteristic>
@@ -3863,9 +3863,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </selectionEntryGroup>
             <selectionEntryGroup name="Legendary" id="8a85-3681-6c10-f289" hidden="false" sortIndex="4">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Resurrecting Touch" hidden="false" id="9c3a-20ea-36ea-6ed8">
+                <selectionEntry type="upgrade" import="true" name="Toque resucitador" hidden="false" id="9c3a-20ea-36ea-6ed8">
                   <profiles>
-                    <profile name="Resurrecting Touch" typeId="5946-234-d7b4-6195" typeName="Ability (Prayer)" hidden="false" id="c7c9-96c1-9b00-60a7">
+                    <profile name="Toque resucitador" typeId="5946-234-d7b4-6195" typeName="Ability (Prayer)" hidden="false" id="c7c9-96c1-9b00-60a7">
                       <characteristics>
                         <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Tu fase de héroe</characteristic>
                         <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">7</characteristic>
@@ -3884,9 +3884,9 @@ If this unit is contesting an objective you do not control, this unit can use 2
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="079b-66c8-6d17-269f"/>
                   </constraints>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Grand Armageddon" hidden="false" id="3436-cb49-bf2f-9252">
+                <selectionEntry type="upgrade" import="true" name="Gran Armagedón" hidden="false" id="3436-cb49-bf2f-9252">
                   <profiles>
-                    <profile name="Grand Armageddon" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9666-bafb-d23f-37a7">
+                    <profile name="Gran Armagedón" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9666-bafb-d23f-37a7">
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de disparo</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos todos los marcadores de objetivo del campo de batalla.</characteristic>
@@ -3962,9 +3962,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2e3-2526-77a5-2a94"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Hissing Wheezes" hidden="false" id="079e-37a4-3208-9031" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Sibilancias siseantes" hidden="false" id="079e-37a4-3208-9031" sortIndex="1">
               <profiles>
-                <profile name="Hissing Wheezes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b79e-9d89-ead1-caea">
+                <profile name="Sibilancias siseantes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b79e-9d89-ead1-caea">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad tiene **^^Strike-last^^**.</characteristic>
@@ -3980,9 +3980,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="720a-1a89-712d-be33"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ash-blighted" hidden="false" id="319b-7d5a-ff98-b679" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Azotado por la ceniza" hidden="false" id="319b-7d5a-ff98-b679" sortIndex="2">
               <profiles>
-                <profile name="Ash-blighted" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="0571-ba82-1d06-85bb">
+                <profile name="Azotado por la ceniza" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="0571-ba82-1d06-85bb">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a la característica de Attacks de las armas de esta unidad.</characteristic>
@@ -3998,9 +3998,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3497-7919-c98c-caa4"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Raging Agonies" hidden="false" id="a9e2-c08e-9487-4ee1" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Agonías furiosas" hidden="false" id="a9e2-c08e-9487-4ee1" sortIndex="3">
               <profiles>
-                <profile name="Raging Agonies" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ed5c-6311-3e2c-3bdc">
+                <profile name="Agonías furiosas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ed5c-6311-3e2c-3bdc">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que declares una habilidad que no sea **^^Core^^** para esta unidad, como reacción, tira un dado. Con un 5+, esa habilidad no tiene efecto.</characteristic>
@@ -4020,9 +4020,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
         </selectionEntryGroup>
         <selectionEntryGroup name="Serious Battle Scars" id="7e74-8788-23cc-ab9b" hidden="false" sortIndex="1">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Smouldering Scars" hidden="false" id="091d-3844-4e6e-f3a3" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Cicatrices humeantes" hidden="false" id="091d-3844-4e6e-f3a3" sortIndex="1">
               <profiles>
-                <profile name="Smouldering Scars" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5f89-ee5b-8e44-7e92">
+                <profile name="Cicatrices humeantes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5f89-ee5b-8e44-7e92">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Al final de la batalla, tira un dado. Con un 5+, esta unidad sufre D3 heridas de batalla.</characteristic>
@@ -4038,9 +4038,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="321c-55b7-7d6c-91c5"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Scorched Limbs" hidden="false" id="9243-4b16-51d5-fc58" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Extremidades abrasadas" hidden="false" id="9243-4b16-51d5-fc58" sortIndex="3">
               <profiles>
-                <profile name="Scorched Limbs" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="926f-d9f9-3267-b693">
+                <profile name="Extremidades abrasadas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="926f-d9f9-3267-b693">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de correr y de carga de esta unidad.</characteristic>
@@ -4056,9 +4056,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a6ff-2934-1b8c-17ef"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Unyielding Blisters" hidden="false" id="61d5-3cf6-d121-c43d" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Ampollas persistentes" hidden="false" id="61d5-3cf6-d121-c43d" sortIndex="2">
               <profiles>
-                <profile name="Unyielding Blisters" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6565-ca64-147e-2a4c">
+                <profile name="Ampollas persistentes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6565-ca64-147e-2a4c">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Los puntos de daño asignados a esta unidad no pueden curarse.</characteristic>
@@ -4084,9 +4084,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0fb7-6364-fd3a-8bd6"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Blood-deep Corruption" hidden="false" id="8150-0bec-77ae-bce1" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Corrupción hasta la sangre" hidden="false" id="8150-0bec-77ae-bce1" sortIndex="1">
               <profiles>
-                <profile name="Blood-deep Corruption" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d87a-fbba-9234-8ea6">
+                <profile name="Corrupción hasta la sangre" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d87a-fbba-9234-8ea6">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad no puede usar habilidades de **^^Run^^** ni de **^^Retreat^^**.</characteristic>
@@ -4102,9 +4102,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d89-f917-0728-4836"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Warp-rust" hidden="false" id="ba19-0bc1-6ed8-2e7e" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Óxido disforme" hidden="false" id="ba19-0bc1-6ed8-2e7e" sortIndex="2">
               <profiles>
-                <profile name="Warp-rust" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e9ed-388d-e85f-e1b0">
+                <profile name="Óxido disforme" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e9ed-388d-e85f-e1b0">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que declares una habilidad **^^Fight^^** para esta unidad, como reacción, tira un dado. Con un 4+, durante el resto del turno, las armas de combate de esta unidad que no sean **Companion** no pueden verse afectadas por habilidades de arma.</characteristic>
@@ -4120,9 +4120,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40be-57aa-1dc2-0da4"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Endless Chittering" hidden="false" id="8680-08c2-bc97-ce1d" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Chillidos interminables" hidden="false" id="8680-08c2-bc97-ce1d" sortIndex="3">
               <profiles>
-                <profile name="Endless Chittering" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c0e8-986d-63ee-d732">
+                <profile name="Chillidos interminables" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c0e8-986d-63ee-d732">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que declares una orden para esta unidad, como reacción, tira un dado. Con un 4+, esa orden no tiene efecto, sigue contando como usada y los puntos de orden gastados para usarla se pierden igualmente.</characteristic>
@@ -4166,9 +4166,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
       <selectionEntryGroups>
         <selectionEntryGroup name="Aqshian Artefacts" id="6409-4e62-7123-564e" hidden="false" publicationId="9787-0c03-7559-2125">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Axe of Boiling Wrath" hidden="false" id="7275-5924-1b89-7407">
+            <selectionEntry type="upgrade" import="true" name="Hacha de ira hirviente" hidden="false" id="7275-5924-1b89-7407">
               <profiles>
-                <profile name="Axe of Boiling Wrath" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4d03-e2ff-79de-48cd">
+                <profile name="Hacha de ira hirviente" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4d03-e2ff-79de-48cd">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** enemigo.</characteristic>
@@ -4190,9 +4190,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5e4b-f437-0243-c449" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Warpmock Blade" hidden="false" id="3b13-dc09-5e36-ec73">
+            <selectionEntry type="upgrade" import="true" name="Hoja de burla disforme" hidden="false" id="3b13-dc09-5e36-ec73">
               <profiles>
-                <profile name="Warpmock Blade" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7e88-13d4-6506-3279">
+                <profile name="Hoja de burla disforme" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7e88-13d4-6506-3279">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige 1 de las armas de combate de esta unidad que no sean **Companion** como arma objetivo.</characteristic>
@@ -4211,9 +4211,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1bd1-8f5d-037f-9656" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Cremated Pendant" hidden="false" id="0a2d-f96f-69af-b225">
+            <selectionEntry type="upgrade" import="true" name="Colgante incinerado" hidden="false" id="0a2d-f96f-69af-b225">
               <profiles>
-                <profile name="Cremated Pendant" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3843-defc-b843-398d">
+                <profile name="Colgante incinerado" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3843-defc-b843-398d">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade el doble del número de la ronda de batalla actual a la puntuación de control de esta unidad.</characteristic>
@@ -4229,9 +4229,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7edd-b2f4-8c9b-6241" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Sparking Shield" hidden="false" id="dfd0-66a4-ff63-b5e1">
+            <selectionEntry type="upgrade" import="true" name="Escudo chispeante" hidden="false" id="dfd0-66a4-ff63-b5e1">
               <profiles>
-                <profile name="Sparking Shield" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fdeb-529b-a533-d181">
+                <profile name="Escudo chispeante" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="fdeb-529b-a533-d181">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una tirada de impacto sin modificar de un ataque de combate cuyo objetivo sea esta unidad sea de 1, inflige 1 de daño mortal a la unidad atacante después de resolver la habilidad **^^Fight^^**.</characteristic>
@@ -4247,9 +4247,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9b25-692d-2a62-0ad3" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Carved Magmadroth Horn" hidden="false" id="e819-3420-495a-f9ab">
+            <selectionEntry type="upgrade" import="true" name="Cuerno tallado de magmadroth" hidden="false" id="e819-3420-495a-f9ab">
               <profiles>
-                <profile name="Carved Magmadroth Horn" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4b86-db9a-a2b4-e1eb">
+                <profile name="Cuerno tallado de magmadroth" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4b86-db9a-a2b4-e1eb">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si una unidad amiga totalmente a 12" o menos de esta unidad usa la orden &apos;Rally&apos;, puedes hacer 3 tiradas de reagrupamiento de D6 adicionales.</characteristic>
@@ -4265,9 +4265,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3446-b6ea-9ce1-691f" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Magmic Key" hidden="false" id="2386-92c4-2a90-b248">
+            <selectionEntry type="upgrade" import="true" name="Llave magmática" hidden="false" id="2386-92c4-2a90-b248">
               <profiles>
-                <profile name="Magmic Key" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="dedf-e658-4fa3-9f2d">
+                <profile name="Llave magmática" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="dedf-e658-4fa3-9f2d">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de movimiento</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -4743,9 +4743,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
       <selectionEntryGroups>
         <selectionEntryGroup name="Hallmarks of Hel&apos;s Claw" id="5204-5a5f-2811-9103" hidden="false" publicationId="9787-0c03-7559-2125">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Forthright Fury" hidden="false" id="ec9c-8590-f7c0-f051">
+            <selectionEntry type="upgrade" import="true" name="Furia franca" hidden="false" id="ec9c-8590-f7c0-f051">
               <profiles>
-                <profile name="Forthright Fury" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5bbe-c7b2-8c26-7c5e">
+                <profile name="Furia franca" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5bbe-c7b2-8c26-7c5e">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Al hacer tiradas de correr para unidades amigas totalmente a 12" o menos de esta unidad, si obtienes un 1-3, puedes usar un valor de 4 en su lugar.</characteristic>
@@ -4761,9 +4761,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7663-4599-2900-591c" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Words of Blazing Power" hidden="false" id="3b25-faaa-ef7c-dba9">
+            <selectionEntry type="upgrade" import="true" name="Palabras de poder ardiente" hidden="false" id="3b25-faaa-ef7c-dba9">
               <profiles>
-                <profile name="Words of Blazing Power" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5e27-c8ef-b687-9f47">
+                <profile name="Palabras de poder ardiente" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5e27-c8ef-b687-9f47">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añade 1 a las tiradas de lanzamiento de esta unidad cuando lance un hechizo del Lore of Magmic Fury.</characteristic>
@@ -4779,9 +4779,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f365-9d25-2443-6a6a" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Spiteful Spark" hidden="false" id="22bd-0d54-c7f4-64f4">
+            <selectionEntry type="upgrade" import="true" name="Chispa maliciosa" hidden="false" id="22bd-0d54-c7f4-64f4">
               <profiles>
-                <profile name="Spiteful Spark" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1e32-9f8e-0245-c69a">
+                <profile name="Chispa maliciosa" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1e32-9f8e-0245-c69a">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos todas las unidades enemigas en combate con esta unidad.</characteristic>
@@ -4800,9 +4800,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="04b0-8396-5c5e-a5c3" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Live on the Edge" hidden="false" id="3a2d-ad29-8d74-60a7">
+            <selectionEntry type="upgrade" import="true" name="Vivir al límite" hidden="false" id="3a2d-ad29-8d74-60a7">
               <profiles>
-                <profile name="Live on the Edge" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3ddd-2676-0846-e06e">
+                <profile name="Vivir al límite" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3ddd-2676-0846-e06e">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad tiene **^^Ward (4+)^^** contra los puntos de daño infligidos por habilidades **^^Shoot^^**.</characteristic>
@@ -4818,9 +4818,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="31d3-c180-7347-e39a" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Brash and Angry" hidden="false" id="3b4e-e25a-5aaa-7f27">
+            <selectionEntry type="upgrade" import="true" name="Impulsivo e iracundo" hidden="false" id="3b4e-e25a-5aaa-7f27">
               <profiles>
-                <profile name="Brash and Angry" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b9ff-224a-08aa-1920">
+                <profile name="Impulsivo e iracundo" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b9ff-224a-08aa-1920">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, reacción: El oponente declaró una habilidad **^^Charge^^** para una unidad enemiga a 9" o menos de esta unidad</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
@@ -4839,9 +4839,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c49c-5aee-c8a7-1ee7" includeChildSelections="true"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Tainted Radiance" hidden="false" id="c9ff-083f-64ce-628e">
+            <selectionEntry type="upgrade" import="true" name="Resplandor corrompido" hidden="false" id="c9ff-083f-64ce-628e">
               <profiles>
-                <profile name="Tainted Radiance" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a9e6-920b-7579-79f8">
+                <profile name="Resplandor corrompido" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a9e6-920b-7579-79f8">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 3 a las puntuaciones de control de las unidades enemigas mientras estén en combate con esta unidad.</characteristic>
