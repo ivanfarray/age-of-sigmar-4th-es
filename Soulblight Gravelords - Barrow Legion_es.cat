@@ -37,7 +37,7 @@
         <profile name="All to Dust" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="10e6-f36d-ff98-6686">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">En la tercera ronda de batalla y las siguientes, mientras haya un **Cursed Sepulchre** amigo en el campo de batalla, resta 1 a las tiradas de salvación de las unidades enemigas.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">En la tercera ronda de batalla y las siguientes, mientras haya un **Sepulcro maldito** amigo en el campo de batalla, resta 1 a las tiradas de salvación de las unidades enemigas.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -49,7 +49,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Esta habilidad debe usarse en lugar de la habilidad &apos;Deploy Faction Terrain Feature&apos;.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca 3 **Cursed Sepulchres** totalmente dentro de tu territorio, cada uno a 1/2" o menos de cualquiera de los otros y a más de 3" de todos los marcadores de objetivo y demás elementos de escenografía. Después de hacerlo, se consideran desplegados y se tratan como un único elemento de escenografía **Cursed Sepulchre** con una característica de Health de 24 en lugar de 8.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca 3 **Cursed Sepulchres** totalmente dentro de tu territorio, cada uno a 1/2" o menos de cualquiera de los otros y a más de 3" de todos los marcadores de objetivo y demás elementos de escenografía. Después de hacerlo, se consideran desplegados y se tratan como un único elemento de escenografía **Sepulcro maldito** con una característica de Health de 24 en lugar de 8.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desplegar terreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -78,7 +78,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por ronda de batalla (ejército), cualquier fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga que no sea **^^Unique Barrow Legion^^** y que haya sido destruida.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca una unidad de reemplazo con la mitad de miniaturas de la unidad objetivo (redondeando hacia arriba) totalmente a 12" o menos de un **^^Barrow Legion Hero^^** amigo, o totalmente a 6" o menos de un **Cursed Sepulchre** amigo. Debe colocarse a más de 9" de todas las unidades enemigas.
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca una unidad de reemplazo con la mitad de miniaturas de la unidad objetivo (redondeando hacia arriba) totalmente a 12" o menos de un **^^Barrow Legion Hero^^** amigo, o totalmente a 6" o menos de un **Sepulcro maldito** amigo. Debe colocarse a más de 9" de todas las unidades enemigas.
 Si es tu fase de movimiento, puedes colocar la unidad de reemplazo a más de 3" de todas las unidades enemigas en lugar de a más de 9", pero si la colocas a 9" o menos de cualquier unidad enemiga, no podrá usar habilidades de **^^Charge^^** este turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -92,7 +92,7 @@ Si es tu fase de movimiento, puedes colocar la unidad de reemplazo a más de 3" 
         <profile name="Grave Sentinels" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2225-77c1-05c7-77f9">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas de cuerpo a cuerpo usadas por unidades amigas **^^Barrow Legion^^** tienen **Anti-charge (+1 Rend)** mientras estén totalmente a 9" o menos de un **Cursed Sepulchre** amigo.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas de cuerpo a cuerpo usadas por unidades amigas **^^Barrow Legion^^** tienen **Anti-charge (+1 Rend)** mientras estén totalmente a 9" o menos de un **Sepulcro maldito** amigo.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -385,7 +385,7 @@ Durante el resto de la batalla, cada vez que un ataque tenga como objetivo esta 
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <entryLinks>
-    <entryLink import="true" name="Wight Lord on Skeletal Steed" hidden="false" id="081d-053c-fcbe-bda8" type="selectionEntry" targetId="ce3f-1647-a605-05c9">
+    <entryLink import="true" name="Señor tumulario en corcel esquelético" hidden="false" id="081d-053c-fcbe-bda8" type="selectionEntry" targetId="ce3f-1647-a605-05c9">
       <categoryLinks>
         <categoryLink name="BARROW LEGION" hidden="false" id="f572-793b-5dbe-36ae" targetId="07ad-5d9a-db7f-270d" primary="false"/>
       </categoryLinks>
@@ -450,7 +450,7 @@ Durante el resto de la batalla, cada vez que un ataque tenga como objetivo esta 
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Wight King" hidden="false" id="2e20-024c-edc1-57d0" type="selectionEntry" targetId="8dc4-aa60-df82-d6a5">
+    <entryLink import="true" name="Rey tumulario" hidden="false" id="2e20-024c-edc1-57d0" type="selectionEntry" targetId="8dc4-aa60-df82-d6a5">
       <categoryLinks>
         <categoryLink name="BARROW LEGION" hidden="false" id="c932-d684-621c-cdbc" targetId="07ad-5d9a-db7f-270d" primary="false"/>
         <categoryLink name="WARMASTER" hidden="false" id="fe6b-6a76-4aa8-8f43" targetId="c203-51a0-3d44-6b07" primary="false"/>
@@ -516,7 +516,7 @@ Durante el resto de la batalla, cada vez que un ataque tenga como objetivo esta 
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Wight King on Skeletal Steed" hidden="false" id="3c7c-a43e-6b90-c029" type="selectionEntry" targetId="dfe3-12e9-b0d4-3603">
+    <entryLink import="true" name="Rey tumulario en corcel esquelético" hidden="false" id="3c7c-a43e-6b90-c029" type="selectionEntry" targetId="dfe3-12e9-b0d4-3603">
       <categoryLinks>
         <categoryLink name="BARROW LEGION" hidden="false" id="66a1-aed5-8819-510c" targetId="07ad-5d9a-db7f-270d" primary="false"/>
         <categoryLink name="WARMASTER" hidden="false" id="7e53-603f-7180-2b97" targetId="c203-51a0-3d44-6b07" primary="false"/>
@@ -583,7 +583,7 @@ Durante el resto de la batalla, cada vez que un ataque tenga como objetivo esta 
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Watch Captain Halgrim" hidden="false" id="18b7-c54f-ce1a-be9d" type="selectionEntry" targetId="a502-5f4e-6d32-43bd">
+    <entryLink import="true" name="Capitán de la guardia Halgrim" hidden="false" id="18b7-c54f-ce1a-be9d" type="selectionEntry" targetId="a502-5f4e-6d32-43bd">
       <categoryLinks>
         <categoryLink name="BARROW LEGION" hidden="false" id="bcee-0b30-68ae-5a0b" targetId="07ad-5d9a-db7f-270d" primary="false"/>
       </categoryLinks>
@@ -627,7 +627,7 @@ Durante el resto de la batalla, cada vez que un ataque tenga como objetivo esta 
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="The Sons of Velmorn" hidden="false" id="e051-d43f-a4b0-9da7" type="selectionEntry" targetId="061f-62b5-05f0-d8cd">
+    <entryLink import="true" name="Los Hijos de Velmorn" hidden="false" id="e051-d43f-a4b0-9da7" type="selectionEntry" targetId="061f-62b5-05f0-d8cd">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -655,7 +655,7 @@ Durante el resto de la batalla, cada vez que un ataque tenga como objetivo esta 
         <categoryLink name="BARROW LEGION" hidden="false" id="825d-7ed9-8af4-0a89" targetId="07ad-5d9a-db7f-270d" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="The Sepulchral Guard" hidden="false" id="4c69-2643-b281-8d3d" type="selectionEntry" targetId="0d4f-e793-20db-9f50">
+    <entryLink import="true" name="La Guardia Sepulcral" hidden="false" id="4c69-2643-b281-8d3d" type="selectionEntry" targetId="0d4f-e793-20db-9f50">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -683,7 +683,7 @@ Durante el resto de la batalla, cada vez que un ataque tenga como objetivo esta 
         <categoryLink name="BARROW LEGION" hidden="false" id="2f9d-74f1-76db-e993" targetId="07ad-5d9a-db7f-270d" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Barrow Guard" hidden="false" id="9efd-95a6-5cc3-d647" type="selectionEntry" targetId="2485-5204-885a-9d5c">
+    <entryLink import="true" name="Guardia de los túmulos" hidden="false" id="9efd-95a6-5cc3-d647" type="selectionEntry" targetId="2485-5204-885a-9d5c">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -714,7 +714,7 @@ Durante el resto de la batalla, cada vez que un ataque tenga como objetivo esta 
         <categoryLink name="BARROW LEGION" hidden="false" id="edb6-7df3-502f-83a7" targetId="07ad-5d9a-db7f-270d" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Barrow Knights" hidden="false" id="09c0-27ee-6cba-a458" type="selectionEntry" targetId="83ee-18f8-249d-5fac">
+    <entryLink import="true" name="Caballeros de los túmulos" hidden="false" id="09c0-27ee-6cba-a458" type="selectionEntry" targetId="83ee-18f8-249d-5fac">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -745,8 +745,8 @@ Durante el resto de la batalla, cada vez que un ataque tenga como objetivo esta 
         <categoryLink name="BARROW LEGION" hidden="false" id="4ac0-2d0d-6e6e-619a" targetId="07ad-5d9a-db7f-270d" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Cursed Sepulchre" hidden="false" id="bd13-8626-1af3-95dc" type="selectionEntry" targetId="4ab6-d0f5-d7b0-1b38" defaultAmount="1"/>
-    <entryLink import="true" name="Deathrattle Skeletons" hidden="false" id="7692-ee3d-a46a-6620" type="selectionEntry" targetId="849b-3125-85cd-a864">
+    <entryLink import="true" name="Sepulcro maldito" hidden="false" id="bd13-8626-1af3-95dc" type="selectionEntry" targetId="4ab6-d0f5-d7b0-1b38" defaultAmount="1"/>
+    <entryLink import="true" name="Esqueletos del estertor" hidden="false" id="7692-ee3d-a46a-6620" type="selectionEntry" targetId="849b-3125-85cd-a864">
       <modifiers>
         <modifier type="multiply" value="2" field="points">
           <conditions>
@@ -782,7 +782,7 @@ Durante el resto de la batalla, cada vez que un ataque tenga como objetivo esta 
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3d2b-b99d-8c3f-82e2" includeChildSelections="true"/>
       </constraints>
     </entryLink>
-    <entryLink import="true" name="Anvil of Apotheosis: Soulblight Gravelords Hero" hidden="false" id="4042-ce8e-8c9b-10d6" type="selectionEntry" targetId="1456-49e7-220b-2813">
+    <entryLink import="true" name="Yunque de la apoteosis: héroe de los Señores de la Tumba Pudrealmas" hidden="false" id="4042-ce8e-8c9b-10d6" type="selectionEntry" targetId="1456-49e7-220b-2813">
       <entryLinks>
         <entryLink import="true" name="Warlord" hidden="false" id="1eac-9302-1d87-cc85" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="b572-cfee-fb98-de61" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
