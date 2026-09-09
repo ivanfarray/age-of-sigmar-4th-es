@@ -6,7 +6,7 @@ de texto descriptivo y nombres autorizados por los diccionarios, incluidos
 los valores de modificadores de nombre. Los atributos tecnicos permanecen intactos.
 
 El texto descriptivo es el contenido de <description> y <characteristic>.
-Solo se permiten nombres registrados de entradas, perfiles y enlaces visibles.
+Solo se permiten nombres registrados de entradas, perfiles, reglas y enlaces visibles.
 Los atributos id, targetId, typeId y type nunca se traducen.
 """
 import io
@@ -125,7 +125,7 @@ def load_translations(path):
     return out
 
 
-NAME_TAG = re.compile(r'<(?:selectionEntry|selectionEntryGroup|profile|entryLink|infoLink)\b(?:"[^"]*"|\x27[^\x27]*\x27|[^\x27">])*>')
+NAME_TAG = re.compile(r'<(?:selectionEntry|selectionEntryGroup|profile|entryLink|infoLink|rule)\b(?:"[^"]*"|\x27[^\x27]*\x27|[^\x27">])*>')
 NAME_ATTR = re.compile(r'(\sname\s*=\s*)(["\x27])(.*?)\2')
 MODIFIER_TAG = re.compile(r'<modifier\b(?:"[^"]*"|\x27[^\x27]*\x27|[^\x27">])*>')
 VALUE_ATTR = re.compile(r'(\svalue\s*=\s*)(["\x27])(.*?)\2')

@@ -17,8 +17,11 @@ el mismo aviso.
 
 Los `.cat` y `.gst` son XML. Se traduce el **contenido descriptivo** dentro de
 `<description>` y `<characteristic>` y, por petición del usuario del 8 de
-septiembre de 2026, los **nombres visibles de unidades y armas** registrados
-en `translations/names/`, incluidas sus manifestaciones y variantes.
+septiembre de 2026, los **nombres visibles de unidades, armas y habilidades**
+registrados en `translations/names/`, incluidas sus manifestaciones y variantes.
+También se incluyen hechizos, plegarias, rasgos, artefactos, formaciones y
+opciones de Sendero a la Gloria. Las habilidades se mantienen en los
+diccionarios `Abilities - *.es.json` de esa carpeta.
 
 ```xml
 <selectionEntry id="6353-cb84-ac7f-9a15" name="Bull Charge">
@@ -37,7 +40,7 @@ en `translations/names/`, incluidas sus manifestaciones y variantes.
 | --- | --- |
 | Texto dentro de `<description>` | Atributos técnicos y nombres no registrados |
 | Texto dentro de `<characteristic>` | `id`, `targetId`, `typeId`, `entryId`, `publicationId`, `gameSystemId` |
-| `name=` registrado de `selectionEntry`, `selectionEntryGroup`, `profile`, `entryLink`, `infoLink` | Nombres de tipos de perfil, categorías y encabezados |
+| `name=` registrado de `selectionEntry`, `selectionEntryGroup`, `profile`, `entryLink`, `infoLink`, `rule` | Nombres de tipos de perfil, categorías y características |
 | `value=` registrado de `modifier` solo cuando `field="name"` | `type=`, `field=`, `scope=` y valores de reglas |
 | | Orden de atributos, indentación, comillas, saltos de línea |
 
@@ -79,7 +82,8 @@ Los JSON son los **únicos datos de traducción que se editan a mano**. Los nomb
 se mantienen por separado en `translations/names/<ejército>.es.json`, con las
 claves inglesas exactas y sus equivalencias. Una clave compartida entre
 ejércitos debe tener el mismo valor; el generador rechaza conflictos. Revisar
-[GLOSARIO-NOMBRES.md](GLOSARIO-NOMBRES.md) antes de añadir equivalencias.
+[GLOSARIO-NOMBRES.md](GLOSARIO-NOMBRES.md) y
+[GLOSARIO-HABILIDADES.md](GLOSARIO-HABILIDADES.md) antes de añadir equivalencias.
 
 - **No toques las claves.** Son la cadena inglesa exacta, byte a byte. Si cambias
   una coma, esa cadena deja de encontrarse y se queda sin traducir. Algunas
@@ -123,12 +127,17 @@ Las siguientes pautas se aplican a las referencias dentro de la prosa ya
 traducida; no impiden traducir una etiqueta independiente.
 
 
-Los nombres de unidades y armas registrados se sustituyen automáticamente
+Los nombres de unidades, armas y habilidades registrados se sustituyen automáticamente
 también **dentro** del texto generado. No hace falta cambiar manualmente sus
 referencias en los JSON de prosa: conservar las claves inglesas originales.
 Se usan coincidencias completas, sensibles a mayúsculas y de mayor longitud
 primero, sin sustituciones encadenadas. Al cambiar un nombre, regenerar todos
 los catálogos que lo citan, incluidos bibliotecas y Regimientos de Renombre.
+
+Las órdenes básicas citadas sin perfil local y los títulos de efectos dentro
+de la prosa se registran en `Abilities - Rule references.es.json`. Revisar esas
+referencias además de los nombres de perfiles: un título puede aparecer solo
+entre comillas o como encabezado de un efecto.
 
 Comprobar la cobertura tras actualizar los originales:
 
@@ -139,21 +148,21 @@ python tools/verify-translation.py
 ```
 
 La primera comprobación detecta nombres pendientes de unidades, armas,
-manifestaciones, alias y modificadores de nombre, incluso los del sistema
+manifestaciones, habilidades, reglas, alias y modificadores de nombre, incluso los del sistema
 general `.gst`. Las pruebas comprueban que el generador acepta los nombres
 registrados y rechaza cambios en identificadores, nombres y prosa no autorizados.
 
-Se quedan en inglés:
+Las referencias a habilidades, hechizos, plegarias y mejoras registradas se
+traducen también entre comillas o con marcado. Se mantienen como en el original
+los siguientes términos de prosa cuando no figuran en los diccionarios de nombres:
 
 - Palabras clave con marcado `^^...^^`: `**^^Hero^^**`, `**^^Ogor Mawtribes^^**`,
   `**^^Ward (6+)^^**`, `**^^Rampage^^**`.
-- Nombres de habilidades citados entre comillas: `'Eruption of Fury'`,
-  `'Power Through'`, `'Eat 'Em Alive'`.
 - Habilidades de arma: `Crit (2 Hits)`, `Crit (Mortal)`, `Companion`,
   `Anti-Monster (+1 Rend)`, `Charge (+1 Damage)`, `Heal (D3)`.
 - Nombres de características: `característica de Health`, `de Attacks`, `de Rend`.
-- Nombres de artefactos, trofeos y efectos no registrados en el diccionario de
-  nombres, incluidos `***Squeezed Head***` y `***Steaming Brains***`.
+- Nombres de artefactos, trofeos y efectos que todavía no se hayan registrado
+  al incorporar una actualización de los originales.
 
 Se traducen: todo lo demás, incluidos los términos de reglas que no son nombres
 (`pile-in move`, `control score`, `fury level`, `damage points`…).
@@ -275,6 +284,7 @@ quiere que coexistan, hay que cambiar el `id` del elemento `<catalogue>` raíz
 ## Qué se commitea
 
 - `translations/<fichero>.es.json` — el trabajo de traducción.
+- `translations/names/*.es.json` — los nombres visibles autorizados.
 - `<fichero>_es.cat` — el artefacto generado, para quien solo quiera descargarlo.
 
 Antes de hacer commit, ejecuta `python tools/verify-translation.py`. Si no dice
@@ -287,7 +297,8 @@ Las traducciones existentes también usan «blanco» para *target*, «atributo»
 para *characteristic*, «terreno» para *terrain feature*, «tirada para herir»
 para *wound roll* y «repetir la tirada» para *re-roll*. Son equivalentes a las
 formas del glosario anterior. Al modificar una regla, mantener una forma
-coherente dentro de su texto. `Heal (X)` se conserva en inglés.
+coherente dentro de su texto. La referencia registrada `Heal (X)` se traduce
+como `Curar (X)` en el texto generado.
 
 | Inglés | Español |
 | --- | --- |

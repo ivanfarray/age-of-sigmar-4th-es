@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="704d-d7c8-b9a9-f8b6" name="Ironjawz - Ironsunz [LEGENDS]" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="13" revision="25" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Ironsunz" hidden="false" id="30b5-6e89-0fff-9500">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Solez de Hierro" hidden="false" id="30b5-6e89-0fff-9500">
       <profiles>
         <profile name="«Probemos esto...»" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f23d-d9e4-86b3-8db3" publicationId="f860-3305-c15b-0a52">
           <characteristics>
@@ -20,7 +20,7 @@
         <profile name="Seguid aplastando" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7e3b-13dd-01eb-83db" publicationId="f860-3305-c15b-0a52">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Ironsunz^^** que haya destruido una unidad enemiga este turno,</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Solez de Hierro^^** que haya destruido una unidad enemiga este turno,</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">El objetivo puede mover 3". Puede terminar ese movimiento en combate. Si la unidad enemiga destruida era un **^^Monster^^**, el objetivo puede mover 6" en lugar de 3".</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -34,11 +34,11 @@
         <profile name="¡Waaagh! de los Soles de Hierro" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c342-874b-7e91-02d9" publicationId="f860-3305-c15b-0a52">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), tu fase de carga</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una **^^Ironsunz Hero^^** amiga para usar esta habilidad, después elige como objetivos cada unidad amiga **^^Ironsunz^^** totalmente a 18" o menos de ella. **Dakkbad Pateagrots** debe ser elegido para usar esta habilidad si está en el campo de batalla.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una **^^Solez de Hierro Hero^^** amiga para usar esta habilidad, después elige como objetivos cada unidad amiga **^^Solez de Hierro^^** totalmente a 18" o menos de ella. **Dakkbad Pateagrots** debe ser elegido para usar esta habilidad si está en el campo de batalla.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno:
 • Las armas de combate cuerpo a cuerpo usadas por los objetivos tienen **Anti-^^Monster^^ (+1 Rend)** 
 • Los objetivos no pueden ser elegidos como objetivo de habilidades **^^Rampage^^**.
-• Los objetivos pueden usar habilidades **^^Charge^^** aunque hayan usado una habilidad **^^Run^^** en el mismo turno.</characteristic>
+• Los objetivos pueden usar habilidades **^^Cargar^^** aunque hayan usado una habilidad **^^Correr^^** en el mismo turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^WAAAGH!^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -51,7 +51,7 @@
         <profile name="«¡Arriba y a por ellos!»" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ef17-1a4a-6213-11a9" publicationId="f860-3305-c15b-0a52">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Al hacer tiradas de correr para unidades amigas **^^Ironsunz^^**, si el resultado es 1-2, puedes usar en su lugar un valor de 3.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Al hacer tiradas de correr para unidades amigas **^^Solez de Hierro^^**, si el resultado es 1-2, puedes usar en su lugar un valor de 3.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Gray</attribute>
@@ -212,7 +212,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a57a-704b-f45f-1152"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="cd58-9607-1f47-7f82" hidden="true">
+            <rule name="Tamaño de peana" id="cd58-9607-1f47-7f82" hidden="true">
               <description>160mm</description>
             </rule>
           </rules>
@@ -263,7 +263,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Suma 1 al resultado si el objetivo ha cargado este turno. Con un 3+, durante el resto del turno, las armas del objetivo no pueden verse afectadas por habilidades de arma salvo la habilidad de arma **Companion**.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Suma 1 al resultado si el objetivo ha cargado este turno. Con un 3+, durante el resto del turno, las armas del objetivo no pueden verse afectadas por habilidades de arma salvo la habilidad de arma **Compañero**.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -290,7 +290,7 @@
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Enhancement Restrictions" id="6710-1bfb-aab5-5a28" hidden="true">
+            <rule name="Restricciones de mejoras" id="6710-1bfb-aab5-5a28" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -384,7 +384,7 @@
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Enhancement Restrictions" id="195c-017a-a941-30aa" hidden="true">
+            <rule name="Restricciones de mejoras" id="195c-017a-a941-30aa" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -537,7 +537,7 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Battle Traits: Ironsunz" hidden="false" id="8e19-a7f2-2c69-f28e" type="selectionEntry" targetId="30b5-6e89-0fff-9500">
+    <entryLink import="true" name="Rasgos de batalla: Solez de Hierro" hidden="false" id="8e19-a7f2-2c69-f28e" type="selectionEntry" targetId="30b5-6e89-0fff-9500">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ac31-1795-b7cd-3633" includeChildSelections="true"/>
       </constraints>
@@ -592,7 +592,7 @@
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Warlord" hidden="false" id="3435-5260-2d8d-6be1" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="3435-5260-2d8d-6be1" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="383b-37a7-d21f-ea94" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="1181-090f-44dd-b091" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -657,7 +657,7 @@
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Warlord" hidden="false" id="c7f3-ef36-e0d0-4bf4" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="c7f3-ef36-e0d0-4bf4" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="6110-f4a1-feac-98a0" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="6c44-ab8c-c575-5a32" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -722,7 +722,7 @@
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Warlord" hidden="false" id="32ec-8fc6-4a71-cf07" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="32ec-8fc6-4a71-cf07" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="8772-8ddb-fcbf-65e7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="55d8-7ff8-a249-b3b0" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -771,7 +771,7 @@
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Warlord" hidden="false" id="aab2-b4d1-4a4c-c28e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="aab2-b4d1-4a4c-c28e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="a02c-ca2b-7e2b-b83f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="b05f-11aa-8fe7-f5fc" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -967,7 +967,7 @@
           </modifiers>
         </entryLink>
         <entryLink import="true" name="Paths" hidden="false" id="e3a6-fc19-c655-90f1" type="selectionEntryGroup" targetId="ae74-4599-94ef-18dd"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="19c5-e374-cd78-e55b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="19c5-e374-cd78-e55b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="927e-d743-2ff3-40e1" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="9cc8-d816-0cad-f0c4" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1182,7 +1182,7 @@
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Warlord" hidden="false" id="b2cc-9bcb-d4d5-df45" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="b2cc-9bcb-d4d5-df45" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="5af5-fb64-e2e1-637e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="4d05-f208-50ff-4bcd" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="d215-65e4-50b1-c64c" name="Gloomspite Gitz - Droggz&apos;s Gitmob" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="8" revision="27" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Droggz&apos;s Gitmob" hidden="false" id="dc99-4960-73e4-784f" publicationId="a395-7bc4-71eb-46df">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Horda de Tipejoz de Droggz" hidden="false" id="dc99-4960-73e4-784f" publicationId="a395-7bc4-71eb-46df">
       <profiles>
         <profile name="Rodeadlos" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="851d-4c85-5448-8e79">
           <characteristics>
@@ -21,7 +21,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), fase de combate enemiga</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Droggz&apos;s Gitmob^^** que esté en combate con alguna unidad enemiga que haya cargado este turno y que no esté en combate con ninguna unidad enemiga que no haya cargado este turno.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 4+, el objetivo puede usar inmediatamente la habilidad &apos;Retreat&apos; como si fuera tu fase de movimiento.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 4+, el objetivo puede usar inmediatamente la habilidad &apos;Retirarse&apos; como si fuera tu fase de movimiento.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -35,7 +35,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con una unidad amiga **^^Droggz&apos;s Gitmob^^** que haya cargado este turno.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, durante el resto del turno, el objetivo no puede hacer un movimiento de aproximación cuando sea elegido para usar una habilidad **^^Fight^^**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, durante el resto del turno, el objetivo no puede hacer un movimiento de aproximación cuando sea elegido para usar una habilidad **^^Combatir^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -108,7 +108,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="4244-9104-e7bf-d1ee" hidden="true">
+            <rule name="Restricciones de mejoras" id="4244-9104-e7bf-d1ee" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -172,7 +172,7 @@
                 <profile name="Pincharlos y correr" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="5870-57b4-834b-15b2">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Retreat^^** o la habilidad &apos;Torrente de llamas de Frazzlegit&apos;, antes de mover esta unidad, elige como objetivo una unidad enemiga en combate con ella y tira un D3. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Retirarse^^** o la habilidad &apos;Torrente de llamas de Frazzlegit&apos;, antes de mover esta unidad, elige como objetivo una unidad enemiga en combate con ella y tira un D3. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -205,7 +205,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="bbdd-9576-40be-f4f4" hidden="true">
+            <rule name="Restricciones de mejoras" id="bbdd-9576-40be-f4f4" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -443,7 +443,7 @@
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="5446-05f0-d351-7e55" type="selectionEntryGroup" targetId="116d-3b48-e4bf-079a"/>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="3ea6-8af7-7c94-2479" type="selectionEntryGroup" targetId="8306-e8bf-b90c-2dff"/>
         <entryLink import="true" name="Paths" hidden="false" id="9f8c-0125-63ad-b97d" type="selectionEntryGroup" targetId="a193-dcf3-4795-2f83"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="aae7-cb96-f1c4-0285" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="aae7-cb96-f1c4-0285" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="db9a-f5d0-214e-3ea4" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="a147-802d-9527-4aac" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -513,7 +513,7 @@
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a06b-b741-dbd0-d8f4" type="selectionEntryGroup" targetId="116d-3b48-e4bf-079a"/>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="1670-de2f-6f36-2e4b" type="selectionEntryGroup" targetId="8306-e8bf-b90c-2dff"/>
         <entryLink import="true" name="Paths" hidden="false" id="5a20-56e9-ee50-8a33" type="selectionEntryGroup" targetId="a193-dcf3-4795-2f83"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="0627-a315-33cf-68af" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="0627-a315-33cf-68af" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="cc11-b490-9503-6389" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="69b4-4a07-de22-f5aa" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -621,7 +621,7 @@
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="dff5-690e-fc1a-4b7e" type="selectionEntryGroup" targetId="116d-3b48-e4bf-079a"/>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="3736-c3f1-e3d7-da89" type="selectionEntryGroup" targetId="8306-e8bf-b90c-2dff"/>
         <entryLink import="true" name="Paths" hidden="false" id="35db-36ad-600b-bb0c" type="selectionEntryGroup" targetId="a193-dcf3-4795-2f83"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="5d97-3134-33f1-79dd" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="5d97-3134-33f1-79dd" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="01ce-c38b-aef6-284c" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="6d2c-c7cc-79fb-a677" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -746,14 +746,14 @@
         <categoryLink name="DROGGZ&apos;S GITMOB" hidden="false" id="2b89-0bb4-7e2f-4643" targetId="310f-5467-15d1-15f7" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: Droggz&apos;s Gitmob" hidden="false" id="4909-3ce7-aa28-44a7" type="selectionEntry" targetId="dc99-4960-73e4-784f">
+    <entryLink import="true" name="Rasgos de batalla: Horda de Tipejoz de Droggz" hidden="false" id="4909-3ce7-aa28-44a7" type="selectionEntry" targetId="dc99-4960-73e4-784f">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e817-27e9-1b53-f834" includeChildSelections="true"/>
       </constraints>
     </entryLink>
     <entryLink import="true" name="Yunque de la apoteosis: héroe grot" hidden="false" id="64f2-9c68-ed7c-ad4e" type="selectionEntry" targetId="3ffe-7c86-f14a-985e">
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="a1c7-5c85-658d-952e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="a1c7-5c85-658d-952e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="c8b4-0cb4-7cea-cab2" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Paths" hidden="false" id="ff4b-d710-9bc2-505f" type="selectionEntryGroup" targetId="a193-dcf3-4795-2f83"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="f2c3-3349-4afa-0d35" type="selectionEntryGroup" targetId="53dc-2972-55e9-7267"/>

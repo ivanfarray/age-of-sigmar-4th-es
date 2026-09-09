@@ -18,9 +18,22 @@ def module(name, file):
 
 apply = module('apply_translation', 'apply-translation.py')
 verify = module('verify_translation', 'verify-translation.py')
+coverage = module('name_coverage', 'verify-name-coverage.py')
 
 
 class NameTranslationTests(unittest.TestCase):
+    def test_coverage_includes_abilities_rules_and_cross_file_aliases(self):
+        old_cwd = os.getcwd()
+        with tempfile.TemporaryDirectory() as directory:
+            try:
+                os.chdir(directory)
+                Path('Library.cat').write_text('<catalogue><profile id="p" name="Spell" typeName="Ability (Spell)"/><rule id="r" name="Swift"/><selectionEntry id="e" name="Trait"><infoLinks><infoLink targetId="p" name="Spell alias"/></infoLinks></selectionEntry></catalogue>', encoding='utf-8')
+                Path('Army.cat').write_text('<catalogue><entryLink targetId="e" name="Trait alias"/><infoLink targetId="r" name="Rule alias"/></catalogue>', encoding='utf-8')
+                Path('Army_es.cat').write_text('<catalogue><rule name="Ignored translated name"/></catalogue>', encoding='utf-8')
+                self.assertEqual(set(coverage.required_names()), {'Spell', 'Swift', 'Trait', 'Spell alias', 'Trait alias', 'Rule alias'})
+            finally:
+                os.chdir(old_cwd)
+
     def test_only_display_names_change(self):
         xml = '<selectionEntry id="Sword" name="Sword" targetId="Sword"><profile name="Sword" typeId="Sword"/><characteristic name="Sword">Sword</characteristic><constraint field="Sword"/></selectionEntry>'
         result = bscat.localize_names(xml, {'Sword': 'Espada'})
@@ -29,6 +42,11 @@ class NameTranslationTests(unittest.TestCase):
     def test_attribute_entities_and_single_quotes(self):
         result = bscat.localize_names("<entryLink name='Hunter &amp; Wolf' targetId='x'/>", {'Hunter & Wolf': 'Cazador "Lobo"'})
         self.assertEqual(result, "<entryLink name='Cazador &quot;Lobo&quot;' targetId='x'/>")
+
+    def test_ability_rules_and_links_keep_technical_attributes(self):
+        xml = '<rule id="Swift" name="Swift"><description>Swift</description></rule><infoLink name="Swift" targetId="Swift" type="rule"/><profile name="Swift" typeName="Ability (Passive)"/><characteristic name="Swift"/>'
+        expected = '<rule id="Swift" name="Veloz"><description>Swift</description></rule><infoLink name="Veloz" targetId="Swift" type="rule"/><profile name="Veloz" typeName="Ability (Passive)"/><characteristic name="Swift"/>'
+        self.assertEqual(bscat.localize_names(xml, {'Swift': 'Veloz'}), expected)
 
     def test_conditional_display_names_preserve_rules(self):
         xml = '<modifier type="set" field="name" value="Guard (1 model)"/><modifier type="increment" field="attacks" value="Guard (1 model)"/>'

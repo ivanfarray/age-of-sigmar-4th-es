@@ -67,7 +67,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="c73e-fde1-5d02-70ef" hidden="true">
+            <rule name="Restricciones de mejoras" id="c73e-fde1-5d02-70ef" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -91,7 +91,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Battle Formations: Beasts of Chaos" id="378d-822d-d05a-0dc8" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Almighty Beastherd" hidden="false" id="1fd1-026f-82ae-3054" publicationId="3cc2-31d3-9dd2-f858">
+        <selectionEntry type="upgrade" import="true" name="Manada todopoderosa" hidden="false" id="1fd1-026f-82ae-3054" publicationId="3cc2-31d3-9dd2-f858">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8289-66ea-507b-b70c"/>
           </constraints>
@@ -118,7 +118,7 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Hungering Warherd" hidden="false" id="ce64-e8cd-1689-d0ea" publicationId="3cc2-31d3-9dd2-f858">
+        <selectionEntry type="upgrade" import="true" name="Manada de Guerra Hambrienta" hidden="false" id="ce64-e8cd-1689-d0ea" publicationId="3cc2-31d3-9dd2-f858">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="211c-c09d-2840-1aae"/>
           </constraints>
@@ -126,7 +126,7 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
             <profile name="Ansia de sangre" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6e4d-7865-37cb-bd15">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos cada unidad amiga **^^Warherd^^** que haya usado una habilidad **^^Fight^^** este turno.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos cada unidad amiga **^^Warherd^^** que haya usado una habilidad **^^Combatir^^** este turno.</characteristic>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">**Heal (3)** a cada objetivo.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -139,7 +139,7 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Thunderscorn Stormherd" hidden="false" id="2fe8-224b-0326-c58a" publicationId="3cc2-31d3-9dd2-f858">
+        <selectionEntry type="upgrade" import="true" name="Manada de Tormenta de los Despreciatormentas" hidden="false" id="2fe8-224b-0326-c58a" publicationId="3cc2-31d3-9dd2-f858">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a4b2-5b9b-180e-f66f"/>
           </constraints>
@@ -160,14 +160,14 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Marauding Brayherd" hidden="false" id="52ec-3be5-3c7a-c709" publicationId="3cc2-31d3-9dd2-f858">
+        <selectionEntry type="upgrade" import="true" name="Manada de Bray Saqueadora" hidden="false" id="52ec-3be5-3c7a-c709" publicationId="3cc2-31d3-9dd2-f858">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d766-097d-d934-7319"/>
           </constraints>
           <profiles>
             <profile name="Demonios de las tierras salvajes" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="8414-9a30-feac-8fe4">
               <characteristics>
-                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), Reacción: Has declarado una habilidad **^^Charge^^** para una unidad amiga **^^Brayherd^^**</characteristic>
+                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), Reacción: Has declarado una habilidad **^^Cargar^^** para una unidad amiga **^^Brayherd^^**</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cambia uno de los dados de la tirada de carga a un 4.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -215,9 +215,9 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
               <profiles>
                 <profile name="Presa mortal" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="897c-e6ce-ca89-9774">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, Reacción: El oponente ha declarado una habilidad **^^Shoot^^** que tenía como objetivo a una unidad amiga **^^Beasts of Chaos^^**</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, Reacción: El oponente ha declarado una habilidad **^^Disparar^^** que tenía como objetivo a una unidad amiga **^^Beasts of Chaos^^**</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esa unidad amiga **^^Beasts of Chaos^^** no está en combate y está totalmente a 18" o menos de esta unidad, después de resolver la habilidad **^^Shoot^^**, esa unidad amiga puede mover 2D6". Puede mover hacia el combate.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esa unidad amiga **^^Beasts of Chaos^^** no está en combate y está totalmente a 18" o menos de esta unidad, después de resolver la habilidad **^^Disparar^^**, esa unidad amiga puede mover 2D6". Puede mover hacia el combate.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -252,7 +252,7 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="1273-ce3f-8cfb-0fe4" hidden="true">
+            <rule name="Restricciones de mejoras" id="1273-ce3f-8cfb-0fe4" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -353,16 +353,16 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Beasts of Chaos" hidden="false" id="6ef5-2a41-46d3-c7f4">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Bestias del Caos" hidden="false" id="6ef5-2a41-46d3-c7f4">
       <profiles>
         <profile name="Rituales de ruina" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e260-0300-1b53-ca6f" publicationId="3cc2-31d3-9dd2-f858">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de los siguientes efectos:
-***Warping Curse:*** Elige como objetivo una unidad enemiga a 12" o menos de una **^^Beasts of Chaos Hero^^** amiga o, si hay una **^^Beasts of Chaos Hero^^** amiga en reserva, a 12" o menos de un borde del campo de batalla. Después, tira un D3. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.
-***Brand of Wild Fury:*** Elige como objetivo una unidad amiga **^^Beasts of Chaos^^** totalmente a 12" o menos de una **^^Beasts of Chaos Hero^^** amiga o, si hay una **^^Beasts of Chaos Hero^^** amiga en reserva, totalmente a 12" o menos de un borde del campo de batalla. Después, tira un dado. Con un 2+, el objetivo tiene **^^Ward (6+)^^** durante el resto del turno.
-***Bestial Instinct:*** Elige como objetivo una unidad amiga **^^Beasts of Chaos^^** totalmente a 12" o menos de una **^^Beasts of Chaos Hero^^** amiga o, si hay una **^^Beasts of Chaos Hero^^** amiga en reserva, totalmente a 12" o menos de un borde del campo de batalla. Después, tira un dado. Con un 2+, suma 1 a las tiradas de herida de los ataques de combate del objetivo durante el resto del turno.</characteristic>
+***Maldición deformante:*** Elige como objetivo una unidad enemiga a 12" o menos de una **^^Beasts of Chaos Hero^^** amiga o, si hay una **^^Beasts of Chaos Hero^^** amiga en reserva, a 12" o menos de un borde del campo de batalla. Después, tira un D3. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.
+***Marca de furia salvaje:*** Elige como objetivo una unidad amiga **^^Beasts of Chaos^^** totalmente a 12" o menos de una **^^Beasts of Chaos Hero^^** amiga o, si hay una **^^Beasts of Chaos Hero^^** amiga en reserva, totalmente a 12" o menos de un borde del campo de batalla. Después, tira un dado. Con un 2+, el objetivo tiene **^^Ward (6+)^^** durante el resto del turno.
+***Instinto bestial:*** Elige como objetivo una unidad amiga **^^Beasts of Chaos^^** totalmente a 12" o menos de una **^^Beasts of Chaos Hero^^** amiga o, si hay una **^^Beasts of Chaos Hero^^** amiga en reserva, totalmente a 12" o menos de un borde del campo de batalla. Después, tira un dado. Con un 2+, suma 1 a las tiradas de herida de los ataques de combate del objetivo durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -422,7 +422,7 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="eb07-006c-8489-b4ab" type="selectionEntryGroup" targetId="338e-2f22-3508-8bc7"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="800d-d914-d84d-8b91" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
         <entryLink import="true" name="Paths" hidden="false" id="c021-84ca-c68f-13fd" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="f313-9bae-ed01-a716" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="f313-9bae-ed01-a716" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="84b6-c789-ef0e-cc81" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="b5a0-a064-e0bc-7753" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -471,7 +471,7 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="0dae-49d3-55ce-1ece" type="selectionEntryGroup" targetId="338e-2f22-3508-8bc7"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d9ae-4d1a-1da9-0e5e" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
         <entryLink import="true" name="Paths" hidden="false" id="43f1-1cba-0ed8-f2ad" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="85d9-a99a-80ca-bdd9" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="85d9-a99a-80ca-bdd9" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="fba1-d764-61ad-b0cf" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="379d-f6fb-7a15-997f" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -534,7 +534,7 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="f1aa-6414-43b6-4122" type="selectionEntryGroup" targetId="338e-2f22-3508-8bc7"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="99d6-6519-a940-ab39" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
         <entryLink import="true" name="Paths" hidden="false" id="b11a-3b4e-337c-7dcb" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="abdb-47f8-f2d7-2433" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="abdb-47f8-f2d7-2433" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="2781-7e6d-623f-dd38" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="b36d-1942-f128-9baf" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -597,7 +597,7 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="efd5-19d0-3402-4d7b" type="selectionEntryGroup" targetId="338e-2f22-3508-8bc7"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1740-dc52-fb83-1e24" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
         <entryLink import="true" name="Paths" hidden="false" id="2200-b84d-77fd-570f" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="5f86-af5d-c4ff-3ce0" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="5f86-af5d-c4ff-3ce0" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="7b38-b20c-1210-14a8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="d964-218a-86a1-f3e4" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1209,7 +1209,7 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <cost name="pts" typeId="points" value="90"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: Beasts of Chaos" hidden="false" id="5eef-030c-9c03-dc49" type="selectionEntry" targetId="6ef5-2a41-46d3-c7f4">
+    <entryLink import="true" name="Rasgos de batalla: Bestias del Caos" hidden="false" id="5eef-030c-9c03-dc49" type="selectionEntry" targetId="6ef5-2a41-46d3-c7f4">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1459-0d2a-b696-bf6e" includeChildSelections="true"/>
       </constraints>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="cb57-0a54-334f-17be" name="Nighthaunt - The Clattering Procession" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="48" revision="12" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: The Clattering Procession" hidden="false" id="ceea-f55c-0a61-6215" publicationId="67f7-aa7f-294f-880d">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: La Procesión Traqueteante" hidden="false" id="ceea-f55c-0a61-6215" publicationId="67f7-aa7f-294f-880d">
       <profiles>
         <profile name="La velocidad de la muerte" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6617-2aed-0436-3597">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de tu turno</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Clattering Procession^^** que haya usado una habilidad de **^^Charge^^** o **^^Retreat^^** este turno, no esté en combate y esté totalmente a 9" o menos de un borde del campo de batalla para usar esta habilidad.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Clattering Procession^^** que haya usado una habilidad de **^^Cargar^^** o **^^Retirarse^^** este turno, no esté en combate y esté totalmente a 9" o menos de un borde del campo de batalla para usar esta habilidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Retira esa unidad del campo de batalla y vuelve a colocarla totalmente a 9" o menos de un borde del campo de batalla y a más de 3" de todas las unidades enemigas.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -73,7 +73,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Tu oponente ha declarado una habilidad de **^^Hechizo^^**</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si una unidad amiga **^^Clattering Procession^^** totalmente a 12" o menos de esta unidad fue elegida como objetivo de ese hechizo, esta unidad puede usar la habilidad &apos;Unbind&apos; como si tuviera **^^Wizard (1)^^**. Suma 1 a la tirada de desvanecimiento de esa habilidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si una unidad amiga **^^Clattering Procession^^** totalmente a 12" o menos de esta unidad fue elegida como objetivo de ese hechizo, esta unidad puede usar la habilidad &apos;Desvincular&apos; como si tuviera **^^Wizard (1)^^**. Suma 1 a la tirada de desvanecimiento de esa habilidad.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -90,7 +90,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="096e-4297-7d5c-f206" hidden="true">
+            <rule name="Restricciones de mejoras" id="096e-4297-7d5c-f206" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -155,7 +155,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de carga</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta 3 unidades amigas **^^Clattering Procession^^** totalmente a 12" o menos de esta unidad.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, los objetivos pueden usar habilidades de **^^Charge^^** aunque hayan usado una habilidad de **^^Retreat^^** en el mismo turno.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, los objetivos pueden usar habilidades de **^^Cargar^^** aunque hayan usado una habilidad de **^^Retirarse^^** en el mismo turno.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -172,7 +172,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="3ce5-232e-ff54-b9ee" hidden="true">
+            <rule name="Restricciones de mejoras" id="3ce5-232e-ff54-b9ee" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -289,7 +289,7 @@
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="e659-0cf3-e464-e82d" type="selectionEntryGroup" targetId="fb51-5794-173f-10b1"/>
         <entryLink import="true" name="Heroic Traits" hidden="true" id="d6b4-0665-fbc8-1d52" type="selectionEntryGroup" targetId="a986-4fef-62bd-ea70"/>
         <entryLink import="true" name="Paths" hidden="false" id="a5f8-74c4-e740-b2ca" type="selectionEntryGroup" targetId="f024-0f38-2fa6-0ec4"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="f2e9-469a-2da8-3c58" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="f2e9-469a-2da8-3c58" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="General" hidden="false" id="c107-8cfd-3bfb-609c" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="2a51-3ed6-44e1-1ea1" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -349,7 +349,7 @@
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4681-3bf0-59c3-7a25" type="selectionEntryGroup" targetId="fb51-5794-173f-10b1"/>
         <entryLink import="true" name="Heroic Traits" hidden="true" id="ad7a-5945-33da-284b" type="selectionEntryGroup" targetId="a986-4fef-62bd-ea70"/>
         <entryLink import="true" name="Paths" hidden="false" id="9d1d-2cdf-4fef-b3ec" type="selectionEntryGroup" targetId="f024-0f38-2fa6-0ec4"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="f30d-2051-1b99-3876" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="f30d-2051-1b99-3876" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="General" hidden="false" id="703b-da37-8246-1cb2" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="b3f2-0d9e-d397-b85b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -418,7 +418,7 @@
         <categoryLink name="CLATTERING PROCESSION" hidden="false" id="dd18-d9fd-dc51-6571" targetId="178b-0d34-12f4-1ada" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: The Clattering Procession" hidden="false" id="7bb8-e7fb-a67d-9449" type="selectionEntry" targetId="ceea-f55c-0a61-6215">
+    <entryLink import="true" name="Rasgos de batalla: La Procesión Traqueteante" hidden="false" id="7bb8-e7fb-a67d-9449" type="selectionEntry" targetId="ceea-f55c-0a61-6215">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="030f-5e17-469d-7da2" includeChildSelections="true"/>
       </constraints>
@@ -491,7 +491,7 @@
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="1aaf-6fe8-a40f-4215" type="selectionEntryGroup" targetId="2182-0335-e5e0-7f40"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a7bf-0603-a27f-81ea" type="selectionEntryGroup" targetId="fb51-5794-173f-10b1"/>
         <entryLink import="true" name="Paths" hidden="false" id="a3a0-c75f-0057-dc9e" type="selectionEntryGroup" targetId="f024-0f38-2fa6-0ec4"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="791d-611d-0d62-e30b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="791d-611d-0d62-e30b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="65c5-2090-f41d-3a2e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="f936-8bc1-29de-65d5" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -645,7 +645,7 @@
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3676-ecaa-f9ac-b02b" type="selectionEntryGroup" targetId="fb51-5794-173f-10b1"/>
         <entryLink import="true" name="Heroic Traits" hidden="true" id="1a69-20a6-1988-da3d" type="selectionEntryGroup" targetId="a986-4fef-62bd-ea70"/>
         <entryLink import="true" name="Paths" hidden="false" id="e9f3-511a-7ea3-f0d0" type="selectionEntryGroup" targetId="f024-0f38-2fa6-0ec4"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="7810-da46-4713-cc07" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="7810-da46-4713-cc07" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="General" hidden="false" id="a062-8b64-9b57-f225" type="selectionEntry" targetId="a56b-952e-ad15-7868"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="7ab9-10cf-6ef9-e270" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>

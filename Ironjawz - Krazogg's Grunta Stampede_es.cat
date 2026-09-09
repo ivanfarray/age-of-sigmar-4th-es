@@ -10,7 +10,7 @@
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="81e0-696b-2f91-531f" type="selectionEntryGroup" targetId="a3b6-e4bc-1285-8e84"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="210e-1923-68af-c74b" type="selectionEntryGroup" targetId="1598-3c56-ed87-50c7"/>
         <entryLink import="true" name="Paths" hidden="false" id="f9d4-f0d1-90f8-7b41" type="selectionEntryGroup" targetId="ae0e-8a84-1ae4-74e8"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="ecd4-aba2-6e98-443a" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="ecd4-aba2-6e98-443a" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="49ef-b5f1-f6e9-3305" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="19bf-f9a7-068c-5c8f" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -142,7 +142,7 @@
         <categoryLink name="GRUNTA STAMPEDE" hidden="false" id="4815-6a5b-2423-26e2" targetId="b64f-85cf-cc50-4197" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: Krazogg&apos;s Grunta Stampede" hidden="false" id="817b-eb05-bd1f-0e06" type="selectionEntry" targetId="536b-7de9-5300-72b5"/>
+    <entryLink import="true" name="Rasgos de batalla: Estampida de Gruntas de Krazogg" hidden="false" id="817b-eb05-bd1f-0e06" type="selectionEntry" targetId="536b-7de9-5300-72b5"/>
     <entryLink import="true" name="Gruñesangres (Azote de Ghyran)" hidden="false" id="8612-6003-0d76-a105" type="selectionEntry" targetId="f0c2-47b3-2266-1a6f">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="2441-90cb-2b65-e15b" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
@@ -187,16 +187,16 @@
     <categoryEntry name="GRUNTA STAMPEDE" id="b64f-85cf-cc50-4197" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Krazogg&apos;s Grunta Stampede" hidden="false" id="536b-7de9-5300-72b5">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Estampida de Gruntas de Krazogg" hidden="false" id="536b-7de9-5300-72b5">
       <profiles>
         <profile name="¡Waaagh! de los gruñidores" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2592-80d5-2f7c-3a92">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), tu fase de carga</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una **^^Grunta Stampede Hero^^** amiga.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, los siguientes efectos se aplican a las unidades amigas **^^Grunta Stampede^^** mientras estén totalmente a 18" o menos del objetivo:
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una **^^Estampida de Gruntas Hero^^** amiga.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, los siguientes efectos se aplican a las unidades amigas **^^Estampida de Gruntas^^** mientras estén totalmente a 18" o menos del objetivo:
 • Puedes volver a tirar las tiradas de carga de esas unidades.
 • Suma 1 a la característica de Attacks de los **Pezuñas de gruñefauces** de esas unidades.
-• Tira un D6 en lugar de un D3 al determinar la cantidad de daño mortal infligido por la habilidad &apos;Goregrunta Charge&apos; de esas unidades.</characteristic>
+• Tira un D6 en lugar de un D3 al determinar la cantidad de daño mortal infligido por la habilidad &apos;Carga de gruñesangres&apos; de esas unidades.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -223,7 +223,7 @@
         <profile name="Impulso monstruoso" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b836-fe75-72df-3bb6">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma el número de la ronda de batalla actual a la característica de Move de las unidades amigas **^^Grunta Stampede^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma el número de la ronda de batalla actual a la característica de Move de las unidades amigas **^^Estampida de Gruntas^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Gray</attribute>
@@ -234,7 +234,7 @@
         <profile name="Comer sobre la marcha" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="cce4-374f-634c-26b7">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de carga</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un Grunta Stampede Monster amigo que no haya usado una habilidad Rampage este turno para usar esta habilidad, después elige como objetivo una unidad enemiga visible en combate con él.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un Estampida de Gruntas Monster amigo que no haya usado una habilidad Rampage este turno para usar esta habilidad, después elige como objetivo una unidad enemiga visible en combate con él.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado y suma al resultado la puntuación de ímpetu de la unidad que use esta habilidad. Si el resultado supera la característica de Health del objetivo, 1 miniatura de la unidad objetivo es abatida.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -248,8 +248,8 @@
         <profile name="Muro de carne porcina" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7e79-0806-31e3-7cf2">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una **^^Grunta Stampede Hero^^** amiga.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la batalla, resta 1 a las tiradas de impacto de los ataques de disparo que tengan como objetivo a esa **^^Hero^^** mientras esté totalmente a 6" o menos de una unidad amiga que no sea **^^Hero Grunta Stampede^^**.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una **^^Estampida de Gruntas Hero^^** amiga.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la batalla, resta 1 a las tiradas de impacto de los ataques de disparo que tengan como objetivo a esa **^^Hero^^** mientras esté totalmente a 6" o menos de una unidad amiga que no sea **^^Hero Estampida de Gruntas^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -262,8 +262,8 @@
         <profile name="Rápido y furioso" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="fe48-2bb5-a0da-434f">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga que no sea **^^Hero Grunta Stampede^^**</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">El objetivo puede usar inmediatamente la habilidad &apos;Normal Move&apos; como si fuera tu fase de movimiento</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga que no sea **^^Hero Estampida de Gruntas^^**</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">El objetivo puede usar inmediatamente la habilidad &apos;Movimiento normal&apos; como si fuera tu fase de movimiento</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -304,7 +304,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="209e-0fc3-34b2-62c6" hidden="true">
+            <rule name="Restricciones de mejoras" id="209e-0fc3-34b2-62c6" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -334,7 +334,7 @@
               <profiles>
                 <profile name="El Cráneo Explosivo" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2419-9d2c-26fb-097e">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una orden para una unidad amiga **^^Grunta Stampede^^** totalmente a 18" o menos de esta unidad</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una orden para una unidad amiga **^^Estampida de Gruntas^^** totalmente a 18" o menos de esta unidad</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad enemiga en combate con esa unidad amiga y tira un D3. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -353,7 +353,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="d9a3-eca9-8e64-6c4b" hidden="true">
+            <rule name="Restricciones de mejoras" id="d9a3-eca9-8e64-6c4b" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>

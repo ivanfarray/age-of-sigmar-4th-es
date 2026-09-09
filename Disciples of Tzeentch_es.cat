@@ -8,7 +8,7 @@
     <catalogueLink type="catalogue" name="✦ Path to Glory - Blighted Wilds" id="db9e-b444-f3d6-9018" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Disciples of Tzeentch" hidden="false" id="164c-a3a9-554f-a02d">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Discípulos de Tzeentch" hidden="false" id="164c-a3a9-554f-a02d">
       <profiles>
         <profile name="Ilusiones sobrenaturales" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9aab-2117-d699-8eef">
           <characteristics>
@@ -60,7 +60,7 @@ Las unidades amigas que estén **enmascaradas por ilusión** son destruidas al f
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si hay un **Fragmento argénteo** amigo en el campo de batalla, puedes colocar 1 **Fragmento argénteo** adicional en el campo de batalla. Debe colocarse totalmente dentro de tu territorio y a más de 3" de todos los objetivos y demás elementos de escenografía.
-**Nota del diseñador**: *El Fragmento argénteo original se coloca en el Paso 1 de la fase de despliegue usando la habilidad &apos;Deploy Faction Terrain&apos;. Esta habilidad permite colocar un segundo elemento de escenografía de este tipo y se usa en el Paso 3 de la fase de despliegue, después de que los ejércitos hayan sido desplegados.*</characteristic>
+**Nota del diseñador**: *El Fragmento argénteo original se coloca en el Paso 1 de la fase de despliegue usando la habilidad &apos;Desplegar escenografía de facción&apos;. Esta habilidad permite colocar un segundo elemento de escenografía de este tipo y se usa en el Paso 3 de la fase de despliegue, después de que los ejércitos hayan sido desplegados.*</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -102,11 +102,11 @@ Las unidades amigas que estén **enmascaradas por ilusión** son destruidas al f
         </profile>
         <profile name="Destinado a la batalla" typeId="9b15-469e-8bf3-70c7" typeName="Ability (Fate)" hidden="false" id="2f2b-6eac-02fb-0053">
           <characteristics>
-            <characteristic name="Timing" typeId="ee08-f0bb-c101-58d5">Reacción: Has declarado una habilidad **^^Charge^^** para una unidad **^^Disciples of Tzeentch^^** en tu turno</characteristic>
+            <characteristic name="Timing" typeId="ee08-f0bb-c101-58d5">Reacción: Has declarado una habilidad **^^Cargar^^** para una unidad **^^Disciples of Tzeentch^^** en tu turno</characteristic>
             <characteristic name="Declare" typeId="74f4-c00a-61c2-280d"/>
-            <characteristic name="Effect" typeId="c24b-9e80-9805-8ccf">Gasta cualquier número de **puntos de destino**. Por cada **punto de destino** que gastes, suma 1 a la tirada de carga de esa habilidad **^^Charge^^**.</characteristic>
+            <characteristic name="Effect" typeId="c24b-9e80-9805-8ccf">Gasta cualquier número de **puntos de destino**. Por cada **punto de destino** que gastes, suma 1 a la tirada de carga de esa habilidad **^^Cargar^^**.</characteristic>
             <characteristic name="Keywords" typeId="3a10-e240-163d-d34a"/>
-            <characteristic name="Used By" typeId="fb10-043b-0db8-f864">La unidad que use esa habilidad **^^Charge^^**.</characteristic>
+            <characteristic name="Used By" typeId="fb10-043b-0db8-f864">La unidad que use esa habilidad **^^Cargar^^**.</characteristic>
             <characteristic name="Fate Points" typeId="2817-a813-f11c-2961">1+</characteristic>
           </characteristics>
           <attributes>
@@ -223,7 +223,7 @@ Después, tira un dado. Si el resultado coincide con alguno de los dados de la t
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Enhancement Restrictions" id="3b46-0678-f37c-0ea8" hidden="true">
+            <rule name="Restricciones de mejoras" id="3b46-0678-f37c-0ea8" hidden="true">
               <description>Puedes elegir un artefacto de esta tabla en lugar de otras tablas de Artefactos de Poder disponibles para esta facción. Solo se puede dar un artefacto de esta tabla a una Hero.</description>
             </rule>
           </rules>
@@ -331,7 +331,7 @@ Después, tira un dado. Si el resultado coincide con alguno de los dados de la t
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="e6ef-89de-3824-60a8" hidden="true">
+            <rule name="Restricciones de mejoras" id="e6ef-89de-3824-60a8" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -346,7 +346,7 @@ Después, tira un dado. Si el resultado coincide con alguno de los dados de la t
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una **^^Manifestation^^** visible (amiga o enemiga) que no haya sido colocada este turno y que esté a 12" o menos de esta unidad.</characteristic>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+:
 • El objetivo es desterrado.
-• **Heal (X)** a esta unidad, donde X es la característica de Health del objetivo.</characteristic>
+• **Curar (X)** a esta unidad, donde X es la característica de Health del objetivo.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -388,7 +388,7 @@ Después, tira un dado. Si el resultado coincide con alguno de los dados de la t
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Esta unidad puede usar esta habilidad si alguna **^^Manifestation^^** enemiga fue desterrada esta fase.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar una habilidad **^^Summon^^** del saber de manifestaciones que elegiste durante la composición del ejército. Esa habilidad **^^Summon^^** no cuenta para el número total de habilidades **^^Hechizo^^** o **^^Banish^^** que esta unidad puede usar esta fase.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar una habilidad **^^Summon^^** del saber de manifestaciones que elegiste durante la composición del ejército. Esa habilidad **^^Summon^^** no cuenta para el número total de habilidades **^^Hechizo^^** o **^^Desterrar^^** que esta unidad puede usar esta fase.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -412,7 +412,7 @@ Después, tira un dado. Si el resultado coincide con alguno de los dados de la t
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Enhancement Restrictions" id="8ee7-5d83-bf58-f774" hidden="true">
+            <rule name="Restricciones de mejoras" id="8ee7-5d83-bf58-f774" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -436,7 +436,7 @@ Después, tira un dado. Si el resultado coincide con alguno de los dados de la t
     </selectionEntryGroup>
     <selectionEntryGroup name="Battle Formations: Disciples of Tzeentch" id="cbed-dc99-670a-3cd0" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Fated Blades" hidden="false" id="2f88-907-9064-fdd6">
+        <selectionEntry type="upgrade" import="true" name="Filos del Destino" hidden="false" id="2f88-907-9064-fdd6">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9190-2512-b032-2979"/>
           </constraints>
@@ -454,7 +454,7 @@ Después, tira un dado. Si el resultado coincide con alguno de los dados de la t
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Malevolent Schemers" hidden="false" id="57ac-5d1b-3573-864c">
+        <selectionEntry type="upgrade" import="true" name="Conspiradores Malévolos" hidden="false" id="57ac-5d1b-3573-864c">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7065-c69e-68a2-5670"/>
           </constraints>
@@ -475,7 +475,7 @@ Después, tira un dado. Si el resultado coincide con alguno de los dados de la t
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Denizens of the Silver Tower" hidden="false" id="90bb-e246-3385-a581">
+        <selectionEntry type="upgrade" import="true" name="Habitantes de la Torre de Plata" hidden="false" id="90bb-e246-3385-a581">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64fe-106-7c2b-dd2d"/>
           </constraints>
@@ -494,7 +494,7 @@ Si retiras 1 o más puntos de daño de la reserva de daño de una unidad amiga *
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Mutants and Mad Things" hidden="false" id="4554-394c-c1fb-c8e4">
+        <selectionEntry type="upgrade" import="true" name="Mutantes y Criaturas Dementes" hidden="false" id="4554-394c-c1fb-c8e4">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8885-bbf4-46f3-7455"/>
           </constraints>
@@ -515,7 +515,7 @@ Si retiras 1 o más puntos de daño de la reserva de daño de una unidad amiga *
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Masters of Fate" hidden="true" id="705f-ac18-4cfd-ca36" publicationId="f894-7929-f79a-a269">
+        <selectionEntry type="upgrade" import="true" name="Maestros del Destino" hidden="true" id="705f-ac18-4cfd-ca36" publicationId="f894-7929-f79a-a269">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b45-880c-5878-2436"/>
           </constraints>
@@ -523,7 +523,7 @@ Si retiras 1 o más puntos de daño de la reserva de daño de una unidad amiga *
             <profile name="Locura simbiótica" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="62b9-a6fd-962f-bf68">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas de combate cuerpo a cuerpo de las unidades amigas **^^Arcanite^^** tienen **Crit (2 Hits)** mientras estén totalmente a 12" o menos de una unidad amiga **^^Disciples of Tzeentch Daemon^^**.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas de combate cuerpo a cuerpo de las unidades amigas **^^Arcanite^^** tienen **Crítico (2 impactos)** mientras estén totalmente a 12" o menos de una unidad amiga **^^Disciples of Tzeentch Daemon^^**.</characteristic>
               </characteristics>
               <attributes>
                 <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -545,7 +545,7 @@ Si retiras 1 o más puntos de daño de la reserva de daño de una unidad amiga *
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Spellweaver Coven" hidden="true" id="4037-018d-9291-508e" publicationId="f894-7929-f79a-a269">
+        <selectionEntry type="upgrade" import="true" name="Aquelarre Tejehechizos" hidden="true" id="4037-018d-9291-508e" publicationId="f894-7929-f79a-a269">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf39-84b2-bf04-4803"/>
           </constraints>
@@ -657,7 +657,7 @@ Si retiras 1 o más puntos de daño de la reserva de daño de una unidad amiga *
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="0582-4884-f423-55be" hidden="true">
+            <rule name="Restricciones de mejoras" id="0582-4884-f423-55be" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -896,7 +896,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Enhancement Restrictions" id="427a-4af2-d92f-7212" hidden="true">
+            <rule name="Restricciones de mejoras" id="427a-4af2-d92f-7212" hidden="true">
               <description>Las Visions of Fate son mejoras únicas que se pueden dar a unidades Disciples of Tzeentch que no sean Hero ni Bestia. Una unidad solo puede tener 1 Vision of Fate.</description>
             </rule>
           </rules>
@@ -1007,7 +1007,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="9af5-3c0d-acc2-33f5" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="7266-0516-ff48-ffb3" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7fcf-11d3-3cca-511f" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="20d4-1fd9-a7c1-254b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="20d4-1fd9-a7c1-254b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="9d01-4053-e1d8-2fcc" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="f53d-e9fb-a12c-8638" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1069,7 +1069,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="a3b3-d5ac-7e1d-7a94" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="c223-f85f-b061-ca4b" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="994c-4259-cf66-56b9" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="656a-7227-4aa4-dd1d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="656a-7227-4aa4-dd1d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="7323-bd0d-adf8-ae8a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="2832-f428-6452-29c0" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1132,7 +1132,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="d793-df0-9e9c-185b" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="ad0a-5138-6903-2c90" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="74f8-23b9-bd3a-46b0" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="44c4-93de-231b-9387" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="44c4-93de-231b-9387" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="da57-a49b-dd36-cd32" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="2087-4d56-70f5-bf1e" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1180,7 +1180,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="bc85-23bb-da0f-c541" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="46d6-1b64-1910-aaf6" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="f012-2ca1-2913-598f" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="04a8-f9d4-743a-5db6" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="04a8-f9d4-743a-5db6" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="0456-be12-fff8-375f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="828f-56eb-d469-a2fb" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1228,7 +1228,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="f597-450e-465e-87e4" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="e627-796f-0b1a-61dc" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="6f1d-df61-94b7-4372" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="e894-5a33-ed2b-e0e8" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="e894-5a33-ed2b-e0e8" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="993b-5283-ec16-71af" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="3e53-9b8a-18b5-d72e" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1367,7 +1367,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="b65e-3fd4-e470-8194" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="3919-244e-22c6-a7a5" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="8776-f648-ff28-7246" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="7957-c929-7ee8-40f9" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="7957-c929-7ee8-40f9" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="932a-68a4-f6b7-c8b3" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="be46-52f8-0947-0fe5" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1429,7 +1429,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="9987-8af0-6204-41b6" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="e341-345f-8c7c-7b6e" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4ed6-254d-c5f5-0e5b" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="6f40-bfaa-5050-2cf4" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="6f40-bfaa-5050-2cf4" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="9afd-3382-311b-0ad4" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="1002-351d-029c-a439" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1477,7 +1477,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="712-bdf5-3b64-d32" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="2b1a-df37-ee12-a4ce" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="e581-7d61-6814-8159" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="6893-5b86-c1a6-6af1" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="6893-5b86-c1a6-6af1" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="ee16-f7e5-542f-beb5" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="a173-aac0-628d-1265" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1539,7 +1539,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="9754-3112-77ea-e67b" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="7954-f947-4822-1fff" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="9d9e-c82b-50ff-245e" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="3db5-f8c1-d1f7-762d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="3db5-f8c1-d1f7-762d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="7132-c0b1-4c86-b2a5" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="557d-9018-5f6f-525b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1657,7 +1657,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="cf0f-10f1-8518-3f80" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="00ab-5e6f-12b8-95c5" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d253-99e1-1759-a380" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="443d-9186-59a6-9e4f" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="443d-9186-59a6-9e4f" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="65c3-1a62-f4cd-65bc" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="55f6-61bd-2764-49ca" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1699,7 +1699,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: Disciples of Tzeentch" hidden="false" id="1360-6360-148d-3c1b" type="selectionEntry" targetId="164c-a3a9-554f-a02d">
+    <entryLink import="true" name="Rasgos de batalla: Discípulos de Tzeentch" hidden="false" id="1360-6360-148d-3c1b" type="selectionEntry" targetId="164c-a3a9-554f-a02d">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3ce-f676-7d3e-112b" includeChildSelections="true"/>
       </constraints>
@@ -2109,7 +2109,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="e579-b6c4-276b-7c54" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="7425-7959-2e9c-816e" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ed0b-c971-8af5-048b" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="3dca-f171-1afb-3a33" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="3dca-f171-1afb-3a33" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="d830-5e22-3dae-456c" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="896d-be24-3a44-7ff8" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -2351,7 +2351,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="0c51-a4a0-d984-6f59" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="c349-7281-5df6-8453" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ce36-5a84-bd84-4d03" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="b131-3921-dcfb-d7ae" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="b131-3921-dcfb-d7ae" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="9643-313b-1de8-fc07" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="9d2f-8975-5b2c-40ac" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -2543,7 +2543,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="4d86-3f86-7cfb-6e35" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="1388-b2b8-c0f9-6e04" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="03d2-f973-138d-8055" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="ee92-7569-36c9-b9ec" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="ee92-7569-36c9-b9ec" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="7ef3-62fa-f9b2-bcdb" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="860b-85a1-e9ec-586d" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -2607,7 +2607,7 @@ La primera vez que esta unidad sea destruida, gana D6 **puntos de destino**.</ch
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="6eed-25d1-bd5c-b508" type="selectionEntryGroup" targetId="d953-63d2-257f-850f"/>
         <entryLink import="true" name="Paths" hidden="false" id="fbdc-639e-27fa-4d9f" type="selectionEntryGroup" targetId="3fea-aadd-11d7-023d"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4fe1-594b-7fcc-c194" type="selectionEntryGroup" targetId="9f62-724e-720d-87ff"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="30be-593c-7a8c-a7dd" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="30be-593c-7a8c-a7dd" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="ae73-ad82-79a0-dc0e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="2b8c-6d99-8d65-3e48" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>

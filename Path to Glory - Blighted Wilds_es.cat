@@ -429,7 +429,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si los ataques de combate de esta unidad han destruido una unidad enemiga este turno, aplica **Heal (5)** a esta unidad. Si esa unidad enemiga era un **^^Hero^^**, aplica **Heal (X)** a esta unidad, donde **X** es el número de puntos de daño asignados a esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si los ataques de combate de esta unidad han destruido una unidad enemiga este turno, aplica **Heal (5)** a esta unidad. Si esa unidad enemiga era un **^^Hero^^**, aplica **Curar (X)** a esta unidad, donde **X** es el número de puntos de daño asignados a esta unidad.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -981,7 +981,7 @@
                   <profiles>
                     <profile name="La tierra se rebela" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="dd68-906e-d95a-98ca">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: el oponente declaró una habilidad de **^^Charge^^** para una unidad a 12" o menos de esta unidad</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: el oponente declaró una habilidad de **^^Cargar^^** para una unidad a 12" o menos de esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Puedes sustituir 1 de los dados de esa tirada de carga por el resultado de tu dado.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -1048,7 +1048,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de combate enemiga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, durante el resto del turno, por cada tirada de impacto sin modificar de 1 de un ataque de combate del objetivo, inflige 1 daño mortal al objetivo después de resolver la habilidad **^^Fight^^**.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, durante el resto del turno, por cada tirada de impacto sin modificar de 1 de un ataque de combate del objetivo, inflige 1 daño mortal al objetivo después de resolver la habilidad **^^Combatir^^**.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1204,7 +1204,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad tiene un brebaje ghyranita, puede usar inmediatamente la habilidad &apos;Retreat&apos; como si fuera tu fase de movimiento sin que se le inflija daño mortal.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad tiene un brebaje ghyranita, puede usar inmediatamente la habilidad &apos;Retirarse&apos; como si fuera tu fase de movimiento sin que se le inflija daño mortal.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1294,9 +1294,9 @@
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de disparo</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 12" o menos de esta unidad.</characteristic>
                         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3 y aplica el efecto correspondiente:
-**1 *Potion of Instant Corrosion:*** Inflige D3 daño mortal al objetivo.
-**2 *Potion of Imprecision:*** Resta 1 a las tiradas de impacto de los ataques del objetivo durante el resto del turno.
-**3 *Potion of Vulnerability:*** No se pueden hacer tiradas de salvaguardia por el objetivo durante el resto del turno.</characteristic>
+**1 *Poción de corrosión instantánea:*** Inflige D3 daño mortal al objetivo.
+**2 *Poción de imprecisión:*** Resta 1 a las tiradas de impacto de los ataques del objetivo durante el resto del turno.
+**3 *Poción de vulnerabilidad:*** No se pueden hacer tiradas de salvaguardia por el objetivo durante el resto del turno.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1553,7 +1553,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta D3 unidades amigas.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada objetivo puede usar la habilidad &apos;Normal Move&apos; como si fuera tu fase de movimiento.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada objetivo puede usar la habilidad &apos;Movimiento normal&apos; como si fuera tu fase de movimiento.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1639,7 +1639,7 @@
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de movimiento</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos esta unidad y hasta otra 1 unidad amiga visible totalmente a 6" o menos de esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Retira los objetivos del campo de batalla y vuelve a colocarlos con cada miniatura disputando el mismo objetivo o elemento de escenografía y fuera de combate. Los objetivos no pueden usar habilidades **^^Charge^^** durante el resto del turno.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Retira los objetivos del campo de batalla y vuelve a colocarlos con cada miniatura disputando el mismo objetivo o elemento de escenografía y fuera de combate. Los objetivos no pueden usar habilidades **^^Cargar^^** durante el resto del turno.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1862,7 +1862,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, Reacción: Has declarado una habilidad **^^Hechizo^^** del Lore of the Overgrown Wilds para una unidad totalmente a 6" o menos de esta unidad.</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cambia la tirada de lanzamiento de ese hechizo a un valor de 9 que no puede modificarse. Si ese hechizo es desvinculado, inflige D6 daño mortal a la unidad que usó la habilidad **^^Unbind^^**.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cambia la tirada de lanzamiento de ese hechizo a un valor de 9 que no puede modificarse. Si ese hechizo es desvinculado, inflige D6 daño mortal a la unidad que usó la habilidad **^^Desvincular^^**.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -2007,7 +2007,7 @@
                 <profile name="Sangre débil, corazones fuertes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4de3-0307-0aec-3207">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Rend de las armas de combate usadas para ataques que tengan como objetivo esta unidad. Cada vez que esta unidad use la orden &apos;Rally&apos;, puedes hacer 1 tirada de reagrupamiento adicional de D6.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Rend de las armas de combate usadas para ataques que tengan como objetivo esta unidad. Cada vez que esta unidad use la orden &apos;Reagrupamiento&apos;, puedes hacer 1 tirada de reagrupamiento adicional de D6.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -2083,7 +2083,7 @@
                 <profile name="Almizcle de duende prensil" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="db84-e3c9-acf5-bddb">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Tira un D3 en lugar de un D6 al hacer tiradas de correr para esta unidad y cuando esta unidad use la orden &apos;Redeploy&apos;. Cada vez que una unidad enemiga en combate con esta unidad use una habilidad **^^Retreat^^**, tira un D6 en lugar de un D3 al determinar la cantidad de daño mortal que esa habilidad inflige a esa unidad enemiga.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Tira un D3 en lugar de un D6 al hacer tiradas de correr para esta unidad y cuando esta unidad use la orden &apos;Redesplegar&apos;. Cada vez que una unidad enemiga en combate con esta unidad use una habilidad **^^Retirarse^^**, tira un D6 en lugar de un D3 al determinar la cantidad de daño mortal que esa habilidad inflige a esa unidad enemiga.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -2198,7 +2198,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Battle Mounts" id="b2a8-d15c-5e93-034f" hidden="false" collapsible="true" sortIndex="1">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Mount" hidden="false" id="0c58-024c-1c2d-6504" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Montura de Ghyran" hidden="false" id="0c58-024c-1c2d-6504" sortIndex="1">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
@@ -2221,9 +2221,9 @@
                 </modifier>
               </modifiers>
               <rules>
-                <rule name="Ghyranite Mount" id="c6a6-c5d4-dcec-35d4" hidden="true">
+                <rule name="Montura de Ghyran" id="c6a6-c5d4-dcec-35d4" hidden="true">
                   <description>Solo **^^Infantry^^** que no sea **^^Hero^^**.
-Añade el arma **Ghyranite Mount&apos;s Teeth, Hooves, or Claws** al pergamino de tu héroe de regimiento.
+Añade el arma **Montura de Ghyran&apos;s Teeth, Hooves, or Claws** al pergamino de tu héroe de regimiento.
 Después, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Move a 12".
 • Cambia la característica de Health a 3 o suma 1 a la característica de Health.
@@ -2252,7 +2252,7 @@ Después, realiza los siguientes cambios en su pergamino:
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Fiend" hidden="false" id="18f6-57b9-6c81-681a" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Diablo de Ghyran" hidden="false" id="18f6-57b9-6c81-681a" sortIndex="2">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
@@ -2282,9 +2282,9 @@ Después, realiza los siguientes cambios en su pergamino:
                 </modifier>
               </modifiers>
               <rules>
-                <rule name="Ghyranite Fiend" id="3af9-549c-7ed3-751d" hidden="true">
+                <rule name="Diablo de Ghyran" id="3af9-549c-7ed3-751d" hidden="true">
                   <description>Solo **^^Infantry^^** que no sea **^^Hero^^** o **Carro ghyranita**.
-Si la unidad es **^^Infantry^^**, añade el arma **Mandíbulas de demonio bestial ghyranita** al pergamino de tu héroe de regimiento. Si la unidad es un **Carro ghyranita**, sustituye su arma **Companion** por **Mandíbulas de demonio bestial ghyranita**.
+Si la unidad es **^^Infantry^^**, añade el arma **Mandíbulas de demonio bestial ghyranita** al pergamino de tu héroe de regimiento. Si la unidad es un **Carro ghyranita**, sustituye su arma **Compañero** por **Mandíbulas de demonio bestial ghyranita**.
 Además, realiza los siguientes cambios en el pergamino de tu héroe de regimiento:
 • Cambia la característica de Move a 10".
 • Suma 6 a la característica de Health.
@@ -2294,7 +2294,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Ghyranite Colossus" hidden="false" id="4854-47e8-a804-c39c" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Coloso de Ghyran" hidden="false" id="4854-47e8-a804-c39c" sortIndex="3">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
@@ -2314,9 +2314,9 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
               <rules>
-                <rule name="Ghyranite Colossus" id="fe7b-1562-e618-e1ea" hidden="true">
+                <rule name="Coloso de Ghyran" id="fe7b-1562-e618-e1ea" hidden="true">
                   <description>Solo unidades que no sean **^^Hero^^** ni **^^Bestia^^**.
-Si la unidad es **^^Infantry^^**, **^^Monster^^** o un **Bombarda ghyranita**, añade las armas **Fauces de monstruosidad ghyranita** y **Garras de monstruosidad ghyranita** y la habilidad &apos;Daños de batalla&apos; al pergamino de tu héroe de regimiento. Si la unidad es un **Carro ghyranita**, sustituye su arma **Companion** por **Fauces de monstruosidad ghyranita** y **Garras de monstruosidad ghyranita**.
+Si la unidad es **^^Infantry^^**, **^^Monster^^** o un **Bombarda ghyranita**, añade las armas **Fauces de monstruosidad ghyranita** y **Garras de monstruosidad ghyranita** y la habilidad &apos;Daños de batalla&apos; al pergamino de tu héroe de regimiento. Si la unidad es un **Carro ghyranita**, sustituye su arma **Compañero** por **Fauces de monstruosidad ghyranita** y **Garras de monstruosidad ghyranita**.
 Además, realiza los siguientes cambios en el pergamino de tu héroe de regimiento:
 • Cambia la característica de Move a 12".
 • Suma 5 a la característica de Health.
@@ -2407,7 +2407,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Influential" hidden="false" id="5d63-34ff-ff2d-6deb" sortIndex="4">
+            <selectionEntry type="upgrade" import="true" name="Influyente" hidden="false" id="5d63-34ff-ff2d-6deb" sortIndex="4">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-1"/>
@@ -2427,12 +2427,12 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
               <rules>
-                <rule name="Influential" id="b5c9-3d18-0952-a8e3" hidden="true">
+                <rule name="Influyente" id="b5c9-3d18-0952-a8e3" hidden="true">
                   <description>Añade 1 a la característica de Control de esta unidad.</description>
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crit (Auto-wound)" hidden="false" id="9f07-7b66-543b-c594" sortIndex="5">
+            <selectionEntry type="upgrade" import="true" name="Crítico (herida automática)" hidden="false" id="9f07-7b66-543b-c594" sortIndex="5">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
@@ -2440,8 +2440,8 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
               </costs>
               <rules>
-                <rule name="Crit (Auto-wound)" id="acaf-3f32-f742-3b76" hidden="true">
-                  <description>Elige 1 de las armas de combate de esta unidad. Esa arma tiene **Crit (Auto-wound)**.</description>
+                <rule name="Crítico (herida automática)" id="acaf-3f32-f742-3b76" hidden="true">
+                  <description>Elige 1 de las armas de combate de esta unidad. Esa arma tiene **Crítico (herida automática)**.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -2589,7 +2589,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crit (2 Hits)" hidden="false" id="b7fc-056f-b086-bd78" sortIndex="6">
+            <selectionEntry type="upgrade" import="true" name="Crítico (2 impactos)" hidden="false" id="b7fc-056f-b086-bd78" sortIndex="6">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
@@ -2597,8 +2597,8 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
               </costs>
               <rules>
-                <rule name="Crit (2 Hits)" id="37e0-fab8-d580-7596" hidden="true">
-                  <description>Elige 1 de las armas de combate de esta unidad. Esa arma tiene **Crit (2 Hits)**.</description>
+                <rule name="Crítico (2 impactos)" id="37e0-fab8-d580-7596" hidden="true">
+                  <description>Elige 1 de las armas de combate de esta unidad. Esa arma tiene **Crítico (2 impactos)**.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -2746,14 +2746,14 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Brawny" hidden="false" id="6306-a933-e45d-83c1" sortIndex="8">
+            <selectionEntry type="upgrade" import="true" name="Fornido" hidden="false" id="6306-a933-e45d-83c1" sortIndex="8">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
               </costs>
               <rules>
-                <rule name="Brawny" id="22c5-6ce1-c451-462b" hidden="true">
+                <rule name="Fornido" id="22c5-6ce1-c451-462b" hidden="true">
                   <description>Elige 1 de las armas de esta unidad. Mejora en 1 la característica de Wound de esa arma (por ejemplo, 4+ pasa a 3+).</description>
                 </rule>
               </rules>
@@ -2929,14 +2929,14 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Skilled Warriors" hidden="false" id="e9ea-680b-a6fc-6abb" sortIndex="7">
+            <selectionEntry type="upgrade" import="true" name="Guerreros hábiles" hidden="false" id="e9ea-680b-a6fc-6abb" sortIndex="7">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
               </costs>
               <rules>
-                <rule name="Skilled Warriors" id="2399-24ae-9e0d-c88b" hidden="true">
+                <rule name="Guerreros hábiles" id="2399-24ae-9e0d-c88b" hidden="true">
                   <description>Elige 1 de las armas de esta unidad. Mejora en 1 la característica de Hit de esa arma (por ejemplo, 4+ pasa a 3+).</description>
                 </rule>
               </rules>
@@ -3176,7 +3176,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Fleet" hidden="false" id="4341-6d92-cf2f-40e3" sortIndex="11">
+            <selectionEntry type="upgrade" import="true" name="Ligero" hidden="false" id="4341-6d92-cf2f-40e3" sortIndex="11">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -3196,19 +3196,19 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
               <rules>
-                <rule name="Fleet" id="67e2-bee1-3e6c-ebe2" hidden="true">
+                <rule name="Ligero" id="67e2-bee1-3e6c-ebe2" hidden="true">
                   <description>Suma 1" a la característica de Move de esta unidad.</description>
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Fearsome Weapons" hidden="false" id="d524-3885-828d-df02" sortIndex="12">
+            <selectionEntry type="upgrade" import="true" name="Armas temibles" hidden="false" id="d524-3885-828d-df02" sortIndex="12">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
               </costs>
               <rules>
-                <rule name="Fearsome Weapons" id="4bdd-9c49-4600-b7eb" hidden="true">
+                <rule name="Armas temibles" id="4bdd-9c49-4600-b7eb" hidden="true">
                   <description>Elige 1 de las armas de esta unidad. Suma 1 a la característica de Rend de esa arma.</description>
                 </rule>
               </rules>
@@ -3384,14 +3384,14 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Swift Strikes" hidden="false" id="6a52-b674-55b9-9a9b" sortIndex="13">
+            <selectionEntry type="upgrade" import="true" name="Golpes veloces" hidden="false" id="6a52-b674-55b9-9a9b" sortIndex="13">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
               </costs>
               <rules>
-                <rule name="Swift Strikes" id="fbed-e3f9-fd42-5b3f" hidden="true">
+                <rule name="Golpes veloces" id="fbed-e3f9-fd42-5b3f" hidden="true">
                   <description>Elige 1 de las armas de esta unidad. Suma 1 a la característica de Attacks de esa arma.</description>
                 </rule>
               </rules>
@@ -3567,7 +3567,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Healthy Physique" hidden="false" id="c049-0b76-190f-4bd9" sortIndex="14">
+            <selectionEntry type="upgrade" import="true" name="Físico saludable" hidden="false" id="c049-0b76-190f-4bd9" sortIndex="14">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
@@ -3591,12 +3591,12 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
               <rules>
-                <rule name="Healthy Physique" id="8dd6-2d80-5112-65be" hidden="true">
+                <rule name="Físico saludable" id="8dd6-2d80-5112-65be" hidden="true">
                   <description>Suma 1 a la característica de Health de esta unidad.</description>
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Armourers" hidden="false" id="fe94-a968-a222-a457" sortIndex="15">
+            <selectionEntry type="upgrade" import="true" name="Armeros" hidden="false" id="fe94-a968-a222-a457" sortIndex="15">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
@@ -3620,20 +3620,20 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
               <rules>
-                <rule name="Armourers" id="2a68-9c0e-693f-12cc" hidden="true">
+                <rule name="Armeros" id="2a68-9c0e-693f-12cc" hidden="true">
                   <description>Mejora en 1 la característica de Save de esta unidad (por ejemplo, 5+ pasa a 4+).</description>
                 </rule>
               </rules>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Crit (Mortal)" hidden="false" id="9d06-4eb2-1007-55f5" sortIndex="16">
+            <selectionEntry type="upgrade" import="true" name="Crítico (mortal)" hidden="false" id="9d06-4eb2-1007-55f5" sortIndex="16">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
               </costs>
               <rules>
-                <rule name="Crit (Mortal)" id="d074-a075-d8bd-b235" hidden="true">
-                  <description>Elige 1 de las armas de combate de esta unidad. Esa arma tiene **Crit (Mortal)**.</description>
+                <rule name="Crítico (mortal)" id="d074-a075-d8bd-b235" hidden="true">
+                  <description>Elige 1 de las armas de combate de esta unidad. Esa arma tiene **Crítico (mortal)**.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -3781,15 +3781,15 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Charge (+1 Damage)" hidden="false" id="7bd4-c078-723b-39a8" sortIndex="17">
+            <selectionEntry type="upgrade" import="true" name="Carga (+1 Daño)" hidden="false" id="7bd4-c078-723b-39a8" sortIndex="17">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
               </costs>
               <rules>
-                <rule name="Charge (+1 Damage)" id="93ea-e322-6b21-365c" hidden="true">
-                  <description>Elige 1 de las armas de combate de esta unidad. Esa arma tiene **Charge (+1 Damage)**.</description>
+                <rule name="Carga (+1 Daño)" id="93ea-e322-6b21-365c" hidden="true">
+                  <description>Elige 1 de las armas de combate de esta unidad. Esa arma tiene **Carga (+1 Daño)**.</description>
                 </rule>
               </rules>
               <selectionEntryGroups>
@@ -3937,14 +3937,14 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Brutal Strikes" hidden="false" id="ba19-5940-8a80-0998" sortIndex="18">
+            <selectionEntry type="upgrade" import="true" name="Golpes brutales" hidden="false" id="ba19-5940-8a80-0998" sortIndex="18">
               <costs>
                 <cost name="pts" typeId="points" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
               </costs>
               <rules>
-                <rule name="Brutal Strikes" id="895f-c12c-13e4-2068" hidden="true">
+                <rule name="Golpes brutales" id="895f-c12c-13e4-2068" hidden="true">
                   <description>Elige 1 de las armas de esta unidad. Suma 1 a la característica de Damage de esa arma.</description>
                 </rule>
               </rules>
@@ -4689,7 +4689,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta D3 unidades amigas.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada objetivo puede usar la habilidad &apos;Normal Move&apos; como si fuera tu fase de movimiento.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada objetivo puede usar la habilidad &apos;Movimiento normal&apos; como si fuera tu fase de movimiento.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4761,7 +4761,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), cualquier fase de héroe</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, salvo la habilidad de arma **Companion**, las habilidades de arma de los ataques del objetivo no tienen efecto.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, salvo la habilidad de arma **Compañero**, las habilidades de arma de los ataques del objetivo no tienen efecto.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -4921,7 +4921,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, Cualquier fase de disparo</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 12" o menos de esta unidad.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la batalla, cada vez que el objetivo use una habilidad **Move** o **Fight**, inflige 1 daño mortal al objetivo después de resolver esa habilidad. Después, retira este brebaje ghyranita de tu hoja de ejército.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la batalla, cada vez que el objetivo use una habilidad **Move** o **Combatir**, inflige 1 daño mortal al objetivo después de resolver esa habilidad. Después, retira este brebaje ghyranita de tu hoja de ejército.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Brebaje ghyranita^^**</characteristic>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -5061,7 +5061,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
         <categoryLink name="Army Composition" hidden="false" id="340a-e2e6-6017-170c" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Blighted Wilds Abilities" hidden="true" id="d3f2-b089-cd9f-f403">
+    <selectionEntry type="upgrade" import="true" name="Habilidades de las Tierras Salvajes Corruptas" hidden="true" id="d3f2-b089-cd9f-f403">
       <categoryLinks>
         <categoryLink name="Reference" hidden="false" id="632c-e32e-d35c-7eaa" targetId="3360-1158-e879-9606" primary="true"/>
       </categoryLinks>
@@ -5086,7 +5086,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos un número de unidades amigas con un valor en puntos combinado igual o superior al valor excedente.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca esas unidades en reserva como **refuerzos retrasados**. Ahora ya se han desplegado. Si algún **refuerzo retrasado** forma parte de un regimiento, las demás unidades de ese regimiento todavía pueden desplegarse mediante la habilidad &apos;Deploy Regiment&apos;.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca esas unidades en reserva como **refuerzos retrasados**. Ahora ya se han desplegado. Si algún **refuerzo retrasado** forma parte de un regimiento, las demás unidades de ese regimiento todavía pueden desplegarse mediante la habilidad &apos;Desplegar regimiento&apos;.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Despliegue^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -5160,7 +5160,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
 3 Suma 1 a las tiradas de correr y de carga del objetivo hasta el inicio de tu siguiente turno.
 4 Resta 1 a las tiradas de herida de los ataques que tengan como objetivo esa unidad amiga hasta el inicio de tu siguiente turno.
 5 El objetivo tiene **^^Ward (5+)^^** hasta el inicio de tu siguiente turno.
-6 El objetivo puede usar inmediatamente la orden &apos;Rally&apos; como si fuera tu fase de héroe sin gastar puntos de orden. Si lo hace, puedes hacer 3 tiradas de reagrupamiento adicionales de D6.</characteristic>
+6 El objetivo puede usar inmediatamente la orden &apos;Reagrupamiento&apos; como si fuera tu fase de héroe sin gastar puntos de orden. Si lo hace, puedes hacer 3 tiradas de reagrupamiento adicionales de D6.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -5224,7 +5224,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fd9-4e6e-c5fd-9d1e"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Wizard Hero" hidden="false" id="2ff2-7267-fb22-384b" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Héroe mago" hidden="false" id="2ff2-7267-fb22-384b" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -5232,7 +5232,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                     <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
                   </costs>
                   <rules>
-                    <rule name="Wizard Hero" id="5c52-f9c4-9c30-4524" hidden="true">
+                    <rule name="Héroe mago" id="5c52-f9c4-9c30-4524" hidden="true">
                       <description>Tu héroe de regimiento tiene la palabra clave **^^Wizard (1)^^**. Además, sustituye su arma de combate por un **Bastón de mago**.</description>
                     </rule>
                   </rules>
@@ -5240,7 +5240,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                     <modifier type="add" value="6f28-c3f6-4b1b-8aff" field="category" scope="root-entry"/>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Priest Hero" hidden="false" id="5aec-6c71-28d6-0fdd" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Héroe sacerdote" hidden="false" id="5aec-6c71-28d6-0fdd" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -5251,12 +5251,12 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                     <modifier type="add" value="3fe-84f4-cec6-a1c1" field="category" scope="root-entry"/>
                   </modifiers>
                   <rules>
-                    <rule name="Priest Hero" id="a63f-46c3-7dd6-14ae" hidden="true">
+                    <rule name="Héroe sacerdote" id="a63f-46c3-7dd6-14ae" hidden="true">
                       <description>Tu héroe de regimiento tiene la palabra clave **^^Priest (1)^^**. Además, sustituye su arma de combate por un **Cetro sagrado**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Gigantic Hero" hidden="false" id="c73b-6d84-14c8-ff75" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Héroe gigantesco" hidden="false" id="c73b-6d84-14c8-ff75" sortIndex="3">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-6"/>
@@ -5264,7 +5264,7 @@ Además, realiza los siguientes cambios en el pergamino de tu héroe de regimien
                     <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
                   </costs>
                   <rules>
-                    <rule name="Gigantic Hero" id="5c0c-34d7-6017-e71a" hidden="true">
+                    <rule name="Héroe gigantesco" id="5c0c-34d7-6017-e71a" hidden="true">
                       <description>Cambia la característica de Move de tu héroe de regimiento a 6", su característica de Health a 8 y su característica de Control a 5.
 Además, sustituye su arma de combate por una **Gran arma de renombre**.</description>
                     </rule>
@@ -5275,7 +5275,7 @@ Además, sustituye su arma de combate por una **Gran arma de renombre**.</descri
                     <modifier type="set" value="5" field="6c6f-8510-9ce1-fc6e" scope="root-entry" affects="profiles.Unit"/>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Gargantuan Hero" hidden="false" id="ca6e-1326-008c-1208" sortIndex="4">
+                <selectionEntry type="upgrade" import="true" name="Héroe gargantuesco" hidden="false" id="ca6e-1326-008c-1208" sortIndex="4">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-8"/>
@@ -5283,7 +5283,7 @@ Además, sustituye su arma de combate por una **Gran arma de renombre**.</descri
                     <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
                   </costs>
                   <rules>
-                    <rule name="Gargantuan Hero" id="b1de-326a-ddd4-28d0" hidden="true">
+                    <rule name="Héroe gargantuesco" id="b1de-326a-ddd4-28d0" hidden="true">
                       <description>Sustituye la palabra clave **^^Infantry^^** de tu héroe de regimiento por **^^Monster^^**.
 Cambia su característica de Move a 8", su característica de Health a 12 y su característica de Control a 10.
 Además, sustituye su arma de combate por una **Arma monstruosa de renombre** y **Puñetazos o patadas enormes**.</description>
@@ -5301,7 +5301,7 @@ Además, sustituye su arma de combate por una **Arma monstruosa de renombre** y 
             </selectionEntryGroup>
             <selectionEntryGroup name="Battle Mounts" id="43c6-2e52-e871-c9ff" hidden="false" sortIndex="2" collapsible="true">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Ghyranite Steed" hidden="false" id="5dd7-16c2-b867-fa03" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Corcel de Ghyran" hidden="false" id="5dd7-16c2-b867-fa03" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -5316,7 +5316,7 @@ Además, sustituye su arma de combate por una **Arma monstruosa de renombre** y 
                     <modifier type="set" value="4+" field="1981-ef09-96f6-7aa9" affects="profiles.Unit" scope="root-entry"/>
                   </modifiers>
                   <rules>
-                    <rule name="Ghyranite Steed" id="6534-bd3b-2b7c-cfa2" hidden="true">
+                    <rule name="Corcel de Ghyran" id="6534-bd3b-2b7c-cfa2" hidden="true">
                       <description>Añade el arma **Dientes, cascos o garras de corcel ghyranita** al pergamino de tu héroe de regimiento.
 Además, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Move a 12".
@@ -5326,7 +5326,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Ghyranite Behemoth" hidden="false" id="bb9e-fe42-00e9-328d" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Behemoth de Ghyran" hidden="false" id="bb9e-fe42-00e9-328d" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-15"/>
@@ -5342,7 +5342,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     <modifier type="increment" value="3" field="6c6f-8510-9ce1-fc6e" affects="profiles.Unit" scope="root-entry"/>
                   </modifiers>
                   <rules>
-                    <rule name="Ghyranite Behemoth" id="83c8-f2a4-7bff-b857" hidden="true">
+                    <rule name="Behemoth de Ghyran" id="83c8-f2a4-7bff-b857" hidden="true">
                       <description>Añade el arma **Mandíbulas de coloso ghyranita** al pergamino de tu héroe de regimiento.
 Además, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Move a 10".
@@ -5353,7 +5353,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Ghyranite Monstrosity" hidden="false" id="b921-a881-b619-1a7a" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Monstruosidad de Ghyran" hidden="false" id="b921-a881-b619-1a7a" sortIndex="3">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-20"/>
@@ -5369,7 +5369,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     <modifier type="set" value="4+" field="1981-ef09-96f6-7aa9" affects="profiles.Unit" scope="root-entry"/>
                   </modifiers>
                   <rules>
-                    <rule name="Ghyranite Monstrosity" id="f3dc-2b8b-3ff6-c993" hidden="true">
+                    <rule name="Monstruosidad de Ghyran" id="f3dc-2b8b-3ff6-c993" hidden="true">
                       <description>Añade las armas **Fauces de monstruosidad ghyranita** y **Garras de monstruosidad ghyranita** y la habilidad &apos;Daños de batalla&apos; al pergamino de tu héroe de regimiento.
 Además, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Move a 12".
@@ -5407,7 +5407,7 @@ Además, realiza los siguientes cambios en su pergamino:
             </selectionEntryGroup>
             <selectionEntryGroup name="Upgrades" id="cd43-8915-d828-bb58" hidden="false" sortIndex="3">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Renowned Warrior" hidden="false" id="7e76-6385-4f86-3063" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Guerrero de renombre" hidden="false" id="7e76-6385-4f86-3063" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-1"/>
@@ -5427,7 +5427,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     </modifier>
                   </modifiers>
                   <rules>
-                    <rule name="Renowned Warrior" id="fb30-9b23-72ca-a466" hidden="true">
+                    <rule name="Guerrero de renombre" id="fb30-9b23-72ca-a466" hidden="true">
                       <description>Suma 1 a la característica de Control de tu héroe de regimiento.</description>
                     </rule>
                   </rules>
@@ -5450,9 +5450,9 @@ Además, realiza los siguientes cambios en su pergamino:
                   <profiles>
                     <profile name="Espalda con espalda" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="584e-c244-360a-9ee8">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad **^^Fight^^** para esta unidad</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad **^^Combatir^^** para esta unidad</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga de este regimiento de renombre que no sea **^^Hero^^**, no haya usado una habilidad **^^Fight^^** este turno y esté dentro del alcance de combate de esta unidad. El objetivo puede ser elegido para usar una habilidad **^^Fight^^** inmediatamente después de resolver la habilidad **^^Fight^^** usada por esta unidad. Si es elegido para hacerlo, suma 1 a las tiradas de impacto de sus ataques durante el resto del turno.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga de este regimiento de renombre que no sea **^^Hero^^**, no haya usado una habilidad **^^Combatir^^** este turno y esté dentro del alcance de combate de esta unidad. El objetivo puede ser elegido para usar una habilidad **^^Combatir^^** inmediatamente después de resolver la habilidad **^^Combatir^^** usada por esta unidad. Si es elegido para hacerlo, suma 1 a las tiradas de impacto de sus ataques durante el resto del turno.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -5464,7 +5464,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Aura of Immortality" hidden="false" id="2c58-205a-3c5b-facf" sortIndex="12">
+                <selectionEntry type="upgrade" import="true" name="Aura de inmortalidad" hidden="false" id="2c58-205a-3c5b-facf" sortIndex="12">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -5478,12 +5478,12 @@ Además, realiza los siguientes cambios en su pergamino:
                     <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="cc97-81e0-1e06-07b5"/>
                   </constraints>
                   <rules>
-                    <rule name="Aura of Immortality" id="1f01-7527-fa4c-3f48" hidden="true">
+                    <rule name="Aura de inmortalidad" id="1f01-7527-fa4c-3f48" hidden="true">
                       <description>Tu héroe de regimiento tiene **^^Ward (6+)^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Realm Wanderer" hidden="false" id="4227-0d10-96b6-dbe8" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Viajero de los Reinos" hidden="false" id="4227-0d10-96b6-dbe8" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-1"/>
@@ -5503,12 +5503,12 @@ Además, realiza los siguientes cambios en su pergamino:
                     </modifier>
                   </modifiers>
                   <rules>
-                    <rule name="Realm Wanderer" id="dba4-4be3-200d-a3c8" hidden="true">
+                    <rule name="Viajero de los Reinos" id="dba4-4be3-200d-a3c8" hidden="true">
                       <description>Suma 1 a la característica de Move de tu héroe de regimiento.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Sky-born" hidden="false" id="c240-c1c3-4043-3102" sortIndex="11">
+                <selectionEntry type="upgrade" import="true" name="Nacido del cielo" hidden="false" id="c240-c1c3-4043-3102" sortIndex="11">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -5522,12 +5522,12 @@ Además, realiza los siguientes cambios en su pergamino:
                     <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="03f4-d873-9983-ce62"/>
                   </constraints>
                   <rules>
-                    <rule name="Sky-born" id="09e9-bb81-a109-774e" hidden="true">
+                    <rule name="Nacido del cielo" id="09e9-bb81-a109-774e" hidden="true">
                       <description>Tu héroe de regimiento tiene **^^Volar^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Ironoak Armour" hidden="false" id="e53c-901f-b31a-43d1" sortIndex="10">
+                <selectionEntry type="upgrade" import="true" name="Armadura de roble de hierro" hidden="false" id="e53c-901f-b31a-43d1" sortIndex="10">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -5547,12 +5547,12 @@ Además, realiza los siguientes cambios en su pergamino:
                     </modifier>
                   </modifiers>
                   <rules>
-                    <rule name="Ironoak Armour" id="e7fd-b50b-d658-6587" hidden="true">
+                    <rule name="Armadura de roble de hierro" id="e7fd-b50b-d658-6587" hidden="true">
                       <description>Mejora en 1 la característica de Save de tu héroe de regimiento (por ejemplo, 5+ pasa a 4+).</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Imposing Presence" hidden="false" id="b624-4af7-f482-4828" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Presencia imponente" hidden="false" id="b624-4af7-f482-4828" sortIndex="3">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-1"/>
@@ -5572,12 +5572,12 @@ Además, realiza los siguientes cambios en su pergamino:
                     </modifier>
                   </modifiers>
                   <rules>
-                    <rule name="Imposing Presence" id="6463-f6a9-ada4-ceb6" hidden="true">
+                    <rule name="Presencia imponente" id="6463-f6a9-ada4-ceb6" hidden="true">
                       <description>Suma 1 a la característica de Health de tu héroe de regimiento.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Razor-sharp Weapon" hidden="false" id="c646-37cc-9651-2c98" sortIndex="9">
+                <selectionEntry type="upgrade" import="true" name="Arma afilada como una cuchilla" hidden="false" id="c646-37cc-9651-2c98" sortIndex="9">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -5585,8 +5585,8 @@ Además, realiza los siguientes cambios en su pergamino:
                     <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
                   </costs>
                   <rules>
-                    <rule name="Razor-sharp Weapon" id="2657-9451-ba74-a05e" hidden="true">
-                      <description>Elige 1 de las armas de combate de tu héroe de regimiento. Esa arma tiene **Crit (Mortal)**.</description>
+                    <rule name="Arma afilada como una cuchilla" id="2657-9451-ba74-a05e" hidden="true">
+                      <description>Elige 1 de las armas de combate de tu héroe de regimiento. Esa arma tiene **Crítico (mortal)**.</description>
                     </rule>
                   </rules>
                   <selectionEntryGroups>
@@ -5783,7 +5783,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     </modifier>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Expert Fighter" hidden="false" id="6387-43d0-1728-6aea" sortIndex="4">
+                <selectionEntry type="upgrade" import="true" name="Combatiente experto" hidden="false" id="6387-43d0-1728-6aea" sortIndex="4">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-1"/>
@@ -5791,7 +5791,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
                   </costs>
                   <rules>
-                    <rule name="Expert Fighter" id="cf9e-d355-3be0-403b" hidden="true">
+                    <rule name="Combatiente experto" id="cf9e-d355-3be0-403b" hidden="true">
                       <description>Elige 1 de las armas de tu héroe de regimiento. Mejora en 1 la característica de Hit de esa arma (por ejemplo, 4+ pasa a 3+).</description>
                     </rule>
                   </rules>
@@ -5988,7 +5988,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     </modifier>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Powerful Strikes" hidden="false" id="59d6-12c1-39f0-33a6" sortIndex="5">
+                <selectionEntry type="upgrade" import="true" name="Golpes poderosos" hidden="false" id="59d6-12c1-39f0-33a6" sortIndex="5">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-1"/>
@@ -5996,7 +5996,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
                   </costs>
                   <rules>
-                    <rule name="Powerful Strikes" id="1f2f-5f62-3b6a-7575" hidden="true">
+                    <rule name="Golpes poderosos" id="1f2f-5f62-3b6a-7575" hidden="true">
                       <description>Elige 1 de las armas de tu héroe de regimiento. Mejora en 1 la característica de Wound de esa arma (por ejemplo, 4+ pasa a 3+).</description>
                     </rule>
                   </rules>
@@ -6133,7 +6133,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     </modifier>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Specialist Training" hidden="false" id="4210-8cf2-5df3-0ff7" sortIndex="8">
+                <selectionEntry type="upgrade" import="true" name="Entrenamiento especializado" hidden="false" id="4210-8cf2-5df3-0ff7" sortIndex="8">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -6141,8 +6141,8 @@ Además, realiza los siguientes cambios en su pergamino:
                     <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
                   </costs>
                   <rules>
-                    <rule name="Specialist Training" id="8428-938d-a06c-a7c0" hidden="true">
-                      <description>Elige 1 de las armas de tu héroe de regimiento que no sea **Companion**; después, elige 1 de las siguientes habilidades de arma: **Charge (+1 Damage)**, **Crit (2 Hits)**, **Crit (Auto-wound)**, **Shoot in Combat**. Esa arma tiene la habilidad de arma que has elegido.</description>
+                    <rule name="Entrenamiento especializado" id="8428-938d-a06c-a7c0" hidden="true">
+                      <description>Elige 1 de las armas de tu héroe de regimiento que no sea **Compañero**; después, elige 1 de las siguientes habilidades de arma: **Carga (+1 Daño)**, **Crítico (2 impactos)**, **Crítico (herida automática)**, **Disparar in Combat**. Esa arma tiene la habilidad de arma que has elegido.</description>
                     </rule>
                   </rules>
                   <selectionEntryGroups>
@@ -6284,9 +6284,9 @@ Además, realiza los siguientes cambios en su pergamino:
                             </modifier>
                           </modifiers>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Crit (2 Hits)" hidden="false" id="81c0-647d-1ed8-2360"/>
-                        <selectionEntry type="upgrade" import="true" name="Crit (Auto-wound)" hidden="false" id="9ea5-c453-d6cf-fcdc"/>
-                        <selectionEntry type="upgrade" import="true" name="Charge (+1 Damage)" hidden="false" id="6c7a-deb3-36c9-d6c4"/>
+                        <selectionEntry type="upgrade" import="true" name="Crítico (2 impactos)" hidden="false" id="81c0-647d-1ed8-2360"/>
+                        <selectionEntry type="upgrade" import="true" name="Crítico (herida automática)" hidden="false" id="9ea5-c453-d6cf-fcdc"/>
+                        <selectionEntry type="upgrade" import="true" name="Carga (+1 Daño)" hidden="false" id="6c7a-deb3-36c9-d6c4"/>
                       </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -6298,7 +6298,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     </modifier>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Muscular Physique" hidden="false" id="43d0-6a68-acdc-a5e0" sortIndex="6">
+                <selectionEntry type="upgrade" import="true" name="Físico musculoso" hidden="false" id="43d0-6a68-acdc-a5e0" sortIndex="6">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-1"/>
@@ -6306,7 +6306,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
                   </costs>
                   <rules>
-                    <rule name="Muscular Physique" id="f7be-498a-4d5d-9f78" hidden="true">
+                    <rule name="Físico musculoso" id="f7be-498a-4d5d-9f78" hidden="true">
                       <description>Elige 1 de las armas de tu héroe de regimiento. Suma 1 a la característica de Rend de esa arma.</description>
                     </rule>
                   </rules>
@@ -8155,7 +8155,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Artisan-crafted Altar" hidden="false" id="2a8b-52bd-f017-4bc9" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Altar de manufactura artesanal" hidden="false" id="2a8b-52bd-f017-4bc9" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -8166,13 +8166,13 @@ Además, realiza los siguientes cambios en su pergamino:
                     <modifier type="set" value="12" field="96be-54ae-ce7b-10b7" scope="root-entry" affects="profiles.Unit"/>
                   </modifiers>
                   <rules>
-                    <rule name="Artisan-crafted Altar" id="7187-6474-a1db-6455" hidden="true">
+                    <rule name="Altar de manufactura artesanal" id="7187-6474-a1db-6455" hidden="true">
                       <description>Realiza los siguientes cambios en el pergamino de tu hito de Ghyran:
 • Cambia la característica de Health a 12.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Formidable Bastion" hidden="false" id="c219-5f9c-3067-b407" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Bastión formidable" hidden="false" id="c219-5f9c-3067-b407" sortIndex="3">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-6"/>
@@ -8184,14 +8184,14 @@ Además, realiza los siguientes cambios en su pergamino:
                     <modifier type="set" value="4+" field="1981-ef09-96f6-7aa9" scope="root-entry" affects="profiles.Unit"/>
                   </modifiers>
                   <rules>
-                    <rule name="Formidable Bastion" id="215e-00b9-b417-141e" hidden="true">
+                    <rule name="Bastión formidable" id="215e-00b9-b417-141e" hidden="true">
                       <description>Realiza los siguientes cambios en el pergamino de tu hito de Ghyran:
 • Cambia la característica de Health a 12.
 • Cambia la característica de Save a 4+.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Reinforced Metalith" hidden="false" id="10f9-7116-6526-a969" sortIndex="4">
+                <selectionEntry type="upgrade" import="true" name="Metalito reforzado" hidden="false" id="10f9-7116-6526-a969" sortIndex="4">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-8"/>
@@ -8203,9 +8203,9 @@ Además, realiza los siguientes cambios en su pergamino:
                     <modifier type="set" value="4&quot;" field="fed0-d1b3-1bb8-c501" scope="root-entry" affects="profiles.Unit"/>
                   </modifiers>
                   <rules>
-                    <rule name="Reinforced Metalith" id="282d-c88a-2de1-204a" hidden="true">
+                    <rule name="Metalito reforzado" id="282d-c88a-2de1-204a" hidden="true">
                       <description>Tu hito de Ghyran tiene la palabra clave **^^Volar^^**. Además, realiza los siguientes cambios en su pergamino:
-• Cambia la característica de Move a 4". Este elemento de escenografía puede usar habilidades **^^Move^^** que no sean órdenes ni **^^Charge^^** como si fuera una unidad.</description>
+• Cambia la característica de Move a 4". Este elemento de escenografía puede usar habilidades **^^Move^^** que no sean órdenes ni **^^Cargar^^** como si fuera una unidad.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8365,7 +8365,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     <profile name="Forma lúgubre" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="2667-54ae-7a77-3322">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad amiga totalmente a 12" o menos de esta unidad use la orden &apos;Rally&apos;, debes hacer 3 tiradas de reagrupamiento de D6 menos.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad amiga totalmente a 12" o menos de esta unidad use la orden &apos;Reagrupamiento&apos;, debes hacer 3 tiradas de reagrupamiento de D6 menos.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -8428,7 +8428,7 @@ Además, realiza los siguientes cambios en su pergamino:
             </selectionEntryGroup>
             <selectionEntryGroup name="Upgrades" id="ca11-baba-e007-74b2" hidden="false" sortIndex="7">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Fortified Parts" hidden="false" id="8764-80f0-2282-fbdc" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Partes fortificadas" hidden="false" id="8764-80f0-2282-fbdc" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -8442,7 +8442,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5efa-d1f2-2a4d-fe05"/>
                   </constraints>
                   <rules>
-                    <rule name="Fortified Parts" id="26db-fa62-972f-c2fe" hidden="true">
+                    <rule name="Partes fortificadas" id="26db-fa62-972f-c2fe" hidden="true">
                       <description>Suma 2 a la característica de Health de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
@@ -8476,7 +8476,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Mysterious Terrain" hidden="false" id="0fd8-f838-9705-acc4" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Escenografía misteriosa" hidden="false" id="0fd8-f838-9705-acc4" sortIndex="3">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -8488,12 +8488,12 @@ Además, realiza los siguientes cambios en su pergamino:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85f8-7245-4289-2279"/>
                   </constraints>
                   <rules>
-                    <rule name="Mysterious Terrain" id="98c4-aff3-2a12-635d" hidden="true">
+                    <rule name="Escenografía misteriosa" id="98c4-aff3-2a12-635d" hidden="true">
                       <description>Tu hito de Ghyran tiene **^^Ward (6+)^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Heavy Buttressing" hidden="false" id="0d23-adb6-2032-6456" sortIndex="4">
+                <selectionEntry type="upgrade" import="true" name="Contrafuertes pesados" hidden="false" id="0d23-adb6-2032-6456" sortIndex="4">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -8504,7 +8504,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b17-2b8f-9c7e-92fa"/>
                   </constraints>
                   <rules>
-                    <rule name="Heavy Buttressing" id="d23f-4b71-6c6a-ba83" hidden="true">
+                    <rule name="Contrafuertes pesados" id="d23f-4b71-6c6a-ba83" hidden="true">
                       <description>La característica de Save de tu hito de Ghyran es 4+. Si tu hito de Ghyran ya tiene una característica de Save de 4+, tiene una característica de Save de 3+ en su lugar.</description>
                     </rule>
                   </rules>
@@ -8580,7 +8580,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Substantial Construct" hidden="false" id="8220-921a-2533-367d" sortIndex="7">
+                <selectionEntry type="upgrade" import="true" name="Constructo sólido" hidden="false" id="8220-921a-2533-367d" sortIndex="7">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -8592,12 +8592,12 @@ Además, realiza los siguientes cambios en su pergamino:
                     <modifier type="increment" value="4" field="96be-54ae-ce7b-10b7" affects="profiles.Unit" scope="root-entry"/>
                   </modifiers>
                   <rules>
-                    <rule name="Leathery Wings" id="499e-568b-d7b7-0ad0" hidden="true">
+                    <rule name="Alas coriáceas" id="499e-568b-d7b7-0ad0" hidden="true">
                       <description>Suma 4 a la característica de Health de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Node of Power" hidden="false" id="ed4a-64e8-bdfb-c5dd" sortIndex="9">
+                <selectionEntry type="upgrade" import="true" name="Nodo de poder" hidden="false" id="ed4a-64e8-bdfb-c5dd" sortIndex="9">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -8608,7 +8608,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7193-b76c-37e7-3c3f"/>
                   </constraints>
                   <rules>
-                    <rule name="Node of Power" id="1524-5bf5-4a8a-2fb6" hidden="true">
+                    <rule name="Nodo de poder" id="1524-5bf5-4a8a-2fb6" hidden="true">
                       <description>Tu hito de Ghyran tiene **^^Ward (5+)^^**.</description>
                     </rule>
                   </rules>
@@ -8652,7 +8652,7 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
                   </modifiers>
                   <rules>
                     <rule name="Oculto en el interior" id="d143-10e3-67e9-f79e" hidden="true">
-                      <description>Solo puedes elegir esta mejora si tu hito de Ghyran no es un Reinforced Metalith. Añade la habilidad &apos;Oculto en el interior&apos; al pergamino de tu hito de Ghyran.</description>
+                      <description>Solo puedes elegir esta mejora si tu hito de Ghyran no es un Metalito reforzado. Añade la habilidad &apos;Oculto en el interior&apos; al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8720,9 +8720,9 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Curator" id="2c59-69bc-af98-c16a" hidden="false" collapsible="true" sortIndex="5">
+            <selectionEntryGroup name="Conservador" id="2c59-69bc-af98-c16a" hidden="false" collapsible="true" sortIndex="5">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Curator" hidden="false" id="347d-1d07-9d23-66c0" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Conservador" hidden="false" id="347d-1d07-9d23-66c0" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -8860,7 +8860,7 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si este elemento de escenografía tiene un conservador, elige como objetivo un elemento de escenografía visible a 9" o menos de él.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, aplica **Heal (X)** a este elemento de escenografía, donde **X** es igual al resultado. Después, el objetivo está **contaminado** para los ejércitos de ambos jugadores.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, aplica **Curar (X)** a este elemento de escenografía, donde **X** es igual al resultado. Después, el objetivo está **contaminado** para los ejércitos de ambos jugadores.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -8900,7 +8900,7 @@ Si el objetivo es un **^^Hero^^**, **^^War Machine^^** o **^^Monster^^**, debes 
                   </profiles>
                   <rules>
                     <rule name="Túnel del conservador" id="6609-2cbf-7d11-6898" hidden="true">
-                      <description>Solo puedes elegir esta mejora si tu hito de Ghyran no es un Reinforced Metalith. Añade la habilidad &apos;Túnel del conservador&apos; al pergamino de tu hito de Ghyran.</description>
+                      <description>Solo puedes elegir esta mejora si tu hito de Ghyran no es un Metalito reforzado. Añade la habilidad &apos;Túnel del conservador&apos; al pergamino de tu hito de Ghyran.</description>
                     </rule>
                   </rules>
                 </selectionEntry>

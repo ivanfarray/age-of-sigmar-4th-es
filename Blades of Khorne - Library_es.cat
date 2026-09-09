@@ -17,7 +17,7 @@
         <profile name="Bombardeo espantoso" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="88b9-89a9-cb26-7e69">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si se asignan puntos de daño a una unidad enemiga mediante una habilidad **^^Shoot^^** usada por esta unidad, resta 3 a la puntuación de control de esa unidad enemiga durante el resto del turno.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si se asignan puntos de daño a una unidad enemiga mediante una habilidad **^^Disparar^^** usada por esta unidad, resta 3 a la puntuación de control de esa unidad enemiga durante el resto del turno.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -28,7 +28,7 @@
         <profile name="Triturad sus huesos, tomad sus cráneos" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="186d-bc82-3631-6bba">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si una habilidad **^^Fight^^** usada por esta unidad abate alguna miniatura enemiga, después de resolver esa habilidad **^^Fight^^**, esta unidad puede usar inmediatamente una habilidad **^^Shoot^^** como si fuera tu fase de disparo.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si una habilidad **^^Combatir^^** usada por esta unidad abate alguna miniatura enemiga, después de resolver esa habilidad **^^Combatir^^**, esta unidad puede usar inmediatamente una habilidad **^^Disparar^^** como si fuera tu fase de disparo.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Blue</attribute>
@@ -108,7 +108,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="aaaf-8ed2-6dff-6472"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="cda8-37b7-ea2c-c328" hidden="true">
+            <rule name="Tamaño de peana" id="cda8-37b7-ea2c-c328" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -126,7 +126,7 @@
         <profile name="Furia de Skarbrand" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1da1-b47-89a6-db58">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, o si no usó una habilidad **^^Fight^^** el turno anterior, se le aplican los efectos de la habilidad &apos;Empapado de sangre&apos;.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, o si no usó una habilidad **^^Combatir^^** el turno anterior, se le aplican los efectos de la habilidad &apos;Empapado de sangre&apos;.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -223,7 +223,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="cd72-f5f3-d823-2665"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="9f71-03a4-2a48-bacd" hidden="true">
+            <rule name="Tamaño de peana" id="9f71-03a4-2a48-bacd" hidden="true">
               <description>100mm</description>
             </rule>
           </rules>
@@ -350,7 +350,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4bb7-ce3b-4060-fbe7"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="6c2d-5397-6c0d-246a" hidden="true">
+            <rule name="Tamaño de peana" id="6c2d-5397-6c0d-246a" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -398,7 +398,7 @@
         <profile name="Carnicería desmesurada" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7a75-67db-b858-1b30">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que un ataque de esta unidad consiga un impacto crítico, inflige D3 de daño mortal a cada unidad enemiga a 8" o menos de ella después de resolver la habilidad **^^Fight^^** (y continúa la secuencia de ataque).</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que un ataque de esta unidad consiga un impacto crítico, inflige D3 de daño mortal a cada unidad enemiga a 8" o menos de ella después de resolver la habilidad **^^Combatir^^** (y continúa la secuencia de ataque).</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -444,7 +444,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a41f-4d5c-4dc8-7776"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="374f-afa1-51b4-f635" hidden="true">
+            <rule name="Tamaño de peana" id="374f-afa1-51b4-f635" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -543,7 +543,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="efe2-e3cd-af11-5599"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="16a3-2430-fd09-645a" hidden="true">
+            <rule name="Tamaño de peana" id="16a3-2430-fd09-645a" hidden="true">
               <description>90x52mm</description>
             </rule>
           </rules>
@@ -649,7 +649,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="27e0-c3e3-6a16-b752"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="73af-b940-df26-e2b3" hidden="true">
+            <rule name="Tamaño de peana" id="73af-b940-df26-e2b3" hidden="true">
               <description>75x42mm</description>
             </rule>
           </rules>
@@ -757,7 +757,7 @@ Tu oponente debe resolver los ataques de combate del objetivo con el arma de com
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="8f55-1e5f-268d-eeee" hidden="true">
+            <rule name="Tamaño de peana" id="8f55-1e5f-268d-eeee" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -792,9 +792,9 @@ Tu oponente debe resolver los ataques de combate del objetivo con el arma de com
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Monster^^** enemigo en combate con esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si el objetivo está en combate con esta unidad cuando es elegido para usar una habilidad **^^Fight^^**:
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si el objetivo está en combate con esta unidad cuando es elegido para usar una habilidad **^^Combatir^^**:
 • Debe elegir esta unidad como objetivo del movimiento de aproximación (Reglas básicas, 15.3).
-• Resta 1 a las tiradas de impacto y de herida de los ataques realizados contra esta unidad como parte de esa habilidad **^^Fight^^**.</characteristic>
+• Resta 1 a las tiradas de impacto y de herida de los ataques realizados contra esta unidad como parte de esa habilidad **^^Combatir^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -875,7 +875,7 @@ Tu oponente debe resolver los ataques de combate del objetivo con el arma de com
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5040-9920-cc24-6414"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="c87a-28c7-06df-ae09" hidden="true">
+            <rule name="Tamaño de peana" id="c87a-28c7-06df-ae09" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -897,9 +897,9 @@ Tu oponente debe resolver los ataques de combate del objetivo con el arma de com
         </profile>
         <profile name="La sangre debe fluir" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c54d-2571-272f-79b3">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste una habilidad Fight para esta unidad</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste una habilidad Combatir para esta unidad</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga de **Desangradores** que no haya usado una habilidad **^^Fight^^** este turno y esté dentro del alcance de combate de esta unidad. El objetivo puede ser elegido para usar una habilidad **^^Fight^^** inmediatamente después de resolver la habilidad **^^Fight^^** usada por esta unidad. Durante el resto del turno, añade 1 a las tiradas de impacto de los ataques de combate de esta unidad y de esa unidad amiga de **Desangradores**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga de **Desangradores** que no haya usado una habilidad **^^Combatir^^** este turno y esté dentro del alcance de combate de esta unidad. El objetivo puede ser elegido para usar una habilidad **^^Combatir^^** inmediatamente después de resolver la habilidad **^^Combatir^^** usada por esta unidad. Durante el resto del turno, añade 1 a las tiradas de impacto de los ataques de combate de esta unidad y de esa unidad amiga de **Desangradores**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -946,7 +946,7 @@ Tu oponente debe resolver los ataques de combate del objetivo con el arma de com
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="16f2-4807-6c6f-7e77"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="db23-43f5-86e3-af02" hidden="true">
+            <rule name="Tamaño de peana" id="db23-43f5-86e3-af02" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -967,7 +967,7 @@ Tu oponente debe resolver los ataques de combate del objetivo con el arma de com
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar la habilidad &apos;Normal Move&apos; como si fuera tu fase de movimiento.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar la habilidad &apos;Movimiento normal&apos; como si fuera tu fase de movimiento.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1060,7 +1060,7 @@ Tu oponente debe resolver los ataques de combate del objetivo con el arma de com
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="ee38-bcb1-9e89-f416" hidden="true">
+            <rule name="Tamaño de peana" id="ee38-bcb1-9e89-f416" hidden="true">
               <description>1/8 40mm (Campeón)
 1/8 60x35mm
 2/8 32mm
@@ -1184,7 +1184,7 @@ Tu oponente debe resolver los ataques de combate del objetivo con el arma de com
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="25a9-e37b-d884-da13" hidden="true">
+            <rule name="Tamaño de peana" id="25a9-e37b-d884-da13" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -1270,7 +1270,7 @@ Tu oponente debe resolver los ataques de combate del objetivo con el arma de com
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3a4c-d8ba-dade-777f"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="279d-ca5d-1607-e6b7" hidden="true">
+            <rule name="Tamaño de peana" id="279d-ca5d-1607-e6b7" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -1379,7 +1379,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="ed16-0a38-67f0-6943" hidden="true">
+            <rule name="Tamaño de peana" id="ed16-0a38-67f0-6943" hidden="true">
               <description>60x35mm</description>
             </rule>
           </rules>
@@ -1464,7 +1464,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c406-1121-dd27-dfe7"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="a9a8-66e1-69b9-9e03" hidden="true">
+            <rule name="Tamaño de peana" id="a9a8-66e1-69b9-9e03" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -1534,7 +1534,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="6aaf-b916-d809-6536"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="0175-7a1b-ec5b-ef2d" hidden="true">
+            <rule name="Tamaño de peana" id="0175-7a1b-ec5b-ef2d" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -1632,7 +1632,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a8df-ed8-ab46-de4f"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="534b-a628-82a3-2599" hidden="true">
+            <rule name="Tamaño de peana" id="534b-a628-82a3-2599" hidden="true">
               <description>60mm</description>
             </rule>
           </rules>
@@ -1670,7 +1670,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de carga</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga de **Aplastadores de sangre** dentro del alcance de combate de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, las armas usadas por esta unidad y el objetivo tienen **Charge (+1 Damage)**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, las armas usadas por esta unidad y el objetivo tienen **Carga (+1 Daño)**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1735,7 +1735,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9cb9-29e-13da-d819"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="3b4b-582b-ddd0-96aa" hidden="true">
+            <rule name="Tamaño de peana" id="3b4b-582b-ddd0-96aa" hidden="true">
               <description>90x52mm</description>
             </rule>
           </rules>
@@ -1783,7 +1783,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si se asignaron puntos de daño a un **^^Hero^^** enemigo mediante los ataques de combate de esta unidad este turno y ese **^^Hero^^** fue destruido este turno, aplica **Heal (X)** a esta unidad, donde **X** es el número de puntos de daño que tenga esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si se asignaron puntos de daño a un **^^Hero^^** enemigo mediante los ataques de combate de esta unidad este turno y ese **^^Hero^^** fue destruido este turno, aplica **Curar (X)** a esta unidad, donde **X** es el número de puntos de daño que tenga esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1796,7 +1796,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
         <profile name="Atraído por la sangre" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d6d5-c9c6-f562-8114">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), final del turno enemigo</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad **^^Hero^^** enemiga que haya usado una habilidad **^^Fight^^** este turno.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad **^^Hero^^** enemiga que haya usado una habilidad **^^Combatir^^** este turno.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Retira esta unidad del campo de batalla y vuelve a colocarla en el campo de batalla en combate con el objetivo y sin estar en combate con ninguna otra unidad enemiga.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -1844,7 +1844,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="2f3c-3b80-b5e-b86a"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="2f38-5dd6-de42-929f" hidden="true">
+            <rule name="Tamaño de peana" id="2f38-5dd6-de42-929f" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -1867,7 +1867,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
         <profile name="Icono del Dios de la Sangre" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3d7e-fb75-4135-ce68">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si una unidad amiga **^^Bloodbound^^** totalmente a 12" o menos de esta unidad usa la orden &apos;Rally&apos;, puedes hacer 3 tiradas de reagrupamiento adicionales de D6.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si una unidad amiga **^^Bloodbound^^** totalmente a 12" o menos de esta unidad usa la orden &apos;Reagrupamiento&apos;, puedes hacer 3 tiradas de reagrupamiento adicionales de D6.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -1924,7 +1924,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5aff-4eb9-22ef-1424"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="3658-4f11-fbad-8d7f" hidden="true">
+            <rule name="Tamaño de peana" id="3658-4f11-fbad-8d7f" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -1947,7 +1947,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
         <profile name="Desdén por la hechicería" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="42b8-7de1-1fce-438c">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades **^^Unbind^^** como si tuviera **^^Wizard (1)^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades **^^Desvincular^^** como si tuviera **^^Wizard (1)^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -2007,7 +2007,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="e925-9332-efe9-eacc"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="56dd-a55d-784a-55f6" hidden="true">
+            <rule name="Tamaño de peana" id="56dd-a55d-784a-55f6" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -2090,7 +2090,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="aa8f-ef46-9bcb-7683"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="a2d4-fe79-654b-3890" hidden="true">
+            <rule name="Tamaño de peana" id="a2d4-fe79-654b-3890" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -2215,7 +2215,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="c4f0-dc6c-959e-9d08" hidden="true">
+            <rule name="Tamaño de peana" id="c4f0-dc6c-959e-9d08" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -2234,9 +2234,9 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
         </profile>
         <profile name="Atraído a la matanza" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="edf4-7ea0-4726-ad35">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: Tú o tu oponente declarasteis la habilidad &apos;Eruption of Fury&apos; para una unidad a 12" o menos de esta unidad</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: Tú o tu oponente declarasteis la habilidad &apos;Erupción de furia&apos; para una unidad a 12" o menos de esta unidad</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Devuelve 1 miniatura abatida a esta unidad. Si tu oponente declaró esa habilidad &apos;Eruption of Fury&apos; y la unidad que la usa está en combate con esta unidad, devuelve en su lugar 3 miniaturas abatidas a esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Devuelve 1 miniatura abatida a esta unidad. Si tu oponente declaró esa habilidad &apos;Erupción de furia&apos; y la unidad que la usa está en combate con esta unidad, devuelve en su lugar 3 miniaturas abatidas a esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2340,7 +2340,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="1356-8d70-ff53-9d84" hidden="true">
+            <rule name="Tamaño de peana" id="1356-8d70-ff53-9d84" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -2499,7 +2499,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="6d03-e32c-6d07-44bc" hidden="true">
+            <rule name="Tamaño de peana" id="6d03-e32c-6d07-44bc" hidden="true">
               <description>90x52mm</description>
             </rule>
           </rules>
@@ -2641,7 +2641,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="5ce8-bdb9-fd83-6c87" hidden="true">
+            <rule name="Tamaño de peana" id="5ce8-bdb9-fd83-6c87" hidden="true">
               <description>90x52mm</description>
             </rule>
           </rules>
@@ -2748,7 +2748,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="391d-925d-4e51-e011" hidden="true">
+            <rule name="Tamaño de peana" id="391d-925d-4e51-e011" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -2844,7 +2844,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="ef80-ecb0-91fc-9fe4" hidden="true">
+            <rule name="Tamaño de peana" id="ef80-ecb0-91fc-9fe4" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -2952,7 +2952,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="52a5-a70c-304f-7455" hidden="true">
+            <rule name="Tamaño de peana" id="52a5-a70c-304f-7455" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -3056,7 +3056,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3933-1a30-60c1-2b83"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="56bd-8a8c-a1e5-0ccc" hidden="true">
+            <rule name="Tamaño de peana" id="56bd-8a8c-a1e5-0ccc" hidden="true">
               <description>90x52mm</description>
             </rule>
           </rules>
@@ -3080,7 +3080,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Bloodbound^^** que no sea **^^Hero^^** dentro del alcance de combate de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, el objetivo puede usar habilidades **^^Charge^^** aunque haya usado una habilidad **^^Run^^** en el mismo turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, el objetivo puede usar habilidades **^^Cargar^^** aunque haya usado una habilidad **^^Correr^^** en el mismo turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -3125,7 +3125,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="17c6-c01-914f-9f6"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="38d7-a188-e2b8-1036" hidden="true">
+            <rule name="Tamaño de peana" id="38d7-a188-e2b8-1036" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -3189,7 +3189,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
         </selectionEntry>
       </selectionEntries>
       <rules>
-        <rule name="Base Size" id="0802-0521-eb52-6860" hidden="true">
+        <rule name="Tamaño de peana" id="0802-0521-eb52-6860" hidden="true">
           <description>105x70mm</description>
         </rule>
       </rules>
@@ -3231,7 +3231,7 @@ Si la tirada de cántico de un **^^Priest^^** enemigo a 12" o menos de esta unid
         <categoryLink name="BLADES OF KHORNE" hidden="false" id="12c4-79f0-9aa-72e9" targetId="34e2-3c11-76bc-a2e" primary="false"/>
       </categoryLinks>
       <rules>
-        <rule name="Base Size" id="b00a-e167-9e66-abfb" hidden="true">
+        <rule name="Tamaño de peana" id="b00a-e167-9e66-abfb" hidden="true">
           <description>105x70mm</description>
         </rule>
       </rules>
@@ -3302,7 +3302,7 @@ Cada vez que esta **^^Manifestation^^** se mueva, sus dos partes deben terminar 
         </selectionEntry>
       </selectionEntries>
       <rules>
-        <rule name="Base Size" id="b7a3-86e6-dda6-e02d" hidden="true">
+        <rule name="Tamaño de peana" id="b7a3-86e6-dda6-e02d" hidden="true">
           <description>60mm</description>
         </rule>
       </rules>
@@ -3356,7 +3356,7 @@ Cada vez que esta **^^Manifestation^^** se mueva, sus dos partes deben terminar 
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si este elemento de escenografía tiene un **Invoker**, elige como objetivos hasta D3 **^^Endless Spells^^** enemigos a 18" o menos de este elemento de escenografía y haz una **tirada de destierro** de 2D6 por cada objetivo.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Resuelve el efecto de la habilidad &apos;Banish Manifestation&apos; para cada objetivo. Si esta habilidad destierra algún **^^Endless Spells^^**, ganas 1 punto de **diezmo de sangre**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Resuelve el efecto de la habilidad &apos;Desterrar manifestación&apos; para cada objetivo. Si esta habilidad destierra algún **^^Endless Spells^^**, ganas 1 punto de **diezmo de sangre**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -3384,9 +3384,9 @@ Cada vez que esta **^^Manifestation^^** se mueva, sus dos partes deben terminar 
       <rules>
         <rule name="Altar de cráneos" id="4e04-aa06-689-81aa" hidden="false">
           <description>**Las siguientes habilidades universales de escenografía se aplican a este elemento de escenografía (Terrain, 1.2):
-Cover, Impassable**</description>
+Cobertura, Infranqueable**</description>
         </rule>
-        <rule name="Base Size" id="c18a-512f-b3f1-9c8a" hidden="true">
+        <rule name="Tamaño de peana" id="c18a-512f-b3f1-9c8a" hidden="true">
           <description>Usar miniatura</description>
         </rule>
       </rules>
@@ -3438,7 +3438,7 @@ Cover, Impassable**</description>
         <profile name="La mirada de Khorne" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="902d-90cb-7d38-6c06">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si una unidad amiga **^^Bloodbound^^** totalmente a 12" o menos de esta unidad usa la orden &apos;Rally&apos;, puedes hacer 3 tiradas de reagrupamiento adicionales de D6. Sin embargo, las unidades amigas **^^Bloodbound^^** no pueden usar habilidades **^^Retreat^^** mientras estén a 12" o menos de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si una unidad amiga **^^Bloodbound^^** totalmente a 12" o menos de esta unidad usa la orden &apos;Reagrupamiento&apos;, puedes hacer 3 tiradas de reagrupamiento adicionales de D6. Sin embargo, las unidades amigas **^^Bloodbound^^** no pueden usar habilidades **^^Retirarse^^** mientras estén a 12" o menos de esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -3484,7 +3484,7 @@ Cover, Impassable**</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="e783-20bf-8625-7f37"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="c27a-7b72-e752-25ba" hidden="true">
+            <rule name="Tamaño de peana" id="c27a-7b72-e752-25ba" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -3531,7 +3531,7 @@ Cover, Impassable**</description>
         <profile name="Collar de latón de Khorne" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e874-77bc-e831-8ab0">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades **^^Unbind^^** como si tuviera **^^Wizard (1)^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades **^^Desvincular^^** como si tuviera **^^Wizard (1)^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -3576,7 +3576,7 @@ Cover, Impassable**</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9fd4-3bed-ca6e-9f5f"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="40c1-8c57-ba62-ded4" hidden="true">
+            <rule name="Tamaño de peana" id="40c1-8c57-ba62-ded4" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -3612,7 +3612,7 @@ Cover, Impassable**</description>
         <profile name="Sin respiro" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c8d1-4ea0-87f7-3e14">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una miniatura de esta unidad sea abatida por un ataque de combate y esa miniatura estuviera en combate con la unidad atacante, tira 2 dados. Por cada 5+, inflige 1 de daño mortal a la unidad atacante después de resolver la habilidad **^^Fight^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una miniatura de esta unidad sea abatida por un ataque de combate y esa miniatura estuviera en combate con la unidad atacante, tira 2 dados. Por cada 5+, inflige 1 de daño mortal a la unidad atacante después de resolver la habilidad **^^Combatir^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -3663,7 +3663,7 @@ Cover, Impassable**</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="1516-5514-4a27-408f" hidden="true">
+            <rule name="Tamaño de peana" id="1516-5514-4a27-408f" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -3694,7 +3694,7 @@ Cover, Impassable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="7774-1f6a-0ed0-532d" hidden="true">
+            <rule name="Tamaño de peana" id="7774-1f6a-0ed0-532d" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -3725,7 +3725,7 @@ Cover, Impassable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="45c1-dda6-cb39-8ce6" hidden="true">
+            <rule name="Tamaño de peana" id="45c1-dda6-cb39-8ce6" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -3756,7 +3756,7 @@ Cover, Impassable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="ae44-4249-81d5-dd31" hidden="true">
+            <rule name="Tamaño de peana" id="ae44-4249-81d5-dd31" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -3860,7 +3860,7 @@ Cover, Impassable**</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="5ac0-723b-05b3-bd8d" hidden="true">
+            <rule name="Tamaño de peana" id="5ac0-723b-05b3-bd8d" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -3891,7 +3891,7 @@ Cover, Impassable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="f91a-2441-5585-b80f" hidden="true">
+            <rule name="Tamaño de peana" id="f91a-2441-5585-b80f" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -3922,7 +3922,7 @@ Cover, Impassable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="35fc-3866-826a-4c82" hidden="true">
+            <rule name="Tamaño de peana" id="35fc-3866-826a-4c82" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -3953,7 +3953,7 @@ Cover, Impassable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="f02d-ff27-c1a0-ff6a" hidden="true">
+            <rule name="Tamaño de peana" id="f02d-ff27-c1a0-ff6a" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -3984,7 +3984,7 @@ Cover, Impassable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="e483-0bfe-e7fb-6c65" hidden="true">
+            <rule name="Tamaño de peana" id="e483-0bfe-e7fb-6c65" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -4023,7 +4023,7 @@ Cover, Impassable**</description>
         <profile name="Trofeos macabros" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="77b1-3c62-b7ff-83f5">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras el **Dromm, Heridor de Mundos** de esta unidad esté en el campo de batalla, tiene **^^Priest (1)^^** y puede usar habilidades **^^Unbind^^** como si tuviera **^^Wizard (1)^^**</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras el **Dromm, Heridor de Mundos** de esta unidad esté en el campo de batalla, tiene **^^Priest (1)^^** y puede usar habilidades **^^Desvincular^^** como si tuviera **^^Wizard (1)^^**</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -4074,7 +4074,7 @@ Cover, Impassable**</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="d393-6dae-db1e-0a0c" hidden="true">
+            <rule name="Tamaño de peana" id="d393-6dae-db1e-0a0c" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -4105,7 +4105,7 @@ Cover, Impassable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="2b6f-8550-bb64-ac59" hidden="true">
+            <rule name="Tamaño de peana" id="2b6f-8550-bb64-ac59" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -4136,7 +4136,7 @@ Cover, Impassable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="c504-f8a2-129c-4993" hidden="true">
+            <rule name="Tamaño de peana" id="c504-f8a2-129c-4993" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -4247,7 +4247,7 @@ Cover, Impassable**</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="d56a-bfaf-f739-697e"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="5c27-dc63-ae25-f7e2" hidden="true">
+            <rule name="Tamaño de peana" id="5c27-dc63-ae25-f7e2" hidden="true">
               <description>60mm</description>
             </rule>
           </rules>
@@ -4407,7 +4407,7 @@ Cover, Impassable**</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="8e37-85a4-3184-a691" hidden="true">
+            <rule name="Tamaño de peana" id="8e37-85a4-3184-a691" hidden="true">
               <description>90x52mm</description>
             </rule>
           </rules>
@@ -4525,7 +4525,7 @@ Cover, Impassable**</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5ee6-b6e5-0344-b238"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="f0d2-5bd1-3916-1a52" hidden="true">
+            <rule name="Tamaño de peana" id="f0d2-5bd1-3916-1a52" hidden="true">
               <description>60mm</description>
             </rule>
           </rules>
@@ -4559,7 +4559,7 @@ Cover, Impassable**</description>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de carga</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos todos los **^^Bloodbound Hero^^** amigos dentro del alcance de combate de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Las armas de combate de los objetivos tienen **Charge (+1 Damage)** durante el resto del turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Las armas de combate de los objetivos tienen **Carga (+1 Daño)** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -4654,7 +4654,7 @@ Cover, Impassable**</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="10c3-0ee8-7925-c86c"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="2853-6d3b-9779-cc80" hidden="true">
+            <rule name="Tamaño de peana" id="2853-6d3b-9779-cc80" hidden="true">
               <description>60mm</description>
             </rule>
           </rules>
@@ -4747,7 +4747,7 @@ Cover, Impassable**</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="80c2-3cf6-51f3-0fa9"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="1d63-0b81-c38f-4ed7" hidden="true">
+            <rule name="Tamaño de peana" id="1d63-0b81-c38f-4ed7" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -5110,7 +5110,7 @@ Cover, Impassable**</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a734-5d8b-32b2-71eb"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Khornate Warlord" hidden="false" id="7810-580d-c5b7-2f3f" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Caudillo de Khorne" hidden="false" id="7810-580d-c5b7-2f3f" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -5132,14 +5132,14 @@ Cover, Impassable**</description>
                     <modifier type="set" value="3+" field="1981-ef09-96f6-7aa9" affects="profiles.Unit" scope="root-entry"/>
                   </modifiers>
                   <rules>
-                    <rule name="Khornate Warlord" id="2abc-d1d1-03d2-ace1" hidden="true">
+                    <rule name="Caudillo de Khorne" id="2abc-d1d1-03d2-ace1" hidden="true">
                       <description>Tu héroe obtiene la palabra clave **^^Bloodbound^^** y las siguientes opciones de regimiento:
 Cualquier unidad **^^Blades of Khorne^^**
 Además, cambia la característica de Save de tu héroe a 3+ y cambia su arma de combate por una **Gran arma cubierta de sangre**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Priest of Khorne" hidden="false" id="b9d2-7734-7a08-f124" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Sacerdote de Khorne" hidden="false" id="b9d2-7734-7a08-f124" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -5161,13 +5161,13 @@ Además, cambia la característica de Save de tu héroe a 3+ y cambia su arma de
                     <modifier type="add" value="3fe-84f4-cec6-a1c1" field="category" scope="root-entry"/>
                   </modifiers>
                   <rules>
-                    <rule name="Priest of Khorne" id="ddf7-793e-8a87-b215" hidden="true">
+                    <rule name="Sacerdote de Khorne" id="ddf7-793e-8a87-b215" hidden="true">
                       <description>Tu héroe obtiene las palabras clave **^^Bloodbound^^** y **^^Priest (1)^^** y las siguientes opciones de regimiento:
 Cualquier unidad **^^Bloodbound^^**</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Daemon of Fury" hidden="false" id="0b78-459c-b644-2dac" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Demonio de la furia" hidden="false" id="0b78-459c-b644-2dac" sortIndex="3">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -5190,14 +5190,14 @@ Cualquier unidad **^^Bloodbound^^**</description>
                     </modifierGroup>
                   </modifierGroups>
                   <rules>
-                    <rule name="Daemon of Fury" id="83a4-5469-bd11-b2a5" hidden="true">
+                    <rule name="Demonio de la furia" id="83a4-5469-bd11-b2a5" hidden="true">
                       <description>Tu héroe obtiene las palabras clave **^^Daemon^^** y **^^Priest (1)^^** y las siguientes opciones de regimiento:
 Cualquier unidad **^^Blades of Khorne Daemon^^**
 Además, tu héroe tiene **^^Ward (6+)^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Daemon of Violence" hidden="false" id="353c-e908-7839-9082" sortIndex="4">
+                <selectionEntry type="upgrade" import="true" name="Demonio de la violencia" hidden="false" id="353c-e908-7839-9082" sortIndex="4">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -5219,14 +5219,14 @@ Además, tu héroe tiene **^^Ward (6+)^^**.</description>
                     </modifierGroup>
                   </modifierGroups>
                   <rules>
-                    <rule name="Daemon of Violence" id="3d93-7766-9edc-1442" hidden="true">
+                    <rule name="Demonio de la violencia" id="3d93-7766-9edc-1442" hidden="true">
                       <description>Tu héroe obtiene la palabra clave **^^Daemon^^** y las siguientes opciones de regimiento:
 Cualquier unidad **^^Blades of Khorne Daemon^^**
 Además, tu héroe tiene **^^Ward (6+)^^** y cambia su arma de combate por una **Hoja del derramamiento de sangre**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Locus of Battle" hidden="false" id="f55e-57e5-853e-ae93" sortIndex="5">
+                <selectionEntry type="upgrade" import="true" name="Foco de batalla" hidden="false" id="f55e-57e5-853e-ae93" sortIndex="5">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -5248,7 +5248,7 @@ Además, tu héroe tiene **^^Ward (6+)^^** y cambia su arma de combate por una *
                     <modifier type="set" value="3+" field="1981-ef09-96f6-7aa9" affects="profiles.Unit" scope="root-entry"/>
                   </modifiers>
                   <rules>
-                    <rule name="Locus of Battle" id="f49e-d912-3b4c-281f" hidden="true">
+                    <rule name="Foco de batalla" id="f49e-d912-3b4c-281f" hidden="true">
                       <description>Tu héroe obtiene la palabra clave **^^Bloodbound^^** y las siguientes opciones de regimiento:
 Cualquier unidad **^^Blades of Khorne^^**
 Además, cambia la característica de Save de tu héroe a 3+.</description>
@@ -5471,7 +5471,7 @@ Además, cambia la característica de Save de tu héroe a 3+.</description>
             </selectionEntryGroup>
             <selectionEntryGroup name="Upgrades" id="ec8e-26b8-029c-5768" hidden="false" sortIndex="7">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Trophy Racks" hidden="false" id="0202-9ce6-a9d9-24bb" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Bastidores de trofeos" hidden="false" id="0202-9ce6-a9d9-24bb" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-1"/>
@@ -5483,12 +5483,12 @@ Además, cambia la característica de Save de tu héroe a 3+.</description>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="60d4-9221-463b-6135"/>
                   </constraints>
                   <rules>
-                    <rule name="Trophy Racks" id="0617-93d4-be4e-05de" hidden="true">
+                    <rule name="Bastidores de trofeos" id="0617-93d4-be4e-05de" hidden="true">
                       <description>Añade 2 a la característica de Control de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Killer&apos;s Heirloom" hidden="false" id="10ec-d48c-d24e-008c" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Reliquia del asesino" hidden="false" id="10ec-d48c-d24e-008c" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -5499,12 +5499,12 @@ Además, cambia la característica de Save de tu héroe a 3+.</description>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a66f-0938-7268-6014"/>
                   </constraints>
                   <rules>
-                    <rule name="Killer&apos;s Heirloom" id="3e62-b324-a147-e805" hidden="true">
+                    <rule name="Reliquia del asesino" id="3e62-b324-a147-e805" hidden="true">
                       <description>La característica de Wound del **Arma cubierta de sangre** de tu héroe es 3+.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Slaughterous Speed" hidden="false" id="e04b-17f3-e85a-0437" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Velocidad masacradora" hidden="false" id="e04b-17f3-e85a-0437" sortIndex="3">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -5521,12 +5521,12 @@ Además, cambia la característica de Save de tu héroe a 3+.</description>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7527-d7c2-7408-23d0"/>
                   </constraints>
                   <rules>
-                    <rule name="Slaughterous Speed" id="029c-3c94-fcbc-9c76" hidden="true">
+                    <rule name="Velocidad masacradora" id="029c-3c94-fcbc-9c76" hidden="true">
                       <description>Solo **^^Infantry^^**. Añade 1" a la característica de Move de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Preferred Prey" hidden="false" id="625d-4fe3-ba0b-0b9e" sortIndex="4">
+                <selectionEntry type="upgrade" import="true" name="Presa preferida" hidden="false" id="625d-4fe3-ba0b-0b9e" sortIndex="4">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -5553,8 +5553,8 @@ Además, cambia la característica de Save de tu héroe a 3+.</description>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <rules>
-                    <rule name="Preferred Prey" id="8ede-e029-b8db-06b8" hidden="true">
-                      <description>El arma de combate de tu héroe tiene **Anti-X (+1 Rend)**, donde **X** es una de las siguientes palabras clave: **^^Infantry^^**, **^^Cavalry^^**, **^^Monster^^**, **^^War Machine^^**, **^^Wizard^^** o **^^Priest^^**.</description>
+                    <rule name="Presa preferida" id="8ede-e029-b8db-06b8" hidden="true">
+                      <description>El arma de combate de tu héroe tiene **Anti-X (+1 Penetración)**, donde **X** es una de las siguientes palabras clave: **^^Infantry^^**, **^^Cavalry^^**, **^^Monster^^**, **^^War Machine^^**, **^^Wizard^^** o **^^Priest^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5650,7 +5650,7 @@ Además, cambia la característica de Save de tu héroe a 3+.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Leathery Wings" hidden="false" id="f8b7-95db-3deb-4377" sortIndex="7">
+                <selectionEntry type="upgrade" import="true" name="Alas coriáceas" hidden="false" id="f8b7-95db-3deb-4377" sortIndex="7">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -5667,7 +5667,7 @@ Además, cambia la característica de Save de tu héroe a 3+.</description>
                     </modifier>
                   </modifiers>
                   <rules>
-                    <rule name="Leathery Wings" id="c68a-2201-f9c9-4891" hidden="true">
+                    <rule name="Alas coriáceas" id="c68a-2201-f9c9-4891" hidden="true">
                       <description>Solo **^^Infantry^^**. Tu héroe tiene **^^Volar^^**.</description>
                     </rule>
                   </rules>
@@ -5765,7 +5765,7 @@ Además, cambia la característica de Save de tu héroe a 3+.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Butcher&apos;s Brawn" hidden="false" id="ebca-1f31-8763-d009" sortIndex="11">
+                <selectionEntry type="upgrade" import="true" name="Vigor del carnicero" hidden="false" id="ebca-1f31-8763-d009" sortIndex="11">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-6"/>
@@ -5774,8 +5774,8 @@ Además, cambia la característica de Save de tu héroe a 3+.</description>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49c8-8bb7-e350-6bce"/>
                   </constraints>
                   <rules>
-                    <rule name="Butcher&apos;s Brawn" id="2a22-c085-147c-5d1f" hidden="true">
-                      <description>Añade 1 a la característica de Damage de las armas de combate de tu héroe que no sean **Companion**.</description>
+                    <rule name="Vigor del carnicero" id="2a22-c085-147c-5d1f" hidden="true">
+                      <description>Añade 1 a la característica de Damage de las armas de combate de tu héroe que no sean **Compañero**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5783,7 +5783,7 @@ Además, cambia la característica de Save de tu héroe a 3+.</description>
             </selectionEntryGroup>
             <selectionEntryGroup name="Battle Mounts" id="b11c-fd48-0a5e-8a3d" hidden="false" collapsible="true" sortIndex="5">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Blood Throne" hidden="false" id="b257-3fc0-2172-cb6e" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Trono de Sangre" hidden="false" id="b257-3fc0-2172-cb6e" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-5"/>
@@ -5797,7 +5797,7 @@ Además, cambia la característica de Save de tu héroe a 3+.</description>
                     <modifier type="add" value="f7bc-b618-4b5d-2bae" field="category" scope="root-entry"/>
                   </modifiers>
                   <rules>
-                    <rule name="Blood Throne" id="ab27-978e-d1e4-436d" hidden="true">
+                    <rule name="Trono de Sangre" id="ab27-978e-d1e4-436d" hidden="true">
                       <description>Añade el arma **Hojas infernales del jinete demoníaco** al pergamino de tu héroe.
 Además, haz los siguientes cambios en el pergamino de tu héroe:
 • Cambia la característica de Move a 8".
@@ -5848,7 +5848,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
             </selectionEntryGroup>
             <selectionEntryGroup name="Battle Mount Upgrades" id="d06a-854c-4e2e-e467" hidden="false" collapsible="true" sortIndex="6">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Furious Haste" hidden="false" id="619f-7912-8e4a-9546" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Prisa furiosa" hidden="false" id="619f-7912-8e4a-9546" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -5862,12 +5862,12 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <modifier type="increment" value="2" field="fed0-d1b3-1bb8-c501" affects="profiles.Unit" scope="root-entry"/>
                   </modifiers>
                   <rules>
-                    <rule name="Furious Haste" id="92b8-4d2e-85d0-b365" hidden="true">
+                    <rule name="Prisa furiosa" id="92b8-4d2e-85d0-b365" hidden="true">
                       <description>Añade 2" a la característica de Move de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Studded Brass Hide" hidden="false" id="2ea1-35db-d763-23bc" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Piel tachonada de latón" hidden="false" id="2ea1-35db-d763-23bc" sortIndex="3">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -5881,12 +5881,12 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <modifier type="increment" value="2" field="96be-54ae-ce7b-10b7" affects="profiles.Unit" scope="root-entry"/>
                   </modifiers>
                   <rules>
-                    <rule name="Studded Brass Hide" id="41d1-6582-de43-db78" hidden="true">
+                    <rule name="Piel tachonada de latón" id="41d1-6582-de43-db78" hidden="true">
                       <description>Añade 2 a la característica de Health de tu héroe,</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Spikes and Blades" hidden="false" id="9956-7e54-2847-c6fa" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Pinchos y cuchillas" hidden="false" id="9956-7e54-2847-c6fa" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -5897,8 +5897,8 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0198-e08d-851b-4028"/>
                   </constraints>
                   <rules>
-                    <rule name="Spikes and Blades" id="f62b-4595-701c-caf3" hidden="true">
-                      <description>Las armas **Companion** de tu héroe tienen **Crit (Mortal)**.</description>
+                    <rule name="Pinchos y cuchillas" id="f62b-4595-701c-caf3" hidden="true">
+                      <description>Las armas **Compañero** de tu héroe tienen **Crítico (mortal)**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5972,7 +5972,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                   <profiles>
                     <profile name="Asesino impaciente" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2e86-be92-1996-d4b0">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste una habilidad **^^Charge^^** para este **^^Hero^^**</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste una habilidad **^^Cargar^^** para este **^^Hero^^**</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Añade D3 a la tirada de carga.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -6059,7 +6059,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
         <profile name="Mastín de Khorne" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="dc77-8585-a55d-1374">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">El **Kannat** de esta unidad es una ficha. Cada vez que declares una habilidad **^^Fight^^** para esta unidad mientras su **Kannat** esté en el campo de batalla, como reacción, puedes retirar su **Kannat** del campo de batalla y después añadir 1 a la característica de Rend de las **Armas ensangrentadas** de esta unidad durante el resto de la fase.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">El **Kannat** de esta unidad es una ficha. Cada vez que declares una habilidad **^^Combatir^^** para esta unidad mientras su **Kannat** esté en el campo de batalla, como reacción, puedes retirar su **Kannat** del campo de batalla y después añadir 1 a la característica de Rend de las **Armas ensangrentadas** de esta unidad durante el resto de la fase.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -6124,7 +6124,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="28e3-343a-56e8-ef41" hidden="true">
+            <rule name="Tamaño de peana" id="28e3-343a-56e8-ef41" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -6155,7 +6155,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="f75e-5dbe-118f-1908" hidden="true">
+            <rule name="Tamaño de peana" id="f75e-5dbe-118f-1908" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -6186,7 +6186,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="5182-bde7-0364-434f" hidden="true">
+            <rule name="Tamaño de peana" id="5182-bde7-0364-434f" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
@@ -6217,7 +6217,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="28d2-9003-ab18-52d6" hidden="true">
+            <rule name="Tamaño de peana" id="28d2-9003-ab18-52d6" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
@@ -6238,7 +6238,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Paths" id="1669-fe17-fbf3-0b96" hidden="false" flatten="true" publicationId="8b1b-f2c7-890e-2bbe">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Path of the Slaughterer" hidden="true" id="0a70-2c08-2482-fe05" publicationId="81a9-3dbf-dbc5-672e">
+        <selectionEntry type="upgrade" import="true" name="Senda del Masacrador" hidden="true" id="0a70-2c08-2482-fe05" publicationId="81a9-3dbf-dbc5-672e">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="a400-d6ea-84b1-14c2" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -6246,9 +6246,9 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                   <profiles>
                     <profile name="Cegado por la sangre" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="6e20-7a7d-639c-93f5">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Esta unidad fue elegida como objetivo de una habilidad **^^Fight^^**.</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Esta unidad fue elegida como objetivo de una habilidad **^^Combatir^^**.</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Con un 2+, después de resolver esa habilidad **^^Fight^^**, inflige a la unidad enemiga que usa esa habilidad **^^fight^^** una cantidad de daño mortal igual al resultado.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Con un 2+, después de resolver esa habilidad **^^Combatir^^**, inflige a la unidad enemiga que usa esa habilidad **^^fight^^** una cantidad de daño mortal igual al resultado.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -6267,7 +6267,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                   <profiles>
                     <profile name="Vigorizado por la ira" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9f74-9f43-5e8e-4e09">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: El oponente declaró una habilidad **^^Fight^^** para una unidad en combate con esta unidad.</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: El oponente declaró una habilidad **^^Combatir^^** para una unidad en combate con esta unidad.</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede hacer inmediatamente un movimiento de aproximación.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -6380,7 +6380,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <profile name="Quebrantador de lo arcano" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8df1-e1f2-48e8-33af">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades **^^Unbind^^** como si tuviera **^^Wizard (1)^^**. Cada vez que esta unidad desvincule un hechizo, resta 1 al nivel de poder del **^^Wizard^^** que usa esa habilidad **^^Hechizo^^**, hasta un mínimo de 0, durante el resto de la batalla. Un **^^Wizard^^** enemigo puede verse afectado por esta habilidad varias veces y los efectos son acumulativos.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades **^^Desvincular^^** como si tuviera **^^Wizard (1)^^**. Cada vez que esta unidad desvincule un hechizo, resta 1 al nivel de poder del **^^Wizard^^** que usa esa habilidad **^^Hechizo^^**, hasta un mínimo de 0, durante el resto de la batalla. Un **^^Wizard^^** enemigo puede verse afectado por esta habilidad varias veces y los efectos son acumulativos.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -6446,7 +6446,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar 2 habilidades **^^Fight^^** esta fase. Tras usar la primera, esta unidad tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar 2 habilidades **^^Combatir^^** esta fase. Tras usar la primera, esta unidad tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -6520,12 +6520,12 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Path Restrictions" id="a8ae-831b-b18f-b1e9" hidden="true">
+            <rule name="Restricciones de senda" id="a8ae-831b-b18f-b1e9" hidden="true">
               <description>Solo **^^Blades of Khorne Hero^^**</description>
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of Brazen Butchery" hidden="true" id="a4ee-d4fb-980f-3494" publicationId="81a9-3dbf-dbc5-672e">
+        <selectionEntry type="upgrade" import="true" name="Senda de la Carnicería Descarada" hidden="true" id="a4ee-d4fb-980f-3494" publicationId="81a9-3dbf-dbc5-672e">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="be4b-6498-4e6f-ffa7" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -6535,7 +6535,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 4+, el objetivo no puede usar habilidades **^^Retreat^^** hasta el inicio de tu siguiente turno.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 4+, el objetivo no puede usar habilidades **^^Retirarse^^** hasta el inicio de tu siguiente turno.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -6555,7 +6555,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <profile name="Rompeescudos" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ffea-a909-2806-697e">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades enemigas en combate con esta unidad no pueden usar la orden &apos;All-out Defence&apos;.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades enemigas en combate con esta unidad no pueden usar la orden &apos;Defensa total&apos;.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -6678,7 +6678,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                   <profiles>
                     <profile name="Persecución a grandes zancadas" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e67a-e441-5aff-97da">
                       <characteristics>
-                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste una habilidad **^^Charge^^** para esta unidad.</characteristic>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste una habilidad **^^Cargar^^** para esta unidad.</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si la tirada de carga fue de 5 o menos, puedes volver a tirar los dados.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -6727,7 +6727,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno)</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si alguna unidad enemiga fue destruida este turno mientras estaba en combate con esta unidad, aplica **Heal (X)** a esta unidad, donde **X** es el número de puntos de daño que tenga esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si alguna unidad enemiga fue destruida este turno mientras estaba en combate con esta unidad, aplica **Curar (X)** a esta unidad, donde **X** es el número de puntos de daño que tenga esta unidad.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -6801,7 +6801,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Path Restrictions" id="6010-4bfc-a9e6-ec45" hidden="true">
+            <rule name="Restricciones de senda" id="6010-4bfc-a9e6-ec45" hidden="true">
               <description>Solo unidades que sean **^^Blades of Khorne^^** y no sean **^^Hero^^**</description>
             </rule>
           </rules>

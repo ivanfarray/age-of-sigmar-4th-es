@@ -10,7 +10,7 @@
                 <profile name="Collar de desprecio" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="defa-ab8a-3572-9d77">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades **^^Unbind^^** como si tuviera **^^Wizard (1)^^**. Cada vez que esta unidad desvincule con éxito un hechizo, inflige D3 de daño mortal al lanzador.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades **^^Desvincular^^** como si tuviera **^^Wizard (1)^^**. Cada vez que esta unidad desvincule con éxito un hechizo, inflige D3 de daño mortal al lanzador.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -64,7 +64,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="2da1-3780-55a4-737f" hidden="true">
+            <rule name="Restricciones de mejoras" id="2da1-3780-55a4-737f" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -106,18 +106,18 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Khornate Legion" hidden="false" id="1437-4357-25cb-fc23" publicationId="81a9-3dbf-dbc5-672e">
+        <selectionEntry type="upgrade" import="true" name="Legión de Khorne" hidden="false" id="1437-4357-25cb-fc23" publicationId="81a9-3dbf-dbc5-672e">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f9bd-6d93-2ad9-3052"/>
           </constraints>
           <profiles>
             <profile name="Carniceros de naciones" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bc8a-d722-6a86-4161">
               <characteristics>
-                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), Reacción: Has declarado una habilidad **^^Fight^^** para una unidad amiga **^^Blades of Khorne Daemon^^**</characteristic>
+                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), Reacción: Has declarado una habilidad **^^Combatir^^** para una unidad amiga **^^Blades of Khorne Daemon^^**</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga **^^Bloodbound^^** que no haya usado una habilidad **^^Fight^^** este turno y que esté totalmente a 12" o menos de la unidad que use esta habilidad. El objetivo puede ser elegido para usar una habilidad **^^Fight^^** inmediatamente después de resolver la habilidad **^^Fight^^** usada por esta unidad.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga **^^Bloodbound^^** que no haya usado una habilidad **^^Combatir^^** este turno y que esté totalmente a 12" o menos de la unidad que use esta habilidad. El objetivo puede ser elegido para usar una habilidad **^^Combatir^^** inmediatamente después de resolver la habilidad **^^Combatir^^** usada por esta unidad.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
-                <characteristic name="Used By" typeId="1b32-c9d6-3106-166b">La unidad que use esa habilidad **^^Fight^^**.</characteristic>
+                <characteristic name="Used By" typeId="1b32-c9d6-3106-166b">La unidad que use esa habilidad **^^Combatir^^**.</characteristic>
               </characteristics>
               <attributes>
                 <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
@@ -127,7 +127,7 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Murderhost" hidden="false" id="5ccf-b9a-18d6-e621" publicationId="81a9-3dbf-dbc5-672e">
+        <selectionEntry type="upgrade" import="true" name="Hueste Asesina" hidden="false" id="5ccf-b9a-18d6-e621" publicationId="81a9-3dbf-dbc5-672e">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1d0-4637-461e-c661"/>
           </constraints>
@@ -136,7 +136,7 @@
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de tu turno</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada unidad amiga **^^Blades of Khorne Daemon^^** que haya usado una habilidad **^^Fight^^** este turno y que no esté en combate puede mover D6". No puede terminar ese movimiento en combate.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada unidad amiga **^^Blades of Khorne Daemon^^** que haya usado una habilidad **^^Combatir^^** este turno y que no esté en combate puede mover D6". No puede terminar ese movimiento en combate.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -148,7 +148,7 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Bloodbound Warhorde" hidden="false" id="43b-c649-d523-c32d" publicationId="81a9-3dbf-dbc5-672e">
+        <selectionEntry type="upgrade" import="true" name="Horda de Guerra de los Juramentados de Sangre" hidden="false" id="43b-c649-d523-c32d" publicationId="81a9-3dbf-dbc5-672e">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1fe6-998a-1877-9c94"/>
           </constraints>
@@ -175,7 +175,7 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Bloodbound^^** unit
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Tournament of Skulls" hidden="true" id="b17c-c220-7a3d-69c8" publicationId="f894-7929-f79a-a269">
+        <selectionEntry type="upgrade" import="true" name="Torneo de Cráneos" hidden="true" id="b17c-c220-7a3d-69c8" publicationId="f894-7929-f79a-a269">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5913-8f62-de56-a610"/>
           </constraints>
@@ -208,7 +208,7 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Bloodbound^^** unit
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="The Goretide" hidden="true" id="5ead-660f-ba1b-f290" publicationId="f894-7929-f79a-a269">
+        <selectionEntry type="upgrade" import="true" name="La Marea Sangrienta" hidden="true" id="5ead-660f-ba1b-f290" publicationId="f894-7929-f79a-a269">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="03f2-c6e4-ebc1-b759"/>
           </constraints>
@@ -314,7 +314,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="2938-d6b0-da51-7b85" hidden="true">
+            <rule name="Restricciones de mejoras" id="2938-d6b0-da51-7b85" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -501,7 +501,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
                 <profile name="Extremidades de hojas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="0af5-0e0a-bee6-6995">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad sea elegida para usar la habilidad &apos;Eruption of Fury&apos;, por cada tirada de impacto sin modificar de 6 de los ataques realizados como parte de esa habilidad, inflige 3 de daño mortal adicional a cada unidad enemiga en combate con esta unidad en lugar de D3.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad sea elegida para usar la habilidad &apos;Erupción de furia&apos;, por cada tirada de impacto sin modificar de 6 de los ataques realizados como parte de esa habilidad, inflige 3 de daño mortal adicional a cada unidad enemiga en combate con esta unidad en lugar de D3.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Purple</attribute>
@@ -590,7 +590,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Enhancement Restrictions" id="a63d-a93b-204b-47e7" hidden="true">
+            <rule name="Restricciones de mejoras" id="a63d-a93b-204b-47e7" hidden="true">
               <description>Las Brazen Mutations son mejoras únicas que se pueden dar a unidades **^^Blades of Khorne^^** **^^Infantry^^** o **^^Cavalry^^** que no sean **^^Hero^^**. Una unidad solo puede tener 1 Brazen Mutation.</description>
             </rule>
           </rules>
@@ -603,17 +603,17 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Blades of Khorne" hidden="false" id="1c5d-907-fd0c-c8a4">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Filos de Khorne" hidden="false" id="1c5d-907-fd0c-c8a4">
       <profiles>
         <profile name="Empapado de sangre" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="eb7f-4967-8702-afca">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la habilidad &apos;Cráneos para el Trono de Cráneos&apos;</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad, si has desbloqueado una habilidad **^^Blood Tithe^^** este turno, elige como objetivo una unidad amiga **^^Blades of Khorne^^**. Los siguientes efectos se aplican al objetivo durante el resto de la batalla:
-***Wild-eyed Brutality:*** Ignora los modificadores positivos a las tiradas de salvación de las unidades amigas **^^Blades of Khorne^^**.
-***Blood Haze:*** Las armas **Blood-hungry** usadas por unidades amigas **^^Bloodbound^^** tienen **Crit (Mortal)**.
-***Weapons of Murder:*** Suma 1 a la característica de Rend de las armas **Blood-hungry** usadas por unidades amigas **^^Blades of Khorne^^** que no sean **^^Monster Daemon^^**, incluidas las armas **Blood-hungry Companion**.
-***Bloodlords Supreme:*** Suma 1 a la característica de Damage de las armas **Blood-hungry** usadas por unidades amigas **^^Blades of Khorne Monster^^**.</characteristic>
+***Brutalidad de mirada salvaje:*** Ignora los modificadores positivos a las tiradas de salvación de las unidades amigas **^^Blades of Khorne^^**.
+***Bruma de sangre:*** Las armas **Blood-hungry** usadas por unidades amigas **^^Bloodbound^^** tienen **Crítico (mortal)**.
+***Armas de asesinato:*** Suma 1 a la característica de Rend de las armas **Blood-hungry** usadas por unidades amigas **^^Blades of Khorne^^** que no sean **^^Monster Daemon^^**, incluidas las armas **Blood-hungry Compañero**.
+***Señores de la Sangre supremos:*** Suma 1 a la característica de Damage de las armas **Blood-hungry** usadas por unidades amigas **^^Blades of Khorne Monster^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -650,9 +650,9 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         </profile>
         <profile name="Ansia asesina" typeId="5453-37d7-6d37-db1b" typeName="Ability (Blood Tithe)" hidden="false" id="6d28-b92b-4fb1-bb0e">
           <characteristics>
-            <characteristic name="Timing" typeId="13a2-dcf4-38ba-ff59">Una vez por turno (ejército), Reacción: Has declarado una habilidad **^^Charge^^**.</characteristic>
+            <characteristic name="Timing" typeId="13a2-dcf4-38ba-ff59">Una vez por turno (ejército), Reacción: Has declarado una habilidad **^^Cargar^^**.</characteristic>
             <characteristic name="Declare" typeId="85a7-1eff-2a27-7d21"/>
-            <characteristic name="Effect" typeId="277c-dbd2-179f-36f4">Tira un dado. Puedes reemplazar uno de los dados de la tirada de carga con ese valor. Si lo haces, inflige D3 de daño mortal a la unidad que use esa habilidad **^^Charge^^** después de resolver esa habilidad.</characteristic>
+            <characteristic name="Effect" typeId="277c-dbd2-179f-36f4">Tira un dado. Puedes reemplazar uno de los dados de la tirada de carga con ese valor. Si lo haces, inflige D3 de daño mortal a la unidad que use esa habilidad **^^Cargar^^** después de resolver esa habilidad.</characteristic>
             <characteristic name="Keywords" typeId="5329-0c08-0400-de40">**^^Diezmo de sangre^^**</characteristic>
             <characteristic name="Used By" typeId="5252-c26f-597b-4f23"/>
             <characteristic name="Blood Tithe Points" typeId="937f-e9e7-e332-d608">0</characteristic>
@@ -732,7 +732,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
           <characteristics>
             <characteristic name="Timing" typeId="13a2-dcf4-38ba-ff59">Pasiva</characteristic>
             <characteristic name="Declare" typeId="85a7-1eff-2a27-7d21"/>
-            <characteristic name="Effect" typeId="277c-dbd2-179f-36f4">Salvo la habilidad de arma **Companion**, las habilidades de arma de los ataques de combate realizados por unidades enemigas que hayan cargado este turno y que tengan como objetivo a una unidad amiga **^^Blades of Khorne^^** no tienen efecto.</characteristic>
+            <characteristic name="Effect" typeId="277c-dbd2-179f-36f4">Salvo la habilidad de arma **Compañero**, las habilidades de arma de los ataques de combate realizados por unidades enemigas que hayan cargado este turno y que tengan como objetivo a una unidad amiga **^^Blades of Khorne^^** no tienen efecto.</characteristic>
             <characteristic name="Keywords" typeId="5329-0c08-0400-de40">**^^Diezmo de sangre^^**</characteristic>
             <characteristic name="Used By" typeId="5252-c26f-597b-4f23"/>
             <characteristic name="Blood Tithe Points" typeId="937f-e9e7-e332-d608">3</characteristic>
@@ -980,7 +980,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="6873-cafb-dc10-1700" type="selectionEntryGroup" targetId="1ede-f90-a661-b6c2"/>
         <entryLink import="true" name="Paths" hidden="false" id="15ce-beef-2d9a-6123" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="832e-e2e8-e2d0-ca7d" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="726c-45c7-2ba2-c63b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="726c-45c7-2ba2-c63b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="e443-56ae-f0b3-900f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="aa41-5118-877a-f81e" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1028,7 +1028,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="7181-d8fe-fc37-4a7d" type="selectionEntryGroup" targetId="1ede-f90-a661-b6c2"/>
         <entryLink import="true" name="Paths" hidden="false" id="b702-7f8a-7a92-f7c4" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ce1c-00bd-48bf-3a7d" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="fe20-14fe-c93c-4b61" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="fe20-14fe-c93c-4b61" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="c060-df11-21da-f1db" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="1a39-d837-ce6f-4459" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1090,7 +1090,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="10bc-ddd0-e451-8694" type="selectionEntryGroup" targetId="1ede-f90-a661-b6c2"/>
         <entryLink import="true" name="Paths" hidden="false" id="ff4f-21c7-c2e7-c9b1" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a500-edf7-1f1b-1bb3" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="1691-2246-ee78-33d4" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="1691-2246-ee78-33d4" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="4f10-093f-fd5b-2e5a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="9a72-64e8-db7d-6329" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1276,7 +1276,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="3731-ac01-3e3e-37c4" type="selectionEntryGroup" targetId="1ede-f90-a661-b6c2"/>
         <entryLink import="true" name="Paths" hidden="false" id="1193-1f8e-641e-cfea" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="8d40-79d3-def9-045d" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="cd06-46dc-261f-c0e5" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="cd06-46dc-261f-c0e5" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="e64c-6d62-e480-71f1" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="58b3-a0e4-0080-aaa0" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1367,7 +1367,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="c2fe-d6ba-a941-e01b" type="selectionEntryGroup" targetId="1ede-f90-a661-b6c2"/>
         <entryLink import="true" name="Paths" hidden="false" id="fff4-607d-22c1-128f" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="94d9-77a8-8464-9274" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="9af0-796e-713f-23ed" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="9af0-796e-713f-23ed" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="30f0-04a9-c229-8997" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="270c-82fe-ba55-f800" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1414,7 +1414,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="8e4e-c538-cf36-b37e" type="selectionEntryGroup" targetId="1ede-f90-a661-b6c2"/>
         <entryLink import="true" name="Paths" hidden="false" id="e9df-e6eb-8d5c-95ac" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b118-567a-81a7-25a1" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="a847-b504-992c-6dcd" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="a847-b504-992c-6dcd" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="866f-ae8e-5f19-40ec" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="95da-e2c7-461b-5286" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1463,7 +1463,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="25f6-1851-34a4-d09d" type="selectionEntryGroup" targetId="1ede-f90-a661-b6c2"/>
         <entryLink import="true" name="Paths" hidden="false" id="58e9-16ac-2265-7a36" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="181d-b7d2-bd30-ecb4" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="220d-c229-3cb3-bd22" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="220d-c229-3cb3-bd22" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="ed94-3db4-ff69-2b09" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="2cde-1b19-c4a5-8f16" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1593,7 +1593,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="6b9e-2e73-78c5-2153" type="selectionEntryGroup" targetId="1ede-f90-a661-b6c2"/>
         <entryLink import="true" name="Paths" hidden="false" id="61c4-6c54-ab52-a8dd" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7966-ec53-2981-1225" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="a645-b608-6744-fc8f" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="a645-b608-6744-fc8f" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="c897-0606-5f48-9ecf" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="bacd-7762-8a0d-6ca4" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1655,7 +1655,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="50ff-152e-de92-0e92" type="selectionEntryGroup" targetId="1ede-f90-a661-b6c2"/>
         <entryLink import="true" name="Paths" hidden="false" id="7dd5-df9c-4fae-7660" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3766-5143-f32e-5897" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="51fb-a342-2ce5-673f" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="51fb-a342-2ce5-673f" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="52b8-f549-daee-258d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="27bc-90b1-baf5-dc3e" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1759,7 +1759,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="2c68-8784-798b-6835" type="selectionEntryGroup" targetId="1ede-f90-a661-b6c2"/>
         <entryLink import="true" name="Paths" hidden="false" id="b5ef-bdc1-3211-d3f8" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="92aa-0ed7-e43a-df96" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="cc8a-4aaf-2667-4dcb" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="cc8a-4aaf-2667-4dcb" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="f9ab-0422-1134-853f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="df3f-7736-23a9-2adc" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1797,7 +1797,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: Blades of Khorne" hidden="false" id="eb01-6045-1959-1f8a" type="selectionEntry" targetId="1c5d-907-fd0c-c8a4">
+    <entryLink import="true" name="Rasgos de batalla: Filos de Khorne" hidden="false" id="eb01-6045-1959-1f8a" type="selectionEntry" targetId="1c5d-907-fd0c-c8a4">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6ea0-76d6-30ee-b79c" includeChildSelections="true"/>
       </constraints>
@@ -2384,7 +2384,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="60e6-18a2-3d82-ff5b" type="selectionEntryGroup" targetId="1ede-f90-a661-b6c2"/>
         <entryLink import="true" name="Paths" hidden="false" id="0319-7381-7b67-c304" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="46b1-6308-b9da-bfd6" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="c105-ff0a-b320-d214" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="c105-ff0a-b320-d214" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="585f-3561-f0a4-068a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="95d1-bd3b-3508-89ae" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -2517,7 +2517,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="7d41-3af4-7d55-6783" type="selectionEntryGroup" targetId="1ede-f90-a661-b6c2"/>
         <entryLink import="true" name="Paths" hidden="false" id="1f53-0c18-109d-6655" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d860-33fe-ceb2-ee89" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="846f-4ad9-df1d-42b5" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="846f-4ad9-df1d-42b5" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="5e81-e5f5-3c0b-d68f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifiers>
@@ -2575,7 +2575,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="74b5-8e12-6bcb-c783" type="selectionEntryGroup" targetId="1ede-f90-a661-b6c2"/>
         <entryLink import="true" name="Paths" hidden="false" id="a11f-61fe-baf6-df1b" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="5101-64a4-cb9d-6828" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="02ae-90eb-0749-41d7" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="02ae-90eb-0749-41d7" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="b5a4-25b7-2aa9-35d5" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="81f5-6f07-8bdb-bff8" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>

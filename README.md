@@ -69,23 +69,27 @@ published under a permissive license, so it cannot be relicensed here.*
 | `*.cat`, `*.gst` | los ficheros originales en inglés, tal cual vienen de [BSData][upstream] |
 | `*_es.cat`, `*_es.gst` | la versión traducida al español |
 | `translations/*.es.json` | el trabajo de traducción, cadena a cadena |
-| `tools/` | las tres herramientas que generan los `_es.cat` |
+| `translations/names/*.es.json` | equivalencias de nombres visibles y sus referencias |
+| `tools/` | herramientas de generación, cobertura y verificación |
 | [`TRADUCIR.md`](TRADUCIR.md) | **cómo colaborar en la traducción** |
 
-Estado a 8 de septiembre de 2026: **prosa, etiquetas y nombres de unidades y armas completados**.
+Estado a 9 de septiembre de 2026: **prosa, etiquetas y nombres de unidades, armas y habilidades completados**.
 
 Hay 133 parejas de archivos generadas y verificadas. Los JSON contienen 9.862
 entradas resueltas y ningún valor vacío. También se han traducido las claves,
 habilidades de arma e ingredientes que antes se conservaban en inglés. Las
 cifras, medidas y nombres propios sin traducción mantienen su escritura.
 
-Los nombres visibles de unidades, armas y manifestaciones se traducen mediante
+Los nombres visibles de unidades, armas, manifestaciones y habilidades se traducen mediante
 los diccionarios de `translations/names/`, incluidas las variantes de Legends
-y los nombres condicionados por el número de miniaturas. El generador también
+y los nombres condicionados por el número de miniaturas. Se incluyen hechizos,
+plegarias, rasgos, artefactos, formaciones y opciones de Sendero a la Gloria,
+tanto en perfiles como en reglas y selectores. El generador también
 actualiza sus referencias en las reglas. Se conservan los nombres propios sin
 equivalente y todos los identificadores y enlaces técnicos. Las equivalencias
 son traducciones de aficionado, no terminología oficial de Games Workshop.
-Véanse [GLOSARIO-NOMBRES.md](GLOSARIO-NOMBRES.md) y
+Véanse [GLOSARIO-NOMBRES.md](GLOSARIO-NOMBRES.md),
+[GLOSARIO-HABILIDADES.md](GLOSARIO-HABILIDADES.md) y
 [GLOSARIO-ETIQUETAS.md](GLOSARIO-ETIQUETAS.md).
 
 El detalle de cobertura y validación está en

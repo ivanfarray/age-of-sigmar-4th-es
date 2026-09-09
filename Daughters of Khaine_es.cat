@@ -29,7 +29,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de tu turno</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Daughters of Khaine^^** visible que esté totalmente a 12" o menos de esta unidad.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, el objetivo puede usar de inmediato la habilidad &apos;Retreat&apos; como si fuera tu fase de movimiento.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, el objetivo puede usar de inmediato la habilidad &apos;Retirarse&apos; como si fuera tu fase de movimiento.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -67,7 +67,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="e610-763f-019f-fd02" hidden="true">
+            <rule name="Restricciones de mejoras" id="e610-763f-019f-fd02" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -91,7 +91,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Battle Formations: Daughters of Khaine" id="4b7f-b2c7-94e8-af08" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Coven Zealots" hidden="true" id="a7f0-1e8f-cc20-6172" publicationId="f894-7929-f79a-a269">
+        <selectionEntry type="upgrade" import="true" name="Fanáticos del Aquelarre" hidden="true" id="a7f0-1e8f-cc20-6172" publicationId="f894-7929-f79a-a269">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc66-b197-cc2a-abad"/>
           </constraints>
@@ -124,7 +124,7 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Arena Veterans" hidden="true" id="b133-7d21-cc81-a5fc" publicationId="f894-7929-f79a-a269">
+        <selectionEntry type="upgrade" import="true" name="Veteranos de la arena" hidden="true" id="b133-7d21-cc81-a5fc" publicationId="f894-7929-f79a-a269">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fcb-9921-1ec4-07d3"/>
           </constraints>
@@ -132,7 +132,7 @@
             <profile name="Evasión grácil" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d407-ea4f-1420-6686">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Durante el resto de la fase, las unidades amigas **^^Daughters of Khaine Aelf Infantry^^** tienen **^^Ward (5+)^^** hasta que hayan usado una habilidad de **^^Fight^^**</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Durante el resto de la fase, las unidades amigas **^^Daughters of Khaine Aelf Infantry^^** tienen **^^Ward (5+)^^** hasta que hayan usado una habilidad de **^^Combatir^^**</characteristic>
               </characteristics>
               <attributes>
                 <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -172,7 +172,7 @@
             <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Coven of Blood" hidden="false" id="8b93-cab5-fc0f-61a4">
+        <selectionEntry type="upgrade" import="true" name="Aquelarre de Sangre" hidden="false" id="8b93-cab5-fc0f-61a4">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf9d-9126-da69-6301"/>
           </constraints>
@@ -190,7 +190,7 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Frenzied Devotees" hidden="false" id="a0a1-f2ba-a292-99bb">
+        <selectionEntry type="upgrade" import="true" name="Devotos Frenéticos" hidden="false" id="a0a1-f2ba-a292-99bb">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a130-68be-7fe4-01d2"/>
           </constraints>
@@ -211,16 +211,16 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Cold-Hearted Murderers" hidden="false" id="3bd1-a8a9-a734-68bb">
+        <selectionEntry type="upgrade" import="true" name="Asesinos de Corazón Frío" hidden="false" id="3bd1-a8a9-a734-68bb">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1948-2811-0de7-b388"/>
           </constraints>
           <profiles>
             <profile name="Adoradoras de la Mano Ensangrentada" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4b6f-c471-9ca3-9813">
               <characteristics>
-                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad de Fight para una unidad ungida</characteristic>
+                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad de Combatir para una unidad ungida</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga que no sea **^^Hero Daughters of Khaine^^**, que no haya usado una habilidad de **^^Fight^^** este turno y que esté dentro del alcance de combate de esa unidad **ungida**. El objetivo puede ser elegido para usar una habilidad de **^^Fight^^** inmediatamente después de que se resuelva la habilidad de **^^Fight^^** usada por esa unidad **ungida**. Si es elegido para ello, las armas de combate cuerpo a cuerpo del objetivo tienen **Crit (Auto-wound)** durante el resto del turno. Si esas armas de combate cuerpo a cuerpo ya tienen **Crit (Auto-wound)**, en su lugar tienen **Crit (Mortal)** durante el resto del turno.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga que no sea **^^Hero Daughters of Khaine^^**, que no haya usado una habilidad de **^^Combatir^^** este turno y que esté dentro del alcance de combate de esa unidad **ungida**. El objetivo puede ser elegido para usar una habilidad de **^^Combatir^^** inmediatamente después de que se resuelva la habilidad de **^^Combatir^^** usada por esa unidad **ungida**. Si es elegido para ello, las armas de combate cuerpo a cuerpo del objetivo tienen **Crítico (herida automática)** durante el resto del turno. Si esas armas de combate cuerpo a cuerpo ya tienen **Crítico (herida automática)**, en su lugar tienen **Crítico (mortal)** durante el resto del turno.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b">Esa unidad **ungida**.</characteristic>
               </characteristics>
@@ -232,7 +232,7 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Fervent Ritualists" hidden="false" id="85d1-5b5c-67a3-f30a">
+        <selectionEntry type="upgrade" import="true" name="Ritualistas Fervientes" hidden="false" id="85d1-5b5c-67a3-f30a">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9a1e-4c2e-f1b4-c147"/>
           </constraints>
@@ -267,7 +267,7 @@ Devuelve hasta 1 miniatura abatida a cada objetivo que tenga una característica
               <profiles>
                 <profile name="Sangre de sombras" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="5aa7-571c-650e-163f">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redeploy&apos; para una unidad **^^Daughters of Khaine^^** que esté totalmente a 12" o menos de esta unidad</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redesplegar&apos; para una unidad **^^Daughters of Khaine^^** que esté totalmente a 12" o menos de esta unidad</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si obtienes un 1-3 al determinar la distancia que puede mover esa unidad, puedes usar un valor de 4 en su lugar.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -293,7 +293,7 @@ Devuelve hasta 1 miniatura abatida a cada objetivo que tenga una característica
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** enemigo en combate con esta unidad.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 2D6. Si el resultado supera la característica de Health del objetivo, este queda destruido automáticamente. Si el objetivo es destruido por esta habilidad, esta unidad puede usar 2 habilidades de **^^Fight^^** esta fase. Sin embargo, después de usar la primera, esta unidad tiene **^^Strike-Last^^** durante el resto del turno.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 2D6. Si el resultado supera la característica de Health del objetivo, este queda destruido automáticamente. Si el objetivo es destruido por esta habilidad, esta unidad puede usar 2 habilidades de **^^Combatir^^** esta fase. Sin embargo, después de usar la primera, esta unidad tiene **^^Strike-Last^^** durante el resto del turno.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -317,7 +317,7 @@ Devuelve hasta 1 miniatura abatida a cada objetivo que tenga una característica
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que no tenga más de 1 miniatura y esté en combate con esta unidad.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 2D6. Si el resultado iguala o supera la característica de Control del objetivo, durante el resto del turno, si esta unidad está en combate con el objetivo cuando se elige a este para usar una habilidad de **^^Fight^^**, todos los ataques del objetivo deben tener como objetivo esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 2D6. Si el resultado iguala o supera la característica de Control del objetivo, durante el resto del turno, si esta unidad está en combate con el objetivo cuando se elige a este para usar una habilidad de **^^Combatir^^**, todos los ataques del objetivo deben tener como objetivo esta unidad.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -337,7 +337,7 @@ Devuelve hasta 1 miniatura abatida a cada objetivo que tenga una característica
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="49f4-1d7f-a67a-1a9d" hidden="true">
+            <rule name="Restricciones de mejoras" id="49f4-1d7f-a67a-1a9d" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -416,7 +416,7 @@ Tira un dado. Con un 1, inflige D3 de daño mortal a esta unidad. Con un 2+, si 
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="a2e4-434c-21db-7ead" hidden="true">
+            <rule name="Restricciones de mejoras" id="a2e4-434c-21db-7ead" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -578,7 +578,7 @@ Tira un dado. Con un 1, inflige D3 de daño mortal a esta unidad. Con un 2+, si 
                 <profile name="Reflejos ulguanos" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b477-f5f7-e023-5f86">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que hagas una tirada de salvación sin modificar de 6 para un ataque de combate que tenga como objetivo esta unidad, inflige 1 de daño mortal a la unidad atacante después de resolver la habilidad de **^^Fight^^**.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que hagas una tirada de salvación sin modificar de 6 para un ataque de combate que tenga como objetivo esta unidad, inflige 1 de daño mortal a la unidad atacante después de resolver la habilidad de **^^Combatir^^**.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -601,7 +601,7 @@ Tira un dado. Con un 1, inflige D3 de daño mortal a esta unidad. Con un 2+, si 
               <profiles>
                 <profile name="Talismanes de sombra" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="283d-e0bd-3f39-c068">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad de **^^Hechizo^^**, **^^Prayer^^** o **^^Unbind^^** para una unidad a 3" o menos de esta unidad</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad de **^^Hechizo^^**, **^^Prayer^^** o **^^Desvincular^^** para una unidad a 3" o menos de esta unidad</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Gasta 1 **dado de ira**. Si el **nivel de furia** de tu oponente es inferior al tuyo, debe aumentar su **nivel de furia** en 1, hasta un máximo de 7. Después, suma 1 a esa tirada de lanzamiento, de cántico o de desvinculación.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -631,7 +631,7 @@ Tira un dado. Con un 1, inflige D3 de daño mortal a esta unidad. Con un 2+, si 
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Inicio de cualquier turno</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno:
-• El objetivo no puede usar habilidades de **^^Retreat^^**.
+• El objetivo no puede usar habilidades de **^^Retirarse^^**.
 • Si una habilidad curara o devolviera miniaturas abatidas a la unidad objetivo, esa habilidad no cura ningún punto de daño ni devuelve ninguna miniatura abatida a esa unidad.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -655,7 +655,7 @@ Tira un dado. Con un 1, inflige D3 de daño mortal a esta unidad. Con un 2+, si 
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="9472-35b3-edd4-0c49" hidden="true">
+            <rule name="Restricciones de mejoras" id="9472-35b3-edd4-0c49" hidden="true">
               <description>Los Boons of Shadow son mejoras únicas que solo pueden otorgarse a unidades que no sean **^^Hero Daughters of Khaine^^**. Una unidad solo puede tener 1 Boon of Shadow.</description>
             </rule>
           </rules>
@@ -687,7 +687,7 @@ Tira un dado. Con un 1, inflige D3 de daño mortal a esta unidad. Con un 2+, si 
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Daughters of Khaine" hidden="false" id="ac76-6653-8a38-8fba">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Hijas de Khaine" hidden="false" id="ac76-6653-8a38-8fba">
       <profiles>
         <profile name="Ritos de sangre" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b2e7-4a1d-66ea-7f25">
           <characteristics>
@@ -697,7 +697,7 @@ Tira un dado. Con un 1, inflige D3 de daño mortal a esta unidad. Con un 2+, si 
 • Una unidad amiga **ungida** es destruida.
 • Una unidad amiga que esté disputando un objetivo que controles es destruida.
 • Una unidad enemiga es destruida por los ataques de una unidad amiga **^^Daughters of Khaine^^** y alguna miniatura de esa unidad enemiga estaba disputando un objetivo que no controles en la misma fase.
-• Una unidad (amiga o enemiga) es destruida y estaba a 3" o menos de una **Place of Power** al inicio de la fase.
+• Una unidad (amiga o enemiga) es destruida y estaba a 3" o menos de una **Lugar de poder** al inicio de la fase.
 Solo se puede realizar un rito de sangre por cada unidad destruida.</characteristic>
           </characteristics>
           <attributes>
@@ -733,9 +733,9 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
         </profile>
         <profile name="Grito de guerra estridente" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c19d-2494-b627-4745">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: has declarado una habilidad de Charge para una unidad ungida</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: has declarado una habilidad de Cargar para una unidad ungida</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga **^^Daughters of Khaine^^** que no sea **Hero**, que no esté en combate, que esté totalmente a 12" o menos de esa unidad **ungida** y que no haya cargado este turno. Si esa unidad **ungida** carga, después de resolver esa habilidad de **^^Charge^^**, el objetivo puede usar de inmediato la habilidad &apos;Charge&apos; aunque no sea tu fase de carga. Además, puedes volver a tirar las tiradas de carga del objetivo durante el resto de la fase.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga **^^Daughters of Khaine^^** que no sea **Hero**, que no esté en combate, que esté totalmente a 12" o menos de esa unidad **ungida** y que no haya cargado este turno. Si esa unidad **ungida** carga, después de resolver esa habilidad de **^^Cargar^^**, el objetivo puede usar de inmediato la habilidad &apos;Cargar&apos; aunque no sea tu fase de carga. Además, puedes volver a tirar las tiradas de carga del objetivo durante el resto de la fase.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b">Esa unidad **ungida**.</characteristic>
           </characteristics>
@@ -755,7 +755,7 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
 •  **Blessing of Haste**: Suma 3" a la característica de Move de esas unidades.
 •  **Blessing of Zeal**: Si esas unidades cargaron en el mismo turno, tienen **^^Ward (5+)^^** durante el resto del turno.
 •  **Blessing of Shadow**: Resta 1 a las tiradas de impacto de los ataques a distancia que tengan como objetivo esas unidades.
-•  **Blessing of Cruelty**: Esas unidades pueden usar habilidades de **^^Charge^^** y/o **^^Shoot^^** aunque hayan usado una habilidad de **^^Retreat^^** en el mismo turno.
+•  **Blessing of Cruelty**: Esas unidades pueden usar habilidades de **^^Cargar^^** y/o **^^Disparar^^** aunque hayan usado una habilidad de **^^Retirarse^^** en el mismo turno.
 •  **Blessing of Clarity**: Suma 1 a las tiradas de cántico y de lanzamiento de esas unidades.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -825,7 +825,7 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="98fb-2853-a1fe-7de6" type="selectionEntryGroup" targetId="784d-e1b4-30d5-3167"/>
         <entryLink import="true" name="Paths" hidden="false" id="e964-43c7-f1bf-cbd8" type="selectionEntryGroup" targetId="a78f-4d81-534c-3aeb"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c3f9-ff1b-13aa-8006" type="selectionEntryGroup" targetId="d34a-59ba-2762-3d65"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="716f-43e1-43b8-b770" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="716f-43e1-43b8-b770" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="505c-b0e1-1f08-b7b2" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="c8ef-860d-55e8-f5f5" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -872,7 +872,7 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="c5e5-bb5e-a9d0-6d4b" type="selectionEntryGroup" targetId="784d-e1b4-30d5-3167"/>
         <entryLink import="true" name="Paths" hidden="false" id="9f7d-ae3e-1cd8-ddc5" type="selectionEntryGroup" targetId="a78f-4d81-534c-3aeb"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="f18f-5690-e9ac-3647" type="selectionEntryGroup" targetId="d34a-59ba-2762-3d65"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="abb6-64c9-8de7-ee9a" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="abb6-64c9-8de7-ee9a" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="ec9d-5433-7c10-1f89" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="e419-e1fc-9f52-b0cf" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
         <entryLink import="true" name="Avatar de Khaine" hidden="false" id="51a0-3f1e-9af9-147e" type="selectionEntry" targetId="b4e1-75b3-227b-1a8d"/>
@@ -921,7 +921,7 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="984-de6-bb5c-fe91" type="selectionEntryGroup" targetId="784d-e1b4-30d5-3167"/>
         <entryLink import="true" name="Paths" hidden="false" id="e27d-4b0b-f039-2911" type="selectionEntryGroup" targetId="a78f-4d81-534c-3aeb"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3265-b7ff-8388-9a15" type="selectionEntryGroup" targetId="d34a-59ba-2762-3d65"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="5587-175a-5f66-f99c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="5587-175a-5f66-f99c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="0516-a00f-1b05-aa79" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="66f0-cdcb-a727-9901" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -969,7 +969,7 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="82e1-38d6-e187-c491" type="selectionEntryGroup" targetId="784d-e1b4-30d5-3167"/>
         <entryLink import="true" name="Paths" hidden="false" id="09ce-4057-f4c3-00f2" type="selectionEntryGroup" targetId="a78f-4d81-534c-3aeb"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b10a-f5ff-86cf-c1d5" type="selectionEntryGroup" targetId="d34a-59ba-2762-3d65"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="d3ec-4a5a-8a03-94cd" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="d3ec-4a5a-8a03-94cd" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="cbd0-507b-adaf-cb2b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="1b4c-1304-8064-1e71" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1017,7 +1017,7 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="1752-1d21-d3d3-7229" type="selectionEntryGroup" targetId="784d-e1b4-30d5-3167"/>
         <entryLink import="true" name="Paths" hidden="false" id="5be0-c9dd-0410-95a5" type="selectionEntryGroup" targetId="a78f-4d81-534c-3aeb"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="43c2-e5d6-512e-ee61" type="selectionEntryGroup" targetId="d34a-59ba-2762-3d65"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="0b69-2a63-efbc-0b85" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="0b69-2a63-efbc-0b85" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="a14c-50fc-fd2b-268f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="a0f5-5b25-6555-8ffb" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1122,7 +1122,7 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="9287-b3c3-6f69-4d06" type="selectionEntryGroup" targetId="784d-e1b4-30d5-3167"/>
         <entryLink import="true" name="Paths" hidden="false" id="98d6-037e-8d1f-186b" type="selectionEntryGroup" targetId="a78f-4d81-534c-3aeb"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1c00-cea0-409e-b334" type="selectionEntryGroup" targetId="d34a-59ba-2762-3d65"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="847e-9502-fe18-3495" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="847e-9502-fe18-3495" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="4911-5262-5d62-6575" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="6c4a-3273-1ece-7e2f" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1234,7 +1234,7 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="3216-5706-5825-40cb" type="selectionEntryGroup" targetId="784d-e1b4-30d5-3167"/>
         <entryLink import="true" name="Paths" hidden="false" id="6d43-8ee7-a3d5-ad0b" type="selectionEntryGroup" targetId="a78f-4d81-534c-3aeb"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c1f0-9653-dd6f-8708" type="selectionEntryGroup" targetId="d34a-59ba-2762-3d65"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="3c72-420b-3877-4e9d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="3c72-420b-3877-4e9d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="8988-1fb0-85ce-c974" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="9770-4689-9ad8-44ef" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1282,7 +1282,7 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="d00f-f3a5-d78c-6382" type="selectionEntryGroup" targetId="784d-e1b4-30d5-3167"/>
         <entryLink import="true" name="Paths" hidden="false" id="ffb4-9346-9c1d-902a" type="selectionEntryGroup" targetId="a78f-4d81-534c-3aeb"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="6ece-18a9-9023-40e7" type="selectionEntryGroup" targetId="d34a-59ba-2762-3d65"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="d141-9736-b591-0bac" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="d141-9736-b591-0bac" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="93e2-6bef-bf51-9ae6" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="ceec-dc2b-46e8-6ae4" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1324,7 +1324,7 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: Daughters of Khaine" hidden="false" id="d3d0-ddb0-4014-c820" type="selectionEntry" targetId="ac76-6653-8a38-8fba">
+    <entryLink import="true" name="Rasgos de batalla: Hijas de Khaine" hidden="false" id="d3d0-ddb0-4014-c820" type="selectionEntry" targetId="ac76-6653-8a38-8fba">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c196-146d-f3d7-6f7e" includeChildSelections="true"/>
       </constraints>
@@ -1664,7 +1664,7 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="e957-970e-accf-3be7" type="selectionEntryGroup" targetId="784d-e1b4-30d5-3167"/>
         <entryLink import="true" name="Paths" hidden="false" id="e0f8-5793-3258-88e9" type="selectionEntryGroup" targetId="a78f-4d81-534c-3aeb"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="5d86-d768-839b-e1df" type="selectionEntryGroup" targetId="d34a-59ba-2762-3d65"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="9fef-7e97-b44b-a88c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="9fef-7e97-b44b-a88c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="4887-12ae-25ff-fc1d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="f328-ff2e-61c1-8098" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1856,7 +1856,7 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="34b9-eecb-9cb2-ebd8" type="selectionEntryGroup" targetId="784d-e1b4-30d5-3167"/>
         <entryLink import="true" name="Paths" hidden="false" id="23d1-cbd3-1549-f67d" type="selectionEntryGroup" targetId="a78f-4d81-534c-3aeb"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a9c8-4018-3a92-00d1" type="selectionEntryGroup" targetId="d34a-59ba-2762-3d65"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="b9b4-0c97-7711-cb1d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="b9b4-0c97-7711-cb1d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="d3e5-77a2-625e-be70" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="bbc0-1899-0024-f32b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1890,7 +1890,7 @@ Solo se puede realizar un rito de sangre por cada unidad destruida.</characteris
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="b45f-89e9-20c5-2713" type="selectionEntryGroup" targetId="784d-e1b4-30d5-3167"/>
         <entryLink import="true" name="Paths" hidden="false" id="83ee-8a08-ffc0-cc91" type="selectionEntryGroup" targetId="a78f-4d81-534c-3aeb"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="f6c7-714a-44db-4b5d" type="selectionEntryGroup" targetId="d34a-59ba-2762-3d65"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="fea3-6dea-aeee-1371" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="fea3-6dea-aeee-1371" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="92b0-2480-df60-4d68" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="00a5-5eae-6827-d243" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>

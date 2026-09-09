@@ -27,7 +27,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, cada vez que una unidad amiga visible **^^Daughters of Khaine^^** totalmente a 12" o menos de esta unidad use una habilidad **Fight**, después de resolver esa habilidad puedes elegir un **^^Daughters of Khaine Priest^^** amigo visible totalmente a 12" o menos de esta unidad. Ese **^^Priest^^** gana 1 punto de ritual.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, cada vez que una unidad amiga visible **^^Daughters of Khaine^^** totalmente a 12" o menos de esta unidad use una habilidad **Combatir**, después de resolver esa habilidad puedes elegir un **^^Daughters of Khaine Priest^^** amigo visible totalmente a 12" o menos de esta unidad. Ese **^^Priest^^** gana 1 punto de ritual.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Exaltado^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -65,7 +65,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f76a-6a3d-6324-af26"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="426f-f36b-94eb-6a57" hidden="true">
+            <rule name="Tamaño de peana" id="426f-f36b-94eb-6a57" hidden="true">
               <description>25mm</description>
             </rule>
           </rules>
@@ -101,7 +101,7 @@
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige como objetivo una **Shadow Queen** amiga totalmente a 12" o menos de esta unidad y en combate, o una unidad amiga visible **^^Daughters of Khaine^^** que no sea **^^Hero^^**, esté totalmente a 12" o menos de esta unidad y en combate; después, haz una tirada de lanzamiento de 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Si el objetivo es una **Shadow Queen** amiga, puede usar inmediatamente una habilidad **^^Fight^^** como si fuera tu fase de combate. En caso contrario, inflige D3 de daño mortal a cada unidad enemiga en combate con el objetivo.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Si el objetivo es una **Shadow Queen** amiga, puede usar inmediatamente una habilidad **^^Combatir^^** como si fuera tu fase de combate. En caso contrario, inflige D3 de daño mortal a cada unidad enemiga en combate con el objetivo.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Hechizo^^**</characteristic>
           </characteristics>
           <attributes>
@@ -115,8 +115,8 @@
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que realices un rito de sangre, inmediatamente después de resolver la habilidad que destruyó una unidad, elige 1 de los siguientes efectos:
 • Hasta el inicio de tu siguiente turno, esta unidad solo es visible para las unidades enemigas mientras esas unidades estén dentro de su alcance de combate.
 • Aplica **Heal (D6)** a esta unidad o a una **Shadow Queen** amiga.
-• Una **Shadow Queen** amiga puede usar inmediatamente la habilidad &apos;Normal Move&apos; o &apos;Retreat&apos; como si fuera tu fase de movimiento aunque ya haya usado esa habilidad u otra habilidad **^^Core^^** esta fase.
-**Nota del diseñador:** *Si la Shadow Queen se retira mediante la habilidad &apos;Iron Heart of Khaine&apos;, no puede usar posteriormente la habilidad &apos;Fight&apos; en la misma fase de combate.*
+• Una **Shadow Queen** amiga puede usar inmediatamente la habilidad &apos;Movimiento normal&apos; o &apos;Retirarse&apos; como si fuera tu fase de movimiento aunque ya haya usado esa habilidad u otra habilidad **^^Core^^** esta fase.
+**Nota del diseñador:** *Si la Shadow Queen se retira mediante la habilidad &apos;Corazón de hierro de Khaine&apos;, no puede usar posteriormente la habilidad &apos;Combatir&apos; en la misma fase de combate.*
 • Retira esta unidad del campo de batalla y vuelve a colocarla en el campo de batalla a más de 9" de todas las unidades enemigas.
 • Durante el resto del turno, fija la característica de Control de esta unidad en 5 y la característica de Control de una **Shadow Queen** amiga en 15.</characteristic>
           </characteristics>
@@ -171,7 +171,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c0e-3b8b-70a7-6f63"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="0765-855a-8f8b-98a6" hidden="true">
+            <rule name="Tamaño de peana" id="0765-855a-8f8b-98a6" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -308,7 +308,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89fd-90db-7248-2807"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="4fe2-d920-e548-d672" hidden="true">
+            <rule name="Tamaño de peana" id="4fe2-d920-e548-d672" hidden="true">
               <description>100mm</description>
             </rule>
           </rules>
@@ -360,7 +360,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Haz una tirada de cántico de D6.</characteristic>
             <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Elige 1 de los siguientes efectos. Si la tirada de cántico fue de 10+, elige hasta 2 efectos diferentes en su lugar.
 **Prophecy of Exile**: Elige un **^^Wizard^^** o **^^Priest^^** enemigo visible a 18" o menos de esta unidad. Resta 1 al nivel de poder de esa unidad hasta el inicio de tu siguiente turno.
-**Prophecy of Dark Wings**: Elige una unidad amiga visible **^^Daughters of Khaine Infantry^^** totalmente a 12" o menos de esta unidad. Esa unidad puede usar inmediatamente la habilidad &apos;Normal Move&apos; como si fuera tu fase de movimiento y cuenta como si hubiera usado una habilidad **^^Run^^** este turno.
+**Prophecy of Dark Alas**: Elige una unidad amiga visible **^^Daughters of Khaine Infantry^^** totalmente a 12" o menos de esta unidad. Esa unidad puede usar inmediatamente la habilidad &apos;Movimiento normal&apos; como si fuera tu fase de movimiento y cuenta como si hubiera usado una habilidad **^^Correr^^** este turno.
 **Prophecy of Futile Endeavours**: Elige una unidad enemiga visible a 12" o menos de esta unidad. Hasta el inicio de tu siguiente turno, los ataques de esa unidad no pueden conseguir impactos críticos (trátalos como impactos normales).</characteristic>
             <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Plegaria^^**</characteristic>
           </characteristics>
@@ -401,7 +401,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5320-3bad-ca6-ad38"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="867a-5c56-1e94-3214" hidden="true">
+            <rule name="Tamaño de peana" id="867a-5c56-1e94-3214" hidden="true">
               <description>60mm</description>
             </rule>
           </rules>
@@ -460,9 +460,9 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
         </profile>
         <profile name="Espasmos agónicos" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="43ce-1903-7fc9-bf04">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste una habilidad **^^Shoot^^** para esta unidad</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Declaraste una habilidad **^^Disparar^^** para esta unidad</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad **^^Shoot^^**, si todos los ataques de esta unidad realizados como parte de esa habilidad **^^Shoot^^** tuvieron como objetivo la misma unidad enemiga y esos ataques abatieron alguna miniatura enemiga, tira un dado. Con un 3+, esa unidad enemiga tiene una puntuación de control máxima de 1 durante el resto del turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad **^^Disparar^^**, si todos los ataques de esta unidad realizados como parte de esa habilidad **^^Disparar^^** tuvieron como objetivo la misma unidad enemiga y esos ataques abatieron alguna miniatura enemiga, tira un dado. Con un 3+, esa unidad enemiga tiene una puntuación de control máxima de 1 durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -519,7 +519,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78d5-cdc8-4a4d-dcef"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="084a-e9df-149d-1e4c" hidden="true">
+            <rule name="Tamaño de peana" id="084a-e9df-149d-1e4c" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -588,7 +588,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1af4-326c-9a4f-fb63"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="f09e-f107-2fc5-fa65" hidden="true">
+            <rule name="Tamaño de peana" id="f09e-f107-2fc5-fa65" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -669,7 +669,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6524-5118-d21c-47c9"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="890e-22f3-23f9-5110" hidden="true">
+            <rule name="Tamaño de peana" id="890e-22f3-23f9-5110" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -743,7 +743,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7a6f-8578-ca18-9dea"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="05c7-39ee-68b6-244c" hidden="true">
+            <rule name="Tamaño de peana" id="05c7-39ee-68b6-244c" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -813,7 +813,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9092-4e6b-941a-f516"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="9110-0497-066e-4f40" hidden="true">
+            <rule name="Tamaño de peana" id="9110-0497-066e-4f40" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -860,7 +860,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una **^^Daughters of Khaine Manifestation^^** amiga totalmente a 12" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, el objetivo no puede ser elegido como objetivo de habilidades **^^Banish^^** usadas por unidades enemigas hasta el inicio de tu siguiente turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, el objetivo no puede ser elegido como objetivo de habilidades **^^Desterrar^^** usadas por unidades enemigas hasta el inicio de tu siguiente turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -916,7 +916,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d159-4c70-b30e-f7b9"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="e633-9263-a189-0ea1" hidden="true">
+            <rule name="Tamaño de peana" id="e633-9263-a189-0ea1" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -959,7 +959,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
         <profile name="Icono de la matanza" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1bc5-76b1-223d-8394">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e">**^^Exaltado^^**</characteristic>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad amiga **^^Daughters of Khaine^^** totalmente a 12" o menos de esta unidad use la orden &apos;Rally&apos;, puedes hacer 3 tiradas de reagrupamiento adicionales de D6. Además, si hay alguna **Hag Queens on Cauldrons of Blood** amiga en el campo de batalla cuando se usa esa orden, recibes D3 puntos de reagrupamiento adicionales.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad amiga **^^Daughters of Khaine^^** totalmente a 12" o menos de esta unidad use la orden &apos;Reagrupamiento&apos;, puedes hacer 3 tiradas de reagrupamiento adicionales de D6. Además, si hay alguna **Hag Queens on Cauldrons of Blood** amiga en el campo de batalla cuando se usa esa orden, recibes D3 puntos de reagrupamiento adicionales.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -1013,7 +1013,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b42-94ce-a1b-4d6d"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="20a8-9760-0448-f08b" hidden="true">
+            <rule name="Tamaño de peana" id="20a8-9760-0448-f08b" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -1084,7 +1084,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d57e-e5dd-5d8-24b8"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="19b4-2af3-0f4c-c75c" hidden="true">
+            <rule name="Tamaño de peana" id="19b4-2af3-0f4c-c75c" hidden="true">
               <description>25mm</description>
             </rule>
           </rules>
@@ -1206,7 +1206,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="1171-354b-7080-84ff" hidden="true">
+            <rule name="Tamaño de peana" id="1171-354b-7080-84ff" hidden="true">
               <description>25mm</description>
             </rule>
           </rules>
@@ -1322,7 +1322,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="67e4-801b-5c13-37b7" hidden="true">
+            <rule name="Tamaño de peana" id="67e4-801b-5c13-37b7" hidden="true">
               <description>1/9 40mm (Campeón)
 8/9 28.5mm</description>
             </rule>
@@ -1343,7 +1343,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
         <profile name="Superar con maniobras" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7691-e6cc-d272-6d02">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando esta unidad use la orden &apos;Redeploy&apos;, si obtienes un 1-3 al determinar la distancia que puede moverse, puedes usar un valor de 4 en su lugar.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando esta unidad use la orden &apos;Redesplegar&apos;, si obtienes un 1-3 al determinar la distancia que puede moverse, puedes usar un valor de 4 en su lugar.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Gray</attribute>
@@ -1455,7 +1455,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="a6f4-4d0e-4cb4-d8c9" hidden="true">
+            <rule name="Tamaño de peana" id="a6f4-4d0e-4cb4-d8c9" hidden="true">
               <description>60x35mm</description>
             </rule>
           </rules>
@@ -1474,9 +1474,9 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
         </profile>
         <profile name="Buscacorazones" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f16d-95a0-bfc6-b0e7">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: Declaraste una habilidad **^^Shoot^^** para esta unidad</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: Declaraste una habilidad **^^Disparar^^** para esta unidad</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad **^^Shoot^^**, si todos los ataques de esta unidad tuvieron como objetivo la misma unidad enemiga, tira un dado. Añade 1 a la tirada si alguna otra unidad amiga de **Acechadoras de sangre** eligió a esa unidad enemiga como objetivo de todos sus ataques de disparo este turno. Con un 3+, hasta el inicio de tu siguiente turno, resta 1 al número de dados que se tiran al hacer tiradas de carga para el objetivo, hasta un mínimo de 1.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad **^^Disparar^^**, si todos los ataques de esta unidad tuvieron como objetivo la misma unidad enemiga, tira un dado. Añade 1 a la tirada si alguna otra unidad amiga de **Acechadoras de sangre** eligió a esa unidad enemiga como objetivo de todos sus ataques de disparo este turno. Con un 3+, hasta el inicio de tu siguiente turno, resta 1 al número de dados que se tiran al hacer tiradas de carga para el objetivo, hasta un mínimo de 1.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1570,7 +1570,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="e95e-b6a9-daf4-bb30" hidden="true">
+            <rule name="Tamaño de peana" id="e95e-b6a9-daf4-bb30" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -1666,7 +1666,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="91ca-b4d0-30d3-6341" hidden="true">
+            <rule name="Tamaño de peana" id="91ca-b4d0-30d3-6341" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -1685,9 +1685,9 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
         </profile>
         <profile name="Disparar y volar" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a454-bea2-61a4-a2c0">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: Declaraste una habilidad **^^Shoot^^** para esta unidad</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: Declaraste una habilidad **^^Disparar^^** para esta unidad</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad **^^Shoot^^**, esta unidad puede moverse 2D6". No puede entrar en combate en ningún momento de ese movimiento.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad **^^Disparar^^**, esta unidad puede moverse 2D6". No puede entrar en combate en ningún momento de ese movimiento.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1774,7 +1774,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="f43c-9842-5d34-fefc" hidden="true">
+            <rule name="Tamaño de peana" id="f43c-9842-5d34-fefc" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -1871,7 +1871,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="6859-d412-f13c-039c" hidden="true">
+            <rule name="Tamaño de peana" id="6859-d412-f13c-039c" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -1945,7 +1945,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
         </selectionEntry>
       </selectionEntries>
       <rules>
-        <rule name="Base Size" id="154f-e951-390f-05e6" hidden="true">
+        <rule name="Tamaño de peana" id="154f-e951-390f-05e6" hidden="true">
           <description>100mm</description>
         </rule>
       </rules>
@@ -2007,7 +2007,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
         </selectionEntry>
       </selectionEntries>
       <rules>
-        <rule name="Base Size" id="24e2-2f43-84df-d084" hidden="true">
+        <rule name="Tamaño de peana" id="24e2-2f43-84df-d084" hidden="true">
           <description>50mm</description>
         </rule>
       </rules>
@@ -2045,7 +2045,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
         <categoryLink name="INVOCATION" hidden="false" id="443-5d6f-ef1e-8b31" targetId="6120-adde-45cc-3faa" primary="false"/>
       </categoryLinks>
       <rules>
-        <rule name="Base Size" id="a6aa-a624-1086-22c5" hidden="true">
+        <rule name="Tamaño de peana" id="a6aa-a624-1086-22c5" hidden="true">
           <description>50mm</description>
         </rule>
       </rules>
@@ -2126,7 +2126,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="c3c2-3915-e4d8-3464" hidden="true">
+            <rule name="Tamaño de peana" id="c3c2-3915-e4d8-3464" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
@@ -2157,7 +2157,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="4e24-5d6a-368c-a763" hidden="true">
+            <rule name="Tamaño de peana" id="4e24-5d6a-368c-a763" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -2188,7 +2188,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="b638-af96-d761-4859" hidden="true">
+            <rule name="Tamaño de peana" id="b638-af96-d761-4859" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
@@ -2219,7 +2219,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="4bcf-8eee-a6d4-5c48" hidden="true">
+            <rule name="Tamaño de peana" id="4bcf-8eee-a6d4-5c48" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
@@ -2250,7 +2250,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="da11-0cbb-41eb-61c2" hidden="true">
+            <rule name="Tamaño de peana" id="da11-0cbb-41eb-61c2" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
@@ -2359,7 +2359,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="9315-6a41-badd-45de" hidden="true">
+            <rule name="Tamaño de peana" id="9315-6a41-badd-45de" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -2390,7 +2390,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="eb06-dd3d-a53d-97a3" hidden="true">
+            <rule name="Tamaño de peana" id="eb06-dd3d-a53d-97a3" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -2421,7 +2421,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="7a61-791a-3b46-c95a" hidden="true">
+            <rule name="Tamaño de peana" id="7a61-791a-3b46-c95a" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -2466,7 +2466,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="9c4e-64da-3b90-8f61" hidden="true">
+            <rule name="Tamaño de peana" id="9c4e-64da-3b90-8f61" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -2497,7 +2497,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="f465-2bd0-50b2-6177" hidden="true">
+            <rule name="Tamaño de peana" id="f465-2bd0-50b2-6177" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -2609,7 +2609,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="cefe-3b96-e977-bb16" hidden="true">
+            <rule name="Tamaño de peana" id="cefe-3b96-e977-bb16" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
@@ -2673,7 +2673,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="8c61-78b5-f310-4d15" hidden="true">
+            <rule name="Tamaño de peana" id="8c61-78b5-f310-4d15" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -2723,7 +2723,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="12a3-fa6b-4825-616a" hidden="true">
+            <rule name="Tamaño de peana" id="12a3-fa6b-4825-616a" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
@@ -2773,7 +2773,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="c546-6455-f227-c301" hidden="true">
+            <rule name="Tamaño de peana" id="c546-6455-f227-c301" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
@@ -2893,7 +2893,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07a7-2770-310b-8248"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="493d-eeb1-e1e3-1217" hidden="true">
+            <rule name="Tamaño de peana" id="493d-eeb1-e1e3-1217" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -2957,9 +2957,9 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
             <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">3</characteristic>
             <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Elige como objetivo una unidad amiga visible **^^Daughters of Khaine Aelf Infantry^^** o **^^Cavalry^^** totalmente a 12" o menos de esta unidad. Después, haz una tirada de cántico de D6.</characteristic>
             <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Elige 1 de los siguientes efectos para aplicarlo hasta el inicio de tu siguiente turno:
-***Prophecy of Tyranny:*** Las unidades enemigas no pueden usar órdenes mientras estén en combate con el objetivo.
-***Prophecy of Shelter:*** Salvo la habilidad **Companion**, las habilidades de arma usadas por unidades enemigas mientras estén en combate con el objetivo no tienen efecto.
-***Prophecy of Retribution:*** Resta 1 a las tiradas de salvaguardia por los puntos de daño infligidos por los ataques de combate del objetivo.
+***Profecía de tiranía:*** Las unidades enemigas no pueden usar órdenes mientras estén en combate con el objetivo.
+***Profecía de refugio:*** Salvo la habilidad **Compañero**, las habilidades de arma usadas por unidades enemigas mientras estén en combate con el objetivo no tienen efecto.
+***Profecía de retribución:*** Resta 1 a las tiradas de salvaguardia por los puntos de daño infligidos por los ataques de combate del objetivo.
 Si la tirada de cántico fue de 9+, se aplican todos los efectos anteriores</characteristic>
             <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Plegaria^^**</characteristic>
           </characteristics>
@@ -3014,7 +3014,7 @@ Si la tirada de cántico fue de 9+, se aplican todos los efectos anteriores</cha
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65a8-3fab-b376-87d0"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="d702-4ede-7205-b35b" hidden="true">
+            <rule name="Tamaño de peana" id="d702-4ede-7205-b35b" hidden="true">
               <description>60mm</description>
             </rule>
           </rules>
@@ -3134,7 +3134,7 @@ Si la tirada de cántico fue de 9+, se aplican todos los efectos anteriores</cha
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7811-6b13-d4bf-701e"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="fa40-386f-a88d-e649" hidden="true">
+            <rule name="Tamaño de peana" id="fa40-386f-a88d-e649" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -3222,7 +3222,7 @@ Si la tirada de cántico fue de 9+, se aplican todos los efectos anteriores</cha
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="79fc-9ce1-8c51-7292" hidden="true">
+            <rule name="Tamaño de peana" id="79fc-9ce1-8c51-7292" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
@@ -3253,7 +3253,7 @@ Si la tirada de cántico fue de 9+, se aplican todos los efectos anteriores</cha
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="cffa-28f4-3b6c-df94" hidden="true">
+            <rule name="Tamaño de peana" id="cffa-28f4-3b6c-df94" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
@@ -3303,7 +3303,7 @@ Si la tirada de cántico fue de 9+, se aplican todos los efectos anteriores</cha
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="f5a2-2065-91d3-6d37" hidden="true">
+            <rule name="Tamaño de peana" id="f5a2-2065-91d3-6d37" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
@@ -3348,7 +3348,7 @@ Si la tirada de cántico fue de 9+, se aplican todos los efectos anteriores</cha
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="071d-d666-f417-4b23" hidden="true">
+            <rule name="Tamaño de peana" id="071d-d666-f417-4b23" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -3483,7 +3483,7 @@ Si la tirada de cántico fue de 9+, se aplican todos los efectos anteriores</cha
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="48a5-58b8-c84e-50b9" hidden="true">
+            <rule name="Tamaño de peana" id="48a5-58b8-c84e-50b9" hidden="true">
               <description>25mm</description>
             </rule>
           </rules>
@@ -3644,7 +3644,7 @@ Si la tirada de cántico fue de 9+, se aplican todos los efectos anteriores</cha
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="ad00-83d2-2378-0eb0" hidden="true">
+            <rule name="Tamaño de peana" id="ad00-83d2-2378-0eb0" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
@@ -3701,9 +3701,9 @@ Nota del diseñador: Cuando usas esta habilidad, no estás usando la habilidad &
       <rules>
         <rule name="Santuario del tributo oscuro" id="329d-54c3-90bf-373a" hidden="false">
           <description>**Las siguientes habilidades universales de escenografía se aplican a este elemento de escenografía (Terrain, 1.2):
-Cover, Impassable**</description>
+Cobertura, Infranqueable**</description>
         </rule>
-        <rule name="Base Size" id="a2fc-a274-0239-b002" hidden="true">
+        <rule name="Tamaño de peana" id="a2fc-a274-0239-b002" hidden="true">
           <description>100mm</description>
         </rule>
       </rules>
@@ -4028,12 +4028,12 @@ Cover, Impassable**</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d232-f92e-808d-0072"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Champion of the Arena" hidden="false" id="38cc-9acd-e2bf-069b" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Campeón de la Arena" hidden="false" id="38cc-9acd-e2bf-069b" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                   </costs>
                   <rules>
-                    <rule name="Champion of the Arena" id="010a-1b9c-e4f4-eb28" hidden="true">
+                    <rule name="Campeón de la Arena" id="010a-1b9c-e4f4-eb28" hidden="true">
                       <description>Tu héroe tiene la habilidad &apos;Agilidad sin igual&apos; y las siguientes opciones de regimiento:
 Cualquier unidad **^^Daughters of Khaine^^**
 Tu héroe tiene la palabra clave **^^Aelf^^**.</description>
@@ -4043,7 +4043,7 @@ Tu héroe tiene la palabra clave **^^Aelf^^**.</description>
                     <profile name="Agilidad sin igual" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="58b5-2ded-50c3-f37d">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Al usar una habilidad **^^Charge^^**, esta unidad tiene **^^Volar^^**.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Al usar una habilidad **^^Cargar^^**, esta unidad tiene **^^Volar^^**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Orange</attribute>
@@ -4056,7 +4056,7 @@ Tu héroe tiene la palabra clave **^^Aelf^^**.</description>
                     <modifier type="add" value="5ef2-db09-d3cc-4b27" field="category" scope="root-entry" affects="self.entries.recursive"/>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Priestess of Khaine" hidden="false" id="22dc-880d-2069-bc59" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Sacerdotisa de Khaine" hidden="false" id="22dc-880d-2069-bc59" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -4072,14 +4072,14 @@ Tu héroe tiene la palabra clave **^^Aelf^^**.</description>
                     <modifier type="add" value="5ef2-db09-d3cc-4b27" field="category" scope="root-entry" affects="self.entries.recursive"/>
                   </modifiers>
                   <rules>
-                    <rule name="Priestess of Khaine" id="183c-bcc3-6eae-676b" hidden="true">
+                    <rule name="Sacerdotisa de Khaine" id="183c-bcc3-6eae-676b" hidden="true">
                       <description>Tu héroe obtiene la palabra clave **^^Priest (1)^^** y las siguientes opciones de regimiento:
 Cualquier unidad **^^Daughters of Khaine^^**
 Tu héroe tiene la palabra clave **^^Aelf^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Khinerai Skyhunter" hidden="false" id="b53c-cb96-8042-053c" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Cazadora celeste khinerai" hidden="false" id="b53c-cb96-8042-053c" sortIndex="3">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -4091,14 +4091,14 @@ Tu héroe tiene la palabra clave **^^Aelf^^**.</description>
                     <modifier type="add" value="b979-4c3e-7d0e-6921" field="category" scope="root-entry" affects="self.entries.recursive"/>
                   </modifiers>
                   <rules>
-                    <rule name="Khinerai Skyhunter" id="f3f4-1dd0-7577-44dd" hidden="true">
+                    <rule name="Cazadora celeste khinerai" id="f3f4-1dd0-7577-44dd" hidden="true">
                       <description>Cambia la característica de Move de tu héroe a 12".
 Tu héroe tiene la palabra clave **^^Volar^^** y las siguientes opciones de regimiento:
 Cualquier unidad **^^Daughters of Khaine^^**</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Bloodwrack Sorceress" hidden="false" id="fd8c-b436-da2b-ace1" sortIndex="5">
+                <selectionEntry type="upgrade" import="true" name="Hechicera del tormento sangriento" hidden="false" id="fd8c-b436-da2b-ace1" sortIndex="5">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-6"/>
@@ -4116,7 +4116,7 @@ Cualquier unidad **^^Daughters of Khaine^^**</description>
                     <modifier type="set" value="5+" field="1981-ef09-96f6-7aa9" scope="root-entry" affects="profiles.Unit"/>
                   </modifiers>
                   <rules>
-                    <rule name="Bloodwrack Sorceress" id="82f4-9dcc-1441-cda7" hidden="true">
+                    <rule name="Hechicera del tormento sangriento" id="82f4-9dcc-1441-cda7" hidden="true">
                       <description>Cambia la característica de Health de tu héroe a 6, su característica de Move a 8" y su característica de Save a 5+.
 Tu héroe tiene la palabra clave **^^Wizard (1)^^**, la habilidad &apos;Mirada fija de tormento sangriento&apos; y las siguientes opciones de regimiento:
 Cualquier unidad **^^Daughters of Khaine^^**</description>
@@ -4139,7 +4139,7 @@ Cualquier unidad **^^Daughters of Khaine^^**</description>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Ironscale Commander" hidden="false" id="fc4f-a225-cca9-1598" sortIndex="4">
+                <selectionEntry type="upgrade" import="true" name="Comandante Escama de Hierro" hidden="false" id="fc4f-a225-cca9-1598" sortIndex="4">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -4150,7 +4150,7 @@ Cualquier unidad **^^Daughters of Khaine^^**</description>
                     <modifier type="set" value="5+" field="1981-ef09-96f6-7aa9" scope="root-entry" affects="profiles.Unit"/>
                   </modifiers>
                   <rules>
-                    <rule name="Ironscale Commander" id="863b-6003-0932-c0f0" hidden="true">
+                    <rule name="Comandante Escama de Hierro" id="863b-6003-0932-c0f0" hidden="true">
                       <description>Cambia la característica de Health de tu héroe a 6, su característica de Move a 8" y su característica de Save a 5+.
 Tu héroe tiene la habilidad &apos;Puño de los Scáthborn&apos; y las siguientes opciones de regimiento:
 Cualquier unidad **^^Daughters of Khaine^^**</description>
@@ -4209,7 +4209,7 @@ Cualquier unidad **^^Daughters of Khaine^^**</description>
                 <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="79a9-f235-3e32-29a2"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Dark Steed" hidden="false" id="a80c-4a9b-b4c5-fa26" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Corcel oscuro" hidden="false" id="a80c-4a9b-b4c5-fa26" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-5"/>
@@ -4231,8 +4231,8 @@ Cualquier unidad **^^Daughters of Khaine^^**</description>
                     </modifier>
                   </modifiers>
                   <rules>
-                    <rule name="Dark Steed" id="4104-62bd-a1af-747d" hidden="true">
-                      <description>Solo **Campeón of the Arena** o **Priestess of Khaine**. Añade el arma **Cascos y dientes de corcel oscuro** al pergamino de tu héroe.
+                    <rule name="Corcel oscuro" id="4104-62bd-a1af-747d" hidden="true">
+                      <description>Solo **Campeón de la Arena** o **Sacerdotisa de Khaine**. Añade el arma **Cascos y dientes de corcel oscuro** al pergamino de tu héroe.
 Además, haz los siguientes cambios en el pergamino de tu héroe:
 • Cambia la característica de Move a 14".
 • Cambia la característica de Health a 7.
@@ -4240,7 +4240,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Khainite Shrine" hidden="false" id="eac5-9688-035d-474d" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Santuario Khainita" hidden="false" id="eac5-9688-035d-474d" sortIndex="3">
                   <profiles>
                     <profile name="Invocar el asesinato" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f51d-2d71-ff8b-bb73">
                       <characteristics>
@@ -4275,8 +4275,8 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     </modifier>
                   </modifiers>
                   <rules>
-                    <rule name="Khainite Shrine" id="7769-cb97-6b53-9628" hidden="true">
-                      <description>Solo **Bloodwrack Hechicera**. Añade las armas **Mirada fija de tormento sangriento** y **Hojas de guardianas** y la habilidad &apos;Invocar el asesinato&apos; al pergamino de tu héroe.
+                    <rule name="Santuario Khainita" id="7769-cb97-6b53-9628" hidden="true">
+                      <description>Solo **Hechicera del tormento sangriento**. Añade las armas **Mirada fija de tormento sangriento** y **Hojas de guardianas** y la habilidad &apos;Invocar el asesinato&apos; al pergamino de tu héroe.
 Además, haz los siguientes cambios en el pergamino de tu héroe:
 • Cambia la característica de Health a 12.
 • Cambia la característica de Save a 4+.
@@ -4285,7 +4285,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Cauldron of Blood" hidden="false" id="ad73-fdda-eb16-4bef" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Caldero de Sangre" hidden="false" id="ad73-fdda-eb16-4bef" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-8"/>
@@ -4310,8 +4310,8 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     </modifier>
                   </modifiers>
                   <rules>
-                    <rule name="Cauldron of Blood" id="6742-bdf1-08f3-bc3e" hidden="true">
-                      <description>Solo **Campeón of the Arena** o **Priestess of Khaine**. Añade las armas **Hojas de guardianas** y **Espada del avatar** al pergamino de tu héroe.
+                    <rule name="Caldero de Sangre" id="6742-bdf1-08f3-bc3e" hidden="true">
+                      <description>Solo **Campeón de la Arena** o **Sacerdotisa de Khaine**. Añade las armas **Hojas de guardianas** y **Espada del avatar** al pergamino de tu héroe.
 Además, haz los siguientes cambios en el pergamino de tu héroe:
 • Cambia la característica de Health a 12.
 • Cambia la característica de Save a 4+.
@@ -4336,7 +4336,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <profile name="Ejemplo de asesinato" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8389-2234-8304-4a8f">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La **Hoja del culto** de esta unidad tiene **Crit (Auto-wound)**.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La **Hoja del culto** de esta unidad tiene **Crítico (herida automática)**.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -4357,7 +4357,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <profile name="Cultista sombría" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a4dc-6634-ca27-4394">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las habilidades **^^Retreat^^** no infligen daño mortal a esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las habilidades **^^Retirarse^^** no infligen daño mortal a esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Grey</attribute>
@@ -4398,7 +4398,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Daughters of Khaine Infantry^^** que no sea **^^Hero^^** en el regimiento de esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la batalla, cada vez que el objetivo use la orden &apos;All-out Attack&apos; mientras esté totalmente a 12" o menos de esta unidad, no se gastan puntos de orden.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la batalla, cada vez que el objetivo use la orden &apos;Ataque total&apos; mientras esté totalmente a 12" o menos de esta unidad, no se gastan puntos de orden.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -4468,7 +4468,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <profile name="Maldita por Scáth" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6936-0e24-44f0-1b14">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora el efecto de la habilidad &apos;Cover&apos; sobre esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora el efecto de la habilidad &apos;Cobertura&apos; sobre esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -4512,7 +4512,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
             </selectionEntryGroup>
             <selectionEntryGroup name="Battle Mount Upgrades" id="e5da-3cbe-9757-6d8a" hidden="false" sortIndex="6" collapsible="true">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Swift" hidden="false" id="fae5-2843-d783-dda0" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Veloz" hidden="false" id="fae5-2843-d783-dda0" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -4521,7 +4521,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6dea-ba35-3c84-80e0"/>
                   </constraints>
                   <rules>
-                    <rule name="Swift" id="8c86-18af-7896-5354" hidden="true">
+                    <rule name="Veloz" id="8c86-18af-7896-5354" hidden="true">
                       <description>Solo **^^Cavalry^^**. Suma 2" a la característica de Move de tu héroe.</description>
                     </rule>
                   </rules>
@@ -4534,7 +4534,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     </modifier>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Barding" hidden="false" id="03a4-839e-b576-1cf5" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Barda" hidden="false" id="03a4-839e-b576-1cf5" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -4553,12 +4553,12 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7acb-7768-7cad-d157"/>
                   </constraints>
                   <rules>
-                    <rule name="Barding" id="b69f-f941-876a-1161" hidden="true">
+                    <rule name="Barda" id="b69f-f941-876a-1161" hidden="true">
                       <description>Solo **^^Cavalry^^**. Tu héroe tiene una característica de Save de 5+.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Dark Pegasus" hidden="false" id="207f-ee81-0dd9-0499" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Pegaso oscuro" hidden="false" id="207f-ee81-0dd9-0499" sortIndex="3">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -4577,12 +4577,12 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccd3-9d20-3958-49e1"/>
                   </constraints>
                   <rules>
-                    <rule name="Dark Pegasus" id="587e-90c4-b430-93af" hidden="true">
+                    <rule name="Pegaso oscuro" id="587e-90c4-b430-93af" hidden="true">
                       <description>Solo **^^Cavalry^^**. Tu héroe tiene la palabra clave **^^Volar^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Steed of Dark Flames" hidden="false" id="e15a-fb98-4b84-e69e" sortIndex="5">
+                <selectionEntry type="upgrade" import="true" name="Corcel de llamas oscuras" hidden="false" id="e15a-fb98-4b84-e69e" sortIndex="5">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -4600,12 +4600,12 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e77-9b68-f0ea-9d49"/>
                   </constraints>
                   <rules>
-                    <rule name="Steed of Dark Flames" id="4d14-1edf-094a-dc23" hidden="true">
-                      <description>Solo **^^Cavalry^^**. Añade la habilidad &apos;Steed of Llamas oscuras&apos; al pergamino de tu héroe.</description>
+                    <rule name="Corcel de llamas oscuras" id="4d14-1edf-094a-dc23" hidden="true">
+                      <description>Solo **^^Cavalry^^**. Añade la habilidad &apos;Corcel de llamas oscuras&apos; al pergamino de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Iron-bound" hidden="false" id="bebf-d1a6-f245-38d0" sortIndex="6">
+                <selectionEntry type="upgrade" import="true" name="Reforzado con hierro" hidden="false" id="bebf-d1a6-f245-38d0" sortIndex="6">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -4624,12 +4624,12 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72ec-9c7e-e3eb-42f0"/>
                   </constraints>
                   <rules>
-                    <rule name="Iron-bound" id="c5d0-ad72-4588-b318" hidden="true">
+                    <rule name="Reforzado con hierro" id="c5d0-ad72-4588-b318" hidden="true">
                       <description>Solo **^^War Machine^^**. Añade 2 a la característica de Health de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Fanatical Guardians" hidden="false" id="9576-74e6-28aa-d88a" sortIndex="7">
+                <selectionEntry type="upgrade" import="true" name="Guardianes fanáticos" hidden="false" id="9576-74e6-28aa-d88a" sortIndex="7">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -4647,7 +4647,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2432-0f67-ac1c-ff7c"/>
                   </constraints>
                   <rules>
-                    <rule name="Fanatical Guardians" id="b374-f37e-e2cd-113d" hidden="true">
+                    <rule name="Guardianes fanáticos" id="b374-f37e-e2cd-113d" hidden="true">
                       <description>Solo **^^War Machine^^**. Añade 2 a la característica de Attacks de las **Guardian Blades** de tu héroe.</description>
                     </rule>
                   </rules>
@@ -4668,8 +4668,8 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está en combate, tira un dado. Con un 3+, durante el resto del turno:
-• Añade el resultado a la característica de Attacks de las armas **Companion** de esta unidad.
-• Añade 1 a la característica de Rend de las armas **Companion** de esta unidad.</characteristic>
+• Añade el resultado a la característica de Attacks de las armas **Compañero** de esta unidad.
+• Añade 1 a la característica de Rend de las armas **Compañero** de esta unidad.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -4774,7 +4774,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
             </selectionEntryGroup>
             <selectionEntryGroup name="Upgrades" id="d638-e395-da8e-0976" hidden="false" sortIndex="7" collapsible="true">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Aelven Grace" hidden="false" id="2b19-bd79-12e1-5882" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Gracia aélfica" hidden="false" id="2b19-bd79-12e1-5882" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-1"/>
@@ -4786,12 +4786,12 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0534-c40c-fd21-f702"/>
                   </constraints>
                   <rules>
-                    <rule name="Aelven Grace" id="39c1-59c1-3a2f-6974" hidden="true">
+                    <rule name="Gracia aélfica" id="39c1-59c1-3a2f-6974" hidden="true">
                       <description>Suma 1" a la característica de Move de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Ulguan Heritage" hidden="false" id="b46e-2741-fa1f-e534" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Herencia de Ulgu" hidden="false" id="b46e-2741-fa1f-e534" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
@@ -4802,7 +4802,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c5c-f073-8e5b-c55b"/>
                   </constraints>
                   <rules>
-                    <rule name="Ulguan Heritage" id="7ad7-8818-cccc-2055" hidden="true">
+                    <rule name="Herencia de Ulgu" id="7ad7-8818-cccc-2055" hidden="true">
                       <description>Suma 1 a la característica de Health de tu héroe.</description>
                     </rule>
                   </rules>
@@ -4810,7 +4810,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <modifier type="increment" value="1" field="96be-54ae-ce7b-10b7" affects="profiles.Unit" scope="root-entry"/>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Gift of Khaine" hidden="false" id="3e4e-0796-c189-88bb" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Don de Khaine" hidden="false" id="3e4e-0796-c189-88bb" sortIndex="3">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -4824,12 +4824,12 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23d1-9e6c-e9ff-ddbf"/>
                   </constraints>
                   <rules>
-                    <rule name="Gift of Khaine" id="9e89-6517-f6ba-254d" hidden="true">
+                    <rule name="Don de Khaine" id="9e89-6517-f6ba-254d" hidden="true">
                       <description>Tu héroe tiene **^^Ward (5+)^^**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Perfect Accuracy" hidden="false" id="8e90-ea29-3e15-d1bd" sortIndex="4">
+                <selectionEntry type="upgrade" import="true" name="Precisión perfecta" hidden="false" id="8e90-ea29-3e15-d1bd" sortIndex="4">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
@@ -4840,7 +4840,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="312c-fb1e-8906-88a6"/>
                   </constraints>
                   <rules>
-                    <rule name="Perfect Accuracy" id="b3f8-6edc-1c2d-5f4d" hidden="true">
+                    <rule name="Precisión perfecta" id="b3f8-6edc-1c2d-5f4d" hidden="true">
                       <description>La característica de Hit del **Hoja del culto** de tu héroe es 2+.</description>
                     </rule>
                   </rules>
@@ -4868,7 +4868,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Killing Grace" hidden="false" id="99c7-7a8a-630f-1192" sortIndex="5">
+                <selectionEntry type="upgrade" import="true" name="Gracia asesina" hidden="false" id="99c7-7a8a-630f-1192" sortIndex="5">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -4879,12 +4879,12 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a201-c42d-78e8-5b75"/>
                   </constraints>
                   <rules>
-                    <rule name="Killing Grace" id="3202-d9ed-a84d-c983" hidden="true">
+                    <rule name="Gracia asesina" id="3202-d9ed-a84d-c983" hidden="true">
                       <description>Añade 1 a la característica de Rend de la **Hoja del culto** de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Ferocious Cultist" hidden="false" id="fe1e-d7ac-9789-79a4" sortIndex="8">
+                <selectionEntry type="upgrade" import="true" name="Cultista feroz" hidden="false" id="fe1e-d7ac-9789-79a4" sortIndex="8">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -4893,12 +4893,12 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35e8-8fcb-838b-48a2"/>
                   </constraints>
                   <rules>
-                    <rule name="Ferocious Cultist" id="eed5-b079-5429-ae2f" hidden="true">
+                    <rule name="Cultista feroz" id="eed5-b079-5429-ae2f" hidden="true">
                       <description>Añade 2 a la característica de Attacks de la **Hoja del culto** de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Master of Poisons" hidden="false" id="05ff-f613-28aa-ea62" sortIndex="7">
+                <selectionEntry type="upgrade" import="true" name="Maestro de venenos" hidden="false" id="05ff-f613-28aa-ea62" sortIndex="7">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
@@ -4909,8 +4909,8 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f05-c34c-e66e-6eab"/>
                   </constraints>
                   <rules>
-                    <rule name="Master of Poisons" id="30b2-3a8e-fb11-55f7" hidden="true">
-                      <description>El **Hoja del culto** de tu héroe tiene **Crit (Mortal)**.</description>
+                    <rule name="Maestro de venenos" id="30b2-3a8e-fb11-55f7" hidden="true">
+                      <description>El **Hoja del culto** de tu héroe tiene **Crítico (mortal)**.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -4944,7 +4944,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Blistering Speed" hidden="false" id="1b0b-d48a-7b4b-605f" sortIndex="10">
+                <selectionEntry type="upgrade" import="true" name="Velocidad abrasadora" hidden="false" id="1b0b-d48a-7b4b-605f" sortIndex="10">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-6"/>
@@ -4955,7 +4955,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a299-96c4-ee5c-fca3"/>
                   </constraints>
                   <rules>
-                    <rule name="Blistering Speed" id="5261-14d2-3e05-b3d7" hidden="true">
+                    <rule name="Velocidad abrasadora" id="5261-14d2-3e05-b3d7" hidden="true">
                       <description>Solo **^^Infantry^^**. Tu héroe tiene **^^Strike-first^^**.</description>
                     </rule>
                   </rules>
@@ -4985,7 +4985,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de combate enemiga</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está en combate, tira un dado. Con un 3+, esta unidad puede usar de inmediato la habilidad &apos;Retreat&apos; como si fuera tu fase de movimiento, sin que se le inflija ningún daño mortal.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está en combate, tira un dado. Con un 3+, esta unidad puede usar de inmediato la habilidad &apos;Retirarse&apos; como si fuera tu fase de movimiento, sin que se le inflija ningún daño mortal.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -5002,7 +5002,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     </rule>
                   </rules>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Cult Fanatic" hidden="false" id="af4d-f872-a710-6236" sortIndex="12">
+                <selectionEntry type="upgrade" import="true" name="Fanático del culto" hidden="false" id="af4d-f872-a710-6236" sortIndex="12">
                   <costs>
                     <cost name="pts" typeId="points" value="0"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-6"/>
@@ -5035,7 +5035,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     </modifier>
                   </modifiers>
                   <rules>
-                    <rule name="Cult Fanatic" id="d94d-ba41-6096-e051" hidden="true">
+                    <rule name="Fanático del culto" id="d94d-ba41-6096-e051" hidden="true">
                       <description>Solo **^^Wizard or Priest^^**. El nivel de poder de tu héroe es 2.</description>
                     </rule>
                   </rules>
@@ -5169,7 +5169,7 @@ Tu oponente debe retirar el objetivo del campo de batalla y volver a colocarlo e
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="a563-5651-e717-3a61" hidden="true">
+            <rule name="Tamaño de peana" id="a563-5651-e717-3a61" hidden="true">
               <description>1/9 40mm (Campeón)
 8/9 28.5mm</description>
             </rule>
@@ -5256,7 +5256,7 @@ Tu oponente debe retirar el objetivo del campo de batalla y volver a colocarlo e
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23a9-1602-c789-9db6"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="7abf-a65c-0af4-3247" hidden="true">
+            <rule name="Tamaño de peana" id="7abf-a65c-0af4-3247" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -5284,7 +5284,7 @@ Tu oponente debe retirar el objetivo del campo de batalla y volver a colocarlo e
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Paths" id="5ed8-cc1e-bd8d-bd3c" hidden="false" flatten="true" publicationId="df1f-ba81-775f-acfd">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Path of the Demagogue" hidden="true" id="d772-da04-8411-4e41" publicationId="df1f-ba81-775f-acfd">
+        <selectionEntry type="upgrade" import="true" name="Senda del Demagogo" hidden="true" id="d772-da04-8411-4e41" publicationId="df1f-ba81-775f-acfd">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="08b7-f31b-1e35-96ed" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -5563,12 +5563,12 @@ Tu oponente debe retirar el objetivo del campo de batalla y volver a colocarlo e
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Path Restrictions" id="8582-d9ba-f837-8a9c" hidden="true">
+            <rule name="Restricciones de senda" id="8582-d9ba-f837-8a9c" hidden="true">
               <description>Solo **^^Daughters of Khaine Hero^^**</description>
             </rule>
           </rules>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Blood Witch" hidden="true" id="6222-4b7a-b74e-51ac" publicationId="df1f-ba81-775f-acfd">
+        <selectionEntry type="upgrade" import="true" name="Senda de la Bruja de Sangre" hidden="true" id="6222-4b7a-b74e-51ac" publicationId="df1f-ba81-775f-acfd">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="9309-6e3f-a7da-3c56" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -5841,7 +5841,7 @@ Tu oponente debe retirar el objetivo del campo de batalla y volver a colocarlo e
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Path Restrictions" id="74b2-9bad-4223-425f" hidden="true">
+            <rule name="Restricciones de senda" id="74b2-9bad-4223-425f" hidden="true">
               <description>Solo unidades **^^Daughters of Khaine^^** que no sean **^^Hero^^**</description>
             </rule>
           </rules>

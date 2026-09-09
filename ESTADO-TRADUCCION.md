@@ -1,56 +1,70 @@
-# Estado de la traducción — 8 de septiembre de 2026
+# Estado de la traducción — 9 de septiembre de 2026
 
-**Completadas la prosa, las etiquetas y los nombres de unidades y armas.**
+**Completadas la prosa, las etiquetas y los nombres de unidades, armas y habilidades.**
 
-**Nombres de habilidades: en curso por petición del usuario.** Se están
-añadiendo títulos de habilidades, hechizos y plegarias en los diccionarios
-`translations/names/Abilities - *.es.json`, con sus referencias en las reglas.
-Las cifras de cobertura de nombres de esta página corresponden al bloque
-anterior de unidades y armas; no implican que las habilidades estén terminadas.
-
-- Los 133 JSON contienen 9.862 entradas resueltas y **0 valores vacíos**.
+- Los 133 JSON de prosa contienen 9.862 entradas resueltas y **0 valores vacíos**.
 - Se han rellenado las 697 entradas que antes se conservaban vacías: claves,
   habilidades de arma, etiquetas de peanas e ingredientes, además de registrar
-  explícitamente las expresiones numéricas y los nombres propios sin traducción.
-- 24 valores son idénticos al original porque contienen datos, nombres
-  propios u otras expresiones que no cambian. «Resuelto» no significa que se
-  hayan traducido cifras o inventado equivalentes para esos nombres.
-- Las 133 parejas de archivos originales/españoles pasan la verificación de
-  estructura y atributos XML. Cada archivo generado en este bloque se ha
-  contrastado también con sus diccionarios. No se han modificado los originales
-  ingleses, los identificadores, los atributos técnicos ni las claves de prosa.
-  Los únicos atributos traducidos son los nombres visibles autorizados.
-- Las cifras de las nuevas entradas coinciden con las originales.
-- Las equivalencias se documentan en [GLOSARIO-ETIQUETAS.md](GLOSARIO-ETIQUETAS.md).
+  las expresiones numéricas y los nombres propios sin traducción.
+- 24 valores de prosa son idénticos al original porque contienen datos, nombres
+  propios u otras expresiones que no cambian.
+- Las **133 parejas de archivos** pasan la verificación completa de texto,
+  nombres, estructura XML y atributos técnicos. Los originales ingleses y los
+  diccionarios de prosa no han cambiado durante la traducción de nombres.
+- Pasan las siete pruebas del generador, incluidos los nombres de habilidades
+  en reglas y perfiles y los alias que enlazan catálogos diferentes.
+- Las equivalencias son traducciones de aficionado, no nomenclatura oficial.
 
-## Nombres de unidades y armas
+## Cobertura de nombres
 
-Se han revisado **3.248 nombres distintos**: 3.077 tienen equivalencia
-española y 171 conservan su denominación. No quedan nombres pendientes en
-la comprobación de cobertura. Los 133 pares generados pasan la verificación
-completa y las cinco pruebas del generador de nombres pasan.
+La comprobación ampliada revisa **8.488 nombres distintos**:
+8.303 tienen equivalencia española, 185 mantienen
+su denominación y **0 están pendientes**. Incluye unidades, miniaturas,
+armas, manifestaciones, habilidades, reglas, selectores y modificadores de nombre.
+
+El bloque inicial de unidades y armas cubría 3.248 nombres: 3.077 traducidos
+y 171 conservados. La ampliación cubre los **4.511 títulos distintos
+de perfiles de habilidades y tácticas de batalla** (4.497 traducidos
+y 14 conservados), así como 784 nombres adicionales
+de reglas, formaciones, sendas y alias. Hay 666 títulos distintos de reglas
+registrados; algunos ya figuraban en los perfiles o en el bloque de unidades.
+Estas cifras se solapan y no deben sumarse para obtener el total.
+
+Además se han registrado 293 nombres citados dentro de la prosa:
+órdenes básicas sin perfil local, variantes de escritura y títulos de efectos.
+Se han revisado también los encabezados de efectos que seguían en inglés en
+las traducciones existentes. Este bloque incluye referencias como `Rally`,
+`Redeploy`, `Power Through` y `Banish Manifestation`.
+
+Las equivalencias se documentan en [GLOSARIO-NOMBRES.md](GLOSARIO-NOMBRES.md),
+[GLOSARIO-HABILIDADES.md](GLOSARIO-HABILIDADES.md) y
+[GLOSARIO-ETIQUETAS.md](GLOSARIO-ETIQUETAS.md).
 
 ## Alcance
 
 Se traduce el contenido de `description` y `characteristic`, además de los
-nombres visibles de unidades, armas y manifestaciones registrados en
-`translations/names/`. Se incluyen personajes, variantes, Legends y nombres
-condicionados por el tamaño de la unidad. El generador actualiza también sus
-referencias en las reglas. Los nombres propios sin equivalente se conservan;
-las traducciones son de aficionado. Los nombres de habilidades, encabezados y
-categorías que no figuran en esos diccionarios permanecen como en el original.
-La cobertura de nombres se detalla en [GLOSARIO-NOMBRES.md](GLOSARIO-NOMBRES.md).
-No se han enviado las reglas a un traductor externo.
+nombres visibles registrados en `translations/names/`. Se incluyen personajes,
+variantes, Legends, hechizos, plegarias, rasgos, artefactos, formaciones,
+Regimientos de Renombre y opciones de Sendero a la Gloria.
 
-La verificación técnica no sustituye una revisión editorial independiente ni
-pruebas en una aplicación de listas de ejército.
+El generador actualiza las referencias a esos nombres dentro de las reglas.
+Los nombres propios sin equivalente se conservan. Los atributos de nombre
+autorizados pertenecen a entradas, grupos, perfiles, reglas y enlaces; también
+se traducen valores de modificadores cuyo `field` es `name`.
+Los identificadores, tipos de perfil, categorías, nombres de características,
+valores técnicos y estructura permanecen intactos.
+
+No se han enviado las reglas a un traductor externo. La verificación técnica
+no sustituye una revisión editorial independiente ni pruebas en una aplicación
+de listas de ejército.
 
 ## Mantenimiento
 
 Al incorporar nuevas versiones de los originales, extraer las nuevas cadenas,
 traducirlas siguiendo `TRADUCIR.md`, generar las versiones españolas y ejecutar
-la verificación. Un valor vacío representa trabajo pendiente. Por preferencia
-del usuario, hacer commit y push tras completar y verificar cada ejército.
+la verificación y la comprobación de cobertura de nombres. Un valor vacío
+representa trabajo pendiente. Por preferencia del usuario, hacer commit y push
+tras completar y verificar cada ejército.
 
 ## Cobertura por archivo
 

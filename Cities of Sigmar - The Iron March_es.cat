@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="6f76-e1bd-5241-3f4e" name="Cities of Sigmar - The Iron March" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="92" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: The Iron March" hidden="false" id="f6a8-a3d2-46e6-6dbc" publicationId="a746-732d-1a22-460">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: La Marcha de Hierro" hidden="false" id="f6a8-a3d2-46e6-6dbc" publicationId="a746-732d-1a22-460">
       <profiles>
         <profile name="Formad filas, Marcha de Hierro" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7c9c-7ecf-f822-8a23">
           <characteristics>
@@ -65,10 +65,10 @@ La unidad que use esta habilidad y los objetivos:
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 o más de los siguientes efectos para aplicarlos durante el resto del turno. Por cada efecto que elijas, da a esta unidad un número de **fichas de calor** igual al número que aparece junto a él.
-**1 *Load Triple Shot!*:** El **Cañón de brecha** de esta unidad tiene **Crit (2 Hits)**.
+**1 *Load Triple Shot!*:** El **Cañón de brecha** de esta unidad tiene **Crítico (2 impactos)**.
 **1 *Go, Go, Go!*:** Al hacer tiradas de carga para esta unidad, suma 1 al número de dados tirados, hasta un máximo de 3, después retira 1 dado a tu elección y usa los dados restantes como tirada de carga.
-**3 *Get Us In There!*:** Las **Pies de hierro aplastantes** de esta unidad tienen **Charge (+1 Damage)**
-**3 *Load Chain Shot!*:** Cada vez que esta unidad use una habilidad de **^^Shoot^^**, después de resolver esa habilidad, si alguna miniatura enemiga ha sido abatida por ataques hechos con el **Cañón de brecha** de esta unidad, por cada miniatura abatida por esos ataques, inflige 1 de daño mortal a la unidad de esa miniatura.
+**3 *Get Us In There!*:** Las **Pies de hierro aplastantes** de esta unidad tienen **Carga (+1 Daño)**
+**3 *Load Chain Shot!*:** Cada vez que esta unidad use una habilidad de **^^Disparar^^**, después de resolver esa habilidad, si alguna miniatura enemiga ha sido abatida por ataques hechos con el **Cañón de brecha** de esta unidad, por cada miniatura abatida por esos ataques, inflige 1 de daño mortal a la unidad de esa miniatura.
 **4 *Disengage Safeties!*:**La característica de Attacks del **Cañón de llamas abrasarreinos** de esta unidad es 22.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -175,7 +175,7 @@ La unidad que use esta habilidad y los objetivos:
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4ae-c792-be4e-4a4c"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="a619-d522-c710-039c" hidden="true">
+            <rule name="Tamaño de peana" id="a619-d522-c710-039c" hidden="true">
               <description>160mm</description>
             </rule>
           </rules>
@@ -223,7 +223,7 @@ La unidad que use esta habilidad y los objetivos:
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 o más de los siguientes efectos para aplicarlos durante el resto del turno. Por cada efecto que elijas, da a esta unidad un número de **fichas de calor** igual al número que aparece junto a él.
 **1 *Trample Them to Dust!*:** Las **Pies de hierro aplastantes** de esta unidad tienen **Anti-^^Monster^^ (+1 Rend)**.
 **1 *Go, Go, Go!*:** Al hacer tiradas de carga para esta unidad, suma 1 al número de dados tirados, hasta un máximo de 3, después retira 1 dado a tu elección y usa los dados restantes como tirada de carga.
-**2 *Get Us In There!*:** Las **Pies de hierro aplastantes** de esta unidad tienen **Charge (+1 Damage)**
+**2 *Get Us In There!*:** Las **Pies de hierro aplastantes** de esta unidad tienen **Carga (+1 Daño)**
 **2 *Load Heavy Shot!*:** Suma 1 a la característica de Rend del **Cañón rompedioses** de esta unidad, pero todos los ataques de esta unidad hechos con esa arma este turno deben tener como objetivo la misma unidad enemiga.
 **2 *Full Throttle!*:** La característica de Move de esta unidad es 10".</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -249,7 +249,7 @@ La unidad que use esta habilidad y los objetivos:
         <profile name="Aventurarse" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="dfb0-acd8-81ad-7b10">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de carga</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no ha usado una habilidad de **^^Run^^** este turno, elige como objetivos los **pasajeros** de esta unidad.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no ha usado una habilidad de **^^Correr^^** este turno, elige como objetivos los **pasajeros** de esta unidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca cada objetivo totalmente a 6" o menos de esta unidad y sin estar en combate o a 1/2" o menos de una unidad enemiga. Si un objetivo se coloca en combate, cuenta como que ha cargado. Después, si esta unidad no está **bajo órdenes**, esta unidad y los objetivos quedan **bajo órdenes** durante el resto de la ronda de batalla.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -340,7 +340,7 @@ La unidad que use esta habilidad y los objetivos:
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a303-583b-777a-1749"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="123e-395b-3a5a-d289" hidden="true">
+            <rule name="Tamaño de peana" id="123e-395b-3a5a-d289" hidden="true">
               <description>160mm</description>
             </rule>
           </rules>
@@ -460,7 +460,7 @@ La unidad que use esta habilidad y los objetivos:
                 <profile name="Ingeniero Gurren Ashbrow" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="723c-5d91-7de9-f1d0">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use la orden &apos;Rally&apos;, puedes hacer 3 tiradas de reagrupamiento de D6 adicionales.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use la orden &apos;Reagrupamiento&apos;, puedes hacer 3 tiradas de reagrupamiento de D6 adicionales.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -493,10 +493,10 @@ La unidad que use esta habilidad y los objetivos:
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="f908-41da-4ca3-253e" hidden="true">
+            <rule name="Restricciones de mejoras" id="f908-41da-4ca3-253e" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
-            <rule name="Enhancement Restrictions" id="0536-2bdd-4aa4-c97f" hidden="true">
+            <rule name="Restricciones de mejoras" id="0536-2bdd-4aa4-c97f" hidden="true">
               <description>solo **^^IRON MARCH WAR MACHINE^^**</description>
             </rule>
           </rules>
@@ -574,7 +574,7 @@ La unidad que use esta habilidad y los objetivos:
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="0c3c-531a-4750-f489" hidden="true">
+            <rule name="Restricciones de mejoras" id="0c3c-531a-4750-f489" hidden="true">
               <description>solo **^^IRON MARCH WAR MACHINE^^**</description>
             </rule>
           </rules>
@@ -620,7 +620,7 @@ La unidad que use esta habilidad y los objetivos:
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad y hasta 1 otro **^^Iron March War Machine^^** amigo dentro del alcance de combate de esta unidad pueden usar la habilidad &apos;Normal Move&apos; como si fuera tu fase de movimiento.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad y hasta 1 otro **^^Iron March War Machine^^** amigo dentro del alcance de combate de esta unidad pueden usar la habilidad &apos;Movimiento normal&apos; como si fuera tu fase de movimiento.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -660,7 +660,7 @@ La unidad que use esta habilidad y los objetivos:
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="c06e-3f8e-5ddd-dd22" hidden="true">
+            <rule name="Restricciones de mejoras" id="c06e-3f8e-5ddd-dd22" hidden="true">
               <description>solo **^^IRON MARCH WAR MACHINE^^**</description>
             </rule>
           </rules>
@@ -751,7 +751,7 @@ La unidad que use esta habilidad y los objetivos:
         <cost name="pts" typeId="points" value="130"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="393e-2f3d-c472-1cb2" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="393e-2f3d-c472-1cb2" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="634b-e686-b950-4e51" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="14ed-2ec3-0ab2-ac3a" type="selectionEntryGroup" targetId="4e75-1507-bd8c-9353"/>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="8e8a-6e50-3395-d1b5" type="selectionEntryGroup" targetId="999e-2355-b87c-0541"/>
@@ -814,7 +814,7 @@ La unidad que use esta habilidad y los objetivos:
         <cost name="pts" typeId="points" value="440"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="ae3c-b159-5abf-6d7a" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="ae3c-b159-5abf-6d7a" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="b2a6-cb32-c9c3-aec6" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="3e86-877f-91df-14e1" type="selectionEntryGroup" targetId="4e75-1507-bd8c-9353"/>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="8c34-1177-d721-010b" type="selectionEntryGroup" targetId="999e-2355-b87c-0541"/>
@@ -867,7 +867,7 @@ La unidad que use esta habilidad y los objetivos:
         <cost name="pts" typeId="points" value="530"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="3b3e-9dce-df46-9aab" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="3b3e-9dce-df46-9aab" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="012c-3fc4-017a-9aae" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="0037-6d93-bc27-7193" type="selectionEntryGroup" targetId="4e75-1507-bd8c-9353"/>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="9b4d-b4c6-2636-4376" type="selectionEntryGroup" targetId="999e-2355-b87c-0541"/>
@@ -920,7 +920,7 @@ La unidad que use esta habilidad y los objetivos:
         <cost name="pts" typeId="points" value="510"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="c831-5a50-e4f8-3152" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="c831-5a50-e4f8-3152" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="3333-a41f-7fb2-3e1e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="894b-b8ed-2e40-9ccf" type="selectionEntryGroup" targetId="4e75-1507-bd8c-9353"/>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="a80d-911d-0d21-246e" type="selectionEntryGroup" targetId="999e-2355-b87c-0541"/>
@@ -974,7 +974,7 @@ La unidad que use esta habilidad y los objetivos:
         <entryLink import="true" name="Heroic Traits" hidden="false" id="be70-9645-e847-e221" type="selectionEntryGroup" targetId="999e-2355-b87c-0541"/>
         <entryLink import="true" name="Paths" hidden="false" id="5650-b2d7-5145-263b" type="selectionEntryGroup" targetId="ec26-9377-c2cb-659e"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ed15-d839-27a0-980b" type="selectionEntryGroup" targetId="9bfd-1f77-dfc0-e46c"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="2bb1-bfc1-e8c8-d433" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="2bb1-bfc1-e8c8-d433" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="62e0-66ec-eed1-d257" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="713c-53bf-55d2-19c1" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
         <entryLink import="true" name="Commanders of the Iron March" hidden="false" id="14ae-0482-f3b5-2c69" type="selectionEntryGroup" targetId="a181-b43f-8de2-0c16"/>
@@ -1015,7 +1015,7 @@ La unidad que use esta habilidad y los objetivos:
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: The Iron March" hidden="false" id="58e6-2e53-637b-c7a2" type="selectionEntry" targetId="f6a8-a3d2-46e6-6dbc">
+    <entryLink import="true" name="Rasgos de batalla: La Marcha de Hierro" hidden="false" id="58e6-2e53-637b-c7a2" type="selectionEntry" targetId="f6a8-a3d2-46e6-6dbc">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e086-3f36-8a37-7cdf" includeChildSelections="true"/>
       </constraints>

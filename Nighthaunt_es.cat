@@ -153,7 +153,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
               <profiles>
                 <profile name="Brasero de Nagashizzar" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="33ec-3999-fe8b-9dce">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redeploy&apos; para una unidad amiga **^^Nighthaunt Infantry^^** totalmente a 12" o menos de esta unidad.</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redesplegar&apos; para una unidad amiga **^^Nighthaunt Infantry^^** totalmente a 12" o menos de esta unidad.</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si obtienes un 1-3 al determinar la distancia que esa unidad puede mover, puedes usar un valor de 4 en su lugar.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -172,7 +172,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="d80d-2785-b16b-42d2" hidden="true">
+            <rule name="Restricciones de mejoras" id="d80d-2785-b16b-42d2" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -221,7 +221,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** enemigo a 18" o menos de esta unidad.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, durante el resto del turno, el objetivo no puede verse afectado por la habilidad &apos;Héroe protegido&apos; ni por la habilidad de terreno &apos;Obscuring&apos;.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, durante el resto del turno, el objetivo no puede verse afectado por la habilidad &apos;Héroe protegido&apos; ni por la habilidad de terreno &apos;Ocultación&apos;.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -250,7 +250,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Enhancement Restrictions" id="b88b-4550-0ea0-423c" hidden="true">
+            <rule name="Restricciones de mejoras" id="b88b-4550-0ea0-423c" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -274,7 +274,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
     </selectionEntryGroup>
     <selectionEntryGroup name="Battle Formations: Nighthaunt" id="5114-443c-4c98-b35c" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Quicksilver Gheists" hidden="false" id="4194-8ce-eb86-80c2">
+        <selectionEntry type="upgrade" import="true" name="Espectros de Azogue" hidden="false" id="4194-8ce-eb86-80c2">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e75-79df-8146-4e18"/>
           </constraints>
@@ -315,7 +315,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
             <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Death Stalkers" hidden="false" id="ca91-2d4e-9ff4-c24">
+        <selectionEntry type="upgrade" import="true" name="Acechadores de la Muerte" hidden="false" id="ca91-2d4e-9ff4-c24">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2521-f2e9-6fc2-df6"/>
           </constraints>
@@ -325,8 +325,8 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de movimiento</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Nighthaunt^^**.</characteristic>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno:
-• La unidad objetivo puede seguir usando habilidades de **^^Charge^^** y **^^Shoot^^** aunque haya usado una habilidad de **^^Retreat^^** en el mismo turno.
-• El objetivo puede usar la habilidad &apos;Retreat&apos; sin que se le inflija ningún daño mortal.</characteristic>
+• La unidad objetivo puede seguir usando habilidades de **^^Cargar^^** y **^^Disparar^^** aunque haya usado una habilidad de **^^Retirarse^^** en el mismo turno.
+• El objetivo puede usar la habilidad &apos;Retirarse&apos; sin que se le inflija ningún daño mortal.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -338,7 +338,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Royal Procession" hidden="false" id="df99-d456-63a5-931">
+        <selectionEntry type="upgrade" import="true" name="Procesión Real" hidden="false" id="df99-d456-63a5-931">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c05-de20-b8a2-8f0c"/>
           </constraints>
@@ -359,7 +359,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Shrieker Host" hidden="false" id="b5bd-1e28-d13-d5de">
+        <selectionEntry type="upgrade" import="true" name="Hueste Aulladora" hidden="false" id="b5bd-1e28-d13-d5de">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fdc-7103-affe-4b7b"/>
           </constraints>
@@ -368,7 +368,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), fase de héroe enemiga</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Nighthaunt Hero^^** amigo.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, las unidades enemigas no pueden usar habilidades de **^^Retreat^^** mientras estén en combate con el objetivo.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, las unidades enemigas no pueden usar habilidades de **^^Retirarse^^** mientras estén en combate con el objetivo.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -380,7 +380,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Hungry Nexus" hidden="true" id="b90b-82e0-502e-5e32" publicationId="f894-7929-f79a-a269">
+        <selectionEntry type="upgrade" import="true" name="Nexo hambriento" hidden="true" id="b90b-82e0-502e-5e32" publicationId="f894-7929-f79a-a269">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82eb-c076-df3d-cae3"/>
           </constraints>
@@ -413,7 +413,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Deathrust Gheists" hidden="true" id="29e2-d479-86a1-5958" publicationId="f894-7929-f79a-a269">
+        <selectionEntry type="upgrade" import="true" name="Espectros de Herrumbre Mortal" hidden="true" id="29e2-d479-86a1-5958" publicationId="f894-7929-f79a-a269">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2956-753e-6a90-5b01"/>
           </constraints>
@@ -483,7 +483,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta 3 unidades amigas que no sean **^^Hero Nighthaunt^^**, totalmente a 12" o menos de esta unidad.</characteristic>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3 por cada objetivo. Con un 2+:
-• Si el objetivo está dañado, aplícale **Heal (X)**, donde **X** es una cantidad igual al resultado.
+• Si el objetivo está dañado, aplícale **Curar (X)**, donde **X** es una cantidad igual al resultado.
 • Si el objetivo no está dañado, devuélvele un número de miniaturas abatidas con una característica de Health combinada de hasta X, donde X es una cantidad igual al resultado.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -523,7 +523,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
               <profiles>
                 <profile name="Aura sombría" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1145-27b4-48a1-261b">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redeploy&apos; para una unidad amiga **^^Nighthaunt^^** totalmente a 12" o menos de esta unidad</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redesplegar&apos; para una unidad amiga **^^Nighthaunt^^** totalmente a 12" o menos de esta unidad</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, resta 1 a las tiradas de impacto de los ataques que tengan como objetivo esta unidad.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -542,7 +542,7 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="0953-5ea6-3025-0ce6" hidden="true">
+            <rule name="Restricciones de mejoras" id="0953-5ea6-3025-0ce6" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -723,9 +723,9 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
               <profiles>
                 <profile name="Cobardes y desertores" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="eb55-58eb-4178-023f">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad de **^^Fight^^** para esta unidad</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad de **^^Combatir^^** para esta unidad</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad de **^^Fight^^**, tira un dado. Puedes gastar 1 **dado de ira**. Si lo haces:
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad de **^^Combatir^^**, tira un dado. Puedes gastar 1 **dado de ira**. Si lo haces:
 • Suma 1 al resultado.
 • Si el **nivel de furia** de tu oponente es inferior al tuyo, debe aumentar su **nivel de furia** en 1, hasta un máximo de 7.
 Con un 3+, esta unidad puede moverse una distancia de hasta su característica de Move. Puede moverse a través de los alcances de combate de unidades enemigas, pero no puede terminar ese movimiento en combate.</characteristic>
@@ -792,7 +792,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
     <catalogueLink type="catalogue" name="✦ Path to Glory - Blighted Wilds" id="833c-3ebe-1247-4f87" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Nighthaunt" hidden="false" id="53c5-1078-24f5-3301">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Noctánimas" hidden="false" id="53c5-1078-24f5-3301">
       <profiles>
         <profile name="Etéreo" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ca03-ec11-f370-b66d">
           <characteristics>
@@ -835,7 +835,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si hay un **Nexo del pesar** amigo en el campo de batalla, puedes colocar hasta 2 **Nexuses of Grief** adicionales en el campo de batalla. Cada uno debe colocarse totalmente fuera del territorio enemigo, a más de 3" de todos los marcadores de objetivo y otros elementos de escenografía, y a más de 12" de todos los demás **Nexuses of Grief** amigos.
-**Nota del diseñador:** *El* **Nexo del pesar** *original se coloca en el Paso 1 de la fase de despliegue mediante la habilidad &apos;Deploy Faction Terrain&apos;. Esta habilidad permite colocar un segundo y un tercer elemento de escenografía de este tipo, y se usa en el Paso 3 de la fase de despliegue, después de que los ejércitos hayan sido desplegados.*</characteristic>
+**Nota del diseñador:** *El* **Nexo del pesar** *original se coloca en el Paso 1 de la fase de despliegue mediante la habilidad &apos;Desplegar escenografía de facción&apos;. Esta habilidad permite colocar un segundo y un tercer elemento de escenografía de este tipo, y se usa en el Paso 3 de la fase de despliegue, después de que los ejércitos hayan sido desplegados.*</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -900,7 +900,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="260-ba78-c1d2-3ae0" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ce35-5bef-8a9c-e443" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
         <entryLink import="true" name="Paths" hidden="false" id="6076-22a4-f7bf-c088" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="ecc1-7e56-6181-bda4" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="ecc1-7e56-6181-bda4" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="cb02-7df3-37c9-2e5f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="3dcb-3b35-ab74-158f" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -964,7 +964,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="d58f-1ed5-11d2-3c0e" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="2034-5886-ab83-d6a5" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
         <entryLink import="true" name="Paths" hidden="false" id="3e8a-8f2e-4fa5-a63c" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="210d-2821-f315-ad3f" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="210d-2821-f315-ad3f" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="4e4c-4ac8-4ba7-9b9a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="28a6-efe4-8b86-3628" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1013,7 +1013,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="bfdb-84db-e422-2b4c" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1a05-03a7-0611-d140" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
         <entryLink import="true" name="Paths" hidden="false" id="1ea4-0191-ba07-9c5e" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="0f6c-fd6d-506f-e99b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="0f6c-fd6d-506f-e99b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="77dc-084d-cffc-2bc7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="3380-2b7c-6824-b585" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1061,7 +1061,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="5b9e-3996-e0a1-d1c1" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="8a11-8a7e-3aaf-268c" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
         <entryLink import="true" name="Paths" hidden="false" id="720a-efae-5f0e-560f" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="7053-2736-9071-f6fe" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="7053-2736-9071-f6fe" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="6b6f-1413-bbac-c50a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="1417-7e7a-0c9c-b00b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1109,7 +1109,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="2613-301c-e5eb-452" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="06eb-d7f6-90b0-8862" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
         <entryLink import="true" name="Paths" hidden="false" id="f480-23d5-d2d5-212b" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="a2f2-5670-27a4-4bb9" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="a2f2-5670-27a4-4bb9" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="e646-092a-396f-3258" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="9385-d4d2-7ba5-0833" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1242,7 +1242,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="9df5-55a1-14a7-783e" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="961e-e93e-26c5-40f9" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
         <entryLink import="true" name="Paths" hidden="false" id="61cd-5cc7-6ee9-a63a" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="b774-fed1-50ae-47ae" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="b774-fed1-50ae-47ae" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="c892-3cc2-aa38-627f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="c8a9-d07e-33fa-533d" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1390,7 +1390,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="1cfc-7933-b2fd-53a2" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="814c-0b51-73f4-daf8" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
         <entryLink import="true" name="Paths" hidden="false" id="c79b-9101-cd83-a14b" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="a8a7-b7d3-9312-966e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="a8a7-b7d3-9312-966e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="805f-ad57-a6a3-ba9d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="912b-ccf7-f6b2-2c37" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1454,7 +1454,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="330d-1cd6-e121-45c9" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7776-8064-0bde-2854" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
         <entryLink import="true" name="Paths" hidden="false" id="cbce-2fe1-9298-f944" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="7787-5572-1d0f-fe73" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="7787-5572-1d0f-fe73" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="77cd-48fb-187b-2e03" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="21e4-1fbd-a314-c06b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1518,7 +1518,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="32cd-fddd-4fd4-f2a6" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="651b-f245-5cea-cd91" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
         <entryLink import="true" name="Paths" hidden="false" id="9899-46b0-42d2-340a" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="6579-fce3-6878-7e6b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="6579-fce3-6878-7e6b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="717f-2cb4-d243-2956" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="dea1-6027-dcbf-2526" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -2113,7 +2113,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
         <cost name="pts" typeId="points" value="100"/>
       </costs>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: Nighthaunt" hidden="false" id="619f-b41c-341a-dbff" type="selectionEntry" targetId="53c5-1078-24f5-3301">
+    <entryLink import="true" name="Rasgos de batalla: Noctánimas" hidden="false" id="619f-b41c-341a-dbff" type="selectionEntry" targetId="53c5-1078-24f5-3301">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5890-70f3-7343-413c" includeChildSelections="true"/>
       </constraints>
@@ -2300,7 +2300,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="c1d7-67cf-f421-7cd0" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="19c2-36c2-fc32-a758" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
         <entryLink import="true" name="Paths" hidden="false" id="22e5-aeb0-f639-46a4" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="11e6-a4d7-b4ae-f3e5" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="11e6-a4d7-b4ae-f3e5" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="82f6-c8e1-9dd2-7deb" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="0714-5b8b-80e0-6d57" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -2364,7 +2364,7 @@ Con un 3+, esta unidad puede moverse una distancia de hasta su característica d
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="311a-c522-53a3-9afb" type="selectionEntryGroup" targetId="f997-403-7b2e-60c6"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="9e43-2443-3ad4-be55" type="selectionEntryGroup" targetId="1cb4-1572-5a03-ef40"/>
         <entryLink import="true" name="Paths" hidden="false" id="3674-4a8f-0600-05df" type="selectionEntryGroup" targetId="b01c-51e0-7c8b-0df5"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="9253-d202-aa2c-9ae8" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="9253-d202-aa2c-9ae8" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="fa91-5169-1889-9d49" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="b386-9886-0271-576b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>

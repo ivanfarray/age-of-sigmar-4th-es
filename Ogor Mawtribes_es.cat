@@ -25,7 +25,7 @@
                 <profile name="Un corte selecto" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7aab-3be9-e869-af49">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">• Esta unidad no puede usar habilidades de **^^Run^^**.
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">• Esta unidad no puede usar habilidades de **^^Correr^^**.
 • Ignora el primer punto de daño que se asignaría a cada unidad amiga **^^Ogor Infantry^^** en cada fase mientras estén totalmente a 12" o menos de esta unidad y sean visibles para ella.</characteristic>
                   </characteristics>
                   <attributes>
@@ -44,7 +44,7 @@
                 <profile name="Rallador oxidado" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d002-15f5-a3e3-2289">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use la habilidad &apos;Eruption of Fury&apos;, después de resolver esa habilidad, **Heal (D3)** esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use la habilidad &apos;Erupción de furia&apos;, después de resolver esa habilidad, **Heal (D3)** esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Purple</attribute>
@@ -92,7 +92,7 @@
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Enhancement Restrictions" id="88e9-4121-af45-31d4" hidden="true">
+            <rule name="Restricciones de mejoras" id="88e9-4121-af45-31d4" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -107,9 +107,9 @@
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de los siguientes trofeos. Durante el resto de la batalla, las armas de cuerpo a cuerpo usadas por otras unidades amigas **^^Ogor Mawtribes^^** tienen la habilidad de arma correspondiente mientras estén totalmente a 6" o menos de esta unidad y sean visibles para ella:
 
-• ***Squeezed Head***: **^^Anti-Monster (+1 Rend)^^**
-• ***Smashed City Rubble***: **^^Anti-War Machine (+1 Rend)^^**
-• ***Torn Appendages***: **^^Anti-Cavalry (+1 Rend)^^**</characteristic>
+• ***Cabeza estrujada***: **^^Anti-Monster (+1 Rend)^^**
+• ***Escombros de ciudad arrasada***: **^^Anti-War Machine (+1 Rend)^^**
+• ***Apéndices arrancados***: **^^Anti-Cavalry (+1 Rend)^^**</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -165,7 +165,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="42f6-8509-d409-fb5f" hidden="true">
+            <rule name="Restricciones de mejoras" id="42f6-8509-d409-fb5f" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -189,7 +189,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Battle Formations: Ogor Mawtribes" id="3b1e-9d81-77cb-328d" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Hunger-Filled Tribe" hidden="false" id="3cad-0dd7-2887-3d79" publicationId="1ac6-e227-a186-12">
+        <selectionEntry type="upgrade" import="true" name="Tribu Hambrienta" hidden="false" id="3cad-0dd7-2887-3d79" publicationId="1ac6-e227-a186-12">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b9e-2335-b828-113e"/>
           </constraints>
@@ -197,7 +197,7 @@
             <profile name="Festín de derramamiento de sangre" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="3c5d-5de4-0320-8913">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Por cada unidad enemiga destruida este turno, elige como objetivo una unidad amiga **^^Ogor Mawtribes^^** que no esté en combate y no haya usado la orden &apos;Power Through&apos; este turno.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Por cada unidad enemiga destruida este turno, elige como objetivo una unidad amiga **^^Ogor Mawtribes^^** que no esté en combate y no haya usado la orden &apos;Arrollar&apos; este turno.</characteristic>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada objetivo puede moverse hasta 3". Puede moverse a través de los alcances de combate de unidades enemigas y puede terminar ese movimiento en combate.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Movimiento^^**</characteristic>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -210,7 +210,7 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Vanguard of the Mawpath" hidden="false" id="e71d-2ecb-2f7b-9978" publicationId="1ac6-e227-a186-12">
+        <selectionEntry type="upgrade" import="true" name="Vanguardia del Sendero de las Fauces" hidden="false" id="e71d-2ecb-2f7b-9978" publicationId="1ac6-e227-a186-12">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe39-933c-38f5-4dd9"/>
           </constraints>
@@ -231,7 +231,7 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Hinterland Hunters" hidden="false" id="3b05-60c4-9f6f-dea7" publicationId="1ac6-e227-a186-12">
+        <selectionEntry type="upgrade" import="true" name="Cazadores de las Tierras Interiores" hidden="false" id="3b05-60c4-9f6f-dea7" publicationId="1ac6-e227-a186-12">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b37-7089-5e45-6288"/>
           </constraints>
@@ -249,7 +249,7 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Maw-Cult Fanatics" hidden="false" id="ae26-07a1-9b69-4549" publicationId="1ac6-e227-a186-12">
+        <selectionEntry type="upgrade" import="true" name="Fanáticos del Culto de las Fauces" hidden="false" id="ae26-07a1-9b69-4549" publicationId="1ac6-e227-a186-12">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c70-3c27-c55a-1c0c"/>
           </constraints>
@@ -270,7 +270,7 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Mawpath Menaces" hidden="true" id="8e62-4d0b-5197-67bd" publicationId="f894-7929-f79a-a269">
+        <selectionEntry type="upgrade" import="true" name="Amenazas del Sendero de las Fauces" hidden="true" id="8e62-4d0b-5197-67bd" publicationId="f894-7929-f79a-a269">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1a1-b47f-440c-1859"/>
           </constraints>
@@ -321,7 +321,7 @@
             <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Greedy Eaters" hidden="true" id="318d-268c-fa78-ebeb" publicationId="f894-7929-f79a-a269">
+        <selectionEntry type="upgrade" import="true" name="Comedores Voraces" hidden="true" id="318d-268c-fa78-ebeb" publicationId="f894-7929-f79a-a269">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="563b-1b8b-5b58-e28b"/>
           </constraints>
@@ -406,7 +406,7 @@
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
                     <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora los modificadores negativos a:
 • La puntuación de control de esta unidad.
-• Las tiradas de impacto y de herida de los ataques de esta unidad que no sean **Companion**.
+• Las tiradas de impacto y de herida de los ataques de esta unidad que no sean **Compañero**.
 • Las tiradas de carga de esta unidad.
 • El número de dados que se tiran al hacer tiradas de carga para esta unidad.</characteristic>
                   </characteristics>
@@ -444,7 +444,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="dd0d-50f6-fec1-113b" hidden="true">
+            <rule name="Restricciones de mejoras" id="dd0d-50f6-fec1-113b" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -612,7 +612,7 @@ Durante el resto de la batalla, cada vez que los ataques de combate de esta unid
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Enhancement Restrictions" id="d21c-5963-4233-490e" hidden="true">
+            <rule name="Restricciones de mejoras" id="d21c-5963-4233-490e" hidden="true">
               <description>Los Big Names son mejoras que solo pueden otorgarse a **^^Ogor Mawtribes Heroes^^**.</description>
             </rule>
           </rules>
@@ -769,7 +769,7 @@ Después, tira un dado. El objetivo puede moverse una distancia en pulgadas de h
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Enhancement Restrictions" id="cb09-5656-e1b4-8965" hidden="true">
+            <rule name="Restricciones de mejoras" id="cb09-5656-e1b4-8965" hidden="true">
               <description>solo **^^Ogor Mawtribes^^** **^^Monster^^**</description>
             </rule>
           </rules>
@@ -782,22 +782,22 @@ Después, tira un dado. El objetivo puede moverse una distancia en pulgadas de h
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Ogor Mawtribes" hidden="false" id="93f7-a632-9dda-5515">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Tribus Tragonas Ogor" hidden="false" id="93f7-a632-9dda-5515">
       <profiles>
         <profile name="Comérselos vivos" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9f51-0b9d-387e-f209" publicationId="1ac6-e227-a186-12">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Ogor^^** que este turno haya usado una habilidad de **^^Fight^^** que tuviera como objetivo una unidad, excluyendo **^^Faction Terrain^^**, para usar esta habilidad. Después, puedes elegir como objetivo una unidad enemiga en combate con ella. No se puede elegir la misma unidad enemiga como objetivo de esta habilidad más de una vez por turno.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Ogor^^** que este turno haya usado una habilidad de **^^Combatir^^** que tuviera como objetivo una unidad, excluyendo **^^Faction Terrain^^**, para usar esta habilidad. Después, puedes elegir como objetivo una unidad enemiga en combate con ella. No se puede elegir la misma unidad enemiga como objetivo de esta habilidad más de una vez por turno.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflige D3 de daño mortal al objetivo (si hay alguno). Después, elige 1 de los siguientes efectos para aplicarlo a esa unidad amiga **^^Ogor^^** durante el resto de la batalla. Si ya se le aplica alguno de estos efectos, puedes elegir un efecto distinto para sustituir el efecto actual.
 
-• ***Raw and Bloody Flesh***: Resta 1 a la característica de Rend de las armas usadas para los ataques que tengan como objetivo esa unidad.
-• ***Exotic Giblets***: Resta 1 a las tiradas de salvaguardia contra los puntos de daño infligidos por los ataques de combate de esa unidad hechos con armas que no sean **Companion**.
-• ***Steaming Brains***: Suma 2 a la característica de Control de esa unidad.
-• ***Crunchy Bones***: Las armas de cuerpo a cuerpo de esa unidad tienen **Crit (2 Hits)**. Si las armas de cuerpo a cuerpo de esa unidad ya tienen **Crit (2 Hits)**, en su lugar tienen **Crit (Mortal)**.
-• ***Slick Innards***: Esa unidad puede usar habilidades de **^^Charge^^** aunque haya usado una habilidad de **^^Run^^** en el mismo turno.
-• ***Mystery Meat***: Resta 1 al nivel de poder de las unidades enemigas mientras estén en combate con esa unidad, hasta un mínimo de 0.
+• ***Carne cruda y sanguinolenta***: Resta 1 a la característica de Rend de las armas usadas para los ataques que tengan como objetivo esa unidad.
+• ***Menudillos exóticos***: Resta 1 a las tiradas de salvaguardia contra los puntos de daño infligidos por los ataques de combate de esa unidad hechos con armas que no sean **Compañero**.
+• ***Sesos humeantes***: Suma 2 a la característica de Control de esa unidad.
+• ***Huesos crujientes***: Las armas de cuerpo a cuerpo de esa unidad tienen **Crítico (2 impactos)**. Si las armas de cuerpo a cuerpo de esa unidad ya tienen **Crítico (2 impactos)**, en su lugar tienen **Crítico (mortal)**.
+• ***Entrañas resbaladizas***: Esa unidad puede usar habilidades de **^^Cargar^^** aunque haya usado una habilidad de **^^Correr^^** en el mismo turno.
+• ***Carne misteriosa***: Resta 1 al nivel de poder de las unidades enemigas mientras estén en combate con esa unidad, hasta un mínimo de 0.
 
-***Nota del diseñador**: Solo se puede aplicar 1 de estos efectos a la misma unidad al mismo tiempo, a menos que se especifique lo contrario. Ten en cuenta también que **Steaming Brains** afecta a la característica de Control, no a la puntuación de control.*</characteristic>
+***Nota del diseñador**: Solo se puede aplicar 1 de estos efectos a la misma unidad al mismo tiempo, a menos que se especifique lo contrario. Ten en cuenta también que **Sesos humeantes** afecta a la característica de Control, no a la puntuación de control.*</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -875,7 +875,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="9774-2886-2ae4-7bb6" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4969-bbd4-245d-6860" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="4bc2-c442-7b55-c6e4" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="7c71-0202-e6dc-1fe6" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="7c71-0202-e6dc-1fe6" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="b51c-cb24-504c-c1ce" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="71d5-f783-4787-4c24" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="9c17-5779-58da-f114" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -938,7 +938,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="7b11-a387-b55c-4175" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="8c5a-c260-bb82-0d03" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="4fb1-56a6-590b-7483" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="d3b3-b8ad-9865-2eed" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="d3b3-b8ad-9865-2eed" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="df61-1533-7479-67a1" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="d0ed-27fb-ef68-54fd" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="056c-6bac-1c4e-62b0" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -1005,7 +1005,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="f275-c4f-222c-f5f5" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="0a1e-4d28-ff67-1cb9" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="fd4c-cc93-c9d2-2d5a" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="b03e-c778-7dbd-b063" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="b03e-c778-7dbd-b063" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="a410-81ed-39d2-48a1" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="772e-f601-3422-4c0c" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="2aad-78d5-8461-211c" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -1054,7 +1054,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="2313-535-2ac2-2d72" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="8ac8-fbf2-7901-d2d3" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="9562-a95a-399e-c0f2" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="b2a7-5659-437f-3a78" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="b2a7-5659-437f-3a78" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="88f7-5de3-e737-cecd" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="33d1-6aa0-28db-ce1d" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="3997-a7ea-26cb-3102" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -1104,7 +1104,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="4fef-b82c-ccaf-14e2" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b82c-c2e0-9244-a648" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="611f-5251-a57d-85cd" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="83ee-faa8-d08c-c20c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="83ee-faa8-d08c-c20c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="ceb9-694a-32d6-9b07" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="b562-8557-4f28-afb8" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="5983-3070-8455-77fa" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -1154,7 +1154,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="52e6-0d80-81b6-ec4a" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="382f-f32a-fe54-60b8" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="465c-15a7-5c96-0a73" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="6936-c9bc-9085-e861" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="6936-c9bc-9085-e861" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="5c95-d20b-4126-d08f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="684a-4810-50c0-f99d" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="ec80-2a25-a317-4d1f" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -1204,7 +1204,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="b777-c640-d224-9d1c" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="31c8-d244-c882-df6c" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="d0a2-e2f9-187a-f3bc" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="1643-b0b0-3b45-a61d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="1643-b0b0-3b45-a61d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="7492-6d71-769a-b9fe" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="9a7c-5871-adfe-2e47" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="1cf1-6404-c326-fc3a" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -1255,7 +1255,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="a283-de9d-43-388d" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="e557-48f1-dfa8-ba16" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="f472-c8cf-6942-c02a" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="65ce-7459-5d7d-5bd1" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="65ce-7459-5d7d-5bd1" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="b303-1fd4-8e45-cb9c" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="a953-0ca9-26ae-70a6" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="c569-246f-8e74-933d" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -1306,7 +1306,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="b069-63e0-2740-8f95" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="59bb-c3c3-e780-e3cc" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="d701-4a3e-abf5-0384" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="02cb-b71d-d772-e319" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="02cb-b71d-d772-e319" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="1581-ec7a-24ea-459a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="3634-7825-a031-386e" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="eecf-adcf-cb95-f504" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -1392,7 +1392,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: Ogor Mawtribes" hidden="false" id="e8db-74b2-a23c-2a4a" type="selectionEntry" targetId="93f7-a632-9dda-5515">
+    <entryLink import="true" name="Rasgos de batalla: Tribus Tragonas Ogor" hidden="false" id="e8db-74b2-a23c-2a4a" type="selectionEntry" targetId="93f7-a632-9dda-5515">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7673-f154-69e-ab0" includeChildSelections="true"/>
       </constraints>
@@ -1681,7 +1681,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="d88e-40b1-d102-13a0" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="d88e-40b1-d102-13a0" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="b5e2-d232-687b-0a8f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
@@ -1762,7 +1762,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="d160-0035-973e-fe02" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="cc36-ceef-b178-8a56" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="8465-eca1-8c79-fbf0" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="6d0f-428c-d5bc-0c6c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="6d0f-428c-d5bc-0c6c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="26d4-b867-508a-dc23" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="09f7-ccbe-cc9c-348f" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="9db5-d8f7-adb0-824a" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -1972,7 +1972,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="82fe-b7da-a219-b5f3" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="63ce-60b4-9524-96f3" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="a25e-aef9-6df8-4b8d" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="a8f7-c175-5355-1c7c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="a8f7-c175-5355-1c7c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="f08e-f156-a27e-36c2" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="c631-494b-8f08-bf87" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="bcb9-1735-a50f-dc0b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -2112,7 +2112,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="383-93a2-3b71-907d" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="858f-28a2-0277-719c" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="1ab3-39c3-c3ee-ed0a" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="8152-c898-bbd8-817b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="8152-c898-bbd8-817b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="3780-3711-9b5d-28ed" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="e3c0-d143-6a09-89b9" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="f0d2-b9d3-0808-3309" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -2163,7 +2163,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="f821-aad0-3351-3db" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d88a-aa61-1515-af99" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="30f1-9899-379c-8d60" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="4db6-b5ac-aae3-c711" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="4db6-b5ac-aae3-c711" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="d5f2-02ad-86b2-cb82" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="75f9-065e-c1ac-32e5" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="fedf-35a5-e07d-02ec" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -2226,7 +2226,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="e4d5-bbc9-3139-10a4" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b73b-a620-b91a-4182" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="9052-cfdf-3f26-1720" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="f480-fc9f-2a3c-5912" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="f480-fc9f-2a3c-5912" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="9eb8-efc5-88a1-c725" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="0a7e-4f41-1aaa-1f84" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="ff58-fb3f-537d-c5a8" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -2447,7 +2447,7 @@ Después, la unidad que usa esta habilidad puede hacer un movimiento de aproxima
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="576c-7fa7-7b3d-1a3d" type="selectionEntryGroup" targetId="30c8-590c-42a7-3c48"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3aad-edc0-3204-265c" type="selectionEntryGroup" targetId="9b0d-58b7-8982-2128"/>
         <entryLink import="true" name="Paths" hidden="false" id="725a-a8ec-b887-0c82" type="selectionEntryGroup" targetId="517c-3059-2a24-89dc"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="91f9-f73b-b91d-c560" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="91f9-f73b-b91d-c560" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="9f74-1688-d421-d496" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Big Names" hidden="false" id="eaba-489e-cf73-fdec" type="selectionEntryGroup" targetId="c097-d461-7bb0-880c"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="ab9a-ed5c-5120-7918" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>

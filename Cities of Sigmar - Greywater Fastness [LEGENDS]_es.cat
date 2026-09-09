@@ -61,7 +61,7 @@
                 <profile name="El aprieto" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="464a-a330-2d47-8407">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas de cuerpo a cuerpo usadas para los ataques de combate hechos por esta unidad que tengan como objetivo una unidad enemiga **pinned** tienen **Crit (2 Hits)**.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas de cuerpo a cuerpo usadas para los ataques de combate hechos por esta unidad que tengan como objetivo una unidad enemiga **pinned** tienen **Crítico (2 impactos)**.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -76,7 +76,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="1cb2-24f9-cec4-7bcf" hidden="true">
+            <rule name="Restricciones de mejoras" id="1cb2-24f9-cec4-7bcf" hidden="true">
               <description>solo **^^Hero^^**, excluyendo **Fortaleza mecánica cañonera** y **Fortaleza mecánica conquistadora**</description>
             </rule>
           </rules>
@@ -137,7 +137,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="a22c-6f8e-e76b-89dd" hidden="true">
+            <rule name="Restricciones de mejoras" id="a22c-6f8e-e76b-89dd" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -171,7 +171,7 @@
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="582f-3a58-4f0f-3238"/>
       </constraints>
       <rules>
-        <rule name="Enhancement Restrictions" id="c68c-0a3d-188a-8705" hidden="true">
+        <rule name="Restricciones de mejoras" id="c68c-0a3d-188a-8705" hidden="true">
           <description>solo **^^Hero^^**, excluyendo **Fortaleza mecánica cañonera** y **Fortaleza mecánica conquistadora**</description>
         </rule>
       </rules>
@@ -186,7 +186,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de disparo</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está **bajo órdenes**, durante el resto de la fase, las armas a distancia de esta unidad tienen **Shoot in Combat**.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está **bajo órdenes**, durante el resto de la fase, las armas a distancia de esta unidad tienen **Disparar in Combat**.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -272,7 +272,7 @@
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Hasta el inicio de tu siguiente turno:
 • Resta 1 a la característica de Rend de las armas usadas para los ataques hechos por unidades enemigas **pinned** que tengan como objetivo esta unidad.
-• Esta unidad no puede usar habilidades de **^^Charge^^** a menos que esté **bajo órdenes**.</characteristic>
+• Esta unidad no puede usar habilidades de **^^Cargar^^** a menos que esté **bajo órdenes**.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -310,7 +310,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="0ae8-14ff-955a-ac5d" hidden="true">
+            <rule name="Restricciones de mejoras" id="0ae8-14ff-955a-ac5d" hidden="true">
               <description>Un Firing Drill es una mejora única que puede otorgarse a unidades que no sean **^^Hero Greywater Fastness^^**. Una unidad solo puede tener 1 **Firing Drill**.</description>
             </rule>
           </rules>
@@ -360,10 +360,10 @@
         <profile name="Bombardeo sostenido" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="af85-3beb-e866-6635">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no está en combate y no ha usado una habilidad de **^^Run^^** o **^^Retreat^^** este turno, elige un elemento de escenografía visible a 25" o menos de esta unidad para que sea **bombardeado**, después elige como objetivos todas las unidades enemigas a 6" o menos de ese elemento de escenografía.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no está en combate y no ha usado una habilidad de **^^Correr^^** o **^^Retirarse^^** este turno, elige un elemento de escenografía visible a 25" o menos de esta unidad para que sea **bombardeado**, después elige como objetivos todas las unidades enemigas a 6" o menos de ese elemento de escenografía.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Haz una tirada de bombardeo de D6 por cada objetivo. Con un 4+, elige 1 de los siguientes efectos para aplicarlo a ese objetivo.
 • Si el objetivo no es **pinned**, queda **pinned** hasta el inicio de tu siguiente turno. Después, inflígele D3 de daño mortal.
-• Si el objetivo es **pinned**, no puede usar habilidades de **^^Run^^** mientras sea **pinned**. Después, inflígele D3 de daño mortal.
+• Si el objetivo es **pinned**, no puede usar habilidades de **^^Correr^^** mientras sea **pinned**. Después, inflígele D3 de daño mortal.
 • Si el objetivo es **^^Faction Terrain^^**, inflígele D3+2 de daño mortal y las habilidades de su warscroll no tienen efecto hasta el inicio de tu siguiente turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Disparo^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -376,7 +376,7 @@
         </profile>
         <profile name="Baterías veteranas" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1725-aceb-bee7-c892">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: has declarado la habilidad &apos;Bombardeo sostenido&apos; para otra unidad amiga **Espíritu de las Manos** y esta unidad no ha usado una habilidad de **^^Shoot^^**, **^^Run^^** o **^^Retreat^^** este turno</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: has declarado la habilidad &apos;Bombardeo sostenido&apos; para otra unidad amiga **Espíritu de las Manos** y esta unidad no ha usado una habilidad de **^^Disparar^^**, **^^Correr^^** o **^^Retirarse^^** este turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 1 a las tiradas de bombardeo de esa unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -435,7 +435,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7f4-dcce-e4d2-6b82"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="7a5a-91ab-f359-eda4" hidden="true">
+            <rule name="Tamaño de peana" id="7a5a-91ab-f359-eda4" hidden="true">
               <description>90mm</description>
             </rule>
           </rules>
@@ -458,7 +458,7 @@
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está **bajo órdenes**, elige como objetivo una unidad enemiga a la que se le hayan asignado puntos de daño este turno por los ataques de disparo de esta unidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Hasta el inicio de tu siguiente turno:
 • Suma 2 a las tiradas de carga de esta unidad.
-• Cada vez que esta unidad use una habilidad de **^^Charge^^**, debe terminar el movimiento de carga en combate con el objetivo.</characteristic>
+• Cada vez que esta unidad use una habilidad de **^^Cargar^^**, debe terminar el movimiento de carga en combate con el objetivo.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -470,7 +470,7 @@
         </profile>
         <profile name="Escudero Capagris" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4748-0cad-e78d-3155">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: esta unidad ha usado la orden &apos;Redeploy&apos;, &apos;All-out Attack&apos;, &apos;Covering Fire&apos; o &apos;All-out Defence&apos;</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: esta unidad ha usado la orden &apos;Redesplegar&apos;, &apos;Ataque total&apos;, &apos;Fuego de cobertura&apos; o &apos;Defensa total&apos;</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">El **Escudero Capagris** de esta unidad es una ficha. Retira el **Escudero Capagris** de esta unidad del campo de batalla. Elige otra unidad amiga visible **Fusileros de gorras grises** que esté totalmente a 12" o menos de esta unidad y que no haya usado una orden esta fase para usar la misma orden inmediatamente después de que se resuelva la primera (esto es una excepción a Órdenes, 1.2). Debes seguir gastando puntos de orden con normalidad para usar la orden una segunda vez.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -574,14 +574,14 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="04f6-a3d7-cb6f-b430" hidden="true">
+            <rule name="Tamaño de peana" id="04f6-a3d7-cb6f-b430" hidden="true">
               <description>28.5mm</description>
             </rule>
           </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Greywater Fastness" hidden="false" id="0cc8-3721-8ddd-f1b0" publicationId="dadd-06f0-3f38-c6f3">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Fortaleza de Aguas Grises" hidden="false" id="0cc8-3721-8ddd-f1b0" publicationId="dadd-06f0-3f38-c6f3">
       <profiles>
         <profile name="Soldados de la fortaleza" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b3d9-3a95-8f98-07d5">
           <characteristics>
@@ -643,7 +643,7 @@
         <entryLink import="true" name="Heroic Traits" hidden="false" id="e3e4-d02a-b1c3-be74" type="selectionEntryGroup" targetId="512e-2e1a-e9e2-a11c"/>
         <entryLink import="true" name="Paths" hidden="false" id="a7c9-79ba-fc64-8e3e" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3efd-85ec-8ce7-e261" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="6484-8dfc-9013-e473" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="6484-8dfc-9013-e473" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="201e-ff56-fc08-abab" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="273b-912a-4bdb-3793" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -705,7 +705,7 @@
         <cost name="pts" typeId="points" value="160"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="012d-e0b3-9f30-3746" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="012d-e0b3-9f30-3746" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="0274-b38b-96cd-e627" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="bc80-2bce-f5b3-4637" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="949a-d530-38c3-1912" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
@@ -835,7 +835,7 @@
         <cost name="pts" typeId="points" value="530"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="6c65-6fda-16f5-ac21" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="6c65-6fda-16f5-ac21" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="45b4-d8b4-20b7-02b8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="ec0c-9f52-5592-9660" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d4bc-4224-ca63-a851" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
@@ -886,7 +886,7 @@
         <cost name="pts" typeId="points" value="440"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="9d7c-eec0-63e5-48c8" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="9d7c-eec0-63e5-48c8" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="dd79-877a-b771-7798" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="6d0f-209c-31f5-3b9b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ce45-2238-33bc-54c2" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
@@ -1010,7 +1010,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: Greywater Fastness" hidden="false" id="b8b2-5797-c979-1ae8" type="selectionEntry" targetId="0cc8-3721-8ddd-f1b0">
+    <entryLink import="true" name="Rasgos de batalla: Fortaleza de Aguas Grises" hidden="false" id="b8b2-5797-c979-1ae8" type="selectionEntry" targetId="0cc8-3721-8ddd-f1b0">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fd6f-64bb-0520-e0b6" includeChildSelections="true"/>
       </constraints>

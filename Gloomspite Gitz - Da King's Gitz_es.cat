@@ -11,7 +11,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de las armas de combate cuerpo a cuerpo de esta unidad que no sea **Companion**. Suma 1 a la característica de Attacks de esa arma durante el resto de la batalla. Además, cada vez que esta unidad use una habilidad **^^Retreat^^**, suma 1 a la característica de Attacks de esa arma durante el resto de la batalla. Esta unidad puede verse afectada por esta habilidad varias veces y los efectos son acumulativos.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de las armas de combate cuerpo a cuerpo de esta unidad que no sea **Compañero**. Suma 1 a la característica de Attacks de esa arma durante el resto de la batalla. Además, cada vez que esta unidad use una habilidad **^^Retirarse^^**, suma 1 a la característica de Attacks de esa arma durante el resto de la batalla. Esta unidad puede verse afectada por esta habilidad varias veces y los efectos son acumulativos.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -67,7 +67,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="b802-4132-7771-a376" hidden="true">
+            <rule name="Restricciones de mejoras" id="b802-4132-7771-a376" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -170,7 +170,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="ff9f-876b-9a27-c4d9" hidden="true">
+            <rule name="Restricciones de mejoras" id="ff9f-876b-9a27-c4d9" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -240,7 +240,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: The King&apos;s Gitz" hidden="false" id="dd5f-b1f5-f617-f490" publicationId="a395-7bc4-71eb-46df">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Los Tipejoz del Rey" hidden="false" id="dd5f-b1f5-f617-f490" publicationId="a395-7bc4-71eb-46df">
       <profiles>
         <profile name="Los guardias del rey" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6fcf-df02-242f-a456">
           <characteristics>
@@ -272,7 +272,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige hasta D3 **^^Heroes^^** amigas que no sean **^^Unique King&apos;s Gitz Heroes^^** y que no tengan una mejora.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Da a cada **^^Hero^^** 1 mejora de las reglas del Ejército de Renombre &apos;Da King&apos;s Gitz&apos;.
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Da a cada **^^Hero^^** 1 mejora de las reglas del Ejército de Renombre &apos;Los Tipejoz del Rey&apos;.
 **Nota del diseñador:** *Estas mejoras se entregan a las* **^^Heroes^^** *durante la fase de despliegue, no durante la composición del ejército.*</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -394,7 +394,7 @@
   </selectionEntries>
   <entryLinks>
     <entryLink import="true" name="Santuario lunático de la Mala Luna" hidden="false" id="c472-a2ba-3f6b-9277" type="selectionEntry" targetId="d5f4-405d-70b2-2701"/>
-    <entryLink import="true" name="Battle Traits: The King&apos;s Gitz" hidden="false" id="3da3-302a-7de5-8d26" type="selectionEntry" targetId="dd5f-b1f5-f617-f490">
+    <entryLink import="true" name="Rasgos de batalla: Los Tipejoz del Rey" hidden="false" id="3da3-302a-7de5-8d26" type="selectionEntry" targetId="dd5f-b1f5-f617-f490">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a902-53de-806f-1d3b" includeChildSelections="true"/>
       </constraints>
@@ -597,7 +597,7 @@
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="8082-a667-2b9d-0ae7" type="selectionEntryGroup" targetId="1b6c-9b2f-e018-63bd"/>
         <entryLink import="true" name="Paths" hidden="false" id="c4fc-004a-1769-bbb3" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ad40-cd35-1ed1-a48e" type="selectionEntryGroup" targetId="9ab2-33c4-b192-dc41"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="d39d-111e-d0a4-1c6e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="d39d-111e-d0a4-1c6e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="b8b3-fab6-51b9-8aef" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="378d-37d1-d833-7fe2" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -709,7 +709,7 @@
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="8ea4-09a4-8c43-db81" type="selectionEntryGroup" targetId="1b6c-9b2f-e018-63bd"/>
         <entryLink import="true" name="Paths" hidden="false" id="8c74-d8eb-b26f-d06f" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="5908-de22-b56f-38ba" type="selectionEntryGroup" targetId="9ab2-33c4-b192-dc41"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="8931-569b-5a50-dc57" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="8931-569b-5a50-dc57" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="6342-ee4b-49e9-9cb2" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="68c7-f82b-1993-ae48" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -775,7 +775,7 @@
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="2dc6-c9fd-89bc-f104" type="selectionEntryGroup" targetId="1b6c-9b2f-e018-63bd"/>
         <entryLink import="true" name="Paths" hidden="false" id="680d-0070-3977-a990" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="58fb-f903-eb47-b12c" type="selectionEntryGroup" targetId="9ab2-33c4-b192-dc41"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="65e1-fd1e-fad8-f7e3" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="65e1-fd1e-fad8-f7e3" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="a055-9370-3262-440b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="7dde-0e2e-c9fc-30c2" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -842,7 +842,7 @@
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="b42c-578c-2614-7029" type="selectionEntryGroup" targetId="1b6c-9b2f-e018-63bd"/>
         <entryLink import="true" name="Paths" hidden="false" id="c23d-9546-e37b-63d6" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b538-d8f3-b4be-1c1f" type="selectionEntryGroup" targetId="9ab2-33c4-b192-dc41"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="5f86-5498-2992-ede5" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="5f86-5498-2992-ede5" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="6a3e-a059-7582-bcd1" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="29aa-c9cd-cbfb-bdbd" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -894,7 +894,7 @@
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="4cc6-292f-b912-a9a1" type="selectionEntryGroup" targetId="1b6c-9b2f-e018-63bd"/>
         <entryLink import="true" name="Paths" hidden="false" id="19b8-9ef7-c8fc-3023" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4810-4528-7d3b-4ace" type="selectionEntryGroup" targetId="9ab2-33c4-b192-dc41"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="1232-727d-f56f-55f0" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="1232-727d-f56f-55f0" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="ef54-0181-b066-3104" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="f69e-a574-c055-c30e" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1032,7 +1032,7 @@
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="e36d-7846-97ee-9d1d" type="selectionEntryGroup" targetId="1b6c-9b2f-e018-63bd"/>
         <entryLink import="true" name="Paths" hidden="false" id="476c-7de3-9905-66e8" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="2e77-b7c7-19d2-0ff1" type="selectionEntryGroup" targetId="9ab2-33c4-b192-dc41"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="d275-5845-355b-a92f" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="d275-5845-355b-a92f" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="fb81-78be-3fa9-3f34" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="b08a-d390-da52-ab60" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1195,7 +1195,7 @@
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="0b3e-b8a0-dcba-7939" type="selectionEntryGroup" targetId="1b6c-9b2f-e018-63bd"/>
         <entryLink import="true" name="Paths" hidden="false" id="079b-311c-9adb-da88" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4b2c-ef63-3ef5-6180" type="selectionEntryGroup" targetId="9ab2-33c4-b192-dc41"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="861f-599c-282b-b116" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="861f-599c-282b-b116" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="5fc1-b4ce-5dff-93e1" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="9a1e-7590-5d25-9d0a" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1459,7 +1459,7 @@
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="93ec-ddeb-e7c7-2e7d" type="selectionEntryGroup" targetId="1b6c-9b2f-e018-63bd"/>
         <entryLink import="true" name="Paths" hidden="false" id="c46b-f25c-f79b-4905" type="selectionEntryGroup" targetId="095d-d1e1-63b1-6f8c"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4831-f56b-d241-1f72" type="selectionEntryGroup" targetId="9ab2-33c4-b192-dc41"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="7370-17b3-f2a7-bb2c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="7370-17b3-f2a7-bb2c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="5c09-d5d8-629d-96ba" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="aeae-9075-8fec-20c7" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1655,7 +1655,7 @@
     </entryLink>
     <entryLink import="true" name="Yunque de la apoteosis: héroe grot" hidden="false" id="7c28-71b7-f66b-e70e" type="selectionEntry" targetId="3ffe-7c86-f14a-985e">
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="e8be-c72a-49c0-e892" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="e8be-c72a-49c0-e892" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="9b8b-d0f1-3bc2-f3ab" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="4415-cd43-bf1d-698d" type="selectionEntryGroup" targetId="1b6c-9b2f-e018-63bd"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c291-a712-0054-6bdb" type="selectionEntryGroup" targetId="9ab2-33c4-b192-dc41"/>

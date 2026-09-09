@@ -18,7 +18,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Wizard^^** enemigo a 24" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, hasta el inicio de tu siguiente turno, cada vez que el objetivo use una habilidad de **^^Hechizo^^** o **^^Unbind^^**, esta unidad gana 1 punto de ritual.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, hasta el inicio de tu siguiente turno, cada vez que el objetivo use una habilidad de **^^Hechizo^^** o **^^Desvincular^^**, esta unidad gana 1 punto de ritual.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -66,7 +66,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e220-c0d3-e81a-7b03"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="5632-52a2-11a3-346c" hidden="true">
+            <rule name="Tamaño de peana" id="5632-52a2-11a3-346c" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -112,7 +112,7 @@
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno:
 • La característica de Attacks de las *Rayos verdes mortíferos* de esta unidad es 12 en lugar de D6.
-• Por cada tirada de impacto sin modificar de 1 en un ataque de disparo realizado por esta unidad, inflige D3 de daño mortal a esta unidad después de que se haya resuelto la habilidad de **^^Shoot^^**.</characteristic>
+• Por cada tirada de impacto sin modificar de 1 en un ataque de disparo realizado por esta unidad, inflige D3 de daño mortal a esta unidad después de que se haya resuelto la habilidad de **^^Disparar^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -179,7 +179,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efe6-ec29-f398-941d"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="a24b-d19c-ebb2-78f3" hidden="true">
+            <rule name="Tamaño de peana" id="a24b-d19c-ebb2-78f3" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -208,9 +208,9 @@
         </profile>
         <profile name="Una buena pelea de las de antes" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4ff9-af6c-9190-e17d">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad de **^^Fight^^** para esta unidad</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad de **^^Combatir^^** para esta unidad</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga que no sea **^^Hero Bonesplitterz Infantry^^**, que no haya usado una habilidad de **^^Fight^^** este turno y que esté dentro del alcance de combate de esta unidad. El objetivo puede ser elegido para usar una habilidad de **^^Fight^^** inmediatamente después de que se haya resuelto la habilidad de **^^Fight^^** usada por esta unidad. Si es elegido para hacerlo, suma 1 a la característica de Attacks de las armas de combate cuerpo a cuerpo del objetivo durante el resto del turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga que no sea **^^Hero Bonesplitterz Infantry^^**, que no haya usado una habilidad de **^^Combatir^^** este turno y que esté dentro del alcance de combate de esta unidad. El objetivo puede ser elegido para usar una habilidad de **^^Combatir^^** inmediatamente después de que se haya resuelto la habilidad de **^^Combatir^^** usada por esta unidad. Si es elegido para hacerlo, suma 1 a la característica de Attacks de las armas de combate cuerpo a cuerpo del objetivo durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -257,7 +257,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6248-5725-387b-ab85"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="6ebf-ad16-095d-3bfa" hidden="true">
+            <rule name="Tamaño de peana" id="6ebf-ad16-095d-3bfa" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -288,7 +288,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Bonesplitterz Cavalry^^** dentro del alcance de combate de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, suma 1 a las tiradas de herida de los ataques de combate del objetivo durante el resto del turno. Esta habilidad también afecta a las armas **Companion**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, suma 1 a las tiradas de herida de los ataques de combate del objetivo durante el resto del turno. Esta habilidad también afecta a las armas **Compañero**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -354,7 +354,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dae6-e797-5087-109f"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="b6a0-27c0-8fcb-5b06" hidden="true">
+            <rule name="Tamaño de peana" id="b6a0-27c0-8fcb-5b06" hidden="true">
               <description>60x35mm</description>
             </rule>
           </rules>
@@ -380,7 +380,7 @@
         </profile>
         <profile name="Desatados" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f9de-5925-2035-a5f5">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: Has declarado una habilidad de **^^Charge^^** para esta unidad</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: Has declarado una habilidad de **^^Cargar^^** para esta unidad</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Añade 5 a la puntuación de control de esta unidad durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -505,7 +505,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="fcb4-ae92-3b70-89af" hidden="true">
+            <rule name="Tamaño de peana" id="fcb4-ae92-3b70-89af" hidden="true">
               <description>60x35mm</description>
             </rule>
           </rules>
@@ -533,7 +533,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por ronda de batalla (ejército), cualquier fase de disparo</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si todos los ataques realizados con las **Stinga Bows** de esta unidad este turno tuvieron como objetivo a la misma unidad enemiga, elige esa unidad enemiga como objetivo.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Suma 1 al resultado si el objetivo es una unidad **^^Bestia^^** o **^^Cavalry^^**, o suma 2 al resultado si el objetivo es un **^^Monster^^**. Con un 4+, resta 1 a la característica de Attacks de las armas **Companion** del objetivo durante el resto del turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Suma 1 al resultado si el objetivo es una unidad **^^Bestia^^** o **^^Cavalry^^**, o suma 2 al resultado si el objetivo es un **^^Monster^^**. Con un 4+, resta 1 a la característica de Attacks de las armas **Compañero** del objetivo durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -657,7 +657,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="7f09-b885-7722-082d" hidden="true">
+            <rule name="Tamaño de peana" id="7f09-b885-7722-082d" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -684,7 +684,7 @@
         <profile name="El último lanzamiento" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7570-b81c-649e-2d36">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad no esté en combate, cada vez que una miniatura de esta unidad sea abatida por un ataque de disparo y esa miniatura estuviera a 12" o menos de la unidad atacante, tira un dado. Suma 2 al resultado si la unidad atacante era un **^^Monster^^**. Con un 4+, inflige D6 de daño mortal a la unidad atacante después de que se haya resuelto la habilidad de **^^Shoot^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad no esté en combate, cada vez que una miniatura de esta unidad sea abatida por un ataque de disparo y esa miniatura estuviera a 12" o menos de la unidad atacante, tira un dado. Suma 2 al resultado si la unidad atacante era un **^^Monster^^**. Con un 4+, inflige D6 de daño mortal a la unidad atacante después de que se haya resuelto la habilidad de **^^Disparar^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Blue</attribute>
@@ -743,7 +743,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="9b0a-42f4-5f64-918c" hidden="true">
+            <rule name="Tamaño de peana" id="9b0a-42f4-5f64-918c" hidden="true">
               <description>60x35mm</description>
             </rule>
           </rules>
@@ -873,7 +873,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="0d9a-7d73-8f37-a14f" hidden="true">
+            <rule name="Tamaño de peana" id="0d9a-7d73-8f37-a14f" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -1003,7 +1003,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="d04e-f1ad-a8a7-36f5" hidden="true">
+            <rule name="Tamaño de peana" id="d04e-f1ad-a8a7-36f5" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -1030,7 +1030,7 @@
         <profile name="Entusiasmo salvaje" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="4016-df64-0ebe-16e4">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar la orden &apos;Power Through&apos; incluso si no ha cargado este turno. Además, al elegir un objetivo para esa orden, el objetivo no necesita tener una característica de Health menor que la de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar la orden &apos;Arrollar&apos; incluso si no ha cargado este turno. Además, al elegir un objetivo para esa orden, el objetivo no necesita tener una característica de Health menor que la de esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Purple</attribute>
@@ -1151,7 +1151,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="7e7b-b56c-5bec-e26a" hidden="true">
+            <rule name="Tamaño de peana" id="7e7b-b56c-5bec-e26a" hidden="true">
               <description>60x35mm</description>
             </rule>
           </rules>
@@ -1252,7 +1252,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="8e64-1680-4a5b-75ea" hidden="true">
+            <rule name="Tamaño de peana" id="8e64-1680-4a5b-75ea" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -1282,7 +1282,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="d0b9-6612-34e5-01a2" hidden="true">
+            <rule name="Tamaño de peana" id="d0b9-6612-34e5-01a2" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -1312,7 +1312,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="5870-263a-2a17-9fd9" hidden="true">
+            <rule name="Tamaño de peana" id="5870-263a-2a17-9fd9" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -1342,7 +1342,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="415d-51d6-23cc-0bcd" hidden="true">
+            <rule name="Tamaño de peana" id="415d-51d6-23cc-0bcd" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -1515,7 +1515,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c822-0a85-dc77-318c"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="06d6-b62f-e23c-215c" hidden="true">
+            <rule name="Tamaño de peana" id="06d6-b62f-e23c-215c" hidden="true">
               <description>130mm</description>
             </rule>
           </rules>

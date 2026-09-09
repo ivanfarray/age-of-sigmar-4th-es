@@ -28,7 +28,7 @@
                 <profile name="Domadores del Tormento de Haradh" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="6769-8e64-39cf-5bf9">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Damage de las armas **Companion** de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Damage de las armas **Compañero** de esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -110,7 +110,7 @@
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="db0b-655a-358d-aa69"/>
       </constraints>
       <rules>
-        <rule name="Enhancement Restrictions" id="fcaf-a8c3-dd6c-f3c1" hidden="true">
+        <rule name="Restricciones de mejoras" id="fcaf-a8c3-dd6c-f3c1" hidden="true">
           <description>Puedes incluir hasta 3 mejoras de First Circle Title en tu ejército. Los First Circle Titles solo pueden otorgarse a unidades **Guardia Varán**. La misma unidad no puede tener más de 1 First Circle Title.</description>
         </rule>
       </rules>
@@ -167,17 +167,17 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: The Swords of Chaos" hidden="false" id="558c-1f27-9f35-4213">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Las Espadas del Caos" hidden="false" id="558c-1f27-9f35-4213">
       <profiles>
         <profile name="Exigencias de los Dioses Oscuros" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="ec34-a892-caf7-cdcf">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), inicio de la ronda de batalla</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de los siguientes efectos:
-***Demand of Khorne:*** Durante el resto de la ronda de batalla, suma 1 a la característica de Rend de las armas de cuerpo a cuerpo usadas por unidades amigas **^^Swords of Chaos^^**.
-***Demand of Tzeentch:*** Elige 1 unidad enemiga visible a 9" o menos de una unidad amiga **^^Swords of Chaos^^** que no esté en combate y tira un D6. Con un 3+, inflige a esa unidad enemiga una cantidad de daño mortal igual al resultado.
-***Demand of Nurgle:*** **Heal (D3)** cada unidad amiga **^^Swords of Chaos^^**. Después, elige una unidad amiga **^^Swords of Chaos^^** que haya curado algún punto de daño este turno. Hasta el inicio de la siguiente ronda de batalla, esa unidad tiene **^^Ward (6+)^^**.
-***Demand of Slaanesh:*** Suma 2" a la característica de Move de las unidades amigas **^^Swords of Chaos^^** hasta el inicio de la siguiente ronda de batalla</characteristic>
+***Exigencia de Khorne:*** Durante el resto de la ronda de batalla, suma 1 a la característica de Rend de las armas de cuerpo a cuerpo usadas por unidades amigas **^^Swords of Chaos^^**.
+***Exigencia de Tzeentch:*** Elige 1 unidad enemiga visible a 9" o menos de una unidad amiga **^^Swords of Chaos^^** que no esté en combate y tira un D6. Con un 3+, inflige a esa unidad enemiga una cantidad de daño mortal igual al resultado.
+***Exigencia de Nurgle:*** **Heal (D3)** cada unidad amiga **^^Swords of Chaos^^**. Después, elige una unidad amiga **^^Swords of Chaos^^** que haya curado algún punto de daño este turno. Hasta el inicio de la siguiente ronda de batalla, esa unidad tiene **^^Ward (6+)^^**.
+***Exigencia de Slaanesh:*** Suma 2" a la característica de Move de las unidades amigas **^^Swords of Chaos^^** hasta el inicio de la siguiente ronda de batalla</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -225,7 +225,7 @@
     <categoryEntry name="SWORDS OF CHAOS" id="cfc-7031-d4b4-c4b6" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink import="true" name="Battle Traits: The Swords of Chaos" hidden="false" id="e158-1fd1-ac4a-d75" type="selectionEntry" targetId="558c-1f27-9f35-4213">
+    <entryLink import="true" name="Rasgos de batalla: Las Espadas del Caos" hidden="false" id="e158-1fd1-ac4a-d75" type="selectionEntry" targetId="558c-1f27-9f35-4213">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e09a-2d52-807c-96f6" includeChildSelections="true"/>
       </constraints>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="832c-fd6-a535-ffae" name="Ironjawz" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="45" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Ironjawz" hidden="false" id="d8ca-c367-a211-97b3">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Mandíbulas de Hierro" hidden="false" id="d8ca-c367-a211-97b3">
       <profiles>
         <profile name="¡Waaagh! de los Mandíbulas de Hierro" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="618e-f241-f5d4-a04b">
           <characteristics>
@@ -65,7 +65,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, resta D3 a la característica de Attacks de las armas **Companion** del objetivo mientras esté en combate con esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, resta D3 a la característica de Attacks de las armas **Compañero** del objetivo mientras esté en combate con esta unidad.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -109,7 +109,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la habilidad &apos;¡Waaagh! de los Mandíbulas de Hierro&apos; y has elegido esta unidad como objetivo</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 1 a la característica de Attacks de las armas **Companion** usadas por unidades amigas **^^Ironjawz^^** mientras estén totalmente a 18" o menos de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 1 a la característica de Attacks de las armas **Compañero** usadas por unidades amigas **^^Ironjawz^^** mientras estén totalmente a 18" o menos de esta unidad.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -144,7 +144,7 @@
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Enhancement Restrictions" id="ee1c-97fc-3cfe-12ae" hidden="true">
+            <rule name="Restricciones de mejoras" id="ee1c-97fc-3cfe-12ae" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -210,7 +210,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="3cbc-145c-8814-4bc9" hidden="true">
+            <rule name="Restricciones de mejoras" id="3cbc-145c-8814-4bc9" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -234,7 +234,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Battle Formations: Ironjawz" id="a329-a5f1-b106-7917" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Weirdfist" hidden="false" id="c2f8-2ea8-7d8b-5670">
+        <selectionEntry type="upgrade" import="true" name="Puño Eztrambótiko" hidden="false" id="c2f8-2ea8-7d8b-5670">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dca6-d4ee-fd47-f6bd"/>
           </constraints>
@@ -252,7 +252,7 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Ironjawz Brawl" hidden="false" id="f065-c325-c819-c441">
+        <selectionEntry type="upgrade" import="true" name="Refriega de Mandíbulas de Hierro" hidden="false" id="f065-c325-c819-c441">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="44a4-4af3-d50c-aefb"/>
           </constraints>
@@ -270,7 +270,7 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Grunta Stampede" hidden="false" id="6c2d-5429-6255-9f2a">
+        <selectionEntry type="upgrade" import="true" name="Estampida de Gruntas" hidden="false" id="6c2d-5429-6255-9f2a">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bebe-1fe1-4c48-4c5f"/>
           </constraints>
@@ -288,7 +288,7 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Ironfist" hidden="false" id="5327-56c8-288a-e5c6">
+        <selectionEntry type="upgrade" import="true" name="Puño de Hierro" hidden="false" id="5327-56c8-288a-e5c6">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="65bb-1be0-cf9e-9cd1"/>
           </constraints>
@@ -296,7 +296,7 @@
             <profile name="Aplastar y aporrear" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f09a-2ca5-3a3c-3cc0">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La primera vez cada turno que una unidad enemiga sea destruida por una habilidad de **^^Fight^^** usada por una unidad amiga **^^Ironjawz^^**, suma 1 a las tiradas de impacto de los ataques de combate realizados por la siguiente unidad amiga **^^Ironjawz^^** que sea elegida para usar una habilidad de **^^Fight^^** durante el resto del turno.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La primera vez cada turno que una unidad enemiga sea destruida por una habilidad de **^^Combatir^^** usada por una unidad amiga **^^Ironjawz^^**, suma 1 a las tiradas de impacto de los ataques de combate realizados por la siguiente unidad amiga **^^Ironjawz^^** que sea elegida para usar una habilidad de **^^Combatir^^** durante el resto del turno.</characteristic>
               </characteristics>
               <attributes>
                 <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
@@ -306,7 +306,7 @@
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Brutefist" hidden="true" id="dffe-0ce5-0355-59ae" publicationId="f894-7929-f79a-a269">
+        <selectionEntry type="upgrade" import="true" name="Puño Brutal" hidden="true" id="dffe-0ce5-0355-59ae" publicationId="f894-7929-f79a-a269">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24a4-66b1-00be-7b48"/>
           </constraints>
@@ -340,7 +340,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Bigsnikkaz" hidden="true" id="82c0-4f14-0619-0bf1" publicationId="f894-7929-f79a-a269">
+        <selectionEntry type="upgrade" import="true" name="Grandes Rajadorez" hidden="true" id="82c0-4f14-0619-0bf1" publicationId="f894-7929-f79a-a269">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3501-1d98-2e9f-f8d6"/>
           </constraints>
@@ -425,7 +425,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
               <profiles>
                 <profile name="Ojo para la pelea" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1112-2947-e137-99f1">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redeploy&apos; para una unidad amiga **^^Ironjawz^^** totalmente a 12" o menos de esta unidad</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redesplegar&apos; para una unidad amiga **^^Ironjawz^^** totalmente a 12" o menos de esta unidad</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si sacas un 1-3 al determinar la distancia que esa unidad puede mover, puedes usar un valor de 4 en su lugar.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -444,7 +444,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="b8e8-8861-7d58-c51f" hidden="true">
+            <rule name="Restricciones de mejoras" id="b8e8-8861-7d58-c51f" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -553,7 +553,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
                 <profile name="El Grandote" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b4f3-ada5-ed55-061c">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Rend de las armas **Companion** de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Rend de las armas **Compañero** de esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -633,7 +633,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de héroe</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no ha sido colocada este turno, puede usar la habilidad &apos;Normal Move&apos; como si fuera tu fase de movimiento.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no ha sido colocada este turno, puede usar la habilidad &apos;Movimiento normal&apos; como si fuera tu fase de movimiento.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -682,7 +682,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Enhancement Restrictions" id="70ea-0a82-4774-dedc" hidden="true">
+            <rule name="Restricciones de mejoras" id="70ea-0a82-4774-dedc" hidden="true">
               <description>solo **^^Ironjawz Monster^^**</description>
             </rule>
           </rules>
@@ -695,7 +695,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de héroe</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no ha sido colocada este turno, puede usar la habilidad &apos;Normal Move&apos; como si fuera tu fase de movimiento</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no ha sido colocada este turno, puede usar la habilidad &apos;Movimiento normal&apos; como si fuera tu fase de movimiento</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -736,7 +736,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
                 <profile name="El Grandote" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="89b4-49e2-35ae-4812">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Rend de las armas **Companion** de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Rend de las armas **Compañero** de esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -763,7 +763,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Enhancement Restrictions" id="6231-38a3-8b93-5cb9" hidden="true">
+            <rule name="Restricciones de mejoras" id="6231-38a3-8b93-5cb9" hidden="true">
               <description>Los Monstrous Traits son mejoras que solo pueden otorgarse a **^^Monsters^^**.</description>
             </rule>
           </rules>
@@ -852,7 +852,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="a906-82d2-e5b6-7fda" type="selectionEntryGroup" targetId="4b1c-ea81-9dc1-de9f"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ece6-2722-be5e-7745" type="selectionEntryGroup" targetId="8979-6e56-a44b-dce1"/>
         <entryLink import="true" name="Paths" hidden="false" id="17e4-4283-4532-c297" type="selectionEntryGroup" targetId="9dbc-9121-11df-5b66"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="7c23-4663-4bc6-158a" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="7c23-4663-4bc6-158a" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="b0f1-b83c-2e31-50e4" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="8b35-ce9b-fd1e-5696" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1042,7 +1042,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="dc45-940f-4711-ef50" type="selectionEntryGroup" targetId="4b1c-ea81-9dc1-de9f"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c7e9-9c04-7827-dddc" type="selectionEntryGroup" targetId="8979-6e56-a44b-dce1"/>
         <entryLink import="true" name="Paths" hidden="false" id="c368-6a30-ac2d-785c" type="selectionEntryGroup" targetId="9dbc-9121-11df-5b66"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="dd43-d60c-5130-2e9a" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="dd43-d60c-5130-2e9a" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="5335-1d92-f95e-719e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="9870-a788-d0ee-d8cf" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1105,7 +1105,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="0d52-ded0-7cd9-b112" type="selectionEntryGroup" targetId="4b1c-ea81-9dc1-de9f"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="f165-f7bd-80ad-f694" type="selectionEntryGroup" targetId="8979-6e56-a44b-dce1"/>
         <entryLink import="true" name="Paths" hidden="false" id="dbe1-f8de-62e4-59e6" type="selectionEntryGroup" targetId="9dbc-9121-11df-5b66"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="9a8a-8de2-b724-7453" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="9a8a-8de2-b724-7453" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="3e5f-e08f-df1e-ef70" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="3c9c-0a58-7372-5d25" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1217,7 +1217,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="c42b-a2a5-6e6-9a42" type="selectionEntryGroup" targetId="4b1c-ea81-9dc1-de9f"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="6144-f2f9-6886-709c" type="selectionEntryGroup" targetId="8979-6e56-a44b-dce1"/>
         <entryLink import="true" name="Paths" hidden="false" id="153f-64aa-a0f0-0d2e" type="selectionEntryGroup" targetId="9dbc-9121-11df-5b66"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="1eef-994d-2d07-8b90" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="1eef-994d-2d07-8b90" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="655a-4d3d-86ed-84a5" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Monstrous Traits" hidden="false" id="7bad-f3a5-b226-79f2" type="selectionEntryGroup" targetId="9ce1-0fdf-ab44-7202"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="f403-1a49-ed6e-a040" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
@@ -1327,7 +1327,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="7c5a-2d9b-c01b-7aff" type="selectionEntryGroup" targetId="4b1c-ea81-9dc1-de9f"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c6b6-06ee-ad6e-306c" type="selectionEntryGroup" targetId="8979-6e56-a44b-dce1"/>
         <entryLink import="true" name="Paths" hidden="false" id="09b3-f3a1-d046-5d69" type="selectionEntryGroup" targetId="9dbc-9121-11df-5b66"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="e0f5-a33b-a3b0-985e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="e0f5-a33b-a3b0-985e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="0cd0-3f57-0846-cc31" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="9238-c762-f2ed-6045" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -1368,7 +1368,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
         </modifierGroup>
       </modifierGroups>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: Ironjawz" hidden="false" id="827-e827-4f40-c1ce" type="selectionEntry" targetId="d8ca-c367-a211-97b3">
+    <entryLink import="true" name="Rasgos de batalla: Mandíbulas de Hierro" hidden="false" id="827-e827-4f40-c1ce" type="selectionEntry" targetId="d8ca-c367-a211-97b3">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c6d3-9d07-a7d5-7a78" includeChildSelections="true"/>
       </constraints>
@@ -1636,7 +1636,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b91f-0469-80e4-06fe" type="selectionEntryGroup" targetId="8979-6e56-a44b-dce1"/>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="d778-4061-55c9-ec36" type="selectionEntryGroup" targetId="4455-d9dc-24bf-7d91"/>
         <entryLink import="true" name="Paths" hidden="false" id="eaab-e781-48a6-1d48" type="selectionEntryGroup" targetId="9dbc-9121-11df-5b66"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="3d95-35a1-e71a-6803" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="3d95-35a1-e71a-6803" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="6b5c-fa29-ef9f-49ef" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Monstrous Traits" hidden="true" id="6ec6-7170-585c-085a" type="selectionEntryGroup" targetId="9ce1-0fdf-ab44-7202">
           <modifiers>

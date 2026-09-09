@@ -14607,7 +14607,7 @@
         <profile name="Forma salvaje" hidden="false" id="4f4-6041-9f7e-2585" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <characteristics>
             <characteristic name="Keywords" id="b594-1d0d-ae7c-afba" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="b137-be1-a320-9e97" hidden="false" typeId="fd7f-888d-3257-a12b">Cada vez que esta **^^Manifestation^^** sea objetivo de la habilidad &apos;Banish Manifestation&apos;, si fuera a ser desterrada, no lo es. En su lugar, asígnale 6 puntos de daño (no pueden hacerse tiradas de salvaguardia contra esos puntos de daño).</characteristic>
+            <characteristic name="Effect" id="b137-be1-a320-9e97" hidden="false" typeId="fd7f-888d-3257-a12b">Cada vez que esta **^^Manifestation^^** sea objetivo de la habilidad &apos;Desterrar manifestación&apos;, si fuera a ser desterrada, no lo es. En su lugar, asígnale 6 puntos de daño (no pueden hacerse tiradas de salvaguardia contra esos puntos de daño).</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -14624,7 +14624,7 @@
         <categoryLink name="INCARNATE" hidden="false" id="89eb-be50-74c3-fe68" targetId="a1b1-39d1-f6ed-bf2" primary="false"/>
       </categoryLinks>
       <rules>
-        <rule name="Base Size" id="6069-170b-1024-1001" hidden="true">
+        <rule name="Tamaño de peana" id="6069-170b-1024-1001" hidden="true">
           <description>130mm</description>
         </rule>
       </rules>
@@ -14695,7 +14695,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="9997-dae6-c46a-0a72" hidden="true">
+        <rule name="Tamaño de peana" id="9997-dae6-c46a-0a72" hidden="true">
           <description>100x70mm</description>
         </rule>
       </rules>
@@ -14767,7 +14767,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="9579-4528-2ee0-5785" hidden="true">
+        <rule name="Tamaño de peana" id="9579-4528-2ee0-5785" hidden="true">
           <description>40mm</description>
         </rule>
       </rules>
@@ -14817,7 +14817,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="da7d-dc38-4ff8-5450" hidden="true">
+        <rule name="Tamaño de peana" id="da7d-dc38-4ff8-5450" hidden="true">
           <description>120x92mm</description>
         </rule>
       </rules>
@@ -14858,7 +14858,7 @@
         <profile name="El péndulo oscila" hidden="false" id="9ec5-1011-c05e-5045" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <characteristics>
             <characteristic name="Keywords" id="f377-977c-5a3f-90f0" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="4518-14cc-a17b-4c45" hidden="false" typeId="fd7f-888d-3257-a12b">Esta **^^Manifestation^^** no puede usar habilidades de **^^Charge^^** ni de **^^Fight^^**. Además, cuando esta **^^Manifestation^^** se mueva, debe moverse en línea recta en la dirección a la que apunta la punta de la hoja del péndulo o en la dirección opuesta a aquella a la que apunta la punta de la hoja del péndulo</characteristic>
+            <characteristic name="Effect" id="4518-14cc-a17b-4c45" hidden="false" typeId="fd7f-888d-3257-a12b">Esta **^^Manifestation^^** no puede usar habilidades de **^^Cargar^^** ni de **^^Combatir^^**. Además, cuando esta **^^Manifestation^^** se mueva, debe moverse en línea recta en la dirección a la que apunta la punta de la hoja del péndulo o en la dirección opuesta a aquella a la que apunta la punta de la hoja del péndulo</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -14868,7 +14868,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="1030-b362-0e3d-5ebb" hidden="true">
+        <rule name="Tamaño de peana" id="1030-b362-0e3d-5ebb" hidden="true">
           <description>64x42mm</description>
         </rule>
       </rules>
@@ -14896,8 +14896,8 @@
             <characteristic name="Timing" id="cc32-48b1-3ad0-f0a4" hidden="false" typeId="652c-3d84-4e7-14f4">Una vez por turno, tu fase de héroe</characteristic>
             <characteristic name="Declare" id="34aa-2b46-59a7-1b9d" hidden="false" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" id="425c-38f9-7d4-5410" hidden="false" typeId="b6f1-ba36-6cd-3b03">Si hay algún **^^Wizard^^** amigo a 3" o menos de esta **^^Manifestation^^**, elige 1 de los siguientes efectos:
-***Increase Time Flow***: Hasta el inicio de tu siguiente turno, puedes volver a tirar las tiradas de carga de las unidades amigas mientras estén totalmente a 12" o menos de esta **^^Manifestation^^**.
-***Decrease Time Flow***: Hasta el inicio de tu siguiente turno, resta 1 a las tiradas de impacto de los ataques que tengan como objetivo **^^Wizards^^** amigos mientras estén totalmente a 12" o menos de esta **^^Manifestation^^**.</characteristic>
+***Aumentar el flujo del tiempo***: Hasta el inicio de tu siguiente turno, puedes volver a tirar las tiradas de carga de las unidades amigas mientras estén totalmente a 12" o menos de esta **^^Manifestation^^**.
+***Reducir el flujo del tiempo***: Hasta el inicio de tu siguiente turno, resta 1 a las tiradas de impacto de los ataques que tengan como objetivo **^^Wizards^^** amigos mientras estén totalmente a 12" o menos de esta **^^Manifestation^^**.</characteristic>
             <characteristic name="Keywords" id="a922-cfeb-4479-2f54" hidden="false" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -14909,7 +14909,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="b0e0-0c3f-c197-05a3" hidden="true">
+        <rule name="Tamaño de peana" id="b0e0-0c3f-c197-05a3" hidden="true">
           <description>40mm</description>
         </rule>
       </rules>
@@ -14936,7 +14936,7 @@
         <profile name="Consumirse en llamas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c08-79dc-f4d5-dc9f">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta **^^Manifestation^^** use una habilidad de **^^Shoot^^**, después de resolver esa habilidad, asigna 1 punto de daño a esta **^^Manifestation^^** (no pueden hacerse tiradas de salvaguardia contra ese punto de daño).</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta **^^Manifestation^^** use una habilidad de **^^Disparar^^**, después de resolver esa habilidad, asigna 1 punto de daño a esta **^^Manifestation^^** (no pueden hacerse tiradas de salvaguardia contra ese punto de daño).</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Blue</attribute>
@@ -14946,7 +14946,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="f9d8-557a-983b-bbd8" hidden="true">
+        <rule name="Tamaño de peana" id="f9d8-557a-983b-bbd8" hidden="true">
           <description>50mm</description>
         </rule>
       </rules>
@@ -15027,7 +15027,7 @@
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="0dad-8b93-b703-7548" hidden="true">
+        <rule name="Tamaño de peana" id="0dad-8b93-b703-7548" hidden="true">
           <description>50mm</description>
         </rule>
       </rules>
@@ -15121,7 +15121,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="af23-a99e-a3dc-53dd" hidden="true">
+        <rule name="Tamaño de peana" id="af23-a99e-a3dc-53dd" hidden="true">
           <description>50mm</description>
         </rule>
       </rules>
@@ -15202,7 +15202,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="ccd9-0845-c53b-7080" hidden="true">
+        <rule name="Tamaño de peana" id="ccd9-0845-c53b-7080" hidden="true">
           <description>105x70mm</description>
         </rule>
       </rules>
@@ -15229,7 +15229,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         <profile name="Atravesar las mareas de la muerte" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="2e3f-3b03-af72-7a50">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Infantry Wizard Hero^^** amigo a 3" o menos de esta **^^Manifestation^^**</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Infantry Héroe mago^^** amigo a 3" o menos de esta **^^Manifestation^^**</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta **^^Manifestation^^** puede moverse una distancia de hasta su característica de Move. Puede atravesar miniaturas durante ese movimiento, pero no puede terminarlo en combate. Después, retira el objetivo del campo de batalla y vuelve a colocarlo en el campo de batalla a 3" o menos de esta **^^Manifestation^^** y sin que esté en combate. Después, inflige 1 de daño mortal al objetivo.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Movimiento**^^</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -15242,7 +15242,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="6ad3-655c-c52a-bba7" hidden="true">
+        <rule name="Tamaño de peana" id="6ad3-655c-c52a-bba7" hidden="true">
           <description>90x52mm</description>
         </rule>
       </rules>
@@ -15299,7 +15299,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="fb86-9d67-8315-d94b" hidden="true">
+        <rule name="Tamaño de peana" id="fb86-9d67-8315-d94b" hidden="true">
           <description>40mm</description>
         </rule>
       </rules>
@@ -15377,7 +15377,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         <profile name="Campeón" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="cfed-845b-b46c-fc6d">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Attacks de las armas usadas por los campeones de esta unidad. Si esta unidad es un **^^Bestia^^**, esta habilidad afecta a las armas **Companion** de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Attacks de las armas usadas por los campeones de esta unidad. Si esta unidad es un **^^Bestia^^**, esta habilidad afecta a las armas **Compañero** de esta unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
@@ -15407,7 +15407,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         <profile name="Músico" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ef81-53a1-5559-5aa1">
           <characteristics>
             <characteristic name="Keywords" id="98bb-35ab-5c54-88ea" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="2464-8e0d-db9b-bf62" hidden="false" typeId="fd7f-888d-3257-a12b">Mientras esta unidad contenga algún músico, si usa la orden &apos;Rally&apos;, puedes hacer una tirada de reagrupamiento adicional de D6.</characteristic>
+            <characteristic name="Effect" id="2464-8e0d-db9b-bf62" hidden="false" typeId="fd7f-888d-3257-a12b">Mientras esta unidad contenga algún músico, si usa la orden &apos;Reagrupamiento&apos;, puedes hacer una tirada de reagrupamiento adicional de D6.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Yellow</attribute>
@@ -15476,7 +15476,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="e549-a70c-2b95-b175" hidden="true">
+        <rule name="Tamaño de peana" id="e549-a70c-2b95-b175" hidden="true">
           <description>64x42mm</description>
         </rule>
       </rules>
@@ -15535,7 +15535,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="adec-2317-0d4a-b7f6" hidden="true">
+        <rule name="Tamaño de peana" id="adec-2317-0d4a-b7f6" hidden="true">
           <description>100x70mm</description>
         </rule>
       </rules>
@@ -15595,7 +15595,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="ac33-18e2-33b5-5df5" hidden="true">
+        <rule name="Tamaño de peana" id="ac33-18e2-33b5-5df5" hidden="true">
           <description>Usa la miniatura</description>
         </rule>
       </rules>
@@ -15665,7 +15665,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="e6d5-331c-b60b-c229" hidden="true">
+        <rule name="Tamaño de peana" id="e6d5-331c-b60b-c229" hidden="true">
           <description>40mm</description>
         </rule>
       </rules>
@@ -15723,7 +15723,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Wizard^^** amigo a 3" o menos de esta **^^Manifestation^^**.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">La próxima vez que el objetivo use una habilidad que no sea de **^^Summon Hechizo^^** en esta fase, suma 1 al valor de lanzamiento de ese hechizo. Al elegir objetivos para ese hechizo, puedes medir el alcance y la visibilidad desde cualquiera de las dos partes de esta **^^Manifestation^^** en lugar de desde el lanzador, y tu oponente puede medir el alcance y la visibilidad hasta cualquiera de las dos partes de esta **^^Manifestation^^** en lugar de hasta el lanzador a efectos de la habilidad &apos;Unbind&apos;.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">La próxima vez que el objetivo use una habilidad que no sea de **^^Summon Hechizo^^** en esta fase, suma 1 al valor de lanzamiento de ese hechizo. Al elegir objetivos para ese hechizo, puedes medir el alcance y la visibilidad desde cualquiera de las dos partes de esta **^^Manifestation^^** en lugar de desde el lanzador, y tu oponente puede medir el alcance y la visibilidad hasta cualquiera de las dos partes de esta **^^Manifestation^^** en lugar de hasta el lanzador a efectos de la habilidad &apos;Desvincular&apos;.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -15735,7 +15735,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="2d58-c5a6-0d12-1916" hidden="true">
+        <rule name="Tamaño de peana" id="2d58-c5a6-0d12-1916" hidden="true">
           <description>40mm</description>
         </rule>
       </rules>
@@ -15771,7 +15771,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         </profile>
       </profiles>
       <rules>
-        <rule name="Base Size" id="89e2-e07f-520b-f0b3" hidden="true">
+        <rule name="Tamaño de peana" id="89e2-e07f-520b-f0b3" hidden="true">
           <description>Usa la miniatura</description>
         </rule>
       </rules>
@@ -15793,35 +15793,35 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
-    <rule name="Crit (2 Hits)" hidden="false" id="ccb6-2643-88c1-9357">
+    <rule name="Crítico (2 impactos)" hidden="false" id="ccb6-2643-88c1-9357">
       <description>Si un ataque hecho con esta arma consigue un impacto crítico, ese ataque consigue 2 impactos en el objetivo en lugar de 1. Haz una tirada de herida por cada impacto.</description>
     </rule>
-    <rule name="Companion" hidden="false" id="6eda-6036-78c5-2076">
-      <description>A menos que se especifique lo contrario, los ataques hechos con esta arma no se ven afectados por habilidades amigas que modifiquen las tiradas de impacto, las tiradas de herida o las características del arma, salvo las que apliquen modificadores negativos (por ejemplo, &apos;Covering Fire&apos;)</description>
+    <rule name="Compañero" hidden="false" id="6eda-6036-78c5-2076">
+      <description>A menos que se especifique lo contrario, los ataques hechos con esta arma no se ven afectados por habilidades amigas que modifiquen las tiradas de impacto, las tiradas de herida o las características del arma, salvo las que apliquen modificadores negativos (por ejemplo, &apos;Fuego de cobertura&apos;)</description>
     </rule>
-    <rule name="Anti-X (+1 Rend)" hidden="false" id="5daf-bfb3-e495-dae6">
+    <rule name="Anti-X (+1 Penetración)" hidden="false" id="5daf-bfb3-e495-dae6">
       <description>Suma 1 a la característica de Rend de esta arma si el objetivo tiene la palabra clave que aparece después de &apos;Anti-&apos; o cumple la condición que aparece después de &apos;Anti-&apos;. Varias instancias de esta habilidad son acumulativas. Por ejemplo, si un arma tiene Anti-charge (+1 Rend) y Anti-HERO (+1 Rend), suma 2 a la característica de Rend del arma para los ataques que tengan como objetivo un HERO que haya cargado en el mismo turno.</description>
       <alias/>
     </rule>
-    <rule name="Charge (+1 Damage)" hidden="false" id="9ae2-afa0-f49-35dd">
+    <rule name="Carga (+1 Daño)" hidden="false" id="9ae2-afa0-f49-35dd">
       <description>Suma 1 a la característica de Damage de esta arma si la unidad atacante ha cargado este turno</description>
     </rule>
-    <rule name="Crit (Auto-wound)" hidden="false" id="e745-73af-60c0-8139">
+    <rule name="Crítico (herida automática)" hidden="false" id="e745-73af-60c0-8139">
       <description>Si un ataque hecho con esta arma consigue un impacto crítico, ese ataque hiere automáticamente al objetivo. Haz una tirada de salvación con normalidad.</description>
     </rule>
-    <rule name="Crit (Mortal)" hidden="false" id="a20b-847f-c212-d100">
+    <rule name="Crítico (mortal)" hidden="false" id="a20b-847f-c212-d100">
       <description>Si un ataque hecho con esta arma consigue un impacto crítico, ese ataque inflige a la unidad objetivo una cantidad de daño mortal igual a la característica de Damage de esa arma y la secuencia de ataque termina.</description>
     </rule>
-    <rule name="Shoot In Combat" hidden="false" id="1b4d-1f46-a7f9-bcee">
+    <rule name="Disparar en combate" hidden="false" id="1b4d-1f46-a7f9-bcee">
       <description>Esta arma puede usarse para hacer ataques de disparo aunque la unidad atacante esté en combate.</description>
     </rule>
-    <rule name="Cover" id="df46-5d90-8a18-6608" hidden="false">
+    <rule name="Cobertura" id="df46-5d90-8a18-6608" hidden="false">
       <description>Resta 1 a las tiradas de impacto de los ataques que tengan como objetivo una unidad que esté detrás de este elemento de escenografía o totalmente sobre él, a menos que esa unidad haya cargado este turno o tenga la palabra clave **^^Volar^^**.</description>
     </rule>
-    <rule name="Impassable" id="fd0b-e72f-a215-64e2" hidden="false">
+    <rule name="Infranqueable" id="fd0b-e72f-a215-64e2" hidden="false">
       <description>Las miniaturas no pueden atravesar ninguna parte de este elemento de escenografía, ni colocarse sobre ella, ni terminar movimientos sobre ella.</description>
     </rule>
-    <rule name="Obscuring" id="bcd4-2c7b-5338-82f8" hidden="true">
+    <rule name="Ocultación" id="bcd4-2c7b-5338-82f8" hidden="true">
       <description>Una unidad no puede ser objetivo de ataques de disparo si está detrás de este elemento de escenografía o totalmente sobre él, a menos que tenga la palabra clave **^^Volar^^**.</description>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -15831,7 +15831,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         </modifier>
       </modifiers>
     </rule>
-    <rule name="Obscuring" id="e40f-b982-0721-291b" hidden="true">
+    <rule name="Ocultación" id="e40f-b982-0721-291b" hidden="true">
       <description>Mientras todas las miniaturas de una unidad que no sea **^^Monster^^** y que no tenga la palabra clave **Volar^^** estén a 1" o menos de este elemento de escenografía, se aplica lo siguiente:
 • Esa unidad solo es visible para las unidades enemigas que estén dentro de su alcance de combate.
 • La característica de Range de las armas de esa unidad se reduce a la mitad (redondeando hacia abajo a la pulgada más cercana).</description>
@@ -15843,10 +15843,10 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         </modifier>
       </modifiers>
     </rule>
-    <rule name="Place of Power" id="bc59-9616-faae-992c" hidden="false">
+    <rule name="Lugar de poder" id="bc59-9616-faae-992c" hidden="false">
       <description>Los **^^Heroes^^** a 3" o menos de este elemento de escenografía pueden usar la habilidad &apos;Activar lugar de poder&apos;.</description>
     </rule>
-    <rule name="Unstable" id="8182-41a0-866a-ff5f" hidden="false">
+    <rule name="Inestable" id="8182-41a0-866a-ff5f" hidden="false">
       <description>Las miniaturas pueden atravesar cualquier parte de este elemento de escenografía que mida más de 1" de alto, pero no pueden colocarse sobre ella ni terminar ningún tipo de movimiento sobre ella.</description>
     </rule>
   </sharedRules>
@@ -15921,10 +15921,10 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
     <profile name="Activar lugar de poder" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="true" id="6968-28a3-3f2c-dfcc">
       <characteristics>
         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Inicio de cualquier turno</characteristic>
-        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Hero^^** amigo a 3" o menos de un **Place of Power** para usar esta habilidad y, después, elige ese **Place of Power** como objetivo.</characteristic>
+        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Hero^^** amigo a 3" o menos de un **Lugar de poder** para usar esta habilidad y, después, elige ese **Lugar de poder** como objetivo.</characteristic>
         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 1, inflige D3 de daño mortal a ese **^^Hero^^**. Con un 2+:
 • Si ese **^^Hero^^** es un **^^Wizard^^** o un **^^Priest^^**, suma 1 a las tiradas de lanzamiento o de cántico de ese **^^Hero^^** este turno.
-• Si ese **^^Hero^^** no es un **^^Wizard^^** ni un **^^Priest^^**, puede usar la habilidad &apos;Unbind&apos; o &apos;Banish Manifestation&apos; este turno como si tuviera **^^Wizard (1)^^**.</characteristic>
+• Si ese **^^Hero^^** no es un **^^Wizard^^** ni un **^^Priest^^**, puede usar la habilidad &apos;Desvincular&apos; o &apos;Desterrar manifestación&apos; este turno como si tuviera **^^Wizard (1)^^**.</characteristic>
         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**</characteristic>
         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
       </characteristics>
@@ -15944,11 +15944,11 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
     <profile name="Activar lugar de poder" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="true" id="83a0-e945-ccde-9525">
       <characteristics>
         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), inicio de cualquier turno</characteristic>
-        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Hero^^** amigo a 3" o menos de un **Place of Power** para usar esta habilidad y, después, elige ese **Place of Power** como objetivo.</characteristic>
+        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Hero^^** amigo a 3" o menos de un **Lugar de poder** para usar esta habilidad y, después, elige ese **Lugar de poder** como objetivo.</characteristic>
         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de los siguientes efectos:
-• ***Cauterising Pollen:*** Tira un dado. Con un 1, inflige 1 de daño mortal a cada unidad (amiga y enemiga) a 6" o menos de cualquier **Places of Power**. Con un 3+, **Heal (2)** cada unidad (amiga y enemiga) totalmente a 6" o menos del objetivo.
-• ***Rapid Sprouting:*** Elige un marcador de objetivo Ghyranite o un elemento de escenografía visible a 12" o menos de ese **^^Hero^^** y tira un dado. Con un 3+, ese marcador de objetivo o elemento de escenografía tiene la habilidad &apos;Obscuring&apos; (consulta 1.2) durante el resto de la batalla.
-• ***Tap the Ley Lines:*** Durante el resto del turno, si ese **^^Hero^^** no es un **^^Wizard^^** ni un **^^Priest^^**, puede usar la habilidad &apos;Unbind&apos; o &apos;Banish Manifestation&apos; como si tuviera **^^Wizard (1)^^**.</characteristic>
+• ***Polen cauterizante:*** Tira un dado. Con un 1, inflige 1 de daño mortal a cada unidad (amiga y enemiga) a 6" o menos de cualquier **Places of Power**. Con un 3+, **Heal (2)** cada unidad (amiga y enemiga) totalmente a 6" o menos del objetivo.
+• ***Brotación rápida:*** Elige un marcador de objetivo Ghyranite o un elemento de escenografía visible a 12" o menos de ese **^^Hero^^** y tira un dado. Con un 3+, ese marcador de objetivo o elemento de escenografía tiene la habilidad &apos;Ocultación&apos; (consulta 1.2) durante el resto de la batalla.
+• ***Canalizar las líneas ley:*** Durante el resto del turno, si ese **^^Hero^^** no es un **^^Wizard^^** ni un **^^Priest^^**, puede usar la habilidad &apos;Desvincular&apos; o &apos;Desterrar manifestación&apos; como si tuviera **^^Wizard (1)^^**.</characteristic>
         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**</characteristic>
         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
       </characteristics>
@@ -16024,7 +16024,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
     <publication name="Scourge of Aqshy" id="9e18-bb03-7b60-d4ff" hidden="false"/>
   </publications>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="false" name="READ ME" hidden="false" id="eb00-fe05-1949-bed7" defaultAmount="1">
+    <selectionEntry type="upgrade" import="false" name="LÉEME" hidden="false" id="eb00-fe05-1949-bed7" defaultAmount="1">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e690-4c2f-4d26-581b"/>
       </constraints>
@@ -16039,7 +16039,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         <modifier type="set" value="500" field="points"/>
       </modifiers>
       <rules>
-        <rule name="Use New Recruit!" id="1d48-54c4-219e-7285" hidden="false">
+        <rule name="¡Usa New Recruit!" id="1d48-54c4-219e-7285" hidden="false">
           <description>La funcionalidad completa no está disponible en Battlescribe. Aunque la mayor parte de la creación de listas debería funcionar, algunas funciones pueden comportarse de forma inesperada (por ejemplo, reforzar no funcionará) y el texto incluirá notación de marcado intercalada que Battlescribe mostrará como texto plano. Usa New Recruit para asegurar la funcionalidad completa de este conjunto de datos.</description>
         </rule>
       </rules>
@@ -16073,7 +16073,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Honour Guard" hidden="true" id="9225-2112-555f-5d8c">
+    <selectionEntry type="upgrade" import="true" name="Guardia de honor" hidden="true" id="9225-2112-555f-5d8c">
       <categoryLinks>
         <categoryLink name="Reference" hidden="false" id="190b-a28d-cf2e-1d52" targetId="3360-1158-e879-9606" primary="true"/>
       </categoryLinks>
@@ -16133,7 +16133,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Monster^^** amigo que no sea **^^Unique^^**, que no haya sido reforzado y que esté en un regimiento, pero que no lo lidere, para que sea la **guardia de honor** de ese regimiento. Puedes elegir una unidad en reserva.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esa unidad puede ignorar los efectos de la habilidad &apos;Daños de batalla&apos;. Además, suma 1 a las tiradas de impacto de los ataques de combate hechos por la **guardia de honor**. Esta habilidad también afecta a las armas Companion.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esa unidad puede ignorar los efectos de la habilidad &apos;Daños de batalla&apos;. Además, suma 1 a las tiradas de impacto de los ataques de combate hechos por la **guardia de honor**. Esta habilidad también afecta a las armas Compañero.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Guardia de honor^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -16165,18 +16165,18 @@ En cualquier turno en el que esa **guardia de honor** haya cargado, las armas de
         </profile>
       </profiles>
       <rules>
-        <rule name="Honour Guard" id="d3c0-2624-6a5a-1fc6" hidden="false">
-          <description>Cada jugador puede usar una de las siguientes habilidades de Honour Guard en cada batalla. Al usar esa habilidad, debe elegir una unidad del regimiento de su general para que sea la guardia de honor.</description>
+        <rule name="Guardia de honor" id="d3c0-2624-6a5a-1fc6" hidden="false">
+          <description>Cada jugador puede usar una de las siguientes habilidades de Guardia de honor en cada batalla. Al usar esa habilidad, debe elegir una unidad del regimiento de su general para que sea la guardia de honor.</description>
         </rule>
-        <rule name="Regimented Forces" id="42aa-b9ec-df97-53ac" hidden="false">
-          <description>Si un jugador tiene más regimientos que su oponente, puede usar una segunda habilidad de **^^Honour Guard^^** distinta, pero debe elegir una unidad que esté en un regimiento distinto que no esté liderado por el general para que sea la **guardia de honor** de esa habilidad. No puedes elegir unidades de un Regiment of Renown para que sean **guardia de honor**. Si has decidido no elegir una unidad **guardia de honor** en el regimiento de tu general, aún puedes elegir una unidad **guardia de honor** para un regimiento distinto tal y como se describe arriba.</description>
+        <rule name="Fuerzas regimentadas" id="42aa-b9ec-df97-53ac" hidden="false">
+          <description>Si un jugador tiene más regimientos que su oponente, puede usar una segunda habilidad de **^^Guardia de honor^^** distinta, pero debe elegir una unidad que esté en un regimiento distinto que no esté liderado por el general para que sea la **guardia de honor** de esa habilidad. No puedes elegir unidades de un Regiment of Renown para que sean **guardia de honor**. Si has decidido no elegir una unidad **guardia de honor** en el regimiento de tu general, aún puedes elegir una unidad **guardia de honor** para un regimiento distinto tal y como se describe arriba.</description>
         </rule>
       </rules>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5b07-18fc-eb03-7460" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Hide Core Abilities" hidden="false" id="8f44-a403-e9a1-0aa3">
+    <selectionEntry type="upgrade" import="true" name="Ocultar habilidades básicas" hidden="false" id="8f44-a403-e9a1-0aa3">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9544-4cf1-ff08-53c3"/>
       </constraints>
@@ -16280,7 +16280,7 @@ Completas esta táctica de batalla al final de tu turno si en esta batalla se ha
                     <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Defiant Surge:
 Completas esta táctica de batalla al final de tu turno si controlas más marcadores de objetivo que tu oponente.</characteristic>
                     <characteristic name="Strike" typeId="94d4-173e-0f65-c569">Daring Resurgence:
-Completas esta táctica de batalla al final de tu turno si eres el desfavorecido en esta ronda de batalla, hay al menos 1 unidad amiga en el campo de batalla y al menos la mitad de las unidades amigas que hay en el campo de batalla (redondeando hacia arriba) han usado una habilidad de **^^Fight^^** este turno.</characteristic>
+Completas esta táctica de batalla al final de tu turno si eres el desfavorecido en esta ronda de batalla, hay al menos 1 unidad amiga en el campo de batalla y al menos la mitad de las unidades amigas que hay en el campo de batalla (redondeando hacia arriba) han usado una habilidad de **^^Combatir^^** este turno.</characteristic>
                     <characteristic name="Domination" typeId="e1d7-1d3c-f001-62e0">Master of Strategy:
 Completas esta táctica de batalla al final de tu turno si hay una unidad amiga distinta totalmente en cada cuarto grande del campo de batalla, controlas más marcadores de objetivo que tu oponente y no hay unidades enemigas disputando ningún marcador de objetivo que controles.</characteristic>
                   </characteristics>
@@ -16317,8 +16317,8 @@ Completas esta táctica de batalla al final de tu turno si una unidad explorador
 Completas esta táctica de batalla al final de tu turno si hay al menos 2 unidades amigas a 3" o menos del centro del campo de batalla que no estén en combate.</characteristic>
                     <characteristic name="Strike" typeId="94d4-173e-0f65-c569">Fey Strikes:
 Completas esta táctica de batalla al final de tu turno si se cumple todo lo siguiente:
-• Al menos 2 unidades amigas se han movido como parte de una habilidad de **^^Retreat^^** este turno. Esas unidades son las unidades señuelo.
-• Al menos otras 2 unidades amigas han usado una habilidad de **^^Charge^^** este turno y al menos 1 de esas unidades ha terminado el movimiento de carga en combate con una unidad enemiga de la que se haya retirado alguna de las unidades señuelo.</characteristic>
+• Al menos 2 unidades amigas se han movido como parte de una habilidad de **^^Retirarse^^** este turno. Esas unidades son las unidades señuelo.
+• Al menos otras 2 unidades amigas han usado una habilidad de **^^Cargar^^** este turno y al menos 1 de esas unidades ha terminado el movimiento de carga en combate con una unidad enemiga de la que se haya retirado alguna de las unidades señuelo.</characteristic>
                     <characteristic name="Domination" typeId="e1d7-1d3c-f001-62e0">Purification Rites:
 Completas esta táctica de batalla al final de tu turno si no hay unidades enemigas en territorio amigo ni unidades enemigas en territorio neutral.</characteristic>
                   </characteristics>

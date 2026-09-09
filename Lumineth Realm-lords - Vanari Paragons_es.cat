@@ -53,7 +53,7 @@
                 <profile name="Cuentas de piedra anuladora" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a59a-1668-319c-c0e8">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar la habilidad &apos;Unbind&apos; como si tuviera **^^Wizard (1)^^**.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar la habilidad &apos;Desvincular&apos; como si tuviera **^^Wizard (1)^^**.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -68,7 +68,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="863d-82e8-a76e-e24c" hidden="true">
+            <rule name="Restricciones de mejoras" id="863d-82e8-a76e-e24c" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -152,7 +152,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="1374-18da-f9dc-20a9" hidden="true">
+            <rule name="Restricciones de mejoras" id="1374-18da-f9dc-20a9" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -190,13 +190,13 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Vanari Paragons" hidden="false" id="5660-62e9-1714-fd59" publicationId="9ed1-cf74-eb97-dee2">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Ejemplares Vanari" hidden="false" id="5660-62e9-1714-fd59" publicationId="9ed1-cf74-eb97-dee2">
       <profiles>
         <profile name="Recompensas del valor" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7452-2454-9bb6-2cf6">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una **^^Hero^^** amiga que no sea **^^Unique Vanari Hero^^** y que no tenga un artefacto de poder.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Da al objetivo 1 artefacto de poder de las reglas del Ejército de Renombre &apos;Vanari Paragons&apos;.
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Da al objetivo 1 artefacto de poder de las reglas del Ejército de Renombre &apos;Ejemplares Vanari&apos;.
 **Nota del diseñador:** *Este artefacto de poder se entrega a la* **^^Hero^^** *durante la fase de despliegue, no durante la composición del ejército.*</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -283,7 +283,7 @@
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="9161-52d7-b918-0ac1" type="selectionEntryGroup" targetId="f852-d71f-b896-8baf"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d3a2-246c-5069-122f" type="selectionEntryGroup" targetId="8658-44b6-6595-53a4"/>
         <entryLink import="true" name="Paths" hidden="false" id="b283-91ee-11bd-559c" type="selectionEntryGroup" targetId="fce2-e991-cf98-3124"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="38c9-8241-43ca-99f6" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="38c9-8241-43ca-99f6" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="9ffd-c05f-02fb-be08" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="2def-4291-4a8c-a8d8" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -344,7 +344,7 @@
     </entryLink>
     <entryLink import="true" name="Portaestandarte vanari (Azote de Ghyran)" hidden="false" id="9449-9aea-e984-1386" type="selectionEntry" targetId="eec0-758b-4528-e3b5">
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="a5cc-5bec-26ce-3e21" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="a5cc-5bec-26ce-3e21" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="0508-5dae-7e39-426d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Paths" hidden="false" id="7283-7349-eb86-fe35" type="selectionEntryGroup" targetId="fce2-e991-cf98-3124"/>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="5cb5-4c22-5b55-b472" type="selectionEntryGroup" targetId="9930-19dd-74c5-440d"/>
@@ -624,7 +624,7 @@
     </entryLink>
     <entryLink import="true" name="Señor regente vanari" hidden="false" id="bf07-179b-3dbd-b83b" type="selectionEntry" targetId="69db-94ab-507b-0e92">
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="473d-659e-1a76-5643" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="473d-659e-1a76-5643" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="6e8e-d72e-0a93-4255" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Paths" hidden="false" id="6152-67c7-3d0b-9bb7" type="selectionEntryGroup" targetId="fce2-e991-cf98-3124"/>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="fb79-c27d-e96f-6872" type="selectionEntryGroup" targetId="9930-19dd-74c5-440d"/>
@@ -690,7 +690,7 @@
     </entryLink>
     <entryLink import="true" name="Señor regente vanari en corcel de luz" hidden="false" id="4788-9748-f655-1ac7" type="selectionEntry" targetId="2e0b-1a0a-3d2b-8fef">
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="20cb-b407-bd09-7c03" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="20cb-b407-bd09-7c03" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="e904-0fa8-c679-1f42" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Paths" hidden="false" id="4259-1da3-4c51-2701" type="selectionEntryGroup" targetId="fce2-e991-cf98-3124"/>
         <entryLink import="true" name="Heroic Traits" hidden="false" id="4b44-14c4-6747-57d7" type="selectionEntryGroup" targetId="9930-19dd-74c5-440d"/>
@@ -740,7 +740,7 @@
         <categoryLink name="VANARI PARAGONS" hidden="false" id="7c9a-89ce-eca9-41b7" targetId="b420-5ced-1234-236d" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: Vanari Paragons" hidden="false" id="8f3a-0814-332e-6a2a" type="selectionEntry" targetId="5660-62e9-1714-fd59">
+    <entryLink import="true" name="Rasgos de batalla: Ejemplares Vanari" hidden="false" id="8f3a-0814-332e-6a2a" type="selectionEntry" targetId="5660-62e9-1714-fd59">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3421-f964-fc24-366b" includeChildSelections="true"/>
       </constraints>
@@ -808,7 +808,7 @@
     </entryLink>
     <entryLink import="true" name="Yunque de la apoteosis: héroe lumineth" hidden="false" id="8bc4-133c-3b1c-b06e" type="selectionEntry" targetId="4ce0-9985-aee1-116d">
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="7eb1-030b-2c26-24d6" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="7eb1-030b-2c26-24d6" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="604d-9811-7cb9-2cf8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="8d90-f0c4-356b-b90f" type="selectionEntryGroup" targetId="8658-44b6-6595-53a4"/>
         <entryLink import="true" name="Paths" hidden="false" id="2ea0-1c2c-01c8-9abc" type="selectionEntryGroup" targetId="fce2-e991-cf98-3124"/>

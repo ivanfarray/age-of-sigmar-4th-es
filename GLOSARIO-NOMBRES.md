@@ -7,7 +7,7 @@ Revisión del 8 de septiembre de 2026. Traducciones de aficionado; no constituye
 - Se incluyen variantes y Legends. El generador actualiza las referencias en el texto, conserva los IDs y no modifica los originales ingleses.
 - La fuente editable es `translations/names/*.es.json`. Las claves inglesas se conservan; una misma clave debe tener la misma equivalencia en todos los ejércitos.
 - `python tools/verify-name-coverage.py` detecta nuevas entradas pendientes. `python tools/verify-translation.py` valida nombres, textos, estructura y atributos técnicos.
-- Los nombres de habilidades, encabezados y categorías ajenos a estos diccionarios conservan su denominación original. La validación técnica no sustituye pruebas en una aplicación ni una revisión editorial independiente.
+- Los nombres de habilidades y sus opciones se documentan en [GLOSARIO-HABILIDADES.md](GLOSARIO-HABILIDADES.md). Las categorías y los tipos técnicos mantienen su denominación original. La validación técnica no sustituye pruebas en una aplicación ni una revisión editorial independiente.
 
 ## Cobertura por diccionario
 

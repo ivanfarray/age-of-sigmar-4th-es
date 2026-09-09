@@ -97,7 +97,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="131f-ecff-f4fb-b40c"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="3832-b391-b4f9-9475" hidden="true">
+            <rule name="Tamaño de peana" id="3832-b391-b4f9-9475" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -132,7 +132,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Eslizón Wizard^^** amigo totalmente a 18" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Mide el alcance y la visibilidad de la siguiente habilidad de **^^Hechizo^^** usada por esta unidad desde el objetivo en lugar de desde esta unidad. El objetivo se considera el lanzador a efectos de otras habilidades o efectos de hechizo, como &apos;Unbind&apos; o &apos;La tierra tiembla&apos;.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Mide el alcance y la visibilidad de la siguiente habilidad de **^^Hechizo^^** usada por esta unidad desde el objetivo en lugar de desde esta unidad. El objetivo se considera el lanzador a efectos de otras habilidades o efectos de hechizo, como &apos;Desvincular&apos; o &apos;La tierra tiembla&apos;.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -145,7 +145,7 @@
         <profile name="Maestro supremo del orden" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="244b-f6f2-322d-5345">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 2 a las tiradas de lanzamiento, y suma 1 a las tiradas de desvinculación y a las tiradas de destierro de esta unidad. Además, esta unidad puede usar una habilidad de **^^Unbind^^** si un **^^Wizard^^** enemigo en cualquier parte del campo de batalla usa una habilidad de **^^Hechizo^^**, en lugar de solo un **^^Wizard^^** enemigo a 30" o menos de esta unidad, y al usar la habilidad &apos;Banish Manifestation&apos;, esta unidad puede elegir una manifestación en cualquier parte del campo de batalla en lugar de a 30" o menos de ella.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 2 a las tiradas de lanzamiento, y suma 1 a las tiradas de desvinculación y a las tiradas de destierro de esta unidad. Además, esta unidad puede usar una habilidad de **^^Desvincular^^** si un **^^Wizard^^** enemigo en cualquier parte del campo de batalla usa una habilidad de **^^Hechizo^^**, en lugar de solo un **^^Wizard^^** enemigo a 30" o menos de esta unidad, y al usar la habilidad &apos;Desterrar manifestación&apos;, esta unidad puede elegir una manifestación en cualquier parte del campo de batalla en lugar de a 30" o menos de ella.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Yellow</attribute>
@@ -230,7 +230,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="12b3-6cbd-39e4-e2e0"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="98cd-f3a8-4ec3-1c21" hidden="true">
+            <rule name="Tamaño de peana" id="98cd-f3a8-4ec3-1c21" hidden="true">
               <description>80mm</description>
             </rule>
           </rules>
@@ -343,7 +343,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc7-1080-b3ed-436d"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="e603-bace-7558-dbb8" hidden="true">
+            <rule name="Tamaño de peana" id="e603-bace-7558-dbb8" hidden="true">
               <description>50mm</description>
             </rule>
           </rules>
@@ -504,7 +504,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="56bb-4194-6ee3-a33e"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="46b5-feac-1082-632a" hidden="true">
+            <rule name="Tamaño de peana" id="46b5-feac-1082-632a" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -561,8 +561,8 @@
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si va a reservar el poder, coloca una **ficha de poder cósmico** junto a esta unidad.
 Si va a canalizar el poder, tira un dado y suma al resultado el número de **fichas de poder cósmico** que tenga esta unidad. Después, retira todas las **fichas de poder cósmico** que tenga esta unidad y elige 1 de los siguientes efectos (si es posible).
 ***Luz sanadora:*** Con un 3+, puedes usar **Heal (D3)** en todas las unidades amigas **^^Seraphon^^** totalmente a 12" o menos de esta unidad.
-***Starlight Summons:*** Con un 5+, puedes elegir hasta 3 unidades amigas **^^Seraphon^^** totalmente a 12" o menos de esta unidad. Devuelve 1 miniatura abatida a cada unidad.
-***Time Slows:*** Con un 6+, puedes elegir hasta 3 unidades amigas **^^Seraphon^^** totalmente a 12" o menos de esta unidad. Esas unidades tienen **^^Strike-first^^** durante el resto del turno.</characteristic>
+***Invocación de luz estelar:*** Con un 5+, puedes elegir hasta 3 unidades amigas **^^Seraphon^^** totalmente a 12" o menos de esta unidad. Devuelve 1 miniatura abatida a cada unidad.
+***El tiempo se ralentiza:*** Con un 6+, puedes elegir hasta 3 unidades amigas **^^Seraphon^^** totalmente a 12" o menos de esta unidad. Esas unidades tienen **^^Strike-first^^** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -619,7 +619,7 @@ Si va a canalizar el poder, tira un dado y suma al resultado el número de **fic
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d08b-c566-8029-ba2e"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="3eb6-5a27-d074-76eb" hidden="true">
+            <rule name="Tamaño de peana" id="3eb6-5a27-d074-76eb" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -699,7 +699,7 @@ Si va a canalizar el poder, tira un dado y suma al resultado el número de **fic
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Base Size" id="8a55-7015-7779-9b3b" hidden="true">
+            <rule name="Tamaño de peana" id="8a55-7015-7779-9b3b" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -724,8 +724,8 @@ Si va a canalizar el poder, tira un dado y suma al resultado el número de **fic
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad debe usar esta habilidad cada turno.
-Si esta unidad ha usado alguna habilidad de **^^Fight^^** este turno, coloca una **ficha de ira** junto a ella, hasta un máximo de 3. Si esta unidad no ha usado ninguna habilidad de **^^Fight^^** este turno, retira todas las **fichas de ira** que tenga.
-Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad por cada **ficha de ira** que tenga hasta el final del siguiente turno.</characteristic>
+Si esta unidad ha usado alguna habilidad de **^^Combatir^^** este turno, coloca una **ficha de ira** junto a ella, hasta un máximo de 3. Si esta unidad no ha usado ninguna habilidad de **^^Combatir^^** este turno, retira todas las **fichas de ira** que tenga.
+Suma 1 a la característica de Attacks de las armas **Compañero** de esta unidad por cada **ficha de ira** que tenga hasta el final del siguiente turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -846,7 +846,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="4903-617a-5cd0-1b89" hidden="true">
+            <rule name="Tamaño de peana" id="4903-617a-5cd0-1b89" hidden="true">
               <description>75x42mm</description>
             </rule>
           </rules>
@@ -866,7 +866,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
         <profile name="Veloz y ágil" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a817-3e0c-2787-2268">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando esta unidad use la orden &apos;Redeploy&apos;, al determinar la distancia que puede mover, puedes tirar 2 dados en lugar de 1 y elegir cualquiera de los dos resultados.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando esta unidad use la orden &apos;Redesplegar&apos;, al determinar la distancia que puede mover, puedes tirar 2 dados en lugar de 1 y elegir cualquiera de los dos resultados.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Gray</attribute>
@@ -958,7 +958,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="d84c-3258-af70-cd57" hidden="true">
+            <rule name="Tamaño de peana" id="d84c-3258-af70-cd57" hidden="true">
               <description>25mm</description>
             </rule>
           </rules>
@@ -992,7 +992,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
         <profile name="Maestros del orden" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a7d5-1ea4-f890-7a84">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de lanzamiento de esta unidad. Además, esta unidad puede usar una habilidad de **^^Unbind^^** si un **^^Wizard^^** enemigo en cualquier parte del campo de batalla usa una habilidad de **^^Hechizo^^**, en lugar de solo un **^^Wizard^^** enemigo a 30" o menos de esta unidad, y al usar la habilidad &apos;Banish Manifestation&apos;, esta unidad puede elegir una manifestación en cualquier parte del campo de batalla en lugar de a 30" o menos de ella.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de lanzamiento de esta unidad. Además, esta unidad puede usar una habilidad de **^^Desvincular^^** si un **^^Wizard^^** enemigo en cualquier parte del campo de batalla usa una habilidad de **^^Hechizo^^**, en lugar de solo un **^^Wizard^^** enemigo a 30" o menos de esta unidad, y al usar la habilidad &apos;Desterrar manifestación&apos;, esta unidad puede elegir una manifestación en cualquier parte del campo de batalla en lugar de a 30" o menos de ella.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Yellow</attribute>
@@ -1031,7 +1031,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Eslizón Wizard^^** amigo totalmente a 18" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Mide el alcance y la visibilidad de la siguiente habilidad de **^^Hechizo^^** usada por esta unidad desde el objetivo en lugar de desde esta unidad. El objetivo se considera el lanzador a efectos de otras habilidades o efectos de hechizo, como &apos;Unbind&apos; o &apos;La tierra tiembla&apos;.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Mide el alcance y la visibilidad de la siguiente habilidad de **^^Hechizo^^** usada por esta unidad desde el objetivo en lugar de desde esta unidad. El objetivo se considera el lanzador a efectos de otras habilidades o efectos de hechizo, como &apos;Desvincular&apos; o &apos;La tierra tiembla&apos;.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1069,7 +1069,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="583-b257-4dd5-29b3"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="3dd6-6d8d-cfbd-2ecf" hidden="true">
+            <rule name="Tamaño de peana" id="3dd6-6d8d-cfbd-2ecf" hidden="true">
               <description>80mm</description>
             </rule>
           </rules>
@@ -1190,7 +1190,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="89be-240a-4e45-3263" hidden="true">
+            <rule name="Tamaño de peana" id="89be-240a-4e45-3263" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -1222,8 +1222,8 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad debe usar esta habilidad cada turno.
-Si esta unidad ha usado alguna habilidad de **^^Fight^^** este turno, coloca una **ficha de ira** junto a ella, hasta un máximo de 3. Si esta unidad no ha usado ninguna habilidad de **^^Fight^^** este turno, retira todas las **fichas de ira** que tenga.
-Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad por cada **ficha de ira** que tenga hasta el final del siguiente turno.</characteristic>
+Si esta unidad ha usado alguna habilidad de **^^Combatir^^** este turno, coloca una **ficha de ira** junto a ella, hasta un máximo de 3. Si esta unidad no ha usado ninguna habilidad de **^^Combatir^^** este turno, retira todas las **fichas de ira** que tenga.
+Suma 1 a la característica de Attacks de las armas **Compañero** de esta unidad por cada **ficha de ira** que tenga hasta el final del siguiente turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1237,7 +1237,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos esta unidad y cada unidad amiga **Lanceros aggradón** que esté totalmente a 12" o menos de ella.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 1 a la característica de Attacks de las armas **Companion** de los objetivos durante el resto del turno. Además, coloca una **ficha de ira** junto a cada objetivo, hasta un máximo de 3 por unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 1 a la característica de Attacks de las armas **Compañero** de los objetivos durante el resto del turno. Además, coloca una **ficha de ira** junto a cada objetivo, hasta un máximo de 3 por unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1293,7 +1293,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a1f7-75ff-412f-ede5"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="1a9c-97ed-9efd-c3b8" hidden="true">
+            <rule name="Tamaño de peana" id="1a9c-97ed-9efd-c3b8" hidden="true">
               <description>90x52mm</description>
             </rule>
           </rules>
@@ -1429,7 +1429,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="6617-957d-43f0-1b27" hidden="true">
+            <rule name="Tamaño de peana" id="6617-957d-43f0-1b27" hidden="true">
               <description>50mm</description>
             </rule>
           </rules>
@@ -1450,7 +1450,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de carga</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no está en combate, elige como objetivo una unidad amiga **Jinetes de asalto raptadón** que haya cargado este turno y esté a 12" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar una habilidad de **^^Shoot^^** como si fuera tu fase de disparo. Debe tener como objetivo una unidad enemiga visible en combate con el objetivo.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar una habilidad de **^^Disparar^^** como si fuera tu fase de disparo. Debe tener como objetivo una unidad enemiga visible en combate con el objetivo.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1590,7 +1590,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="94a7-2946-f25a-c4e0" hidden="true">
+            <rule name="Tamaño de peana" id="94a7-2946-f25a-c4e0" hidden="true">
               <description>60x35mm</description>
             </rule>
           </rules>
@@ -1729,7 +1729,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="fe99-75c4-b7ac-8127" hidden="true">
+            <rule name="Tamaño de peana" id="fe99-75c4-b7ac-8127" hidden="true">
               <description>60x35mm</description>
             </rule>
           </rules>
@@ -1950,7 +1950,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="b47a-265d-4811-fcdf" hidden="true">
+            <rule name="Tamaño de peana" id="b47a-265d-4811-fcdf" hidden="true">
               <description>2/5 28.5mm (Campeón, Jabalina de cazador)
 3/5 25mm</description>
             </rule>
@@ -2125,7 +2125,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="f680-c815-6a78-8809" hidden="true">
+            <rule name="Tamaño de peana" id="f680-c815-6a78-8809" hidden="true">
               <description>1/5 28.5mm (Campeón)
 4/5 25mm</description>
             </rule>
@@ -2152,7 +2152,7 @@ Suma 1 a la característica de Attacks de las armas **Companion** de esta unidad
         <profile name="Llama alimentada por ácido" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d53c-1eaa-a406-bafa">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad de **^^Shoot^^**, debes elegir su arma a distancia **Glóbulo de ácido flamígero** o su **Torrente de fuego**.
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad de **^^Disparar^^**, debes elegir su arma a distancia **Glóbulo de ácido flamígero** o su **Torrente de fuego**.
 Además, tras resolver los ataques de disparo hechos con el **Glóbulo de ácido flamígero** de esta unidad, si esos ataques han asignado algún punto de daño a una unidad enemiga, resta 1 a las tiradas de salvación de esa unidad enemiga durante el resto del turno.</characteristic>
           </characteristics>
           <attributes>
@@ -2240,7 +2240,7 @@ Cada vez que hagas una tirada de salvación sin modificar de 1 para esta unidad,
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b916-4479-3b64-7ab1"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="f9d2-99e6-0adc-9518" hidden="true">
+            <rule name="Tamaño de peana" id="f9d2-99e6-0adc-9518" hidden="true">
               <description>90x52mm</description>
             </rule>
           </rules>
@@ -2342,7 +2342,7 @@ Cada vez que hagas una tirada de salvación sin modificar de 1 para esta unidad,
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7973-665e-7b-7546"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="df59-58b1-9c3a-a5e8" hidden="true">
+            <rule name="Tamaño de peana" id="df59-58b1-9c3a-a5e8" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -2422,7 +2422,7 @@ Cada vez que hagas una tirada de salvación sin modificar de 1 para esta unidad,
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c57b-98b2-d5d1-4916"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="ef37-0d18-6b0e-c765" hidden="true">
+            <rule name="Tamaño de peana" id="ef37-0d18-6b0e-c765" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -2506,7 +2506,7 @@ Cada vez que hagas una tirada de salvación sin modificar de 1 para esta unidad,
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78fb-8103-c384-ff46"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="5245-1dde-41ef-6dcf" hidden="true">
+            <rule name="Tamaño de peana" id="5245-1dde-41ef-6dcf" hidden="true">
               <description>50mm</description>
             </rule>
           </rules>
@@ -2541,7 +2541,7 @@ Cada vez que hagas una tirada de salvación sin modificar de 1 para esta unidad,
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado y suma 2 al resultado si esta unidad está dentro del alcance de combate de alguna unidad amiga **Jinetes de terradón**.
 Con un 5+:
 • Inflige D3 de daño mortal al objetivo.
-• Si esta habilidad asigna algún punto de daño y el objetivo no tiene **^^Volar^^**, el objetivo no puede usar habilidades de **^^Run^^** hasta el inicio de tu siguiente turno.</characteristic>
+• Si esta habilidad asigna algún punto de daño y el objetivo no tiene **^^Volar^^**, el objetivo no puede usar habilidades de **^^Correr^^** hasta el inicio de tu siguiente turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2608,7 +2608,7 @@ Con un 5+:
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="309-ed71-595f-f9a0"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="b8f6-3403-34e9-c96f" hidden="true">
+            <rule name="Tamaño de peana" id="b8f6-3403-34e9-c96f" hidden="true">
               <description>50mm</description>
             </rule>
           </rules>
@@ -2642,7 +2642,7 @@ Con un 5+:
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga sobre la que esta unidad haya pasado esta fase.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado por cada miniatura de esta unidad, y suma 2 a cada resultado si esta unidad está dentro del alcance de combate de alguna unidad amiga **Jefe de terradones**. Por cada 5+:
 • Inflige 1 de daño mortal al objetivo.
-• Si esta habilidad asigna algún punto de daño y el objetivo no tiene **^^Volar^^**, el objetivo no puede usar habilidades de **^^Run^^** hasta el inicio de tu siguiente turno.</characteristic>
+• Si esta habilidad asigna algún punto de daño y el objetivo no tiene **^^Volar^^**, el objetivo no puede usar habilidades de **^^Correr^^** hasta el inicio de tu siguiente turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2763,7 +2763,7 @@ Con un 5+:
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="f7cd-e926-7567-7003" hidden="true">
+            <rule name="Tamaño de peana" id="f7cd-e926-7567-7003" hidden="true">
               <description>50mm</description>
             </rule>
           </rules>
@@ -2793,7 +2793,7 @@ Con un 5+:
         <profile name="Coordinación eslizón" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9b43-9dee-6ab5-80f5">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si una unidad amiga que no sea **^^Monster Eslizón^^** usa la orden &apos;Redeploy&apos; mientras está totalmente a 18" o menos de esta unidad, no se gastan puntos de orden.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si una unidad amiga que no sea **^^Monster Eslizón^^** usa la orden &apos;Redesplegar&apos; mientras está totalmente a 18" o menos de esta unidad, no se gastan puntos de orden.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Gray</attribute>
@@ -2953,7 +2953,7 @@ Con un 5+:
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="f541-a2a9-3d87-03fb" hidden="true">
+            <rule name="Tamaño de peana" id="f541-a2a9-3d87-03fb" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -3110,7 +3110,7 @@ Con un 5+:
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="957a-775c-99f6-80bc" hidden="true">
+            <rule name="Tamaño de peana" id="957a-775c-99f6-80bc" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -3161,9 +3161,9 @@ Con un 5+:
       <rules>
         <rule name="Máquina modelarreinos" id="8617-b033-c4bc-82c7" hidden="false">
           <description>**Las siguientes habilidades universales de escenografía se aplican a este elemento de escenografía (Terrain, 1.2):
-Cover, Unstable**</description>
+Cobertura, Inestable**</description>
         </rule>
-        <rule name="Base Size" id="c745-4cd4-dc18-1896" hidden="true">
+        <rule name="Tamaño de peana" id="c745-4cd4-dc18-1896" hidden="true">
           <description>Usar miniatura</description>
         </rule>
       </rules>
@@ -3193,7 +3193,7 @@ Cover, Unstable**</description>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga visible **^^Seraphon^^** totalmente a 18" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 2+, las armas de combate cuerpo a cuerpo del objetivo tienen **Crit (Auto-wound)** hasta el inicio de tu siguiente turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 2+, las armas de combate cuerpo a cuerpo del objetivo tienen **Crítico (herida automática)** hasta el inicio de tu siguiente turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -3231,7 +3231,7 @@ Cover, Unstable**</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6df8-7bfe-b76e-2554"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="48bf-6d2d-00a3-797e" hidden="true">
+            <rule name="Tamaño de peana" id="48bf-6d2d-00a3-797e" hidden="true">
               <description>25mm</description>
             </rule>
           </rules>
@@ -3352,7 +3352,7 @@ Cover, Unstable**</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="528d-f3d5-0087-f8ef" hidden="true">
+            <rule name="Tamaño de peana" id="528d-f3d5-0087-f8ef" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -3467,7 +3467,7 @@ Cover, Unstable**</description>
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Base Size" id="5e99-b79c-8cf5-d13b" hidden="true">
+            <rule name="Tamaño de peana" id="5e99-b79c-8cf5-d13b" hidden="true">
               <description>50mm</description>
             </rule>
           </rules>
@@ -3599,7 +3599,7 @@ Cover, Unstable**</description>
             </modifier>
           </modifiers>
           <rules>
-            <rule name="Base Size" id="cc4b-f5ef-aa0e-792b" hidden="true">
+            <rule name="Tamaño de peana" id="cc4b-f5ef-aa0e-792b" hidden="true">
               <description>50mm</description>
             </rule>
           </rules>
@@ -3762,7 +3762,7 @@ Cover, Unstable**</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a599-5e76-748b-a1da"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="91d4-43dc-ec4a-62e8" hidden="true">
+            <rule name="Tamaño de peana" id="91d4-43dc-ec4a-62e8" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -3889,7 +3889,7 @@ Cover, Unstable**</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccd9-5ebf-39b6-23db"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="7d48-533b-35ba-0673" hidden="true">
+            <rule name="Tamaño de peana" id="7d48-533b-35ba-0673" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -3918,9 +3918,9 @@ Cover, Unstable**</description>
         </profile>
         <profile name="Ejemplar depredador" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9154-4adb-2bc-48a2">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: has declarado una habilidad de **^^Fight^^** para esta unidad</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: has declarado una habilidad de **^^Combatir^^** para esta unidad</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga que no sea **^^Hero Saurus Infantry^^** que no haya usado una habilidad de **^^Fight^^** este turno y que esté dentro del alcance de combate de esta unidad. El objetivo puede ser elegido para usar una habilidad de Fight inmediatamente después de que se haya resuelto la habilidad de **^^Fight^^** usada por esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga que no sea **^^Hero Saurus Infantry^^** que no haya usado una habilidad de **^^Combatir^^** este turno y que esté dentro del alcance de combate de esta unidad. El objetivo puede ser elegido para usar una habilidad de Combatir inmediatamente después de que se haya resuelto la habilidad de **^^Combatir^^** usada por esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -3972,7 +3972,7 @@ Cover, Unstable**</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73bb-b64a-96f7-40a6"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="1e7a-c442-4f10-6ca2" hidden="true">
+            <rule name="Tamaño de peana" id="1e7a-c442-4f10-6ca2" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -4063,7 +4063,7 @@ Cover, Unstable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="1768-1792-a93b-bfe3" hidden="true">
+            <rule name="Tamaño de peana" id="1768-1792-a93b-bfe3" hidden="true">
               <description>25mm</description>
             </rule>
           </rules>
@@ -4094,7 +4094,7 @@ Cover, Unstable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="352a-0f98-b404-0b65" hidden="true">
+            <rule name="Tamaño de peana" id="352a-0f98-b404-0b65" hidden="true">
               <description>25mm</description>
             </rule>
           </rules>
@@ -4139,7 +4139,7 @@ Cover, Unstable**</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="59dd-21a6-5528-419f" hidden="true">
+            <rule name="Tamaño de peana" id="59dd-21a6-5528-419f" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -4170,7 +4170,7 @@ Cover, Unstable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="fff1-ffad-229a-f618" hidden="true">
+            <rule name="Tamaño de peana" id="fff1-ffad-229a-f618" hidden="true">
               <description>25mm</description>
             </rule>
           </rules>
@@ -4201,7 +4201,7 @@ Cover, Unstable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="2bc0-fa88-6a8a-9efd" hidden="true">
+            <rule name="Tamaño de peana" id="2bc0-fa88-6a8a-9efd" hidden="true">
               <description>25mm</description>
             </rule>
           </rules>
@@ -4232,7 +4232,7 @@ Cover, Unstable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="d674-3639-fded-b06e" hidden="true">
+            <rule name="Tamaño de peana" id="d674-3639-fded-b06e" hidden="true">
               <description>25mm</description>
             </rule>
           </rules>
@@ -4320,7 +4320,7 @@ Cover, Unstable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="956a-86a6-f89c-e251" hidden="true">
+            <rule name="Tamaño de peana" id="956a-86a6-f89c-e251" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -4365,7 +4365,7 @@ Cover, Unstable**</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <rules>
-            <rule name="Base Size" id="51c9-03bb-69d3-b565" hidden="true">
+            <rule name="Tamaño de peana" id="51c9-03bb-69d3-b565" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -4396,7 +4396,7 @@ Cover, Unstable**</description>
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="8115-db65-5f6d-1336" hidden="true">
+            <rule name="Tamaño de peana" id="8115-db65-5f6d-1336" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -4458,7 +4458,7 @@ Cover, Unstable**</description>
         <profile name="Enloquecidos por la sangre" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b53e-fafe-e5d8-eb99">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Damage de las armas **Companion** de esta unidad mientras esté a 6" o menos de cualquier unidad enemiga dañada o mientras esté a 6" o menos de cualquier unidad enemiga a la que se le hayan abatido miniaturas en el mismo turno.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Damage de las armas **Compañero** de esta unidad mientras esté a 6" o menos de cualquier unidad enemiga dañada o mientras esté a 6" o menos de cualquier unidad enemiga a la que se le hayan abatido miniaturas en el mismo turno.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -4544,7 +4544,7 @@ Cover, Unstable**</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d64-76bd-fad1-be9c"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="8736-b6fd-697d-ecc2" hidden="true">
+            <rule name="Tamaño de peana" id="8736-b6fd-697d-ecc2" hidden="true">
               <description>120x92mm</description>
             </rule>
           </rules>
@@ -4650,7 +4650,7 @@ Con un 1, retira del campo de batalla la ficha **Venomites** de esta unidad. Con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="c4b7-9af2-b1d3-9237" hidden="true">
+            <rule name="Tamaño de peana" id="c4b7-9af2-b1d3-9237" hidden="true">
               <description>40mm</description>
             </rule>
           </rules>
@@ -4693,7 +4693,7 @@ Con un 1, retira del campo de batalla la ficha **Venomites** de esta unidad. Con
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Base Size" id="aea5-1ca8-c722-4751" hidden="true">
+            <rule name="Tamaño de peana" id="aea5-1ca8-c722-4751" hidden="true">
               <description>32mm</description>
             </rule>
           </rules>
@@ -4765,14 +4765,14 @@ Con un 1, retira del campo de batalla la ficha **Venomites** de esta unidad. Con
         </profile>
         <profile name="Instintos reptilianos" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c670-c497-9b7f-c7ef">
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: el oponente ha declarado una habilidad de **^^Shoot^^**</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: el oponente ha declarado una habilidad de **^^Disparar^^**</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar esta habilidad incluso si está en reserva. Elige como objetivos cada unidad amiga que esté **acechando a la presa**.
-Después de que se haya resuelto esa habilidad de **^^Shoot^^**, coloca cada objetivo en el campo de batalla a más de 9" de todas las unidades enemigas y a 18" o menos de la unidad que usó la habilidad de **^^Shoot^^**.
+Después de que se haya resuelto esa habilidad de **^^Disparar^^**, coloca cada objetivo en el campo de batalla a más de 9" de todas las unidades enemigas y a 18" o menos de la unidad que usó la habilidad de **^^Disparar^^**.
 Después, puedes gastar hasta 3 **dados de ira**. Si lo haces:
 • Si el **nivel de furia** de tu oponente es inferior al tuyo, debe aumentar su **nivel de furia** en 1, hasta un máximo de 7.
-• Cada objetivo puede moverse hasta **X**", donde **X** es el número de **dados de ira** gastados. Debe terminar ese movimiento sin alejarse más de la unidad que usó la habilidad de **^^Shoot^^** de lo que estaba al inicio del movimiento.
-Después, durante el resto del turno, cada vez que un objetivo use una habilidad de **^^Charge^^**, debe terminar ese movimiento de carga en combate con la unidad que usó la habilidad de **^^Shoot^^**</characteristic>
+• Cada objetivo puede moverse hasta **X**", donde **X** es el número de **dados de ira** gastados. Debe terminar ese movimiento sin alejarse más de la unidad que usó la habilidad de **^^Disparar^^** de lo que estaba al inicio del movimiento.
+Después, durante el resto del turno, cada vez que un objetivo use una habilidad de **^^Cargar^^**, debe terminar ese movimiento de carga en combate con la unidad que usó la habilidad de **^^Disparar^^**</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -4828,7 +4828,7 @@ Después, durante el resto del turno, cada vez que un objetivo use una habilidad
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b13-f91b-d289-80c8"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="c9da-ca4f-540f-e2c4" hidden="true">
+            <rule name="Tamaño de peana" id="c9da-ca4f-540f-e2c4" hidden="true">
               <description>90x52mm</description>
             </rule>
           </rules>
@@ -4912,7 +4912,7 @@ Después, durante el resto del turno, suma **X** a la característica de Damage 
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige como objetivo una unidad enemiga visible a 12" o menos de esta unidad y después haz una tirada de lanzamiento de 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Hasta el inicio de tu siguiente turno, aparte de la habilidad de arma **Companion**, las habilidades de arma de los ataques del objetivo no tienen efecto.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Hasta el inicio de tu siguiente turno, aparte de la habilidad de arma **Compañero**, las habilidades de arma de los ataques del objetivo no tienen efecto.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Hechizo^^**</characteristic>
           </characteristics>
           <attributes>
@@ -4949,7 +4949,7 @@ Después, durante el resto del turno, suma **X** a la característica de Damage 
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ee1e-3e00-3521-6d5d"/>
           </constraints>
           <rules>
-            <rule name="Base Size" id="6a1a-cc25-feb2-0996" hidden="true">
+            <rule name="Tamaño de peana" id="6a1a-cc25-feb2-0996" hidden="true">
               <description>80mm</description>
             </rule>
           </rules>

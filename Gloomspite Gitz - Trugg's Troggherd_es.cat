@@ -11,7 +11,7 @@
         <entryLink import="true" name="Artefacts of Power" hidden="false" id="2104-3a8a-558b-9617" type="selectionEntryGroup" targetId="24ec-6860-93dc-35de"/>
         <entryLink import="true" name="Paths" hidden="false" id="ac40-f441-a944-a71c" type="selectionEntryGroup" targetId="4d51-f8e0-5cc1-b93c"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="523f-ece7-2969-1797" type="selectionEntryGroup" targetId="6cf2-b737-c12a-a5b9"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="e8d6-dfb2-b3ae-08ff" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="e8d6-dfb2-b3ae-08ff" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="69ec-bedd-c6a6-d55a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="4012-04ec-20b4-f967" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -234,7 +234,7 @@
         <categoryLink name="TRUGG&apos;S TROGGHERD" hidden="false" id="e636-1aee-2f2d-ec57" targetId="d960-e20e-e995-7986" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: Trugg&apos;s Troggherd" hidden="false" id="1044-fd68-2fbb-0434" type="selectionEntry" targetId="5ccf-f55a-d218-6fd9"/>
+    <entryLink import="true" name="Rasgos de batalla: Manada de Troggoths de Trugg" hidden="false" id="1044-fd68-2fbb-0434" type="selectionEntry" targetId="5ccf-f55a-d218-6fd9"/>
   </entryLinks>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Gloomspite Gitz - Library" id="2137-1d4-2119-2efc" targetId="9fb4-c9d6-3da7-5b5d"/>
@@ -274,7 +274,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="3072-b356-1731-5f3b" hidden="true">
+            <rule name="Restricciones de mejoras" id="3072-b356-1731-5f3b" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -306,7 +306,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar 2 habilidades **^^Fight^^** esta fase. Sin embargo, después de usar la primera, esta unidad tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar 2 habilidades **^^Combatir^^** esta fase. Sin embargo, después de usar la primera, esta unidad tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -323,7 +323,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="28c1-0dbb-d011-6f20" hidden="true">
+            <rule name="Restricciones de mejoras" id="28c1-0dbb-d011-6f20" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -398,12 +398,12 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Trugg&apos;s Troggherd" hidden="false" id="5ccf-f55a-d218-6fd9">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Manada de Troggoths de Trugg" hidden="false" id="5ccf-f55a-d218-6fd9">
       <profiles>
         <profile name="Curación del rebaño" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9033-55ac-723f-1f4f">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad amiga **^^Troggoth^^** use una habilidad **^^Fight^^**, después de resolver esa habilidad, **Heal (D3)** a esa unidad.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad amiga **^^Troggoth^^** use una habilidad **^^Combatir^^**, después de resolver esa habilidad, **Heal (D3)** a esa unidad.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -414,7 +414,7 @@
         <profile name="Aura de magia descontrolada" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b7ea-4b91-4f97-8c67">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Los efectos de la habilidad &apos;Piedra ley defectuosa&apos; de un **Trugg** amigo afectan a las unidades amigas **^^Trugg&apos;s Troggherd^^** en cualquier parte del campo de batalla, en lugar de solo a las que estén totalmente a 12" o menos de ese **Trugg** amigo.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Los efectos de la habilidad &apos;Piedra ley defectuosa&apos; de un **Trugg** amigo afectan a las unidades amigas **^^Trugg&apos;s Manada de Troggoths^^** en cualquier parte del campo de batalla, en lugar de solo a las que estén totalmente a 12" o menos de ese **Trugg** amigo.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
@@ -425,7 +425,7 @@
         <profile name="Piel endurecida por la luna" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="eaa4-74b1-f6f9-0082">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">En las rondas de batalla 2 y 3, resta 1 a la característica de Rend de las armas de combate cuerpo a cuerpo usadas en ataques que tengan como objetivo unidades amigas **^^Trugg&apos;s Troggherd^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">En las rondas de batalla 2 y 3, resta 1 a la característica de Rend de las armas de combate cuerpo a cuerpo usadas en ataques que tengan como objetivo unidades amigas **^^Trugg&apos;s Manada de Troggoths^^**.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -436,7 +436,7 @@
         <profile name="Sueño interrumpido" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1764-b00e-7944-dc2f">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Trugg&apos;s Troggherd^^** que sea un **hito viviente**.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Trugg&apos;s Manada de Troggoths^^** que sea un **hito viviente**.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca esa unidad en cualquier parte del campo de batalla totalmente a 3" o menos de un elemento de escenografía y a más de 9" de todas las unidades enemigas.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -450,7 +450,7 @@
         <profile name="Hito viviente" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f05f-314a-8999-1fb8">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Trugg&apos;s Troggherd^^** que no haya sido desplegada</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Trugg&apos;s Manada de Troggoths^^** que no haya sido desplegada</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca esa unidad en reserva como un **hito viviente**. Ya ha sido desplegada.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Despliegue^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>

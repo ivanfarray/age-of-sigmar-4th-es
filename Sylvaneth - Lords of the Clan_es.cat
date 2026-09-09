@@ -61,7 +61,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="e9fd-e27d-5df5-0f27" hidden="true">
+            <rule name="Restricciones de mejoras" id="e9fd-e27d-5df5-0f27" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -92,7 +92,7 @@
                 <profile name="Poder ancestral" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ce31-1c63-c9be-b839">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades de **^^Charge^^** aunque esté en combate. Si al hacerlo la tirada de carga es 3 o menos, no cuenta como que ha cargado.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades de **^^Cargar^^** aunque esté en combate. Si al hacerlo la tirada de carga es 3 o menos, no cuenta como que ha cargado.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Orange</attribute>
@@ -107,7 +107,7 @@
             </selectionEntry>
           </selectionEntries>
           <rules>
-            <rule name="Enhancement Restrictions" id="61ed-ccf3-7985-8bfa" hidden="true">
+            <rule name="Restricciones de mejoras" id="61ed-ccf3-7985-8bfa" hidden="true">
               <description>solo **^^Hero^^**</description>
             </rule>
           </rules>
@@ -191,12 +191,12 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Traits: Lords of the Clan" hidden="false" id="bf4b-53ca-1c06-9a9f" publicationId="61ee-fae0-f1da-2591">
+    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Señores del Clan" hidden="false" id="bf4b-53ca-1c06-9a9f" publicationId="61ee-fae0-f1da-2591">
       <profiles>
         <profile name="Héroes latentes" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="b5d5-d618-869d-bc19">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si hay más unidades **^^Lords of the Clan^^** en el campo de batalla que en reserva, elige una unidad amiga **^^Lords of the Clan Monster^^** que no haya sido desplegada.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si hay más unidades **^^Señores del Clan^^** en el campo de batalla que en reserva, elige una unidad amiga **^^Señores del Clan Monster^^** que no haya sido desplegada.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca esa unidad en reserva como **espíritu del bosque durmiente**. Ahora se considera desplegada.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Despliegue^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -212,7 +212,7 @@
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), fase de despliegue</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Solo puedes usar esta habilidad si hay una **Bosque salvaje despierto** amiga en el campo de batalla.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Puedes colocar hasta 2 **Awakened Wyldwoods** adicionales en el campo de batalla (una Bosque salvaje despierto es una única miniatura de árbol con peana en forma de media luna). La primera puede colocarse en cualquier lugar del campo de batalla a más de 3" de todas las unidades, marcadores de objetivo y demás elementos de escenografía. La segunda puede colocarse en cualquier lugar del campo de batalla totalmente fuera del territorio enemigo y a más de 3" de todas las unidades, marcadores de objetivo y demás elementos de escenografía.
-**Nota del diseñador:** *La* **Bosque salvaje despierto** *original se coloca en el Paso 1 de la fase de despliegue mediante la habilidad &apos;Deploy Faction Terrain&apos;. Esta habilidad te permite colocar una segunda y una tercera de estas piezas de escenografía, y se usa en el Paso 3 de la fase de despliegue, después de que los ejércitos hayan sido desplegados.*</characteristic>
+**Nota del diseñador:** *La* **Bosque salvaje despierto** *original se coloca en el Paso 1 de la fase de despliegue mediante la habilidad &apos;Desplegar escenografía de facción&apos;. Esta habilidad te permite colocar una segunda y una tercera de estas piezas de escenografía, y se usa en el Paso 3 de la fase de despliegue, después de que los ejércitos hayan sido desplegados.*</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -226,7 +226,7 @@
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La **maleza reptante** (a la que hacen referencia otras habilidades) se extiende 6" desde cada elemento de escenografía que tenga un **marcador de maleza** amigo.
-Aumenta este alcance en 1" por cada unidad amiga **^^Lords of the Clan^^** que esté totalmente fuera de tu territorio.</characteristic>
+Aumenta este alcance en 1" por cada unidad amiga **^^Señores del Clan^^** que esté totalmente fuera de tu territorio.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -240,8 +240,8 @@ Aumenta este alcance en 1" por cada unidad amiga **^^Lords of the Clan^^** que e
             <characteristic name="Cost" typeId="a49e-3082-e2a6-e802">1</characteristic>
             <characteristic name="Declare" typeId="b77f-7548-840e-c086">Elige como objetivo una unidad enemiga a 9" o menos de una **Bosque salvaje despierto** amiga.</characteristic>
             <characteristic name="Effect" typeId="2111-3ca8-61dd-a5f0">Elige 1 de las siguientes unidades:
-• Una unidad amiga **^^Lords of the Clan^^** que esté en reserva como **espíritu del bosque durmiente**.
-• Una unidad amiga **^^Lords of the Clan Monster^^** que haya sido destruida.
+• Una unidad amiga **^^Señores del Clan^^** que esté en reserva como **espíritu del bosque durmiente**.
+• Una unidad amiga **^^Señores del Clan Monster^^** que haya sido destruida.
 Coloca la unidad elegida, o una unidad de reemplazo si elegiste una unidad destruida, a 9" o menos del objetivo, totalmente a 6" o menos de esa **Bosque salvaje despierto** amiga y sin estar en combate. Si colocas una unidad de reemplazo, asígnale 6 puntos de daño (no se pueden hacer tiradas de salvaguardia contra esos puntos de daño).
 Después, retira esa **Bosque salvaje despierto** amiga del campo de batalla.</characteristic>
             <characteristic name="Keywords" typeId="445d-f443-5448-e7ce"/>
@@ -338,7 +338,7 @@ Después, retira esa **Bosque salvaje despierto** amiga del campo de batalla.</c
         <entryLink import="true" name="Heroic Traits" hidden="false" id="0a30-8d06-4934-6ee0" type="selectionEntryGroup" targetId="20a5-56d6-0ce7-e4a3"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="5e00-977a-9caf-a443" type="selectionEntryGroup" targetId="68cf-152c-e7f7-61e3"/>
         <entryLink import="true" name="Paths" hidden="false" id="3db6-d757-21a2-bfb2" type="selectionEntryGroup" targetId="08d0-a048-d85d-8394"/>
-        <entryLink import="true" name="Warlord" hidden="false" id="d912-9cad-2750-d420" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="d912-9cad-2750-d420" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="a5d0-cbec-c378-c89d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="cce1-b83a-6ea5-5105" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
@@ -455,7 +455,7 @@ Después, retira esa **Bosque salvaje despierto** amiga del campo de batalla.</c
         <cost name="pts" typeId="points" value="280"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="5145-6c5d-66bf-b33e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="5145-6c5d-66bf-b33e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="d17b-c4a1-9cd3-f9e9" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="d7b2-1dbd-d83a-fb33" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
         <entryLink import="true" name="Paths" hidden="false" id="1ae9-5776-53a8-dff8" type="selectionEntryGroup" targetId="08d0-a048-d85d-8394"/>
@@ -501,7 +501,7 @@ Después, retira esa **Bosque salvaje despierto** amiga del campo de batalla.</c
         <categoryLink name="LORDS OF THE CLAN" hidden="false" id="dd2b-c7a1-b902-a11e" targetId="cef8-80ee-19a7-ad9b" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Battle Traits: Lords of the Clan" hidden="false" id="2e8d-e14b-5731-7104" type="selectionEntry" targetId="bf4b-53ca-1c06-9a9f">
+    <entryLink import="true" name="Rasgos de batalla: Señores del Clan" hidden="false" id="2e8d-e14b-5731-7104" type="selectionEntry" targetId="bf4b-53ca-1c06-9a9f">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ed7f-10d9-814d-feff" includeChildSelections="true"/>
       </constraints>
@@ -633,7 +633,7 @@ Después, retira esa **Bosque salvaje despierto** amiga del campo de batalla.</c
         <cost name="pts" typeId="points" value="220"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="5f78-3397-9171-b102" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="5f78-3397-9171-b102" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="c1b7-329b-acf1-86ad" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="e273-920d-e844-31c4" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
         <entryLink import="true" name="Paths" hidden="false" id="9108-4e5b-e46e-b707" type="selectionEntryGroup" targetId="08d0-a048-d85d-8394"/>
@@ -680,7 +680,7 @@ Después, retira esa **Bosque salvaje despierto** amiga del campo de batalla.</c
     </entryLink>
     <entryLink import="true" name="Yunque de la apoteosis: héroe anciano del bosque" hidden="false" id="d3dc-5b6d-2b1e-b05b" type="selectionEntry" targetId="db28-0831-3342-1f0f">
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="2014-0d32-0e26-bb76" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="2014-0d32-0e26-bb76" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="974f-1e5f-0129-70c7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="2ff8-f225-d617-b6c4" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
         <entryLink import="true" name="Paths" hidden="false" id="044f-2b19-4be8-3760" type="selectionEntryGroup" targetId="08d0-a048-d85d-8394"/>
@@ -720,7 +720,7 @@ Después, retira esa **Bosque salvaje despierto** amiga del campo de batalla.</c
         <cost name="pts" typeId="points" value="290"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" id="40f7-8528-d318-f92c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
+        <entryLink import="true" name="Caudillo" hidden="false" id="40f7-8528-d318-f92c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
         <entryLink import="true" name="Renown" hidden="false" id="fcb7-51cc-e8b1-e735" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="e1ff-d3bf-30ec-758f" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
         <entryLink import="true" name="Paths" hidden="false" id="172f-b1c7-c1a6-322f" type="selectionEntryGroup" targetId="08d0-a048-d85d-8394"/>
