@@ -1,4 +1,4 @@
-"""Comprueba unidades, armas, manifestaciones, habilidades y alias visibles.
+"""Comprueba nombres visibles de unidades, habilidades, menus y catalogos.
 
 Ejecutar desde la raiz: python tools/verify-name-coverage.py
 No modifica datos. Detecta nombres nuevos tras actualizar los originales.
@@ -12,6 +12,10 @@ PROFILE_TYPES = {
     'Ability (Activated)', 'Ability (Passive)', 'Ability (Command)',
     'Ability (Spell)', 'Ability (Prayer)', 'Ability (Blood Tithe)',
     'Ability (Fate)', 'Battle Tactic Card',
+}
+MENU_NAME_TAGS = {
+    'catalogue', 'catalogueLink', 'gameSystem', 'forceEntry', 'forceEntryLink',
+    'selectionEntry', 'selectionEntryGroup', 'entryLink', 'infoLink',
 }
 
 
@@ -43,7 +47,7 @@ def required_names():
                 any(tag(q) == 'rule' for c in e if tag(c) == 'rules' for q in c) or
                 any(q.get('targetId') in profile_ids for c in e
                     if tag(c) == 'infoLinks' for q in c))
-            if is_profile or is_entry:
+            if is_profile or is_entry or kind in MENU_NAME_TAGS:
                 record(e.get('name'), source)
                 targets.add(e.get('id'))
             if kind == 'modifier' and e.get('field') == 'name':

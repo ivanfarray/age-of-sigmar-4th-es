@@ -1662,7 +1662,7 @@
         <forceEntryLink name="Volt-Klaw&apos;s Enginecoven" id="6684-f20b-3434-53a9" hidden="false" targetId="ffc1-e2cb-f2f0-f72e" type="forceEntry"/>
         <forceEntryLink name="Big Drogg Fort-kicker" id="cf39-97b2-fd11-c788" hidden="false" targetId="10b2-4a3a-8629-90ef" type="forceEntry"/>
         <forceEntryLink name="Big Grikk&apos;s Kruleshots" id="f5bc-384e-2379-ac6e" hidden="false" targetId="a11c-1f80-1875-4639" type="forceEntry"/>
-        <forceEntryLink name="Blades of the Hollow King" id="9eeb-5066-41e1-a3e4" hidden="false" targetId="26c8-fdae-c6b6-e347" type="forceEntry"/>
+        <forceEntryLink name="Espadas del Rey Hueco" id="9eeb-5066-41e1-a3e4" hidden="false" targetId="26c8-fdae-c6b6-e347" type="forceEntry"/>
         <forceEntryLink name="Bloodthirsty Shiver" id="29b6-0408-02c2-ed03" hidden="false" targetId="0bd1-a3d9-9fa6-87a1" type="forceEntry"/>
         <forceEntryLink name="Braggit&apos;s Bottle-snatchaz" id="2116-07ec-79a3-c00e" hidden="false" targetId="d704-19f-a3d0-5edd" type="forceEntry"/>
         <forceEntryLink name="Brand&apos;s Oathbound" id="a77a-2c33-2058-cc55" hidden="false" targetId="f8bf-3c82-73dc-a7e8" type="forceEntry"/>
@@ -1690,7 +1690,7 @@
         <forceEntryLink name="Odo Godswallow" id="2e14-8a95-f1b4-b7b4" hidden="false" targetId="8a04-83ad-bc2-5354" type="forceEntry"/>
         <forceEntryLink name="One-eyed Grunnock" id="72c1-9fa3-efd2-704c" hidden="false" targetId="733b-7b81-c2b-b772" type="forceEntry"/>
         <forceEntryLink name="Phulgoth&apos;s Shudderhood" id="b1e4-af38-0f83-db55" hidden="false" targetId="69d0-b9be-62a8-5ae4" type="forceEntry"/>
-        <forceEntryLink name="Saviours of Cinderfall" id="6c30-d047-fc7d-2301" hidden="false" targetId="4585-a85c-ebec-6527" type="forceEntry"/>
+        <forceEntryLink name="Salvadores de Cinderfall" id="6c30-d047-fc7d-2301" hidden="false" targetId="4585-a85c-ebec-6527" type="forceEntry"/>
         <forceEntryLink name="Scions of the Necropolis" id="8250-a0f9-9726-1098" hidden="false" targetId="4790-92d-f8a7-bd55" type="forceEntry"/>
         <forceEntryLink name="Skulkrik&apos;s Loonladz" id="fe3f-5c57-d404-773b" hidden="false" targetId="2e3e-7081-a0db-9079" type="forceEntry"/>
         <forceEntryLink name="Sky-Port Profiteers" id="bdb2-a4a4-aaa9-b84f" hidden="false" targetId="5b4a-c0d3-7f5f-3794" type="forceEntry"/>
@@ -1723,7 +1723,7 @@
         <forceEntryLink name="Karahtet&apos;s Siege Breaker" id="2619-a9f3-b85f-78dc" hidden="false" targetId="7799-20f4-4e7c-6474" type="forceEntry"/>
         <forceEntryLink name="Sigil Convocation" id="49d5-1863-235d-a264" hidden="false" targetId="a305-c205-8cff-9744" type="forceEntry"/>
         <forceEntryLink name="Dawnrider Lance" id="1232-8ff0-acfd-d3fc" hidden="false" targetId="d28a-f6a8-df8a-b38c" type="forceEntry"/>
-        <forceEntryLink name="Mask of the Deceiver" id="4141-4799-3cc3-9f58" hidden="false" targetId="3378-9dbf-9e74-cf5a" type="forceEntry"/>
+        <forceEntryLink name="Máscara del Embaucador" id="4141-4799-3cc3-9f58" hidden="false" targetId="3378-9dbf-9e74-cf5a" type="forceEntry"/>
         <forceEntryLink name="Seekers of Silver" id="6e14-e952-db7a-3a53" hidden="false" targetId="649c-3737-f793-fe6a" type="forceEntry"/>
         <forceEntryLink name="Heralds of the Bone-tithe" id="dd02-29ce-4a08-04b5" hidden="false" targetId="4617-acfd-e9d3-807d" type="forceEntry"/>
         <forceEntryLink name="The Twisted Branch" id="26aa-3bca-5670-d7cb" hidden="false" targetId="1874-8be5-53f6-2166" type="forceEntry"/>
@@ -3015,7 +3015,7 @@
         <forceEntryLink name="Volt-Klaw&apos;s Enginecoven" id="b256-a797-7e21-ba78" hidden="false" targetId="ffc1-e2cb-f2f0-f72e" type="forceEntry"/>
         <forceEntryLink name="Big Drogg Fort-kicker" id="3bee-e59d-8047-1008" hidden="false" targetId="10b2-4a3a-8629-90ef" type="forceEntry"/>
         <forceEntryLink name="Big Grikk&apos;s Kruleshots" id="64db-2c54-47b6-4b11" hidden="false" targetId="a11c-1f80-1875-4639" type="forceEntry"/>
-        <forceEntryLink name="Blades of the Hollow King" id="a783-5b69-f344-a12c" hidden="false" targetId="26c8-fdae-c6b6-e347" type="forceEntry"/>
+        <forceEntryLink name="Espadas del Rey Hueco" id="a783-5b69-f344-a12c" hidden="false" targetId="26c8-fdae-c6b6-e347" type="forceEntry"/>
         <forceEntryLink name="Bloodthirsty Shiver" id="db74-9d66-44e9-2389" hidden="false" targetId="0bd1-a3d9-9fa6-87a1" type="forceEntry"/>
         <forceEntryLink name="Braggit&apos;s Bottle-snatchaz" id="edbf-0766-98e8-90fb" hidden="false" targetId="d704-19f-a3d0-5edd" type="forceEntry"/>
         <forceEntryLink name="Brand&apos;s Oathbound" id="e810-dd10-ad40-d7dc" hidden="false" targetId="f8bf-3c82-73dc-a7e8" type="forceEntry"/>
@@ -3043,7 +3043,7 @@
         <forceEntryLink name="Odo Godswallow" id="6099-9f75-5125-09f1" hidden="false" targetId="8a04-83ad-bc2-5354" type="forceEntry"/>
         <forceEntryLink name="One-eyed Grunnock" id="a6d7-c879-7bfd-901d" hidden="false" targetId="733b-7b81-c2b-b772" type="forceEntry"/>
         <forceEntryLink name="Phulgoth&apos;s Shudderhood" id="1c86-eeed-acba-1b1f" hidden="false" targetId="69d0-b9be-62a8-5ae4" type="forceEntry"/>
-        <forceEntryLink name="Saviours of Cinderfall" id="e302-be26-df04-7582" hidden="false" targetId="4585-a85c-ebec-6527" type="forceEntry"/>
+        <forceEntryLink name="Salvadores de Cinderfall" id="e302-be26-df04-7582" hidden="false" targetId="4585-a85c-ebec-6527" type="forceEntry"/>
         <forceEntryLink name="Scions of the Necropolis" id="d8ea-b5be-3bc9-fd9f" hidden="false" targetId="4790-92d-f8a7-bd55" type="forceEntry"/>
         <forceEntryLink name="Skulkrik&apos;s Loonladz" id="da35-df72-ac4b-6db6" hidden="false" targetId="2e3e-7081-a0db-9079" type="forceEntry"/>
         <forceEntryLink name="Sky-Port Profiteers" id="42f7-fe39-75ff-3738" hidden="false" targetId="5b4a-c0d3-7f5f-3794" type="forceEntry"/>
@@ -3074,7 +3074,7 @@
         <forceEntryLink name="The Pustules" id="da45-33a0-5589-9187" hidden="false" targetId="a88b-8da0-2e5e-a398" type="forceEntry"/>
         <forceEntryLink name="Sigil Convocation" id="357c-16ca-33be-ce21" hidden="false" targetId="a305-c205-8cff-9744" type="forceEntry"/>
         <forceEntryLink name="Dawnrider Lance" id="152e-6f0f-dad2-ea89" hidden="false" targetId="d28a-f6a8-df8a-b38c" type="forceEntry"/>
-        <forceEntryLink name="Mask of the Deceiver" id="f468-c9f9-af50-b24e" hidden="false" targetId="3378-9dbf-9e74-cf5a" type="forceEntry"/>
+        <forceEntryLink name="Máscara del Embaucador" id="f468-c9f9-af50-b24e" hidden="false" targetId="3378-9dbf-9e74-cf5a" type="forceEntry"/>
         <forceEntryLink name="Seekers of Silver" id="8256-fa3d-05b0-2c1c" hidden="false" targetId="649c-3737-f793-fe6a" type="forceEntry"/>
         <forceEntryLink name="Heralds of the Bone-tithe" id="f007-71f8-c758-240f" hidden="false" targetId="4617-acfd-e9d3-807d" type="forceEntry"/>
         <forceEntryLink name="Karahtet&apos;s Siege Breaker" id="14dc-1f5d-fb27-b6f5" hidden="false" targetId="7799-20f4-4e7c-6474" type="forceEntry"/>
@@ -7124,7 +7124,7 @@
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Blades of the Hollow King" id="896e-3446-fc13-1705" hidden="false" targetId="26c8-fdae-c6b6-e347" type="forceEntry">
+        <forceEntryLink name="Espadas del Rey Hueco" id="896e-3446-fc13-1705" hidden="false" targetId="26c8-fdae-c6b6-e347" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
@@ -7264,7 +7264,7 @@
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Saviours of Cinderfall" id="ce2e-99b6-1137-2663" hidden="false" targetId="4585-a85c-ebec-6527" type="forceEntry">
+        <forceEntryLink name="Salvadores de Cinderfall" id="ce2e-99b6-1137-2663" hidden="false" targetId="4585-a85c-ebec-6527" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
@@ -7455,7 +7455,7 @@
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Mask of the Deceiver" id="7cb6-e622-ee5b-2888" hidden="false" targetId="3378-9dbf-9e74-cf5a" type="forceEntry">
+        <forceEntryLink name="Máscara del Embaucador" id="7cb6-e622-ee5b-2888" hidden="false" targetId="3378-9dbf-9e74-cf5a" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
@@ -7887,7 +7887,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Saviours of Cinderfall" id="4585-a85c-ebec-6527" hidden="true">
+    <forceEntry name="Salvadores de Cinderfall" id="4585-a85c-ebec-6527" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9405,7 +9405,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Blades of the Hollow King" id="26c8-fdae-c6b6-e347" hidden="true">
+    <forceEntry name="Espadas del Rey Hueco" id="26c8-fdae-c6b6-e347" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12081,7 +12081,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Mask of the Deceiver" id="3378-9dbf-9e74-cf5a" hidden="true">
+    <forceEntry name="Máscara del Embaucador" id="3378-9dbf-9e74-cf5a" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -14080,7 +14080,7 @@
         <forceEntryLink name="Volt-Klaw&apos;s Enginecoven" id="864e-3e22-4473-9b5b" hidden="false" targetId="ffc1-e2cb-f2f0-f72e" type="forceEntry"/>
         <forceEntryLink name="Big Drogg Fort-kicker" id="0615-aa4b-91ec-ac1e" hidden="false" targetId="10b2-4a3a-8629-90ef" type="forceEntry"/>
         <forceEntryLink name="Big Grikk&apos;s Kruleshots" id="df97-7b02-1457-bd16" hidden="false" targetId="a11c-1f80-1875-4639" type="forceEntry"/>
-        <forceEntryLink name="Blades of the Hollow King" id="05a0-078d-b119-ac5a" hidden="false" targetId="26c8-fdae-c6b6-e347" type="forceEntry"/>
+        <forceEntryLink name="Espadas del Rey Hueco" id="05a0-078d-b119-ac5a" hidden="false" targetId="26c8-fdae-c6b6-e347" type="forceEntry"/>
         <forceEntryLink name="Bloodthirsty Shiver" id="baef-177e-a317-c9d8" hidden="false" targetId="0bd1-a3d9-9fa6-87a1" type="forceEntry"/>
         <forceEntryLink name="Braggit&apos;s Bottle-snatchaz" id="48bc-81b3-540c-1bb9" hidden="false" targetId="d704-19f-a3d0-5edd" type="forceEntry"/>
         <forceEntryLink name="Brand&apos;s Oathbound" id="7894-f810-3ceb-3ec1" hidden="false" targetId="f8bf-3c82-73dc-a7e8" type="forceEntry"/>
@@ -14108,7 +14108,7 @@
         <forceEntryLink name="Odo Godswallow" id="32e0-bc95-a58c-3b88" hidden="false" targetId="8a04-83ad-bc2-5354" type="forceEntry"/>
         <forceEntryLink name="One-eyed Grunnock" id="f172-5b53-f8ab-4a11" hidden="false" targetId="733b-7b81-c2b-b772" type="forceEntry"/>
         <forceEntryLink name="Phulgoth&apos;s Shudderhood" id="3621-e9f9-bfdc-db62" hidden="false" targetId="69d0-b9be-62a8-5ae4" type="forceEntry"/>
-        <forceEntryLink name="Saviours of Cinderfall" id="814a-d603-08a2-f2ac" hidden="false" targetId="4585-a85c-ebec-6527" type="forceEntry"/>
+        <forceEntryLink name="Salvadores de Cinderfall" id="814a-d603-08a2-f2ac" hidden="false" targetId="4585-a85c-ebec-6527" type="forceEntry"/>
         <forceEntryLink name="Scions of the Necropolis" id="21ba-6d19-3196-be6e" hidden="false" targetId="4790-92d-f8a7-bd55" type="forceEntry"/>
         <forceEntryLink name="Skulkrik&apos;s Loonladz" id="4d7d-2055-1ad0-902c" hidden="false" targetId="2e3e-7081-a0db-9079" type="forceEntry"/>
         <forceEntryLink name="Sky-Port Profiteers" id="06d9-8d15-bf80-f4e2" hidden="false" targetId="5b4a-c0d3-7f5f-3794" type="forceEntry"/>
@@ -14139,7 +14139,7 @@
         <forceEntryLink name="The Pustules" id="1073-6ac4-3899-b134" hidden="false" targetId="a88b-8da0-2e5e-a398" type="forceEntry"/>
         <forceEntryLink name="Sigil Convocation" id="f82d-5b86-fd38-9e49" hidden="false" targetId="a305-c205-8cff-9744" type="forceEntry"/>
         <forceEntryLink name="Dawnrider Lance" id="a8c8-ecae-92de-02eb" hidden="false" targetId="d28a-f6a8-df8a-b38c" type="forceEntry"/>
-        <forceEntryLink name="Mask of the Deceiver" id="d2ea-8a14-d73d-4e12" hidden="false" targetId="3378-9dbf-9e74-cf5a" type="forceEntry"/>
+        <forceEntryLink name="Máscara del Embaucador" id="d2ea-8a14-d73d-4e12" hidden="false" targetId="3378-9dbf-9e74-cf5a" type="forceEntry"/>
         <forceEntryLink name="Seekers of Silver" id="378f-12bc-6c00-98b3" hidden="false" targetId="649c-3737-f793-fe6a" type="forceEntry"/>
         <forceEntryLink name="Heralds of the Bone-tithe" id="7eb1-78bf-59f0-dc6c" hidden="false" targetId="4617-acfd-e9d3-807d" type="forceEntry"/>
         <forceEntryLink name="Karahtet&apos;s Siege Breaker" id="c9bd-e740-7d51-89da" hidden="false" targetId="7799-20f4-4e7c-6474" type="forceEntry"/>

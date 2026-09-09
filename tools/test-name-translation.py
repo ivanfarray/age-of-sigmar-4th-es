@@ -22,6 +22,21 @@ coverage = module('name_coverage', 'verify-name-coverage.py')
 
 
 class NameTranslationTests(unittest.TestCase):
+    def test_catalogue_regiment_and_menu_names_preserve_links_and_categories(self):
+        xml = '<catalogue name="Library" id="Library"><catalogueLink name="Library" targetId="Library"/><forceEntry name="Regiment" id="Regiment"/><forceEntryLink name="Regiment" targetId="Regiment"/><selectionEntryGroup name="Upgrades" defaultSelectionEntryId="Upgrades"/><categoryEntry name="Library" id="category"/><characteristic name="Library"/></catalogue>'
+        expected = '<catalogue name="Biblioteca" id="Library"><catalogueLink name="Biblioteca" targetId="Library"/><forceEntry name="Regimiento" id="Regiment"/><forceEntryLink name="Regimiento" targetId="Regiment"/><selectionEntryGroup name="Mejoras" defaultSelectionEntryId="Upgrades"/><categoryEntry name="Library" id="category"/><characteristic name="Library"/></catalogue>'
+        self.assertEqual(bscat.localize_names(xml, {'Library': 'Biblioteca', 'Regiment': 'Regimiento', 'Upgrades': 'Mejoras'}), expected)
+
+    def test_menu_coverage_includes_groups_and_options_without_profiles(self):
+        old_cwd = os.getcwd()
+        with tempfile.TemporaryDirectory() as directory:
+            try:
+                os.chdir(directory)
+                Path('Test.gst').write_text('<gameSystem name="System"><forceEntry name="Regiment"/><selectionEntryGroup name="Upgrades"><selectionEntry name="Apprentice" type="upgrade"/></selectionEntryGroup><categoryEntry name="Technical category"/><characteristicType name="Technical stat"/></gameSystem>', encoding='utf-8')
+                self.assertEqual(set(coverage.required_names()), {'System', 'Regiment', 'Upgrades', 'Apprentice'})
+            finally:
+                os.chdir(old_cwd)
+
     def test_coverage_includes_abilities_rules_and_cross_file_aliases(self):
         old_cwd = os.getcwd()
         with tempfile.TemporaryDirectory() as directory:

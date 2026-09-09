@@ -125,7 +125,7 @@ def load_translations(path):
     return out
 
 
-NAME_TAG = re.compile(r'<(?:selectionEntry|selectionEntryGroup|profile|entryLink|infoLink|rule)\b(?:"[^"]*"|\x27[^\x27]*\x27|[^\x27">])*>')
+NAME_TAG = re.compile(r'<(?:selectionEntry|selectionEntryGroup|profile|entryLink|infoLink|rule|catalogue|catalogueLink|gameSystem|forceEntry|forceEntryLink)\b(?:"[^"]*"|\x27[^\x27]*\x27|[^\x27">])*>')
 NAME_ATTR = re.compile(r'(\sname\s*=\s*)(["\x27])(.*?)\2')
 MODIFIER_TAG = re.compile(r'<modifier\b(?:"[^"]*"|\x27[^\x27]*\x27|[^\x27">])*>')
 VALUE_ATTR = re.compile(r'(\svalue\s*=\s*)(["\x27])(.*?)\2')
