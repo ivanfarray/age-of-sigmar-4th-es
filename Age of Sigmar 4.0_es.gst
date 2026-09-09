@@ -386,7 +386,7 @@
     <categoryEntry name="PARAGON" id="6682-0010-2bd3-dc9d" hidden="false" publicationId="95fc-e96f-a916-bba1"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry name="General&apos;s Handbook 2024-25" hidden="false" id="f079-501a-2738-6844" childForcesLabel="Regiments and Auxiliary" sortIndex="21">
+    <forceEntry name="Manual del General 2024-25" hidden="false" id="f079-501a-2738-6844" childForcesLabel="Regiments and Auxiliary" sortIndex="21">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="c63-5bc5-ea14-ff14" targetId="676-2b78-7bbf-ba9c"/>
         <categoryLink name="Reference" hidden="false" id="516a-f060-376f-acab" targetId="3360-1158-e879-9606"/>
@@ -483,7 +483,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="1"/>
       </costs>
       <forceEntryLinks>
-        <forceEntryLink name="Regiment" id="d4ad-4c31-c4fd-babd" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
+        <forceEntryLink name="Regimiento" id="d4ad-4c31-c4fd-babd" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -1071,7 +1071,7 @@
             </modifier>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Auxillary Units" id="9bad-d49b-ca85-75d6" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
+        <forceEntryLink name="Unidades auxiliares" id="9bad-d49b-ca85-75d6" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -1659,86 +1659,86 @@
             </modifier>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Volt-Klaw&apos;s Enginecoven" id="6684-f20b-3434-53a9" hidden="false" targetId="ffc1-e2cb-f2f0-f72e" type="forceEntry"/>
-        <forceEntryLink name="Big Drogg Fort-kicker" id="cf39-97b2-fd11-c788" hidden="false" targetId="10b2-4a3a-8629-90ef" type="forceEntry"/>
-        <forceEntryLink name="Big Grikk&apos;s Kruleshots" id="f5bc-384e-2379-ac6e" hidden="false" targetId="a11c-1f80-1875-4639" type="forceEntry"/>
+        <forceEntryLink name="Aquelarre de Máquinas de Volt-Klaw" id="6684-f20b-3434-53a9" hidden="false" targetId="ffc1-e2cb-f2f0-f72e" type="forceEntry"/>
+        <forceEntryLink name="Gran Drogg Pateafuertes" id="cf39-97b2-fd11-c788" hidden="false" targetId="10b2-4a3a-8629-90ef" type="forceEntry"/>
+        <forceEntryLink name="Tiradores Crueles del Gran Grikk" id="f5bc-384e-2379-ac6e" hidden="false" targetId="a11c-1f80-1875-4639" type="forceEntry"/>
         <forceEntryLink name="Espadas del Rey Hueco" id="9eeb-5066-41e1-a3e4" hidden="false" targetId="26c8-fdae-c6b6-e347" type="forceEntry"/>
-        <forceEntryLink name="Bloodthirsty Shiver" id="29b6-0408-02c2-ed03" hidden="false" targetId="0bd1-a3d9-9fa6-87a1" type="forceEntry"/>
-        <forceEntryLink name="Braggit&apos;s Bottle-snatchaz" id="2116-07ec-79a3-c00e" hidden="false" targetId="d704-19f-a3d0-5edd" type="forceEntry"/>
-        <forceEntryLink name="Brand&apos;s Oathbound" id="a77a-2c33-2058-cc55" hidden="false" targetId="f8bf-3c82-73dc-a7e8" type="forceEntry"/>
-        <forceEntryLink name="Bundo Whalebiter" id="725e-8464-14ed-fbee" hidden="false" targetId="fb09-ac57-e70e-716d" type="forceEntry"/>
-        <forceEntryLink name="Da Hurtlin&apos; Hogz" id="0e89-f526-57b7-1d9f" hidden="false" targetId="3cd2-b31b-43c8-e42c" type="forceEntry"/>
-        <forceEntryLink name="Okar&apos;s Torrbad" id="c486-232e-39e9-6f8d" hidden="false" targetId="7199-3205-3f4e-5567" type="forceEntry"/>
-        <forceEntryLink name="Urrgar&apos;s Maulerguts" id="8ae3-0748-798b-3e6b" hidden="false" targetId="71ed-0753-4dbb-c952" type="forceEntry"/>
-        <forceEntryLink name="Da Kountin&apos; Krew" id="eafd-da06-ddf2-45c2" hidden="false" targetId="1d9c-5fbb-bb1e-bdb8" type="forceEntry"/>
-        <forceEntryLink name="Drekki&apos;s Privateers" id="e55f-f5e4-0234-a556" hidden="false" targetId="accf-873b-ebe8-1d1c" type="forceEntry"/>
-        <forceEntryLink name="Elthwin&apos;s Thorns" id="ec71-e9ad-433e-12f5" hidden="false" targetId="e484-c06-d856-2921" type="forceEntry"/>
-        <forceEntryLink name="Enforcers of the Tithe" id="bcae-1e80-e59f-3047" hidden="false" targetId="162a-f77e-f5f8-041b" type="forceEntry"/>
-        <forceEntryLink name="Exile Scavengers" id="08f1-eb44-c51f-2b5e" hidden="false" targetId="c09c-6726-db25-549b" type="forceEntry"/>
-        <forceEntryLink name="Fjori&apos;s Flamebearers" id="a704-3022-bd24-444b" hidden="false" targetId="a723-1314-55da-86d8" type="forceEntry"/>
-        <forceEntryLink name="Godmarked Ascendant" id="efc0-2062-3fa1-09f9" hidden="false" targetId="ab5a-af59-e05f-2daa" type="forceEntry"/>
-        <forceEntryLink name="Goroan Scions" id="faf2-95bd-17e8-ba3e" hidden="false" targetId="d7f8-513c-ea3d-bc9e" type="forceEntry"/>
+        <forceEntryLink name="Manada Sanguinaria" id="29b6-0408-02c2-ed03" hidden="false" targetId="0bd1-a3d9-9fa6-87a1" type="forceEntry"/>
+        <forceEntryLink name="Robabotellaz de Braggit" id="2116-07ec-79a3-c00e" hidden="false" targetId="d704-19f-a3d0-5edd" type="forceEntry"/>
+        <forceEntryLink name="Juramentados de Brand" id="a77a-2c33-2058-cc55" hidden="false" targetId="f8bf-3c82-73dc-a7e8" type="forceEntry"/>
+        <forceEntryLink name="Bundo Muerdeballenas" id="725e-8464-14ed-fbee" hidden="false" targetId="fb09-ac57-e70e-716d" type="forceEntry"/>
+        <forceEntryLink name="Loz Cerdoz Lanzadoz" id="0e89-f526-57b7-1d9f" hidden="false" targetId="3cd2-b31b-43c8-e42c" type="forceEntry"/>
+        <forceEntryLink name="Torrbad de Okar" id="c486-232e-39e9-6f8d" hidden="false" targetId="7199-3205-3f4e-5567" type="forceEntry"/>
+        <forceEntryLink name="Tripas Machacadoras de Urrgar" id="8ae3-0748-798b-3e6b" hidden="false" targetId="71ed-0753-4dbb-c952" type="forceEntry"/>
+        <forceEntryLink name="La Pandilla Kontadora" id="eafd-da06-ddf2-45c2" hidden="false" targetId="1d9c-5fbb-bb1e-bdb8" type="forceEntry"/>
+        <forceEntryLink name="Corsarios de Drekki" id="e55f-f5e4-0234-a556" hidden="false" targetId="accf-873b-ebe8-1d1c" type="forceEntry"/>
+        <forceEntryLink name="Espinas de Elthwin" id="ec71-e9ad-433e-12f5" hidden="false" targetId="e484-c06-d856-2921" type="forceEntry"/>
+        <forceEntryLink name="Recaudadores del Diezmo" id="bcae-1e80-e59f-3047" hidden="false" targetId="162a-f77e-f5f8-041b" type="forceEntry"/>
+        <forceEntryLink name="Carroñeros Exiliados" id="08f1-eb44-c51f-2b5e" hidden="false" targetId="c09c-6726-db25-549b" type="forceEntry"/>
+        <forceEntryLink name="Portallamas de Fjori" id="a704-3022-bd24-444b" hidden="false" targetId="a723-1314-55da-86d8" type="forceEntry"/>
+        <forceEntryLink name="Ascendente Marcado por los Dioses" id="efc0-2062-3fa1-09f9" hidden="false" targetId="ab5a-af59-e05f-2daa" type="forceEntry"/>
+        <forceEntryLink name="Vástagos Goroanos" id="faf2-95bd-17e8-ba3e" hidden="false" targetId="d7f8-513c-ea3d-bc9e" type="forceEntry"/>
         <forceEntryLink name="Gotrek Gurnisson" id="3373-ace3-cfcf-9f0e" hidden="false" targetId="d72a-3662-14bd-40d9" type="forceEntry"/>
-        <forceEntryLink name="Hargax&apos;s Pit-beasts" id="61fb-6c55-aa5b-fdd7" hidden="false" targetId="1339-980d-ee74-fe0b" type="forceEntry"/>
-        <forceEntryLink name="Jerrion&apos;s Delegation" id="37e9-48ee-6764-8aac" hidden="false" targetId="b0c-f2cd-9cc3-8b9f" type="forceEntry"/>
-        <forceEntryLink name="Krittok&apos;s Clawpack" id="9b8d-0105-13cf-12d1" hidden="false" targetId="d0d8-3ec6-4b57-16fd" type="forceEntry"/>
-        <forceEntryLink name="Lord Skaldior&apos;s Chosen" id="22ae-5298-2e0f-40b9" hidden="false" targetId="ba3f-fa41-97d3-2c0f" type="forceEntry"/>
-        <forceEntryLink name="Namarti Shore Raid" id="1ca0-7751-03ea-0c0a" hidden="false" targetId="75bc-a6cf-8838-7521" type="forceEntry"/>
-        <forceEntryLink name="Neferata&apos;s Royal Echelon" id="4982-f28e-6274-9822" hidden="false" targetId="e071-126a-fb3e-1462" type="forceEntry"/>
-        <forceEntryLink name="Norgrimm&apos;s Rune Throng" id="0d6c-c832-5ce6-0f85" hidden="false" targetId="c7eb-8e6c-a032-4e04" type="forceEntry"/>
-        <forceEntryLink name="Nurgle&apos;s Gift" id="0359-d0e6-84be-745e" hidden="false" targetId="0fec-ccda-3904-c0ce" type="forceEntry"/>
-        <forceEntryLink name="Odo Godswallow" id="2e14-8a95-f1b4-b7b4" hidden="false" targetId="8a04-83ad-bc2-5354" type="forceEntry"/>
-        <forceEntryLink name="One-eyed Grunnock" id="72c1-9fa3-efd2-704c" hidden="false" targetId="733b-7b81-c2b-b772" type="forceEntry"/>
-        <forceEntryLink name="Phulgoth&apos;s Shudderhood" id="b1e4-af38-0f83-db55" hidden="false" targetId="69d0-b9be-62a8-5ae4" type="forceEntry"/>
+        <forceEntryLink name="Bestias del Foso de Hargax" id="61fb-6c55-aa5b-fdd7" hidden="false" targetId="1339-980d-ee74-fe0b" type="forceEntry"/>
+        <forceEntryLink name="Delegación de Jerrion" id="37e9-48ee-6764-8aac" hidden="false" targetId="b0c-f2cd-9cc3-8b9f" type="forceEntry"/>
+        <forceEntryLink name="Manada Garra de Krittok" id="9b8d-0105-13cf-12d1" hidden="false" targetId="d0d8-3ec6-4b57-16fd" type="forceEntry"/>
+        <forceEntryLink name="Elegidos de Lord Skaldior" id="22ae-5298-2e0f-40b9" hidden="false" targetId="ba3f-fa41-97d3-2c0f" type="forceEntry"/>
+        <forceEntryLink name="Incursión Costera Namarti" id="1ca0-7751-03ea-0c0a" hidden="false" targetId="75bc-a6cf-8838-7521" type="forceEntry"/>
+        <forceEntryLink name="Escalón Real de Neferata" id="4982-f28e-6274-9822" hidden="false" targetId="e071-126a-fb3e-1462" type="forceEntry"/>
+        <forceEntryLink name="Hueste Rúnica de Norgrimm" id="0d6c-c832-5ce6-0f85" hidden="false" targetId="c7eb-8e6c-a032-4e04" type="forceEntry"/>
+        <forceEntryLink name="Don de Nurgle" id="0359-d0e6-84be-745e" hidden="false" targetId="0fec-ccda-3904-c0ce" type="forceEntry"/>
+        <forceEntryLink name="Odo Tragadioses" id="2e14-8a95-f1b4-b7b4" hidden="false" targetId="8a04-83ad-bc2-5354" type="forceEntry"/>
+        <forceEntryLink name="Grunnock el Tuerto" id="72c1-9fa3-efd2-704c" hidden="false" targetId="733b-7b81-c2b-b772" type="forceEntry"/>
+        <forceEntryLink name="Hermandad Estremecedora de Phulgoth" id="b1e4-af38-0f83-db55" hidden="false" targetId="69d0-b9be-62a8-5ae4" type="forceEntry"/>
         <forceEntryLink name="Salvadores de Cinderfall" id="6c30-d047-fc7d-2301" hidden="false" targetId="4585-a85c-ebec-6527" type="forceEntry"/>
-        <forceEntryLink name="Scions of the Necropolis" id="8250-a0f9-9726-1098" hidden="false" targetId="4790-92d-f8a7-bd55" type="forceEntry"/>
-        <forceEntryLink name="Skulkrik&apos;s Loonladz" id="fe3f-5c57-d404-773b" hidden="false" targetId="2e3e-7081-a0db-9079" type="forceEntry"/>
-        <forceEntryLink name="Sky-Port Profiteers" id="bdb2-a4a4-aaa9-b84f" hidden="false" targetId="5b4a-c0d3-7f5f-3794" type="forceEntry"/>
-        <forceEntryLink name="Snerk&apos;s Trogg-fer-Hire" id="be3b-344c-9ca1-780a" hidden="false" targetId="9d39-ae0e-afc9-f982" type="forceEntry"/>
-        <forceEntryLink name="Squires of the Everchosen" id="ca57-76e1-a906-0e75" hidden="false" targetId="2b2d-a5c6-4595-5468" type="forceEntry"/>
-        <forceEntryLink name="Stumblefoot Gargant" id="fd44-0281-227f-3926" hidden="false" targetId="e974-53fd-481c-5345" type="forceEntry"/>
-        <forceEntryLink name="The Beast of Castle Sterneiste" id="182d-a1c0-f9ad-aed9" hidden="false" targetId="6e65-4c2e-132e-4c1e" type="forceEntry"/>
-        <forceEntryLink name="The Blacktalons" id="532a-a1f5-ebcd-686c" hidden="false" targetId="bced-df96-fcc3-5cf6" type="forceEntry"/>
-        <forceEntryLink name="The Coven of Thryx" id="a4ad-e59d-955d-c951" hidden="false" targetId="6f98-8771-7752-c86e" type="forceEntry"/>
-        <forceEntryLink name="The Exiled One" id="6643-21a4-92ed-83cc" hidden="false" targetId="db1a-c813-3bde-2f05" type="forceEntry"/>
-        <forceEntryLink name="The Horizon Seekers" id="e532-efb6-3a59-7e4c" hidden="false" targetId="435e-269e-899d-3f7e" type="forceEntry"/>
-        <forceEntryLink name="The Liche&apos;s Hand" id="1f8a-8901-3728-4440" hidden="false" targetId="9136-a422-571c-c77c" type="forceEntry"/>
-        <forceEntryLink name="The Lost-Song Spirits" id="80ce-b547-055a-1572" hidden="false" targetId="147d-a572-a516-94c5" type="forceEntry"/>
-        <forceEntryLink name="The Red Revelation" id="5ed1-c9dd-67c8-1ce7" hidden="false" targetId="fd9c-4b58-82d1-d251" type="forceEntry"/>
-        <forceEntryLink name="The Shinestealaz" id="7c94-4e23-2162-8703" hidden="false" targetId="11e8-d326-7125-4e5e" type="forceEntry"/>
-        <forceEntryLink name="The Sorrowmourn Choir" id="b66a-d59b-e286-9262" hidden="false" targetId="60b7-2797-5b4-8101" type="forceEntry"/>
-        <forceEntryLink name="The Sterneiste Garrison" id="4366-0c9f-c399-7e1c" hidden="false" targetId="9030-4036-8c77-84e5" type="forceEntry"/>
-        <forceEntryLink name="The Summerking&apos;s Entourage" id="3e5c-1e48-fe54-a749" hidden="false" targetId="de70-1b54-66b4-c010" type="forceEntry"/>
-        <forceEntryLink name="Valnir&apos;s Stormwing" id="84c3-0b01-d581-882a" hidden="false" targetId="2eec-326e-528c-8473" type="forceEntry"/>
-        <forceEntryLink name="Veremord&apos;s Shamblers" id="e0c9-bfb8-4ce5-3ffe" hidden="false" targetId="c43c-4ed-d97a-b72" type="forceEntry"/>
-        <forceEntryLink name="Craventhrone Executioners" id="53b2-bb76-6f07-3154" hidden="false" targetId="6b4d-e3a9-5521-9022" type="forceEntry"/>
-        <forceEntryLink name="The Horror of Hallow&apos;s Watch" id="7ee7-9154-7530-6835" hidden="false" targetId="efb1-eac2-1024-e0cb" type="forceEntry"/>
-        <forceEntryLink name="The Scarlet Jury" id="1598-6aaf-540c-b761" hidden="false" targetId="bfa0-f3bb-5a25-48cd" type="forceEntry"/>
-        <forceEntryLink name="Casket of Resurrections" id="35eb-48d9-a785-9004" hidden="false" targetId="3706-08ed-3870-450d" type="forceEntry"/>
-        <forceEntryLink name="Seeker of the Dread Dirge" id="fd77-5462-6906-2547" hidden="false" targetId="3ebb-d680-3249-76ed" type="forceEntry"/>
-        <forceEntryLink name="The Curse-Steel Battery" id="1258-4d93-17c0-37a4" hidden="false" targetId="1d6a-1d48-9173-d651" type="forceEntry"/>
-        <forceEntryLink name="Heroes of the Jade Abbey [LEGENDS]" id="a9ac-52f9-996d-cf32" hidden="false" targetId="f3c9-ca5d-bd0e-a94e" type="forceEntry"/>
-        <forceEntryLink name="Diseased Revellers" id="4b0b-ed4d-c404-a472" hidden="false" targetId="c30e-bf48-fe89-8d48" type="forceEntry"/>
-        <forceEntryLink name="The Pustules" id="e066-b420-2934-709a" hidden="false" targetId="a88b-8da0-2e5e-a398" type="forceEntry"/>
-        <forceEntryLink name="Karahtet&apos;s Siege Breaker" id="2619-a9f3-b85f-78dc" hidden="false" targetId="7799-20f4-4e7c-6474" type="forceEntry"/>
-        <forceEntryLink name="Sigil Convocation" id="49d5-1863-235d-a264" hidden="false" targetId="a305-c205-8cff-9744" type="forceEntry"/>
-        <forceEntryLink name="Dawnrider Lance" id="1232-8ff0-acfd-d3fc" hidden="false" targetId="d28a-f6a8-df8a-b38c" type="forceEntry"/>
+        <forceEntryLink name="Vástagos de la Necrópolis" id="8250-a0f9-9726-1098" hidden="false" targetId="4790-92d-f8a7-bd55" type="forceEntry"/>
+        <forceEntryLink name="Chikoz Lunáticoz de Skulkrik" id="fe3f-5c57-d404-773b" hidden="false" targetId="2e3e-7081-a0db-9079" type="forceEntry"/>
+        <forceEntryLink name="Especuladores del Puerto Celeste" id="bdb2-a4a4-aaa9-b84f" hidden="false" targetId="5b4a-c0d3-7f5f-3794" type="forceEntry"/>
+        <forceEntryLink name="Trogg de Alquiler de Snerk" id="be3b-344c-9ca1-780a" hidden="false" targetId="9d39-ae0e-afc9-f982" type="forceEntry"/>
+        <forceEntryLink name="Escuderos del Elegido Eterno" id="ca57-76e1-a906-0e75" hidden="false" targetId="2b2d-a5c6-4595-5468" type="forceEntry"/>
+        <forceEntryLink name="Gargante Tropezón" id="fd44-0281-227f-3926" hidden="false" targetId="e974-53fd-481c-5345" type="forceEntry"/>
+        <forceEntryLink name="La Bestia del Castillo Sterneiste" id="182d-a1c0-f9ad-aed9" hidden="false" targetId="6e65-4c2e-132e-4c1e" type="forceEntry"/>
+        <forceEntryLink name="Los Garras Negras" id="532a-a1f5-ebcd-686c" hidden="false" targetId="bced-df96-fcc3-5cf6" type="forceEntry"/>
+        <forceEntryLink name="El Aquelarre de Thryx" id="a4ad-e59d-955d-c951" hidden="false" targetId="6f98-8771-7752-c86e" type="forceEntry"/>
+        <forceEntryLink name="El Exiliado" id="6643-21a4-92ed-83cc" hidden="false" targetId="db1a-c813-3bde-2f05" type="forceEntry"/>
+        <forceEntryLink name="Los Buscadores del Horizonte" id="e532-efb6-3a59-7e4c" hidden="false" targetId="435e-269e-899d-3f7e" type="forceEntry"/>
+        <forceEntryLink name="La Mano del Liche" id="1f8a-8901-3728-4440" hidden="false" targetId="9136-a422-571c-c77c" type="forceEntry"/>
+        <forceEntryLink name="Los Espíritus de la Canción Perdida" id="80ce-b547-055a-1572" hidden="false" targetId="147d-a572-a516-94c5" type="forceEntry"/>
+        <forceEntryLink name="La Revelación Roja" id="5ed1-c9dd-67c8-1ce7" hidden="false" targetId="fd9c-4b58-82d1-d251" type="forceEntry"/>
+        <forceEntryLink name="Loz Robabrilloz" id="7c94-4e23-2162-8703" hidden="false" targetId="11e8-d326-7125-4e5e" type="forceEntry"/>
+        <forceEntryLink name="El Coro de los Lamentos" id="b66a-d59b-e286-9262" hidden="false" targetId="60b7-2797-5b4-8101" type="forceEntry"/>
+        <forceEntryLink name="La Guarnición de Sterneiste" id="4366-0c9f-c399-7e1c" hidden="false" targetId="9030-4036-8c77-84e5" type="forceEntry"/>
+        <forceEntryLink name="El Séquito del Rey del Verano" id="3e5c-1e48-fe54-a749" hidden="false" targetId="de70-1b54-66b4-c010" type="forceEntry"/>
+        <forceEntryLink name="Ala de Tormenta de Valnir" id="84c3-0b01-d581-882a" hidden="false" targetId="2eec-326e-528c-8473" type="forceEntry"/>
+        <forceEntryLink name="Tambaleantes de Veremord" id="e0c9-bfb8-4ce5-3ffe" hidden="false" targetId="c43c-4ed-d97a-b72" type="forceEntry"/>
+        <forceEntryLink name="Verdugos del Trono Cobarde" id="53b2-bb76-6f07-3154" hidden="false" targetId="6b4d-e3a9-5521-9022" type="forceEntry"/>
+        <forceEntryLink name="El Horror de la Vigilia Sagrada" id="7ee7-9154-7530-6835" hidden="false" targetId="efb1-eac2-1024-e0cb" type="forceEntry"/>
+        <forceEntryLink name="El Jurado Escarlata" id="1598-6aaf-540c-b761" hidden="false" targetId="bfa0-f3bb-5a25-48cd" type="forceEntry"/>
+        <forceEntryLink name="Arca de Resurrecciones" id="35eb-48d9-a785-9004" hidden="false" targetId="3706-08ed-3870-450d" type="forceEntry"/>
+        <forceEntryLink name="Buscador de la Elegía del Terror" id="fd77-5462-6906-2547" hidden="false" targetId="3ebb-d680-3249-76ed" type="forceEntry"/>
+        <forceEntryLink name="La Batería de Acero Maldito" id="1258-4d93-17c0-37a4" hidden="false" targetId="1d6a-1d48-9173-d651" type="forceEntry"/>
+        <forceEntryLink name="Héroes de la Abadía de Jade [Leyendas]" id="a9ac-52f9-996d-cf32" hidden="false" targetId="f3c9-ca5d-bd0e-a94e" type="forceEntry"/>
+        <forceEntryLink name="Juerguistas Enfermos" id="4b0b-ed4d-c404-a472" hidden="false" targetId="c30e-bf48-fe89-8d48" type="forceEntry"/>
+        <forceEntryLink name="Las Pústulas" id="e066-b420-2934-709a" hidden="false" targetId="a88b-8da0-2e5e-a398" type="forceEntry"/>
+        <forceEntryLink name="Rompeasedios de Karahtet" id="2619-a9f3-b85f-78dc" hidden="false" targetId="7799-20f4-4e7c-6474" type="forceEntry"/>
+        <forceEntryLink name="Convocación del Sello" id="49d5-1863-235d-a264" hidden="false" targetId="a305-c205-8cff-9744" type="forceEntry"/>
+        <forceEntryLink name="Lanza de Jinetes del Alba" id="1232-8ff0-acfd-d3fc" hidden="false" targetId="d28a-f6a8-df8a-b38c" type="forceEntry"/>
         <forceEntryLink name="Máscara del Embaucador" id="4141-4799-3cc3-9f58" hidden="false" targetId="3378-9dbf-9e74-cf5a" type="forceEntry"/>
-        <forceEntryLink name="Seekers of Silver" id="6e14-e952-db7a-3a53" hidden="false" targetId="649c-3737-f793-fe6a" type="forceEntry"/>
-        <forceEntryLink name="Heralds of the Bone-tithe" id="dd02-29ce-4a08-04b5" hidden="false" targetId="4617-acfd-e9d3-807d" type="forceEntry"/>
-        <forceEntryLink name="The Twisted Branch" id="26aa-3bca-5670-d7cb" hidden="false" targetId="1874-8be5-53f6-2166" type="forceEntry"/>
-        <forceEntryLink name="Drycha&apos;s Talons" id="d7d2-94d5-caa3-89f6" hidden="false" targetId="0c75-7fef-df92-3a29" type="forceEntry"/>
-        <forceEntryLink name="Khinerai Death Flight" id="730b-43cc-5d41-2514" hidden="false" targetId="fadb-b8ee-b0b2-6c3c" type="forceEntry"/>
-        <forceEntryLink name="The Crimson Lash" id="369e-6493-2441-41b4" hidden="false" targetId="a277-b0ac-7a21-1d4a" type="forceEntry"/>
-        <forceEntryLink name="Reinholt&apos;s Sharpshooters" id="b343-e28a-5ac0-38ec" hidden="false" targetId="9fe3-19f8-a1b7-328b" type="forceEntry"/>
-        <forceEntryLink name="Rogue Engine" id="e099-0ea2-30f5-f1bc" hidden="false" targetId="4b49-6ce2-c82f-a525" type="forceEntry"/>
-        <forceEntryLink name="Cogfort Raiders" id="764b-93ce-8e10-018c" hidden="false" targetId="d455-6a93-c62e-14f0" type="forceEntry"/>
-        <forceEntryLink name="Ven Denst&apos;s Hounds" id="12cb-f87a-112c-6047" hidden="false" targetId="bfa4-82e4-1430-3fd4" type="forceEntry"/>
-        <forceEntryLink name="The Accursed Reflection" id="2479-7fe6-9cd8-74fc" hidden="false" targetId="0f99-b3d1-0f32-cb6d" type="forceEntry"/>
-        <forceEntryLink name="Mist-Clad Revellers" id="3b36-6fc7-5028-ded7" hidden="false" targetId="bb82-173a-f3b3-d48c" type="forceEntry"/>
+        <forceEntryLink name="Buscadores de Plata" id="6e14-e952-db7a-3a53" hidden="false" targetId="649c-3737-f793-fe6a" type="forceEntry"/>
+        <forceEntryLink name="Heraldos del Diezmo Óseo" id="dd02-29ce-4a08-04b5" hidden="false" targetId="4617-acfd-e9d3-807d" type="forceEntry"/>
+        <forceEntryLink name="La Rama Retorcida" id="26aa-3bca-5670-d7cb" hidden="false" targetId="1874-8be5-53f6-2166" type="forceEntry"/>
+        <forceEntryLink name="Garras de Drycha" id="d7d2-94d5-caa3-89f6" hidden="false" targetId="0c75-7fef-df92-3a29" type="forceEntry"/>
+        <forceEntryLink name="Vuelo Mortal Khinerai" id="730b-43cc-5d41-2514" hidden="false" targetId="fadb-b8ee-b0b2-6c3c" type="forceEntry"/>
+        <forceEntryLink name="El Látigo Carmesí" id="369e-6493-2441-41b4" hidden="false" targetId="a277-b0ac-7a21-1d4a" type="forceEntry"/>
+        <forceEntryLink name="Tiradores de Élite de Reinholt" id="b343-e28a-5ac0-38ec" hidden="false" targetId="9fe3-19f8-a1b7-328b" type="forceEntry"/>
+        <forceEntryLink name="Máquina rebelde" id="e099-0ea2-30f5-f1bc" hidden="false" targetId="4b49-6ce2-c82f-a525" type="forceEntry"/>
+        <forceEntryLink name="Incursores de la Fortaleza de Engranajes" id="764b-93ce-8e10-018c" hidden="false" targetId="d455-6a93-c62e-14f0" type="forceEntry"/>
+        <forceEntryLink name="Sabuesos de Ven Denst" id="12cb-f87a-112c-6047" hidden="false" targetId="bfa4-82e4-1430-3fd4" type="forceEntry"/>
+        <forceEntryLink name="El Reflejo Maldito" id="2479-7fe6-9cd8-74fc" hidden="false" targetId="0f99-b3d1-0f32-cb6d" type="forceEntry"/>
+        <forceEntryLink name="Juerguistas Envueltos en Niebla" id="3b36-6fc7-5028-ded7" hidden="false" targetId="bb82-173a-f3b3-d48c" type="forceEntry"/>
       </forceEntryLinks>
     </forceEntry>
-    <forceEntry name="General&apos;s Handbook 2025-26" hidden="false" id="f079-501a-2738-6845" childForcesLabel="Regiments and Auxiliary" sortIndex="22">
+    <forceEntry name="Manual del General 2025-26" hidden="false" id="f079-501a-2738-6845" childForcesLabel="Regiments and Auxiliary" sortIndex="22">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="c63-5bc5-ea14-ff14" targetId="676-2b78-7bbf-ba9c"/>
         <categoryLink name="Reference" hidden="false" id="516a-f060-376f-acab" targetId="3360-1158-e879-9606"/>
@@ -1835,7 +1835,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="1"/>
       </costs>
       <forceEntryLinks>
-        <forceEntryLink name="Regiment" id="48a1-e075-c797-5605" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
+        <forceEntryLink name="Regimiento" id="48a1-e075-c797-5605" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -2423,7 +2423,7 @@
             </modifier>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Auxillary Units" id="b169-ce36-e650-2ccc" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
+        <forceEntryLink name="Unidades auxiliares" id="b169-ce36-e650-2ccc" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -3011,86 +3011,86 @@
             </modifier>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Veremord&apos;s Shamblers" id="aca0-0082-7ecb-f99e" hidden="false" targetId="c43c-4ed-d97a-b72" type="forceEntry"/>
-        <forceEntryLink name="Volt-Klaw&apos;s Enginecoven" id="b256-a797-7e21-ba78" hidden="false" targetId="ffc1-e2cb-f2f0-f72e" type="forceEntry"/>
-        <forceEntryLink name="Big Drogg Fort-kicker" id="3bee-e59d-8047-1008" hidden="false" targetId="10b2-4a3a-8629-90ef" type="forceEntry"/>
-        <forceEntryLink name="Big Grikk&apos;s Kruleshots" id="64db-2c54-47b6-4b11" hidden="false" targetId="a11c-1f80-1875-4639" type="forceEntry"/>
+        <forceEntryLink name="Tambaleantes de Veremord" id="aca0-0082-7ecb-f99e" hidden="false" targetId="c43c-4ed-d97a-b72" type="forceEntry"/>
+        <forceEntryLink name="Aquelarre de Máquinas de Volt-Klaw" id="b256-a797-7e21-ba78" hidden="false" targetId="ffc1-e2cb-f2f0-f72e" type="forceEntry"/>
+        <forceEntryLink name="Gran Drogg Pateafuertes" id="3bee-e59d-8047-1008" hidden="false" targetId="10b2-4a3a-8629-90ef" type="forceEntry"/>
+        <forceEntryLink name="Tiradores Crueles del Gran Grikk" id="64db-2c54-47b6-4b11" hidden="false" targetId="a11c-1f80-1875-4639" type="forceEntry"/>
         <forceEntryLink name="Espadas del Rey Hueco" id="a783-5b69-f344-a12c" hidden="false" targetId="26c8-fdae-c6b6-e347" type="forceEntry"/>
-        <forceEntryLink name="Bloodthirsty Shiver" id="db74-9d66-44e9-2389" hidden="false" targetId="0bd1-a3d9-9fa6-87a1" type="forceEntry"/>
-        <forceEntryLink name="Braggit&apos;s Bottle-snatchaz" id="edbf-0766-98e8-90fb" hidden="false" targetId="d704-19f-a3d0-5edd" type="forceEntry"/>
-        <forceEntryLink name="Brand&apos;s Oathbound" id="e810-dd10-ad40-d7dc" hidden="false" targetId="f8bf-3c82-73dc-a7e8" type="forceEntry"/>
-        <forceEntryLink name="Bundo Whalebiter" id="a446-1667-9435-a624" hidden="false" targetId="fb09-ac57-e70e-716d" type="forceEntry"/>
-        <forceEntryLink name="Da Hurtlin&apos; Hogz" id="0fef-4de2-cbaf-1fa4" hidden="false" targetId="3cd2-b31b-43c8-e42c" type="forceEntry"/>
-        <forceEntryLink name="Okar&apos;s Torrbad" id="016e-c595-be24-d468" hidden="false" targetId="7199-3205-3f4e-5567" type="forceEntry"/>
-        <forceEntryLink name="Urrgar&apos;s Maulerguts" id="ae53-9733-e2c5-4623" hidden="false" targetId="71ed-0753-4dbb-c952" type="forceEntry"/>
-        <forceEntryLink name="Da Kountin&apos; Krew" id="1d29-8502-728e-9022" hidden="false" targetId="1d9c-5fbb-bb1e-bdb8" type="forceEntry"/>
-        <forceEntryLink name="Drekki&apos;s Privateers" id="45d5-6e29-ce35-2e1d" hidden="false" targetId="accf-873b-ebe8-1d1c" type="forceEntry"/>
-        <forceEntryLink name="Elthwin&apos;s Thorns" id="f425-dd87-f665-f408" hidden="false" targetId="e484-c06-d856-2921" type="forceEntry"/>
-        <forceEntryLink name="Enforcers of the Tithe" id="fb96-6bed-7738-aabc" hidden="false" targetId="162a-f77e-f5f8-041b" type="forceEntry"/>
-        <forceEntryLink name="Exile Scavengers" id="3709-f9b3-90ac-4ef8" hidden="false" targetId="c09c-6726-db25-549b" type="forceEntry"/>
-        <forceEntryLink name="Fjori&apos;s Flamebearers" id="dd86-dfa9-32e7-0ebf" hidden="false" targetId="a723-1314-55da-86d8" type="forceEntry"/>
-        <forceEntryLink name="Godmarked Ascendant" id="3841-1b1a-d846-f52a" hidden="false" targetId="ab5a-af59-e05f-2daa" type="forceEntry"/>
-        <forceEntryLink name="Goroan Scions" id="000b-777d-2ebd-8698" hidden="false" targetId="d7f8-513c-ea3d-bc9e" type="forceEntry"/>
+        <forceEntryLink name="Manada Sanguinaria" id="db74-9d66-44e9-2389" hidden="false" targetId="0bd1-a3d9-9fa6-87a1" type="forceEntry"/>
+        <forceEntryLink name="Robabotellaz de Braggit" id="edbf-0766-98e8-90fb" hidden="false" targetId="d704-19f-a3d0-5edd" type="forceEntry"/>
+        <forceEntryLink name="Juramentados de Brand" id="e810-dd10-ad40-d7dc" hidden="false" targetId="f8bf-3c82-73dc-a7e8" type="forceEntry"/>
+        <forceEntryLink name="Bundo Muerdeballenas" id="a446-1667-9435-a624" hidden="false" targetId="fb09-ac57-e70e-716d" type="forceEntry"/>
+        <forceEntryLink name="Loz Cerdoz Lanzadoz" id="0fef-4de2-cbaf-1fa4" hidden="false" targetId="3cd2-b31b-43c8-e42c" type="forceEntry"/>
+        <forceEntryLink name="Torrbad de Okar" id="016e-c595-be24-d468" hidden="false" targetId="7199-3205-3f4e-5567" type="forceEntry"/>
+        <forceEntryLink name="Tripas Machacadoras de Urrgar" id="ae53-9733-e2c5-4623" hidden="false" targetId="71ed-0753-4dbb-c952" type="forceEntry"/>
+        <forceEntryLink name="La Pandilla Kontadora" id="1d29-8502-728e-9022" hidden="false" targetId="1d9c-5fbb-bb1e-bdb8" type="forceEntry"/>
+        <forceEntryLink name="Corsarios de Drekki" id="45d5-6e29-ce35-2e1d" hidden="false" targetId="accf-873b-ebe8-1d1c" type="forceEntry"/>
+        <forceEntryLink name="Espinas de Elthwin" id="f425-dd87-f665-f408" hidden="false" targetId="e484-c06-d856-2921" type="forceEntry"/>
+        <forceEntryLink name="Recaudadores del Diezmo" id="fb96-6bed-7738-aabc" hidden="false" targetId="162a-f77e-f5f8-041b" type="forceEntry"/>
+        <forceEntryLink name="Carroñeros Exiliados" id="3709-f9b3-90ac-4ef8" hidden="false" targetId="c09c-6726-db25-549b" type="forceEntry"/>
+        <forceEntryLink name="Portallamas de Fjori" id="dd86-dfa9-32e7-0ebf" hidden="false" targetId="a723-1314-55da-86d8" type="forceEntry"/>
+        <forceEntryLink name="Ascendente Marcado por los Dioses" id="3841-1b1a-d846-f52a" hidden="false" targetId="ab5a-af59-e05f-2daa" type="forceEntry"/>
+        <forceEntryLink name="Vástagos Goroanos" id="000b-777d-2ebd-8698" hidden="false" targetId="d7f8-513c-ea3d-bc9e" type="forceEntry"/>
         <forceEntryLink name="Gotrek Gurnisson" id="9e08-ea65-9569-4f79" hidden="false" targetId="d72a-3662-14bd-40d9" type="forceEntry"/>
-        <forceEntryLink name="Hargax&apos;s Pit-beasts" id="695a-589e-bb4c-f27f" hidden="false" targetId="1339-980d-ee74-fe0b" type="forceEntry"/>
-        <forceEntryLink name="Jerrion&apos;s Delegation" id="ca19-8eb1-cc31-3eb1" hidden="false" targetId="b0c-f2cd-9cc3-8b9f" type="forceEntry"/>
-        <forceEntryLink name="Krittok&apos;s Clawpack" id="9af3-f632-79fb-2db3" hidden="false" targetId="d0d8-3ec6-4b57-16fd" type="forceEntry"/>
-        <forceEntryLink name="Lord Skaldior&apos;s Chosen" id="dc0a-1dab-4827-7b6e" hidden="false" targetId="ba3f-fa41-97d3-2c0f" type="forceEntry"/>
-        <forceEntryLink name="Namarti Shore Raid" id="c4eb-adb6-503a-e0f1" hidden="false" targetId="75bc-a6cf-8838-7521" type="forceEntry"/>
-        <forceEntryLink name="Neferata&apos;s Royal Echelon" id="2dab-15c8-4f8b-3b9d" hidden="false" targetId="e071-126a-fb3e-1462" type="forceEntry"/>
-        <forceEntryLink name="Norgrimm&apos;s Rune Throng" id="4f5b-fbb6-0e96-584b" hidden="false" targetId="c7eb-8e6c-a032-4e04" type="forceEntry"/>
-        <forceEntryLink name="Nurgle&apos;s Gift" id="b213-2318-6260-fc13" hidden="false" targetId="0fec-ccda-3904-c0ce" type="forceEntry"/>
-        <forceEntryLink name="Odo Godswallow" id="6099-9f75-5125-09f1" hidden="false" targetId="8a04-83ad-bc2-5354" type="forceEntry"/>
-        <forceEntryLink name="One-eyed Grunnock" id="a6d7-c879-7bfd-901d" hidden="false" targetId="733b-7b81-c2b-b772" type="forceEntry"/>
-        <forceEntryLink name="Phulgoth&apos;s Shudderhood" id="1c86-eeed-acba-1b1f" hidden="false" targetId="69d0-b9be-62a8-5ae4" type="forceEntry"/>
+        <forceEntryLink name="Bestias del Foso de Hargax" id="695a-589e-bb4c-f27f" hidden="false" targetId="1339-980d-ee74-fe0b" type="forceEntry"/>
+        <forceEntryLink name="Delegación de Jerrion" id="ca19-8eb1-cc31-3eb1" hidden="false" targetId="b0c-f2cd-9cc3-8b9f" type="forceEntry"/>
+        <forceEntryLink name="Manada Garra de Krittok" id="9af3-f632-79fb-2db3" hidden="false" targetId="d0d8-3ec6-4b57-16fd" type="forceEntry"/>
+        <forceEntryLink name="Elegidos de Lord Skaldior" id="dc0a-1dab-4827-7b6e" hidden="false" targetId="ba3f-fa41-97d3-2c0f" type="forceEntry"/>
+        <forceEntryLink name="Incursión Costera Namarti" id="c4eb-adb6-503a-e0f1" hidden="false" targetId="75bc-a6cf-8838-7521" type="forceEntry"/>
+        <forceEntryLink name="Escalón Real de Neferata" id="2dab-15c8-4f8b-3b9d" hidden="false" targetId="e071-126a-fb3e-1462" type="forceEntry"/>
+        <forceEntryLink name="Hueste Rúnica de Norgrimm" id="4f5b-fbb6-0e96-584b" hidden="false" targetId="c7eb-8e6c-a032-4e04" type="forceEntry"/>
+        <forceEntryLink name="Don de Nurgle" id="b213-2318-6260-fc13" hidden="false" targetId="0fec-ccda-3904-c0ce" type="forceEntry"/>
+        <forceEntryLink name="Odo Tragadioses" id="6099-9f75-5125-09f1" hidden="false" targetId="8a04-83ad-bc2-5354" type="forceEntry"/>
+        <forceEntryLink name="Grunnock el Tuerto" id="a6d7-c879-7bfd-901d" hidden="false" targetId="733b-7b81-c2b-b772" type="forceEntry"/>
+        <forceEntryLink name="Hermandad Estremecedora de Phulgoth" id="1c86-eeed-acba-1b1f" hidden="false" targetId="69d0-b9be-62a8-5ae4" type="forceEntry"/>
         <forceEntryLink name="Salvadores de Cinderfall" id="e302-be26-df04-7582" hidden="false" targetId="4585-a85c-ebec-6527" type="forceEntry"/>
-        <forceEntryLink name="Scions of the Necropolis" id="d8ea-b5be-3bc9-fd9f" hidden="false" targetId="4790-92d-f8a7-bd55" type="forceEntry"/>
-        <forceEntryLink name="Skulkrik&apos;s Loonladz" id="da35-df72-ac4b-6db6" hidden="false" targetId="2e3e-7081-a0db-9079" type="forceEntry"/>
-        <forceEntryLink name="Sky-Port Profiteers" id="42f7-fe39-75ff-3738" hidden="false" targetId="5b4a-c0d3-7f5f-3794" type="forceEntry"/>
-        <forceEntryLink name="Snerk&apos;s Trogg-fer-Hire" id="bbcf-124f-3cf4-0f47" hidden="false" targetId="9d39-ae0e-afc9-f982" type="forceEntry"/>
-        <forceEntryLink name="Squires of the Everchosen" id="67a3-3f5e-63f9-cbe8" hidden="false" targetId="2b2d-a5c6-4595-5468" type="forceEntry"/>
-        <forceEntryLink name="Stumblefoot Gargant" id="0800-80dd-7db6-49c4" hidden="false" targetId="e974-53fd-481c-5345" type="forceEntry"/>
-        <forceEntryLink name="The Beast of Castle Sterneiste" id="0d80-bcc2-5d87-6f56" hidden="false" targetId="6e65-4c2e-132e-4c1e" type="forceEntry"/>
-        <forceEntryLink name="The Blacktalons" id="2a24-16f9-ecdd-4241" hidden="false" targetId="bced-df96-fcc3-5cf6" type="forceEntry"/>
-        <forceEntryLink name="The Coven of Thryx" id="4bd6-1b4d-9c07-fd67" hidden="false" targetId="6f98-8771-7752-c86e" type="forceEntry"/>
-        <forceEntryLink name="The Exiled One" id="0628-6b56-25e6-101a" hidden="false" targetId="db1a-c813-3bde-2f05" type="forceEntry"/>
-        <forceEntryLink name="The Horizon Seekers" id="7bef-f486-ba68-4106" hidden="false" targetId="435e-269e-899d-3f7e" type="forceEntry"/>
-        <forceEntryLink name="The Liche&apos;s Hand" id="686a-3ee2-3985-1918" hidden="false" targetId="9136-a422-571c-c77c" type="forceEntry"/>
-        <forceEntryLink name="The Lost-Song Spirits" id="a899-e254-f9ad-80c1" hidden="false" targetId="147d-a572-a516-94c5" type="forceEntry"/>
-        <forceEntryLink name="The Red Revelation" id="6798-414a-a6d8-1299" hidden="false" targetId="fd9c-4b58-82d1-d251" type="forceEntry"/>
-        <forceEntryLink name="The Shinestealaz" id="802c-1cf6-808d-c3e1" hidden="false" targetId="11e8-d326-7125-4e5e" type="forceEntry"/>
-        <forceEntryLink name="The Sorrowmourn Choir" id="d79d-7f4d-5b09-b213" hidden="false" targetId="60b7-2797-5b4-8101" type="forceEntry"/>
-        <forceEntryLink name="The Sterneiste Garrison" id="262c-ac07-89b5-d79d" hidden="false" targetId="9030-4036-8c77-84e5" type="forceEntry"/>
-        <forceEntryLink name="The Summerking&apos;s Entourage" id="d51c-1060-fd57-cd0f" hidden="false" targetId="de70-1b54-66b4-c010" type="forceEntry"/>
-        <forceEntryLink name="Valnir&apos;s Stormwing" id="df5f-9bf1-8e4f-ef11" hidden="false" targetId="2eec-326e-528c-8473" type="forceEntry"/>
-        <forceEntryLink name="The Horror of Hallow&apos;s Watch" id="2e68-9c94-e6e7-9134" hidden="false" targetId="efb1-eac2-1024-e0cb" type="forceEntry"/>
-        <forceEntryLink name="The Scarlet Jury" id="6e0c-f239-7ccb-d3c3" hidden="false" targetId="bfa0-f3bb-5a25-48cd" type="forceEntry"/>
-        <forceEntryLink name="Casket of Resurrections" id="221c-b566-2f5c-818d" hidden="false" targetId="3706-08ed-3870-450d" type="forceEntry"/>
-        <forceEntryLink name="Craventhrone Executioners" id="da46-bfad-defa-b4d3" hidden="false" targetId="6b4d-e3a9-5521-9022" type="forceEntry"/>
-        <forceEntryLink name="The Curse-Steel Battery" id="4f4a-37f6-c989-d900" hidden="false" targetId="1d6a-1d48-9173-d651" type="forceEntry"/>
-        <forceEntryLink name="Seeker of the Dread Dirge" id="6d3c-c06f-f4c8-2182" hidden="false" targetId="3ebb-d680-3249-76ed" type="forceEntry"/>
-        <forceEntryLink name="Heroes of the Jade Abbey [LEGENDS]" id="135a-e3a4-753a-2906" hidden="false" targetId="f3c9-ca5d-bd0e-a94e" type="forceEntry"/>
-        <forceEntryLink name="Diseased Revellers" id="259a-eeea-c79c-24c3" hidden="false" targetId="c30e-bf48-fe89-8d48" type="forceEntry"/>
-        <forceEntryLink name="The Pustules" id="da45-33a0-5589-9187" hidden="false" targetId="a88b-8da0-2e5e-a398" type="forceEntry"/>
-        <forceEntryLink name="Sigil Convocation" id="357c-16ca-33be-ce21" hidden="false" targetId="a305-c205-8cff-9744" type="forceEntry"/>
-        <forceEntryLink name="Dawnrider Lance" id="152e-6f0f-dad2-ea89" hidden="false" targetId="d28a-f6a8-df8a-b38c" type="forceEntry"/>
+        <forceEntryLink name="Vástagos de la Necrópolis" id="d8ea-b5be-3bc9-fd9f" hidden="false" targetId="4790-92d-f8a7-bd55" type="forceEntry"/>
+        <forceEntryLink name="Chikoz Lunáticoz de Skulkrik" id="da35-df72-ac4b-6db6" hidden="false" targetId="2e3e-7081-a0db-9079" type="forceEntry"/>
+        <forceEntryLink name="Especuladores del Puerto Celeste" id="42f7-fe39-75ff-3738" hidden="false" targetId="5b4a-c0d3-7f5f-3794" type="forceEntry"/>
+        <forceEntryLink name="Trogg de Alquiler de Snerk" id="bbcf-124f-3cf4-0f47" hidden="false" targetId="9d39-ae0e-afc9-f982" type="forceEntry"/>
+        <forceEntryLink name="Escuderos del Elegido Eterno" id="67a3-3f5e-63f9-cbe8" hidden="false" targetId="2b2d-a5c6-4595-5468" type="forceEntry"/>
+        <forceEntryLink name="Gargante Tropezón" id="0800-80dd-7db6-49c4" hidden="false" targetId="e974-53fd-481c-5345" type="forceEntry"/>
+        <forceEntryLink name="La Bestia del Castillo Sterneiste" id="0d80-bcc2-5d87-6f56" hidden="false" targetId="6e65-4c2e-132e-4c1e" type="forceEntry"/>
+        <forceEntryLink name="Los Garras Negras" id="2a24-16f9-ecdd-4241" hidden="false" targetId="bced-df96-fcc3-5cf6" type="forceEntry"/>
+        <forceEntryLink name="El Aquelarre de Thryx" id="4bd6-1b4d-9c07-fd67" hidden="false" targetId="6f98-8771-7752-c86e" type="forceEntry"/>
+        <forceEntryLink name="El Exiliado" id="0628-6b56-25e6-101a" hidden="false" targetId="db1a-c813-3bde-2f05" type="forceEntry"/>
+        <forceEntryLink name="Los Buscadores del Horizonte" id="7bef-f486-ba68-4106" hidden="false" targetId="435e-269e-899d-3f7e" type="forceEntry"/>
+        <forceEntryLink name="La Mano del Liche" id="686a-3ee2-3985-1918" hidden="false" targetId="9136-a422-571c-c77c" type="forceEntry"/>
+        <forceEntryLink name="Los Espíritus de la Canción Perdida" id="a899-e254-f9ad-80c1" hidden="false" targetId="147d-a572-a516-94c5" type="forceEntry"/>
+        <forceEntryLink name="La Revelación Roja" id="6798-414a-a6d8-1299" hidden="false" targetId="fd9c-4b58-82d1-d251" type="forceEntry"/>
+        <forceEntryLink name="Loz Robabrilloz" id="802c-1cf6-808d-c3e1" hidden="false" targetId="11e8-d326-7125-4e5e" type="forceEntry"/>
+        <forceEntryLink name="El Coro de los Lamentos" id="d79d-7f4d-5b09-b213" hidden="false" targetId="60b7-2797-5b4-8101" type="forceEntry"/>
+        <forceEntryLink name="La Guarnición de Sterneiste" id="262c-ac07-89b5-d79d" hidden="false" targetId="9030-4036-8c77-84e5" type="forceEntry"/>
+        <forceEntryLink name="El Séquito del Rey del Verano" id="d51c-1060-fd57-cd0f" hidden="false" targetId="de70-1b54-66b4-c010" type="forceEntry"/>
+        <forceEntryLink name="Ala de Tormenta de Valnir" id="df5f-9bf1-8e4f-ef11" hidden="false" targetId="2eec-326e-528c-8473" type="forceEntry"/>
+        <forceEntryLink name="El Horror de la Vigilia Sagrada" id="2e68-9c94-e6e7-9134" hidden="false" targetId="efb1-eac2-1024-e0cb" type="forceEntry"/>
+        <forceEntryLink name="El Jurado Escarlata" id="6e0c-f239-7ccb-d3c3" hidden="false" targetId="bfa0-f3bb-5a25-48cd" type="forceEntry"/>
+        <forceEntryLink name="Arca de Resurrecciones" id="221c-b566-2f5c-818d" hidden="false" targetId="3706-08ed-3870-450d" type="forceEntry"/>
+        <forceEntryLink name="Verdugos del Trono Cobarde" id="da46-bfad-defa-b4d3" hidden="false" targetId="6b4d-e3a9-5521-9022" type="forceEntry"/>
+        <forceEntryLink name="La Batería de Acero Maldito" id="4f4a-37f6-c989-d900" hidden="false" targetId="1d6a-1d48-9173-d651" type="forceEntry"/>
+        <forceEntryLink name="Buscador de la Elegía del Terror" id="6d3c-c06f-f4c8-2182" hidden="false" targetId="3ebb-d680-3249-76ed" type="forceEntry"/>
+        <forceEntryLink name="Héroes de la Abadía de Jade [Leyendas]" id="135a-e3a4-753a-2906" hidden="false" targetId="f3c9-ca5d-bd0e-a94e" type="forceEntry"/>
+        <forceEntryLink name="Juerguistas Enfermos" id="259a-eeea-c79c-24c3" hidden="false" targetId="c30e-bf48-fe89-8d48" type="forceEntry"/>
+        <forceEntryLink name="Las Pústulas" id="da45-33a0-5589-9187" hidden="false" targetId="a88b-8da0-2e5e-a398" type="forceEntry"/>
+        <forceEntryLink name="Convocación del Sello" id="357c-16ca-33be-ce21" hidden="false" targetId="a305-c205-8cff-9744" type="forceEntry"/>
+        <forceEntryLink name="Lanza de Jinetes del Alba" id="152e-6f0f-dad2-ea89" hidden="false" targetId="d28a-f6a8-df8a-b38c" type="forceEntry"/>
         <forceEntryLink name="Máscara del Embaucador" id="f468-c9f9-af50-b24e" hidden="false" targetId="3378-9dbf-9e74-cf5a" type="forceEntry"/>
-        <forceEntryLink name="Seekers of Silver" id="8256-fa3d-05b0-2c1c" hidden="false" targetId="649c-3737-f793-fe6a" type="forceEntry"/>
-        <forceEntryLink name="Heralds of the Bone-tithe" id="f007-71f8-c758-240f" hidden="false" targetId="4617-acfd-e9d3-807d" type="forceEntry"/>
-        <forceEntryLink name="Karahtet&apos;s Siege Breaker" id="14dc-1f5d-fb27-b6f5" hidden="false" targetId="7799-20f4-4e7c-6474" type="forceEntry"/>
-        <forceEntryLink name="Drycha&apos;s Talons" id="e367-f33d-4fed-17ba" hidden="false" targetId="0c75-7fef-df92-3a29" type="forceEntry"/>
-        <forceEntryLink name="The Twisted Branch" id="826f-f13a-00be-b989" hidden="false" targetId="1874-8be5-53f6-2166" type="forceEntry"/>
-        <forceEntryLink name="Khinerai Death Flight" id="29d3-cffa-f060-4203" hidden="false" targetId="fadb-b8ee-b0b2-6c3c" type="forceEntry"/>
-        <forceEntryLink name="The Crimson Lash" id="d5be-be78-ad26-e5bc" hidden="false" targetId="a277-b0ac-7a21-1d4a" type="forceEntry"/>
-        <forceEntryLink name="Rogue Engine" id="2dad-be5f-c472-5365" hidden="false" targetId="4b49-6ce2-c82f-a525" type="forceEntry"/>
-        <forceEntryLink name="Cogfort Raiders" id="d18f-27f6-b295-93f7" hidden="false" targetId="d455-6a93-c62e-14f0" type="forceEntry"/>
-        <forceEntryLink name="Ven Denst&apos;s Hounds" id="921e-3e5b-6090-3d17" hidden="false" targetId="bfa4-82e4-1430-3fd4" type="forceEntry"/>
-        <forceEntryLink name="Reinholt&apos;s Sharpshooters" id="bcb9-853d-c1d0-2d1a" hidden="false" targetId="9fe3-19f8-a1b7-328b" type="forceEntry"/>
-        <forceEntryLink name="The Accursed Reflection" id="a3a2-71c6-6a77-11ad" hidden="false" targetId="0f99-b3d1-0f32-cb6d" type="forceEntry"/>
-        <forceEntryLink name="Mist-Clad Revellers" id="4c15-97f7-ad18-219e" hidden="false" targetId="bb82-173a-f3b3-d48c" type="forceEntry"/>
+        <forceEntryLink name="Buscadores de Plata" id="8256-fa3d-05b0-2c1c" hidden="false" targetId="649c-3737-f793-fe6a" type="forceEntry"/>
+        <forceEntryLink name="Heraldos del Diezmo Óseo" id="f007-71f8-c758-240f" hidden="false" targetId="4617-acfd-e9d3-807d" type="forceEntry"/>
+        <forceEntryLink name="Rompeasedios de Karahtet" id="14dc-1f5d-fb27-b6f5" hidden="false" targetId="7799-20f4-4e7c-6474" type="forceEntry"/>
+        <forceEntryLink name="Garras de Drycha" id="e367-f33d-4fed-17ba" hidden="false" targetId="0c75-7fef-df92-3a29" type="forceEntry"/>
+        <forceEntryLink name="La Rama Retorcida" id="826f-f13a-00be-b989" hidden="false" targetId="1874-8be5-53f6-2166" type="forceEntry"/>
+        <forceEntryLink name="Vuelo Mortal Khinerai" id="29d3-cffa-f060-4203" hidden="false" targetId="fadb-b8ee-b0b2-6c3c" type="forceEntry"/>
+        <forceEntryLink name="El Látigo Carmesí" id="d5be-be78-ad26-e5bc" hidden="false" targetId="a277-b0ac-7a21-1d4a" type="forceEntry"/>
+        <forceEntryLink name="Máquina rebelde" id="2dad-be5f-c472-5365" hidden="false" targetId="4b49-6ce2-c82f-a525" type="forceEntry"/>
+        <forceEntryLink name="Incursores de la Fortaleza de Engranajes" id="d18f-27f6-b295-93f7" hidden="false" targetId="d455-6a93-c62e-14f0" type="forceEntry"/>
+        <forceEntryLink name="Sabuesos de Ven Denst" id="921e-3e5b-6090-3d17" hidden="false" targetId="bfa4-82e4-1430-3fd4" type="forceEntry"/>
+        <forceEntryLink name="Tiradores de Élite de Reinholt" id="bcb9-853d-c1d0-2d1a" hidden="false" targetId="9fe3-19f8-a1b7-328b" type="forceEntry"/>
+        <forceEntryLink name="El Reflejo Maldito" id="a3a2-71c6-6a77-11ad" hidden="false" targetId="0f99-b3d1-0f32-cb6d" type="forceEntry"/>
+        <forceEntryLink name="Juerguistas Envueltos en Niebla" id="4c15-97f7-ad18-219e" hidden="false" targetId="bb82-173a-f3b3-d48c" type="forceEntry"/>
       </forceEntryLinks>
     </forceEntry>
-    <forceEntry name="Path to Glory: Ravaged Coast" id="01b1-5112-ab45-1afc" hidden="false" childForcesLabel="Regiments and Auxiliary" sortIndex="31">
+    <forceEntry name="Sendero a la Gloria: Costa Devastada" id="01b1-5112-ab45-1afc" hidden="false" childForcesLabel="Regiments and Auxiliary" sortIndex="31">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="64d4-e838-78d0-3a8b" targetId="676-2b78-7bbf-ba9c"/>
         <categoryLink name="Reference" hidden="false" id="9c1f-40d5-f242-64f6" targetId="3360-1158-e879-9606"/>
@@ -3188,7 +3188,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
       <forceEntryLinks>
-        <forceEntryLink name="Regiment" id="a153-5f24-3305-12d2" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
+        <forceEntryLink name="Regimiento" id="a153-5f24-3305-12d2" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -4112,7 +4112,7 @@
             </modifier>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Auxillary Units" id="72a4-7a72-e620-730c" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
+        <forceEntryLink name="Unidades auxiliares" id="72a4-7a72-e620-730c" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -4688,13 +4688,13 @@
             </modifier>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Realmstone Innovator" id="3caa-bf2b-acbf-0591" hidden="false" targetId="8841-fda8-88e1-588b" type="forceEntry"/>
-        <forceEntryLink name="The Sinister Nullifier" id="cdb4-4a23-55eb-3340" hidden="false" targetId="f037-558a-ec08-6af4" type="forceEntry"/>
-        <forceEntryLink name="The Warped Saboteur" id="573c-930f-0d96-27a6" hidden="false" targetId="ca92-b591-c6c1-6707" type="forceEntry"/>
-        <forceEntryLink name="The Weird-Crafta" id="2547-6dc4-902d-10ad" hidden="false" targetId="a1c0-ca80-06e3-65c0" type="forceEntry"/>
+        <forceEntryLink name="El Innovador de Piedra del Reino" id="3caa-bf2b-acbf-0591" hidden="false" targetId="8841-fda8-88e1-588b" type="forceEntry"/>
+        <forceEntryLink name="El Anulador Siniestro" id="cdb4-4a23-55eb-3340" hidden="false" targetId="f037-558a-ec08-6af4" type="forceEntry"/>
+        <forceEntryLink name="El Saboteador Deformado" id="573c-930f-0d96-27a6" hidden="false" targetId="ca92-b591-c6c1-6707" type="forceEntry"/>
+        <forceEntryLink name="El Artesano Eztrambótiko" id="2547-6dc4-902d-10ad" hidden="false" targetId="a1c0-ca80-06e3-65c0" type="forceEntry"/>
       </forceEntryLinks>
     </forceEntry>
-    <forceEntry name="Path to Glory: Ascension" id="1bed-ddb5-0c50-16d2" hidden="false" childForcesLabel="Regiments and Auxiliary" sortIndex="32">
+    <forceEntry name="Sendero a la Gloria: Ascensión" id="1bed-ddb5-0c50-16d2" hidden="false" childForcesLabel="Regiments and Auxiliary" sortIndex="32">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="0ad8-1348-974d-3643" targetId="676-2b78-7bbf-ba9c"/>
         <categoryLink name="Reference" hidden="false" id="d2ae-5c7d-0dda-8343" targetId="3360-1158-e879-9606"/>
@@ -4707,7 +4707,7 @@
         </categoryLink>
       </categoryLinks>
       <forceEntries>
-        <forceEntry name="Order of Battle" id="3e4e-3e0e-10c4-a6f6" hidden="true">
+        <forceEntry name="Orden de batalla" id="3e4e-3e0e-10c4-a6f6" hidden="true">
           <constraints>
             <constraint type="min" value="1" field="forces" scope="roster" shared="true" id="ec70-a1da-706a-ec06-min"/>
             <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="ec70-a1da-706a-ec06-max"/>
@@ -5365,7 +5365,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
       <forceEntryLinks>
-        <forceEntryLink name="Regiment" id="008f-df97-1a31-e799" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
+        <forceEntryLink name="Regimiento" id="008f-df97-1a31-e799" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -5953,7 +5953,7 @@
             </modifier>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Auxillary Units" id="c8a4-b453-097f-67c7" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
+        <forceEntryLink name="Unidades auxiliares" id="c8a4-b453-097f-67c7" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -6543,7 +6543,7 @@
         </forceEntryLink>
       </forceEntryLinks>
     </forceEntry>
-    <forceEntry name="Path to Glory: Freeform [UNOFFICIAL]" id="78a1-f6c2-71b8-270a" hidden="false" childForcesLabel="Regiments and Auxiliary" sortIndex="99">
+    <forceEntry name="Sendero a la Gloria: Libre [NO OFICIAL]" id="78a1-f6c2-71b8-270a" hidden="false" childForcesLabel="Regiments and Auxiliary" sortIndex="99">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="487a-7a7b-9657-d26f" targetId="676-2b78-7bbf-ba9c"/>
         <categoryLink name="Reference" hidden="false" id="4ba2-1c29-5d96-41f0" targetId="3360-1158-e879-9606"/>
@@ -6563,7 +6563,7 @@
         </categoryLink>
       </categoryLinks>
       <forceEntries>
-        <forceEntry name="Order of Battle" id="3e4e-3e0e-10c4-a6f6" hidden="true">
+        <forceEntry name="Orden de batalla" id="3e4e-3e0e-10c4-a6f6" hidden="true">
           <constraints>
             <constraint type="min" value="1" field="forces" scope="roster" shared="true" id="3c56-e890-c772-4bf9"/>
             <constraint type="max" value="1" field="forces" scope="roster" shared="true" id="0b6b-0baf-66d1-30d3"/>
@@ -7104,22 +7104,22 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
       <forceEntryLinks>
-        <forceEntryLink name="Regiment" id="f8f4-3e65-bf5c-dc4f" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
+        <forceEntryLink name="Regimiento" id="f8f4-3e65-bf5c-dc4f" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Auxillary Units" id="6d16-520b-2373-96bc" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
+        <forceEntryLink name="Unidades auxiliares" id="6d16-520b-2373-96bc" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Big Drogg Fort-kicker" id="f9de-cf71-5b46-fff3" hidden="false" targetId="10b2-4a3a-8629-90ef" type="forceEntry">
+        <forceEntryLink name="Gran Drogg Pateafuertes" id="f9de-cf71-5b46-fff3" hidden="false" targetId="10b2-4a3a-8629-90ef" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Big Grikk&apos;s Kruleshots" id="096d-b9de-bb7c-ce7d" hidden="false" targetId="a11c-1f80-1875-4639" type="forceEntry">
+        <forceEntryLink name="Tiradores Crueles del Gran Grikk" id="096d-b9de-bb7c-ce7d" hidden="false" targetId="a11c-1f80-1875-4639" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
@@ -7129,77 +7129,77 @@
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Bloodthirsty Shiver" id="5e34-2299-c087-425e" hidden="false" targetId="0bd1-a3d9-9fa6-87a1" type="forceEntry">
+        <forceEntryLink name="Manada Sanguinaria" id="5e34-2299-c087-425e" hidden="false" targetId="0bd1-a3d9-9fa6-87a1" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Braggit&apos;s Bottle-snatchaz" id="9983-b34a-4b05-021b" hidden="false" targetId="d704-19f-a3d0-5edd" type="forceEntry">
+        <forceEntryLink name="Robabotellaz de Braggit" id="9983-b34a-4b05-021b" hidden="false" targetId="d704-19f-a3d0-5edd" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Brand&apos;s Oathbound" id="7d18-3819-65fc-4735" hidden="false" targetId="f8bf-3c82-73dc-a7e8" type="forceEntry">
+        <forceEntryLink name="Juramentados de Brand" id="7d18-3819-65fc-4735" hidden="false" targetId="f8bf-3c82-73dc-a7e8" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Bundo Whalebiter" id="b7a7-22b5-f574-b8e1" hidden="false" targetId="fb09-ac57-e70e-716d" type="forceEntry">
+        <forceEntryLink name="Bundo Muerdeballenas" id="b7a7-22b5-f574-b8e1" hidden="false" targetId="fb09-ac57-e70e-716d" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Da Hurtlin&apos; Hogz" id="ad68-0bee-12e6-ed1f" hidden="false" targetId="3cd2-b31b-43c8-e42c" type="forceEntry">
+        <forceEntryLink name="Loz Cerdoz Lanzadoz" id="ad68-0bee-12e6-ed1f" hidden="false" targetId="3cd2-b31b-43c8-e42c" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Okar&apos;s Torrbad" id="a3b7-55ec-1879-31be" hidden="false" targetId="7199-3205-3f4e-5567" type="forceEntry">
+        <forceEntryLink name="Torrbad de Okar" id="a3b7-55ec-1879-31be" hidden="false" targetId="7199-3205-3f4e-5567" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Urrgar&apos;s Maulerguts" id="3145-d476-ea69-fe00" hidden="false" targetId="71ed-0753-4dbb-c952" type="forceEntry">
+        <forceEntryLink name="Tripas Machacadoras de Urrgar" id="3145-d476-ea69-fe00" hidden="false" targetId="71ed-0753-4dbb-c952" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Da Kountin&apos; Krew" id="24e9-6e6a-7561-22a8" hidden="false" targetId="1d9c-5fbb-bb1e-bdb8" type="forceEntry">
+        <forceEntryLink name="La Pandilla Kontadora" id="24e9-6e6a-7561-22a8" hidden="false" targetId="1d9c-5fbb-bb1e-bdb8" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Drekki&apos;s Privateers" id="941f-16b9-6e80-912a" hidden="false" targetId="accf-873b-ebe8-1d1c" type="forceEntry">
+        <forceEntryLink name="Corsarios de Drekki" id="941f-16b9-6e80-912a" hidden="false" targetId="accf-873b-ebe8-1d1c" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Elthwin&apos;s Thorns" id="8adf-ed15-40b9-b4df" hidden="false" targetId="e484-c06-d856-2921" type="forceEntry">
+        <forceEntryLink name="Espinas de Elthwin" id="8adf-ed15-40b9-b4df" hidden="false" targetId="e484-c06-d856-2921" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Enforcers of the Tithe" id="17da-e512-e88b-c4c7" hidden="false" targetId="162a-f77e-f5f8-041b" type="forceEntry">
+        <forceEntryLink name="Recaudadores del Diezmo" id="17da-e512-e88b-c4c7" hidden="false" targetId="162a-f77e-f5f8-041b" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Exile Scavengers" id="bbe5-63bb-fdb6-eff1" hidden="false" targetId="c09c-6726-db25-549b" type="forceEntry">
+        <forceEntryLink name="Carroñeros Exiliados" id="bbe5-63bb-fdb6-eff1" hidden="false" targetId="c09c-6726-db25-549b" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Fjori&apos;s Flamebearers" id="759f-9c1a-00ed-44dd" hidden="false" targetId="a723-1314-55da-86d8" type="forceEntry">
+        <forceEntryLink name="Portallamas de Fjori" id="759f-9c1a-00ed-44dd" hidden="false" targetId="a723-1314-55da-86d8" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Godmarked Ascendant" id="e5b0-0a09-3c51-bdae" hidden="false" targetId="ab5a-af59-e05f-2daa" type="forceEntry">
+        <forceEntryLink name="Ascendente Marcado por los Dioses" id="e5b0-0a09-3c51-bdae" hidden="false" targetId="ab5a-af59-e05f-2daa" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Goroan Scions" id="22e7-bbb3-b817-e53c" hidden="false" targetId="d7f8-513c-ea3d-bc9e" type="forceEntry">
+        <forceEntryLink name="Vástagos Goroanos" id="22e7-bbb3-b817-e53c" hidden="false" targetId="d7f8-513c-ea3d-bc9e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
@@ -7209,57 +7209,57 @@
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Hargax&apos;s Pit-beasts" id="a8f5-4efb-b155-d19c" hidden="false" targetId="1339-980d-ee74-fe0b" type="forceEntry">
+        <forceEntryLink name="Bestias del Foso de Hargax" id="a8f5-4efb-b155-d19c" hidden="false" targetId="1339-980d-ee74-fe0b" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Jerrion&apos;s Delegation" id="e559-e45a-44e0-76b9" hidden="false" targetId="b0c-f2cd-9cc3-8b9f" type="forceEntry">
+        <forceEntryLink name="Delegación de Jerrion" id="e559-e45a-44e0-76b9" hidden="false" targetId="b0c-f2cd-9cc3-8b9f" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Krittok&apos;s Clawpack" id="c0af-5472-092a-1f36" hidden="false" targetId="d0d8-3ec6-4b57-16fd" type="forceEntry">
+        <forceEntryLink name="Manada Garra de Krittok" id="c0af-5472-092a-1f36" hidden="false" targetId="d0d8-3ec6-4b57-16fd" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Lord Skaldior&apos;s Chosen" id="9023-9fe1-6296-9be0" hidden="false" targetId="ba3f-fa41-97d3-2c0f" type="forceEntry">
+        <forceEntryLink name="Elegidos de Lord Skaldior" id="9023-9fe1-6296-9be0" hidden="false" targetId="ba3f-fa41-97d3-2c0f" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Namarti Shore Raid" id="d8be-bc46-a92d-014c" hidden="false" targetId="75bc-a6cf-8838-7521" type="forceEntry">
+        <forceEntryLink name="Incursión Costera Namarti" id="d8be-bc46-a92d-014c" hidden="false" targetId="75bc-a6cf-8838-7521" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Neferata&apos;s Royal Echelon" id="f0f2-0b82-2f97-81f4" hidden="false" targetId="e071-126a-fb3e-1462" type="forceEntry">
+        <forceEntryLink name="Escalón Real de Neferata" id="f0f2-0b82-2f97-81f4" hidden="false" targetId="e071-126a-fb3e-1462" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Norgrimm&apos;s Rune Throng" id="b617-12fc-584c-c540" hidden="false" targetId="c7eb-8e6c-a032-4e04" type="forceEntry">
+        <forceEntryLink name="Hueste Rúnica de Norgrimm" id="b617-12fc-584c-c540" hidden="false" targetId="c7eb-8e6c-a032-4e04" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Nurgle&apos;s Gift" id="6e02-e8b6-50f9-e55e" hidden="false" targetId="0fec-ccda-3904-c0ce" type="forceEntry">
+        <forceEntryLink name="Don de Nurgle" id="6e02-e8b6-50f9-e55e" hidden="false" targetId="0fec-ccda-3904-c0ce" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Odo Godswallow" id="45d0-aa8e-b167-2920" hidden="false" targetId="8a04-83ad-bc2-5354" type="forceEntry">
+        <forceEntryLink name="Odo Tragadioses" id="45d0-aa8e-b167-2920" hidden="false" targetId="8a04-83ad-bc2-5354" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="One-eyed Grunnock" id="ba16-910c-9f2f-d704" hidden="false" targetId="733b-7b81-c2b-b772" type="forceEntry">
+        <forceEntryLink name="Grunnock el Tuerto" id="ba16-910c-9f2f-d704" hidden="false" targetId="733b-7b81-c2b-b772" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Phulgoth&apos;s Shudderhood" id="7cc3-fb97-9cd9-913b" hidden="false" targetId="69d0-b9be-62a8-5ae4" type="forceEntry">
+        <forceEntryLink name="Hermandad Estremecedora de Phulgoth" id="7cc3-fb97-9cd9-913b" hidden="false" targetId="69d0-b9be-62a8-5ae4" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
@@ -7269,188 +7269,188 @@
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Scions of the Necropolis" id="672a-e77f-eef6-a3f2" hidden="false" targetId="4790-92d-f8a7-bd55" type="forceEntry">
+        <forceEntryLink name="Vástagos de la Necrópolis" id="672a-e77f-eef6-a3f2" hidden="false" targetId="4790-92d-f8a7-bd55" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Skulkrik&apos;s Loonladz" id="a4e5-993a-7e70-475b" hidden="false" targetId="2e3e-7081-a0db-9079" type="forceEntry">
+        <forceEntryLink name="Chikoz Lunáticoz de Skulkrik" id="a4e5-993a-7e70-475b" hidden="false" targetId="2e3e-7081-a0db-9079" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Sky-Port Profiteers" id="1ba9-7a9c-871b-32ce" hidden="false" targetId="5b4a-c0d3-7f5f-3794" type="forceEntry">
+        <forceEntryLink name="Especuladores del Puerto Celeste" id="1ba9-7a9c-871b-32ce" hidden="false" targetId="5b4a-c0d3-7f5f-3794" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Snerk&apos;s Trogg-fer-Hire" id="dad6-ca29-34ae-7fc1" hidden="false" targetId="9d39-ae0e-afc9-f982" type="forceEntry">
+        <forceEntryLink name="Trogg de Alquiler de Snerk" id="dad6-ca29-34ae-7fc1" hidden="false" targetId="9d39-ae0e-afc9-f982" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Squires of the Everchosen" id="b16b-9e82-41ec-ed4c" hidden="false" targetId="2b2d-a5c6-4595-5468" type="forceEntry">
+        <forceEntryLink name="Escuderos del Elegido Eterno" id="b16b-9e82-41ec-ed4c" hidden="false" targetId="2b2d-a5c6-4595-5468" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Stumblefoot Gargant" id="ff16-0ef2-6cf8-d584" hidden="false" targetId="e974-53fd-481c-5345" type="forceEntry">
+        <forceEntryLink name="Gargante Tropezón" id="ff16-0ef2-6cf8-d584" hidden="false" targetId="e974-53fd-481c-5345" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Beast of Castle Sterneiste" id="5620-918e-9fad-3f92" hidden="false" targetId="6e65-4c2e-132e-4c1e" type="forceEntry">
+        <forceEntryLink name="La Bestia del Castillo Sterneiste" id="5620-918e-9fad-3f92" hidden="false" targetId="6e65-4c2e-132e-4c1e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Blacktalons" id="74c9-ee1e-76f3-f197" hidden="false" targetId="bced-df96-fcc3-5cf6" type="forceEntry">
+        <forceEntryLink name="Los Garras Negras" id="74c9-ee1e-76f3-f197" hidden="false" targetId="bced-df96-fcc3-5cf6" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Coven of Thryx" id="e89f-10a2-7a8d-c9a5" hidden="false" targetId="6f98-8771-7752-c86e" type="forceEntry">
+        <forceEntryLink name="El Aquelarre de Thryx" id="e89f-10a2-7a8d-c9a5" hidden="false" targetId="6f98-8771-7752-c86e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Exiled One" id="a832-984f-8c6e-2b86" hidden="false" targetId="db1a-c813-3bde-2f05" type="forceEntry">
+        <forceEntryLink name="El Exiliado" id="a832-984f-8c6e-2b86" hidden="false" targetId="db1a-c813-3bde-2f05" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Horizon Seekers" id="250b-1308-ab30-ddd4" hidden="false" targetId="435e-269e-899d-3f7e" type="forceEntry">
+        <forceEntryLink name="Los Buscadores del Horizonte" id="250b-1308-ab30-ddd4" hidden="false" targetId="435e-269e-899d-3f7e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Liche&apos;s Hand" id="2158-98f7-3071-5fb4" hidden="false" targetId="9136-a422-571c-c77c" type="forceEntry">
+        <forceEntryLink name="La Mano del Liche" id="2158-98f7-3071-5fb4" hidden="false" targetId="9136-a422-571c-c77c" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Lost-Song Spirits" id="2fbd-9297-4257-1482" hidden="false" targetId="147d-a572-a516-94c5" type="forceEntry">
+        <forceEntryLink name="Los Espíritus de la Canción Perdida" id="2fbd-9297-4257-1482" hidden="false" targetId="147d-a572-a516-94c5" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Red Revelation" id="3f9d-2861-e9b6-a038" hidden="false" targetId="fd9c-4b58-82d1-d251" type="forceEntry">
+        <forceEntryLink name="La Revelación Roja" id="3f9d-2861-e9b6-a038" hidden="false" targetId="fd9c-4b58-82d1-d251" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Shinestealaz" id="97b1-c513-8f90-1924" hidden="false" targetId="11e8-d326-7125-4e5e" type="forceEntry">
+        <forceEntryLink name="Loz Robabrilloz" id="97b1-c513-8f90-1924" hidden="false" targetId="11e8-d326-7125-4e5e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Sorrowmourn Choir" id="ab86-3bf2-9c20-cf14" hidden="false" targetId="60b7-2797-5b4-8101" type="forceEntry">
+        <forceEntryLink name="El Coro de los Lamentos" id="ab86-3bf2-9c20-cf14" hidden="false" targetId="60b7-2797-5b4-8101" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Sterneiste Garrison" id="d986-9993-19fe-4b30" hidden="false" targetId="9030-4036-8c77-84e5" type="forceEntry">
+        <forceEntryLink name="La Guarnición de Sterneiste" id="d986-9993-19fe-4b30" hidden="false" targetId="9030-4036-8c77-84e5" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Summerking&apos;s Entourage" id="ba5c-4824-a264-950b" hidden="false" targetId="de70-1b54-66b4-c010" type="forceEntry">
+        <forceEntryLink name="El Séquito del Rey del Verano" id="ba5c-4824-a264-950b" hidden="false" targetId="de70-1b54-66b4-c010" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Valnir&apos;s Stormwing" id="6ea7-0d74-f4e5-75a8" hidden="false" targetId="2eec-326e-528c-8473" type="forceEntry">
+        <forceEntryLink name="Ala de Tormenta de Valnir" id="6ea7-0d74-f4e5-75a8" hidden="false" targetId="2eec-326e-528c-8473" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Veremord&apos;s Shamblers" id="a0cc-d5ca-89e8-a286" hidden="false" targetId="c43c-4ed-d97a-b72" type="forceEntry">
+        <forceEntryLink name="Tambaleantes de Veremord" id="a0cc-d5ca-89e8-a286" hidden="false" targetId="c43c-4ed-d97a-b72" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Volt-Klaw&apos;s Enginecoven" id="6308-1e6e-a04c-e648" hidden="false" targetId="ffc1-e2cb-f2f0-f72e" type="forceEntry">
+        <forceEntryLink name="Aquelarre de Máquinas de Volt-Klaw" id="6308-1e6e-a04c-e648" hidden="false" targetId="ffc1-e2cb-f2f0-f72e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Craventhrone Executioners" id="b5f5-2a5e-96c6-0cc4" hidden="false" targetId="6b4d-e3a9-5521-9022" type="forceEntry">
+        <forceEntryLink name="Verdugos del Trono Cobarde" id="b5f5-2a5e-96c6-0cc4" hidden="false" targetId="6b4d-e3a9-5521-9022" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Horror of Hallow&apos;s Watch" id="6b29-ab94-afa5-4056" hidden="false" targetId="efb1-eac2-1024-e0cb" type="forceEntry">
+        <forceEntryLink name="El Horror de la Vigilia Sagrada" id="6b29-ab94-afa5-4056" hidden="false" targetId="efb1-eac2-1024-e0cb" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Scarlet Jury" id="9492-8138-ac8f-0d05" hidden="false" targetId="bfa0-f3bb-5a25-48cd" type="forceEntry">
+        <forceEntryLink name="El Jurado Escarlata" id="9492-8138-ac8f-0d05" hidden="false" targetId="bfa0-f3bb-5a25-48cd" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Casket of Resurrections" id="90ea-4717-560f-ed76" hidden="false" targetId="3706-08ed-3870-450d" type="forceEntry">
+        <forceEntryLink name="Arca de Resurrecciones" id="90ea-4717-560f-ed76" hidden="false" targetId="3706-08ed-3870-450d" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Seeker of the Dread Dirge" id="0a4c-5db4-a50f-edc7" hidden="false" targetId="3ebb-d680-3249-76ed" type="forceEntry">
+        <forceEntryLink name="Buscador de la Elegía del Terror" id="0a4c-5db4-a50f-edc7" hidden="false" targetId="3ebb-d680-3249-76ed" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Curse-Steel Battery" id="9378-d024-4c63-8581" hidden="false" targetId="1d6a-1d48-9173-d651" type="forceEntry">
+        <forceEntryLink name="La Batería de Acero Maldito" id="9378-d024-4c63-8581" hidden="false" targetId="1d6a-1d48-9173-d651" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Weird-Crafta" id="6a51-33b6-4d06-360b" hidden="false" targetId="a1c0-ca80-06e3-65c0" type="forceEntry">
+        <forceEntryLink name="El Artesano Eztrambótiko" id="6a51-33b6-4d06-360b" hidden="false" targetId="a1c0-ca80-06e3-65c0" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Realmstone Innovator" id="7410-d837-0cac-418e" hidden="false" targetId="8841-fda8-88e1-588b" type="forceEntry">
+        <forceEntryLink name="El Innovador de Piedra del Reino" id="7410-d837-0cac-418e" hidden="false" targetId="8841-fda8-88e1-588b" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Sinister Nullifier" id="625e-68e7-cb86-e928" hidden="false" targetId="f037-558a-ec08-6af4" type="forceEntry">
+        <forceEntryLink name="El Anulador Siniestro" id="625e-68e7-cb86-e928" hidden="false" targetId="f037-558a-ec08-6af4" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Warped Saboteur" id="0900-d9c3-25d0-4bff" hidden="false" targetId="ca92-b591-c6c1-6707" type="forceEntry">
+        <forceEntryLink name="El Saboteador Deformado" id="0900-d9c3-25d0-4bff" hidden="false" targetId="ca92-b591-c6c1-6707" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Heroes of the Jade Abbey [LEGENDS]" id="5646-73fe-6d51-443e" hidden="false" targetId="f3c9-ca5d-bd0e-a94e" type="forceEntry">
+        <forceEntryLink name="Héroes de la Abadía de Jade [Leyendas]" id="5646-73fe-6d51-443e" hidden="false" targetId="f3c9-ca5d-bd0e-a94e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Regiment of Ghyran" id="24a4-4645-fcf7-6e39" hidden="false" targetId="1d4a-95bf-25a6-549c" type="forceEntry"/>
-        <forceEntryLink name="The Pustules" id="4c61-18e6-24c1-29d4" hidden="false" targetId="a88b-8da0-2e5e-a398" type="forceEntry">
+        <forceEntryLink name="Regimiento de Ghyran" id="24a4-4645-fcf7-6e39" hidden="false" targetId="1d4a-95bf-25a6-549c" type="forceEntry"/>
+        <forceEntryLink name="Las Pústulas" id="4c61-18e6-24c1-29d4" hidden="false" targetId="a88b-8da0-2e5e-a398" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Diseased Revellers" id="7740-e9c0-761f-9400" hidden="false" targetId="c30e-bf48-fe89-8d48" type="forceEntry">
+        <forceEntryLink name="Juerguistas Enfermos" id="7740-e9c0-761f-9400" hidden="false" targetId="c30e-bf48-fe89-8d48" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Karahtet&apos;s Siege Breaker" id="819e-43c3-2dbe-01f2" hidden="false" targetId="7799-20f4-4e7c-6474" type="forceEntry">
+        <forceEntryLink name="Rompeasedios de Karahtet" id="819e-43c3-2dbe-01f2" hidden="false" targetId="7799-20f4-4e7c-6474" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Sigil Convocation" id="9a1a-df02-b948-c26d" hidden="false" targetId="a305-c205-8cff-9744" type="forceEntry">
+        <forceEntryLink name="Convocación del Sello" id="9a1a-df02-b948-c26d" hidden="false" targetId="a305-c205-8cff-9744" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Dawnrider Lance" id="1c2a-986f-cc12-3921" hidden="false" targetId="d28a-f6a8-df8a-b38c" type="forceEntry">
+        <forceEntryLink name="Lanza de Jinetes del Alba" id="1c2a-986f-cc12-3921" hidden="false" targetId="d28a-f6a8-df8a-b38c" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
@@ -7460,29 +7460,29 @@
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Seekers of Silver" id="bb17-66b5-fa80-9c81" hidden="false" targetId="649c-3737-f793-fe6a" type="forceEntry">
+        <forceEntryLink name="Buscadores de Plata" id="bb17-66b5-fa80-9c81" hidden="false" targetId="649c-3737-f793-fe6a" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Heralds of the Bone-tithe" id="1f54-37c4-18b8-614f" hidden="false" targetId="4617-acfd-e9d3-807d" type="forceEntry">
+        <forceEntryLink name="Heraldos del Diezmo Óseo" id="1f54-37c4-18b8-614f" hidden="false" targetId="4617-acfd-e9d3-807d" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden"/>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Twisted Branch" id="2cb4-9fa8-e67e-572a" hidden="false" targetId="1874-8be5-53f6-2166" type="forceEntry"/>
-        <forceEntryLink name="Drycha&apos;s Talons" id="46c1-4226-cc34-d794" hidden="false" targetId="0c75-7fef-df92-3a29" type="forceEntry"/>
-        <forceEntryLink name="The Crimson Lash" id="486c-bb58-c381-10d4" hidden="false" targetId="a277-b0ac-7a21-1d4a" type="forceEntry"/>
-        <forceEntryLink name="Khinerai Death Flight" id="1604-83d7-e491-8181" hidden="false" targetId="fadb-b8ee-b0b2-6c3c" type="forceEntry"/>
-        <forceEntryLink name="Reinholt&apos;s Sharpshooters" id="3d99-db41-edca-a6d0" hidden="false" targetId="9fe3-19f8-a1b7-328b" type="forceEntry"/>
-        <forceEntryLink name="Rogue Engine" id="322e-2eb0-a9e5-8ff8" hidden="false" targetId="4b49-6ce2-c82f-a525" type="forceEntry"/>
-        <forceEntryLink name="Cogfort Raiders" id="1bd6-388c-aebf-cbc3" hidden="false" targetId="d455-6a93-c62e-14f0" type="forceEntry"/>
-        <forceEntryLink name="Ven Denst&apos;s Hounds" id="68a9-ef8e-582c-5454" hidden="false" targetId="bfa4-82e4-1430-3fd4" type="forceEntry"/>
-        <forceEntryLink name="The Accursed Reflection" id="b8f9-4a9f-b37c-229b" hidden="false" targetId="0f99-b3d1-0f32-cb6d" type="forceEntry"/>
-        <forceEntryLink name="Mist-Clad Revellers" id="3b5b-acde-4478-2ab7" hidden="false" targetId="bb82-173a-f3b3-d48c" type="forceEntry"/>
+        <forceEntryLink name="La Rama Retorcida" id="2cb4-9fa8-e67e-572a" hidden="false" targetId="1874-8be5-53f6-2166" type="forceEntry"/>
+        <forceEntryLink name="Garras de Drycha" id="46c1-4226-cc34-d794" hidden="false" targetId="0c75-7fef-df92-3a29" type="forceEntry"/>
+        <forceEntryLink name="El Látigo Carmesí" id="486c-bb58-c381-10d4" hidden="false" targetId="a277-b0ac-7a21-1d4a" type="forceEntry"/>
+        <forceEntryLink name="Vuelo Mortal Khinerai" id="1604-83d7-e491-8181" hidden="false" targetId="fadb-b8ee-b0b2-6c3c" type="forceEntry"/>
+        <forceEntryLink name="Tiradores de Élite de Reinholt" id="3d99-db41-edca-a6d0" hidden="false" targetId="9fe3-19f8-a1b7-328b" type="forceEntry"/>
+        <forceEntryLink name="Máquina rebelde" id="322e-2eb0-a9e5-8ff8" hidden="false" targetId="4b49-6ce2-c82f-a525" type="forceEntry"/>
+        <forceEntryLink name="Incursores de la Fortaleza de Engranajes" id="1bd6-388c-aebf-cbc3" hidden="false" targetId="d455-6a93-c62e-14f0" type="forceEntry"/>
+        <forceEntryLink name="Sabuesos de Ven Denst" id="68a9-ef8e-582c-5454" hidden="false" targetId="bfa4-82e4-1430-3fd4" type="forceEntry"/>
+        <forceEntryLink name="El Reflejo Maldito" id="b8f9-4a9f-b37c-229b" hidden="false" targetId="0f99-b3d1-0f32-cb6d" type="forceEntry"/>
+        <forceEntryLink name="Juerguistas Envueltos en Niebla" id="3b5b-acde-4478-2ab7" hidden="false" targetId="bb82-173a-f3b3-d48c" type="forceEntry"/>
       </forceEntryLinks>
     </forceEntry>
-    <forceEntry name="Big Drogg Fort-kicker" id="10b2-4a3a-8629-90ef" hidden="true">
+    <forceEntry name="Gran Drogg Pateafuertes" id="10b2-4a3a-8629-90ef" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -7526,7 +7526,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Bundo Whalebiter" id="fb09-ac57-e70e-716d" hidden="true">
+    <forceEntry name="Bundo Muerdeballenas" id="fb09-ac57-e70e-716d" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -7575,7 +7575,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Okar&apos;s Torrbad" id="7199-3205-3f4e-5567" hidden="true">
+    <forceEntry name="Torrbad de Okar" id="7199-3205-3f4e-5567" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -7612,7 +7612,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Urrgar&apos;s Maulerguts" id="71ed-0753-4dbb-c952" hidden="true">
+    <forceEntry name="Tripas Machacadoras de Urrgar" id="71ed-0753-4dbb-c952" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -7659,7 +7659,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="One-eyed Grunnock" id="733b-7b81-c2b-b772" hidden="true">
+    <forceEntry name="Grunnock el Tuerto" id="733b-7b81-c2b-b772" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -7708,7 +7708,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Elthwin&apos;s Thorns" id="e484-c06-d856-2921" hidden="true">
+    <forceEntry name="Espinas de Elthwin" id="e484-c06-d856-2921" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -7753,7 +7753,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Fjori&apos;s Flamebearers" id="a723-1314-55da-86d8" hidden="true">
+    <forceEntry name="Portallamas de Fjori" id="a723-1314-55da-86d8" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -7844,7 +7844,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Norgrimm&apos;s Rune Throng" id="c7eb-8e6c-a032-4e04" hidden="true">
+    <forceEntry name="Hueste Rúnica de Norgrimm" id="c7eb-8e6c-a032-4e04" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -7932,7 +7932,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Blacktalons" id="bced-df96-fcc3-5cf6" hidden="true">
+    <forceEntry name="Los Garras Negras" id="bced-df96-fcc3-5cf6" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -7975,7 +7975,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Brand&apos;s Oathbound" id="f8bf-3c82-73dc-a7e8" hidden="true">
+    <forceEntry name="Juramentados de Brand" id="f8bf-3c82-73dc-a7e8" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8019,7 +8019,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Hargax&apos;s Pit-beasts" id="1339-980d-ee74-fe0b" hidden="true">
+    <forceEntry name="Bestias del Foso de Hargax" id="1339-980d-ee74-fe0b" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8063,7 +8063,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Phulgoth&apos;s Shudderhood" id="69d0-b9be-62a8-5ae4" hidden="true">
+    <forceEntry name="Hermandad Estremecedora de Phulgoth" id="69d0-b9be-62a8-5ae4" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8106,7 +8106,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Coven of Thryx" id="6f98-8771-7752-c86e" hidden="true">
+    <forceEntry name="El Aquelarre de Thryx" id="6f98-8771-7752-c86e" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8147,7 +8147,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Jerrion&apos;s Delegation" id="b0c-f2cd-9cc3-8b9f" hidden="true">
+    <forceEntry name="Delegación de Jerrion" id="b0c-f2cd-9cc3-8b9f" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8185,7 +8185,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Neferata&apos;s Royal Echelon" id="e071-126a-fb3e-1462" hidden="true">
+    <forceEntry name="Escalón Real de Neferata" id="e071-126a-fb3e-1462" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8223,7 +8223,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Scions of the Necropolis" id="4790-92d-f8a7-bd55" hidden="true">
+    <forceEntry name="Vástagos de la Necrópolis" id="4790-92d-f8a7-bd55" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8263,7 +8263,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Liche&apos;s Hand" id="9136-a422-571c-c77c" hidden="true">
+    <forceEntry name="La Mano del Liche" id="9136-a422-571c-c77c" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8303,7 +8303,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Sorrowmourn Choir" id="60b7-2797-5b4-8101" hidden="true">
+    <forceEntry name="El Coro de los Lamentos" id="60b7-2797-5b4-8101" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8341,7 +8341,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Sterneiste Garrison" id="9030-4036-8c77-84e5" hidden="true">
+    <forceEntry name="La Guarnición de Sterneiste" id="9030-4036-8c77-84e5" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8381,7 +8381,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Summerking&apos;s Entourage" id="de70-1b54-66b4-c010" hidden="true">
+    <forceEntry name="El Séquito del Rey del Verano" id="de70-1b54-66b4-c010" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8419,7 +8419,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Veremord&apos;s Shamblers" id="c43c-4ed-d97a-b72" hidden="true">
+    <forceEntry name="Tambaleantes de Veremord" id="c43c-4ed-d97a-b72" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8459,7 +8459,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Odo Godswallow" id="8a04-83ad-bc2-5354" hidden="true">
+    <forceEntry name="Odo Tragadioses" id="8a04-83ad-bc2-5354" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8499,7 +8499,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Big Grikk&apos;s Kruleshots" id="a11c-1f80-1875-4639" hidden="true">
+    <forceEntry name="Tiradores Crueles del Gran Grikk" id="a11c-1f80-1875-4639" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8541,7 +8541,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Braggit&apos;s Bottle-snatchaz" id="d704-19f-a3d0-5edd" hidden="true">
+    <forceEntry name="Robabotellaz de Braggit" id="d704-19f-a3d0-5edd" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8583,7 +8583,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Volt-Klaw&apos;s Enginecoven" id="ffc1-e2cb-f2f0-f72e" hidden="true">
+    <forceEntry name="Aquelarre de Máquinas de Volt-Klaw" id="ffc1-e2cb-f2f0-f72e" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8627,7 +8627,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Krittok&apos;s Clawpack" id="d0d8-3ec6-4b57-16fd" hidden="true">
+    <forceEntry name="Manada Garra de Krittok" id="d0d8-3ec6-4b57-16fd" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8671,7 +8671,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Horizon Seekers" id="435e-269e-899d-3f7e" hidden="true">
+    <forceEntry name="Los Buscadores del Horizonte" id="435e-269e-899d-3f7e" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8714,7 +8714,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Valnir&apos;s Stormwing" id="2eec-326e-528c-8473" hidden="true">
+    <forceEntry name="Ala de Tormenta de Valnir" id="2eec-326e-528c-8473" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8759,7 +8759,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Lord Skaldior&apos;s Chosen" id="ba3f-fa41-97d3-2c0f" hidden="true">
+    <forceEntry name="Elegidos de Lord Skaldior" id="ba3f-fa41-97d3-2c0f" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8803,7 +8803,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Godmarked Ascendant" id="ab5a-af59-e05f-2daa" hidden="true">
+    <forceEntry name="Ascendente Marcado por los Dioses" id="ab5a-af59-e05f-2daa" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8842,7 +8842,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Enforcers of the Tithe" id="162a-f77e-f5f8-041b" hidden="true">
+    <forceEntry name="Recaudadores del Diezmo" id="162a-f77e-f5f8-041b" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8891,7 +8891,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Exile Scavengers" id="c09c-6726-db25-549b" hidden="true">
+    <forceEntry name="Carroñeros Exiliados" id="c09c-6726-db25-549b" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8944,7 +8944,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Squires of the Everchosen" id="2b2d-a5c6-4595-5468" hidden="true">
+    <forceEntry name="Escuderos del Elegido Eterno" id="2b2d-a5c6-4595-5468" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -8985,7 +8985,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Lost-Song Spirits" id="147d-a572-a516-94c5" hidden="true">
+    <forceEntry name="Los Espíritus de la Canción Perdida" id="147d-a572-a516-94c5" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9027,7 +9027,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Nurgle&apos;s Gift" id="0fec-ccda-3904-c0ce" hidden="true">
+    <forceEntry name="Don de Nurgle" id="0fec-ccda-3904-c0ce" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9080,7 +9080,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Stumblefoot Gargant" id="e974-53fd-481c-5345" hidden="true">
+    <forceEntry name="Gargante Tropezón" id="e974-53fd-481c-5345" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9141,7 +9141,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Snerk&apos;s Trogg-fer-Hire" id="9d39-ae0e-afc9-f982" hidden="true">
+    <forceEntry name="Trogg de Alquiler de Snerk" id="9d39-ae0e-afc9-f982" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9198,7 +9198,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Goroan Scions" id="d7f8-513c-ea3d-bc9e" hidden="true">
+    <forceEntry name="Vástagos Goroanos" id="d7f8-513c-ea3d-bc9e" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9241,7 +9241,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Da Hurtlin&apos; Hogz" id="3cd2-b31b-43c8-e42c" hidden="true">
+    <forceEntry name="Loz Cerdoz Lanzadoz" id="3cd2-b31b-43c8-e42c" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9283,7 +9283,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Da Kountin&apos; Krew" id="1d9c-5fbb-bb1e-bdb8" hidden="true">
+    <forceEntry name="La Pandilla Kontadora" id="1d9c-5fbb-bb1e-bdb8" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9325,7 +9325,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Shinestealaz" id="11e8-d326-7125-4e5e" hidden="true">
+    <forceEntry name="Loz Robabrilloz" id="11e8-d326-7125-4e5e" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9364,7 +9364,7 @@
         <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Skulkrik&apos;s Loonladz" id="2e3e-7081-a0db-9079" hidden="true">
+    <forceEntry name="Chikoz Lunáticoz de Skulkrik" id="2e3e-7081-a0db-9079" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9445,7 +9445,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Beast of Castle Sterneiste" id="6e65-4c2e-132e-4c1e" hidden="true">
+    <forceEntry name="La Bestia del Castillo Sterneiste" id="6e65-4c2e-132e-4c1e" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9485,7 +9485,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Bloodthirsty Shiver" id="0bd1-a3d9-9fa6-87a1" hidden="true">
+    <forceEntry name="Manada Sanguinaria" id="0bd1-a3d9-9fa6-87a1" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9530,7 +9530,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Namarti Shore Raid" id="75bc-a6cf-8838-7521" hidden="true">
+    <forceEntry name="Incursión Costera Namarti" id="75bc-a6cf-8838-7521" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9575,7 +9575,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Drekki&apos;s Privateers" id="accf-873b-ebe8-1d1c" hidden="true">
+    <forceEntry name="Corsarios de Drekki" id="accf-873b-ebe8-1d1c" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9621,7 +9621,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Sky-Port Profiteers" id="5b4a-c0d3-7f5f-3794" hidden="true">
+    <forceEntry name="Especuladores del Puerto Celeste" id="5b4a-c0d3-7f5f-3794" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9669,7 +9669,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Exiled One" id="db1a-c813-3bde-2f05" hidden="true">
+    <forceEntry name="El Exiliado" id="db1a-c813-3bde-2f05" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9713,7 +9713,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Red Revelation" id="fd9c-4b58-82d1-d251" hidden="true">
+    <forceEntry name="La Revelación Roja" id="fd9c-4b58-82d1-d251" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9757,7 +9757,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Regiment" id="376a-6b97-8699-dd59" hidden="true" sortIndex="102">
+    <forceEntry name="Regimiento" id="376a-6b97-8699-dd59" hidden="true" sortIndex="102">
       <categoryLinks>
         <categoryLink name="Regimental Leader" hidden="false" id="7849-0c9c-7a4c-e4b9" targetId="d1f3-921c-b403-1106">
           <constraints>
@@ -9802,7 +9802,7 @@
         <constraint type="max" value="4" field="selections" scope="self" shared="true" id="31ea-619f-f792-f8cc"/>
       </constraints>
     </forceEntry>
-    <forceEntry name="Auxillary Units" id="8732-47c4-9f1c-e71e" hidden="true" sortIndex="101">
+    <forceEntry name="Unidades auxiliares" id="8732-47c4-9f1c-e71e" hidden="true" sortIndex="101">
       <categoryLinks>
         <categoryLink name="HERO" hidden="false" id="ba44-f93b-692e-61a5" targetId="6e72-1656-d554-528a"/>
         <categoryLink name="INFANTRY" hidden="false" id="f4be-fca6-2e4f-d1dc" targetId="75d6-6995-dfcc-3898"/>
@@ -9812,7 +9812,7 @@
         <categoryLink name="BEAST" hidden="false" id="55bf-f152-2e2b-3830" targetId="b224-8c8e-ca93-9860"/>
       </categoryLinks>
     </forceEntry>
-    <forceEntry name="The Scarlet Jury" id="bfa0-f3bb-5a25-48cd" hidden="true">
+    <forceEntry name="El Jurado Escarlata" id="bfa0-f3bb-5a25-48cd" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9860,7 +9860,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Craventhrone Executioners" id="6b4d-e3a9-5521-9022" hidden="true">
+    <forceEntry name="Verdugos del Trono Cobarde" id="6b4d-e3a9-5521-9022" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9900,7 +9900,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Casket of Resurrections" id="3706-08ed-3870-450d" hidden="true">
+    <forceEntry name="Arca de Resurrecciones" id="3706-08ed-3870-450d" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9940,7 +9940,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Horror of Hallow&apos;s Watch" id="efb1-eac2-1024-e0cb" hidden="true">
+    <forceEntry name="El Horror de la Vigilia Sagrada" id="efb1-eac2-1024-e0cb" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -9980,7 +9980,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Seeker of the Dread Dirge" id="3ebb-d680-3249-76ed" hidden="true">
+    <forceEntry name="Buscador de la Elegía del Terror" id="3ebb-d680-3249-76ed" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -10024,7 +10024,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Curse-Steel Battery" id="1d6a-1d48-9173-d651" hidden="true">
+    <forceEntry name="La Batería de Acero Maldito" id="1d6a-1d48-9173-d651" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -10068,7 +10068,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Realmstone Innovator" id="8841-fda8-88e1-588b" hidden="true">
+    <forceEntry name="El Innovador de Piedra del Reino" id="8841-fda8-88e1-588b" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -10124,7 +10124,7 @@
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3a09-be10-0e75-ccb9"/>
       </constraints>
     </forceEntry>
-    <forceEntry name="The Warped Saboteur" id="ca92-b591-c6c1-6707" hidden="true">
+    <forceEntry name="El Saboteador Deformado" id="ca92-b591-c6c1-6707" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -10175,7 +10175,7 @@
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e7ae-9da8-7dcc-88d3"/>
       </constraints>
     </forceEntry>
-    <forceEntry name="The Sinister Nullifier" id="f037-558a-ec08-6af4" hidden="true">
+    <forceEntry name="El Anulador Siniestro" id="f037-558a-ec08-6af4" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -10219,7 +10219,7 @@
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2759-4c85-ef3e-b908"/>
       </constraints>
     </forceEntry>
-    <forceEntry name="The Weird-Crafta" id="a1c0-ca80-06e3-65c0" hidden="true">
+    <forceEntry name="El Artesano Eztrambótiko" id="a1c0-ca80-06e3-65c0" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -10259,7 +10259,7 @@
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8de0-9114-24ee-4e8d"/>
       </constraints>
     </forceEntry>
-    <forceEntry name="Path to Glory: Blighted Wilds" id="8e6f-2dd7-a7ed-489e" hidden="false" childForcesLabel="Regiments and Auxiliary" sortIndex="2">
+    <forceEntry name="Sendero a la Gloria: Tierras Salvajes Corruptas" id="8e6f-2dd7-a7ed-489e" hidden="false" childForcesLabel="Regiments and Auxiliary" sortIndex="2">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="063d-f3ff-e1f8-b549" targetId="676-2b78-7bbf-ba9c"/>
         <categoryLink name="Reference" hidden="false" id="21af-6d80-63c3-999a" targetId="3360-1158-e879-9606"/>
@@ -10364,7 +10364,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
       <forceEntryLinks>
-        <forceEntryLink name="Regiment" id="f508-6f7a-058f-8c75" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
+        <forceEntryLink name="Regimiento" id="f508-6f7a-058f-8c75" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -11290,7 +11290,7 @@
             </modifier>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Auxillary Units" id="19d1-d7b2-73be-4666" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
+        <forceEntryLink name="Unidades auxiliares" id="19d1-d7b2-73be-4666" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -11866,14 +11866,14 @@
             </modifier>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="The Realmstone Innovator" id="5755-43f8-a059-d1c8" hidden="false" targetId="8841-fda8-88e1-588b" type="forceEntry"/>
-        <forceEntryLink name="The Sinister Nullifier" id="910f-5e0d-76d8-e438" hidden="false" targetId="f037-558a-ec08-6af4" type="forceEntry"/>
-        <forceEntryLink name="The Warped Saboteur" id="3324-e6ce-2ff3-2915" hidden="false" targetId="ca92-b591-c6c1-6707" type="forceEntry"/>
-        <forceEntryLink name="The Weird-Crafta" id="373f-2a05-7c9f-8248" hidden="false" targetId="a1c0-ca80-06e3-65c0" type="forceEntry"/>
-        <forceEntryLink name="Regiment of Ghyran" id="7870-709b-d9da-7d69" hidden="false" targetId="1d4a-95bf-25a6-549c" type="forceEntry"/>
+        <forceEntryLink name="El Innovador de Piedra del Reino" id="5755-43f8-a059-d1c8" hidden="false" targetId="8841-fda8-88e1-588b" type="forceEntry"/>
+        <forceEntryLink name="El Anulador Siniestro" id="910f-5e0d-76d8-e438" hidden="false" targetId="f037-558a-ec08-6af4" type="forceEntry"/>
+        <forceEntryLink name="El Saboteador Deformado" id="3324-e6ce-2ff3-2915" hidden="false" targetId="ca92-b591-c6c1-6707" type="forceEntry"/>
+        <forceEntryLink name="El Artesano Eztrambótiko" id="373f-2a05-7c9f-8248" hidden="false" targetId="a1c0-ca80-06e3-65c0" type="forceEntry"/>
+        <forceEntryLink name="Regimiento de Ghyran" id="7870-709b-d9da-7d69" hidden="false" targetId="1d4a-95bf-25a6-549c" type="forceEntry"/>
       </forceEntryLinks>
     </forceEntry>
-    <forceEntry name="Heroes of the Jade Abbey [LEGENDS]" id="f3c9-ca5d-bd0e-a94e" hidden="true">
+    <forceEntry name="Héroes de la Abadía de Jade [Leyendas]" id="f3c9-ca5d-bd0e-a94e" hidden="true">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="efb2-10e7-cd01-5070"/>
       </constraints>
@@ -11917,7 +11917,7 @@
         <categoryLink name="Reference" hidden="false" id="c7f8-cc78-40aa-9cdd" targetId="3360-1158-e879-9606"/>
       </categoryLinks>
     </forceEntry>
-    <forceEntry name="Regiment of Ghyran" id="1d4a-95bf-25a6-549c" hidden="true">
+    <forceEntry name="Regimiento de Ghyran" id="1d4a-95bf-25a6-549c" hidden="true">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7983-5dfc-a31c-1833"/>
         <constraint type="max" value="4" field="selections" scope="self" shared="true" id="cba7-7e7f-754a-08ee"/>
@@ -11948,7 +11948,7 @@
         <categoryLink name="Reference" hidden="false" id="f6d9-361e-1dab-b96d" targetId="3360-1158-e879-9606"/>
       </categoryLinks>
     </forceEntry>
-    <forceEntry name="Diseased Revellers" id="c30e-bf48-fe89-8d48" hidden="true">
+    <forceEntry name="Juerguistas Enfermos" id="c30e-bf48-fe89-8d48" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -11992,7 +11992,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Pustules" id="a88b-8da0-2e5e-a398" hidden="true">
+    <forceEntry name="Las Pústulas" id="a88b-8da0-2e5e-a398" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12037,7 +12037,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Seekers of Silver" id="649c-3737-f793-fe6a" hidden="true">
+    <forceEntry name="Buscadores de Plata" id="649c-3737-f793-fe6a" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12143,7 +12143,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Sigil Convocation" id="a305-c205-8cff-9744" hidden="true">
+    <forceEntry name="Convocación del Sello" id="a305-c205-8cff-9744" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12190,7 +12190,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Dawnrider Lance" id="d28a-f6a8-df8a-b38c" hidden="true">
+    <forceEntry name="Lanza de Jinetes del Alba" id="d28a-f6a8-df8a-b38c" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12236,7 +12236,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Heralds of the Bone-tithe" id="4617-acfd-e9d3-807d" hidden="true">
+    <forceEntry name="Heraldos del Diezmo Óseo" id="4617-acfd-e9d3-807d" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12277,7 +12277,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Karahtet&apos;s Siege Breaker" id="7799-20f4-4e7c-6474" hidden="true">
+    <forceEntry name="Rompeasedios de Karahtet" id="7799-20f4-4e7c-6474" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12318,7 +12318,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Drycha&apos;s Talons" id="0c75-7fef-df92-3a29" hidden="true">
+    <forceEntry name="Garras de Drycha" id="0c75-7fef-df92-3a29" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12363,7 +12363,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Twisted Branch" id="1874-8be5-53f6-2166" hidden="true">
+    <forceEntry name="La Rama Retorcida" id="1874-8be5-53f6-2166" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12407,7 +12407,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Crimson Lash" id="a277-b0ac-7a21-1d4a" hidden="true">
+    <forceEntry name="El Látigo Carmesí" id="a277-b0ac-7a21-1d4a" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12453,7 +12453,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Khinerai Death Flight" id="fadb-b8ee-b0b2-6c3c" hidden="true">
+    <forceEntry name="Vuelo Mortal Khinerai" id="fadb-b8ee-b0b2-6c3c" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12499,7 +12499,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Rogue Engine" id="4b49-6ce2-c82f-a525" hidden="true">
+    <forceEntry name="Máquina rebelde" id="4b49-6ce2-c82f-a525" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12563,7 +12563,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Cogfort Raiders" id="d455-6a93-c62e-14f0" hidden="true">
+    <forceEntry name="Incursores de la Fortaleza de Engranajes" id="d455-6a93-c62e-14f0" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12627,7 +12627,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Ven Denst&apos;s Hounds" id="bfa4-82e4-1430-3fd4" hidden="true">
+    <forceEntry name="Sabuesos de Ven Denst" id="bfa4-82e4-1430-3fd4" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12673,7 +12673,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Reinholt&apos;s Sharpshooters" id="9fe3-19f8-a1b7-328b" hidden="true">
+    <forceEntry name="Tiradores de Élite de Reinholt" id="9fe3-19f8-a1b7-328b" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12719,7 +12719,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="Mist-Clad Revellers" id="bb82-173a-f3b3-d48c" hidden="true">
+    <forceEntry name="Juerguistas Envueltos en Niebla" id="bb82-173a-f3b3-d48c" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12761,7 +12761,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="The Accursed Reflection" id="0f99-b3d1-0f32-cb6d" hidden="true">
+    <forceEntry name="El Reflejo Maldito" id="0f99-b3d1-0f32-cb6d" hidden="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -12803,7 +12803,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
       </costs>
     </forceEntry>
-    <forceEntry name="✦ General&apos;s Handbook 2026-27" hidden="false" id="0151-9c5b-2f1e-32d4" childForcesLabel="Regiments and Auxiliary" sortIndex="1">
+    <forceEntry name="✦ Manual del General 2026-27" hidden="false" id="0151-9c5b-2f1e-32d4" childForcesLabel="Regiments and Auxiliary" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="dd49-94a6-cc7b-ea61" targetId="676-2b78-7bbf-ba9c"/>
         <categoryLink name="Reference" hidden="false" id="21b4-0bd3-7f42-e915" targetId="3360-1158-e879-9606"/>
@@ -12900,7 +12900,7 @@
         <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="1"/>
       </costs>
       <forceEntryLinks>
-        <forceEntryLink name="Regiment" id="b016-6952-57f2-c82b" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
+        <forceEntryLink name="Regimiento" id="b016-6952-57f2-c82b" hidden="false" targetId="376a-6b97-8699-dd59" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -13488,7 +13488,7 @@
             </modifier>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Auxillary Units" id="6084-3baa-f00b-ac0a" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
+        <forceEntryLink name="Unidades auxiliares" id="6084-3baa-f00b-ac0a" hidden="false" targetId="8732-47c4-9f1c-e71e" type="forceEntry">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditionGroups>
@@ -14076,83 +14076,83 @@
             </modifier>
           </modifiers>
         </forceEntryLink>
-        <forceEntryLink name="Veremord&apos;s Shamblers" id="ddf7-4652-3739-ce33" hidden="false" targetId="c43c-4ed-d97a-b72" type="forceEntry"/>
-        <forceEntryLink name="Volt-Klaw&apos;s Enginecoven" id="864e-3e22-4473-9b5b" hidden="false" targetId="ffc1-e2cb-f2f0-f72e" type="forceEntry"/>
-        <forceEntryLink name="Big Drogg Fort-kicker" id="0615-aa4b-91ec-ac1e" hidden="false" targetId="10b2-4a3a-8629-90ef" type="forceEntry"/>
-        <forceEntryLink name="Big Grikk&apos;s Kruleshots" id="df97-7b02-1457-bd16" hidden="false" targetId="a11c-1f80-1875-4639" type="forceEntry"/>
+        <forceEntryLink name="Tambaleantes de Veremord" id="ddf7-4652-3739-ce33" hidden="false" targetId="c43c-4ed-d97a-b72" type="forceEntry"/>
+        <forceEntryLink name="Aquelarre de Máquinas de Volt-Klaw" id="864e-3e22-4473-9b5b" hidden="false" targetId="ffc1-e2cb-f2f0-f72e" type="forceEntry"/>
+        <forceEntryLink name="Gran Drogg Pateafuertes" id="0615-aa4b-91ec-ac1e" hidden="false" targetId="10b2-4a3a-8629-90ef" type="forceEntry"/>
+        <forceEntryLink name="Tiradores Crueles del Gran Grikk" id="df97-7b02-1457-bd16" hidden="false" targetId="a11c-1f80-1875-4639" type="forceEntry"/>
         <forceEntryLink name="Espadas del Rey Hueco" id="05a0-078d-b119-ac5a" hidden="false" targetId="26c8-fdae-c6b6-e347" type="forceEntry"/>
-        <forceEntryLink name="Bloodthirsty Shiver" id="baef-177e-a317-c9d8" hidden="false" targetId="0bd1-a3d9-9fa6-87a1" type="forceEntry"/>
-        <forceEntryLink name="Braggit&apos;s Bottle-snatchaz" id="48bc-81b3-540c-1bb9" hidden="false" targetId="d704-19f-a3d0-5edd" type="forceEntry"/>
-        <forceEntryLink name="Brand&apos;s Oathbound" id="7894-f810-3ceb-3ec1" hidden="false" targetId="f8bf-3c82-73dc-a7e8" type="forceEntry"/>
-        <forceEntryLink name="Bundo Whalebiter" id="cfad-8d09-3590-b433" hidden="false" targetId="fb09-ac57-e70e-716d" type="forceEntry"/>
-        <forceEntryLink name="Da Hurtlin&apos; Hogz" id="ca7e-b2cb-83a2-59f4" hidden="false" targetId="3cd2-b31b-43c8-e42c" type="forceEntry"/>
-        <forceEntryLink name="Okar&apos;s Torrbad" id="6ac5-295e-993b-ff14" hidden="false" targetId="7199-3205-3f4e-5567" type="forceEntry"/>
-        <forceEntryLink name="Urrgar&apos;s Maulerguts" id="6e6a-6824-8273-5661" hidden="false" targetId="71ed-0753-4dbb-c952" type="forceEntry"/>
-        <forceEntryLink name="Da Kountin&apos; Krew" id="33a0-b698-5e4b-bc74" hidden="false" targetId="1d9c-5fbb-bb1e-bdb8" type="forceEntry"/>
-        <forceEntryLink name="Drekki&apos;s Privateers" id="15cf-2bef-c1a0-d16f" hidden="false" targetId="accf-873b-ebe8-1d1c" type="forceEntry"/>
-        <forceEntryLink name="Elthwin&apos;s Thorns" id="0039-d6da-433e-f4fd" hidden="false" targetId="e484-c06-d856-2921" type="forceEntry"/>
-        <forceEntryLink name="Enforcers of the Tithe" id="4f75-ad28-7987-f715" hidden="false" targetId="162a-f77e-f5f8-041b" type="forceEntry"/>
-        <forceEntryLink name="Exile Scavengers" id="fcf9-bc9a-8c73-ce21" hidden="false" targetId="c09c-6726-db25-549b" type="forceEntry"/>
-        <forceEntryLink name="Fjori&apos;s Flamebearers" id="b5b4-1bf1-29a9-3c68" hidden="false" targetId="a723-1314-55da-86d8" type="forceEntry"/>
-        <forceEntryLink name="Godmarked Ascendant" id="29d7-6cda-20c8-7c68" hidden="false" targetId="ab5a-af59-e05f-2daa" type="forceEntry"/>
-        <forceEntryLink name="Goroan Scions" id="a7f1-24a9-0229-df19" hidden="false" targetId="d7f8-513c-ea3d-bc9e" type="forceEntry"/>
+        <forceEntryLink name="Manada Sanguinaria" id="baef-177e-a317-c9d8" hidden="false" targetId="0bd1-a3d9-9fa6-87a1" type="forceEntry"/>
+        <forceEntryLink name="Robabotellaz de Braggit" id="48bc-81b3-540c-1bb9" hidden="false" targetId="d704-19f-a3d0-5edd" type="forceEntry"/>
+        <forceEntryLink name="Juramentados de Brand" id="7894-f810-3ceb-3ec1" hidden="false" targetId="f8bf-3c82-73dc-a7e8" type="forceEntry"/>
+        <forceEntryLink name="Bundo Muerdeballenas" id="cfad-8d09-3590-b433" hidden="false" targetId="fb09-ac57-e70e-716d" type="forceEntry"/>
+        <forceEntryLink name="Loz Cerdoz Lanzadoz" id="ca7e-b2cb-83a2-59f4" hidden="false" targetId="3cd2-b31b-43c8-e42c" type="forceEntry"/>
+        <forceEntryLink name="Torrbad de Okar" id="6ac5-295e-993b-ff14" hidden="false" targetId="7199-3205-3f4e-5567" type="forceEntry"/>
+        <forceEntryLink name="Tripas Machacadoras de Urrgar" id="6e6a-6824-8273-5661" hidden="false" targetId="71ed-0753-4dbb-c952" type="forceEntry"/>
+        <forceEntryLink name="La Pandilla Kontadora" id="33a0-b698-5e4b-bc74" hidden="false" targetId="1d9c-5fbb-bb1e-bdb8" type="forceEntry"/>
+        <forceEntryLink name="Corsarios de Drekki" id="15cf-2bef-c1a0-d16f" hidden="false" targetId="accf-873b-ebe8-1d1c" type="forceEntry"/>
+        <forceEntryLink name="Espinas de Elthwin" id="0039-d6da-433e-f4fd" hidden="false" targetId="e484-c06-d856-2921" type="forceEntry"/>
+        <forceEntryLink name="Recaudadores del Diezmo" id="4f75-ad28-7987-f715" hidden="false" targetId="162a-f77e-f5f8-041b" type="forceEntry"/>
+        <forceEntryLink name="Carroñeros Exiliados" id="fcf9-bc9a-8c73-ce21" hidden="false" targetId="c09c-6726-db25-549b" type="forceEntry"/>
+        <forceEntryLink name="Portallamas de Fjori" id="b5b4-1bf1-29a9-3c68" hidden="false" targetId="a723-1314-55da-86d8" type="forceEntry"/>
+        <forceEntryLink name="Ascendente Marcado por los Dioses" id="29d7-6cda-20c8-7c68" hidden="false" targetId="ab5a-af59-e05f-2daa" type="forceEntry"/>
+        <forceEntryLink name="Vástagos Goroanos" id="a7f1-24a9-0229-df19" hidden="false" targetId="d7f8-513c-ea3d-bc9e" type="forceEntry"/>
         <forceEntryLink name="Gotrek Gurnisson" id="87fd-66c5-ec8c-557b" hidden="false" targetId="d72a-3662-14bd-40d9" type="forceEntry"/>
-        <forceEntryLink name="Hargax&apos;s Pit-beasts" id="6012-db8e-9d1d-27d0" hidden="false" targetId="1339-980d-ee74-fe0b" type="forceEntry"/>
-        <forceEntryLink name="Jerrion&apos;s Delegation" id="d403-1210-ba83-ddf1" hidden="false" targetId="b0c-f2cd-9cc3-8b9f" type="forceEntry"/>
-        <forceEntryLink name="Krittok&apos;s Clawpack" id="342c-b409-5032-31f5" hidden="false" targetId="d0d8-3ec6-4b57-16fd" type="forceEntry"/>
-        <forceEntryLink name="Lord Skaldior&apos;s Chosen" id="5fa1-091f-25e2-e98d" hidden="false" targetId="ba3f-fa41-97d3-2c0f" type="forceEntry"/>
-        <forceEntryLink name="Namarti Shore Raid" id="ea2b-599a-635b-6b76" hidden="false" targetId="75bc-a6cf-8838-7521" type="forceEntry"/>
-        <forceEntryLink name="Neferata&apos;s Royal Echelon" id="10c6-7e36-fb1a-74ec" hidden="false" targetId="e071-126a-fb3e-1462" type="forceEntry"/>
-        <forceEntryLink name="Norgrimm&apos;s Rune Throng" id="e37c-d704-d415-6b98" hidden="false" targetId="c7eb-8e6c-a032-4e04" type="forceEntry"/>
-        <forceEntryLink name="Nurgle&apos;s Gift" id="d190-296d-91dc-06f6" hidden="false" targetId="0fec-ccda-3904-c0ce" type="forceEntry"/>
-        <forceEntryLink name="Odo Godswallow" id="32e0-bc95-a58c-3b88" hidden="false" targetId="8a04-83ad-bc2-5354" type="forceEntry"/>
-        <forceEntryLink name="One-eyed Grunnock" id="f172-5b53-f8ab-4a11" hidden="false" targetId="733b-7b81-c2b-b772" type="forceEntry"/>
-        <forceEntryLink name="Phulgoth&apos;s Shudderhood" id="3621-e9f9-bfdc-db62" hidden="false" targetId="69d0-b9be-62a8-5ae4" type="forceEntry"/>
+        <forceEntryLink name="Bestias del Foso de Hargax" id="6012-db8e-9d1d-27d0" hidden="false" targetId="1339-980d-ee74-fe0b" type="forceEntry"/>
+        <forceEntryLink name="Delegación de Jerrion" id="d403-1210-ba83-ddf1" hidden="false" targetId="b0c-f2cd-9cc3-8b9f" type="forceEntry"/>
+        <forceEntryLink name="Manada Garra de Krittok" id="342c-b409-5032-31f5" hidden="false" targetId="d0d8-3ec6-4b57-16fd" type="forceEntry"/>
+        <forceEntryLink name="Elegidos de Lord Skaldior" id="5fa1-091f-25e2-e98d" hidden="false" targetId="ba3f-fa41-97d3-2c0f" type="forceEntry"/>
+        <forceEntryLink name="Incursión Costera Namarti" id="ea2b-599a-635b-6b76" hidden="false" targetId="75bc-a6cf-8838-7521" type="forceEntry"/>
+        <forceEntryLink name="Escalón Real de Neferata" id="10c6-7e36-fb1a-74ec" hidden="false" targetId="e071-126a-fb3e-1462" type="forceEntry"/>
+        <forceEntryLink name="Hueste Rúnica de Norgrimm" id="e37c-d704-d415-6b98" hidden="false" targetId="c7eb-8e6c-a032-4e04" type="forceEntry"/>
+        <forceEntryLink name="Don de Nurgle" id="d190-296d-91dc-06f6" hidden="false" targetId="0fec-ccda-3904-c0ce" type="forceEntry"/>
+        <forceEntryLink name="Odo Tragadioses" id="32e0-bc95-a58c-3b88" hidden="false" targetId="8a04-83ad-bc2-5354" type="forceEntry"/>
+        <forceEntryLink name="Grunnock el Tuerto" id="f172-5b53-f8ab-4a11" hidden="false" targetId="733b-7b81-c2b-b772" type="forceEntry"/>
+        <forceEntryLink name="Hermandad Estremecedora de Phulgoth" id="3621-e9f9-bfdc-db62" hidden="false" targetId="69d0-b9be-62a8-5ae4" type="forceEntry"/>
         <forceEntryLink name="Salvadores de Cinderfall" id="814a-d603-08a2-f2ac" hidden="false" targetId="4585-a85c-ebec-6527" type="forceEntry"/>
-        <forceEntryLink name="Scions of the Necropolis" id="21ba-6d19-3196-be6e" hidden="false" targetId="4790-92d-f8a7-bd55" type="forceEntry"/>
-        <forceEntryLink name="Skulkrik&apos;s Loonladz" id="4d7d-2055-1ad0-902c" hidden="false" targetId="2e3e-7081-a0db-9079" type="forceEntry"/>
-        <forceEntryLink name="Sky-Port Profiteers" id="06d9-8d15-bf80-f4e2" hidden="false" targetId="5b4a-c0d3-7f5f-3794" type="forceEntry"/>
-        <forceEntryLink name="Snerk&apos;s Trogg-fer-Hire" id="7a97-dfb2-8ab4-97bc" hidden="false" targetId="9d39-ae0e-afc9-f982" type="forceEntry"/>
-        <forceEntryLink name="Squires of the Everchosen" id="407c-0cc7-ca76-2514" hidden="false" targetId="2b2d-a5c6-4595-5468" type="forceEntry"/>
-        <forceEntryLink name="Stumblefoot Gargant" id="c452-6273-c107-c2de" hidden="false" targetId="e974-53fd-481c-5345" type="forceEntry"/>
-        <forceEntryLink name="The Beast of Castle Sterneiste" id="65ae-8d13-fb3a-df8a" hidden="false" targetId="6e65-4c2e-132e-4c1e" type="forceEntry"/>
-        <forceEntryLink name="The Blacktalons" id="87bf-bf7f-fd19-2fdf" hidden="false" targetId="bced-df96-fcc3-5cf6" type="forceEntry"/>
-        <forceEntryLink name="The Coven of Thryx" id="b7c9-fa3d-3e71-c2d1" hidden="false" targetId="6f98-8771-7752-c86e" type="forceEntry"/>
-        <forceEntryLink name="The Exiled One" id="e067-e47b-1bd9-d993" hidden="false" targetId="db1a-c813-3bde-2f05" type="forceEntry"/>
-        <forceEntryLink name="The Horizon Seekers" id="e3c5-8424-5cc5-4d9d" hidden="false" targetId="435e-269e-899d-3f7e" type="forceEntry"/>
-        <forceEntryLink name="The Liche&apos;s Hand" id="c4da-14e4-75f7-e3a1" hidden="false" targetId="9136-a422-571c-c77c" type="forceEntry"/>
-        <forceEntryLink name="The Lost-Song Spirits" id="a9a9-91d6-7c44-d2b8" hidden="false" targetId="147d-a572-a516-94c5" type="forceEntry"/>
-        <forceEntryLink name="The Red Revelation" id="9537-75e2-27e5-8cc6" hidden="false" targetId="fd9c-4b58-82d1-d251" type="forceEntry"/>
-        <forceEntryLink name="The Shinestealaz" id="c4df-827c-e100-1391" hidden="false" targetId="11e8-d326-7125-4e5e" type="forceEntry"/>
-        <forceEntryLink name="The Sorrowmourn Choir" id="996b-ff8b-f798-c29f" hidden="false" targetId="60b7-2797-5b4-8101" type="forceEntry"/>
-        <forceEntryLink name="The Sterneiste Garrison" id="f7b7-c673-5562-a341" hidden="false" targetId="9030-4036-8c77-84e5" type="forceEntry"/>
-        <forceEntryLink name="The Summerking&apos;s Entourage" id="7c5a-3653-13f0-38e4" hidden="false" targetId="de70-1b54-66b4-c010" type="forceEntry"/>
-        <forceEntryLink name="Valnir&apos;s Stormwing" id="1ce6-f799-d53c-1c99" hidden="false" targetId="2eec-326e-528c-8473" type="forceEntry"/>
-        <forceEntryLink name="The Horror of Hallow&apos;s Watch" id="07cf-2baa-5f64-a8c9" hidden="false" targetId="efb1-eac2-1024-e0cb" type="forceEntry"/>
-        <forceEntryLink name="The Scarlet Jury" id="0102-e2b8-ecc7-4cbf" hidden="false" targetId="bfa0-f3bb-5a25-48cd" type="forceEntry"/>
-        <forceEntryLink name="Casket of Resurrections" id="2288-ea2d-f266-bd90" hidden="false" targetId="3706-08ed-3870-450d" type="forceEntry"/>
-        <forceEntryLink name="Craventhrone Executioners" id="7945-2056-8eaa-ae99" hidden="false" targetId="6b4d-e3a9-5521-9022" type="forceEntry"/>
-        <forceEntryLink name="The Curse-Steel Battery" id="c276-0be4-538a-4b40" hidden="false" targetId="1d6a-1d48-9173-d651" type="forceEntry"/>
-        <forceEntryLink name="Seeker of the Dread Dirge" id="64a9-7893-f0da-6944" hidden="false" targetId="3ebb-d680-3249-76ed" type="forceEntry"/>
-        <forceEntryLink name="Heroes of the Jade Abbey [LEGENDS]" id="9763-5906-327e-c9fc" hidden="false" targetId="f3c9-ca5d-bd0e-a94e" type="forceEntry"/>
-        <forceEntryLink name="Diseased Revellers" id="8948-2cc4-ae04-9b98" hidden="false" targetId="c30e-bf48-fe89-8d48" type="forceEntry"/>
-        <forceEntryLink name="The Pustules" id="1073-6ac4-3899-b134" hidden="false" targetId="a88b-8da0-2e5e-a398" type="forceEntry"/>
-        <forceEntryLink name="Sigil Convocation" id="f82d-5b86-fd38-9e49" hidden="false" targetId="a305-c205-8cff-9744" type="forceEntry"/>
-        <forceEntryLink name="Dawnrider Lance" id="a8c8-ecae-92de-02eb" hidden="false" targetId="d28a-f6a8-df8a-b38c" type="forceEntry"/>
+        <forceEntryLink name="Vástagos de la Necrópolis" id="21ba-6d19-3196-be6e" hidden="false" targetId="4790-92d-f8a7-bd55" type="forceEntry"/>
+        <forceEntryLink name="Chikoz Lunáticoz de Skulkrik" id="4d7d-2055-1ad0-902c" hidden="false" targetId="2e3e-7081-a0db-9079" type="forceEntry"/>
+        <forceEntryLink name="Especuladores del Puerto Celeste" id="06d9-8d15-bf80-f4e2" hidden="false" targetId="5b4a-c0d3-7f5f-3794" type="forceEntry"/>
+        <forceEntryLink name="Trogg de Alquiler de Snerk" id="7a97-dfb2-8ab4-97bc" hidden="false" targetId="9d39-ae0e-afc9-f982" type="forceEntry"/>
+        <forceEntryLink name="Escuderos del Elegido Eterno" id="407c-0cc7-ca76-2514" hidden="false" targetId="2b2d-a5c6-4595-5468" type="forceEntry"/>
+        <forceEntryLink name="Gargante Tropezón" id="c452-6273-c107-c2de" hidden="false" targetId="e974-53fd-481c-5345" type="forceEntry"/>
+        <forceEntryLink name="La Bestia del Castillo Sterneiste" id="65ae-8d13-fb3a-df8a" hidden="false" targetId="6e65-4c2e-132e-4c1e" type="forceEntry"/>
+        <forceEntryLink name="Los Garras Negras" id="87bf-bf7f-fd19-2fdf" hidden="false" targetId="bced-df96-fcc3-5cf6" type="forceEntry"/>
+        <forceEntryLink name="El Aquelarre de Thryx" id="b7c9-fa3d-3e71-c2d1" hidden="false" targetId="6f98-8771-7752-c86e" type="forceEntry"/>
+        <forceEntryLink name="El Exiliado" id="e067-e47b-1bd9-d993" hidden="false" targetId="db1a-c813-3bde-2f05" type="forceEntry"/>
+        <forceEntryLink name="Los Buscadores del Horizonte" id="e3c5-8424-5cc5-4d9d" hidden="false" targetId="435e-269e-899d-3f7e" type="forceEntry"/>
+        <forceEntryLink name="La Mano del Liche" id="c4da-14e4-75f7-e3a1" hidden="false" targetId="9136-a422-571c-c77c" type="forceEntry"/>
+        <forceEntryLink name="Los Espíritus de la Canción Perdida" id="a9a9-91d6-7c44-d2b8" hidden="false" targetId="147d-a572-a516-94c5" type="forceEntry"/>
+        <forceEntryLink name="La Revelación Roja" id="9537-75e2-27e5-8cc6" hidden="false" targetId="fd9c-4b58-82d1-d251" type="forceEntry"/>
+        <forceEntryLink name="Loz Robabrilloz" id="c4df-827c-e100-1391" hidden="false" targetId="11e8-d326-7125-4e5e" type="forceEntry"/>
+        <forceEntryLink name="El Coro de los Lamentos" id="996b-ff8b-f798-c29f" hidden="false" targetId="60b7-2797-5b4-8101" type="forceEntry"/>
+        <forceEntryLink name="La Guarnición de Sterneiste" id="f7b7-c673-5562-a341" hidden="false" targetId="9030-4036-8c77-84e5" type="forceEntry"/>
+        <forceEntryLink name="El Séquito del Rey del Verano" id="7c5a-3653-13f0-38e4" hidden="false" targetId="de70-1b54-66b4-c010" type="forceEntry"/>
+        <forceEntryLink name="Ala de Tormenta de Valnir" id="1ce6-f799-d53c-1c99" hidden="false" targetId="2eec-326e-528c-8473" type="forceEntry"/>
+        <forceEntryLink name="El Horror de la Vigilia Sagrada" id="07cf-2baa-5f64-a8c9" hidden="false" targetId="efb1-eac2-1024-e0cb" type="forceEntry"/>
+        <forceEntryLink name="El Jurado Escarlata" id="0102-e2b8-ecc7-4cbf" hidden="false" targetId="bfa0-f3bb-5a25-48cd" type="forceEntry"/>
+        <forceEntryLink name="Arca de Resurrecciones" id="2288-ea2d-f266-bd90" hidden="false" targetId="3706-08ed-3870-450d" type="forceEntry"/>
+        <forceEntryLink name="Verdugos del Trono Cobarde" id="7945-2056-8eaa-ae99" hidden="false" targetId="6b4d-e3a9-5521-9022" type="forceEntry"/>
+        <forceEntryLink name="La Batería de Acero Maldito" id="c276-0be4-538a-4b40" hidden="false" targetId="1d6a-1d48-9173-d651" type="forceEntry"/>
+        <forceEntryLink name="Buscador de la Elegía del Terror" id="64a9-7893-f0da-6944" hidden="false" targetId="3ebb-d680-3249-76ed" type="forceEntry"/>
+        <forceEntryLink name="Héroes de la Abadía de Jade [Leyendas]" id="9763-5906-327e-c9fc" hidden="false" targetId="f3c9-ca5d-bd0e-a94e" type="forceEntry"/>
+        <forceEntryLink name="Juerguistas Enfermos" id="8948-2cc4-ae04-9b98" hidden="false" targetId="c30e-bf48-fe89-8d48" type="forceEntry"/>
+        <forceEntryLink name="Las Pústulas" id="1073-6ac4-3899-b134" hidden="false" targetId="a88b-8da0-2e5e-a398" type="forceEntry"/>
+        <forceEntryLink name="Convocación del Sello" id="f82d-5b86-fd38-9e49" hidden="false" targetId="a305-c205-8cff-9744" type="forceEntry"/>
+        <forceEntryLink name="Lanza de Jinetes del Alba" id="a8c8-ecae-92de-02eb" hidden="false" targetId="d28a-f6a8-df8a-b38c" type="forceEntry"/>
         <forceEntryLink name="Máscara del Embaucador" id="d2ea-8a14-d73d-4e12" hidden="false" targetId="3378-9dbf-9e74-cf5a" type="forceEntry"/>
-        <forceEntryLink name="Seekers of Silver" id="378f-12bc-6c00-98b3" hidden="false" targetId="649c-3737-f793-fe6a" type="forceEntry"/>
-        <forceEntryLink name="Heralds of the Bone-tithe" id="7eb1-78bf-59f0-dc6c" hidden="false" targetId="4617-acfd-e9d3-807d" type="forceEntry"/>
-        <forceEntryLink name="Karahtet&apos;s Siege Breaker" id="c9bd-e740-7d51-89da" hidden="false" targetId="7799-20f4-4e7c-6474" type="forceEntry"/>
-        <forceEntryLink name="Drycha&apos;s Talons" id="68e2-1aff-4094-27c0" hidden="false" targetId="0c75-7fef-df92-3a29" type="forceEntry"/>
-        <forceEntryLink name="The Twisted Branch" id="eddf-117b-b86c-51ec" hidden="false" targetId="1874-8be5-53f6-2166" type="forceEntry"/>
-        <forceEntryLink name="Khinerai Death Flight" id="66c6-efad-f6d8-9e3b" hidden="false" targetId="fadb-b8ee-b0b2-6c3c" type="forceEntry"/>
-        <forceEntryLink name="The Crimson Lash" id="5ca4-8e65-819d-f020" hidden="false" targetId="a277-b0ac-7a21-1d4a" type="forceEntry"/>
-        <forceEntryLink name="Rogue Engine" id="8a59-3b8b-5862-f611" hidden="false" targetId="4b49-6ce2-c82f-a525" type="forceEntry"/>
-        <forceEntryLink name="Cogfort Raiders" id="ee3c-ce72-52f7-d967" hidden="false" targetId="d455-6a93-c62e-14f0" type="forceEntry"/>
-        <forceEntryLink name="Ven Denst&apos;s Hounds" id="d7e1-aad4-35c4-00fd" hidden="false" targetId="bfa4-82e4-1430-3fd4" type="forceEntry"/>
-        <forceEntryLink name="Reinholt&apos;s Sharpshooters" id="df46-bfba-1e51-a4d0" hidden="false" targetId="9fe3-19f8-a1b7-328b" type="forceEntry"/>
-        <forceEntryLink name="Mist-Clad Revellers" id="7215-a1a6-0f67-730d" hidden="false" targetId="bb82-173a-f3b3-d48c" type="forceEntry"/>
-        <forceEntryLink name="The Accursed Reflection" id="0778-60ec-2909-f96f" hidden="false" targetId="0f99-b3d1-0f32-cb6d" type="forceEntry"/>
+        <forceEntryLink name="Buscadores de Plata" id="378f-12bc-6c00-98b3" hidden="false" targetId="649c-3737-f793-fe6a" type="forceEntry"/>
+        <forceEntryLink name="Heraldos del Diezmo Óseo" id="7eb1-78bf-59f0-dc6c" hidden="false" targetId="4617-acfd-e9d3-807d" type="forceEntry"/>
+        <forceEntryLink name="Rompeasedios de Karahtet" id="c9bd-e740-7d51-89da" hidden="false" targetId="7799-20f4-4e7c-6474" type="forceEntry"/>
+        <forceEntryLink name="Garras de Drycha" id="68e2-1aff-4094-27c0" hidden="false" targetId="0c75-7fef-df92-3a29" type="forceEntry"/>
+        <forceEntryLink name="La Rama Retorcida" id="eddf-117b-b86c-51ec" hidden="false" targetId="1874-8be5-53f6-2166" type="forceEntry"/>
+        <forceEntryLink name="Vuelo Mortal Khinerai" id="66c6-efad-f6d8-9e3b" hidden="false" targetId="fadb-b8ee-b0b2-6c3c" type="forceEntry"/>
+        <forceEntryLink name="El Látigo Carmesí" id="5ca4-8e65-819d-f020" hidden="false" targetId="a277-b0ac-7a21-1d4a" type="forceEntry"/>
+        <forceEntryLink name="Máquina rebelde" id="8a59-3b8b-5862-f611" hidden="false" targetId="4b49-6ce2-c82f-a525" type="forceEntry"/>
+        <forceEntryLink name="Incursores de la Fortaleza de Engranajes" id="ee3c-ce72-52f7-d967" hidden="false" targetId="d455-6a93-c62e-14f0" type="forceEntry"/>
+        <forceEntryLink name="Sabuesos de Ven Denst" id="d7e1-aad4-35c4-00fd" hidden="false" targetId="bfa4-82e4-1430-3fd4" type="forceEntry"/>
+        <forceEntryLink name="Tiradores de Élite de Reinholt" id="df46-bfba-1e51-a4d0" hidden="false" targetId="9fe3-19f8-a1b7-328b" type="forceEntry"/>
+        <forceEntryLink name="Juerguistas Envueltos en Niebla" id="7215-a1a6-0f67-730d" hidden="false" targetId="bb82-173a-f3b3-d48c" type="forceEntry"/>
+        <forceEntryLink name="El Reflejo Maldito" id="0778-60ec-2909-f96f" hidden="false" targetId="0f99-b3d1-0f32-cb6d" type="forceEntry"/>
       </forceEntryLinks>
     </forceEntry>
   </forceEntries>
@@ -16044,7 +16044,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Allow Legends" hidden="false" id="7e59-2237-4890-a80a">
+    <selectionEntry type="upgrade" import="true" name="Permitir Leyendas" hidden="false" id="7e59-2237-4890-a80a">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ef2f-8b2e-0a27-0708"/>
       </constraints>
@@ -16169,7 +16169,7 @@ En cualquier turno en el que esa **guardia de honor** haya cargado, las armas de
           <description>Cada jugador puede usar una de las siguientes habilidades de Guardia de honor en cada batalla. Al usar esa habilidad, debe elegir una unidad del regimiento de su general para que sea la guardia de honor.</description>
         </rule>
         <rule name="Fuerzas regimentadas" id="42aa-b9ec-df97-53ac" hidden="false">
-          <description>Si un jugador tiene más regimientos que su oponente, puede usar una segunda habilidad de **^^Guardia de honor^^** distinta, pero debe elegir una unidad que esté en un regimiento distinto que no esté liderado por el general para que sea la **guardia de honor** de esa habilidad. No puedes elegir unidades de un Regiment of Renown para que sean **guardia de honor**. Si has decidido no elegir una unidad **guardia de honor** en el regimiento de tu general, aún puedes elegir una unidad **guardia de honor** para un regimiento distinto tal y como se describe arriba.</description>
+          <description>Si un jugador tiene más regimientos que su oponente, puede usar una segunda habilidad de **^^Guardia de honor^^** distinta, pero debe elegir una unidad que esté en un regimiento distinto que no esté liderado por el general para que sea la **guardia de honor** de esa habilidad. No puedes elegir unidades de un Regimiento of Renown para que sean **guardia de honor**. Si has decidido no elegir una unidad **guardia de honor** en el regimiento de tu general, aún puedes elegir una unidad **guardia de honor** para un regimiento distinto tal y como se describe arriba.</description>
         </rule>
       </rules>
       <constraints>
@@ -16189,7 +16189,7 @@ En cualquier turno en el que esa **guardia de honor** haya cargado, las armas de
         <categoryLink name="Configuration" hidden="false" id="ea0c-2329-c2e2-1a8f" targetId="676-2b78-7bbf-ba9c" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Battle Tactic Cards" hidden="true" id="1668-6989-2470-5e10" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Cartas de tácticas de batalla" hidden="true" id="1668-6989-2470-5e10" defaultAmount="1">
       <categoryLinks>
         <categoryLink name="Army Composition" hidden="false" id="eff8-1962-b82c-4e44" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
       </categoryLinks>
@@ -16210,7 +16210,7 @@ En cualquier turno en el que esa **guardia de honor** haya cargado, las armas de
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="12b0-6cb0-f5a9-185d-max" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Battle Tactic Cards" id="e3d8-8106-a496-2ece" hidden="true" flatten="true" defaultSelectionEntryId="none">
+        <selectionEntryGroup name="Cartas de tácticas de batalla" id="e3d8-8106-a496-2ece" hidden="true" flatten="true" defaultSelectionEntryId="none">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Dominar los senderos" hidden="false" id="f5d1-f1d9-1dd5-5061" sortIndex="1" defaultAmount="0">
               <constraints>
@@ -16338,7 +16338,7 @@ Completas esta táctica de batalla al final de tu turno si no hay unidades enemi
             </modifier>
           </modifiers>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Battle Tactic Cards" id="21dd-5bf2-a282-e727" hidden="true" flatten="true" defaultSelectionEntryId="none">
+        <selectionEntryGroup name="Cartas de tácticas de batalla" id="21dd-5bf2-a282-e727" hidden="true" flatten="true" defaultSelectionEntryId="none">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Asalto ardiente" hidden="false" id="7d3c-b9b7-6412-d44e" sortIndex="1" defaultAmount="0">
               <constraints>
@@ -16469,12 +16469,12 @@ Completas esta táctica de batalla al final de tu turno si controlas todos los m
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Glory Points" hidden="true" id="d519-2ff7-aa43-80c7" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Puntos de gloria" hidden="true" id="d519-2ff7-aa43-80c7" defaultAmount="1">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9440-acc3-da2b-1365"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Glory Points" hidden="false" id="6fa0-dd32-a985-f381"/>
+        <selectionEntry type="upgrade" import="true" name="Puntos de gloria" hidden="false" id="6fa0-dd32-a985-f381"/>
       </selectionEntries>
       <categoryLinks>
         <categoryLink name="Order of Battle" hidden="false" id="596a-e8f5-e9b6-baff" targetId="8e18-320c-b5bb-7cc6" primary="true"/>
