@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="8c7-eee2-e358-ba1e" name="Ironjawz - Library" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="39" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="8c7-eee2-e358-ba1e" name="Mandíbulas de Hierro - Biblioteca" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="39" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Chamán rarote" hidden="false" id="e824-4e07-12f6-309c" publicationId="8b1b-f2c7-890e-2bbe">
       <entryLinks>
@@ -678,7 +678,7 @@ Después, suma 1 a la característica de Damage del Rebanadora de jefe de esta u
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Command Models" id="fba5-56c8-e020-9c47" hidden="false">
+            <selectionEntryGroup name="Miniaturas de mando" id="fba5-56c8-e020-9c47" hidden="false">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4be-a9c0-77e5-36f3" includeChildSelections="false"/>
               </constraints>
@@ -862,7 +862,7 @@ Después, suma 1 a la característica de Damage del Rebanadora de jefe de esta u
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Command Models" id="3b9f-2def-e0d5-9828" hidden="false">
+            <selectionEntryGroup name="Miniaturas de mando" id="3b9f-2def-e0d5-9828" hidden="false">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="256f-7e62-295d-8d59" includeChildSelections="false"/>
               </constraints>
@@ -1049,7 +1049,7 @@ Después, suma 1 a la característica de Damage del Rebanadora de jefe de esta u
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4154-19d1-3d74-6a5c"/>
           </constraints>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Wargear Options" id="4d33-dc6e-caeb-57e" hidden="false" flatten="true">
+            <selectionEntryGroup name="Opciones de equipo" id="4d33-dc6e-caeb-57e" hidden="false" flatten="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Rebanadora rompeprotecciones" hidden="false" id="9a6d-cb22-261f-c3e0">
                   <selectionEntries>
@@ -1246,7 +1246,7 @@ Después, suma 1 a la característica de Damage del Rebanadora de jefe de esta u
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Command Models" id="90b-84f4-29e-ab3" hidden="false">
+            <selectionEntryGroup name="Miniaturas de mando" id="90b-84f4-29e-ab3" hidden="false">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3108-bc8c-d96e-128a" includeChildSelections="false"/>
               </constraints>
@@ -1388,7 +1388,7 @@ Después, suma 1 a la característica de Damage del Rebanadora de jefe de esta u
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Command Models" id="a4d2-4427-44df-8445" hidden="false">
+            <selectionEntryGroup name="Miniaturas de mando" id="a4d2-4427-44df-8445" hidden="false">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d475-2e9e-4565-72fb" includeChildSelections="false"/>
               </constraints>
@@ -1992,7 +1992,7 @@ Suma el número de **puntos de ímpetu** que tiene esta unidad a la característ
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Command Models" id="73fe-4548-6ce4-5ce8" hidden="false">
+            <selectionEntryGroup name="Miniaturas de mando" id="73fe-4548-6ce4-5ce8" hidden="false">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f120-b323-f29e-effc" includeChildSelections="false"/>
               </constraints>
@@ -2140,7 +2140,7 @@ Suma el número de **puntos de ímpetu** que tiene esta unidad a la característ
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Command Models" id="f4b9-585a-3cdd-fd85" hidden="false">
+            <selectionEntryGroup name="Miniaturas de mando" id="f4b9-585a-3cdd-fd85" hidden="false">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="baba-e8dd-e26d-a2b5" includeChildSelections="false"/>
               </constraints>
@@ -2272,11 +2272,11 @@ Suma el número de **puntos de ímpetu** que tiene esta unidad a la característ
         <profile name="¡Ocupad la torre!" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f22e-a187-3eba-0a67">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras este elemento de escenografía tenga un Shouty Boss:
-• El Shouty Boss no puede usar habilidades de **^^Move^^**.
-• En lugar de medir el alcance o la visibilidad hasta el Shouty Boss, mide hasta este elemento de escenografía.
-• Todos los ataques que tendrían como objetivo al Shouty Boss tienen como objetivo este elemento de escenografía en su lugar.
-• Si este elemento de escenografía es destruido, antes de retirarlo del campo de batalla, inflige D3 de daño mortal al Shouty Boss. Después, coloca al Shouty Boss en el campo de batalla a 3" o menos de este elemento de escenografía y sin estar en combate. Esa unidad deja de ser el Shouty Boss. Si no es posible colocar al Shouty Boss, queda abatida.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras este elemento de escenografía tenga un Shouty Jefe:
+• El Shouty Jefe no puede usar habilidades de **^^Move^^**.
+• En lugar de medir el alcance o la visibilidad hasta el Shouty Jefe, mide hasta este elemento de escenografía.
+• Todos los ataques que tendrían como objetivo al Shouty Jefe tienen como objetivo este elemento de escenografía en su lugar.
+• Si este elemento de escenografía es destruido, antes de retirarlo del campo de batalla, inflige D3 de daño mortal al Shouty Jefe. Después, coloca al Shouty Jefe en el campo de batalla a 3" o menos de este elemento de escenografía y sin estar en combate. Esa unidad deja de ser el Shouty Jefe. Si no es posible colocar al Shouty Jefe, queda abatida.</characteristic>
           </characteristics>
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -2295,8 +2295,8 @@ Suma el número de **puntos de ímpetu** que tiene esta unidad a la característ
         <profile name="¡Arriba vamos!" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d236-0df7-ff07-1e20">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si este elemento de escenografía no tiene un Shouty Boss, elige como objetivo un **^^Mandíbulas de Hierro Infantry Hero^^** amigo que no esté en combate y esté a 3" o menos de él.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca el objetivo sobre este elemento de escenografía. El objetivo pasa a ser un Shouty Boss (ver &apos;¡Ocupad la torre!&apos;).</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si este elemento de escenografía no tiene un Shouty Jefe, elige como objetivo un **^^Mandíbulas de Hierro Infantry Hero^^** amigo que no esté en combate y esté a 3" o menos de él.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca el objetivo sobre este elemento de escenografía. El objetivo pasa a ser un Shouty Jefe (ver &apos;¡Ocupad la torre!&apos;).</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2310,7 +2310,7 @@ Suma el número de **puntos de ímpetu** que tiene esta unidad a la característ
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 18" o menos de este elemento de escenografía.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Suma 1 al resultado si este elemento de escenografía tiene un Shouty Boss. Con un 4+, elige 1 de los siguientes efectos para aplicarlo al objetivo hasta el inicio de tu siguiente turno:
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Suma 1 al resultado si este elemento de escenografía tiene un Shouty Jefe. Con un 4+, elige 1 de los siguientes efectos para aplicarlo al objetivo hasta el inicio de tu siguiente turno:
 ***¡Ezo ez nueztro, tipejo!:*** Resta 3 a la puntuación de control del objetivo.
 ***¡Largo de aquí con tu magia!:*** Resta 1 a las tiradas de lanzamiento y/o de cántico del objetivo.
 ***¡Eh! ¡Quieto ahí!:*** Resta 1 al número de dados que se tiran al hacer tiradas de carga para el objetivo, hasta un mínimo de 1.</characteristic>
@@ -2327,7 +2327,7 @@ Suma el número de **puntos de ímpetu** que tiene esta unidad a la característ
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si este elemento de escenografía tiene un Shouty Boss que no haya sido colocado sobre él este turno, coloca al Shouty Boss en el campo de batalla totalmente a 6" o menos de este elemento de escenografía y sin estar en combate. Esa unidad deja de ser un Shouty Boss.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si este elemento de escenografía tiene un Shouty Jefe que no haya sido colocado sobre él este turno, coloca al Shouty Jefe en el campo de batalla totalmente a 6" o menos de este elemento de escenografía y sin estar en combate. Esa unidad deja de ser un Shouty Jefe.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2557,9 +2557,9 @@ Cobertura, Infranqueable**</description>
         </modifier>
       </modifiers>
       <selectionEntryGroups>
-        <selectionEntryGroup name="The Anvil of Apotheosis" id="7f80-deca-7c8b-5739" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="El Yunque de la Apoteosis" id="7f80-deca-7c8b-5739" hidden="false" sortIndex="1">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Warclan" id="a6a5-7782-cfba-f0b6" hidden="false" sortIndex="2" collapsible="true" defaultSelectionEntryId="none">
+            <selectionEntryGroup name="Clan de guerra" id="a6a5-7782-cfba-f0b6" hidden="false" sortIndex="2" collapsible="true" defaultSelectionEntryId="none">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5f5e-747c-f11c-3303"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7e99-bb19-a1a8-2452"/>
@@ -2645,15 +2645,15 @@ Cualesquiera unidades **^^Mandíbulas de Hierro^^**</description>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Destiny Point Limit" id="7517-6f77-f73e-950b" hidden="false" sortIndex="1" collapsible="true" defaultSelectionEntryId="none">
+            <selectionEntryGroup name="Límite de puntos de destino" id="7517-6f77-f73e-950b" hidden="false" sortIndex="1" collapsible="true" defaultSelectionEntryId="none">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Yoof" hidden="false" id="8650-0ca0-1238-6c42" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Jovenzuelo" hidden="false" id="8650-0ca0-1238-6c42" sortIndex="1">
                   <costs>
                     <cost name="pts" typeId="points" value="150"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="10"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Boss" hidden="false" id="6933-555e-5198-48da" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Jefe" hidden="false" id="6933-555e-5198-48da" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="250"/>
                     <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="30"/>
@@ -2671,7 +2671,7 @@ Cualesquiera unidades **^^Mandíbulas de Hierro^^**</description>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23e6-5e78-95c7-87b3"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Battle Mounts" id="0246-2062-c6d4-97fd" hidden="false" sortIndex="5" collapsible="true">
+            <selectionEntryGroup name="Monturas de batalla" id="0246-2062-c6d4-97fd" hidden="false" sortIndex="5" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Maw-grunta" hidden="false" id="1d9a-f1e2-e516-838e" sortIndex="1">
                   <costs>
@@ -2725,7 +2725,7 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8631-cbc9-0953-fae5"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Origins" id="c172-8f19-8bc0-82a7" hidden="false" sortIndex="3" collapsible="true">
+            <selectionEntryGroup name="Orígenes" id="c172-8f19-8bc0-82a7" hidden="false" sortIndex="3" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Extremadamente ruidoso" hidden="false" id="ef3b-db94-1a49-565d" sortIndex="2">
                   <profiles>
@@ -2811,7 +2811,7 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="112e-2e5f-40dc-dff9"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Flaws" id="78f9-deaa-4539-73c3" hidden="false" sortIndex="4" collapsible="true">
+            <selectionEntryGroup name="Defectos" id="78f9-deaa-4539-73c3" hidden="false" sortIndex="4" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Cabezota" hidden="false" id="028f-c93a-5564-c024" sortIndex="3">
                   <profiles>
@@ -2894,7 +2894,7 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ced2-53d2-1484-37e8"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Battle Mount Upgrades" id="7e0c-a3fb-d9fd-4f77" hidden="false" sortIndex="6" collapsible="true">
+            <selectionEntryGroup name="Mejoras de montura de batalla" id="7e0c-a3fb-d9fd-4f77" hidden="false" sortIndex="6" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="El Marcado" hidden="false" id="2102-7320-23a3-f16e" sortIndex="1">
                   <profiles>
@@ -3080,7 +3080,7 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Upgrades" id="4677-619d-a010-0ba1" hidden="false" sortIndex="7">
+            <selectionEntryGroup name="Mejoras" id="4677-619d-a010-0ba1" hidden="false" sortIndex="7">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Ego desmesurado" hidden="false" id="7774-4985-7a1e-3547" sortIndex="1">
                   <costs>
@@ -3165,12 +3165,12 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="157c-bfc6-cd49-d869"/>
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="INFANTRY" hidden="false" id="e58a-dbdb-c1da-7258" sortIndex="1"/>
-                        <selectionEntry type="upgrade" import="true" name="CAVALRY" hidden="false" id="76d4-e118-3631-22c2" sortIndex="2"/>
-                        <selectionEntry type="upgrade" import="true" name="MONSTER" hidden="false" id="9861-ae04-5703-9d5f" sortIndex="3"/>
-                        <selectionEntry type="upgrade" import="true" name="WAR MACHINE" hidden="false" id="b7b7-78c1-2d07-396f" sortIndex="4"/>
-                        <selectionEntry type="upgrade" import="true" name="WIZARD" hidden="false" id="0aef-30d2-3640-b5b5" sortIndex="5"/>
-                        <selectionEntry type="upgrade" import="true" name="PRIEST" hidden="false" id="ee73-6bbe-e2f9-497e" sortIndex="6"/>
+                        <selectionEntry type="upgrade" import="true" name="INFANTERÍA" hidden="false" id="e58a-dbdb-c1da-7258" sortIndex="1"/>
+                        <selectionEntry type="upgrade" import="true" name="CABALLERÍA" hidden="false" id="76d4-e118-3631-22c2" sortIndex="2"/>
+                        <selectionEntry type="upgrade" import="true" name="MONSTRUO" hidden="false" id="9861-ae04-5703-9d5f" sortIndex="3"/>
+                        <selectionEntry type="upgrade" import="true" name="MÁQUINA DE GUERRA" hidden="false" id="b7b7-78c1-2d07-396f" sortIndex="4"/>
+                        <selectionEntry type="upgrade" import="true" name="MAGO" hidden="false" id="0aef-30d2-3640-b5b5" sortIndex="5"/>
+                        <selectionEntry type="upgrade" import="true" name="SACERDOTE" hidden="false" id="ee73-6bbe-e2f9-497e" sortIndex="6"/>
                       </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
@@ -3407,7 +3407,7 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Command Models" id="785a-b08c-0d5f-64d4" hidden="false">
+            <selectionEntryGroup name="Miniaturas de mando" id="785a-b08c-0d5f-64d4" hidden="false">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47bd-48f5-63ee-04c6" includeChildSelections="false"/>
               </constraints>
@@ -3546,14 +3546,14 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Orruk Warclans - Library" id="8e92-8d25-0d25-259d" targetId="77f2-08d1-7a3a-a03d"/>
+    <catalogueLink type="catalogue" name="Clanes de Guerra Orruk - Biblioteca" id="8e92-8d25-0d25-259d" targetId="77f2-08d1-7a3a-a03d"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Paths" id="b46f-e21d-53d7-7494" hidden="false" flatten="true" publicationId="8b1b-f2c7-890e-2bbe">
+    <selectionEntryGroup name="Sendas" id="b46f-e21d-53d7-7494" hidden="false" flatten="true" publicationId="8b1b-f2c7-890e-2bbe">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Senda del Máz Brutal" hidden="true" id="1ff4-792d-3784-ef87" publicationId="8b1b-f2c7-890e-2bbe">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Aspiring" id="cbda-00d1-797b-22ef" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Aspirante" id="cbda-00d1-797b-22ef" hidden="false" sortIndex="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Guerrero incansable" hidden="false" id="16ab-02aa-234b-73c0">
                   <profiles>
@@ -3618,7 +3618,7 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Elite" id="b7aa-8522-c371-823f" hidden="false" sortIndex="2">
+            <selectionEntryGroup name="Élite" id="b7aa-8522-c371-823f" hidden="false" sortIndex="2">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Parteescamas" hidden="false" id="a717-0b0a-db04-285a">
                   <profiles>
@@ -3683,7 +3683,7 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mighty" id="6c74-32b5-e5f0-4fef" hidden="false" sortIndex="3">
+            <selectionEntryGroup name="Poderoso" id="6c74-32b5-e5f0-4fef" hidden="false" sortIndex="3">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Un jefe de verdad" hidden="false" id="56b8-a07d-e904-8b91">
                   <profiles>
@@ -3748,7 +3748,7 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Legendary" id="1017-605d-aac3-057e" hidden="false" sortIndex="4">
+            <selectionEntryGroup name="Legendario" id="1017-605d-aac3-057e" hidden="false" sortIndex="4">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Meteoro de destrucción verde" hidden="false" id="d7bc-08ae-66db-a9fd">
                   <profiles>
@@ -3834,7 +3834,7 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Senda del Aplaztador" hidden="true" id="c1c2-a818-0991-8b75" publicationId="8b1b-f2c7-890e-2bbe">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Aspiring" id="75bd-c659-96e8-5f78" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Aspirante" id="75bd-c659-96e8-5f78" hidden="false" sortIndex="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Nunca en reposo" hidden="false" id="d876-8dc7-de5a-4a57">
                   <profiles>
@@ -3896,7 +3896,7 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Elite" id="819d-d389-0b73-57b5" hidden="false" sortIndex="2">
+            <selectionEntryGroup name="Élite" id="819d-d389-0b73-57b5" hidden="false" sortIndex="2">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="De largo recorrido" hidden="false" id="0f02-173f-951f-5eae">
                   <profiles>
@@ -3958,7 +3958,7 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mighty" id="8c88-90f0-50a5-12e3" hidden="false" sortIndex="3">
+            <selectionEntryGroup name="Poderoso" id="8c88-90f0-50a5-12e3" hidden="false" sortIndex="3">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Eso no ha dolido" hidden="false" id="e895-0b22-c229-8cbc">
                   <profiles>
@@ -4020,7 +4020,7 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Legendary" id="2504-38d4-f0ca-c721" hidden="false" sortIndex="4">
+            <selectionEntryGroup name="Legendario" id="2504-38d4-f0ca-c721" hidden="false" sortIndex="4">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Rebanadoras imbuidas de Waaagh!" hidden="false" id="821a-199a-1c8b-8bee">
                   <profiles>

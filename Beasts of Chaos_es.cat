@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="6cc-9eb2-c5b4-2877" name="Bestias del Caos [Leyendas]" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="26" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Artefacts of Power" id="338e-2f22-3508-8bc7" hidden="false">
+    <selectionEntryGroup name="Artefactos de poder" id="338e-2f22-3508-8bc7" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Reliquias anárquicas" id="6bd1-d198-ea23-59ce" hidden="false">
           <selectionEntries>
@@ -74,8 +74,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="b862-7889-08d5-0d48" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="b220-7ef5-6a35-85ed" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="b862-7889-08d5-0d48" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="b220-7ef5-6a35-85ed" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="-1" field="f133-cdad-b5d9-9b5b">
@@ -186,7 +186,7 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0f65-ac8d-76c4-5948" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Heroic Traits" id="bec5-f602-dfea-e64f" hidden="false">
+    <selectionEntryGroup name="Rasgos heroicos" id="bec5-f602-dfea-e64f" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Instintos de bestia alfa" id="9bbd-d2a0-c530-26f5" hidden="false">
           <selectionEntries>
@@ -259,8 +259,8 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="ff49-194d-0d6e-b1a8" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="e76d-6e89-49d9-d730" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="ff49-194d-0d6e-b1a8" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="e76d-6e89-49d9-d730" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="-1" field="ea0c-c036-0e04-e9c0">
@@ -274,7 +274,7 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="cd6b-ee26-c9c3-d0c4"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Manifestation Lores" id="ab04-81b1-be73-d7de" hidden="false" flatten="true">
+    <selectionEntryGroup name="Saberes de manifestaciones" id="ab04-81b1-be73-d7de" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Manifestaciones bestiales" hidden="false" id="58fa-6afb-f282-8454" publicationId="3cc2-31d3-9dd2-f858">
           <constraints>
@@ -286,7 +286,7 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spell Lores" id="a20d-08c9-ea8f-33e7" hidden="false" flatten="true">
+    <selectionEntryGroup name="Saberes de hechizos" id="a20d-08c9-ea8f-33e7" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Saber de las tierras salvajes retorcidas" hidden="false" id="a415-7dcd-0814-85e3" defaultAmount="1" publicationId="3cc2-31d3-9dd2-f858">
           <constraints>
@@ -301,7 +301,7 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6156-e57e-9136-b002" includeChildSelections="true"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Battle Wounds + Scars" id="d680-a692-ba7e-d0fa" hidden="true" collapsible="true">
+    <selectionEntryGroup name="Heridas de batalla + cicatrices" id="d680-a692-ba7e-d0fa" hidden="true" collapsible="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -315,12 +315,12 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Battle Scars" hidden="false" id="b4f2-500a-1311-d428" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Battle Scars" hidden="false" id="1552-830f-5b99-9478" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
+        <entryLink import="true" name="Cicatrices de batalla de la Costa Devastada" hidden="false" id="b4f2-500a-1311-d428" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
+        <entryLink import="true" name="Cicatrices de batalla de las Tierras Salvajes Corruptas" hidden="false" id="1552-830f-5b99-9478" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Battle Wounds" hidden="false" id="6023-fc75-79bc-0f64"/>
-        <selectionEntry type="upgrade" import="true" name="Drained" hidden="true" id="bf25-c1a6-106c-3e1d">
+        <selectionEntry type="upgrade" import="true" name="Heridas de batalla" hidden="false" id="6023-fc75-79bc-0f64"/>
+        <selectionEntry type="upgrade" import="true" name="Agotado" hidden="true" id="bf25-c1a6-106c-3e1d">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c52-189e-5cb4-6b0c"/>
           </constraints>
@@ -334,11 +334,11 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Beasts of Chaos^^** 
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Paths" id="733a-1ec8-6333-11b3" hidden="true">
+    <selectionEntryGroup name="Sendas" id="733a-1ec8-6333-11b3" hidden="true">
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Paths" hidden="false" id="6052-ea29-bf68-fa7f" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
-        <entryLink import="true" name="Ascension Paths" hidden="false" id="d294-a454-5a2b-515c" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Paths" hidden="false" id="4177-0195-0a29-41f1" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
+        <entryLink import="true" name="Sendas de la Costa Devastada" hidden="false" id="6052-ea29-bf68-fa7f" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
+        <entryLink import="true" name="Sendas de ascensión" hidden="false" id="d294-a454-5a2b-515c" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
+        <entryLink import="true" name="Sendas de las Tierras Salvajes Corruptas" hidden="false" id="4177-0195-0a29-41f1" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -410,21 +410,21 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Bestias del Caos - Biblioteca" id="b48c-dc5f-b9c1-dcee" targetId="5549-bece-2339-36e9"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ravaged Coast" id="841f-4f92-d212-b073" importRootEntries="true" targetId="a434-b1ba-922b-7624"/>
-    <catalogueLink type="catalogue" name="❖ Lores" id="c5f3-b1c7-4e7b-a10f" targetId="0a11-cd61-2a4e-8e04" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ascension" id="833e-ddda-2b70-5491" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Blighted Wilds" id="d866-dc8b-ca23-4209" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Costa Devastada" id="841f-4f92-d212-b073" importRootEntries="true" targetId="a434-b1ba-922b-7624"/>
+    <catalogueLink type="catalogue" name="❖ Saberes" id="c5f3-b1c7-4e7b-a10f" targetId="0a11-cd61-2a4e-8e04" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Ascensión" id="833e-ddda-2b70-5491" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Tierras Salvajes Corruptas" id="d866-dc8b-ca23-4209" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Gran chamán del rebaño" hidden="false" id="c422-d507-2624-2335" type="selectionEntry" targetId="dbb1-5ebf-28ce-eb6e">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="aa48-ce6c-be75-bee3" type="selectionEntryGroup" targetId="bec5-f602-dfea-e64f"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="eb07-006c-8489-b4ab" type="selectionEntryGroup" targetId="338e-2f22-3508-8bc7"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="800d-d914-d84d-8b91" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="c021-84ca-c68f-13fd" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="aa48-ce6c-be75-bee3" type="selectionEntryGroup" targetId="bec5-f602-dfea-e64f"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="eb07-006c-8489-b4ab" type="selectionEntryGroup" targetId="338e-2f22-3508-8bc7"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="800d-d914-d84d-8b91" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="c021-84ca-c68f-13fd" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="f313-9bae-ed01-a716" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="84b6-c789-ef0e-cc81" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="b5a0-a064-e0bc-7753" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="84b6-c789-ef0e-cc81" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="b5a0-a064-e0bc-7753" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="140"/>
@@ -467,13 +467,13 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
     </entryLink>
     <entryLink import="true" name="Señor de las bestias" hidden="false" id="0a99-b598-81b1-a7e5" type="selectionEntry" targetId="9652-a6eb-7e57-9761">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="3cd7-1b11-407c-9236" type="selectionEntryGroup" targetId="bec5-f602-dfea-e64f"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="0dae-49d3-55ce-1ece" type="selectionEntryGroup" targetId="338e-2f22-3508-8bc7"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d9ae-4d1a-1da9-0e5e" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="43f1-1cba-0ed8-f2ad" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="3cd7-1b11-407c-9236" type="selectionEntryGroup" targetId="bec5-f602-dfea-e64f"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="0dae-49d3-55ce-1ece" type="selectionEntryGroup" targetId="338e-2f22-3508-8bc7"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="d9ae-4d1a-1da9-0e5e" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="43f1-1cba-0ed8-f2ad" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="85d9-a99a-80ca-bdd9" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="fba1-d764-61ad-b0cf" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="379d-f6fb-7a15-997f" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="fba1-d764-61ad-b0cf" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="379d-f6fb-7a15-997f" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="150"/>
@@ -530,13 +530,13 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
     </entryLink>
     <entryLink import="true" name="Toro de la condenación" hidden="false" id="d182-93b1-4b9c-1d54" type="selectionEntry" targetId="f8d6-201f-bb35-942c">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="3f78-2533-e491-ec62" type="selectionEntryGroup" targetId="bec5-f602-dfea-e64f"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="f1aa-6414-43b6-4122" type="selectionEntryGroup" targetId="338e-2f22-3508-8bc7"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="99d6-6519-a940-ab39" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="b11a-3b4e-337c-7dcb" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="3f78-2533-e491-ec62" type="selectionEntryGroup" targetId="bec5-f602-dfea-e64f"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="f1aa-6414-43b6-4122" type="selectionEntryGroup" targetId="338e-2f22-3508-8bc7"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="99d6-6519-a940-ab39" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="b11a-3b4e-337c-7dcb" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="abdb-47f8-f2d7-2433" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="2781-7e6d-623f-dd38" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="b36d-1942-f128-9baf" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="2781-7e6d-623f-dd38" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="b36d-1942-f128-9baf" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="170"/>
@@ -593,13 +593,13 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
     </entryLink>
     <entryLink import="true" name="Shaggoth ogro dragón" hidden="false" id="aad6-9438-ee7b-d7a0" type="selectionEntry" targetId="5f38-255a-16a0-e4dc">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="8edd-1bdf-28b8-98fe" type="selectionEntryGroup" targetId="bec5-f602-dfea-e64f"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="efd5-19d0-3402-4d7b" type="selectionEntryGroup" targetId="338e-2f22-3508-8bc7"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1740-dc52-fb83-1e24" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="2200-b84d-77fd-570f" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="8edd-1bdf-28b8-98fe" type="selectionEntryGroup" targetId="bec5-f602-dfea-e64f"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="efd5-19d0-3402-4d7b" type="selectionEntryGroup" targetId="338e-2f22-3508-8bc7"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="1740-dc52-fb83-1e24" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="2200-b84d-77fd-570f" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="5f86-af5d-c4ff-3ce0" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="7b38-b20c-1210-14a8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="d964-218a-86a1-f3e4" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="7b38-b20c-1210-14a8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="d964-218a-86a1-f3e4" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="220"/>
@@ -659,9 +659,9 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <cost name="pts" typeId="points" value="70"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="60b7-67c2-fc83-4d50" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="7e3f-530b-985b-3a3d" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="42d6-d498-50b3-fd1d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="60b7-67c2-fc83-4d50" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="7e3f-530b-985b-3a3d" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="42d6-d498-50b3-fd1d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -700,10 +700,10 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
     </entryLink>
     <entryLink import="true" name="Bestigors" hidden="false" id="67c6-9a43-cd6e-4758" type="selectionEntry" targetId="e81b-8963-7fe4-f5ed">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="b9f3-67dc-608e-4ccb" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="57c3-5876-e367-ca6a" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="96fb-2500-dc6d-5a2f" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="e38f-56ec-a474-5d56" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="b9f3-67dc-608e-4ccb" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="57c3-5876-e367-ca6a" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="96fb-2500-dc6d-5a2f" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="e38f-56ec-a474-5d56" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -728,10 +728,10 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
     </entryLink>
     <entryLink import="true" name="Bullgors" hidden="false" id="20f2-ce89-35ad-5c7f" type="selectionEntry" targetId="d994-d366-3e28-c304">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="b0d2-1e3b-811a-5901" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1f52-b963-f741-3816" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="897a-7ff5-1358-fc3c" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="8bc0-7d23-7484-1f3f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="b0d2-1e3b-811a-5901" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="1f52-b963-f741-3816" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="897a-7ff5-1358-fc3c" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="8bc0-7d23-7484-1f3f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -756,10 +756,10 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
     </entryLink>
     <entryLink import="true" name="Mastines del Caos" hidden="false" id="6b69-ea4a-79a1-6b27" type="selectionEntry" targetId="7c3c-ad38-60b3-7c30">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="80b7-cac3-e13b-1942" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4809-479b-2f94-60ac" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="0b5a-1010-5e97-7fc3" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="b814-4579-89fd-92a7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="80b7-cac3-e13b-1942" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="4809-479b-2f94-60ac" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="0b5a-1010-5e97-7fc3" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="b814-4579-89fd-92a7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -821,10 +821,10 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
     </entryLink>
     <entryLink import="true" name="Centigors" hidden="false" id="9673-2640-44e5-e39f" type="selectionEntry" targetId="49ea-b4e5-abbc-7c73">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="64eb-7035-4734-8d52" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3599-fe61-cdbb-6ef8" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="2adf-d898-ba99-ee8e" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="abc5-4e80-d6b6-180b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="64eb-7035-4734-8d52" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="3599-fe61-cdbb-6ef8" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="2adf-d898-ba99-ee8e" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="abc5-4e80-d6b6-180b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -864,9 +864,9 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <cost name="pts" typeId="points" value="170"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1745-ab96-e270-893e" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="a0d6-5395-5506-028e" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="352f-5e6f-27b9-6d8b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="1745-ab96-e270-893e" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="a0d6-5395-5506-028e" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="352f-5e6f-27b9-6d8b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Gigante del Caos" hidden="false" id="5f61-3409-a522-1ab6" type="selectionEntry" targetId="a95c-3447-894b-43a3">
@@ -886,9 +886,9 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <cost name="pts" typeId="points" value="140"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="5a6d-f6d9-23ad-27ad" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="b973-6f3f-e798-585b" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="930f-0693-470d-8cee" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="5a6d-f6d9-23ad-27ad" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="b973-6f3f-e798-585b" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="930f-0693-470d-8cee" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Quimera" hidden="false" id="91dd-4419-1467-4c58" type="selectionEntry" targetId="92c9-1353-bc81-7814">
@@ -908,9 +908,9 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <cost name="pts" typeId="points" value="200"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7aef-df09-6328-1f94" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="255c-fb21-5e02-4f0f" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="83b1-208c-2afb-2a54" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="7aef-df09-6328-1f94" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="255c-fb21-5e02-4f0f" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="83b1-208c-2afb-2a54" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Cocatriz" hidden="false" id="a1bd-54b0-81e7-a05c" type="selectionEntry" targetId="a80a-b7c0-c7d5-9b9f">
@@ -933,9 +933,9 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <cost name="pts" typeId="points" value="150"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a183-b32d-c01f-b711" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="838c-960a-47a8-cf27" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="206d-c292-e581-059b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="a183-b32d-c01f-b711" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="838c-960a-47a8-cf27" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="206d-c292-e581-059b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -974,10 +974,10 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
     </entryLink>
     <entryLink import="true" name="Ogros dragón" hidden="false" id="f0d1-af45-42a8-fe51" type="selectionEntry" targetId="9bbe-6fe3-2117-7dca">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="3f7f-665a-c8e6-83bc" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a1e1-e878-51da-72f9" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="48bc-04c5-ae0b-5ae8" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="c1ea-2a61-196f-f6a8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="3f7f-665a-c8e6-83bc" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="a1e1-e878-51da-72f9" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="48bc-04c5-ae0b-5ae8" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="c1ea-2a61-196f-f6a8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1017,9 +1017,9 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <cost name="pts" typeId="points" value="180"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d500-5ca9-a22c-7ce2" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="c2ac-5e65-0454-3ee8" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="cbfb-9473-d66c-9c67" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="d500-5ca9-a22c-7ce2" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="c2ac-5e65-0454-3ee8" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="cbfb-9473-d66c-9c67" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Razorgor" hidden="false" id="711f-b93f-94b6-eb40" type="selectionEntry" targetId="5efa-c95d-80d7-bec9">
@@ -1042,9 +1042,9 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <cost name="pts" typeId="points" value="70"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="fdbf-f5d8-bd64-02fd" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="8a6e-c902-5361-22db" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="b2a0-656c-779b-3c7c" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="fdbf-f5d8-bd64-02fd" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="8a6e-c902-5361-22db" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="b2a0-656c-779b-3c7c" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -1083,10 +1083,10 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
     </entryLink>
     <entryLink import="true" name="Incursores ungor" hidden="false" id="981a-eb67-7124-b61d" type="selectionEntry" targetId="3771-efac-15d0-cc5b">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="d9ff-c66a-f542-a87a" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4203-cf5c-aa4b-dcba" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="89fe-c05b-8092-98c3" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="2f31-5984-5a26-c2fb" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="d9ff-c66a-f542-a87a" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="4203-cf5c-aa4b-dcba" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="89fe-c05b-8092-98c3" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="2f31-5984-5a26-c2fb" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1131,10 +1131,10 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <cost name="pts" typeId="points" value="100"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="46be-036a-b449-14ac" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ef0b-46e3-c6a4-27f7" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="9e23-eacb-eab7-a963" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="15cd-4314-20d5-1733" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="46be-036a-b449-14ac" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="ef0b-46e3-c6a4-27f7" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="9e23-eacb-eab7-a963" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="15cd-4314-20d5-1733" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Jabberslythe" hidden="false" id="d662-c505-1986-b5c8" type="selectionEntry" targetId="e692-609a-09fa-d49b">
@@ -1154,9 +1154,9 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <cost name="pts" typeId="points" value="190"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="20ff-9738-a0d5-3f4a" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="3968-5968-e50f-c997" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="5ea8-2140-5f8f-9633" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="20ff-9738-a0d5-3f4a" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="3968-5968-e50f-c997" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="5ea8-2140-5f8f-9633" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Carros de tuskgors" hidden="false" id="2ff3-f007-e363-117a" type="selectionEntry" targetId="21de-ca00-a110-b175">
@@ -1176,17 +1176,17 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1c01-fa42-52ce-b275" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="2411-0835-be21-9fc8" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="4a63-c446-7594-c3ce" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="1c01-fa42-52ce-b275" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="2411-0835-be21-9fc8" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="4a63-c446-7594-c3ce" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Ungors" hidden="false" id="5086-dea0-628a-a2f7" type="selectionEntry" targetId="920d-c7ac-1a68-8337">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="360b-a8a5-fee1-fb46" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7b6e-e9eb-e0d9-cc62" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
-        <entryLink import="true" name="Paths" hidden="false" id="a01e-c0b4-a975-95c2" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
-        <entryLink import="true" name="Renown" hidden="false" id="b2c8-676b-c530-7c7e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="360b-a8a5-fee1-fb46" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="7b6e-e9eb-e0d9-cc62" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="a01e-c0b4-a975-95c2" type="selectionEntryGroup" targetId="733a-1ec8-6333-11b3"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="b2c8-676b-c530-7c7e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1236,13 +1236,13 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <cost name="pts" typeId="points" value="100"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1b8e-18bc-d987-47d8" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="1b8e-18bc-d987-47d8" type="selectionEntryGroup" targetId="d680-a692-ba7e-d0fa"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Piedra del rebaño" hidden="false" id="e494-b95e-5651-5fea" type="selectionEntry" targetId="dbf4-0d75-ee00-02a2" defaultAmount="1"/>
   </entryLinks>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Formation" hidden="false" id="d8bd-a82f-e173-78d7" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Formación de batalla" hidden="false" id="d8bd-a82f-e173-78d7" defaultAmount="1">
       <entryLinks>
         <entryLink import="true" name="Formaciones de batalla: Bestias del Caos" hidden="false" id="c75f-e476-d9b5-4f66" type="selectionEntryGroup" targetId="378d-822d-d05a-0dc8" collective="false" flatten="true"/>
       </entryLinks>
@@ -1253,10 +1253,10 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <categoryLink name="Army Composition" hidden="false" id="1694-f638-153c-1ae4" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Manifestation Lore" hidden="true" id="ca45-bd47-9de1-6c4a" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de manifestaciones" hidden="true" id="ca45-bd47-9de1-6c4a" defaultAmount="1">
       <entryLinks>
-        <entryLink import="true" name="Manifestation Lores" hidden="false" id="a664-d80e-4b60-8225" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
-        <entryLink import="true" name="Manifestation Lores" hidden="false" id="5085-15a7-12fb-c5e0" type="selectionEntryGroup" targetId="ab04-81b1-be73-d7de" flatten="true"/>
+        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="a664-d80e-4b60-8225" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
+        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="5085-15a7-12fb-c5e0" type="selectionEntryGroup" targetId="ab04-81b1-be73-d7de" flatten="true"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="345a-4445-5acc-ad8a"/>
@@ -1273,7 +1273,7 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Spell Lore" hidden="true" id="e806-6063-f8e4-dcff" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de hechizos" hidden="true" id="e806-6063-f8e4-dcff" defaultAmount="1">
       <categoryLinks>
         <categoryLink name="Army Composition" hidden="false" id="2594-d4e1-e1c5-be49" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
       </categoryLinks>
@@ -1282,7 +1282,7 @@ Durante el resto del turno, suma 1 a las tiradas de carga de esa unidad.</charac
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="24f1-5727-541d-c89b"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Spell Lores" hidden="false" id="a64d-d2d7-3e41-7954" type="selectionEntryGroup" targetId="a20d-08c9-ea8f-33e7" flatten="true" collective="false"/>
+        <entryLink import="true" name="Saberes de hechizos" hidden="false" id="a64d-d2d7-3e41-7954" type="selectionEntryGroup" targetId="a20d-08c9-ea8f-33e7" flatten="true" collective="false"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">

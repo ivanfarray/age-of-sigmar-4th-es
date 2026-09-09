@@ -6,7 +6,7 @@
         <profile name="Constructos de hueso petrificado" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b8e2-83c2-5fd5-ca91" publicationId="e47d-cde6-bbd2-9db9">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora el primer punto de daño que se asignaría a cada unidad amiga **^^Petrifex Elite^^** en cada fase.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora el primer punto de daño que se asignaría a cada unidad amiga **^^Petrifex Élite^^** en cada fase.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color"/>
@@ -32,7 +32,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="736-6e3a-d0b5-a1b0">Cualquier fase de combate</characteristic>
             <characteristic name="Cost" typeId="a49e-3082-e2a6-e802">1</characteristic>
-            <characteristic name="Declare" typeId="b77f-7548-840e-c086">Elige como objetivo una unidad amiga **^^Petrifex Elite^^** que haya cargado este turno.</characteristic>
+            <characteristic name="Declare" typeId="b77f-7548-840e-c086">Elige como objetivo una unidad amiga **^^Petrifex Élite^^** que haya cargado este turno.</characteristic>
             <characteristic name="Effect" typeId="2111-3ca8-61dd-a5f0">El objetivo puede usar 2 habilidades de **^^Combatir^^** esta fase. Sin embargo, después de usar la primera, esta unidad tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="445d-f443-5448-e7ce"/>
           </characteristics>
@@ -45,7 +45,7 @@
         <profile name="Avance incesante" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="cf36-96fc-8f86-ce5f" publicationId="e47d-cde6-bbd2-9db9">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Petrifex Elite^^** que esté en combate.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Petrifex Élite^^** que esté en combate.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, no se inflige daño mortal al objetivo por habilidades de **^^Retirarse^^**, pero cuando el objetivo use una habilidad de **^^Retirarse^^**, debe terminar el movimiento más cerca del territorio enemigo o dentro de él.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -218,9 +218,9 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="e6a4-bc0a-597d-cbd4"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Paths" hidden="false" id="6121-948b-19dd-f54b" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="34ca-fc33-e90d-182a" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
-        <entryLink import="true" name="Renown" hidden="false" id="9f16-591c-f2f1-d9b3" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="6121-948b-19dd-f54b" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="34ca-fc33-e90d-182a" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="9f16-591c-f2f1-d9b3" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Guardia Immortis" hidden="false" id="4318-286b-aa33-c6f4" type="selectionEntry" targetId="c1b9-f148-7fe4-8660">
@@ -242,10 +242,10 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="9442-7beb-00ca-4e8a" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Paths" hidden="false" id="dc07-4a3c-59d6-e72d" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="5637-a6c8-239d-688d" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
-        <entryLink import="true" name="Renown" hidden="false" id="4c84-0d62-2977-758a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="9442-7beb-00ca-4e8a" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="dc07-4a3c-59d6-e72d" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="5637-a6c8-239d-688d" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="4c84-0d62-2977-758a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="170"/>
@@ -273,10 +273,10 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="c2dc-34fb-4097-aaac" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Paths" hidden="false" id="5c5d-928a-2e17-afc8" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d5cf-33c2-be21-5b32" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
-        <entryLink import="true" name="Renown" hidden="false" id="1573-9563-eff6-6b70" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="c2dc-34fb-4097-aaac" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="5c5d-928a-2e17-afc8" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="d5cf-33c2-be21-5b32" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="1573-9563-eff6-6b70" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="240"/>
@@ -324,9 +324,9 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         <constraint type="max" value="-1" field="selections" scope="parent" shared="true" id="be23-ae47-7484-018f"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Paths" hidden="false" id="6ddd-d83b-76fe-eb64" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="f411-d40f-7db9-5244" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
-        <entryLink import="true" name="Renown" hidden="false" id="df5b-2579-abcb-2660" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="6ddd-d83b-76fe-eb64" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="f411-d40f-7db9-5244" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="df5b-2579-abcb-2660" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Osifector mortisano" hidden="false" id="a1c3-309a-5cf4-9e94" type="selectionEntry" targetId="93ac-6567-8147-a11">
@@ -334,13 +334,13 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         <categoryLink name="PETRIFEX ELITE" hidden="false" id="8008-934b-e800-b715" targetId="a534-eef1-69d3-c0c3" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="03c7-e62b-721f-1f49" type="selectionEntryGroup" targetId="4dbe-c85e-ab51-12bd"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="d753-417d-a8cf-bc32" type="selectionEntryGroup" targetId="d120-6295-aeb2-1b7f"/>
-        <entryLink import="true" name="Paths" hidden="false" id="ff81-be1a-e62d-b33b" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ea4e-13b1-74bc-f9a7" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="03c7-e62b-721f-1f49" type="selectionEntryGroup" targetId="4dbe-c85e-ab51-12bd"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="d753-417d-a8cf-bc32" type="selectionEntryGroup" targetId="d120-6295-aeb2-1b7f"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="ff81-be1a-e62d-b33b" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="ea4e-13b1-74bc-f9a7" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="a77d-4283-c9d0-7b3f" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="e5d4-6803-1f73-f107" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="877e-11c8-4552-9a16" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="e5d4-6803-1f73-f107" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="877e-11c8-4552-9a16" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="110"/>
@@ -386,13 +386,13 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         <categoryLink name="PETRIFEX ELITE" hidden="false" id="064d-6de4-6e16-ddb1" targetId="a534-eef1-69d3-c0c3" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="fb36-b42f-e843-0348" type="selectionEntryGroup" targetId="4dbe-c85e-ab51-12bd"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="8b26-4fbe-d98d-4bb7" type="selectionEntryGroup" targetId="d120-6295-aeb2-1b7f"/>
-        <entryLink import="true" name="Paths" hidden="false" id="cd00-1d5a-96c9-801c" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="5719-03d6-cc5f-d3ff" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="fb36-b42f-e843-0348" type="selectionEntryGroup" targetId="4dbe-c85e-ab51-12bd"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="8b26-4fbe-d98d-4bb7" type="selectionEntryGroup" targetId="d120-6295-aeb2-1b7f"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="cd00-1d5a-96c9-801c" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="5719-03d6-cc5f-d3ff" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="9681-46b8-2595-65af" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="7d98-922a-59e6-a066" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="ba74-4f3a-79c5-186a" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="7d98-922a-59e6-a066" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="ba74-4f3a-79c5-186a" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="140"/>
@@ -451,10 +451,10 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="9c44-11c5-cbb5-a599" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Paths" hidden="false" id="a147-d7eb-784a-710f" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="db68-1873-119a-333e" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
-        <entryLink import="true" name="Renown" hidden="false" id="c1de-2fb0-ad71-8d90" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="9c44-11c5-cbb5-a599" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="a147-d7eb-784a-710f" type="selectionEntryGroup" targetId="ef21-99cd-9877-a39c"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="db68-1873-119a-333e" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="c1de-2fb0-ad71-8d90" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="130"/>
@@ -468,7 +468,7 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         <cost name="pts" typeId="points" value="320"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="240b-2bb9-8469-b586" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="240b-2bb9-8469-b586" type="selectionEntryGroup" targetId="8ba0-6a0a-ed3a-fdd0"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -501,14 +501,14 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
     </entryLink>
   </entryLinks>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Ossiarch Bonereapers - Library" id="df6c-3cea-2558-8159" targetId="3521-1b3c-7fd9-838b"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ravaged Coast" id="fdde-79f6-b981-d08d" targetId="a434-b1ba-922b-7624" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="❖ Lores" id="7723-37ab-f10e-1ec8" targetId="0a11-cd61-2a4e-8e04"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ascension" id="4ded-69b6-ddf1-cb57" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Blighted Wilds" id="4c2b-8b18-e6cf-a9da" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Cosechahuesos Ossiarch - Biblioteca" id="df6c-3cea-2558-8159" targetId="3521-1b3c-7fd9-838b"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Costa Devastada" id="fdde-79f6-b981-d08d" targetId="a434-b1ba-922b-7624" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="❖ Saberes" id="7723-37ab-f10e-1ec8" targetId="0a11-cd61-2a4e-8e04"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Ascensión" id="4ded-69b6-ddf1-cb57" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Tierras Salvajes Corruptas" id="4c2b-8b18-e6cf-a9da" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Artefacts of Power" id="4dbe-c85e-ab51-12bd" hidden="false">
+    <selectionEntryGroup name="Artefactos de poder" id="4dbe-c85e-ab51-12bd" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Artefactos de poder: Élite Petrifex" id="677a-54c9-779c-3c9e" hidden="false" publicationId="e47d-cde6-bbd2-9db9">
           <selectionEntries>
@@ -545,8 +545,8 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="01f5-85bc-b38e-4fed" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="f448-4e3b-cbb7-8ea6" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="01f5-85bc-b38e-4fed" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="f448-4e3b-cbb7-8ea6" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="-1" field="1314-0f31-dbbd-3bf2">
@@ -560,7 +560,7 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="5995-94d9-4305-1427"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Heroic Traits" id="d120-6295-aeb2-1b7f" hidden="false">
+    <selectionEntryGroup name="Rasgos heroicos" id="d120-6295-aeb2-1b7f" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Rasgos heroicos: Élite Petrifex" id="3641-c9e6-e496-0f9c" hidden="false" publicationId="e47d-cde6-bbd2-9db9">
           <selectionEntries>
@@ -597,8 +597,8 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="762b-ded5-975a-5504" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="ad05-5447-0a56-03b4" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="762b-ded5-975a-5504" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="ad05-5447-0a56-03b4" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="-1" field="8676-3f05-593d-9863">
@@ -612,7 +612,7 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="eebb-e009-41a7-abce"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Manifestation Lores" id="6fe5-e17b-dcc4-f824" hidden="false" flatten="true">
+    <selectionEntryGroup name="Saberes de manifestaciones" id="6fe5-e17b-dcc4-f824" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Saber de manifestaciones: Élite Petrifex" hidden="false" id="79de-1057-f6ed-b075" publicationId="e47d-cde6-bbd2-9db9">
           <constraints>
@@ -624,7 +624,7 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Spell Lores" id="e3b7-22ec-135b-de2f" hidden="false" flatten="true">
+    <selectionEntryGroup name="Saberes de hechizos" id="e3b7-22ec-135b-de2f" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Saber de hechizos: Élite Petrifex" hidden="false" id="f8b3-c239-2741-8685" defaultAmount="1" publicationId="e47d-cde6-bbd2-9db9">
           <constraints>
@@ -639,7 +639,7 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7d8e-a3ed-36f3-18d7" includeChildSelections="true"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Battle Wounds + Scars" id="8ba0-6a0a-ed3a-fdd0" hidden="true" collapsible="true">
+    <selectionEntryGroup name="Heridas de batalla + cicatrices" id="8ba0-6a0a-ed3a-fdd0" hidden="true" collapsible="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -653,12 +653,12 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Battle Scars" hidden="false" id="5182-2789-10fb-c634" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Battle Scars" hidden="false" id="2e6c-49fd-4de1-6754" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
+        <entryLink import="true" name="Cicatrices de batalla de la Costa Devastada" hidden="false" id="5182-2789-10fb-c634" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
+        <entryLink import="true" name="Cicatrices de batalla de las Tierras Salvajes Corruptas" hidden="false" id="2e6c-49fd-4de1-6754" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Battle Wounds" hidden="false" id="209c-742c-12a3-9a81"/>
-        <selectionEntry type="upgrade" import="true" name="Drained" hidden="true" id="3b3b-0b02-0759-2300">
+        <selectionEntry type="upgrade" import="true" name="Heridas de batalla" hidden="false" id="209c-742c-12a3-9a81"/>
+        <selectionEntry type="upgrade" import="true" name="Agotado" hidden="true" id="3b3b-0b02-0759-2300">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1c9-1e1a-72b1-6f8c"/>
           </constraints>
@@ -672,12 +672,12 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Paths" id="ef21-99cd-9877-a39c" hidden="true">
+    <selectionEntryGroup name="Sendas" id="ef21-99cd-9877-a39c" hidden="true">
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Paths" hidden="false" id="5e23-eaee-50bd-918b" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
-        <entryLink import="true" name="Ascension Paths" hidden="false" id="9cef-0758-0f32-867d" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Paths" hidden="false" id="450f-d6c4-21f4-3b5e" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
-        <entryLink import="true" name="Paths" hidden="false" id="2309-9910-9df2-f009" type="selectionEntryGroup" targetId="c3d7-0d6a-30db-47db" flatten="true"/>
+        <entryLink import="true" name="Sendas de la Costa Devastada" hidden="false" id="5e23-eaee-50bd-918b" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
+        <entryLink import="true" name="Sendas de ascensión" hidden="false" id="9cef-0758-0f32-867d" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
+        <entryLink import="true" name="Sendas de las Tierras Salvajes Corruptas" hidden="false" id="450f-d6c4-21f4-3b5e" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="2309-9910-9df2-f009" type="selectionEntryGroup" targetId="c3d7-0d6a-30db-47db" flatten="true"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -695,10 +695,10 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
     <categoryEntry name="PETRIFEX ELITE" id="a534-eef1-69d3-c0c3" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Manifestation Lore" hidden="true" id="6649-49f0-4639-ff8e" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de manifestaciones" hidden="true" id="6649-49f0-4639-ff8e" defaultAmount="1">
       <entryLinks>
-        <entryLink import="true" name="Manifestation Lores" hidden="false" id="1f2d-0184-da0f-0457" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
-        <entryLink import="true" name="Manifestation Lores" hidden="false" id="d053-513d-d6a6-c7f3" type="selectionEntryGroup" targetId="6fe5-e17b-dcc4-f824" flatten="true"/>
+        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="1f2d-0184-da0f-0457" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
+        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="d053-513d-d6a6-c7f3" type="selectionEntryGroup" targetId="6fe5-e17b-dcc4-f824" flatten="true"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a35a-eb4f-6481-87c8"/>
@@ -715,7 +715,7 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Spell Lore" hidden="true" id="68bc-148c-e902-6373" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de hechizos" hidden="true" id="68bc-148c-e902-6373" defaultAmount="1">
       <categoryLinks>
         <categoryLink name="Army Composition" hidden="false" id="95b0-b0d7-32d8-640e" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
       </categoryLinks>
@@ -724,7 +724,7 @@ Esta unidad tiene **^^Strike-last**^^ durante el resto del turno.</characteristi
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b66a-29dd-76ce-2047"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Spell Lores" hidden="false" id="9d39-191c-1253-5f78" type="selectionEntryGroup" targetId="e3b7-22ec-135b-de2f" flatten="true" collective="false"/>
+        <entryLink import="true" name="Saberes de hechizos" hidden="false" id="9d39-191c-1253-5f78" type="selectionEntryGroup" targetId="e3b7-22ec-135b-de2f" flatten="true" collective="false"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">

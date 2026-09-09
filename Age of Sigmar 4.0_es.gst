@@ -14561,7 +14561,7 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Reinforced" hidden="false" id="1b37-82b8-c062-eb82">
+    <selectionEntry type="upgrade" import="true" name="Reforzado" hidden="false" id="1b37-82b8-c062-eb82">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b248-b1b0-3c2c-69d3"/>
       </constraints>
@@ -15776,7 +15776,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         </rule>
       </rules>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Renown" hidden="true" id="e7d5-5062-46d5-38dd">
+    <selectionEntry type="upgrade" import="true" name="Renombre" hidden="true" id="e7d5-5062-46d5-38dd">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -15800,7 +15800,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
       <description>A menos que se especifique lo contrario, los ataques hechos con esta arma no se ven afectados por habilidades amigas que modifiquen las tiradas de impacto, las tiradas de herida o las características del arma, salvo las que apliquen modificadores negativos (por ejemplo, &apos;Fuego de cobertura&apos;)</description>
     </rule>
     <rule name="Anti-X (+1 Penetración)" hidden="false" id="5daf-bfb3-e495-dae6">
-      <description>Suma 1 a la característica de Rend de esta arma si el objetivo tiene la palabra clave que aparece después de &apos;Anti-&apos; o cumple la condición que aparece después de &apos;Anti-&apos;. Varias instancias de esta habilidad son acumulativas. Por ejemplo, si un arma tiene Anti-charge (+1 Rend) y Anti-HERO (+1 Rend), suma 2 a la característica de Rend del arma para los ataques que tengan como objetivo un HERO que haya cargado en el mismo turno.</description>
+      <description>Suma 1 a la característica de Rend de esta arma si el objetivo tiene la palabra clave que aparece después de &apos;Anti-&apos; o cumple la condición que aparece después de &apos;Anti-&apos;. Varias instancias de esta habilidad son acumulativas. Por ejemplo, si un arma tiene Anti-charge (+1 Rend) y Anti-HÉROE (+1 Rend), suma 2 a la característica de Rend del arma para los ataques que tengan como objetivo un HÉROE que haya cargado en el mismo turno.</description>
       <alias/>
     </rule>
     <rule name="Carga (+1 Daño)" hidden="false" id="9ae2-afa0-f49-35dd">
@@ -16169,7 +16169,7 @@ En cualquier turno en el que esa **guardia de honor** haya cargado, las armas de
           <description>Cada jugador puede usar una de las siguientes habilidades de Guardia de honor en cada batalla. Al usar esa habilidad, debe elegir una unidad del regimiento de su general para que sea la guardia de honor.</description>
         </rule>
         <rule name="Fuerzas regimentadas" id="42aa-b9ec-df97-53ac" hidden="false">
-          <description>Si un jugador tiene más regimientos que su oponente, puede usar una segunda habilidad de **^^Guardia de honor^^** distinta, pero debe elegir una unidad que esté en un regimiento distinto que no esté liderado por el general para que sea la **guardia de honor** de esa habilidad. No puedes elegir unidades de un Regimiento of Renown para que sean **guardia de honor**. Si has decidido no elegir una unidad **guardia de honor** en el regimiento de tu general, aún puedes elegir una unidad **guardia de honor** para un regimiento distinto tal y como se describe arriba.</description>
+          <description>Si un jugador tiene más regimientos que su oponente, puede usar una segunda habilidad de **^^Guardia de honor^^** distinta, pero debe elegir una unidad que esté en un regimiento distinto que no esté liderado por el general para que sea la **guardia de honor** de esa habilidad. No puedes elegir unidades de un Regimiento of Renombre para que sean **guardia de honor**. Si has decidido no elegir una unidad **guardia de honor** en el regimiento de tu general, aún puedes elegir una unidad **guardia de honor** para un regimiento distinto tal y como se describe arriba.</description>
         </rule>
       </rules>
       <constraints>
@@ -16222,7 +16222,7 @@ En cualquier turno en el que esa **guardia de honor** haya cargado, las armas de
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df"/>
                     <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Cut Off The Head:
 Completas esta táctica de batalla al final de tu turno si se ha destruido un **^^Hero^^** enemigo en esta batalla.</characteristic>
-                    <characteristic name="Strike" typeId="94d4-173e-0f65-c569">Seize the Paths:
+                    <characteristic name="Strike" typeId="94d4-173e-0f65-c569">Seize the Sendas:
 Completas esta táctica de batalla al final de tu turno si hay más unidades amigas en territorio neutral que unidades enemigas.
 Si en el plan de batalla que estás jugando no hay territorio neutral, completas esta táctica al final de tu turno si no hay unidades enemigas en territorio amigo.</characteristic>
                     <characteristic name="Domination" typeId="e1d7-1d3c-f001-62e0">Envelop and Strangle:

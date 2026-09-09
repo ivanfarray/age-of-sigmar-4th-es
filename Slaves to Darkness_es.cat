@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="2c23-a678-196b-ad69" name="Esclavos de la Oscuridad" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="50" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Spell Lores" id="76d4-19e8-38b1-d8c9" hidden="false" flatten="true">
+    <selectionEntryGroup name="Saberes de hechizos" id="76d4-19e8-38b1-d8c9" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Saber de los Condenados" hidden="false" id="b595-3928-d862-a044" defaultAmount="1">
           <constraints>
@@ -16,7 +16,7 @@
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5130-f191-d789-fa9b" includeChildSelections="true"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Artefacts of Power" id="a81-fa40-378b-46e8" hidden="false">
+    <selectionEntryGroup name="Artefactos de poder" id="a81-fa40-378b-46e8" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Tesoros infernales" id="0609-3ed9-fbb8-8e7b" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
           <selectionEntries>
@@ -252,8 +252,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="925e-9907-8eb0-da04" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="9a17-3df6-f4bf-88fa" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="925e-9907-8eb0-da04" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="9a17-3df6-f4bf-88fa" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="-1" field="ef73-17da-2776-e24f">
@@ -430,7 +430,7 @@ While there is at least 1 friendly **^^Warriors of Chaos Hero^^** and 1 other f
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="87f8-4322-c629-51cc" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Heroic Traits" id="a1ac-1337-7d66-251b" hidden="false">
+    <selectionEntryGroup name="Rasgos heroicos" id="a1ac-1337-7d66-251b" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Señores Supremos ruinosos" id="4167-5633-f12d-9877" hidden="false" publicationId="6357-5d77-a2b2-f86b">
           <selectionEntries>
@@ -523,8 +523,8 @@ While there is at least 1 friendly **^^Warriors of Chaos Hero^^** and 1 other f
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="9e2d-7a11-0543-bd62" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="0552-c30c-13e3-499d" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="9e2d-7a11-0543-bd62" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="0552-c30c-13e3-499d" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="-1" field="29bd-5060-0a3e-4254">
@@ -538,7 +538,7 @@ While there is at least 1 friendly **^^Warriors of Chaos Hero^^** and 1 other f
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="9cda-e413-9551-4298"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Manifestation Lores" id="1b20-2d37-b109-b418" hidden="false" flatten="true">
+    <selectionEntryGroup name="Saberes de manifestaciones" id="1b20-2d37-b109-b418" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Manifestaciones de malevolencia" hidden="false" id="138e-d071-f840-8d55">
           <constraints>
@@ -668,7 +668,7 @@ Además, mientras esta unidad incluya algún portaestandarte, esta unidad tiene 
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="1621-764e-0504-93d2"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Battle Wounds + Scars" id="20bb-e408-9d25-ffc6" hidden="true" collapsible="true">
+    <selectionEntryGroup name="Heridas de batalla + cicatrices" id="20bb-e408-9d25-ffc6" hidden="true" collapsible="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -682,12 +682,12 @@ Además, mientras esta unidad incluya algún portaestandarte, esta unidad tiene 
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Battle Scars" hidden="false" id="73b1-102b-f662-8b4f" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Battle Scars" hidden="false" id="5bec-cfdb-363f-f850" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
+        <entryLink import="true" name="Cicatrices de batalla de la Costa Devastada" hidden="false" id="73b1-102b-f662-8b4f" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
+        <entryLink import="true" name="Cicatrices de batalla de las Tierras Salvajes Corruptas" hidden="false" id="5bec-cfdb-363f-f850" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Battle Wounds" hidden="false" id="0720-38a3-91ef-5262"/>
-        <selectionEntry type="upgrade" import="true" name="Drained" hidden="true" id="bdbc-c6ec-8b5c-a1e3">
+        <selectionEntry type="upgrade" import="true" name="Heridas de batalla" hidden="false" id="0720-38a3-91ef-5262"/>
+        <selectionEntry type="upgrade" import="true" name="Agotado" hidden="true" id="bdbc-c6ec-8b5c-a1e3">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3b63-be51-815c-36da"/>
           </constraints>
@@ -701,12 +701,12 @@ Además, mientras esta unidad incluya algún portaestandarte, esta unidad tiene 
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Paths" id="b0a6-aba3-da51-8a7f" hidden="true">
+    <selectionEntryGroup name="Sendas" id="b0a6-aba3-da51-8a7f" hidden="true">
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Paths" hidden="false" id="796b-e7a4-a88c-5226" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
-        <entryLink import="true" name="Paths" hidden="false" id="8b7a-df40-6c3e-1e76" type="selectionEntryGroup" targetId="962b-e74d-8efa-d6ea" flatten="true"/>
-        <entryLink import="true" name="Ascension Paths" hidden="false" id="2041-45c7-18ea-4bb0" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Paths" hidden="false" id="6112-9456-8bf0-9ba9" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
+        <entryLink import="true" name="Sendas de la Costa Devastada" hidden="false" id="796b-e7a4-a88c-5226" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="8b7a-df40-6c3e-1e76" type="selectionEntryGroup" targetId="962b-e74d-8efa-d6ea" flatten="true"/>
+        <entryLink import="true" name="Sendas de ascensión" hidden="false" id="2041-45c7-18ea-4bb0" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
+        <entryLink import="true" name="Sendas de las Tierras Salvajes Corruptas" hidden="false" id="6112-9456-8bf0-9ba9" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -995,13 +995,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
   </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Esclavos de la Oscuridad - Biblioteca" id="b103-d101-84e5-a8d" targetId="c580-f07a-aa35-f79f"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ravaged Coast" id="cc3d-0eb9-b0ef-b2d5" importRootEntries="true" targetId="a434-b1ba-922b-7624"/>
-    <catalogueLink type="catalogue" name="❖ Lores" id="8597-ae2c-4ba6-255e" targetId="0a11-cd61-2a4e-8e04" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ascension" id="3844-27ab-0989-0a53" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Blighted Wilds" id="ff18-5580-dcbf-10ea" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Costa Devastada" id="cc3d-0eb9-b0ef-b2d5" importRootEntries="true" targetId="a434-b1ba-922b-7624"/>
+    <catalogueLink type="catalogue" name="❖ Saberes" id="8597-ae2c-4ba6-255e" targetId="0a11-cd61-2a4e-8e04" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Ascensión" id="3844-27ab-0989-0a53" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Tierras Salvajes Corruptas" id="ff18-5580-dcbf-10ea" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
   </catalogueLinks>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Formation" hidden="false" id="9715-615d-6123-76a6" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Formación de batalla" hidden="false" id="9715-615d-6123-76a6" defaultAmount="1">
       <entryLinks>
         <entryLink import="true" name="Formaciones de batalla: Esclavos de la Oscuridad" hidden="false" id="bf57-9ab4-fa25-ec8e" type="selectionEntryGroup" targetId="88d1-56d6-5bb-b9f9" collective="false" flatten="true"/>
       </entryLinks>
@@ -1012,10 +1012,10 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <categoryLink name="Army Composition" hidden="false" id="5b90-ea8-bc59-91ec" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Manifestation Lore" hidden="true" id="705a-99c8-eddd-3df4" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de manifestaciones" hidden="true" id="705a-99c8-eddd-3df4" defaultAmount="1">
       <entryLinks>
-        <entryLink import="true" name="Manifestation Lores" hidden="false" id="d453-332b-42e-d220" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
-        <entryLink import="true" name="Manifestation Lores" hidden="false" id="62af-eb64-af50-a3b4" type="selectionEntryGroup" targetId="1b20-2d37-b109-b418" flatten="true"/>
+        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="d453-332b-42e-d220" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
+        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="62af-eb64-af50-a3b4" type="selectionEntryGroup" targetId="1b20-2d37-b109-b418" flatten="true"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2a7-d9f7-a49a-cf9b"/>
@@ -1032,7 +1032,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Spell Lore" hidden="true" id="877a-5a32-260b-409c" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de hechizos" hidden="true" id="877a-5a32-260b-409c" defaultAmount="1">
       <categoryLinks>
         <categoryLink name="Army Composition" hidden="false" id="88ee-3cf-9a6e-a10b" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
       </categoryLinks>
@@ -1041,7 +1041,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="a55b-0da7-0687-b345"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Spell Lores" hidden="false" id="4abd-cbe7-c185-eadc" type="selectionEntryGroup" targetId="76d4-19e8-38b1-d8c9" flatten="true" collective="false"/>
+        <entryLink import="true" name="Saberes de hechizos" hidden="false" id="4abd-cbe7-c185-eadc" type="selectionEntryGroup" targetId="76d4-19e8-38b1-d8c9" flatten="true" collective="false"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -1063,7 +1063,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="250"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="f922-b76f-0ec5-db40" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="f922-b76f-0ec5-db40" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -1105,7 +1105,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="810"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ffd6-86b2-aefe-31a5" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="ffd6-86b2-aefe-31a5" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -1147,7 +1147,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="450"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="9ac3-29b4-b343-b3b5" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="9ac3-29b4-b343-b3b5" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -1187,13 +1187,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Mariscal centaurión" hidden="false" id="1ce8-db67-a549-95d7" type="selectionEntry" targetId="4c43-1634-6d7f-2705">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="4770-8a63-d597-ed21" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="1e43-d5e-e39a-faed" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4746-3263-b016-90c3" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="5cd0-70b0-ac12-4c10" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="4770-8a63-d597-ed21" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="1e43-d5e-e39a-faed" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="4746-3263-b016-90c3" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="5cd0-70b0-ac12-4c10" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="3642-a42e-7bd1-f319" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="e539-2dd4-2efe-0205" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="df23-211a-fdeb-2954" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="e539-2dd4-2efe-0205" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="df23-211a-fdeb-2954" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120"/>
@@ -1251,13 +1251,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Señor del Caos" hidden="false" id="143b-fc8a-815e-cafd" type="selectionEntry" targetId="92ba-6fcd-2c57-cb85">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="7f17-e572-c5b8-4e60" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="1154-d4ff-28d8-7719" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="04dc-c344-3977-be9f" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="3630-748b-659a-3962" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="7f17-e572-c5b8-4e60" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="1154-d4ff-28d8-7719" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="04dc-c344-3977-be9f" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="3630-748b-659a-3962" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="45e3-3a9f-5699-e50d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="ff4f-45e7-6051-cdbc" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="dc10-89dd-76d6-820a" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="ff4f-45e7-6051-cdbc" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="dc10-89dd-76d6-820a" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="100"/>
@@ -1314,13 +1314,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Señor del Caos en montura demoníaca" hidden="false" id="fea3-f47e-ccf3-f97f" type="selectionEntry" targetId="4790-6f9d-ad03-83dd">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="6d50-c539-cee-875c" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="d78c-aadd-6d8e-343a" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="2ee5-f85c-d652-4b22" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="0a22-d194-2de5-50b9" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="6d50-c539-cee-875c" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="d78c-aadd-6d8e-343a" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="2ee5-f85c-d652-4b22" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="0a22-d194-2de5-50b9" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="69b5-89d7-c8a2-fe15" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="82c9-1bce-00b4-c235" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="a836-0fa0-5f12-683b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="82c9-1bce-00b4-c235" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="a836-0fa0-5f12-683b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="130"/>
@@ -1377,13 +1377,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Señor del Caos en karkadrak" hidden="false" id="a1f2-1808-4a74-c167" type="selectionEntry" targetId="7a78-c427-452-436b">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="f8a9-24c0-58a8-976c" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="d701-6136-81e2-2c26" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b1ba-822f-44c5-9fe8" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="44ae-5855-c48c-2bc5" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="f8a9-24c0-58a8-976c" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="d701-6136-81e2-2c26" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="b1ba-822f-44c5-9fe8" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="44ae-5855-c48c-2bc5" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="0fae-1cb4-335a-5a2d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="6b21-630d-8abe-2e02" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="7f35-6970-f8a5-4d66" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="6b21-630d-8abe-2e02" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="7f35-6970-f8a5-4d66" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="190"/>
@@ -1440,13 +1440,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Señor del Caos en karkadrak (Azote de Aqshy)" hidden="false" id="225b-e7e3-9d96-633b" type="selectionEntry" targetId="e7e6-cc10-91b1-f68e">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="11a8-d723-7b63-b3b9" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="2dce-9b67-9984-7857" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3197-5fff-e5f8-d579" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="f560-439d-c1a6-c521" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="11a8-d723-7b63-b3b9" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="2dce-9b67-9984-7857" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="3197-5fff-e5f8-d579" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="f560-439d-c1a6-c521" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="bad6-95fb-51b4-5d7f" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="2c3e-4bd7-65c4-5580" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="f994-dee9-fbd8-2c1c" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="2c3e-4bd7-65c4-5580" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="f994-dee9-fbd8-2c1c" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="230"/>
@@ -1503,13 +1503,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Señor del Caos en mantícora" hidden="false" id="d6e2-94fc-fd66-6886" type="selectionEntry" targetId="88e5-f93a-7d25-83ab">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="fe60-5678-858d-ce35" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="8fc3-6b8-87db-7b95" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7d62-7935-92f0-386e" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="57bb-7a2f-74a5-b4e8" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="fe60-5678-858d-ce35" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="8fc3-6b8-87db-7b95" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="7d62-7935-92f0-386e" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="57bb-7a2f-74a5-b4e8" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="8a6f-fb3c-54d1-f4ad" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="6fbb-8037-b9ba-3d75" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="c3b6-b163-3ed1-1cb1" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="6fbb-8037-b9ba-3d75" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="c3b6-b163-3ed1-1cb1" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="260"/>
@@ -1551,13 +1551,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Señor hechicero del Caos" hidden="false" id="4ed5-6657-f305-1435" type="selectionEntry" targetId="eb21-eb7e-ebce-aafe">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="eb99-5033-c5b-410e" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="cb14-283c-8c5a-b0fb" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="583e-5840-fe5a-6966" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="89d2-47eb-0e17-0961" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="eb99-5033-c5b-410e" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="cb14-283c-8c5a-b0fb" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="583e-5840-fe5a-6966" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="89d2-47eb-0e17-0961" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="1b55-da52-6ccc-29d1" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="d3cb-8814-bf6a-6144" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="810c-d29e-b4bc-2a75" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="d3cb-8814-bf6a-6144" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="810c-d29e-b4bc-2a75" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120"/>
@@ -1600,13 +1600,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Señor hechicero del Caos en mantícora" hidden="false" id="94a1-ff6e-2657-55cd" type="selectionEntry" targetId="38cd-f1b0-8c08-b511">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="fd07-6408-1f3d-6117" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="3c3e-a2d1-8bc5-93ed" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="e5f1-3b59-933f-79cc" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="1ff8-9e95-993d-a044" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="fd07-6408-1f3d-6117" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="3c3e-a2d1-8bc5-93ed" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="e5f1-3b59-933f-79cc" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="1ff8-9e95-993d-a044" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="4223-5a66-3bd9-7329" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="291b-7eb2-514a-19b8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="ef18-a0cf-c6aa-75c1" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="291b-7eb2-514a-19b8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="ef18-a0cf-c6aa-75c1" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="280"/>
@@ -1649,13 +1649,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Altar de guerra del Caos" hidden="false" id="6d91-4f08-7e90-3b50" type="selectionEntry" targetId="ec2a-ca82-de63-2262">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="ae9-f7c8-bf5-1768" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="7a8c-38b9-255b-a46" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="6aa8-2b0d-3291-826f" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="3708-4b58-ce8f-f6be" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="ae9-f7c8-bf5-1768" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="7a8c-38b9-255b-a46" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="6aa8-2b0d-3291-826f" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="3708-4b58-ce8f-f6be" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="d956-3841-9255-1c85" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="08aa-4f12-33db-2e32" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="d2e0-6b45-e4cd-084d" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="08aa-4f12-33db-2e32" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="d2e0-6b45-e4cd-084d" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="250"/>
@@ -1697,13 +1697,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Príncipe demonio" hidden="false" id="c2e6-d2ef-87aa-2d55" type="selectionEntry" targetId="22ef-99c8-eb17-973f">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="6503-9c5e-faf5-cd7e" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="9d6a-5cec-20a7-ff59" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="0b0c-be5e-6900-e70d" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="27d8-5c34-89e9-554d" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="6503-9c5e-faf5-cd7e" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="9d6a-5cec-20a7-ff59" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="0b0c-be5e-6900-e70d" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="27d8-5c34-89e9-554d" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="1211-2227-6a8e-7b6c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="efa4-5d4a-fb65-5361" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="96d4-c659-e074-1f7d" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="efa4-5d4a-fb65-5361" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="96d4-c659-e074-1f7d" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="230"/>
@@ -1745,13 +1745,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Caudillo del Juramento Oscuro" hidden="false" id="e98f-6113-2c22-6a5e" type="selectionEntry" targetId="b09c-3f57-8c75-aa38">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="f650-26b7-5b65-1f12" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="21-b737-311c-ce0e" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="8cae-5b4a-c8e5-56cc" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="80a5-2e51-528f-3843" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="f650-26b7-5b65-1f12" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="21-b737-311c-ce0e" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="8cae-5b4a-c8e5-56cc" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="80a5-2e51-528f-3843" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="ade0-9487-e8df-eb77" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="8353-d537-97fa-b6a9" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="b55c-4e14-f389-dfb5" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="8353-d537-97fa-b6a9" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="b55c-4e14-f389-dfb5" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80"/>
@@ -1808,13 +1808,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Caudillo del Juramento Oscuro en corcel de guerra" hidden="false" id="dc0-f4bd-c462-b452" type="selectionEntry" targetId="6bde-370e-478d-cf24">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="f976-2f15-1f29-e508" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="745d-6afd-c81-604b" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c5ff-e7d4-0a2e-5514" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="d8f1-896e-ef4b-2b01" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="f976-2f15-1f29-e508" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="745d-6afd-c81-604b" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="c5ff-e7d4-0a2e-5514" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="d8f1-896e-ef4b-2b01" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="c1fd-8ea6-701f-37c7" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="8ae7-9e73-77ef-7989" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="8be9-a5ba-c426-ad28" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="8ae7-9e73-77ef-7989" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="8be9-a5ba-c426-ad28" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90"/>
@@ -1872,13 +1872,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Reina de guerra del Juramento Oscuro" hidden="false" id="fe32-8e6c-ec1-a3a3" type="selectionEntry" targetId="7f9-8a5a-4a59-769b">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="219a-51b1-da11-14fe" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="12ea-21d5-16aa-68" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1762-408a-4461-9782" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="9722-d319-5585-3370" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="219a-51b1-da11-14fe" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="12ea-21d5-16aa-68" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="1762-408a-4461-9782" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="9722-d319-5585-3370" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="6152-91c6-a5b7-4598" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="b682-1bc5-0d68-7ca5" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="17da-228b-c311-01dd" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="b682-1bc5-0d68-7ca5" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="17da-228b-c311-01dd" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80"/>
@@ -1924,7 +1924,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="160"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a186-4ed0-bd28-1e86" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="a186-4ed0-bd28-1e86" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -1964,13 +1964,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Héroe exaltado del Caos" hidden="false" id="2332-5544-532f-b77b" type="selectionEntry" targetId="ce02-e726-b9c0-28f8">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="c001-3b7d-158f-8d3" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="9ba9-142a-55f2-e661" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="5296-e658-a89b-a7ab" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="b5e2-a55b-d757-101d" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="c001-3b7d-158f-8d3" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="9ba9-142a-55f2-e661" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="5296-e658-a89b-a7ab" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="b5e2-a55b-d757-101d" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="dbe9-a5a4-1282-cf20" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="749f-bdcf-614e-8842" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="41c8-aff2-6199-6969" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="749f-bdcf-614e-8842" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="41c8-aff2-6199-6969" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="90"/>
@@ -2027,13 +2027,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Invocador demacrado" hidden="false" id="e664-cf6d-9d6a-74df" type="selectionEntry" targetId="6d8c-8fd5-7276-ea">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="7b0b-efc5-6854-f374" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="256d-8767-3a49-b17d" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="9a25-b381-6501-b0c5" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="7a19-d52b-25ea-076a" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="7b0b-efc5-6854-f374" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="256d-8767-3a49-b17d" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="9a25-b381-6501-b0c5" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="7a19-d52b-25ea-076a" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="05a7-0816-a05b-79df" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="d142-c30c-fb24-1e0a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="9c8c-9006-2aa8-4de5" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="d142-c30c-fb24-1e0a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="9c8c-9006-2aa8-4de5" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="160"/>
@@ -2074,13 +2074,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Invocador demacrado en disco de Tzeentch" hidden="false" id="29a2-9f72-5dc2-cd4" type="selectionEntry" targetId="de-30dc-2385-d1d1">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="6177-d58e-851d-669" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="b164-d617-ba46-c5f1" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="6fe7-f33a-3660-2553" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="a79e-c035-f581-12f3" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="6177-d58e-851d-669" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="b164-d617-ba46-c5f1" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="6fe7-f33a-3660-2553" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="a79e-c035-f581-12f3" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="d24f-9b5b-5281-bde5" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="2a6d-e170-3e93-87de" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="a806-134d-8ee6-330c" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="2a6d-e170-3e93-87de" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="a806-134d-8ee6-330c" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="190"/>
@@ -2124,7 +2124,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="180"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="08ed-488b-6b94-1071" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="08ed-488b-6b94-1071" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -2178,13 +2178,13 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Mirmidón ogroide" hidden="false" id="2ea9-d799-4ed9-7920" type="selectionEntry" targetId="2955-114b-f931-cafa">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="f877-f07-b53d-1f38" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="df7c-55da-5732-35f1" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="9c7c-f747-d08d-dcb4" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="fc4a-78b7-92ab-1acc" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="f877-f07-b53d-1f38" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="df7c-55da-5732-35f1" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="9c7c-f747-d08d-dcb4" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="fc4a-78b7-92ab-1acc" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="fc55-a0aa-fe0d-13c2" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="7ffe-14b0-56ee-e4c5" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="9138-27b3-e282-3fd0" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="7ffe-14b0-56ee-e4c5" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="9138-27b3-e282-3fd0" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120"/>
@@ -2274,7 +2274,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="f9c8-8995-33c2-379a" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="f9c8-8995-33c2-379a" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Carro del Caos" hidden="false" id="4be1-3639-ae8e-48dc" type="selectionEntry" targetId="e161-b68c-7d8c-9513">
@@ -2299,18 +2299,18 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="90"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="6075-64e0-ff18-7743" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="f77a-6257-d4fb-9d4f" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="0871-fbfd-741b-0c3b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="6075-64e0-ff18-7743" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="f77a-6257-d4fb-9d4f" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="0871-fbfd-741b-0c3b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Elegidos del Caos" hidden="false" id="6ed1-cf02-cd29-1db5" type="selectionEntry" targetId="3aa3-1abd-dbb-4a18">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="6111-421e-9c1-2a48" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="6111-421e-9c1-2a48" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Estandartes hechizados" hidden="false" id="d607-5262-1fc6-8448" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7ef2-0f6b-2cee-2b40" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="b42e-fe13-d26d-2b52" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="51df-08d5-53cb-71fa" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="7ef2-0f6b-2cee-2b40" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="b42e-fe13-d26d-2b52" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="51df-08d5-53cb-71fa" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="482c-c378-521a-4f24" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
@@ -2336,10 +2336,10 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Furias del Caos" hidden="false" id="8056-31ae-f57d-1b5c" type="selectionEntry" targetId="cdb1-4aba-7c64-aa4d">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="f9b1-e980-53d3-1483" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="9e46-6b0b-7c4b-8559" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="adc1-5332-6095-afcb" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="809d-3c10-8b1a-2e0f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="f9b1-e980-53d3-1483" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="9e46-6b0b-7c4b-8559" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="adc1-5332-6095-afcb" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="809d-3c10-8b1a-2e0f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="0393-9812-5fce-cb0b" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
@@ -2365,11 +2365,11 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Caballeros del Caos" hidden="false" id="6272-7e37-5f4c-904b" type="selectionEntry" targetId="27c4-2bbe-3811-30fc">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="c092-bc30-c76f-290b" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="c092-bc30-c76f-290b" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Estandartes hechizados" hidden="false" id="1151-8e34-2aad-a7c7" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7026-d8d9-cad2-050c" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="f6e6-794e-beca-0afb" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="d20c-5bf1-1679-2d76" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="7026-d8d9-cad2-050c" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="f6e6-794e-beca-0afb" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="d20c-5bf1-1679-2d76" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -2414,17 +2414,17 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="80"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="6444-a3f4-7fe4-2be8" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="19ba-af7b-568c-d98a" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="3cc5-8ad3-5343-b9c1" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="6444-a3f4-7fe4-2be8" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="19ba-af7b-568c-d98a" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="3cc5-8ad3-5343-b9c1" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="253e-c56e-74ea-a14f" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Engendro del Caos" hidden="false" id="5445-5020-de97-208b" type="selectionEntry" targetId="ead3-8dd9-3ace-8198">
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="42cc-5a73-d02b-eb44" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="dc30-62c3-fd87-5212" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="e62c-a491-18cc-0e81" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="42cc-5a73-d02b-eb44" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="dc30-62c3-fd87-5212" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="e62c-a491-18cc-0e81" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -2449,11 +2449,11 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Guerreros del Caos" hidden="false" id="a4d-69f-3560-269f" type="selectionEntry" targetId="d19d-83a0-f443-4e83">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="5917-1edc-aa46-e8b1" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="5917-1edc-aa46-e8b1" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Estandartes hechizados" hidden="false" id="d16b-e008-ce1d-2471" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c6d2-defe-09e2-7510" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="0f47-6518-af52-83f1" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="8453-4b10-584d-63b7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="c6d2-defe-09e2-7510" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="0f47-6518-af52-83f1" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="8453-4b10-584d-63b7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="1ef0-c3d1-f6da-a11a" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
@@ -2479,11 +2479,11 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Guerreros del Caos (Azote de Aqshy)" hidden="false" id="6865-b967-c844-62fe" type="selectionEntry" targetId="7f31-5d2b-4916-28fc">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="d365-657c-776a-f859" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="d365-657c-776a-f859" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Estandartes hechizados" hidden="false" id="900a-ffec-595d-2c96" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="022a-5f1d-f3ea-56d4" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="2a0b-4415-e2af-c8a0" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="91a7-d9ab-e775-621b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="022a-5f1d-f3ea-56d4" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="2a0b-4415-e2af-c8a0" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="91a7-d9ab-e775-621b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="e179-09b6-2145-eea6" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
@@ -2509,11 +2509,11 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Jinetes siniestros del Juramento Oscuro" hidden="false" id="3a4-6557-ea1d-e314" type="selectionEntry" targetId="30f5-9b05-d94a-fdfb">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="c4a7-a41c-453b-1ca4" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="c4a7-a41c-453b-1ca4" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Estandartes hechizados" hidden="false" id="ffd4-e37d-578d-5b40" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="43c4-5c26-4985-6645" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="0025-1315-3dc1-951a" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="c533-86a1-8a38-93db" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="43c4-5c26-4985-6645" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="0025-1315-3dc1-951a" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="c533-86a1-8a38-93db" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -2538,11 +2538,11 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Bárbaros del Juramento Oscuro" hidden="false" id="c038-eb60-9450-b164" type="selectionEntry" targetId="32a0-6285-a243-3a38">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="2101-59ce-3536-34e2" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="2101-59ce-3536-34e2" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Estandartes hechizados" hidden="false" id="6325-e4a5-21fb-8948" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="133e-9b54-2c68-3bc3" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="db36-a7ed-ea48-70a8" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="a0f5-dad2-adb2-abf2" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="133e-9b54-2c68-3bc3" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="db36-a7ed-ea48-70a8" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="a0f5-dad2-adb2-abf2" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="342d-0615-c833-febc" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
@@ -2568,9 +2568,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Salvajes del Juramento Oscuro" hidden="false" id="f88a-78f6-fd1f-a261" type="selectionEntry" targetId="df89-794a-4994-8293">
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1075-f6da-91f3-3e7b" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="04aa-c9a3-e766-6b72" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="79eb-e3d9-da91-e3cc" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="1075-f6da-91f3-3e7b" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="04aa-c9a3-e766-6b72" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="79eb-e3d9-da91-e3cc" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="0410-67c8-daf7-5096" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
@@ -2689,9 +2689,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="160"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="abb9-3057-0b4c-247d" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="6516-e036-f282-a868" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="8acf-f6a8-55a4-1776" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="abb9-3057-0b4c-247d" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="6516-e036-f282-a868" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="8acf-f6a8-55a4-1776" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Sphiranx robamentes" hidden="false" id="1bd9-b817-55e9-d3af" type="selectionEntry" targetId="a574-8be3-d5ce-d1bc">
@@ -2789,18 +2789,18 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="140"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="839d-b30f-13d8-d15b" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="8960-e2f4-ac58-050a" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="4bc6-b335-fddb-7703" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="839d-b30f-13d8-d15b" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="8960-e2f4-ac58-050a" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="4bc6-b335-fddb-7703" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Theridones ogroides" hidden="false" id="556b-dc1f-bd6-4fba" type="selectionEntry" targetId="dc36-25e9-9522-971e">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="d945-5c6-1ac9-e561" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="d945-5c6-1ac9-e561" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
         <entryLink import="true" name="Estandartes hechizados" hidden="false" id="11ff-34bd-934b-b39f" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b0bf-fb94-c161-4afd" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="f05c-8e5d-cdf1-22e4" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="ab44-ef5d-1500-7569" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="b0bf-fb94-c161-4afd" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="f05c-8e5d-cdf1-22e4" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="ab44-ef5d-1500-7569" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="580f-0c64-b22b-4f62" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
@@ -2846,9 +2846,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="62ca-f580-1a7a-f258" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="1257-3596-9e3a-6d55" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="caa2-fa60-fcd2-2ed3" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="62ca-f580-1a7a-f258" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="1257-3596-9e3a-6d55" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="caa2-fa60-fcd2-2ed3" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Aplastador fomoroide" hidden="false" id="99b6-b112-433f-7a5c" type="selectionEntry" targetId="42-fa77-4a18-a2e3">
@@ -2946,9 +2946,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3348-51d7-d84c-ac60" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="deae-0910-14ec-ba0a" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="ad2e-6aa5-b485-87ff" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="3348-51d7-d84c-ac60" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="deae-0910-14ec-ba0a" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="ad2e-6aa5-b485-87ff" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Carro de bestia sangrienta" hidden="false" id="6f65-8680-3086-680c" type="selectionEntry" targetId="9392-e6fd-9139-464c">
@@ -2973,17 +2973,17 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="100"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="50c6-13b6-6de3-13a6" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="336e-e222-f050-710e" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="f216-fea2-4fbf-6206" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="50c6-13b6-6de3-13a6" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="336e-e222-f050-710e" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="f216-fea2-4fbf-6206" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Raptoryx" hidden="false" id="abf6-499e-5541-1e61" type="selectionEntry" targetId="7995-d071-b30e-8eb8">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="f20b-47f7-98f2-f211" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="38f8-80a9-8c85-0baf" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="5be3-be25-40ad-a727" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="0b39-fdfe-0710-e954" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="f20b-47f7-98f2-f211" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="38f8-80a9-8c85-0baf" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="5be3-be25-40ad-a727" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="0b39-fdfe-0710-e954" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -3101,9 +3101,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="200"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c4f9-1493-c738-ea87" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="4306-8918-c33c-36de" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="2ca4-3542-6c79-47ae" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="c4f9-1493-c738-ea87" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="4306-8918-c33c-36de" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="2ca4-3542-6c79-47ae" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Triturador de almas" hidden="false" id="7120-72bf-118b-879d" type="selectionEntry" targetId="8171-deda-b88f-b561">
@@ -3201,9 +3201,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="330"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="afb5-74b1-061d-1283" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="2310-2c54-3171-ca9f" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="5001-40d0-fafb-4f3f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="afb5-74b1-061d-1283" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="2310-2c54-3171-ca9f" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="5001-40d0-fafb-4f3f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Los Parientes Juramentados" hidden="false" id="a7e4-736d-e448-95dd" type="selectionEntry" targetId="c8b1-7d96-6db6-2293">
@@ -3245,16 +3245,16 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <constraint type="min" value="-1" field="selections" scope="force" shared="true" id="d126-b788-30fb-5301" includeChildSelections="true"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7ac9-e087-4e4c-6e05" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="7ac9-e087-4e4c-6e05" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="ce9c-6a97-e170-ce68" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Guardia Varán" hidden="false" id="80ba-f8dc-ff8d-3b4" type="selectionEntry" targetId="3f86-7961-558c-50aa">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="994-4487-8239-34ec" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="9712-0c5b-f736-8eea" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="2bed-fe2b-2da9-bf29" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="6e82-9695-ae15-76fb" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="994-4487-8239-34ec" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="9712-0c5b-f736-8eea" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="2bed-fe2b-2da9-bf29" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="6e82-9695-ae15-76fb" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -3300,9 +3300,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="100"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ae74-7238-cbe9-13b0" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="4e3a-310d-0546-96ba" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="ac2c-d661-640e-49fd" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="ae74-7238-cbe9-13b0" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="4e3a-310d-0546-96ba" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="ac2c-d661-640e-49fd" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="c86a-f0d0-d77c-65c7" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
@@ -3328,9 +3328,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="100"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a07f-aa56-acca-6a7f" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="30d7-890a-f15a-209c" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="b36f-03b7-1107-dbb8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="a07f-aa56-acca-6a7f" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="30d7-890a-f15a-209c" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="b36f-03b7-1107-dbb8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="40fb-3f46-898d-37e6" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
@@ -3356,9 +3356,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="0d2b-65d8-817e-5dde" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="effb-61d7-5379-56a8" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="c0fa-5596-7425-c063" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="0d2b-65d8-817e-5dde" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="effb-61d7-5379-56a8" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="c0fa-5596-7425-c063" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="4e55-bdbc-777c-e096" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
@@ -3385,9 +3385,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
       </costs>
       <entryLinks>
         <entryLink import="true" name="Estandartes hechizados" hidden="false" id="f1a5-85e3-2301-05ca" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7948-8dfa-3598-6846" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="d78e-d080-9d40-8ef0" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="77b2-00c9-6f22-f4c4" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="7948-8dfa-3598-6846" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="d78e-d080-9d40-8ef0" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="77b2-00c9-6f22-f4c4" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="5a71-ac20-8e9e-3f3e" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
@@ -3413,9 +3413,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d9aa-054f-2426-075c" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="1ea1-c4c8-cad3-80e4" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="93ae-5172-96c9-bf4c" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="d9aa-054f-2426-075c" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="1ea1-c4c8-cad3-80e4" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="93ae-5172-96c9-bf4c" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="c396-a8a8-d4ed-6143" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
@@ -3441,9 +3441,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="91d0-f9c2-dd17-e8e0" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="7ea8-de1f-5a0a-23b3" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="d0cb-5abd-f80a-3c8b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="91d0-f9c2-dd17-e8e0" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="7ea8-de1f-5a0a-23b3" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="d0cb-5abd-f80a-3c8b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="e81b-7978-b2b7-3032" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
@@ -3469,9 +3469,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="93e6-2560-ffad-ed00" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="4eb7-517c-b7d1-7de1" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="f12e-e705-cc55-1512" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="93e6-2560-ffad-ed00" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="4eb7-517c-b7d1-7de1" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="f12e-e705-cc55-1512" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="e34e-cc29-e9da-a751" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
@@ -3497,9 +3497,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="150"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="67ef-1adf-0996-adff" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="d15a-3a73-e950-7a9b" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="8544-5ecb-a1b4-f81e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="67ef-1adf-0996-adff" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="d15a-3a73-e950-7a9b" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="8544-5ecb-a1b4-f81e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="3ea6-3fea-ade6-e2b9" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
@@ -3525,9 +3525,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="abad-0cff-8498-8895" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="6f85-977e-3787-7d55" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="9dcb-5af9-2598-80ae" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="abad-0cff-8498-8895" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="6f85-977e-3787-7d55" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="9dcb-5af9-2598-80ae" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="e438-576a-06cb-8137" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
@@ -3553,9 +3553,9 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="15b4-f017-e536-a496" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Paths" hidden="false" id="540b-2594-5e19-471d" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
-        <entryLink import="true" name="Renown" hidden="false" id="ea66-8138-6242-9d0d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="15b4-f017-e536-a496" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="540b-2594-5e19-471d" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="ea66-8138-6242-9d0d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="c2d2-c372-e83c-4d9a" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
@@ -3581,7 +3581,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ab46-9474-24ea-c7a3" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="ab46-9474-24ea-c7a3" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="4a80-4605-0eab-efad" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
@@ -3607,7 +3607,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ff96-80af-977c-4e1b" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="ff96-80af-977c-4e1b" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="3de5-29a7-7ab4-dfd3" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
@@ -3633,19 +3633,19 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="170"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="2de6-a98f-1707-09bf" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="2de6-a98f-1707-09bf" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="4629-4759-1859-87fc" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Yunque de la apoteosis: héroe de los Esclavos de la Oscuridad" hidden="true" id="20ca-03db-916c-19e6" type="selectionEntry" targetId="0ed5-d41f-e776-045e">
       <entryLinks>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="10d5-b11c-72cb-80e8" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1d81-c5fa-5b8b-0862" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="b83e-46bc-b0a7-92fe" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
-        <entryLink import="true" name="Paths" hidden="false" id="b64a-3b79-d99e-a3d8" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="10d5-b11c-72cb-80e8" type="selectionEntryGroup" targetId="a81-fa40-378b-46e8"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="1d81-c5fa-5b8b-0862" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="b83e-46bc-b0a7-92fe" type="selectionEntryGroup" targetId="a1ac-1337-7d66-251b"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="b64a-3b79-d99e-a3d8" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="619c-2d68-cdc4-9e9e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="0dc1-6b05-bf05-ebb6" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="c6cc-4086-c5a4-492d" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="0dc1-6b05-bf05-ebb6" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="c6cc-4086-c5a4-492d" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -3676,7 +3676,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="300"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="9c0c-68f7-580d-78f7" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="9c0c-68f7-580d-78f7" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -3715,7 +3715,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </entryLink>
     <entryLink import="true" name="Athol Khul" hidden="false" id="98cb-7901-9fbc-b4a1" type="selectionEntry" targetId="5dd5-aaa6-87d7-df8b">
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="f208-3f43-3655-2218" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="f208-3f43-3655-2218" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">

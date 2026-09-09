@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="3dfe-6e73-b65e-50fd" name="Ciudades de Sigmar - Fortaleza de Aguas Grises [Leyendas]" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="95" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Battle Wounds + Scars" id="9d13-0780-25c0-ee1c" hidden="true" collapsible="true">
+    <selectionEntryGroup name="Heridas de batalla + cicatrices" id="9d13-0780-25c0-ee1c" hidden="true" collapsible="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -15,12 +15,12 @@
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Battle Scars" hidden="false" id="a06c-bb51-0d60-c413" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Battle Scars" hidden="false" id="76c5-a0dd-a4c4-cb54" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
+        <entryLink import="true" name="Cicatrices de batalla de la Costa Devastada" hidden="false" id="a06c-bb51-0d60-c413" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
+        <entryLink import="true" name="Cicatrices de batalla de las Tierras Salvajes Corruptas" hidden="false" id="76c5-a0dd-a4c4-cb54" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Battle Wounds" hidden="false" id="1dd0-3b9b-a74b-4b07"/>
-        <selectionEntry type="upgrade" import="true" name="Drained" hidden="true" id="0605-a7c0-d138-6dce">
+        <selectionEntry type="upgrade" import="true" name="Heridas de batalla" hidden="false" id="1dd0-3b9b-a74b-4b07"/>
+        <selectionEntry type="upgrade" import="true" name="Agotado" hidden="true" id="0605-a7c0-d138-6dce">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68a6-6f99-4a50-b3e6"/>
           </constraints>
@@ -34,12 +34,12 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Paths" id="bb73-0995-40ca-2ede" hidden="true">
+    <selectionEntryGroup name="Sendas" id="bb73-0995-40ca-2ede" hidden="true">
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Paths" hidden="false" id="e55f-c1bf-f7cc-3794" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
-        <entryLink import="true" name="Ascension Paths" hidden="false" id="a2e8-330a-f4e7-e012" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Paths" hidden="false" id="4395-988b-b514-60ca" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
-        <entryLink import="true" name="Paths" hidden="false" id="73eb-c91c-0f02-2cf9" type="selectionEntryGroup" targetId="b166-b2a1-ca65-2465"/>
+        <entryLink import="true" name="Sendas de la Costa Devastada" hidden="false" id="e55f-c1bf-f7cc-3794" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
+        <entryLink import="true" name="Sendas de ascensión" hidden="false" id="a2e8-330a-f4e7-e012" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
+        <entryLink import="true" name="Sendas de las Tierras Salvajes Corruptas" hidden="false" id="4395-988b-b514-60ca" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="73eb-c91c-0f02-2cf9" type="selectionEntryGroup" targetId="b166-b2a1-ca65-2465"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -52,7 +52,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6857-1fa5-b6dd-f062"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Artefacts of Power" id="e4ae-5c4d-ef40-c434" hidden="false">
+    <selectionEntryGroup name="Artefactos de poder" id="e4ae-5c4d-ef40-c434" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Artefactos de poder: Fortaleza de Aguas Grises" id="b2d6-f741-b65e-335f" hidden="false" publicationId="dadd-06f0-3f38-c6f3">
           <selectionEntries>
@@ -95,8 +95,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="6f78-eeb9-a395-5152" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="6552-6019-9bf1-a788" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="6f78-eeb9-a395-5152" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="6552-6019-9bf1-a788" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="-1" field="7ab7-846e-d6be-22e7">
@@ -110,7 +110,7 @@
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="c677-4586-67f2-d3b1"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Heroic Traits" id="512e-2e1a-e9e2-a11c" hidden="false">
+    <selectionEntryGroup name="Rasgos heroicos" id="512e-2e1a-e9e2-a11c" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Rasgos heroicos: Fortaleza de Aguas Grises" id="b134-35d5-1063-f7a7" hidden="false" publicationId="dadd-06f0-3f38-c6f3">
           <selectionEntries>
@@ -156,8 +156,8 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="0029-150f-6954-7494" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="49b3-37e5-5e8b-15b8" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="0029-150f-6954-7494" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="49b3-37e5-5e8b-15b8" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="-1" field="4c85-2bb0-7a61-d54f">
@@ -330,11 +330,11 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="❖ Lores" id="5b61-0f93-ccd8-b246" targetId="0a11-cd61-2a4e-8e04" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ascension" id="e062-c9bb-0c38-b5d2" importRootEntries="true" targetId="3a8b-7496-526f-feab"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ravaged Coast" id="4c90-fa6a-448b-26c0" importRootEntries="true" targetId="a434-b1ba-922b-7624"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Blighted Wilds" id="2cdf-33d2-298a-d953" importRootEntries="true" targetId="e0ff-dc7c-8795-bfb9"/>
-    <catalogueLink type="catalogue" name="Cities of Sigmar - Library" id="e409-5a07-8cca-1e85" importRootEntries="true" targetId="c83a-4a23-6dc5-fb68"/>
+    <catalogueLink type="catalogue" name="❖ Saberes" id="5b61-0f93-ccd8-b246" targetId="0a11-cd61-2a4e-8e04" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Ascensión" id="e062-c9bb-0c38-b5d2" importRootEntries="true" targetId="3a8b-7496-526f-feab"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Costa Devastada" id="4c90-fa6a-448b-26c0" importRootEntries="true" targetId="a434-b1ba-922b-7624"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Tierras Salvajes Corruptas" id="2cdf-33d2-298a-d953" importRootEntries="true" targetId="e0ff-dc7c-8795-bfb9"/>
+    <catalogueLink type="catalogue" name="Ciudades de Sigmar - Biblioteca" id="e409-5a07-8cca-1e85" importRootEntries="true" targetId="c83a-4a23-6dc5-fb68"/>
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Espíritu de las Manos" hidden="false" id="9b52-b281-137c-0c95" publicationId="dadd-06f0-3f38-c6f3">
@@ -553,7 +553,7 @@
             </modifier>
           </modifiers>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Command Models" id="e2d6-3776-1fd3-0954" hidden="false">
+            <selectionEntryGroup name="Miniaturas de mando" id="e2d6-3776-1fd3-0954" hidden="false">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e09-8944-fb34-c6e8" includeChildSelections="false"/>
               </constraints>
@@ -639,13 +639,13 @@
         <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="67d3-37c6-3ce6-d4df" type="selectionEntryGroup" targetId="e4ae-5c4d-ef40-c434"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="e3e4-d02a-b1c3-be74" type="selectionEntryGroup" targetId="512e-2e1a-e9e2-a11c"/>
-        <entryLink import="true" name="Paths" hidden="false" id="a7c9-79ba-fc64-8e3e" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3efd-85ec-8ce7-e261" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="67d3-37c6-3ce6-d4df" type="selectionEntryGroup" targetId="e4ae-5c4d-ef40-c434"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="e3e4-d02a-b1c3-be74" type="selectionEntryGroup" targetId="512e-2e1a-e9e2-a11c"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="a7c9-79ba-fc64-8e3e" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="3efd-85ec-8ce7-e261" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="6484-8dfc-9013-e473" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="201e-ff56-fc08-abab" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="273b-912a-4bdb-3793" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="201e-ff56-fc08-abab" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="273b-912a-4bdb-3793" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -706,12 +706,12 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="012d-e0b3-9f30-3746" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="0274-b38b-96cd-e627" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="bc80-2bce-f5b3-4637" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="949a-d530-38c3-1912" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="5270-3721-8512-00f1" type="selectionEntryGroup" targetId="e4ae-5c4d-ef40-c434"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="2398-6732-d874-3003" type="selectionEntryGroup" targetId="512e-2e1a-e9e2-a11c"/>
-        <entryLink import="true" name="Paths" hidden="false" id="1a71-d85d-b7e7-051c" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="0274-b38b-96cd-e627" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="bc80-2bce-f5b3-4637" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="949a-d530-38c3-1912" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="5270-3721-8512-00f1" type="selectionEntryGroup" targetId="e4ae-5c4d-ef40-c434"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="2398-6732-d874-3003" type="selectionEntryGroup" targetId="512e-2e1a-e9e2-a11c"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="1a71-d85d-b7e7-051c" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -788,11 +788,11 @@
         <cost name="pts" typeId="points" value="130"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="0c97-bf5b-84a1-bcdb" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="e2a7-3502-e297-71b5" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="51f3-2be4-06bb-b156" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="0c97-bf5b-84a1-bcdb" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="e2a7-3502-e297-71b5" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="51f3-2be4-06bb-b156" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
         <entryLink import="true" name="Ejercicios de tiro" hidden="false" id="cf89-fbd0-f871-bc70" type="selectionEntryGroup" targetId="3ab0-b0f6-a64d-6d1e"/>
-        <entryLink import="true" name="Paths" hidden="false" id="7bfe-52e0-115b-c0fe" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="7bfe-52e0-115b-c0fe" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink name="GREYWATER FASTNESS" hidden="false" id="0b9d-715c-dbcd-1994" targetId="bf4e-94c1-cf2f-49dc" primary="false"/>
@@ -820,11 +820,11 @@
         <cost name="pts" typeId="points" value="90"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="a189-2922-bbd2-f75f" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="c65a-02b7-bd2e-31d1" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="fcd9-9478-184a-c45f" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="a189-2922-bbd2-f75f" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="c65a-02b7-bd2e-31d1" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="fcd9-9478-184a-c45f" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
         <entryLink import="true" name="Ejercicios de tiro" hidden="false" id="879a-e29c-c28c-dda8" type="selectionEntryGroup" targetId="3ab0-b0f6-a64d-6d1e"/>
-        <entryLink import="true" name="Paths" hidden="false" id="15ea-9348-9a0c-a45b" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="15ea-9348-9a0c-a45b" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink name="GREYWATER FASTNESS" hidden="false" id="3a64-025e-0bb0-0a3b" targetId="bf4e-94c1-cf2f-49dc" primary="false"/>
@@ -836,12 +836,12 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="6c65-6fda-16f5-ac21" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="45b4-d8b4-20b7-02b8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="ec0c-9f52-5592-9660" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d4bc-4224-ca63-a851" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="ec48-4972-8c81-a08c" type="selectionEntryGroup" targetId="e4ae-5c4d-ef40-c434"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="78e8-cf09-2333-453b" type="selectionEntryGroup" targetId="512e-2e1a-e9e2-a11c"/>
-        <entryLink import="true" name="Paths" hidden="false" id="c17c-3750-4521-4a28" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="45b4-d8b4-20b7-02b8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="ec0c-9f52-5592-9660" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="d4bc-4224-ca63-a851" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="ec48-4972-8c81-a08c" type="selectionEntryGroup" targetId="e4ae-5c4d-ef40-c434"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="78e8-cf09-2333-453b" type="selectionEntryGroup" targetId="512e-2e1a-e9e2-a11c"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="c17c-3750-4521-4a28" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -887,12 +887,12 @@
       </costs>
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="9d7c-eec0-63e5-48c8" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="dd79-877a-b771-7798" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="6d0f-209c-31f5-3b9b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ce45-2238-33bc-54c2" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="d3b2-ff6d-0fdb-0c23" type="selectionEntryGroup" targetId="e4ae-5c4d-ef40-c434"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="9a5b-130b-9dcc-ca7f" type="selectionEntryGroup" targetId="512e-2e1a-e9e2-a11c"/>
-        <entryLink import="true" name="Paths" hidden="false" id="833b-7c99-865a-cff6" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="dd79-877a-b771-7798" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="6d0f-209c-31f5-3b9b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="ce45-2238-33bc-54c2" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="d3b2-ff6d-0fdb-0c23" type="selectionEntryGroup" targetId="e4ae-5c4d-ef40-c434"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="9a5b-130b-9dcc-ca7f" type="selectionEntryGroup" targetId="512e-2e1a-e9e2-a11c"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="833b-7c99-865a-cff6" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -954,10 +954,10 @@
         <cost name="pts" typeId="points" value="140"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Renown" hidden="false" id="8f31-5ae1-e88e-dd43" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="818b-adb3-6846-6530" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="8f31-5ae1-e88e-dd43" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="818b-adb3-6846-6530" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
         <entryLink import="true" name="Ejercicios de tiro" hidden="false" id="346a-1289-3ed3-c461" type="selectionEntryGroup" targetId="3ab0-b0f6-a64d-6d1e"/>
-        <entryLink import="true" name="Paths" hidden="false" id="c207-7d5d-b416-4ac4" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="c207-7d5d-b416-4ac4" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink name="GREYWATER FASTNESS" hidden="false" id="aee6-0bbe-48f1-92f4" targetId="bf4e-94c1-cf2f-49dc" primary="false"/>
@@ -985,10 +985,10 @@
         <cost name="pts" typeId="points" value="320"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Renown" hidden="false" id="96e6-ea14-afdc-7a20" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4376-0ba1-f3a5-f62b" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="96e6-ea14-afdc-7a20" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="4376-0ba1-f3a5-f62b" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
         <entryLink import="true" name="Ejercicios de tiro" hidden="false" id="8b83-d153-d834-98f3" type="selectionEntryGroup" targetId="3ab0-b0f6-a64d-6d1e"/>
-        <entryLink import="true" name="Paths" hidden="false" id="5ca6-ac6e-ef41-f309" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="5ca6-ac6e-ef41-f309" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink name="GREYWATER FASTNESS" hidden="false" id="d1af-6aa0-6404-b6a2" targetId="bf4e-94c1-cf2f-49dc" primary="false"/>
@@ -1037,10 +1037,10 @@
         <cost name="pts" typeId="points" value="130"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Renown" hidden="false" id="c280-67e5-94fd-acec" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="72f4-2404-2901-d4d7" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="c280-67e5-94fd-acec" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="72f4-2404-2901-d4d7" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
         <entryLink import="true" name="Ejercicios de tiro" hidden="false" id="106a-6bdd-405f-6224" type="selectionEntryGroup" targetId="3ab0-b0f6-a64d-6d1e"/>
-        <entryLink import="true" name="Paths" hidden="false" id="eabd-7578-29a6-67d6" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="eabd-7578-29a6-67d6" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink name="GREYWATER FASTNESS" hidden="false" id="d23c-ef18-df37-c1fc" targetId="bf4e-94c1-cf2f-49dc" primary="false"/>
@@ -1068,11 +1068,11 @@
         <cost name="pts" typeId="points" value="180"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="a5b5-c3e5-bd56-1489" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="5547-29c3-d39b-5e1e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a3e8-af5c-9387-3a84" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="a5b5-c3e5-bd56-1489" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="5547-29c3-d39b-5e1e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="a3e8-af5c-9387-3a84" type="selectionEntryGroup" targetId="9d13-0780-25c0-ee1c"/>
         <entryLink import="true" name="Ejercicios de tiro" hidden="false" id="c9d4-7ec9-9166-c40b" type="selectionEntryGroup" targetId="3ab0-b0f6-a64d-6d1e"/>
-        <entryLink import="true" name="Paths" hidden="false" id="bbb2-3319-6324-7500" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="bbb2-3319-6324-7500" type="selectionEntryGroup" targetId="bb73-0995-40ca-2ede"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink name="GREYWATER FASTNESS" hidden="false" id="b3f3-c791-3f9c-2a20" targetId="bf4e-94c1-cf2f-49dc" primary="false"/>
@@ -1080,9 +1080,9 @@
     </entryLink>
   </entryLinks>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Manifestation Lore" hidden="true" id="99b0-d8fa-cd40-bf8e" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de manifestaciones" hidden="true" id="99b0-d8fa-cd40-bf8e" defaultAmount="1">
       <entryLinks>
-        <entryLink import="true" name="Manifestation Lores" hidden="false" id="9d40-517a-e100-da0c" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
+        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="9d40-517a-e100-da0c" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4ca3-9daf-3a7a-45a4"/>

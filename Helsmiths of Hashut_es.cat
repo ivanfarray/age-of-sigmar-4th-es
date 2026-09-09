@@ -2,10 +2,10 @@
 <catalogue library="false" id="b7b7-cf58-4189-56ec" name="Herreros Infernales de Hashut" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="55" revision="14" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Herreros Infernales de Hashut - Biblioteca" id="8490-04c0-27e7-8d15" targetId="2c07-f0f9-8601-d082"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ascension" id="2cab-e54e-6f5e-7ada" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ravaged Coast" id="9a23-519d-c896-0ed5" targetId="a434-b1ba-922b-7624" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="❖ Lores" id="7c3d-9fe6-4859-4907" importRootEntries="true" targetId="0a11-cd61-2a4e-8e04"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Blighted Wilds" id="8368-6dde-f8c4-ec6d" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Ascensión" id="2cab-e54e-6f5e-7ada" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Costa Devastada" id="9a23-519d-c896-0ed5" targetId="a434-b1ba-922b-7624" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="❖ Saberes" id="7c3d-9fe6-4859-4907" importRootEntries="true" targetId="0a11-cd61-2a4e-8e04"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Tierras Salvajes Corruptas" id="8368-6dde-f8c4-ec6d" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Herreros Infernales de Hashut" hidden="false" id="0465-7062-c7c1-095d">
@@ -61,7 +61,7 @@ Después, asigna tus **puntos de poder demoníaco** a unidades amigas que no sea
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Spell Lores" id="dfba-b6ac-cf36-ce1d" hidden="false" flatten="true">
+    <selectionEntryGroup name="Saberes de hechizos" id="dfba-b6ac-cf36-ce1d" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Saber del poder infernal" hidden="false" id="7c4a-5404-681e-9703" defaultAmount="1" publicationId="487d-9798-0633-8040">
           <constraints>
@@ -76,7 +76,7 @@ Después, asigna tus **puntos de poder demoníaco** a unidades amigas que no sea
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6f52-d897-d60e-0fc5" includeChildSelections="true"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Artefacts of Power" id="2be5-91e6-810b-282f" hidden="false">
+    <selectionEntryGroup name="Artefactos de poder" id="2be5-91e6-810b-282f" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Dones oscuros de Hashut" id="a117-6d7f-e7f0-cc3a" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
           <selectionEntries>
@@ -244,8 +244,8 @@ Si esta unidad es un **^^Wizard^^**, hasta el inicio de tu siguiente turno:
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="9371-54c0-2aba-70f5" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="86ff-581a-9393-0ca4" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="9371-54c0-2aba-70f5" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="86ff-581a-9393-0ca4" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="-1" field="c203-b142-f17e-cd21">
@@ -399,7 +399,7 @@ Si esta unidad es un **^^Wizard^^**, hasta el inicio de tu siguiente turno:
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d768-02ca-f0cd-fd02" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Battle Wounds + Scars" id="d453-e284-1776-2b08" hidden="true" collapsible="true">
+    <selectionEntryGroup name="Heridas de batalla + cicatrices" id="d453-e284-1776-2b08" hidden="true" collapsible="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -413,12 +413,12 @@ Si esta unidad es un **^^Wizard^^**, hasta el inicio de tu siguiente turno:
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Battle Scars" hidden="false" id="1b0e-7273-54e6-b192" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Battle Scars" hidden="false" id="e9c0-321f-6fd4-b1a2" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
+        <entryLink import="true" name="Cicatrices de batalla de la Costa Devastada" hidden="false" id="1b0e-7273-54e6-b192" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
+        <entryLink import="true" name="Cicatrices de batalla de las Tierras Salvajes Corruptas" hidden="false" id="e9c0-321f-6fd4-b1a2" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Battle Wounds" hidden="false" id="6ae0-43a4-dd09-6f23"/>
-        <selectionEntry type="upgrade" import="true" name="Drained" hidden="true" id="248e-d5db-b468-6935">
+        <selectionEntry type="upgrade" import="true" name="Heridas de batalla" hidden="false" id="6ae0-43a4-dd09-6f23"/>
+        <selectionEntry type="upgrade" import="true" name="Agotado" hidden="true" id="248e-d5db-b468-6935">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ec51-536b-aab2-e913"/>
           </constraints>
@@ -432,7 +432,7 @@ Si esta unidad es un **^^Wizard^^**, hasta el inicio de tu siguiente turno:
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Heroic Traits" id="e1aa-ddf7-7018-c6c2" hidden="false">
+    <selectionEntryGroup name="Rasgos heroicos" id="e1aa-ddf7-7018-c6c2" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Tiranos y capataces" id="d502-a581-2170-5558" hidden="false" publicationId="487d-9798-0633-8040">
           <selectionEntries>
@@ -510,8 +510,8 @@ Si esta unidad es un **^^Wizard^^**, hasta el inicio de tu siguiente turno:
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="4c4e-2d04-22cd-f015" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="9fdb-dac8-dced-7992" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="4c4e-2d04-22cd-f015" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="9fdb-dac8-dced-7992" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="-1" field="88e8-87a8-56b2-5f60">
@@ -525,12 +525,12 @@ Si esta unidad es un **^^Wizard^^**, hasta el inicio de tu siguiente turno:
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="f1e1-3ab0-ef75-89bb"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Paths" id="ae1a-3570-f384-785f" hidden="true">
+    <selectionEntryGroup name="Sendas" id="ae1a-3570-f384-785f" hidden="true">
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Paths" hidden="false" id="0a68-6e77-aa61-ebec" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
-        <entryLink import="true" name="Ascension Paths" hidden="false" id="6c75-4a5e-451d-411b" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
-        <entryLink import="true" name="Paths" hidden="false" id="7527-a56e-e374-45b2" type="selectionEntryGroup" targetId="1b1a-db31-58cd-86a9" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Paths" hidden="false" id="fec6-12d6-e4d0-0622" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
+        <entryLink import="true" name="Sendas de la Costa Devastada" hidden="false" id="0a68-6e77-aa61-ebec" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
+        <entryLink import="true" name="Sendas de ascensión" hidden="false" id="6c75-4a5e-451d-411b" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="7527-a56e-e374-45b2" type="selectionEntryGroup" targetId="1b1a-db31-58cd-86a9" flatten="true"/>
+        <entryLink import="true" name="Sendas de las Tierras Salvajes Corruptas" hidden="false" id="fec6-12d6-e4d0-0622" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -543,7 +543,7 @@ Si esta unidad es un **^^Wizard^^**, hasta el inicio de tu siguiente turno:
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d17e-435d-e680-7f7f"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Prayer Lores" id="10e5-c44b-a408-7785" hidden="false" flatten="true">
+    <selectionEntryGroup name="Saberes de plegarias" id="10e5-c44b-a408-7785" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Plegarias de la Secta Abrasada" hidden="false" id="cd79-3829-cfea-d57c" defaultAmount="1" publicationId="487d-9798-0633-8040">
           <constraints>
@@ -801,7 +801,7 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Battle Formation" hidden="false" id="0c3e-8ce1-ba7d-a813" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Formación de batalla" hidden="false" id="0c3e-8ce1-ba7d-a813" defaultAmount="1">
       <entryLinks>
         <entryLink import="true" name="Formaciones de batalla: Herreros Infernales de Hashut" hidden="false" id="b6a9-f207-3ea1-0669" type="selectionEntryGroup" targetId="a7e2-ba88-9ea3-eddb" collective="false" flatten="true"/>
       </entryLinks>
@@ -812,9 +812,9 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
         <categoryLink name="Army Composition" hidden="false" id="2eee-849a-ef98-bc85" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Manifestation Lore" hidden="true" id="46f4-e4ae-f663-224a" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de manifestaciones" hidden="true" id="46f4-e4ae-f663-224a" defaultAmount="1">
       <entryLinks>
-        <entryLink import="true" name="Manifestation Lores" hidden="false" id="4552-98eb-7645-976f" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
+        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="4552-98eb-7645-976f" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="467b-23cb-0861-6700"/>
@@ -831,7 +831,7 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Spell Lore" hidden="true" id="bea8-bb50-fc19-73d6" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de hechizos" hidden="true" id="bea8-bb50-fc19-73d6" defaultAmount="1">
       <categoryLinks>
         <categoryLink name="Army Composition" hidden="false" id="feb6-7796-c805-1a74" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
       </categoryLinks>
@@ -840,7 +840,7 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="dd64-0c6a-f59e-13e3"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Spell Lores" hidden="false" id="732d-28c9-2186-fc41" type="selectionEntryGroup" targetId="dfba-b6ac-cf36-ce1d" flatten="true" collective="false"/>
+        <entryLink import="true" name="Saberes de hechizos" hidden="false" id="732d-28c9-2186-fc41" type="selectionEntryGroup" targetId="dfba-b6ac-cf36-ce1d" flatten="true" collective="false"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -850,7 +850,7 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Prayer Lore" hidden="true" id="dae6-d83d-6de6-74b1" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de plegarias" hidden="true" id="dae6-d83d-6de6-74b1" defaultAmount="1">
       <categoryLinks>
         <categoryLink name="Army Composition" hidden="false" id="2a69-aa9b-b6cb-fc83" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
       </categoryLinks>
@@ -859,7 +859,7 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="e110-7193-f2a5-eb24"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Prayer Lores" hidden="false" id="0a30-6b50-2a06-7aa8" type="selectionEntryGroup" targetId="10e5-c44b-a408-7785" flatten="true" collective="false"/>
+        <entryLink import="true" name="Saberes de plegarias" hidden="false" id="0a30-6b50-2a06-7aa8" type="selectionEntryGroup" targetId="10e5-c44b-a408-7785" flatten="true" collective="false"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -878,9 +878,9 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Urak Taar, el Primer Herrero Demoníaco" hidden="false" id="5ada-d8ee-8728-cb67" type="selectionEntry" targetId="a1f1-b30e-abe9-a234">
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="fbd1-9fc2-c839-db2e" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="fbd1-9fc2-c839-db2e" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="f0fd-5a35-6131-c1d1" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="f16f-7aa4-ebd3-901d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="f16f-7aa4-ebd3-901d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="340"/>
@@ -922,10 +922,10 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Arrasadores infernales con trabucos" hidden="false" id="28d7-ed44-d530-795d" type="selectionEntry" targetId="5c9b-778c-40a8-1fe3">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="1528-e11e-414e-23b3" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="8a38-056c-1e28-a939" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="5d1b-02c8-8aa3-7d35" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c153-96f5-5ed5-b877" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="1528-e11e-414e-23b3" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="8a38-056c-1e28-a939" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="5d1b-02c8-8aa3-7d35" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="c153-96f5-5ed5-b877" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -950,14 +950,14 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Herrero demoníaco en toro infernal" hidden="false" id="85da-fb9a-ecd4-e0d5" type="selectionEntry" targetId="519c-5d32-603a-2fb3">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="6258-647e-fa5d-561a" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="aca3-70c4-55fb-034c" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
-        <entryLink import="true" name="Paths" hidden="false" id="f65f-8462-b19e-9bbf" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ac2b-0dc2-e8db-dd51" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="6258-647e-fa5d-561a" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="aca3-70c4-55fb-034c" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="f65f-8462-b19e-9bbf" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="ac2b-0dc2-e8db-dd51" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="fcf7-c9b9-525e-b031" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="5ccf-6e0c-4e2c-4234" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="5ccf-6e0c-4e2c-4234" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Dispositivos malditos" hidden="false" id="0f67-f93f-dec6-c050" type="selectionEntryGroup" targetId="d0dc-5188-54c8-6f77"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="b2d4-ac82-1060-cdf9" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="b2d4-ac82-1060-cdf9" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="290"/>
@@ -999,14 +999,14 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Herrero demoníaco en toro infernal (Azote de Aqshy)" hidden="false" id="efee-f602-e493-0f61" type="selectionEntry" targetId="09a0-81bc-cd2a-161c">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="58cd-a257-1ca3-a0a0" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="f25c-0e1f-35cf-22f9" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
-        <entryLink import="true" name="Paths" hidden="false" id="989f-f2ea-1f5f-9a7d" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="fb61-a811-c135-ecd0" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="58cd-a257-1ca3-a0a0" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="f25c-0e1f-35cf-22f9" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="989f-f2ea-1f5f-9a7d" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="fb61-a811-c135-ecd0" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="dee8-84c5-c2f3-f764" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="9cc9-5a97-ba37-a281" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="9cc9-5a97-ba37-a281" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Dispositivos malditos" hidden="false" id="8340-9e11-6417-13e8" type="selectionEntryGroup" targetId="d0dc-5188-54c8-6f77"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="feae-9d65-eab2-931b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="feae-9d65-eab2-931b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="350"/>
@@ -1048,13 +1048,13 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Déspota de guerra" hidden="false" id="9943-6e56-3fd2-868e" type="selectionEntry" targetId="9d64-66aa-7eaa-7b55">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="c603-559f-781a-3a3b" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="5721-bc5f-991c-1ae7" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
-        <entryLink import="true" name="Paths" hidden="false" id="8ea3-f8f3-c4b7-a542" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="6e55-cb91-04d5-7454" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="c603-559f-781a-3a3b" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="5721-bc5f-991c-1ae7" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="8ea3-f8f3-c4b7-a542" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="6e55-cb91-04d5-7454" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="567c-ca12-0e32-7f87" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="15dd-b0af-921c-bf0a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="d4b0-781c-92c9-45be" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="15dd-b0af-921c-bf0a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="d4b0-781c-92c9-45be" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80"/>
@@ -1110,13 +1110,13 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Herrero demoníaco" hidden="false" id="bfc1-cfff-129e-389b" type="selectionEntry" targetId="22ff-9dca-f6e0-76cf">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="35b2-d99f-a69d-aa3f" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="cb96-fb14-1482-dbae" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
-        <entryLink import="true" name="Paths" hidden="false" id="aa57-1425-207f-dab2" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="af45-fdd5-126e-bbc6" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="35b2-d99f-a69d-aa3f" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="cb96-fb14-1482-dbae" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="aa57-1425-207f-dab2" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="af45-fdd5-126e-bbc6" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="52c3-4e05-35b0-710d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="a4e6-49de-88f3-384a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="3283-a1f3-2b59-3e86" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="a4e6-49de-88f3-384a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="3283-a1f3-2b59-3e86" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80"/>
@@ -1158,13 +1158,13 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Anciano ceniciento" hidden="false" id="b2de-171c-e03f-51ac" type="selectionEntry" targetId="3203-cefc-0ca4-1251">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="f8ab-105d-b118-1f80" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="37cc-035f-6085-925d" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
-        <entryLink import="true" name="Paths" hidden="false" id="3314-6f61-58f3-6b78" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a694-68e0-9c85-99ea" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="f8ab-105d-b118-1f80" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="37cc-035f-6085-925d" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="3314-6f61-58f3-6b78" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="a694-68e0-9c85-99ea" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="e7d0-8e7d-bf0f-9e6a" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="d784-acae-76c6-7fec" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="8619-14c7-64bc-bfa1" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="d784-acae-76c6-7fec" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="8619-14c7-64bc-bfa1" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120"/>
@@ -1206,10 +1206,10 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Arrasadores infernales con lanzallamas" hidden="false" id="770c-aa9b-7d91-c97a" type="selectionEntry" targetId="3d15-3f55-b836-84b6">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="f0fe-f372-756b-8f89" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="9746-f25b-9409-53c0" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="7042-1cf9-7ed5-dff3" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="242d-0fd6-be79-7b62" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="f0fe-f372-756b-8f89" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="9746-f25b-9409-53c0" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="7042-1cf9-7ed5-dff3" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="242d-0fd6-be79-7b62" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1234,10 +1234,10 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Vándalos hobgrot" hidden="false" id="c153-564b-3d9f-84e0" type="selectionEntry" targetId="e3f8-99f7-921e-137a">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="fc43-f4cd-1be5-1614" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="1368-851b-21e7-4bdc" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="6ce4-dd00-cd2a-3457" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="9ece-b9bd-f94e-2341" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="fc43-f4cd-1be5-1614" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="1368-851b-21e7-4bdc" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="6ce4-dd00-cd2a-3457" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="9ece-b9bd-f94e-2341" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1262,10 +1262,10 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Cohorte infernal con hojas hashutitas" hidden="false" id="3972-ab7d-8ab0-5e05" type="selectionEntry" targetId="15de-86a8-417a-912e">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="89d4-5a50-ef84-ed78" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="c7cb-2742-7aaf-20d7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="bd82-a9a0-bde1-f8cf" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="576f-325c-dcdb-b41e" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="89d4-5a50-ef84-ed78" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="c7cb-2742-7aaf-20d7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="bd82-a9a0-bde1-f8cf" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="576f-325c-dcdb-b41e" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1290,10 +1290,10 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Cohorte infernal con lanzas hashutitas" hidden="false" id="5fa0-3703-ae50-0f93" type="selectionEntry" targetId="a162-ad2f-0c07-681e">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="06a3-0258-ccdb-bd7a" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="8e6a-1272-272f-0304" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="0f85-90d6-0fcd-07d1" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1667-96b7-61fd-1801" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="06a3-0258-ccdb-bd7a" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="8e6a-1272-272f-0304" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="0f85-90d6-0fcd-07d1" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="1667-96b7-61fd-1801" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1318,10 +1318,10 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Centauros toro" hidden="false" id="69ba-bc37-ffb4-fc90" type="selectionEntry" targetId="e20f-a1a4-79f8-93af">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="3e84-942d-3c23-9b18" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="85ec-d769-31cb-ad69" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="d3e5-7bb3-047d-70af" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="af7c-9b1a-a43b-da29" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="3e84-942d-3c23-9b18" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="85ec-d769-31cb-ad69" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="d3e5-7bb3-047d-70af" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="af7c-9b1a-a43b-da29" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1346,10 +1346,10 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Centinelas ungidos" hidden="false" id="deb4-9b2b-1e46-b6a2" type="selectionEntry" targetId="c4f9-62a9-7f8f-1c2e">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="4ee0-4172-5b8c-d301" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="37c1-c8a7-fd67-da5d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="4628-2b62-9c7b-6331" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="9193-9d40-c854-cd03" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="4ee0-4172-5b8c-d301" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="37c1-c8a7-fd67-da5d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="4628-2b62-9c7b-6331" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="9193-9d40-c854-cd03" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1374,10 +1374,10 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Centinelas ungidos (Azote de Aqshy)" hidden="false" id="b4ec-e64c-1dc0-9d6c" type="selectionEntry" targetId="40ae-7938-ac66-8636">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="8833-4f91-f573-104f" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="fab6-710c-c56a-5798" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="143f-6f22-b381-b027" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="02d7-8d54-f665-43f3" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="8833-4f91-f573-104f" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="fab6-710c-c56a-5798" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="143f-6f22-b381-b027" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="02d7-8d54-f665-43f3" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1402,9 +1402,9 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Batería de cohetes aullamuerte" hidden="false" id="4f91-066e-c31e-79e0" type="selectionEntry" targetId="b683-bbb0-9fd4-6fcc">
       <entryLinks>
-        <entryLink import="true" name="Renown" hidden="false" id="3315-2df7-e33d-25c2" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="385d-921e-754f-07ca" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7d81-6ffb-a4e7-043c" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="3315-2df7-e33d-25c2" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="385d-921e-754f-07ca" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="7d81-6ffb-a4e7-043c" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
         <entryLink import="true" name="Dispositivos malditos" hidden="false" id="7bec-0265-e4df-13a4" type="selectionEntryGroup" targetId="d0dc-5188-54c8-6f77"/>
       </entryLinks>
       <modifiers>
@@ -1430,9 +1430,9 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Bombarda atormentadora" hidden="false" id="ed1e-27f0-2963-6fdb" type="selectionEntry" targetId="b198-5cf9-e447-35c6">
       <entryLinks>
-        <entryLink import="true" name="Renown" hidden="false" id="5ba3-eab8-f6c6-c5c7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="2801-f07a-ae65-14f9" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="85aa-3829-ea08-09e4" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="5ba3-eab8-f6c6-c5c7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="2801-f07a-ae65-14f9" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="85aa-3829-ea08-09e4" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
         <entryLink import="true" name="Dispositivos malditos" hidden="false" id="0aff-f133-d0de-90c9" type="selectionEntryGroup" targetId="d0dc-5188-54c8-6f77"/>
       </entryLinks>
       <modifiers>
@@ -1458,9 +1458,9 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Máquina dominadora con mazas de perdición" hidden="false" id="b892-6067-b554-5bbe" type="selectionEntry" targetId="c3d1-b2bd-e8d8-d171">
       <entryLinks>
-        <entryLink import="true" name="Renown" hidden="false" id="b5da-ab6d-d771-556a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="c7b9-8eb8-1a26-a48c" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="fe47-330f-dd88-15b2" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="b5da-ab6d-d771-556a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="c7b9-8eb8-1a26-a48c" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="fe47-330f-dd88-15b2" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
         <entryLink import="true" name="Dispositivos malditos" hidden="false" id="0af3-0bf0-c5e1-8a5a" type="selectionEntryGroup" targetId="d0dc-5188-54c8-6f77"/>
       </entryLinks>
       <modifiers>
@@ -1486,9 +1486,9 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Máquina dominadora con cañones de inmolación" hidden="false" id="0760-d077-48e8-5b79" type="selectionEntry" targetId="9c89-4ec9-71db-0026">
       <entryLinks>
-        <entryLink import="true" name="Renown" hidden="false" id="eded-9808-6f9d-ca98" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="721d-9d88-18cd-e56b" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c2a2-88e4-528f-8a88" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="eded-9808-6f9d-ca98" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="721d-9d88-18cd-e56b" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="c2a2-88e4-528f-8a88" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
         <entryLink import="true" name="Dispositivos malditos" hidden="false" id="7cb2-a99f-ed71-4ec8" type="selectionEntryGroup" targetId="d0dc-5188-54c8-6f77"/>
       </entryLinks>
       <modifiers>
@@ -1514,12 +1514,12 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Yunque de la apoteosis: héroe de los Herreros Infernales de Hashut" hidden="false" id="89f8-d019-1a77-33f1" type="selectionEntry" targetId="4f90-3fa4-8f1e-1ef8">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="a753-5dbd-b8e8-79e2" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="b4ce-c5e8-eb61-526a" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
-        <entryLink import="true" name="Paths" hidden="false" id="683d-3b3f-e644-fdfb" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ac7f-dca2-1960-25b7" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="a753-5dbd-b8e8-79e2" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="b4ce-c5e8-eb61-526a" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="683d-3b3f-e644-fdfb" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="ac7f-dca2-1960-25b7" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="dc22-a018-81fa-5dff" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="e347-235f-bb69-7bef" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="e347-235f-bb69-7bef" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
         <entryLink import="true" name="Dispositivos malditos" hidden="false" id="3ba2-b13e-9f34-c563" type="selectionEntryGroup" targetId="d0dc-5188-54c8-6f77">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1529,7 +1529,7 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="e8bd-0c23-3e5b-932b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="e8bd-0c23-3e5b-932b" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -1567,7 +1567,7 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="La Sangre del Toro" hidden="false" id="0e26-3d15-31dd-48b1" type="selectionEntry" targetId="35e3-f1fc-1f7a-8151">
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="14b8-c794-c6cf-56aa" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="14b8-c794-c6cf-56aa" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1592,10 +1592,10 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Cohorte infernal con hojas hashutitas (Azote de Ghyran)" hidden="false" id="fa56-96ae-ce6d-5138" type="selectionEntry" targetId="42dc-3f22-809b-661d">
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="d462-39cc-fbdf-44b9" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="7011-0daf-495a-617d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="f4de-b392-63e8-27d9" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3872-e3ac-3481-74a2" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="d462-39cc-fbdf-44b9" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="7011-0daf-495a-617d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="f4de-b392-63e8-27d9" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="3872-e3ac-3481-74a2" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1620,13 +1620,13 @@ Las armas a distancia de esta unidad tienen **^^Crítico (2 impactos)^^** hasta 
     </entryLink>
     <entryLink import="true" name="Déspota de guerra (Azote de Ghyran)" hidden="false" id="0ca8-8433-a2a9-6ad5" type="selectionEntry" targetId="c468-1c57-cdaf-d9c1">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="9a63-375d-37d3-cd1f" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="19a3-0644-66e3-0cf3" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
-        <entryLink import="true" name="Paths" hidden="false" id="a982-805a-938d-b6cc" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="bb88-505c-61d1-5bb2" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="9a63-375d-37d3-cd1f" type="selectionEntryGroup" targetId="e1aa-ddf7-7018-c6c2"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="19a3-0644-66e3-0cf3" type="selectionEntryGroup" targetId="2be5-91e6-810b-282f"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="a982-805a-938d-b6cc" type="selectionEntryGroup" targetId="ae1a-3570-f384-785f"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="bb88-505c-61d1-5bb2" type="selectionEntryGroup" targetId="d453-e284-1776-2b08"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="ceb4-e360-6250-667e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="133e-1223-ff14-d90f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="5dfb-51ff-0746-dda2" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="133e-1223-ff14-d90f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="5dfb-51ff-0746-dda2" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="130"/>

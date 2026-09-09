@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="6750-ccad-1640-666f" name="Cortes Devoradoras de Carne - Nueva Corte del Verano" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="49" revision="20" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ravaged Coast" id="d883-3ff0-d000-ffa4" targetId="a434-b1ba-922b-7624" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Flesh-eater Courts - Library" id="e950-e3e6-8918-a0a3" targetId="a6b3-b9f5-ea34-9c96"/>
-    <catalogueLink type="catalogue" name="❖ Lores" id="f845-0594-0fe0-abbc" targetId="0a11-cd61-2a4e-8e04" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ascension" id="8ec0-5758-face-f08f" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Blighted Wilds" id="8ef8-59c6-52ed-4979" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Costa Devastada" id="d883-3ff0-d000-ffa4" targetId="a434-b1ba-922b-7624" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Cortes Devoradoras de Carne - Biblioteca" id="e950-e3e6-8918-a0a3" targetId="a6b3-b9f5-ea34-9c96"/>
+    <catalogueLink type="catalogue" name="❖ Saberes" id="f845-0594-0fe0-abbc" targetId="0a11-cd61-2a4e-8e04" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Ascensión" id="8ec0-5758-face-f08f" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Tierras Salvajes Corruptas" id="8ef8-59c6-52ed-4979" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Nueva Corte del Verano" hidden="false" id="c17f-8c0b-7c99-6dc9" publicationId="6281-1a88-8f4-946">
@@ -102,7 +102,7 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Spell Lores" id="26c6-22dd-04c3-fff9" hidden="false" flatten="true">
+    <selectionEntryGroup name="Saberes de hechizos" id="26c6-22dd-04c3-fff9" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Saber de hechizos: Nueva Corte del Verano" hidden="false" id="7fc4-79a6-b582-e711" defaultAmount="1" publicationId="6281-1a88-8f4-946">
           <constraints>
@@ -117,7 +117,7 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2b0f-e7be-0a00-3ff0" includeChildSelections="true"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Artefacts of Power" id="d2c1-cb98-bcba-f0d1" hidden="false">
+    <selectionEntryGroup name="Artefactos de poder" id="d2c1-cb98-bcba-f0d1" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Artefactos de poder: Nueva Corte del Verano" id="d09a-ca32-5618-a06d" hidden="false" publicationId="6281-1a88-8f4-946">
           <selectionEntries>
@@ -148,8 +148,8 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="2dfb-5455-8fdb-5b8c" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="34fd-6045-aece-6943" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="2dfb-5455-8fdb-5b8c" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="34fd-6045-aece-6943" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="-1" field="af7c-467e-9b88-751a">
@@ -163,7 +163,7 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="16d0-2211-d511-6e96"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Battle Wounds + Scars" id="7d0c-6e58-e410-3fc5" hidden="true" collapsible="true">
+    <selectionEntryGroup name="Heridas de batalla + cicatrices" id="7d0c-6e58-e410-3fc5" hidden="true" collapsible="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -177,12 +177,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Battle Scars" hidden="false" id="dbe4-8e42-95e3-c31a" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Battle Scars" hidden="false" id="73a7-b04c-58e8-ca17" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
+        <entryLink import="true" name="Cicatrices de batalla de la Costa Devastada" hidden="false" id="dbe4-8e42-95e3-c31a" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
+        <entryLink import="true" name="Cicatrices de batalla de las Tierras Salvajes Corruptas" hidden="false" id="73a7-b04c-58e8-ca17" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Battle Wounds" hidden="false" id="b9e6-1ca3-03cf-5d16"/>
-        <selectionEntry type="upgrade" import="true" name="Drained" hidden="true" id="a9f8-7f60-9ff7-849d">
+        <selectionEntry type="upgrade" import="true" name="Heridas de batalla" hidden="false" id="b9e6-1ca3-03cf-5d16"/>
+        <selectionEntry type="upgrade" import="true" name="Agotado" hidden="true" id="a9f8-7f60-9ff7-849d">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fec7-66dc-4e90-23d4"/>
           </constraints>
@@ -196,7 +196,7 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Heroic Traits" id="2058-b00c-6de6-ebd9" hidden="false">
+    <selectionEntryGroup name="Rasgos heroicos" id="2058-b00c-6de6-ebd9" hidden="false">
       <selectionEntryGroups>
         <selectionEntryGroup name="Rasgos heroicos: Nueva Corte del Verano" id="8a1e-95c4-ffe1-463b" hidden="false" publicationId="6281-1a88-8f4-946">
           <selectionEntries>
@@ -230,8 +230,8 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="5519-0e91-02d5-29cc" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="3863-0339-c434-c5c1" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="5519-0e91-02d5-29cc" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="3863-0339-c434-c5c1" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="-1" field="0a94-9e66-3a77-4735">
@@ -245,7 +245,7 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="b68d-9396-f371-08c1"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Manifestation Lores" id="4dde-ce36-ec44-c86d" hidden="false" flatten="true">
+    <selectionEntryGroup name="Saberes de manifestaciones" id="4dde-ce36-ec44-c86d" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Saber de manifestaciones: Nueva Corte del Verano" hidden="false" id="0292-3613-beb2-7cfd" publicationId="6281-1a88-8f4-946">
           <constraints>
@@ -257,12 +257,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Paths" id="1ede-6ff9-ad19-0057" hidden="true">
+    <selectionEntryGroup name="Sendas" id="1ede-6ff9-ad19-0057" hidden="true">
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Paths" hidden="false" id="4bd4-a1ae-bca9-0672" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
-        <entryLink import="true" name="Ascension Paths" hidden="false" id="7fd2-5620-94e1-8771" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
-        <entryLink import="true" name="Paths" hidden="false" id="6581-3bac-fa19-fcc5" type="selectionEntryGroup" targetId="d224-5fb1-c3f2-5c11" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Paths" hidden="false" id="89ac-b431-1a9e-7b62" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
+        <entryLink import="true" name="Sendas de la Costa Devastada" hidden="false" id="4bd4-a1ae-bca9-0672" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
+        <entryLink import="true" name="Sendas de ascensión" hidden="false" id="7fd2-5620-94e1-8771" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="6581-3bac-fa19-fcc5" type="selectionEntryGroup" targetId="d224-5fb1-c3f2-5c11" flatten="true"/>
+        <entryLink import="true" name="Sendas de las Tierras Salvajes Corruptas" hidden="false" id="89ac-b431-1a9e-7b62" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -275,7 +275,7 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e175-54ad-7b62-5026"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Prayer Lores" id="e86a-fa31-d3dc-5f69" hidden="false" flatten="true">
+    <selectionEntryGroup name="Saberes de plegarias" id="e86a-fa31-d3dc-5f69" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Saber de plegarias: Nueva Corte del Verano" hidden="false" id="daf0-4892-90e1-210d" defaultAmount="1" publicationId="6281-1a88-8f4-946">
           <constraints>
@@ -294,13 +294,13 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
   <entryLinks>
     <entryLink import="true" name="Archirregente aborrecible" hidden="false" id="f3cf-64df-aeda-6b7e" type="selectionEntry" targetId="cb9f-5427-a3b7-9541">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="d717-b285-3499-4e43" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="d4b3-8c25-73af-dffc" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Paths" hidden="false" id="de7c-2707-ae7a-348d" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ee00-85c7-0ba4-50d0" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="d717-b285-3499-4e43" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="d4b3-8c25-73af-dffc" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="de7c-2707-ae7a-348d" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="ee00-85c7-0ba4-50d0" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="bf1f-e32e-d637-c80c" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="6024-cd8b-5b77-4489" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="e105-62ca-fd50-56d0" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="6024-cd8b-5b77-4489" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="e105-62ca-fd50-56d0" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="140"/>
@@ -346,12 +346,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     <entryLink import="true" name="Cardenal aborrecible" hidden="false" id="fc04-a084-b010-a6bc" type="selectionEntry" targetId="2f4b-8632-d9fe-ac87">
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="c6e2-2f9f-e2c6-9b4b" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="1a4d-7b93-500d-c675" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="1101-b0dd-1c0e-f028" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="0b2e-7368-7d26-cf8c" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c84e-ede9-7b47-e317" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="084a-b5cc-6199-c788" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="5c98-e815-f36b-5209" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="1a4d-7b93-500d-c675" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="1101-b0dd-1c0e-f028" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="0b2e-7368-7d26-cf8c" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="c84e-ede9-7b47-e317" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="084a-b5cc-6199-c788" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="5c98-e815-f36b-5209" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="130"/>
@@ -398,12 +398,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     <entryLink import="true" name="Rey necrófago aborrecible" hidden="false" id="4845-2dc4-6029-11b2" type="selectionEntry" targetId="e3c-b6aa-e6eb-d03f">
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="e6f6-0e78-c3c5-6837" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="817f-6995-613a-4994" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="5266-ae4c-d748-c393" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="bbf1-590d-b6c3-bc7c" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a1d2-48fd-8d06-5b73" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="3385-46e5-e26b-7d96" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="38f2-d6b9-6b2d-46a0" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="817f-6995-613a-4994" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="5266-ae4c-d748-c393" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="bbf1-590d-b6c3-bc7c" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="a1d2-48fd-8d06-5b73" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="3385-46e5-e26b-7d96" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="38f2-d6b9-6b2d-46a0" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="110"/>
@@ -449,12 +449,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     <entryLink import="true" name="Rey necrófago aborrecible (Azote de Ghyran)" hidden="false" id="c341-5304-6836-5d5a" type="selectionEntry" targetId="6744-64a7-bdb9-63e8">
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="0ac4-9c37-3278-9e8e" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="c9f5-cb91-85db-c972" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="2498-2d2d-9062-82df" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="f35f-0d02-45c0-3b10" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c2c8-bed5-3261-062d" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="0b98-6e3e-e291-1a07" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="f2cb-2ed6-fc00-d30e" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="c9f5-cb91-85db-c972" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="2498-2d2d-9062-82df" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="f35f-0d02-45c0-3b10" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="c2c8-bed5-3261-062d" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="0b98-6e3e-e291-1a07" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="f2cb-2ed6-fc00-d30e" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="110"/>
@@ -500,12 +500,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     <entryLink import="true" name="Rey necrófago aborrecible en engendro del terror real" hidden="false" id="0a23-add8-0967-9212" type="selectionEntry" targetId="c3e8-13a9-161d-1573">
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="7d0d-41f0-2182-a4dc" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="8fbe-06bf-721a-2e1f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="50fe-ac4b-41e8-2930" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="280e-0eeb-5e81-6424" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="355f-270a-a306-d04d" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="6579-213d-68d2-65ed" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="e68f-5ad9-eb04-77fb" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="8fbe-06bf-721a-2e1f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="50fe-ac4b-41e8-2930" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="280e-0eeb-5e81-6424" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="355f-270a-a306-d04d" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="6579-213d-68d2-65ed" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="e68f-5ad9-eb04-77fb" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="400"/>
@@ -551,12 +551,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     <entryLink import="true" name="Rey necrófago aborrecible en dragón zombi real" hidden="false" id="bed2-b613-9696-375f" type="selectionEntry" targetId="eac0-ccfe-4b67-34a">
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="6dca-64d9-8a4a-bade" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="30e8-fc9a-3a18-665d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="93dd-0df7-431a-7fc4" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="dd03-a80b-04bb-e154" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="de7a-848e-1ee4-a531" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="0006-6e55-74ec-2565" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="07f1-bead-66c0-2805" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="30e8-fc9a-3a18-665d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="93dd-0df7-431a-7fc4" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="dd03-a80b-04bb-e154" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="de7a-848e-1ee4-a531" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="0006-6e55-74ec-2565" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="07f1-bead-66c0-2805" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="400"/>
@@ -602,12 +602,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     <entryLink import="true" name="Guardián sangriento aborrecible" hidden="false" id="8797-a95f-7296-6279" type="selectionEntry" targetId="3a7-f618-ba4d-9f6f">
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="6377-e174-9dda-2389" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="3fe8-cead-caa3-3f1e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="281e-59d4-9480-7ced" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="0f05-6c6f-163d-1caf" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a4d7-6201-bcce-fb76" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="133d-cd02-7bb0-4f7a" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="7f83-4e2a-ba6a-2c88" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="3fe8-cead-caa3-3f1e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="281e-59d4-9480-7ced" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="0f05-6c6f-163d-1caf" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="a4d7-6201-bcce-fb76" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="133d-cd02-7bb0-4f7a" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="7f83-4e2a-ba6a-2c88" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="150"/>
@@ -654,12 +654,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     <entryLink import="true" name="Guardián sangriento aborrecible (Azote de Ghyran)" hidden="false" id="ba46-2e28-23da-804d" type="selectionEntry" targetId="27b9-d95e-ac2b-5f2f">
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="e8d7-d688-a849-da24" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="80de-9c99-6f7b-730d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="742f-6efa-b9a7-830d" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="a90b-c23f-315f-1282" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a552-c876-cb4f-a0f8" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="3f2c-4f79-b26a-6289" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="71ae-c30a-a539-16d8" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="80de-9c99-6f7b-730d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="742f-6efa-b9a7-830d" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="a90b-c23f-315f-1282" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="a552-c876-cb4f-a0f8" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="3f2c-4f79-b26a-6289" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="71ae-c30a-a539-16d8" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="130"/>
@@ -762,9 +762,9 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="90d4-b055-b448-9f5c" includeChildSelections="true"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Renown" hidden="false" id="953e-1231-118c-6995" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="d5c5-762f-9c4a-49c3" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="8274-179b-034e-c2e0" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="953e-1231-118c-6995" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="d5c5-762f-9c4a-49c3" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="8274-179b-034e-c2e0" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -826,10 +826,10 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="8f88-4ff0-cb38-a28b" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="c087-7887-ac91-1506" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="20cd-a78d-8fcc-24d6" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Paths" hidden="false" id="0ddc-5ccb-7d21-cc6f" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="8f88-4ff0-cb38-a28b" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="c087-7887-ac91-1506" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="20cd-a78d-8fcc-24d6" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="0ddc-5ccb-7d21-cc6f" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="160"/>
@@ -911,12 +911,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
       </constraints>
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="1b33-628c-fd9c-6373" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="3f3b-3273-1592-695a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="e122-3b3b-82ff-043f" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="dc7a-f697-a2e0-92de" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="2f6e-539d-24b7-a42f" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="1df5-6fa3-08f4-7926" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="296d-2cd3-d1fe-f1bd" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="3f3b-3273-1592-695a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="e122-3b3b-82ff-043f" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="dc7a-f697-a2e0-92de" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="2f6e-539d-24b7-a42f" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="1df5-6fa3-08f4-7926" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="296d-2cd3-d1fe-f1bd" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80"/>
@@ -952,12 +952,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     <entryLink import="true" name="Cortesano acechante de la cripta" hidden="false" id="6cf2-3d16-f0dc-f526" type="selectionEntry" targetId="490b-968d-8f29-a26f">
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="1bfe-6542-ce79-63e8" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="570a-ed84-671b-72c8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="09d9-53e4-e33f-02bf" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="4acb-a9d0-d8b5-b214" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="50f2-0e9e-3164-64b0" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="3aa8-e19e-3ca7-7097" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="22ca-e829-5ad5-5510" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="570a-ed84-671b-72c8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="09d9-53e4-e33f-02bf" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="4acb-a9d0-d8b5-b214" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="50f2-0e9e-3164-64b0" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="3aa8-e19e-3ca7-7097" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="22ca-e829-5ad5-5510" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="120"/>
@@ -1035,10 +1035,10 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="5319-bac1-cff2-167e" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="d064-964c-52d6-6f2d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4383-984b-2ff0-c9f1" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Paths" hidden="false" id="f669-2474-9265-85a9" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="5319-bac1-cff2-167e" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="d064-964c-52d6-6f2d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="4383-984b-2ff0-c9f1" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="f669-2474-9265-85a9" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="160"/>
@@ -1126,9 +1126,9 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         <constraint type="max" value="-1" field="selections" scope="force" shared="true" id="58ec-8ca5-7335-c008" includeChildSelections="true"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Renown" hidden="false" id="1de6-7378-35b1-7eee" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="4182-d084-c174-64ac" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Paths" hidden="false" id="f5f4-4b34-940b-50f6" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="1de6-7378-35b1-7eee" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="4182-d084-c174-64ac" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="f5f4-4b34-940b-50f6" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
@@ -1174,12 +1174,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     <entryLink import="true" name="Cortesano infernal de la cripta" hidden="false" id="3e46-6300-6b91-5c8a" type="selectionEntry" targetId="40ae-fea8-d025-4a21">
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="de93-2607-421d-615d" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="8dce-04fa-c27d-ee06" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="f0c0-5215-6bba-6d96" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="f255-61a8-42a3-6a1b" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="24ea-3daf-5454-e0d6" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Paths" hidden="false" id="40f3-97d0-e9fd-c45a" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="1640-7571-2304-3f0e" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="8dce-04fa-c27d-ee06" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="f0c0-5215-6bba-6d96" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="f255-61a8-42a3-6a1b" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="24ea-3daf-5454-e0d6" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="40f3-97d0-e9fd-c45a" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="1640-7571-2304-3f0e" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="140"/>
@@ -1241,12 +1241,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     <entryLink import="true" name="Heraldo del pergamino de médula" hidden="false" id="031e-bc0e-2664-4f21" type="selectionEntry" targetId="c9ce-303a-ccbb-65de">
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="9847-1c58-42c9-13e1" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="64e1-fd80-ae94-622b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="0fe4-6dfa-f3e2-12e5" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="b359-1c82-fc36-fead" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="0ea5-3159-84ff-d908" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="4e9d-bd99-e9bc-0b3c" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="7cc2-34b4-2d27-ec57" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="64e1-fd80-ae94-622b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="0fe4-6dfa-f3e2-12e5" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="b359-1c82-fc36-fead" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="0ea5-3159-84ff-d908" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="4e9d-bd99-e9bc-0b3c" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="7cc2-34b4-2d27-ec57" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="100"/>
@@ -1322,10 +1322,10 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="2d2c-e7d0-c9b5-e396" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renown" hidden="false" id="0933-ce7f-52f4-031c" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c9c6-da74-b669-bbe7" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Paths" hidden="false" id="3d62-196a-88b0-77f3" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="2d2c-e7d0-c9b5-e396" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="0933-ce7f-52f4-031c" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="c9c6-da74-b669-bbe7" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="3d62-196a-88b0-77f3" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="170"/>
@@ -1377,12 +1377,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
       </costs>
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="797d-2513-6cce-b7c6" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="607c-49ca-1238-4edd" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="4246-d00a-7b9b-af17" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="d7f5-0bc1-9bac-1055" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="0ec9-3090-c8d7-0149" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="5a5d-1b22-83bd-36d3" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="573a-8ae1-4bee-1458" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="607c-49ca-1238-4edd" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="4246-d00a-7b9b-af17" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="d7f5-0bc1-9bac-1055" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="0ec9-3090-c8d7-0149" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="5a5d-1b22-83bd-36d3" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="573a-8ae1-4bee-1458" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -1442,12 +1442,12 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
       </costs>
       <entryLinks>
         <entryLink import="true" name="Caudillo" hidden="false" id="9f02-042e-5ee7-8722" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="fc22-7d3d-3011-ac01" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Paths" hidden="false" id="7919-d894-b5ae-e9d0" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="8669-ccc1-7eba-d760" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="096c-9864-7a6b-dbc3" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="a884-680d-3afd-c099" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="b77e-46a1-7ad3-ac32" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="fc22-7d3d-3011-ac01" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="7919-d894-b5ae-e9d0" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="8669-ccc1-7eba-d760" type="selectionEntryGroup" targetId="d2c1-cb98-bcba-f0d1"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="096c-9864-7a6b-dbc3" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="a884-680d-3afd-c099" type="selectionEntryGroup" targetId="2058-b00c-6de6-ebd9"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="b77e-46a1-7ad3-ac32" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -1503,9 +1503,9 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     </entryLink>
     <entryLink import="true" name="Cortesano varghulf" hidden="false" id="9eb8-ff1d-c95a-5cea" type="selectionEntry" targetId="9840-3911-50d4-532d">
       <entryLinks>
-        <entryLink import="true" name="Renown" hidden="false" id="35f8-1e90-4098-0dd4" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="f268-2705-5166-1a58" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Paths" hidden="false" id="a2af-dea4-1863-4705" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="35f8-1e90-4098-0dd4" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="f268-2705-5166-1a58" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="a2af-dea4-1863-4705" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="100"/>
@@ -1528,9 +1528,9 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     </entryLink>
     <entryLink import="true" name="Cortesano varghulf (Azote de Aqshy)" hidden="false" id="4996-f86b-9c48-8952" type="selectionEntry" targetId="a128-61d2-15ef-31d9">
       <entryLinks>
-        <entryLink import="true" name="Renown" hidden="false" id="8096-62f8-5bd5-351f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b58a-54f7-5c43-7ae4" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
-        <entryLink import="true" name="Paths" hidden="false" id="57ac-d169-7349-c160" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="8096-62f8-5bd5-351f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="b58a-54f7-5c43-7ae4" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="57ac-d169-7349-c160" type="selectionEntryGroup" targetId="1ede-6ff9-ad19-0057"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="110"/>
@@ -1556,7 +1556,7 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         <cost name="pts" typeId="points" value="450"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="5a0d-eec6-b648-7c0e" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="5a0d-eec6-b648-7c0e" type="selectionEntryGroup" targetId="7d0c-6e58-e410-3fc5"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -1601,7 +1601,7 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
     </entryLink>
   </entryLinks>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Prayer Lore" hidden="true" id="5cde-7261-bdc5-944c" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de plegarias" hidden="true" id="5cde-7261-bdc5-944c" defaultAmount="1">
       <categoryLinks>
         <categoryLink name="Army Composition" hidden="false" id="075a-657f-53b3-ffbd" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
       </categoryLinks>
@@ -1610,7 +1610,7 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="72fc-1615-dd69-1d9e"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Prayer Lores" hidden="false" id="618f-5c13-8d23-fb34" type="selectionEntryGroup" targetId="e86a-fa31-d3dc-5f69" flatten="true" collective="false"/>
+        <entryLink import="true" name="Saberes de plegarias" hidden="false" id="618f-5c13-8d23-fb34" type="selectionEntryGroup" targetId="e86a-fa31-d3dc-5f69" flatten="true" collective="false"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -1620,10 +1620,10 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Manifestation Lore" hidden="true" id="2a95-46d6-7990-ed76" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de manifestaciones" hidden="true" id="2a95-46d6-7990-ed76" defaultAmount="1">
       <entryLinks>
-        <entryLink import="true" name="Manifestation Lores" hidden="false" id="0fa9-ecd3-9fd0-b0c2" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
-        <entryLink import="true" name="Manifestation Lores" hidden="false" id="31f8-56ee-e5de-d720" type="selectionEntryGroup" targetId="4dde-ce36-ec44-c86d" flatten="true"/>
+        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="0fa9-ecd3-9fd0-b0c2" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
+        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="31f8-56ee-e5de-d720" type="selectionEntryGroup" targetId="4dde-ce36-ec44-c86d" flatten="true"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b36e-e6ac-e9f4-f912"/>
@@ -1640,7 +1640,7 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Spell Lore" hidden="true" id="6aeb-62c4-22f6-2d33" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de hechizos" hidden="true" id="6aeb-62c4-22f6-2d33" defaultAmount="1">
       <categoryLinks>
         <categoryLink name="Army Composition" hidden="false" id="9aae-d38b-046d-c35d" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
       </categoryLinks>
@@ -1649,7 +1649,7 @@ Una vez que todos los portaestandartes de la unidad objetivo hayan sido abatidos
         <constraint type="max" value="1" field="selections" scope="self" shared="true" id="3dd8-3a33-04f8-3877"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Spell Lores" hidden="false" id="2784-25e2-91f0-fc96" type="selectionEntryGroup" targetId="26c6-22dd-04c3-fff9" flatten="true" collective="false"/>
+        <entryLink import="true" name="Saberes de hechizos" hidden="false" id="2784-25e2-91f0-fc96" type="selectionEntryGroup" targetId="26c6-22dd-04c3-fff9" flatten="true" collective="false"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">

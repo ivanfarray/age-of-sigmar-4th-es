@@ -67,7 +67,7 @@ Después de resolver esta habilidad, esta unidad no puede usar habilidades de **
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Spell Lores" id="53d1-4741-9e87-5e4e" hidden="false" flatten="true">
+    <selectionEntryGroup name="Saberes de hechizos" id="53d1-4741-9e87-5e4e" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Saber de hechizos: Caballeros del Torreón Carmesí" hidden="false" id="9fa6-3894-6486-18c8" flatten="false" defaultAmount="1">
           <constraints>
@@ -79,10 +79,10 @@ Después de resolver esta habilidad, esta unidad no puede usar habilidades de **
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Artefacts of Power" id="0041-bfb5-ca47-8827" hidden="false">
+    <selectionEntryGroup name="Artefactos de poder" id="0041-bfb5-ca47-8827" hidden="false">
       <entryLinks>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="dffb-52ab-bd53-fc51" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="5852-8a58-5f6d-5069" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="dffb-52ab-bd53-fc51" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="5852-8a58-5f6d-5069" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Artefactos de poder: Caballeros del Torreón Carmesí" id="cc23-a73b-036f-c241" hidden="false" publicationId="e3a0-cfae-cbb3-0215">
@@ -128,7 +128,7 @@ Después de resolver esta habilidad, esta unidad no puede usar habilidades de **
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="603d-c657-3bfd-15f1"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Battle Wounds + Scars" id="0dc3-325d-f922-28cc" hidden="true" collapsible="true">
+    <selectionEntryGroup name="Heridas de batalla + cicatrices" id="0dc3-325d-f922-28cc" hidden="true" collapsible="true">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditionGroups>
@@ -142,12 +142,12 @@ Después de resolver esta habilidad, esta unidad no puede usar habilidades de **
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Battle Scars" hidden="false" id="b765-13f5-ea9f-9335" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Battle Scars" hidden="false" id="c375-5120-40d2-1913" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
+        <entryLink import="true" name="Cicatrices de batalla de la Costa Devastada" hidden="false" id="b765-13f5-ea9f-9335" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
+        <entryLink import="true" name="Cicatrices de batalla de las Tierras Salvajes Corruptas" hidden="false" id="c375-5120-40d2-1913" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
       </entryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Battle Wounds" hidden="false" id="a35c-0840-3f51-2471"/>
-        <selectionEntry type="upgrade" import="true" name="Drained" hidden="true" id="95cc-cc4b-9aeb-c391">
+        <selectionEntry type="upgrade" import="true" name="Heridas de batalla" hidden="false" id="a35c-0840-3f51-2471"/>
+        <selectionEntry type="upgrade" import="true" name="Agotado" hidden="true" id="95cc-cc4b-9aeb-c391">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b83c-16b2-5562-5e28"/>
           </constraints>
@@ -161,10 +161,10 @@ Después de resolver esta habilidad, esta unidad no puede usar habilidades de **
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Heroic Traits" id="3ece-38b8-4262-666f" hidden="false">
+    <selectionEntryGroup name="Rasgos heroicos" id="3ece-38b8-4262-666f" hidden="false">
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="0e8e-7bb3-2233-3f75" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="0c38-1c20-edc6-60be" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="0e8e-7bb3-2233-3f75" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="0c38-1c20-edc6-60be" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Rasgos heroicos: Caballeros del Torreón Carmesí" id="bfd2-e84c-eea3-2fdd" hidden="false" publicationId="e3a0-cfae-cbb3-0215">
@@ -214,12 +214,12 @@ Al inicio del siguiente turno, retira todas las **fichas de destreza marcial** d
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="3d0b-a09e-eca9-b8f7"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Paths" id="060e-e5b2-5e43-8757" hidden="true">
+    <selectionEntryGroup name="Sendas" id="060e-e5b2-5e43-8757" hidden="true">
       <entryLinks>
-        <entryLink import="true" name="Ravaged Coast Paths" hidden="false" id="0705-a551-d1f0-1a47" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
-        <entryLink import="true" name="Ascension Paths" hidden="false" id="6e16-6c96-562e-b9f8" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
-        <entryLink import="true" name="Paths" hidden="false" id="4978-3157-b73a-97de" type="selectionEntryGroup" targetId="abc9-d69f-27e3-5345" flatten="true"/>
-        <entryLink import="true" name="Blighted Wilds Paths" hidden="false" id="308c-49a6-374b-cf6c" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
+        <entryLink import="true" name="Sendas de la Costa Devastada" hidden="false" id="0705-a551-d1f0-1a47" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
+        <entryLink import="true" name="Sendas de ascensión" hidden="false" id="6e16-6c96-562e-b9f8" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="4978-3157-b73a-97de" type="selectionEntryGroup" targetId="abc9-d69f-27e3-5345" flatten="true"/>
+        <entryLink import="true" name="Sendas de las Tierras Salvajes Corruptas" hidden="false" id="308c-49a6-374b-cf6c" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -232,7 +232,7 @@ Al inicio del siguiente turno, retira todas las **fichas de destreza marcial** d
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7040-e578-0928-36db"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Manifestation Lores" id="fa90-5e1f-348c-462f" hidden="false" flatten="true">
+    <selectionEntryGroup name="Saberes de manifestaciones" id="fa90-5e1f-348c-462f" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Saber de manifestaciones: Caballeros del Torreón Carmesí" hidden="false" id="b801-7c39-a033-e241" flatten="false">
           <constraints>
@@ -249,11 +249,11 @@ Al inicio del siguiente turno, retira todas las **fichas de destreza marcial** d
     <categoryEntry name="CRIMSON KEEP" id="9e1f-bc4f-fd30-d770" hidden="false"/>
   </categoryEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ravaged Coast" id="383d-a921-5033-393e" targetId="a434-b1ba-922b-7624" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Soulblight Gravelords - Library" id="91d2-4315-20f3-92e2" targetId="dff3-13f8-82b5-3347"/>
-    <catalogueLink type="catalogue" name="❖ Lores" id="1aef-0b28-d46d-8c4e" targetId="0a11-cd61-2a4e-8e04"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Ascension" id="1151-5bcb-9e33-44f4" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="✦ Path to Glory - Blighted Wilds" id="f13f-9a7b-4412-7eca" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Costa Devastada" id="383d-a921-5033-393e" targetId="a434-b1ba-922b-7624" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Señores de la Tumba Pudrealmas - Biblioteca" id="91d2-4315-20f3-92e2" targetId="dff3-13f8-82b5-3347"/>
+    <catalogueLink type="catalogue" name="❖ Saberes" id="1aef-0b28-d46d-8c4e" targetId="0a11-cd61-2a4e-8e04"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Ascensión" id="1151-5bcb-9e33-44f4" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Tierras Salvajes Corruptas" id="f13f-9a7b-4412-7eca" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Príncipe Vhordrai" hidden="false" id="6ec4-2075-ca35-8657" type="selectionEntry" targetId="27bd-98bc-4798-170c">
@@ -264,7 +264,7 @@ Al inicio del siguiente turno, retira todas las **fichas de destreza marcial** d
         <cost name="pts" typeId="points" value="470"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="2956-c3aa-305a-cda8" type="selectionEntryGroup" targetId="0dc3-325d-f922-28cc"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="2956-c3aa-305a-cda8" type="selectionEntryGroup" targetId="0dc3-325d-f922-28cc"/>
       </entryLinks>
       <modifiers>
         <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
@@ -305,13 +305,13 @@ Al inicio del siguiente turno, retira todas las **fichas de destreza marcial** d
         <categoryLink name="CRIMSON KEEP" hidden="false" id="b6ab-1964-d2dc-0107" targetId="9e1f-bc4f-fd30-d770" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Heroic Traits" hidden="false" id="a2cb-5aa8-485c-f54e" type="selectionEntryGroup" targetId="3ece-38b8-4262-666f"/>
-        <entryLink import="true" name="Artefacts of Power" hidden="false" id="6c4f-b3f3-8a05-89b3" type="selectionEntryGroup" targetId="0041-bfb5-ca47-8827"/>
-        <entryLink import="true" name="Paths" hidden="false" id="8b92-ae67-a096-2a7a" type="selectionEntryGroup" targetId="060e-e5b2-5e43-8757"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ae41-278e-6657-46f9" type="selectionEntryGroup" targetId="0dc3-325d-f922-28cc"/>
+        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="a2cb-5aa8-485c-f54e" type="selectionEntryGroup" targetId="3ece-38b8-4262-666f"/>
+        <entryLink import="true" name="Artefactos de poder" hidden="false" id="6c4f-b3f3-8a05-89b3" type="selectionEntryGroup" targetId="0041-bfb5-ca47-8827"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="8b92-ae67-a096-2a7a" type="selectionEntryGroup" targetId="060e-e5b2-5e43-8757"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="ae41-278e-6657-46f9" type="selectionEntryGroup" targetId="0dc3-325d-f922-28cc"/>
         <entryLink import="true" name="Caudillo" hidden="false" id="a703-8bf3-5dab-9370" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renown" hidden="false" id="db25-2b7a-3ae1-f3e6" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Ghyranite Concoctions" hidden="false" id="56b8-6954-936b-e6aa" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="db25-2b7a-3ae1-f3e6" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="56b8-6954-936b-e6aa" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="180"/>
@@ -369,9 +369,9 @@ Al inicio del siguiente turno, retira todas las **fichas de destreza marcial** d
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Paths" hidden="false" id="8cb3-793f-c2f9-32de" type="selectionEntryGroup" targetId="060e-e5b2-5e43-8757"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="e7e3-6283-8f81-3413" type="selectionEntryGroup" targetId="0dc3-325d-f922-28cc"/>
-        <entryLink import="true" name="Renown" hidden="false" id="fd5f-79ad-3249-488a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="8cb3-793f-c2f9-32de" type="selectionEntryGroup" targetId="060e-e5b2-5e43-8757"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="e7e3-6283-8f81-3413" type="selectionEntryGroup" targetId="0dc3-325d-f922-28cc"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="fd5f-79ad-3249-488a" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="180"/>
@@ -394,9 +394,9 @@ Al inicio del siguiente turno, retira todas las **fichas de destreza marcial** d
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Paths" hidden="false" id="a55e-f420-530c-5fc2" type="selectionEntryGroup" targetId="060e-e5b2-5e43-8757"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="6538-30ca-7c86-48ba" type="selectionEntryGroup" targetId="0dc3-325d-f922-28cc"/>
-        <entryLink import="true" name="Renown" hidden="false" id="c9e6-8c5b-c1d6-a1a9" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="a55e-f420-530c-5fc2" type="selectionEntryGroup" targetId="060e-e5b2-5e43-8757"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="6538-30ca-7c86-48ba" type="selectionEntryGroup" targetId="0dc3-325d-f922-28cc"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="c9e6-8c5b-c1d6-a1a9" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="290"/>
@@ -424,10 +424,10 @@ Al inicio del siguiente turno, retira todas las **fichas de destreza marcial** d
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="e155-e5bb-b8b1-e6ae" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Paths" hidden="false" id="1ac3-473a-91bc-47d6" type="selectionEntryGroup" targetId="060e-e5b2-5e43-8757"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c586-3ddc-111f-9fc8" type="selectionEntryGroup" targetId="0dc3-325d-f922-28cc"/>
-        <entryLink import="true" name="Renown" hidden="false" id="a55f-66bd-8312-90d3" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="e155-e5bb-b8b1-e6ae" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="1ac3-473a-91bc-47d6" type="selectionEntryGroup" targetId="060e-e5b2-5e43-8757"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="c586-3ddc-111f-9fc8" type="selectionEntryGroup" targetId="0dc3-325d-f922-28cc"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="a55f-66bd-8312-90d3" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="220"/>
@@ -460,10 +460,10 @@ Al inicio del siguiente turno, retira todas las **fichas de destreza marcial** d
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink import="true" name="Reinforced" hidden="false" id="87a9-3267-31f3-d62c" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Paths" hidden="false" id="ecaf-ed83-32c0-77f3" type="selectionEntryGroup" targetId="060e-e5b2-5e43-8757"/>
-        <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="8739-7200-c7b2-3fb3" type="selectionEntryGroup" targetId="0dc3-325d-f922-28cc"/>
-        <entryLink import="true" name="Renown" hidden="false" id="2bb4-3202-c78d-6353" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
+        <entryLink import="true" name="Reforzado" hidden="false" id="87a9-3267-31f3-d62c" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
+        <entryLink import="true" name="Sendas" hidden="false" id="ecaf-ed83-32c0-77f3" type="selectionEntryGroup" targetId="060e-e5b2-5e43-8757"/>
+        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="8739-7200-c7b2-3fb3" type="selectionEntryGroup" targetId="0dc3-325d-f922-28cc"/>
+        <entryLink import="true" name="Renombre" hidden="false" id="2bb4-3202-c78d-6353" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80"/>
@@ -474,10 +474,10 @@ Al inicio del siguiente turno, retira todas las **fichas de destreza marcial** d
     </entryLink>
   </entryLinks>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Manifestation Lore" hidden="true" id="e97c-dbd8-ee6b-8d4f" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de manifestaciones" hidden="true" id="e97c-dbd8-ee6b-8d4f" defaultAmount="1">
       <entryLinks>
-        <entryLink import="true" name="Manifestation Lores" hidden="false" id="3b05-a38a-1694-4bce" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
-        <entryLink import="true" name="Manifestation Lores" hidden="false" id="1082-9192-33c3-03aa" type="selectionEntryGroup" targetId="fa90-5e1f-348c-462f" flatten="true"/>
+        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="3b05-a38a-1694-4bce" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
+        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="1082-9192-33c3-03aa" type="selectionEntryGroup" targetId="fa90-5e1f-348c-462f" flatten="true"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4eb6-9ff6-1f93-588b"/>
@@ -494,7 +494,7 @@ Al inicio del siguiente turno, retira todas las **fichas de destreza marcial** d
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Spell Lore" hidden="true" id="bd69-5c39-b441-f550" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Saber de hechizos" hidden="true" id="bd69-5c39-b441-f550" defaultAmount="1">
       <categoryLinks>
         <categoryLink name="Army Composition" hidden="false" id="8d06-103b-5f2f-8e47" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
       </categoryLinks>
@@ -502,7 +502,7 @@ Al inicio del siguiente turno, retira todas las **fichas de destreza marcial** d
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d5b2-86f8-4aed-853f"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Spell Lores" hidden="false" id="36ff-83c9-fbff-6c71" type="selectionEntryGroup" targetId="53d1-4741-9e87-5e4e" flatten="true"/>
+        <entryLink import="true" name="Saberes de hechizos" hidden="false" id="36ff-83c9-fbff-6c71" type="selectionEntryGroup" targetId="53d1-4741-9e87-5e4e" flatten="true"/>
       </entryLinks>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
