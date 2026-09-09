@@ -475,7 +475,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 2D6. Si esta unidad ha cargado este turno, suma 2 a la tirada. Si el resultado supera la característica de Health del objetivo, 1 miniatura del objetivo es abatida automáticamente. Si el objetivo es una **^^Manifestation^^** y el resultado supera su valor de destierro, es desterrada y retirada del juego.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 2D6. Si esta unidad ha cargado este turno, suma 2 a la tirada. Si el resultado supera la característica de Salud del objetivo, 1 miniatura del objetivo es abatida automáticamente. Si el objetivo es una **^^Manifestation^^** y el resultado supera su valor de destierro, es desterrada y retirada del juego.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1470,7 +1470,7 @@ Esta unidad tiene **Ward (6+)** mientras tenga algún **Blissbrew Homonculi**. S
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible que esté en combate.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, las armas a distancia de esta unidad tienen **Disparar in Combat** y también tienen **Crítico (herida automática)** para ataques que tengan como objetivo esa unidad enemiga.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, las armas a distancia de esta unidad tienen **Disparar en combate** y también tienen **Crítico (herida automática)** para ataques que tengan como objetivo esa unidad enemiga.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1722,7 +1722,7 @@ Esta unidad tiene **Ward (6+)** mientras tenga algún **Blissbrew Homonculi**. S
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira tantos dados como miniaturas tenga la unidad objetivo enemiga. Por cada 6, inflige 1 daño mortal al objetivo enemigo.
 Después, puedes elegir 1 de los siguientes efectos:
 • Aplica **Curar (X)** al objetivo amigo, donde X es el número de miniaturas enemigas abatidas por esta habilidad en esta fase.
-• Devuelve a la unidad objetivo amiga miniaturas abatidas cuya característica de Health total sea igual o menor que el número de miniaturas enemigas abatidas por esta habilidad en esta fase.</characteristic>
+• Devuelve a la unidad objetivo amiga miniaturas abatidas cuya característica de Salud total sea igual o menor que el número de miniaturas enemigas abatidas por esta habilidad en esta fase.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1980,7 +1980,7 @@ Si lo **rechaza**, durante el resto del turno:
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final del turno enemigo</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad **^^Sybarite^^** amiga totalmente a 12" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Aplica **Heal (6)** al objetivo o devuélvele miniaturas abatidas cuya característica de Health combinada sea de hasta 3.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Aplica **Heal (6)** al objetivo o devuélvele miniaturas abatidas cuya característica de Salud combinada sea de hasta 3.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -5478,7 +5478,7 @@ Cualquier unidad **^^Hedonistas de Slaanesh Daemon^^**.</description>
                   </constraints>
                   <rules>
                     <rule name="Velocidad masacradora" id="f708-28c6-faed-4441" hidden="true">
-                      <description>Suma 2 a la característica de Health de tu héroe.</description>
+                      <description>Suma 2 a la característica de Salud de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -5680,7 +5680,7 @@ Cualquier unidad **^^Hedonistas de Slaanesh Daemon^^**.</description>
                       <description>Añade el arma **Lengua venenosa de corcel** al pergamino de tu héroe.
 Además, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Move a 14".
-• Cambia la característica de Health a 7.
+• Cambia la característica de Salud a 7.
 • Sustituye la palabra clave **^^Infantry^^** por **^^Cavalry^^**.</description>
                     </rule>
                   </rules>
@@ -5703,7 +5703,7 @@ Además, realiza los siguientes cambios en su pergamino:
                       <description>Añade el arma **Lengua venenosa de corcel exaltado** al pergamino de tu héroe.
 Además, realiza los siguientes cambios en su pergamino:
 • Cambia la característica de Move a 14".
-• Cambia la característica de Health a 8.
+• Cambia la característica de Salud a 8.
 • Sustituye la palabra clave **^^Infantry^^** por **^^Cavalry^^**.</description>
                     </rule>
                   </rules>
@@ -5763,7 +5763,7 @@ Además, realiza los siguientes cambios en su pergamino:
                     <profile name="Paso imperioso" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f2f7-7fd8-3aa3-b5c8">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar la orden &apos;Arrollar&apos; aunque el objetivo tenga una característica de Health mayor que la de esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar la orden &apos;Arrollar&apos; aunque el objetivo tenga una característica de Salud mayor que la de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>

@@ -620,7 +620,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está en combate, elige como objetivo una unidad enemiga en combate con ella. Si esta unidad no está en combate, elige como objetivo una unidad enemiga visible a 12" o menos de ella.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado. Después, si ese daño mortal abatió alguna miniatura enemiga, inflige al objetivo una cantidad de daño mortal igual a su característica de Health.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado. Después, si ese daño mortal abatió alguna miniatura enemiga, inflige al objetivo una cantidad de daño mortal igual a su característica de Salud.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1591,7 +1591,7 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga **^^Infantry^^** o **^^Cavalry^^** en combate con esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si el resultado es igual o inferior a la característica de Health del objetivo, el objetivo tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si el resultado es igual o inferior a la característica de Salud del objetivo, el objetivo tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -3064,7 +3064,7 @@ Si la tirada de cántico fue de 9+, se aplican todos los efectos anteriores</cha
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de disparo</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 15" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si el resultado es igual o inferior a la característica de Health de esa unidad enemiga, durante el resto de la fase puedes volver a tirar las tiradas de impacto fallidas de los ataques de esta unidad cuyo objetivo sea esa unidad enemiga.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si el resultado es igual o inferior a la característica de Salud de esa unidad enemiga, durante el resto de la fase puedes volver a tirar las tiradas de impacto fallidas de los ataques de esta unidad cuyo objetivo sea esa unidad enemiga.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -4117,7 +4117,7 @@ Cualquier unidad **^^Hijas de Khaine^^**</description>
                   </modifiers>
                   <rules>
                     <rule name="Hechicera del tormento sangriento" id="82f4-9dcc-1441-cda7" hidden="true">
-                      <description>Cambia la característica de Health de tu héroe a 6, su característica de Move a 8" y su característica de Save a 5+.
+                      <description>Cambia la característica de Salud de tu héroe a 6, su característica de Move a 8" y su característica de Save a 5+.
 Tu héroe tiene la palabra clave **^^Wizard (1)^^**, la habilidad &apos;Mirada fija de tormento sangriento&apos; y las siguientes opciones de regimiento:
 Cualquier unidad **^^Hijas de Khaine^^**</description>
                     </rule>
@@ -4127,7 +4127,7 @@ Cualquier unidad **^^Hijas de Khaine^^**</description>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de disparo</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 18" o menos de esta unidad.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, tira un número de dados igual a la característica de Health del objetivo. Resta 1 a cada tirada si el objetivo es un **^^Monster^^**. Por cada 5+, inflige 1 de daño mortal al objetivo.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, tira un número de dados igual a la característica de Salud del objetivo. Resta 1 a cada tirada si el objetivo es un **^^Monster^^**. Por cada 5+, inflige 1 de daño mortal al objetivo.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -4151,7 +4151,7 @@ Cualquier unidad **^^Hijas de Khaine^^**</description>
                   </modifiers>
                   <rules>
                     <rule name="Comandante Escama de Hierro" id="863b-6003-0932-c0f0" hidden="true">
-                      <description>Cambia la característica de Health de tu héroe a 6, su característica de Move a 8" y su característica de Save a 5+.
+                      <description>Cambia la característica de Salud de tu héroe a 6, su característica de Move a 8" y su característica de Save a 5+.
 Tu héroe tiene la habilidad &apos;Puño de los Scáthborn&apos; y las siguientes opciones de regimiento:
 Cualquier unidad **^^Hijas de Khaine^^**</description>
                     </rule>
@@ -4235,7 +4235,7 @@ Cualquier unidad **^^Hijas de Khaine^^**</description>
                       <description>Solo **Campeón de la Arena** o **Sacerdotisa de Khaine**. Añade el arma **Cascos y dientes de corcel oscuro** al pergamino de tu héroe.
 Además, haz los siguientes cambios en el pergamino de tu héroe:
 • Cambia la característica de Move a 14".
-• Cambia la característica de Health a 7.
+• Cambia la característica de Salud a 7.
 • Sustituye la palabra clave **^^Infantry^^** por la palabra clave **^^Cavalry^^**.</description>
                     </rule>
                   </rules>
@@ -4278,7 +4278,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <rule name="Santuario Khainita" id="7769-cb97-6b53-9628" hidden="true">
                       <description>Solo **Hechicera del tormento sangriento**. Añade las armas **Mirada fija de tormento sangriento** y **Hojas de guardianas** y la habilidad &apos;Invocar el asesinato&apos; al pergamino de tu héroe.
 Además, haz los siguientes cambios en el pergamino de tu héroe:
-• Cambia la característica de Health a 12.
+• Cambia la característica de Salud a 12.
 • Cambia la característica de Save a 4+.
 • Cambia la característica de Control a 5.
 • Sustituye la palabra clave **^^Infantry^^** por la palabra clave **^^War Machine^^**.</description>
@@ -4313,7 +4313,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                     <rule name="Caldero de Sangre" id="6742-bdf1-08f3-bc3e" hidden="true">
                       <description>Solo **Campeón de la Arena** o **Sacerdotisa de Khaine**. Añade las armas **Hojas de guardianas** y **Espada del avatar** al pergamino de tu héroe.
 Además, haz los siguientes cambios en el pergamino de tu héroe:
-• Cambia la característica de Health a 12.
+• Cambia la característica de Salud a 12.
 • Cambia la característica de Save a 4+.
 • Cambia la característica de Control a 5.
 • Sustituye la palabra clave **^^Infantry^^** por la palabra clave **^^War Machine^^**.</description>
@@ -4625,7 +4625,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                   </constraints>
                   <rules>
                     <rule name="Reforzado con hierro" id="c5d0-ad72-4588-b318" hidden="true">
-                      <description>Solo **^^War Machine^^**. Añade 2 a la característica de Health de tu héroe.</description>
+                      <description>Solo **^^War Machine^^**. Añade 2 a la característica de Salud de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -4803,7 +4803,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                   </constraints>
                   <rules>
                     <rule name="Herencia de Ulgu" id="7ad7-8818-cccc-2055" hidden="true">
-                      <description>Suma 1 a la característica de Health de tu héroe.</description>
+                      <description>Suma 1 a la característica de Salud de tu héroe.</description>
                     </rule>
                   </rules>
                   <modifiers>

@@ -14757,7 +14757,7 @@
         <profile name="Múltiples partes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="9e13-160b-4a87-da4e">
           <characteristics>
             <characteristic name="Keywords" id="db71-825d-3b88-6be7" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="d397-af49-6056-8a09" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Health de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y todas sus partes se retiran del juego.</characteristic>
+            <characteristic name="Effect" id="d397-af49-6056-8a09" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Salud de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y todas sus partes se retiran del juego.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -14807,7 +14807,7 @@
         <profile name="Múltiples partes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="676c-91fa-8432-ee8d">
           <characteristics>
             <characteristic name="Keywords" id="9ed2-a67d-f047-7f70" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="2112-d788-edc-c9c2" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Health de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y ambas partes se retiran del juego.</characteristic>
+            <characteristic name="Effect" id="2112-d788-edc-c9c2" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Salud de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y ambas partes se retiran del juego.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -15181,7 +15181,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         <profile name="Múltiples partes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="86da-767f-a1d7-9b8a">
           <characteristics>
             <characteristic name="Keywords" id="434c-ed87-d083-fa30" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="31bb-78b1-9282-62e1" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Health de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y ambas partes se retiran del juego.</characteristic>
+            <characteristic name="Effect" id="31bb-78b1-9282-62e1" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Salud de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y ambas partes se retiran del juego.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -15653,7 +15653,7 @@ Esta **^^Manifestation^^** puede tener un máximo de 6 **puntos de vorágine** a
         <profile name="Múltiples partes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="7f8e-f2c5-2638-f35d">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Health de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y ambas partes se retiran del juego.
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Salud de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y ambas partes se retiran del juego.
 Cada vez que esta **^^Manifestation^^** se mueva, ambas partes deben terminar a 9" o menos la una de la otra.
 Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y sombra**.</characteristic>
           </characteristics>
@@ -15711,7 +15711,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
         <profile name="Múltiples partes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ba4a-41ff-85b6-17e7">
           <characteristics>
             <characteristic name="Keywords" id="1d02-2f0d-4af8-2ee8" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="9a99-b896-4fe2-087c" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Health de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y ambas partes se retiran del juego.</characteristic>
+            <characteristic name="Effect" id="9a99-b896-4fe2-087c" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando se le asigne una cantidad de puntos de daño igual a la característica de Salud de esta **^^Manifestation^^**, esta **^^Manifestation^^** es destruida y ambas partes se retiran del juego.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -16366,7 +16366,7 @@ Completas esta táctica de batalla al final de tu turno si este turno se han des
                 <profile name="Asedio de cenizas" typeId="abf8-a239-9e66-54c1" typeName="Battle Tactic Card" hidden="false" id="da1d-2f3d-f13b-9145">
                   <characteristics>
                     <characteristic name="Card" typeId="67f1-ce6d-1cf4-a4df"/>
-                    <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Form a Wall:
+                    <characteristic name="Affray" typeId="1047-3e43-674d-dc6c">Forma a Wall:
 Completas esta táctica de batalla al final de tu turno si hay 2 o más unidades amigas totalmente fuera de territorio amigo, totalmente a 6" o menos de territorio amigo y a 3" o menos entre sí.</characteristic>
                     <characteristic name="Strike" typeId="94d4-173e-0f65-c569">Outpost Territory:
 Completas esta táctica de batalla al final de tu turno si controlas un marcador de objetivo en territorio enemigo y ese marcador de objetivo está disputado por:

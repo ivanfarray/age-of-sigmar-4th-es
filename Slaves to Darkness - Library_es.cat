@@ -69,7 +69,7 @@
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de los siguientes efectos:
 ***Escupeinmundicia:*** Elige una unidad enemiga a 6" o menos de esta unidad y tira tantos dados como miniaturas tenga esa unidad, hasta un máximo de 7. Por cada 3+, inflige 1 daño mortal a esa unidad.
-***Devoracráneos:*** Elige una unidad enemiga en combate con esta unidad y tira un dado. Si la tirada supera el atributo Health de esa unidad, 1 miniatura de esa unidad es abatida y puedes aplicar **Curar (X)** a esta unidad, donde **X** es el atributo Health de esa unidad.
+***Devoracráneos:*** Elige una unidad enemiga en combate con esta unidad y tira un dado. Si la tirada supera el atributo Salud de esa unidad, 1 miniatura de esa unidad es abatida y puedes aplicar **Curar (X)** a esta unidad, donde **X** es el atributo Salud de esa unidad.
 ***Devorahechizos:*** Elige una **^^Manifestation^^** a 12" o menos de esta unidad y tira un dado. Con un 2+, queda desterrada y se retira del juego. Además, inflige D3 de daño mortal a la unidad que la invocó.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -960,7 +960,7 @@
             <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige un Hero enemigo en combate con esta unidad como blanco y, después, haz una tirada de lanzamiento de 2D6.</characteristic>
-            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Si la tirada de lanzamiento sin modificar supera el atributo Health del blanco, este queda destruido automáticamente. Durante el resto de la batalla, esa unidad no puede elegirse como blanco de una habilidad que permita colocar una unidad de reemplazo.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Si la tirada de lanzamiento sin modificar supera el atributo Salud del blanco, este queda destruido automáticamente. Durante el resto de la batalla, esa unidad no puede elegirse como blanco de una habilidad que permita colocar una unidad de reemplazo.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Hechizo^^**</characteristic>
           </characteristics>
           <attributes>
@@ -7854,7 +7854,7 @@ Cualquier unidad **^^Darkoath^^**.</description>
                   </modifierGroups>
                   <rules>
                     <rule name="Bruto ogroide" id="e73e-d18e-38dd-114f" hidden="true">
-                      <description>Cambia el atributo Move de tu héroe a 6" y su atributo Health a 8. Tu héroe obtiene la habilidad &apos;Furia del mirmidón&apos; y las siguientes opciones de regimiento:
+                      <description>Cambia el atributo Move de tu héroe a 6" y su atributo Salud a 8. Tu héroe obtiene la habilidad &apos;Furia del mirmidón&apos; y las siguientes opciones de regimiento:
 Cualquier unidad **^^Esclavos de la Oscuridad^^**.</description>
                     </rule>
                   </rules>
@@ -7905,7 +7905,7 @@ Cualquier unidad **^^Esclavos de la Oscuridad^^**.</description>
                       <description>Añade el arma **Cascos poderosos de corcel demoníaco** a la hoja de unidad de tu héroe.
 Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
 • Cambia el atributo Move a 10".
-• Cambia el atributo Health a 8.
+• Cambia el atributo Salud a 8.
 • Sustituye la clave **^^Infantry^^** por la clave **^^Cavalry^^**.</description>
                     </rule>
                   </rules>
@@ -7926,7 +7926,7 @@ Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
                       <description>Añade el arma **Cascos pisoteadores de los corceles del Caos Hooves** a la hoja de unidad de tu héroe.
 Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
 • Cambia el atributo Move a 10".
-• Cambia el atributo Health a 10.
+• Cambia el atributo Salud a 10.
 • Cambia el atributo Save a 5+.
 • Sustituye la clave **^^Infantry^^** por la clave **^^War Machine^^**.</description>
                     </rule>
@@ -7962,7 +7962,7 @@ Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
                       <description>Añade el arma **Garras de poderosa bestia caótica** a la hoja de unidad de tu héroe.
 Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
 • Cambia el atributo Move a 10".
-• Cambia el atributo Health a 14.
+• Cambia el atributo Salud a 14.
 • Cambia el atributo Control a 5.
 • Sustituye la clave **^^Infantry^^** por la clave **^^Monster^^**.</description>
                     </rule>
@@ -8196,7 +8196,7 @@ Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
                   </modifiers>
                   <rules>
                     <rule name="Bestia obstinada" id="2d4e-580c-3e99-d93a" hidden="true">
-                      <description>Solo **^^Monster^^**. Añade 2 a la característica de Health de tu héroe.</description>
+                      <description>Solo **^^Monster^^**. Añade 2 a la característica de Salud de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8364,7 +8364,7 @@ Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
                   </constraints>
                   <rules>
                     <rule name="Fortaleza blasfema" id="5e8f-c19f-eb3e-f130" hidden="true">
-                      <description>Solo **^^Infantry^^**. Suma 1 a la característica de Health de tu héroe.</description>
+                      <description>Solo **^^Infantry^^**. Suma 1 a la característica de Salud de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>

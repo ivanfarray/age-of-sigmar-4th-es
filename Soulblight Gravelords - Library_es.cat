@@ -434,7 +434,7 @@
         <profile name="Nexo de energía de muerte" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="1941-6112-1832-1055">
           <characteristics>
             <characteristic name="Keywords" id="a10d-f3eb-1922-118a" hidden="false" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" id="a8e5-1ef5-4895-efe1" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando una unidad **^^Deathrattle^^** o **^^Deadwalkers^^** amiga totalmente a 12" o menos de esta unidad sea elegida como blanco de la habilidad &apos;Invocación mortal&apos;, suma D3 a la cantidad de puntos de daño que pueden curarse o al atributo Health combinado de las miniaturas que pueden devolverse.</characteristic>
+            <characteristic name="Effect" id="a8e5-1ef5-4895-efe1" hidden="false" typeId="fd7f-888d-3257-a12b">Cuando una unidad **^^Deathrattle^^** o **^^Deadwalkers^^** amiga totalmente a 12" o menos de esta unidad sea elegida como blanco de la habilidad &apos;Invocación mortal&apos;, suma D3 a la cantidad de puntos de daño que pueden curarse o al atributo Salud combinado de las miniaturas que pueden devolverse.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Yellow</attribute>
@@ -611,7 +611,7 @@
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Esta unidad puede lanzar este hechizo más de una vez por fase. Elige como objetivo una unidad visible totalmente a 18" o menos de esta unidad que no haya sido elegida como objetivo de este hechizo este turno y después haz una tirada de lanzamiento de 2D6.</characteristic>
             <characteristic name="Effect" typeId="1cb9-a-1345-907f">Si el objetivo es una unidad enemiga, inflígele D3 de daño mortal. Si el objetivo es una unidad amiga **^^Death^^**, elige 1 de los siguientes efectos:
-• Devuelve a la unidad objetivo un número de miniaturas abatidas con una característica de Health combinada de hasta 3.
+• Devuelve a la unidad objetivo un número de miniaturas abatidas con una característica de Salud combinada de hasta 3.
 • El objetivo tiene **^^Ward (5+)^^** hasta el inicio de tu siguiente turno.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Hechizo^^**</characteristic>
           </characteristics>
@@ -1269,7 +1269,7 @@ Puede aplicarse más de 1 efecto a una unidad al mismo tiempo; sin embargo, cada
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó este turno, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si la tirada es igual o inferior al atributo Health del blanco, inflige al blanco una cantidad de daño mortal igual a la tirada.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si la tirada es igual o inferior al atributo Salud del blanco, inflige al blanco una cantidad de daño mortal igual a la tirada.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2564,7 +2564,7 @@ Si has elegido un blanco, después de moverse, esta unidad y el blanco deben est
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó este turno, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira tantos dados como el atributo Health del blanco. Por cada 6, inflige 1 daño mortal al blanco.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira tantos dados como el atributo Salud del blanco. Por cada 6, inflige 1 daño mortal al blanco.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -6457,7 +6457,7 @@ Cobertura, Infranqueable**</description>
         <profile name="Múltiples partes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d0c9-20a2-a2ac-39b8">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando se asigne a esta **^^Manifestation^^** una cantidad de puntos de daño igual a su atributo Health, esta **^^Manifestation^^** queda destruida y sus dos partes se retiran del juego.
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando se asigne a esta **^^Manifestation^^** una cantidad de puntos de daño igual a su atributo Salud, esta **^^Manifestation^^** queda destruida y sus dos partes se retiran del juego.
 Cada vez que esta **^^Manifestation^^** se mueva, sus dos partes deben terminar a 9" o menos entre sí.
 Cada parte de esta **^^Manifestation^^** está armada con **Mordiscos drenantes**.</characteristic>
           </characteristics>
@@ -7100,7 +7100,7 @@ Cualquier unidad **^^Deathrattle^^**.</description>
                       <description>Añade el arma **Cascos de corcel no muerto** a la hoja de unidad de tu héroe.
 Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
 • Cambia el atributo Move a 10".
-• Cambia el atributo Health a 8.
+• Cambia el atributo Salud a 8.
 • Cambia el atributo Save a 5+.
 • Sustituye la clave **^^Infantry^^** por la clave **^^Cavalry^^**.</description>
                     </rule>
@@ -7138,7 +7138,7 @@ Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
                       <description>Añade el arma **Garras de poderosa bestia de la tumba** y la habilidad &apos;Daños de batalla&apos; a la hoja de unidad de tu héroe.
 Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
 • Cambia el atributo Move a 12".
-• Cambia el atributo Health a 16.
+• Cambia el atributo Salud a 16.
 • Cambia el atributo Control a 5.
 • Cambia el atributo Save a 4+.
 • Sustituye la clave **^^Infantry^^** por las siguientes claves: **^^Monster^^**, **^^Volar^^**.</description>
@@ -7164,7 +7164,7 @@ Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
                       <description>Añade el arma **Hojas de la hueste espectral** a la hoja de unidad de tu héroe.
 Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
 • Cambia el atributo Move a 10".
-• Cambia el atributo Health a 12.
+• Cambia el atributo Salud a 12.
 • Cambia el atributo Control a 5.
 • Cambia el atributo Save a 4+.
 • Sustituye la clave **^^Infantry^^** por las siguientes claves: **^^War Machine^^**, **^^Volar^^**.</description>
@@ -7384,7 +7384,7 @@ Esta habilidad solo puede usarla un héroe **^^Infantry^^**.</characteristic>
                   </constraints>
                   <rules>
                     <rule name="Bestia legendaria" id="2519-2db4-1186-a6f1" hidden="true">
-                      <description>Solo **^^Monster^^**. Añade 2 a la característica de Health de tu héroe.</description>
+                      <description>Solo **^^Monster^^**. Añade 2 a la característica de Salud de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -7609,7 +7609,7 @@ Esta habilidad solo puede usarla un héroe **^^Infantry^^**.</characteristic>
                   </constraints>
                   <rules>
                     <rule name="Fortaleza oscura" id="991e-69b8-6727-ce99" hidden="true">
-                      <description>Solo **^^Infantry^^**. Suma 1 a la característica de Health de tu héroe.</description>
+                      <description>Solo **^^Infantry^^**. Suma 1 a la característica de Salud de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>

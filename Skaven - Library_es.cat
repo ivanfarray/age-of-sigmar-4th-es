@@ -2562,7 +2562,7 @@ Después, elige hasta 3 unidades enemigas que esta unidad haya atravesado durant
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la batalla:
 • Suma 1 al atributo Attacks de las armas de combate del blanco.
 • Si una habilidad fuera a curar o devolver alguna miniatura abatida a la unidad blanco, esa habilidad no cura ningún punto de daño ni le devuelve ninguna miniatura abatida.
-• Si el blanco es reemplazado y la unidad de reemplazo tiene 1 miniatura, asigna a esa unidad de reemplazo una cantidad de puntos de daño igual a la mitad de X (redondeando hacia arriba), donde X es su atributo Health menos la cantidad de puntos de daño que tenga asignados (si los hay).
+• Si el blanco es reemplazado y la unidad de reemplazo tiene 1 miniatura, asigna a esa unidad de reemplazo una cantidad de puntos de daño igual a la mitad de X (redondeando hacia arriba), donde X es su atributo Salud menos la cantidad de puntos de daño que tenga asignados (si los hay).
 • Si el blanco es reemplazado y la unidad de reemplazo tiene más de 1 miniatura, la mitad de las miniaturas de esa unidad de reemplazo (redondeando hacia arriba) son abatidas automáticamente.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -4175,7 +4175,7 @@ Cobertura**</description>
         <profile name="Múltiples partes" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="52c7-e5b8-e2b0-1bfd">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando se asigne a esta **^^Manifestation^^** una cantidad de puntos de daño igual a su atributo Health, esta **^^Manifestation^^** queda destruida y todas sus partes se retiran del juego.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando se asigne a esta **^^Manifestation^^** una cantidad de puntos de daño igual a su atributo Salud, esta **^^Manifestation^^** queda destruida y todas sus partes se retiran del juego.</characteristic>
           </characteristics>
           <attributes>
             <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
@@ -6825,7 +6825,7 @@ Cualquier unidad **^^Skryre^^**.</description>
                         <rule name="Chasis de máquina de asedio" id="6fc2-84ec-0659-41a4" hidden="true">
                           <description>Añade el arma **Masa aplastante** a la hoja de unidad de tu héroe.
 Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
-• Cambia el atributo Health a 15.
+• Cambia el atributo Salud a 15.
 • Cambia el atributo Save a 4+.
 • Sustituye la clave **^^Infantry^^** por la clave **^^War Machine^^**.</description>
                         </rule>
@@ -6852,7 +6852,7 @@ Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
                           <description>Añade el arma **Colmillos de cincel de bestia roedora** a la hoja de unidad de tu héroe.
 Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
 • Cambia el atributo Move a 9".
-• Cambia el atributo Health a 7.
+• Cambia el atributo Salud a 7.
 • Cambia el atributo Save a 4+.
 • Sustituye la clave **^^Infantry^^** por la clave **^^Cavalry^^**.</description>
                         </rule>
@@ -6887,7 +6887,7 @@ Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
                         <rule name="Horror monstruoso" id="f5fa-3178-92c3-cfb4" hidden="true">
                           <description>Añade el arma **Extremidades monstruosas de bestia moldeada** y la habilidad &apos;Daños de batalla&apos; a la hoja de unidad de tu héroe.
 Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
-• Cambia el atributo Health a 14.
+• Cambia el atributo Salud a 14.
 • Cambia el atributo Save a 4+.
 • Cambia el atributo Control a 5.
 • Sustituye la clave **^^Infantry^^** por la clave **^^Monster^^**.</description>
@@ -7301,7 +7301,7 @@ Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
                   </constraints>
                   <rules>
                     <rule name="Hinchado" id="2b14-9bc0-ae17-c90e" hidden="true">
-                      <description>Suma 1 a la característica de Health de tu héroe.</description>
+                      <description>Suma 1 a la característica de Salud de tu héroe.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -8170,7 +8170,7 @@ Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
                     <profile name="Tocado por la piedra bruja" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="caa5-3bc9-a8f6-5920">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Health de esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Salud de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -8509,7 +8509,7 @@ Además, haz los siguientes cambios en la hoja de unidad de tu héroe:
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, puedes devolver a esta unidad hasta 3 miniaturas abatidas con un atributo Health de 1 o devolverle 1 miniatura abatida con un atributo Health de hasta 4.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, puedes devolver a esta unidad hasta 3 miniaturas abatidas con un atributo Salud de 1 o devolverle 1 miniatura abatida con un atributo Salud de hasta 4.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>

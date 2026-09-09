@@ -627,7 +627,7 @@
             <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">7</characteristic>
             <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Esta unidad puede lanzar este hechizo más de una vez por fase. Elige como objetivo una unidad visible totalmente a 18" o menos de esta unidad que no haya sido elegida como objetivo de este hechizo este turno y después haz una tirada de lanzamiento de 2D6.</characteristic>
             <characteristic name="Effect" typeId="1cb9-a-1345-907f">Si el objetivo es una unidad enemiga, inflígele D3 de daño mortal. Si el objetivo es una unidad amiga **^^Death^^**, elige 1 de los siguientes efectos:
-• Devuelve a la unidad objetivo un número de miniaturas abatidas con una característica de Health combinada de hasta 3.
+• Devuelve a la unidad objetivo un número de miniaturas abatidas con una característica de Salud combinada de hasta 3.
 • El objetivo tiene **^^Ward (5+)^^** hasta el inicio de tu siguiente turno.</characteristic>
             <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Hechizo^^**</characteristic>
           </characteristics>
@@ -765,7 +765,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no está en combate, elige como objetivo una unidad amiga visible **^^Cosechahuesos Ossiarch^^** totalmente a 12" o menos de esta unidad que esté en combate y no haya usado una habilidad **^^Relentless Discipline^^** esta fase.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Gasta un número de puntos de **disciplina implacable** igual a la característica de Health del objetivo. Si el objetivo está reforzado y tiene más de la mitad de sus miniaturas iniciales, gasta un punto de **disciplina implacable** adicional. El objetivo puede usar 2 habilidades **^^Combatir^^** esta fase. Sin embargo, después de usar la primera, el objetivo tiene **^^Strike-last^^** durante el resto del turno. Además, el objetivo no puede usar habilidades **^^Relentless Discipline^^** durante el resto de la fase.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Gasta un número de puntos de **disciplina implacable** igual a la característica de Salud del objetivo. Si el objetivo está reforzado y tiene más de la mitad de sus miniaturas iniciales, gasta un punto de **disciplina implacable** adicional. El objetivo puede usar 2 habilidades **^^Combatir^^** esta fase. Sin embargo, después de usar la primera, el objetivo tiene **^^Strike-last^^** durante el resto del turno. Además, el objetivo no puede usar habilidades **^^Relentless Discipline^^** durante el resto de la fase.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1856,7 +1856,7 @@ Después de una tirada, si el objetivo tiene 8 o más **puntos de marchitamiento
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está **llena**, elige como objetivo una unidad amiga visible **^^Cosechahuesos Ossiarch^^** totalmente a 12" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Devuelve 1 miniatura abatida a la unidad objetivo. Si el objetivo tiene una característica de Health de 1, devuélvele 3 miniaturas abatidas en su lugar. Después, esta unidad está **vacía**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Devuelve 1 miniatura abatida a la unidad objetivo. Si el objetivo tiene una característica de Salud de 1, devuélvele 3 miniaturas abatidas en su lugar. Después, esta unidad está **vacía**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2917,7 +2917,7 @@ Cobertura, Inestable**</description>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga visible de **Guardia mortek**, **Triaxes mortek** o **Reptador mortek** que no haya usado una habilidad **^^Attack^^** esta fase y esté totalmente a 12" o menos de esta unidad. Inmediatamente después de resolver la habilidad **^^Combatir^^** usada por esta unidad, el objetivo puede ser elegido para usar una habilidad **^^Disparar^^** como si fuera tu fase de disparo o una habilidad **^^Combatir^^**. Si se elige hacerlo:
 • Añade 1 a las tiradas de impacto de los ataques del objetivo durante el resto del turno.
-• Las armas a distancia del objetivo (si las hay) tienen **Disparar in Combat** durante el resto del turno.
+• Las armas a distancia del objetivo (si las hay) tienen **Disparar en combate** durante el resto del turno.
 • Si el objetivo usa una habilidad **^^Disparar^^** y no está en combate, todos sus ataques de disparo deben tener como objetivo unidades en combate con esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -4094,7 +4094,7 @@ También puedes elegir una forma de guerra para tu héroe.</description>
                   </modifierGroups>
                   <rules>
                     <rule name="Comandante kavalos" id="f5de-1924-d000-e68d" hidden="true">
-                      <description>Cambia la característica de Health de tu héroe a 7, su característica de Move a 10" y su característica de Save a 3+.
+                      <description>Cambia la característica de Salud de tu héroe a 7, su característica de Move a 10" y su característica de Save a 3+.
 Sustituye la palabra clave **^^Infantry^^** de tu héroe por la palabra clave **^^Cavalry^^**. Cambia el número que sigue a la palabra clave **^^Relentless Discipline^^** de tu héroe a 6.
 La **Hoja de nadirita** de tu héroe obtiene **Carga (+1 Daño)** y tu héroe obtiene el arma **Cascos, dientes y colas con púas de corcel kavalos**.
 Tu héroe tiene las siguientes opciones de regimiento:
@@ -4128,7 +4128,7 @@ Cualquier unidad **^^Cosechahuesos Ossiarch^^**</description>
                   </modifierGroups>
                   <rules>
                     <rule name="Comandante de carro" id="5502-1d7f-eb2d-0cad" hidden="true">
-                      <description>Cambia la característica de Health de tu héroe a 12, su característica de Move a 10" y su característica de Save a 3+.
+                      <description>Cambia la característica de Salud de tu héroe a 12, su característica de Move a 10" y su característica de Save a 3+.
 Sustituye la palabra clave **^^Infantry^^** de tu héroe por la palabra clave **^^War Machine^^**. Cambia el número que sigue a la palabra clave **^^Relentless Discipline^^** de tu héroe a 6.
 La **Hoja de nadirita** de tu héroe obtiene **Carga (+1 Daño)** y tu héroe obtiene el arma **Cascos, dientes y colas con púas de corcel kavalos**.
 Tu héroe tiene las siguientes opciones de regimiento:
@@ -4175,7 +4175,7 @@ Cualquier unidad **^^Cosechahuesos Ossiarch^^**</description>
                   </modifierGroups>
                   <rules>
                     <rule name="Artífice de almas" id="b132-c4aa-88b8-cb88" hidden="true">
-                      <description>Cambia la característica de Health de tu héroe a 6 y su característica de Move a 6".
+                      <description>Cambia la característica de Salud de tu héroe a 6 y su característica de Move a 6".
 Tu héroe tiene la palabra clave **^^Wizard (2)^^**, la habilidad &apos;Guía de almas&apos; y las siguientes opciones de regimiento:
 Cualquier unidad **^^Cosechahuesos Ossiarch^^**
 También puedes elegir una forma de guerra para tu héroe.</description>
@@ -4236,7 +4236,7 @@ También puedes elegir una forma de guerra para tu héroe.</description>
                     <rule name="Guardián del imperio" id="78a0-f14e-4fc2-a97a" hidden="true">
                       <description>Sustituye el arma de combate de tu héroe por **Armas de guardián**.
 Además, haz los siguientes cambios en el pergamino de tu héroe:
-• Cambia la característica de Health a 8.
+• Cambia la característica de Salud a 8.
 **Nota del diseñador:** *Recomendamos una peana de 50mm o 60mm para esta forma de guerra.*</description>
                     </rule>
                   </rules>
@@ -4272,7 +4272,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                       <description>Añade las armas **Armas titánicas** y **Apéndices aplastantes** y la habilidad &apos;Daños de batalla&apos; al pergamino de tu héroe.
 Además, haz los siguientes cambios en el pergamino de tu héroe:
 • Cambia la característica de Move a 8".
-• Cambia la característica de Health a 16.
+• Cambia la característica de Salud a 16.
 • Sustituye la palabra clave **^^Infantry^^** por la palabra clave **^^War Machine^^**.
 **Nota del diseñador:** *Recomendamos una peana de 170x90mm para esta forma de guerra.*</description>
                     </rule>
@@ -4294,7 +4294,7 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
                       <description>Añade el arma **Hojas monstruosas** al pergamino de tu héroe.
 Además, haz los siguientes cambios en el pergamino de tu héroe:
 • Cambia la característica de Move a 6".
-• Cambia la característica de Health a 12.
+• Cambia la característica de Salud a 12.
 • Sustituye la palabra clave **^^Infantry^^** por la palabra clave **^^War Machine^^**.
 **Nota del diseñador:** *Recomendamos una peana de 105x70mm para esta forma de guerra.*</description>
                     </rule>
@@ -4985,7 +4985,7 @@ Añade la habilidad &apos;Líder sin igual&apos; al pergamino de tu héroe.</des
                   </constraints>
                   <rules>
                     <rule name="Constructo fortificado" id="08d3-d959-2c04-68c9" hidden="true">
-                      <description>Suma 2 a la característica de Health de tu héroe.</description>
+                      <description>Suma 2 a la característica de Salud de tu héroe.</description>
                     </rule>
                   </rules>
                   <modifiers>
@@ -5593,7 +5593,7 @@ Añade 2" a la característica de Move de tu héroe.</description>
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad tiene una característica de Health de 1, devuélvele D3 miniaturas abatidas. En caso contrario, aplica **Heal (3)** a esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad tiene una característica de Salud de 1, devuélvele D3 miniaturas abatidas. En caso contrario, aplica **Heal (3)** a esta unidad.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>

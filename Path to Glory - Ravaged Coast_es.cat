@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="true" id="a434-b1ba-922b-7624" name="✦ Path to Glory - Ravaged Coast" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="4" revision="39" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Emberstone Vault" hidden="true" id="9690-5cb8-3ced-af49">
+    <selectionEntry type="upgrade" import="true" name="Reserva de ascualita" hidden="true" id="9690-5cb8-3ced-af49">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Emberstone Shards" hidden="false" id="2dec-0688-7fb3-b6e8"/>
-        <selectionEntry type="upgrade" import="true" name="Emberstone Shards (To Date)" hidden="false" id="6dd0-f941-3178-b297"/>
+        <selectionEntry type="upgrade" import="true" name="Fragmentos de ascualita" hidden="false" id="2dec-0688-7fb3-b6e8"/>
+        <selectionEntry type="upgrade" import="true" name="Fragmentos de ascualita (hasta la fecha)" hidden="false" id="6dd0-f941-3178-b297"/>
       </selectionEntries>
       <constraints>
         <constraint type="min" value="-1" field="selections" scope="roster" shared="true" id="bf8c-e620-fb13-5066-min"/>
@@ -36,14 +36,14 @@
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Campaign Progress" hidden="true" id="269b-c85d-cc8d-be04" defaultAmount="1">
+    <selectionEntry type="upgrade" import="true" name="Progreso de campaña" hidden="true" id="269b-c85d-cc8d-be04" defaultAmount="1">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0047-81e1-f99a-5693"/>
       </constraints>
       <selectionEntryGroups>
         <selectionEntryGroup id="9704-5304-90d2-960a" hidden="false" flatten="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Gnaw&apos;s Edge Unlocked" hidden="false" id="2b1b-6453-2d52-c999" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Filo de la Roedura desbloqueado" hidden="false" id="2b1b-6453-2d52-c999" sortIndex="1">
               <constraints>
                 <constraint type="min" value="0" field="selections" scope="roster" shared="true" id="1c82-dc2c-0dee-8839-min"/>
                 <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="1c82-dc2c-0dee-8839-max"/>
@@ -61,12 +61,12 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Hateful Shores Unlocked" hidden="false" id="937c-808f-f98f-8d7c" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Costas Hostiles desbloqueadas" hidden="false" id="937c-808f-f98f-8d7c" sortIndex="2">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9a42-06d8-244e-c746"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Hel&apos;s Claw Unlocked" hidden="false" id="6cfb-b533-5502-33eb" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Garra de Hel desbloqueada" hidden="false" id="6cfb-b533-5502-33eb" sortIndex="3">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1d9e-5936-252c-9128"/>
               </constraints>
@@ -214,7 +214,7 @@
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Ravaged Coast Paths" id="7bae-23cb-3977-3ece" hidden="true" flatten="true" publicationId="9787-0c03-7559-2125">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Path of the Artillerist" hidden="true" id="57cf-c347-13b8-a2bd" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Artillero" hidden="true" id="57cf-c347-13b8-a2bd" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="8237-e983-936b-b9b9" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -500,7 +500,7 @@ While this unit is contesting an objective that you control, add 6&quot; to the
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Behemoth" hidden="true" id="6452-2424-6f47-a8e6" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Behemoth" hidden="true" id="6452-2424-6f47-a8e6" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="d8d6-b79b-a877-2b19" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -527,7 +527,7 @@ While this unit is contesting an objective that you control, add 6&quot; to the
                     <profile name="Titán torpe" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="3a5b-f840-0d1c-6e04">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Health de esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Salud de esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -767,7 +767,7 @@ While this unit is contesting an objective that you control, add 6&quot; to the
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Brawler" hidden="true" id="57b3-2954-cf35-016a" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Pendenciero" hidden="true" id="57b3-2954-cf35-016a" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="636e-9417-f568-5676" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -1045,7 +1045,7 @@ While this unit is contesting an objective that you control, add 6&quot; to the
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Bulwark" hidden="true" id="9b7c-dd22-0377-88dc" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Baluarte" hidden="true" id="9b7c-dd22-0377-88dc" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="54cb-4d08-579e-2247" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -1231,7 +1231,7 @@ While this unit is contesting an objective within friendly territory, enemy uni
                     <profile name="Formación de fortaleza" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="8f07-c271-ffc0-dba5">
                       <characteristics>
                         <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras cada miniatura de esta unidad esté disputando un objetivo que no esté dentro del territorio enemigo, las miniaturas enemigas que tengan una característica de Health inferior a la de esta unidad no pueden disputar objetivos mientras estén en combate con esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras cada miniatura de esta unidad esté disputando un objetivo que no esté dentro del territorio enemigo, las miniaturas enemigas que tengan una característica de Salud inferior a la de esta unidad no pueden disputar objetivos mientras estén en combate con esta unidad.</characteristic>
                       </characteristics>
                       <attributes>
                         <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
@@ -1353,7 +1353,7 @@ While this unit is contesting an objective within friendly territory, the **Cha
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Cavalier" hidden="true" id="fd8c-4e2f-33fa-724f" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Caballero" hidden="true" id="fd8c-4e2f-33fa-724f" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="5ca6-8eb6-a2eb-f9bf" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -1645,7 +1645,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Colossus" hidden="true" id="bdeb-97f5-0538-30ab" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Coloso" hidden="true" id="bdeb-97f5-0538-30ab" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="7e4d-6663-6406-53ca" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -1815,7 +1815,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó este turno, elige como objetivo una unidad enemiga visible a 1" o menos de ella.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un número de dados igual a la característica de Health de esta unidad menos el número de puntos de daño que tenga. Por cada 4+, inflige 1 de daño mortal al objetivo.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un número de dados igual a la característica de Salud de esta unidad menos el número de puntos de daño que tenga. Por cada 4+, inflige 1 de daño mortal al objetivo.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -1849,7 +1849,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Conjurer" hidden="true" id="1ee0-275f-335b-ecb9" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Conjurador" hidden="true" id="1ee0-275f-335b-ecb9" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="7650-8d32-b3d0-3717" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -2066,7 +2066,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Dragoon" hidden="true" id="ec8d-0878-4d69-4bc2" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Dragón" hidden="true" id="ec8d-0878-4d69-4bc2" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="3ae8-069e-5c51-3358" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -2218,7 +2218,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad cargó este turno, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar inmediatamente una habilidad **^^Disparar^^** como si fuera tu fase de disparo, pero debe tener como objetivo esa unidad enemiga. Las armas a distancia de esta unidad tienen **Disparar in Combat** esta fase.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar inmediatamente una habilidad **^^Disparar^^** como si fuera tu fase de disparo, pero debe tener como objetivo esa unidad enemiga. Las armas a distancia de esta unidad tienen **Disparar en combate** esta fase.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -2270,7 +2270,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Duellist" hidden="true" id="84d3-a034-3e3f-1bae" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Duelista" hidden="true" id="84d3-a034-3e3f-1bae" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="b61f-cf74-b5eb-69c7" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -2473,7 +2473,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Guardian" hidden="true" id="a4b6-8327-b510-c3a8" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Guardián" hidden="true" id="a4b6-8327-b510-c3a8" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="cf35-5954-2e3a-bfc5" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -2669,7 +2669,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Invoker" hidden="true" id="c076-054d-e48a-12ee" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Invocador" hidden="true" id="c076-054d-e48a-12ee" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="dd65-b34d-1edf-aef8" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -2883,7 +2883,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Pack" hidden="true" id="0e9c-c1ce-479f-40bb" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda de la Manada" hidden="true" id="0e9c-c1ce-479f-40bb" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="9a92-672a-5081-dea5" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -3073,7 +3073,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Ruler" hidden="true" id="9dab-e2c0-3644-2c25" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Gobernante" hidden="true" id="9dab-e2c0-3644-2c25" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="1b53-1719-b578-db90" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -3284,7 +3284,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Sorcerer" hidden="true" id="4e43-722f-870f-0064" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Hechicero" hidden="true" id="4e43-722f-870f-0064" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="00fe-95fa-a0fe-2abd" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -3504,7 +3504,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Warmonger" hidden="true" id="b76a-2662-a4f1-b926" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Belicista" hidden="true" id="b76a-2662-a4f1-b926" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="7072-af5f-748e-2d86" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -3585,7 +3585,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
                       <characteristics>
                         <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de disparo</characteristic>
                         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está en combate, elige 1 de sus armas a distancia como arma objetivo y elige una unidad enemiga en combate con ella como unidad objetivo.</characteristic>
-                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, el arma objetivo tiene **Disparar in Combat** durante el resto de la fase, pero todos los ataques realizados con esa arma esta fase deben tener como objetivo la unidad objetivo.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, el arma objetivo tiene **Disparar en combate** durante el resto de la fase, pero todos los ataques realizados con esa arma esta fase deben tener como objetivo la unidad objetivo.</characteristic>
                         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                       </characteristics>
@@ -3714,7 +3714,7 @@ If this unit is contesting an objective you do not control, this unit can use 2
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Path of the Zealot" hidden="true" id="0742-21c1-030a-1c3a" publicationId="9787-0c03-7559-2125">
+        <selectionEntry type="upgrade" import="true" name="Senda del Fanático" hidden="true" id="0742-21c1-030a-1c3a" publicationId="9787-0c03-7559-2125">
           <selectionEntryGroups>
             <selectionEntryGroup name="Aspiring" id="e712-ea13-f27b-cf78" hidden="false" sortIndex="1">
               <selectionEntries>
@@ -3957,7 +3957,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
     </selectionEntryGroup>
     <selectionEntryGroup name="Ravaged Coast Battle Scars" id="5559-80df-ba01-66a7" hidden="true" publicationId="9787-0c03-7559-2125" flatten="true">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Critical Battle Scars" id="69c3-f1e9-d29d-b226" hidden="false" sortIndex="3">
+        <selectionEntryGroup name="Cicatrices de batalla críticas" id="69c3-f1e9-d29d-b226" hidden="false" sortIndex="3">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a2e3-2526-77a5-2a94"/>
           </constraints>
@@ -4018,7 +4018,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Serious Battle Scars" id="7e74-8788-23cc-ab9b" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="Cicatrices de batalla graves" id="7e74-8788-23cc-ab9b" hidden="false" sortIndex="1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Cicatrices humeantes" hidden="false" id="091d-3844-4e6e-f3a3" sortIndex="1">
               <profiles>
@@ -4079,7 +4079,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e7fc-6452-b8b2-596e"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Severe Battle Scars" id="2f39-2607-6d3c-0251" hidden="false" sortIndex="2">
+        <selectionEntryGroup name="Cicatrices de batalla severas" id="2f39-2607-6d3c-0251" hidden="false" sortIndex="2">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0fb7-6364-fd3a-8bd6"/>
           </constraints>
@@ -4164,7 +4164,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
     </selectionEntryGroup>
     <selectionEntryGroup name="Artefacts of Power" id="e1b2-cedf-56a5-6bb1" hidden="true" flatten="true">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Aqshian Artefacts" id="6409-4e62-7123-564e" hidden="false" publicationId="9787-0c03-7559-2125">
+        <selectionEntryGroup name="Artefactos de Aqshy" id="6409-4e62-7123-564e" hidden="false" publicationId="9787-0c03-7559-2125">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Hacha de ira hirviente" hidden="false" id="7275-5924-1b89-7407">
               <profiles>
@@ -4291,9 +4291,9 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9274-7c80-9c58-df05"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Emberstone Weapon" id="58e9-d8f3-2512-6243" hidden="false" flatten="false" collapsible="true">
+        <selectionEntryGroup name="Arma de ascualita" id="58e9-d8f3-2512-6243" hidden="false" flatten="false" collapsible="true">
           <selectionEntryGroups>
-            <selectionEntryGroup name="Weapon Type" id="a9ff-dbc8-e5a8-f7e3" hidden="false" sortIndex="1">
+            <selectionEntryGroup name="Tipo de arma" id="a9ff-dbc8-e5a8-f7e3" hidden="false" sortIndex="1">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Arma a distancia mejorada con piedra de brasa" hidden="false" id="8424-0c1b-808e-ced4">
                   <profiles>
@@ -4652,12 +4652,12 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3459-c731-9d0e-5ed7"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Weapon Effects" id="ffa2-bf2e-43fb-6632" hidden="false" sortIndex="2">
+            <selectionEntryGroup name="Efectos de arma" id="ffa2-bf2e-43fb-6632" hidden="false" sortIndex="2">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="2/6 : +1 Hit" hidden="false" id="78cb-1c7c-a5b8-b10c" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="1/2 : +1 Hit" hidden="false" id="3213-1500-a5cc-c49f" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="1/3 : -1 Wound and +2 Attacks" hidden="false" id="ffe0-b2a6-fbcd-0d47" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="1/4 : +1 Hit" hidden="false" id="c808-f706-69e8-cdba" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="2/6 : +1 Impactar" hidden="false" id="78cb-1c7c-a5b8-b10c" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="1/2 : +1 Impactar" hidden="false" id="3213-1500-a5cc-c49f" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="1/3 : -1 Herir y +2 Ataques" hidden="false" id="ffe0-b2a6-fbcd-0d47" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="1/4 : +1 Impactar" hidden="false" id="c808-f706-69e8-cdba" collective="true"/>
                 <selectionEntry type="upgrade" import="true" name="1/5 : " hidden="false" id="5421-157d-5776-66a1" collective="true">
                   <modifiers>
                     <modifier type="append" value="+3&quot; de alcance" field="name">
@@ -4672,22 +4672,22 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                     </modifier>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="2/1 : -1 Hit and +2 Rend" hidden="false" id="123e-e72b-2aba-fdb8" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="2/2 : -1 Attacks and +1 Wound" hidden="false" id="d290-b26a-5489-30a8" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="2/4 : +1 Wound" hidden="false" id="7a15-82bc-59f0-4e57" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="2/3 : -1 Wound and +2 Rend" hidden="false" id="bd1b-db21-4b18-a630" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="3/1 : -1 Hit and +2 Damage" hidden="false" id="a07a-fbd9-6b2e-3e93" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="4/1 : -1 Hit and +2 Attacks" hidden="false" id="381a-f83c-b785-92cc" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="3/2 : -1 Attacks and +2 Rend" hidden="false" id="65fb-867a-a199-6ea9" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="3/3 : Crit (Mortal)" hidden="false" id="2efd-a3fe-991b-59e8" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="3/5 : Anti-MONSTER (+1 Rend)" hidden="false" id="93a3-100f-248e-d3f9" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="3/6 : +1 Wound" hidden="false" id="1f48-032a-2468-0088" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="4/2 : +1 Damage" hidden="false" id="e8d4-4e5c-fb5c-8dff" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="4/4 : Anti-INFANTRY (+1 Rend)" hidden="false" id="fb2e-ef02-70f6-5a36" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="4/5 : Crit (Auto-wound)" hidden="false" id="591d-400d-71fb-fd49" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="4/6 : -1 Attacks, +1 Rend and +1 Damage" hidden="false" id="e013-01bc-601a-30a5" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="5/1 : Crit (Auto-wound)" hidden="false" id="4464-7534-9643-6c5d" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="5/3 : -1 Wound and +2 Damage" hidden="false" id="782a-ff8c-79fe-dfd6" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="2/1 : -1 Impactar y +2 Penetración" hidden="false" id="123e-e72b-2aba-fdb8" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="2/2 : -1 Ataques y +1 Herir" hidden="false" id="d290-b26a-5489-30a8" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="2/4 : +1 Herir" hidden="false" id="7a15-82bc-59f0-4e57" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="2/3 : -1 Herir y +2 Penetración" hidden="false" id="bd1b-db21-4b18-a630" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="3/1 : -1 Impactar y +2 Daño" hidden="false" id="a07a-fbd9-6b2e-3e93" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="4/1 : -1 Impactar y +2 Ataques" hidden="false" id="381a-f83c-b785-92cc" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="3/2 : -1 Ataques y +2 Penetración" hidden="false" id="65fb-867a-a199-6ea9" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="3/3 : Crítico (mortal)" hidden="false" id="2efd-a3fe-991b-59e8" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="3/5 : Anti-MONSTRUO (+1 Penetración)" hidden="false" id="93a3-100f-248e-d3f9" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="3/6 : +1 Herir" hidden="false" id="1f48-032a-2468-0088" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="4/2 : +1 Daño" hidden="false" id="e8d4-4e5c-fb5c-8dff" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="4/4 : Anti-INFANTERÍA (+1 Penetración)" hidden="false" id="fb2e-ef02-70f6-5a36" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="4/5 : Crítico (herida automática)" hidden="false" id="591d-400d-71fb-fd49" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="4/6 : -1 Ataques, +1 Penetración y +1 Daño" hidden="false" id="e013-01bc-601a-30a5" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="5/1 : Crítico (herida automática)" hidden="false" id="4464-7534-9643-6c5d" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="5/3 : -1 Herir y +2 Daño" hidden="false" id="782a-ff8c-79fe-dfd6" collective="true"/>
                 <selectionEntry type="upgrade" import="true" name="5/4 : " hidden="false" id="769f-579e-edf7-f160" collective="true">
                   <modifiers>
                     <modifier type="append" value="+1 Ataques" field="name">
@@ -4702,14 +4702,14 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
                     </modifier>
                   </modifiers>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="5/5 : Anti-WAR MACHINE (+1 Rend)" hidden="false" id="9b2b-ba76-e1b8-5267" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="5/6 : Anti-CAVALRY (+1 Rend)" hidden="false" id="123f-b113-a657-33d0" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="6/2 : Crit (2 Hits)" hidden="false" id="e0a9-0f1b-81fe-99fe" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="6/3 : -1 Wound and +2 Rend" hidden="false" id="7d04-750c-10ae-2def" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="1/1 : -1 Hit and +2 Wound" hidden="false" id="dc8b-9bec-5820-2c13" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="6/4 : +1 Damage" hidden="false" id="f379-2a4f-4621-1d44" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="6/6 : Anti-HERO (+1 Rend)" hidden="false" id="a88b-ab5f-6f50-fc8a" collective="true"/>
-                <selectionEntry type="upgrade" import="true" name="6/5 : Anti-MANIFESTATION (+1 Rend)" hidden="false" id="65ac-da84-31d2-990c" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="5/5 : Anti-MÁQUINA DE GUERRA (+1 Penetración)" hidden="false" id="9b2b-ba76-e1b8-5267" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="5/6 : Anti-CABALLERÍA (+1 Penetración)" hidden="false" id="123f-b113-a657-33d0" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="6/2 : Crítico (2 impactos)" hidden="false" id="e0a9-0f1b-81fe-99fe" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="6/3 : -1 Herir y +2 Penetración" hidden="false" id="7d04-750c-10ae-2def" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="1/1 : -1 Impactar y +2 Herir" hidden="false" id="dc8b-9bec-5820-2c13" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="6/4 : +1 Daño" hidden="false" id="f379-2a4f-4621-1d44" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="6/6 : Anti-HÉROE (+1 Penetración)" hidden="false" id="a88b-ab5f-6f50-fc8a" collective="true"/>
+                <selectionEntry type="upgrade" import="true" name="6/5 : Anti-MANIFESTACIÓN (+1 Penetración)" hidden="false" id="65ac-da84-31d2-990c" collective="true"/>
               </selectionEntries>
               <categoryLinks>
                 <categoryLink name="Enhancement Configuration" hidden="false" id="69d3-413b-4347-3cca" targetId="8fa2-f5fc-18d9-e5d0" primary="false"/>
@@ -4741,7 +4741,7 @@ Roll a D6 for each target. Inflict an amount of mortal damage on each unit cont
     </selectionEntryGroup>
     <selectionEntryGroup name="Heroic Traits" id="c437-e34c-5e1c-95e6" hidden="true" flatten="true">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Hallmarks of Hel&apos;s Claw" id="5204-5a5f-2811-9103" hidden="false" publicationId="9787-0c03-7559-2125">
+        <selectionEntryGroup name="Rasgos distintivos de la Garra de Hel" id="5204-5a5f-2811-9103" hidden="false" publicationId="9787-0c03-7559-2125">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Furia franca" hidden="false" id="ec9c-8590-f7c0-f051">
               <profiles>
