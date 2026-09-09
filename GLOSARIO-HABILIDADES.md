@@ -4,7 +4,7 @@ Revisión del 9 de septiembre de 2026. Traducciones de aficionado; no constituye
 
 Los perfiles contienen **4.511 títulos distintos** de habilidades y tácticas de batalla. Se incluyen habilidades activadas, pasivas, órdenes, hechizos, plegarias, diezmos de sangre y destino.
 
-Se han revisado además **784 nombres** de reglas, formaciones, sendas y alias. La comprobación global de unidades, armas, manifestaciones y habilidades cubre **8.488 nombres**, sin pendientes.
+Se han revisado además **784 nombres** de reglas, formaciones, sendas y alias. Al cerrar este bloque, la comprobación de unidades, armas, manifestaciones y habilidades cubría **8.488 nombres**, sin pendientes. La ampliación a menús y catálogos se documenta en [GLOSARIO-MENUS.md](GLOSARIO-MENUS.md); la cobertura actual figura en [ESTADO-TRADUCCION.md](ESTADO-TRADUCCION.md).
 
 Se registran además 293 nombres de órdenes, variantes y efectos citados dentro de la prosa, incluidas habilidades básicas que no tienen un perfil local.
 

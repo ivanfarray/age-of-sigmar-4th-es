@@ -23,6 +23,12 @@ También se incluyen hechizos, plegarias, rasgos, artefactos, formaciones y
 opciones de Sendero a la Gloria. Las habilidades se mantienen en los
 diccionarios `Abilities - *.es.json` de esa carpeta.
 
+Por petición del usuario del 9 de septiembre de 2026, se traducen también los
+menús, secciones, nombres de catálogos y regimientos, y las opciones de creación
+de héroes. Sus equivalencias se mantienen en `Menus - *.es.json` y se documentan
+en [GLOSARIO-MENUS.md](GLOSARIO-MENUS.md). Cambia el nombre visible del catálogo;
+el nombre del archivo y los identificadores que enlazan los datos se conservan.
+
 ```xml
 <selectionEntry id="6353-cb84-ac7f-9a15" name="Bull Charge">
   <profiles>
@@ -41,6 +47,7 @@ diccionarios `Abilities - *.es.json` de esa carpeta.
 | Texto dentro de `<description>` | Atributos técnicos y nombres no registrados |
 | Texto dentro de `<characteristic>` | `id`, `targetId`, `typeId`, `entryId`, `publicationId`, `gameSystemId` |
 | `name=` registrado de `selectionEntry`, `selectionEntryGroup`, `profile`, `entryLink`, `infoLink`, `rule` | Nombres de tipos de perfil, categorías y características |
+| `name=` registrado de `catalogue`, `catalogueLink`, `gameSystem`, `forceEntry`, `forceEntryLink` | Nombres de archivo, referencias de catálogo e identificadores de regimiento |
 | `value=` registrado de `modifier` solo cuando `field="name"` | `type=`, `field=`, `scope=` y valores de reglas |
 | | Orden de atributos, indentación, comillas, saltos de línea |
 
@@ -127,7 +134,7 @@ Las siguientes pautas se aplican a las referencias dentro de la prosa ya
 traducida; no impiden traducir una etiqueta independiente.
 
 
-Los nombres de unidades, armas y habilidades registrados se sustituyen automáticamente
+Los nombres registrados de unidades, armas, habilidades y menús se sustituyen automáticamente
 también **dentro** del texto generado. No hace falta cambiar manualmente sus
 referencias en los JSON de prosa: conservar las claves inglesas originales.
 Se usan coincidencias completas, sensibles a mayúsculas y de mayor longitud
@@ -151,6 +158,11 @@ La primera comprobación detecta nombres pendientes de unidades, armas,
 manifestaciones, habilidades, reglas, alias y modificadores de nombre, incluso los del sistema
 general `.gst`. Las pruebas comprueban que el generador acepta los nombres
 registrados y rechaza cambios en identificadores, nombres y prosa no autorizados.
+
+También incluye todos los grupos y opciones, aunque no tengan perfil, y los
+nombres de catálogos y regimientos. «0 pendientes» se refiere a estos elementos
+del XML: no implica que las categorías, las cabeceras de características o
+todos los términos dentro de la prosa estén traducidos.
 
 Las referencias a habilidades, hechizos, plegarias y mejoras registradas se
 traducen también entre comillas o con marcado. Se mantienen como en el original

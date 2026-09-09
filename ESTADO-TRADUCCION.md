@@ -1,6 +1,6 @@
 # Estado de la traducción — 9 de septiembre de 2026
 
-**Completadas la prosa, las etiquetas y los nombres de unidades, armas y habilidades.**
+**Completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús, catálogos y opciones de héroes.**
 
 - Los 133 JSON de prosa contienen 9.862 entradas resueltas y **0 valores vacíos**.
 - Se han rellenado las 697 entradas que antes se conservaban vacías: claves,
@@ -11,16 +11,17 @@
 - Las **133 parejas de archivos** pasan la verificación completa de texto,
   nombres, estructura XML y atributos técnicos. Los originales ingleses y los
   diccionarios de prosa no han cambiado durante la traducción de nombres.
-- Pasan las siete pruebas del generador, incluidos los nombres de habilidades
+- Pasan las nueve pruebas del generador, incluidos los nombres de habilidades
   en reglas y perfiles y los alias que enlazan catálogos diferentes.
 - Las equivalencias son traducciones de aficionado, no nomenclatura oficial.
 
 ## Cobertura de nombres
 
-La comprobación ampliada revisa **8.488 nombres distintos**:
-8.303 tienen equivalencia española, 185 mantienen
-su denominación y **0 están pendientes**. Incluye unidades, miniaturas,
-armas, manifestaciones, habilidades, reglas, selectores y modificadores de nombre.
+La comprobación ampliada revisa **9.444 nombres distintos**:
+9.244 tienen equivalencia española, 200 mantienen
+su denominación y **0 están pendientes dentro de este alcance**. Incluye
+unidades, armas, manifestaciones, habilidades, reglas, todos los grupos y
+opciones de selección, catálogos, regimientos y modificadores de nombre.
 
 El bloque inicial de unidades y armas cubría 3.248 nombres: 3.077 traducidos
 y 171 conservados. La ampliación cubre los **4.511 títulos distintos
@@ -40,6 +41,20 @@ Las equivalencias se documentan en [GLOSARIO-NOMBRES.md](GLOSARIO-NOMBRES.md),
 [GLOSARIO-HABILIDADES.md](GLOSARIO-HABILIDADES.md) y
 [GLOSARIO-ETIQUETAS.md](GLOSARIO-ETIQUETAS.md).
 
+## Menús, catálogos y opciones de héroes
+
+Se han añadido 950 nombres nuevos: 935 traducidos y 15
+conservados. Incluye los nombres de catálogos y regimientos, secciones de
+mejoras, saberes, menús de campaña y las opciones del Yunque de la Apoteosis.
+Las nueve pruebas cubren también estas etiquetas y la conservación de enlaces
+y categorías. Las 133 parejas de archivos pasan la verificación completa.
+El detalle está en [GLOSARIO-MENUS.md](GLOSARIO-MENUS.md).
+
+Los nombres de categorías, tipos de perfil y características siguen como en
+el original; también quedan términos de reglas y palabras clave en la prosa
+que no forman parte de los diccionarios de nombres. Por tanto, «0 pendientes»
+no significa que todo el texto visible del repositorio esté en español.
+
 ## Alcance
 
 Se traduce el contenido de `description` y `characteristic`, además de los
@@ -49,7 +64,8 @@ Regimientos de Renombre y opciones de Sendero a la Gloria.
 
 El generador actualiza las referencias a esos nombres dentro de las reglas.
 Los nombres propios sin equivalente se conservan. Los atributos de nombre
-autorizados pertenecen a entradas, grupos, perfiles, reglas y enlaces; también
+autorizados pertenecen a entradas, grupos, perfiles, reglas, catálogos,
+regimientos y sus enlaces; también
 se traducen valores de modificadores cuyo `field` es `name`.
 Los identificadores, tipos de perfil, categorías, nombres de características,
 valores técnicos y estructura permanecen intactos.

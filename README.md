@@ -73,7 +73,7 @@ published under a permissive license, so it cannot be relicensed here.*
 | `tools/` | herramientas de generación, cobertura y verificación |
 | [`TRADUCIR.md`](TRADUCIR.md) | **cómo colaborar en la traducción** |
 
-Estado a 9 de septiembre de 2026: **prosa, etiquetas y nombres de unidades, armas y habilidades completados**.
+Estado a 9 de septiembre de 2026: **completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús y catálogos**.
 
 Hay 133 parejas de archivos generadas y verificadas. Los JSON contienen 9.862
 entradas resueltas y ningún valor vacío. También se han traducido las claves,
@@ -84,12 +84,15 @@ Los nombres visibles de unidades, armas, manifestaciones y habilidades se traduc
 los diccionarios de `translations/names/`, incluidas las variantes de Legends
 y los nombres condicionados por el número de miniaturas. Se incluyen hechizos,
 plegarias, rasgos, artefactos, formaciones y opciones de Sendero a la Gloria,
-tanto en perfiles como en reglas y selectores. El generador también
+tanto en perfiles como en reglas y selectores. También se traducen menús,
+secciones, nombres de catálogos y regimientos, y las opciones de creación de
+héroes del Yunque de la Apoteosis. El generador también
 actualiza sus referencias en las reglas. Se conservan los nombres propios sin
 equivalente y todos los identificadores y enlaces técnicos. Las equivalencias
 son traducciones de aficionado, no terminología oficial de Games Workshop.
 Véanse [GLOSARIO-NOMBRES.md](GLOSARIO-NOMBRES.md),
-[GLOSARIO-HABILIDADES.md](GLOSARIO-HABILIDADES.md) y
+[GLOSARIO-HABILIDADES.md](GLOSARIO-HABILIDADES.md),
+[GLOSARIO-MENUS.md](GLOSARIO-MENUS.md) y
 [GLOSARIO-ETIQUETAS.md](GLOSARIO-ETIQUETAS.md).
 
 El detalle de cobertura y validación está en
