@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="832c-fd6-a535-ffae" name="Ironjawz" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="45" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="832c-fd6-a535-ffae" name="Mandíbulas de Hierro" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="45" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Mandíbulas de Hierro" hidden="false" id="d8ca-c367-a211-97b3">
       <profiles>
         <profile name="¡Waaagh! de los Mandíbulas de Hierro" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="618e-f241-f5d4-a04b">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de carga</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Ironjawz Hero^^** amigo. No puedes elegir el mismo **^^Hero^^** como objetivo de esta habilidad más de una vez por batalla.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, se aplican los siguientes efectos a las unidades amigas **^^Ironjawz^^** mientras estén totalmente a 18" o menos del objetivo:
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Mandíbulas de Hierro Hero^^** amigo. No puedes elegir el mismo **^^Hero^^** como objetivo de esta habilidad más de una vez por batalla.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, se aplican los siguientes efectos a las unidades amigas **^^Mandíbulas de Hierro^^** mientras estén totalmente a 18" o menos del objetivo:
 • Suma 1 a las tiradas de carga de esas unidades.
 • Suma 1 a la característica de Attacks de las armas de cuerpo a cuerpo de esas unidades.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Waaagh!^^**</characteristic>
@@ -22,7 +22,7 @@
         <profile name="Poderosos destructores" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="a85a-85d4-514a-44a3">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de héroe</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Ironjawz^^** que no haya sido colocada este turno.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Mandíbulas de Hierro^^** que no haya sido colocada este turno.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">El objetivo puede moverse hasta 3". Puede moverse hacia el combate. Si estaba en combate al inicio del movimiento, debe terminar ese movimiento en combate.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -42,12 +42,12 @@
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Spell Lores" id="b5b-5dbc-9d3b-d075" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Lore of the Weird" hidden="false" id="4936-321c-38e9-4dc" defaultAmount="1">
+        <selectionEntry type="upgrade" import="true" name="Saber de lo extraño" hidden="false" id="4936-321c-38e9-4dc" defaultAmount="1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e7f6-d0b2-b075-7ce4"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Lore of the Weird" hidden="false" id="9da0-cf03-a001-662e" type="selectionEntryGroup" targetId="0713-41e8-e557-2eb6"/>
+            <entryLink import="true" name="Saber de lo extraño" hidden="false" id="9da0-cf03-a001-662e" type="selectionEntryGroup" targetId="0713-41e8-e557-2eb6"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -57,7 +57,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Artefacts of Power" id="4b1c-ea81-9dc1-de9f" hidden="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Da Boss&apos;s Hoard" id="580b-d30c-b1ff-c8c0" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
+        <selectionEntryGroup name="El tesoro del jefe" id="580b-d30c-b1ff-c8c0" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Manto quimérico" hidden="false" id="e1ad-1441-8d8e-2541">
               <profiles>
@@ -109,7 +109,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la habilidad &apos;¡Waaagh! de los Mandíbulas de Hierro&apos; y has elegido esta unidad como objetivo</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 1 a la característica de Attacks de las armas **Compañero** usadas por unidades amigas **^^Ironjawz^^** mientras estén totalmente a 18" o menos de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 1 a la característica de Attacks de las armas **Compañero** usadas por unidades amigas **^^Mandíbulas de Hierro^^** mientras estén totalmente a 18" o menos de esta unidad.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -149,7 +149,7 @@
             </rule>
           </rules>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Da Boss&apos;s Hoard" id="e6f7-4835-b77d-4052" hidden="false">
+        <selectionEntryGroup name="El tesoro del jefe" id="e6f7-4835-b77d-4052" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Cráneos trofeo" hidden="false" id="bfe4-ee9c-3d28-7a61">
               <profiles>
@@ -232,7 +232,7 @@
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="328e-2b55-d720-b21f"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Battle Formations: Ironjawz" id="a329-a5f1-b106-7917" hidden="false" flatten="true">
+    <selectionEntryGroup name="Formaciones de batalla: Mandíbulas de Hierro" id="a329-a5f1-b106-7917" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Puño Eztrambótiko" hidden="false" id="c2f8-2ea8-7d8b-5670">
           <constraints>
@@ -242,7 +242,7 @@
             <profile name="Espíritu de Gork" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ceee-4e37-3ed9-db91">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades amigas **^^Ironjawz Infantry^^** tienen **^^Ward (6+)^^** mientras estén totalmente a 12" o menos de cualquier **^^Ironjawz Wizards^^** o **^^Priests^^** amigo.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades amigas **^^Mandíbulas de Hierro Infantry^^** tienen **^^Ward (6+)^^** mientras estén totalmente a 12" o menos de cualquier **^^Mandíbulas de Hierro Wizards^^** o **^^Priests^^** amigo.</characteristic>
               </characteristics>
               <attributes>
                 <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -260,7 +260,7 @@
             <profile name="Desastre natural" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="139f-8795-6ff6-1204">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si haces una tirada de carga sin modificar de 8+ para una unidad amiga no-**^^Hero Ironjawz^^**, suma 1 a la característica de Attacks de las armas de cuerpo a cuerpo de esa unidad durante el resto del turno.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si haces una tirada de carga sin modificar de 8+ para una unidad amiga no-**^^Hero Mandíbulas de Hierro^^**, suma 1 a la característica de Attacks de las armas de cuerpo a cuerpo de esa unidad durante el resto del turno.</characteristic>
               </characteristics>
               <attributes>
                 <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Orange</attribute>
@@ -296,7 +296,7 @@
             <profile name="Aplastar y aporrear" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="f09a-2ca5-3a3c-3cc0">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La primera vez cada turno que una unidad enemiga sea destruida por una habilidad de **^^Combatir^^** usada por una unidad amiga **^^Ironjawz^^**, suma 1 a las tiradas de impacto de los ataques de combate realizados por la siguiente unidad amiga **^^Ironjawz^^** que sea elegida para usar una habilidad de **^^Combatir^^** durante el resto del turno.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La primera vez cada turno que una unidad enemiga sea destruida por una habilidad de **^^Combatir^^** usada por una unidad amiga **^^Mandíbulas de Hierro^^**, suma 1 a las tiradas de impacto de los ataques de combate realizados por la siguiente unidad amiga **^^Mandíbulas de Hierro^^** que sea elegida para usar una habilidad de **^^Combatir^^** durante el resto del turno.</characteristic>
               </characteristics>
               <attributes>
                 <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
@@ -348,7 +348,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
             <profile name="Dadle una paliza al grandote" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="228e-beda-650c-8c30">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Ironjawz^^**.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Mandíbulas de Hierro^^**.</characteristic>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 1 a las tiradas de herida de los ataques de combate del objetivo que tengan como objetivo una unidad enemiga con una característica de Health mayor que la suya.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -380,7 +380,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
     </selectionEntryGroup>
     <selectionEntryGroup name="Heroic Traits" id="4455-d9dc-24bf-7d91" hidden="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Brutal Warlords" id="5213-e13d-7e64-9f74" hidden="false">
+        <selectionEntryGroup name="Caudillos brutales" id="5213-e13d-7e64-9f74" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Bruto corpulento" hidden="false" id="ebbf-ad8f-14de-47d1">
               <profiles>
@@ -408,7 +408,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
                 <profile name="Megamandón" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="a9bd-4aa3-da30-fa5e">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad ha cargado este turno, durante el resto del turno, suma 1 a las tiradas de carga de las unidades amigas **^^Ironjawz^^** mientras estén totalmente a 18" o menos de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad ha cargado este turno, durante el resto del turno, suma 1 a las tiradas de carga de las unidades amigas **^^Mandíbulas de Hierro^^** mientras estén totalmente a 18" o menos de esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Orange</attribute>
@@ -425,7 +425,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
               <profiles>
                 <profile name="Ojo para la pelea" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="1112-2947-e137-99f1">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redesplegar&apos; para una unidad amiga **^^Ironjawz^^** totalmente a 12" o menos de esta unidad</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redesplegar&apos; para una unidad amiga **^^Mandíbulas de Hierro^^** totalmente a 12" o menos de esta unidad</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si sacas un 1-3 al determinar la distancia que esa unidad puede mover, puedes usar un valor de 4 en su lugar.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -468,12 +468,12 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
     </selectionEntryGroup>
     <selectionEntryGroup name="Prayer Lores" id="a537-457-99e-8b30" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Warbeats" hidden="false" id="36aa-af55-d210-d137" defaultAmount="1">
+        <selectionEntry type="upgrade" import="true" name="Ritmos de guerra" hidden="false" id="36aa-af55-d210-d137" defaultAmount="1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e227-f525-5241-81f6"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Warbeats" hidden="false" id="67e6-2bfb-e5d4-6979" type="selectionEntryGroup" targetId="3188-fb52-1d9a-d3ad"/>
+            <entryLink import="true" name="Ritmos de guerra" hidden="false" id="67e6-2bfb-e5d4-6979" type="selectionEntryGroup" targetId="3188-fb52-1d9a-d3ad"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -546,7 +546,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
     </selectionEntryGroup>
     <selectionEntryGroup name="Monstrous Traits" id="9ce1-0fdf-ab44-7202" hidden="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Brutal Beasts" id="bccd-5f91-9655-bfd1" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
+        <selectionEntryGroup name="Bestias brutales" id="bccd-5f91-9655-bfd1" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="El Grandote" hidden="false" id="6967-79c3-e674-0b6d">
               <profiles>
@@ -683,7 +683,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
           </modifiers>
           <rules>
             <rule name="Restricciones de mejoras" id="70ea-0a82-4774-dedc" hidden="true">
-              <description>solo **^^Ironjawz Monster^^**</description>
+              <description>solo **^^Mandíbulas de Hierro Monster^^**</description>
             </rule>
           </rules>
         </selectionEntryGroup>
@@ -1847,7 +1847,7 @@ Si no hay ninguna **Megabosses** amiga en el campo de batalla, tira un dado. Con
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Battle Formation" hidden="false" id="1218-968b-bd6e-351e" defaultAmount="1">
       <entryLinks>
-        <entryLink import="true" name="Battle Formations: Ironjawz" hidden="false" id="a9f8-aa4d-9eed-316a" type="selectionEntryGroup" targetId="a329-a5f1-b106-7917" collective="false" flatten="true"/>
+        <entryLink import="true" name="Formaciones de batalla: Mandíbulas de Hierro" hidden="false" id="a9f8-aa4d-9eed-316a" type="selectionEntryGroup" targetId="a329-a5f1-b106-7917" collective="false" flatten="true"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="443d-bf5f-a5da-6578" includeChildSelections="true" includeChildForces="true"/>
