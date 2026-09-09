@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="8aef-b85d-b63a-ef05" name="Kruleboyz" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="42" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="8aef-b85d-b63a-ef05" name="Chikoz Crueles" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="42" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Spell Lores" id="6e0f-e98f-84b6-8188" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Lore of the Swamp" hidden="false" id="5966-7fef-4c95-1e1c" defaultAmount="1">
+        <selectionEntry type="upgrade" import="true" name="Saber del pantano" hidden="false" id="5966-7fef-4c95-1e1c" defaultAmount="1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b16b-5da5-64e4-49ba"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Lore of the Swamp" hidden="false" id="1ced-992f-8c22-d32d" type="selectionEntryGroup" targetId="cf9e-5e6f-0ff7-5789"/>
+            <entryLink import="true" name="Saber del pantano" hidden="false" id="1ced-992f-8c22-d32d" type="selectionEntryGroup" targetId="cf9e-5e6f-0ff7-5789"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -18,7 +18,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Artefacts of Power" id="ba35-aab2-754e-1a4e" hidden="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Krule Artefacts" id="4f6c-3d40-e892-b00b" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
+        <selectionEntryGroup name="Artefactos crueles" id="4f6c-3d40-e892-b00b" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Máscara andrajosa" hidden="false" id="d26d-50ff-9064-0e1f">
               <profiles>
@@ -99,7 +99,7 @@
             </rule>
           </rules>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Krule Artefacts" id="2651-af48-6f64-4fbb" hidden="false">
+        <selectionEntryGroup name="Artefactos crueles" id="2651-af48-6f64-4fbb" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Bastón del pantano" hidden="false" id="5de9-40cd-6c87-601e">
               <profiles>
@@ -125,7 +125,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, reacción: el oponente ha declarado una habilidad de **^^Attack^^**</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, las unidades amigas **^^Kruleboyz^^** tienen **^^Ward (5+)^^** mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, las unidades amigas **^^Chikoz Crueles^^** tienen **^^Ward (5+)^^** mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -185,7 +185,7 @@
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="b246-3d8b-ef12-58bc"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Battle Formations: Kruleboyz" id="8583-57a6-d5f1-b6e7" hidden="false" flatten="true">
+    <selectionEntryGroup name="Formaciones de batalla: Chikoz Crueles" id="8583-57a6-d5f1-b6e7" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Dedoz Ligeroz" hidden="false" id="806a-a14d-82fc-87ef">
           <constraints>
@@ -213,7 +213,7 @@
             <profile name="Las bestias más malvadas" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="b92a-887c-cad2-e41f">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas **Compañero** usadas por unidades amigas **^^Kruleboyz^^** tienen **Crítico (2 impactos)**.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas **Compañero** usadas por unidades amigas **^^Chikoz Crueles^^** tienen **Crítico (2 impactos)**.</characteristic>
               </characteristics>
               <attributes>
                 <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Red</attribute>
@@ -231,7 +231,7 @@
             <profile name="Sudario del pantano" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c8cf-f1c4-ebc8-3999">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades amigas **^^Kruleboyz^^** que estén totalmente a 3" o menos de un elemento de escenografía no son visibles para las unidades enemigas que estén a más de 12" de ellas.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades amigas **^^Chikoz Crueles^^** que estén totalmente a 3" o menos de un elemento de escenografía no son visibles para las unidades enemigas que estén a más de 12" de ellas.</characteristic>
               </characteristics>
               <attributes>
                 <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -270,7 +270,7 @@
             <profile name="Todos contra uno" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="f95a-54ec-bdec-8004">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Kruleboyz^^**. Esa unidad debe estar en combate con una unidad enemiga que esté en combate con otra unidad amiga **^^Kruleboyz^^**. No se puede elegir a **Kragnos** como objetivo.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Chikoz Crueles^^**. Esa unidad debe estar en combate con una unidad enemiga que esté en combate con otra unidad amiga **^^Chikoz Crueles^^**. No se puede elegir a **Kragnos** como objetivo.</characteristic>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 1 a la característica de Attacks de las armas de cuerpo a cuerpo del objetivo.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -303,7 +303,7 @@
             <profile name="Burla cruel" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="4e4a-f923-ee1a-c965">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Kruleboyz^^** para que sea el **Insult Hurla**, elige como objetivo una unidad enemiga visible a 18" o menos de ella, después haz una tirada de dirty trick.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Chikoz Crueles^^** para que sea el **Insult Hurla**, elige como objetivo una unidad enemiga visible a 18" o menos de ella, después haz una tirada de dirty trick.</characteristic>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Hasta el inicio de tu siguiente turno, cada vez que el objetivo use una habilidad de **^^Move^^** y no termine ese movimiento más cerca del **Insult Hurla** de lo que estaba al inicio del movimiento, inflige D6 de daño mortal al objetivo después de resolver esa habilidad de **^^Move^^**.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Truco sucio^^**</characteristic>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -335,7 +335,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Heroic Traits" id="996f-c015-737f-69a2" hidden="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Kunnin&apos; Warlords" id="ec3e-ae2c-5dee-2dd5" hidden="false">
+        <selectionEntryGroup name="Kaudillos aztutos" id="ec3e-ae2c-5dee-2dd5" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Canalla escurridizo" hidden="false" id="600f-eb3b-4263-d4">
               <profiles>
@@ -363,9 +363,9 @@
                 <profile name="Ególatra" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="998a-1108-d792-10ae">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté dentro del alcance de combate de una unidad de Infantry amiga no-**^^Hero Kruleboyz^^**:
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté dentro del alcance de combate de una unidad de Infantry amiga no-**^^Hero Chikoz Crueles^^**:
 • Esta unidad tiene **^^Ward (4+)^^**.
-• Cada vez que consigas una tirada de salvaguardia exitosa para esta unidad, asigna 1 punto de daño a una unidad amiga no-**^^Hero Kruleboyz Infantry^^** dentro del alcance de combate de esta unidad después de resolver la secuencia de daño de esta unidad (no se pueden hacer tiradas de salvaguardia para esos puntos de daño).</characteristic>
+• Cada vez que consigas una tirada de salvaguardia exitosa para esta unidad, asigna 1 punto de daño a una unidad amiga no-**^^Hero Chikoz Crueles Infantry^^** dentro del alcance de combate de esta unidad después de resolver la secuencia de daño de esta unidad (no se pueden hacer tiradas de salvaguardia para esos puntos de daño).</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Green</attribute>
@@ -403,8 +403,8 @@
                 <profile name="Apuñalador por la espalda" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="7b8a-e08e-4c28-a277">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** enemigo que esté en combate tanto con esta unidad como con otra unidad amiga **^^Kruleboyz^^**.</characteristic>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflige D3 de daño mortal al objetivo. Suma 1 al daño mortal infligido por cada unidad amiga **^^Kruleboyz^^** en combate con el objetivo, aparte de las dos primeras unidades **^^Kruleboyz^^**.</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** enemigo que esté en combate tanto con esta unidad como con otra unidad amiga **^^Chikoz Crueles^^**.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflige D3 de daño mortal al objetivo. Suma 1 al daño mortal infligido por cada unidad amiga **^^Chikoz Crueles^^** en combate con el objetivo, aparte de las dos primeras unidades **^^Chikoz Crueles^^**.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -508,7 +508,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Monstrous Traits" id="5d55-c4f9-b6e0-14e0" hidden="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Kunnin&apos; Creatures" id="8f80-c0a0-b67f-4ae5" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
+        <selectionEntryGroup name="Kriaturas aztutas" id="8f80-c0a0-b67f-4ae5" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="El Astuto" hidden="false" id="d2ca-b06d-4b39-52e1">
               <profiles>
@@ -653,11 +653,11 @@
           </modifiers>
           <rules>
             <rule name="Restricciones de mejoras" id="711e-5161-ceea-0710" hidden="true">
-              <description>solo **^^Kruleboyz^^** **^^Monster^^**</description>
+              <description>solo **^^Chikoz Crueles^^** **^^Monster^^**</description>
             </rule>
           </rules>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Monstrous Traits: Kruleboyz" id="8d53-429c-1a88-1b67" hidden="true" publicationId="f894-7929-f79a-a269">
+        <selectionEntryGroup name="Rasgos monstruosos: Chikoz Crueles" id="8d53-429c-1a88-1b67" hidden="true" publicationId="f894-7929-f79a-a269">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="El Malvado" hidden="false" id="cf28-0b33-c0f5-52b9">
               <profiles>
@@ -770,7 +770,7 @@
         <profile name="Armas incrustadas de veneno" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="d85b-8581-433c-efdf">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de héroe</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Kruleboyz Infantry^^**, después haz una tirada de dirty trick.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Chikoz Crueles Infantry^^**, después haz una tirada de dirty trick.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Hasta el inicio de tu siguiente turno, los ataques del objetivo consiguen impactos críticos con tiradas de impacto sin modificar de 5+.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Truco sucio^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -784,7 +784,7 @@
         <profile name="Sorpresa letal" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="776e-e29d-64b8-2aa1">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de carga</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que haya cargado este turno y esté en combate con cualquier unidad amiga **^^Kruleboyz^^**, después haz una tirada de dirty trick.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que haya cargado este turno y esté en combate con cualquier unidad amiga **^^Chikoz Crueles^^**, después haz una tirada de dirty trick.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflige D3 de daño mortal al objetivo. Además, durante el resto del turno, las armas del objetivo no pueden verse afectadas por la habilidad de arma Carga (+1 Daño)</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Truco sucio^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -798,7 +798,7 @@
         <profile name="Escabullirse furtivamente" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="5ffc-eff8-8d98-90bc">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn (Army), Any Hero Phase</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Kruleboyz Infantry^^** que tenga 10 miniaturas o menos, no esté en combate y no haya sido objetivo de una habilidad de **^^Dirty Trick^^** este turno, después haz una tirada de dirty trick.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Chikoz Crueles Infantry^^** que tenga 10 miniaturas o menos, no esté en combate y no haya sido objetivo de una habilidad de **^^Dirty Trick^^** este turno, después haz una tirada de dirty trick.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Retira el objetivo del campo de batalla y vuelve a colocarlo totalmente a 3" o menos de un elemento de escenografía y a más de 9" de todas las unidades enemigas.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Truco sucio^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -812,7 +812,7 @@
         <profile name="Alboroto ruidoso" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="c77c-69ee-70f7-22e1">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con cualquier unidad amiga **^^Kruleboyz^^**, después haz una tirada de dirty trick.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con cualquier unidad amiga **^^Chikoz Crueles^^**, después haz una tirada de dirty trick.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">El objetivo tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Truco sucio^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -2393,7 +2393,7 @@
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Battle Formation" hidden="false" id="123c-5475-9fbd-3f22" defaultAmount="1">
       <entryLinks>
-        <entryLink import="true" name="Battle Formations: Kruleboyz" hidden="false" id="6b24-bc17-3e5d-de5" type="selectionEntryGroup" targetId="8583-57a6-d5f1-b6e7" collective="false" flatten="true"/>
+        <entryLink import="true" name="Formaciones de batalla: Chikoz Crueles" hidden="false" id="6b24-bc17-3e5d-de5" type="selectionEntryGroup" targetId="8583-57a6-d5f1-b6e7" collective="false" flatten="true"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="33eb-90a-8073-17f3" includeChildSelections="true" includeChildForces="true"/>
