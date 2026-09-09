@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="d545-cdca-9e60-ad27" name="Blades of Khorne" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="50" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="d545-cdca-9e60-ad27" name="Filos de Khorne" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="50" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Artefacts of Power" id="1ede-f90-a661-b6c2" hidden="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Murderous Artefacts" id="fd3f-1eb4-fee3-c802" hidden="false">
+        <selectionEntryGroup name="Artefactos asesinos" id="fd3f-1eb4-fee3-c802" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Collar de desprecio" hidden="false" id="b53d-220d-dc3a-13ac">
               <profiles>
@@ -86,7 +86,7 @@
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="6a26-19ff-45ff-452c"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Battle Formations: Blades of Khorne" id="a398-8e2f-f1f1-fe26" hidden="false" flatten="true">
+    <selectionEntryGroup name="Formaciones de batalla: Filos de Khorne" id="a398-8e2f-f1f1-fe26" hidden="false" flatten="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Estampida de latón" hidden="false" id="e3e6-6005-7085-ec66" publicationId="81a9-3dbf-dbc5-672e">
           <constraints>
@@ -96,7 +96,7 @@
             <profile name="Carga aniquiladora" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="d6d0-b1cf-2231-15b9">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma **X** a las tiradas de carga de las unidades amigas **^^Blades of Khorne^^**, donde **X** es el número de unidades amigas **^^Blades of Khorne Cavalry^^** o **^^Monster^^** que ya hayan cargado esta fase y que estén totalmente a 12" o menos de la unidad por la que se tira.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma **X** a las tiradas de carga de las unidades amigas **^^Filos de Khorne^^**, donde **X** es el número de unidades amigas **^^Filos de Khorne Cavalry^^** o **^^Monster^^** que ya hayan cargado esta fase y que estén totalmente a 12" o menos de la unidad por la que se tira.</characteristic>
               </characteristics>
               <attributes>
                 <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Orange</attribute>
@@ -113,7 +113,7 @@
           <profiles>
             <profile name="Carniceros de naciones" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bc8a-d722-6a86-4161">
               <characteristics>
-                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), Reacción: Has declarado una habilidad **^^Combatir^^** para una unidad amiga **^^Blades of Khorne Daemon^^**</characteristic>
+                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), Reacción: Has declarado una habilidad **^^Combatir^^** para una unidad amiga **^^Filos de Khorne Daemon^^**</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga **^^Bloodbound^^** que no haya usado una habilidad **^^Combatir^^** este turno y que esté totalmente a 12" o menos de la unidad que use esta habilidad. El objetivo puede ser elegido para usar una habilidad **^^Combatir^^** inmediatamente después de resolver la habilidad **^^Combatir^^** usada por esta unidad.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
@@ -136,7 +136,7 @@
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de tu turno</characteristic>
                 <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada unidad amiga **^^Blades of Khorne Daemon^^** que haya usado una habilidad **^^Combatir^^** este turno y que no esté en combate puede mover D6". No puede terminar ese movimiento en combate.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada unidad amiga **^^Filos de Khorne Daemon^^** que haya usado una habilidad **^^Combatir^^** este turno y que no esté en combate puede mover D6". No puede terminar ese movimiento en combate.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -183,7 +183,7 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Bloodbound^^** unit
             <profile name="Competidores sangrientos" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="9473-82ed-fc5f-f420">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos una unidad amiga que no sea **^^Hero Bloodbound^^** y una unidad amiga que no sea **^^Hero Blades of Khorne Daemon^^**.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos una unidad amiga que no sea **^^Hero Bloodbound^^** y una unidad amiga que no sea **^^Hero Filos de Khorne Daemon^^**.</characteristic>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Hasta el inicio de tu siguiente turno, mientras los objetivos estén totalmente a 12" o menos entre sí, suma 1 a las tiradas de herida de los ataques de combate de los objetivos.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -248,7 +248,7 @@ Add 1 to hit rolls for combat attacks made by friendly **^^Bloodbound^^** unit
     </selectionEntryGroup>
     <selectionEntryGroup name="Heroic Traits" id="a357-4cbf-d348-1134" hidden="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Commanders of the Blood Legions" id="1464-5b7b-d510-3d9d" hidden="false">
+        <selectionEntryGroup name="Comandantes de las Legiones de Sangre" id="1464-5b7b-d510-3d9d" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Desdén por la magia" hidden="false" id="7c75-846e-f3f9-a551" publicationId="81a9-3dbf-dbc5-672e">
               <profiles>
@@ -296,7 +296,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
                 <profile name="Capataz frenético" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="5f0a-7fd8-8235-9604">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Blades of Khorne Infantry^^** o **^^Cavalry^^** dentro del alcance de combate de esta unidad que no esté en combate.</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Filos de Khorne Infantry^^** o **^^Cavalry^^** dentro del alcance de combate de esta unidad que no esté en combate.</characteristic>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">El objetivo puede mover D6" pero no puede terminar ese movimiento en combate. Si el objetivo termina ese movimiento dentro del alcance de combate de esta unidad, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -338,9 +338,9 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
     </selectionEntryGroup>
     <selectionEntryGroup name="Manifestation Lores" id="383d-bbab-49a9-dd66" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Judgements of Khorne" hidden="false" id="3513-9caa-3b2b-db31" publicationId="81a9-3dbf-dbc5-672e" defaultAmount="1">
+        <selectionEntry type="upgrade" import="true" name="Juicios de Khorne" hidden="false" id="3513-9caa-3b2b-db31" publicationId="81a9-3dbf-dbc5-672e" defaultAmount="1">
           <entryLinks>
-            <entryLink import="true" name="Judgements of Khorne" hidden="false" id="1a25-7183-1710-20df" type="selectionEntryGroup" targetId="baf8-cb21-a0af-2aec"/>
+            <entryLink import="true" name="Juicios de Khorne" hidden="false" id="1a25-7183-1710-20df" type="selectionEntryGroup" targetId="baf8-cb21-a0af-2aec"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ecbf-519b-153d-642e"/>
@@ -350,12 +350,12 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
     </selectionEntryGroup>
     <selectionEntryGroup name="Prayer Lores" id="554f-b4a7-5337-2204" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Proclamations of Murder" hidden="true" id="4fe3-44db-95af-cd32" defaultAmount="0" publicationId="9e18-bb03-7b60-d4ff">
+        <selectionEntry type="upgrade" import="true" name="Proclamaciones de asesinato" hidden="true" id="4fe3-44db-95af-cd32" defaultAmount="0" publicationId="9e18-bb03-7b60-d4ff">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d16b-b6b1-6b4b-12df"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Proclamations of Murder" hidden="false" id="88ea-d547-99ee-a1c2" type="selectionEntryGroup" targetId="fab9-3bd0-7ef0-b2e6"/>
+            <entryLink import="true" name="Proclamaciones de asesinato" hidden="false" id="88ea-d547-99ee-a1c2" type="selectionEntryGroup" targetId="fab9-3bd0-7ef0-b2e6"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -370,17 +370,17 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Blood Blessings of Khorne" hidden="false" id="6633-d2f4-bab6-3a35" defaultAmount="1" publicationId="81a9-3dbf-dbc5-672e">
+        <selectionEntry type="upgrade" import="true" name="Bendiciones de sangre de Khorne" hidden="false" id="6633-d2f4-bab6-3a35" defaultAmount="1" publicationId="81a9-3dbf-dbc5-672e">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26b6-2104-1b86-a0a4"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Blood Blessings of Khorne" hidden="false" id="c8d6-7d6d-2a76-5a28" type="selectionEntryGroup" targetId="7761-af98-de90-44d8"/>
+            <entryLink import="true" name="Bendiciones de sangre de Khorne" hidden="false" id="c8d6-7d6d-2a76-5a28" type="selectionEntryGroup" targetId="7761-af98-de90-44d8"/>
           </entryLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Gifts of the Blood God" hidden="true" id="4a22-8008-259b-6e32" publicationId="f894-7929-f79a-a269">
+        <selectionEntry type="upgrade" import="true" name="Dones del Dios de la Sangre" hidden="true" id="4a22-8008-259b-6e32" publicationId="f894-7929-f79a-a269">
           <entryLinks>
-            <entryLink import="true" name="Gifts of the Blood God" hidden="false" id="3bc5-eb87-29b1-a847" type="selectionEntryGroup" targetId="9a04-7009-3f6c-5a34"/>
+            <entryLink import="true" name="Dones del Dios de la Sangre" hidden="false" id="3bc5-eb87-29b1-a847" type="selectionEntryGroup" targetId="9a04-7009-3f6c-5a34"/>
           </entryLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3cff-ae83-2c79-a397"/>
@@ -454,9 +454,9 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a56-27c2-e72a-8045"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Brazen Mutations" id="6072-5cbd-ebb3-a76a" hidden="false">
+    <selectionEntryGroup name="Mutaciones descaradas" id="6072-5cbd-ebb3-a76a" hidden="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Brazen Mutations" id="e85c-357b-e216-0eeb" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
+        <selectionEntryGroup name="Mutaciones descaradas" id="e85c-357b-e216-0eeb" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Carne de latón" hidden="false" id="c82f-3041-0063-90cd">
               <profiles>
@@ -591,7 +591,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
           </modifiers>
           <rules>
             <rule name="Restricciones de mejoras" id="a63d-a93b-204b-47e7" hidden="true">
-              <description>Las Brazen Mutations son mejoras únicas que se pueden dar a unidades **^^Blades of Khorne^^** **^^Infantry^^** o **^^Cavalry^^** que no sean **^^Hero^^**. Una unidad solo puede tener 1 Brazen Mutation.</description>
+              <description>Las Mutaciones descaradas son mejoras únicas que se pueden dar a unidades **^^Filos de Khorne^^** **^^Infantry^^** o **^^Cavalry^^** que no sean **^^Hero^^**. Una unidad solo puede tener 1 Brazen Mutation.</description>
             </rule>
           </rules>
         </selectionEntryGroup>
@@ -609,11 +609,11 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la habilidad &apos;Cráneos para el Trono de Cráneos&apos;</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad, si has desbloqueado una habilidad **^^Blood Tithe^^** este turno, elige como objetivo una unidad amiga **^^Blades of Khorne^^**. Los siguientes efectos se aplican al objetivo durante el resto de la batalla:
-***Brutalidad de mirada salvaje:*** Ignora los modificadores positivos a las tiradas de salvación de las unidades amigas **^^Blades of Khorne^^**.
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad, si has desbloqueado una habilidad **^^Blood Tithe^^** este turno, elige como objetivo una unidad amiga **^^Filos de Khorne^^**. Los siguientes efectos se aplican al objetivo durante el resto de la batalla:
+***Brutalidad de mirada salvaje:*** Ignora los modificadores positivos a las tiradas de salvación de las unidades amigas **^^Filos de Khorne^^**.
 ***Bruma de sangre:*** Las armas **Blood-hungry** usadas por unidades amigas **^^Bloodbound^^** tienen **Crítico (mortal)**.
-***Armas de asesinato:*** Suma 1 a la característica de Rend de las armas **Blood-hungry** usadas por unidades amigas **^^Blades of Khorne^^** que no sean **^^Monster Daemon^^**, incluidas las armas **Blood-hungry Compañero**.
-***Señores de la Sangre supremos:*** Suma 1 a la característica de Damage de las armas **Blood-hungry** usadas por unidades amigas **^^Blades of Khorne Monster^^**.</characteristic>
+***Armas de asesinato:*** Suma 1 a la característica de Rend de las armas **Blood-hungry** usadas por unidades amigas **^^Filos de Khorne^^** que no sean **^^Monster Daemon^^**, incluidas las armas **Blood-hungry Compañero**.
+***Señores de la Sangre supremos:*** Suma 1 a la característica de Damage de las armas **Blood-hungry** usadas por unidades amigas **^^Filos de Khorne Monster^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -667,7 +667,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <profile name="Desdén divino" typeId="5453-37d7-6d37-db1b" typeName="Ability (Blood Tithe)" hidden="false" id="4ad6-054b-9e41-1df8">
           <characteristics>
             <characteristic name="Timing" typeId="13a2-dcf4-38ba-ff59">Una vez por turno, inicio de cualquier turno</characteristic>
-            <characteristic name="Declare" typeId="85a7-1eff-2a27-7d21">Elige como objetivos hasta 3 **^^Wizards^^** o **^^Priests^^** enemigos a 6" o menos de alguna unidad amiga **^^Blades of Khorne^^**.</characteristic>
+            <characteristic name="Declare" typeId="85a7-1eff-2a27-7d21">Elige como objetivos hasta 3 **^^Wizards^^** o **^^Priests^^** enemigos a 6" o menos de alguna unidad amiga **^^Filos de Khorne^^**.</characteristic>
             <characteristic name="Effect" typeId="277c-dbd2-179f-36f4">Tira un dado por cada objetivo. Con un 3+, resta 1 al nivel de poder del objetivo, hasta un mínimo de 0, hasta el inicio del siguiente turno.</characteristic>
             <characteristic name="Keywords" typeId="5329-0c08-0400-de40">**^^Diezmo de sangre^^**</characteristic>
             <characteristic name="Used By" typeId="5252-c26f-597b-4f23"/>
@@ -716,7 +716,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
           <characteristics>
             <characteristic name="Timing" typeId="13a2-dcf4-38ba-ff59">Pasiva</characteristic>
             <characteristic name="Declare" typeId="85a7-1eff-2a27-7d21"/>
-            <characteristic name="Effect" typeId="277c-dbd2-179f-36f4">Resta 1 a las tiradas de impacto de los ataques de disparo que tengan como objetivo unidades amigas **^^Blades of Khorne^^**.</characteristic>
+            <characteristic name="Effect" typeId="277c-dbd2-179f-36f4">Resta 1 a las tiradas de impacto de los ataques de disparo que tengan como objetivo unidades amigas **^^Filos de Khorne^^**.</characteristic>
             <characteristic name="Keywords" typeId="5329-0c08-0400-de40">**^^Diezmo de sangre^^**</characteristic>
             <characteristic name="Used By" typeId="5252-c26f-597b-4f23"/>
             <characteristic name="Blood Tithe Points" typeId="937f-e9e7-e332-d608">2</characteristic>
@@ -732,7 +732,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
           <characteristics>
             <characteristic name="Timing" typeId="13a2-dcf4-38ba-ff59">Pasiva</characteristic>
             <characteristic name="Declare" typeId="85a7-1eff-2a27-7d21"/>
-            <characteristic name="Effect" typeId="277c-dbd2-179f-36f4">Salvo la habilidad de arma **Compañero**, las habilidades de arma de los ataques de combate realizados por unidades enemigas que hayan cargado este turno y que tengan como objetivo a una unidad amiga **^^Blades of Khorne^^** no tienen efecto.</characteristic>
+            <characteristic name="Effect" typeId="277c-dbd2-179f-36f4">Salvo la habilidad de arma **Compañero**, las habilidades de arma de los ataques de combate realizados por unidades enemigas que hayan cargado este turno y que tengan como objetivo a una unidad amiga **^^Filos de Khorne^^** no tienen efecto.</characteristic>
             <characteristic name="Keywords" typeId="5329-0c08-0400-de40">**^^Diezmo de sangre^^**</characteristic>
             <characteristic name="Used By" typeId="5252-c26f-597b-4f23"/>
             <characteristic name="Blood Tithe Points" typeId="937f-e9e7-e332-d608">3</characteristic>
@@ -748,7 +748,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
           <characteristics>
             <characteristic name="Timing" typeId="13a2-dcf4-38ba-ff59">Pasiva</characteristic>
             <characteristic name="Declare" typeId="85a7-1eff-2a27-7d21"/>
-            <characteristic name="Effect" typeId="277c-dbd2-179f-36f4">Suma 1 a la característica de Attacks de las armas usadas por unidades amigas **^^Blades of Khorne^^** que hayan cargado en el mismo turno.</characteristic>
+            <characteristic name="Effect" typeId="277c-dbd2-179f-36f4">Suma 1 a la característica de Attacks de las armas usadas por unidades amigas **^^Filos de Khorne^^** que hayan cargado en el mismo turno.</characteristic>
             <characteristic name="Keywords" typeId="5329-0c08-0400-de40">**^^Diezmo de sangre^^**</characteristic>
             <characteristic name="Used By" typeId="5252-c26f-597b-4f23"/>
             <characteristic name="Blood Tithe Points" typeId="937f-e9e7-e332-d608">4</characteristic>
@@ -764,7 +764,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
           <characteristics>
             <characteristic name="Timing" typeId="13a2-dcf4-38ba-ff59">Pasiva</characteristic>
             <characteristic name="Declare" typeId="85a7-1eff-2a27-7d21"/>
-            <characteristic name="Effect" typeId="277c-dbd2-179f-36f4">Suma 1 a las tiradas de impacto de los ataques de combate realizados por unidades amigas **^^Blades of Khorne^^**.</characteristic>
+            <characteristic name="Effect" typeId="277c-dbd2-179f-36f4">Suma 1 a las tiradas de impacto de los ataques de combate realizados por unidades amigas **^^Filos de Khorne^^**.</characteristic>
             <characteristic name="Keywords" typeId="5329-0c08-0400-de40">**^^Diezmo de sangre^^**</characteristic>
             <characteristic name="Used By" typeId="5252-c26f-597b-4f23"/>
             <characteristic name="Blood Tithe Points" typeId="937f-e9e7-e332-d608">4</characteristic>
@@ -788,7 +788,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Blades of Khorne - Library" id="e001-ff8c-e9dc-5555" targetId="6887-883c-79f3-9f8"/>
+    <catalogueLink type="catalogue" name="Filos de Khorne - Biblioteca" id="e001-ff8c-e9dc-5555" targetId="6887-883c-79f3-9f8"/>
     <catalogueLink type="catalogue" name="✦ Path to Glory - Ravaged Coast" id="eb87-eb99-d57c-0fb9" importRootEntries="true" targetId="a434-b1ba-922b-7624"/>
     <catalogueLink type="catalogue" name="❖ Lores" id="6f3c-330d-daa1-69ab" targetId="0a11-cd61-2a4e-8e04" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="✦ Path to Glory - Ascension" id="e51f-abe2-5214-e787" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
@@ -1808,7 +1808,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Paths" hidden="false" id="a60c-0b7d-b91d-d046" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="cd72-9525-4ef5-1ef7" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="41f2-953b-7b05-37d8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="b9a8-7627-18f4-75e2" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="b9a8-7627-18f4-75e2" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1837,7 +1837,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Paths" hidden="false" id="1a62-ed76-ff9a-117a" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="962d-3647-8426-5488" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="f5c4-a5b2-d3db-a90f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="13dd-c20c-cd72-a9f9" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="13dd-c20c-cd72-a9f9" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -1883,7 +1883,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Paths" hidden="false" id="e4ed-ad4e-22e6-4f6b" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="e164-9295-84af-e1c6" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="95cb-c92e-4ebd-ab26" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="5c09-aca8-406b-b45e" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="5c09-aca8-406b-b45e" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="130"/>
@@ -1915,7 +1915,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Paths" hidden="false" id="0650-6d29-f310-f34d" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1028-7cef-38ef-e0ed" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="d4fc-1131-a27b-75cb" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="b020-743e-4e7f-f37f" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="b020-743e-4e7f-f37f" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="150"/>
@@ -1944,7 +1944,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Paths" hidden="false" id="c0a3-3fdf-3d87-3952" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b66d-1f76-fb04-f9a7" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="69f2-ab9f-1a8a-a9ec" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="b8d0-8e55-d860-db0f" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="b8d0-8e55-d860-db0f" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="150"/>
@@ -1973,7 +1973,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Paths" hidden="false" id="54d7-2d47-423e-484d" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="77f5-d6a9-4ae6-2837" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="9a76-7931-a690-e598" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="a622-b2d8-33ec-5b6e" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="a622-b2d8-33ec-5b6e" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="80"/>
@@ -2059,7 +2059,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Paths" hidden="false" id="741b-6ee6-7309-7ba8" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="864b-a8bb-ebac-a157" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="0d3c-32ab-18ba-736d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="f81e-6667-aed0-b0c4" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="f81e-6667-aed0-b0c4" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Cañón de cráneos" hidden="false" id="99c7-f450-6c36-87de" type="selectionEntry" targetId="597f-3928-bede-9c43">
@@ -2112,7 +2112,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Paths" hidden="false" id="ec1c-0a8c-6858-8f93" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="12a3-30f2-bcb7-64d8" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="4e98-a34c-1b8a-c355" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="9100-5a53-9864-a324" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="9100-5a53-9864-a324" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="170"/>
@@ -2141,7 +2141,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Paths" hidden="false" id="48ba-7073-1aef-ce6c" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="00ef-311f-5639-da4f" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="6233-9f59-1674-3343" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="ed4f-d0c3-89e3-3082" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="ed4f-d0c3-89e3-3082" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="200"/>
@@ -2256,7 +2256,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
       </costs>
       <entryLinks>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3d66-27b3-2d5f-322f" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="5b35-024e-05f5-0cbf" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="5b35-024e-05f5-0cbf" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Elegidos de la Sangre de Dromm" hidden="false" id="8db5-601a-0363-5818" type="selectionEntry" targetId="a5a3-d0d5-fc50-9020">
@@ -2283,7 +2283,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
       <entryLinks>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="e7fe-928d-38dd-193b" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="e8cd-3b95-08c1-bef0" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="056c-a02f-265e-63da" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="056c-a02f-265e-63da" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Demonios de Magore" hidden="false" id="1f77-c326-fb05-20ea" type="selectionEntry" targetId="e17c-89f4-8d3a-a652">
@@ -2310,7 +2310,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
       <entryLinks>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="3151-b9db-2a62-ee22" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="d13e-e218-4479-fcec" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="5a81-1cb4-945c-4410" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="5a81-1cb4-945c-4410" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Instigadores de ira" hidden="false" id="d279-8ae8-f8e8-1be1" type="selectionEntry" targetId="8aed-ea87-e4c8-97ea">
@@ -2336,7 +2336,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Paths" hidden="false" id="a2b2-1506-49c3-92c4" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="fe95-afa7-87df-e038" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="b175-6321-3d39-ec6f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="7bd5-b455-a09c-355c" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="7bd5-b455-a09c-355c" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="130"/>
@@ -2366,7 +2366,7 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
         <entryLink import="true" name="Paths" hidden="false" id="c2b8-8234-4cb1-df41" type="selectionEntryGroup" targetId="8e28-9445-463a-5883"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="59fe-24fb-18d9-be96" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="03b7-ddd1-c706-d256" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="d618-bee7-31d0-b59f" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="d618-bee7-31d0-b59f" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="150"/>
@@ -2639,14 +2639,14 @@ Esta unidad puede verse afectada por esta habilidad varias veces y los efectos s
       <entryLinks>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="cc6c-10cc-3971-fc5d" type="selectionEntryGroup" targetId="6dcf-7de6-0f0f-bfc6"/>
         <entryLink import="true" name="Renown" hidden="false" id="4030-1f67-bcf6-f906" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brazen Mutations" hidden="false" id="fefe-4623-36c4-49a8" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
+        <entryLink import="true" name="Mutaciones descaradas" hidden="false" id="fefe-4623-36c4-49a8" type="selectionEntryGroup" targetId="6072-5cbd-ebb3-a76a"/>
       </entryLinks>
     </entryLink>
   </entryLinks>
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Battle Formation" hidden="false" id="3558-eb6c-91f9-7284" defaultAmount="1">
       <entryLinks>
-        <entryLink import="true" name="Battle Formations: Blades of Khorne" hidden="false" id="16c9-92e8-3e4d-8cdb" type="selectionEntryGroup" targetId="a398-8e2f-f1f1-fe26" collective="false" flatten="true"/>
+        <entryLink import="true" name="Formaciones de batalla: Filos de Khorne" hidden="false" id="16c9-92e8-3e4d-8cdb" type="selectionEntryGroup" targetId="a398-8e2f-f1f1-fe26" collective="false" flatten="true"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c63f-5a51-757a-5273" includeChildSelections="true" includeChildForces="true"/>
