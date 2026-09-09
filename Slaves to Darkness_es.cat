@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="2c23-a678-196b-ad69" name="Slaves to Darkness" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="50" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="2c23-a678-196b-ad69" name="Esclavos de la Oscuridad" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" revision="50" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Spell Lores" id="76d4-19e8-38b1-d8c9" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Lore of the Damned" hidden="false" id="b595-3928-d862-a044" defaultAmount="1">
+        <selectionEntry type="upgrade" import="true" name="Saber de los Condenados" hidden="false" id="b595-3928-d862-a044" defaultAmount="1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e08-1d85-8755-3a18"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Lore of the Damned" hidden="false" id="4e94-2f9d-e710-8aef" type="selectionEntryGroup" targetId="2936-fd91-dffb-1c7d"/>
+            <entryLink import="true" name="Saber de los Condenados" hidden="false" id="4e94-2f9d-e710-8aef" type="selectionEntryGroup" targetId="2936-fd91-dffb-1c7d"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -18,7 +18,7 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Artefacts of Power" id="a81-fa40-378b-46e8" hidden="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Infernal Treasures" id="0609-3ed9-fbb8-8e7b" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
+        <selectionEntryGroup name="Tesoros infernales" id="0609-3ed9-fbb8-8e7b" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Pergamino de piel aélfica" hidden="false" id="4043-02c7-07b0-f659">
               <profiles>
@@ -26,7 +26,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, reacción: el oponente declaró una habilidad de **^^Hechizo^^** para un **^^Wizard^^** a 18" o menos de esta unidad</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige un **^^Wizard^^** **^^Slaves to Darkness^^** amigo visible a 18" o menos de esta unidad. Después de que se resuelva esa habilidad de **^^Hechizo^^**, ese **^^Wizard^^** amigo puede usar una habilidad de **^^Hechizo^^** como si fuera tu fase de héroe, y la tirada de lanzamiento de ese hechizo es igual a la tirada de lanzamiento del hechizo enemigo. No cuentes ese hechizo para el número de habilidades de **^^Hechizo^^** que ese **^^Wizard^^** amigo puede usar esta fase.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige un **^^Wizard^^** **^^Esclavos de la Oscuridad^^** amigo visible a 18" o menos de esta unidad. Después de que se resuelva esa habilidad de **^^Hechizo^^**, ese **^^Wizard^^** amigo puede usar una habilidad de **^^Hechizo^^** como si fuera tu fase de héroe, y la tirada de lanzamiento de ese hechizo es igual a la tirada de lanzamiento del hechizo enemigo. No cuentes ese hechizo para el número de habilidades de **^^Hechizo^^** que ese **^^Wizard^^** amigo puede usar esta fase.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -101,7 +101,7 @@
             </rule>
           </rules>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Infernal Treasures" id="4c2-96a0-7dd9-ca99" hidden="false" publicationId="6357-5d77-a2b2-f86b">
+        <selectionEntryGroup name="Tesoros infernales" id="4c2-96a0-7dd9-ca99" hidden="false" publicationId="6357-5d77-a2b2-f86b">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="La corona del conquistador" hidden="false" id="89ca-29f-2a98-ee0d">
               <profiles>
@@ -170,14 +170,14 @@
             </rule>
           </rules>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Fell Artefacts" id="7a3f-cf1d-9728-b43f" hidden="true" publicationId="f894-7929-f79a-a269">
+        <selectionEntryGroup name="Artefactos funestos" id="7a3f-cf1d-9728-b43f" hidden="true" publicationId="f894-7929-f79a-a269">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="El grillete de varanita" hidden="false" id="fa3a-e2f8-5de5-bed3">
               <profiles>
                 <profile name="El grillete de varanita" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="aa1f-d50c-9239-ca9a">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades amigas no-**^^Warriors of Chaos Slaves to Darkness^^** tienen **^^Ward (6+)^^** mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las unidades amigas no-**^^Warriors of Chaos Esclavos de la Oscuridad^^** tienen **^^Ward (6+)^^** mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
@@ -218,7 +218,7 @@
                 <profile name="Cabeza del indigno" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="561b-d18d-81a8-1198">
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si un **^^Slaves to Darkness Hero^^** amigo con algún punto de **Apoteosis oscura** es destruido, otorga a esta unidad 8 puntos de **Apoteosis oscura**.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si un **^^Esclavos de la Oscuridad Hero^^** amigo con algún punto de **Apoteosis oscura** es destruido, otorga a esta unidad 8 puntos de **Apoteosis oscura**.</characteristic>
                   </characteristics>
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
@@ -267,7 +267,7 @@
         <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="5343-1345-607c-b0d3"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Battle Formations: Slaves to Darkness" id="88d1-56d6-5bb-b9f9" hidden="false" flatten="true" publicationId="6357-5d77-a2b2-f86b">
+    <selectionEntryGroup name="Formaciones de batalla: Esclavos de la Oscuridad" id="88d1-56d6-5bb-b9f9" hidden="false" flatten="true" publicationId="6357-5d77-a2b2-f86b">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Horda Juramento Oscuro" hidden="false" id="4c0d-4c04-67b9-96ca">
           <constraints>
@@ -325,7 +325,7 @@ While there is at least 1 friendly **^^Warriors of Chaos Hero^^** and 1 other f
             <profile name="Ruina salvaje" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="5a7a-7cee-99a3-c62b">
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de tu turno</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **Príncipe demonio** amigo para usar esta habilidad. Después, elige como objetivo una unidad visible no-**^^Daemon^^** no-**^^Unique Slaves to Darkness^^** que esté totalmente a 12" o menos de esta unidad.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **Príncipe demonio** amigo para usar esta habilidad. Después, elige como objetivo una unidad visible no-**^^Daemon^^** no-**^^Unique Esclavos de la Oscuridad^^** que esté totalmente a 12" o menos de esta unidad.</characteristic>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elimina cualquier palabra clave de **Juramento al Caos** que tenga el objetivo. Después, el objetivo obtiene cualquier palabra clave de **Juramento al Caos** que tenga esta unidad.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -400,7 +400,7 @@ While there is at least 1 friendly **^^Warriors of Chaos Hero^^** and 1 other f
             <profile name="Paladines de la oscuridad" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="c211-67db-4b56-a418">
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 2 a la característica de Attacks de las armas de cuerpo a cuerpo usadas por unidades amigas no-**^^Monster Slaves to Darkness Heroes^^**.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 2 a la característica de Attacks de las armas de cuerpo a cuerpo usadas por unidades amigas no-**^^Monster Esclavos de la Oscuridad Heroes^^**.</characteristic>
               </characteristics>
               <attributes>
                 <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
@@ -432,7 +432,7 @@ While there is at least 1 friendly **^^Warriors of Chaos Hero^^** and 1 other f
     </selectionEntryGroup>
     <selectionEntryGroup name="Heroic Traits" id="a1ac-1337-7d66-251b" hidden="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Ruinous Overlords" id="4167-5633-f12d-9877" hidden="false" publicationId="6357-5d77-a2b2-f86b">
+        <selectionEntryGroup name="Señores Supremos ruinosos" id="4167-5633-f12d-9877" hidden="false" publicationId="6357-5d77-a2b2-f86b">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Favorecido del panteón" hidden="false" id="5255-a844-c9a0-5607">
               <profiles>
@@ -540,19 +540,19 @@ While there is at least 1 friendly **^^Warriors of Chaos Hero^^** and 1 other f
     </selectionEntryGroup>
     <selectionEntryGroup name="Manifestation Lores" id="1b20-2d37-b109-b418" hidden="false" flatten="true">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Manifestations of Malevolence" hidden="false" id="138e-d071-f840-8d55">
+        <selectionEntry type="upgrade" import="true" name="Manifestaciones de malevolencia" hidden="false" id="138e-d071-f840-8d55">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="446a-744d-2843-bf08"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Manifestations of Malevolence" hidden="false" id="8c79-7a86-e4ca-7dc4" type="selectionEntryGroup" targetId="0f92-4e1e-41cb-0031"/>
+            <entryLink import="true" name="Manifestaciones de malevolencia" hidden="false" id="8c79-7a86-e4ca-7dc4" type="selectionEntryGroup" targetId="0f92-4e1e-41cb-0031"/>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Ensorcelled Banners" id="5ad4-988a-ad77-9a2f" hidden="false">
+    <selectionEntryGroup name="Estandartes hechizados" id="5ad4-988a-ad77-9a2f" hidden="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Ensorcelled Banners: Slaves to Darkness" id="e493-0b08-2c9b-d8ad" hidden="false">
+        <selectionEntryGroup name="Estandartes hechizados: Esclavos de la Oscuridad" id="e493-0b08-2c9b-d8ad" hidden="false">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="El icono erosionador" hidden="false" id="1e1e-2f3b-dd4f-e415">
               <profiles>
@@ -651,7 +651,7 @@ Además, mientras esta unidad incluya algún portaestandarte, esta unidad tiene 
           </selectionEntries>
           <rules>
             <rule name="Restricciones de mejoras" id="cea3-ef65-5b41-c572" hidden="true">
-              <description>Un Ensorcelled Banner es una mejora única que puede otorgarse a unidades **^^Slaves to Darkness Infantry^^** y **^^Cavalry^^** con la palabra clave **^^Portaestandarte^^**. Una unidad solo puede tener 1 Ensorcelled Banner.</description>
+              <description>Un Ensorcelled Banner es una mejora única que puede otorgarse a unidades **^^Esclavos de la Oscuridad Infantry^^** y **^^Cavalry^^** con la palabra clave **^^Portaestandarte^^**. Una unidad solo puede tener 1 Ensorcelled Banner.</description>
             </rule>
           </rules>
         </selectionEntryGroup>
@@ -719,9 +719,9 @@ Además, mientras esta unidad incluya algún portaestandarte, esta unidad tiene 
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="396b-8e45-97b6-2cfc"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Brands of the Dark Gods" id="2e4a-66f0-fbef-f77d" hidden="false">
+    <selectionEntryGroup name="Marcas de los Dioses Oscuros" id="2e4a-66f0-fbef-f77d" hidden="false">
       <selectionEntryGroups>
-        <selectionEntryGroup name="Brands of the Dark Gods" id="9dd7-589f-29da-489d" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
+        <selectionEntryGroup name="Marcas de los Dioses Oscuros" id="9dd7-589f-29da-489d" hidden="true" publicationId="9e18-bb03-7b60-d4ff">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Marca de vínculos inquebrantables" hidden="false" id="4212-8768-6eb5-1b09">
               <profiles>
@@ -863,7 +863,7 @@ Esta unidad tiene esa palabra clave durante el resto de la batalla.</characteris
           </modifiers>
           <rules>
             <rule name="Restricciones de mejoras" id="3108-48e0-6c08-7c8b" hidden="true">
-              <description>Una Brand of the Dark Gods es una mejora única que solo puede otorgarse a unidades no-**^^Hero^^** **^^Slaves to Darkness^^** **^^Infantry^^**. Una unidad solo puede tener 1 Brand of the Dark Gods.</description>
+              <description>Una Brand of the Dark Gods es una mejora única que solo puede otorgarse a unidades no-**^^Hero^^** **^^Esclavos de la Oscuridad^^** **^^Infantry^^**. Una unidad solo puede tener 1 Brand of the Dark Gods.</description>
             </rule>
           </rules>
         </selectionEntryGroup>
@@ -880,7 +880,7 @@ Esta unidad tiene esa palabra clave durante el resto de la batalla.</characteris
         <profile name="Juramento al Caos" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="bf32-e159-1e29-6218">
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga no-**^^Unique Slaves to Darkness^^** que no tenga ya ninguna de las palabras clave siguientes.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga no-**^^Unique Esclavos de la Oscuridad^^** que no tenga ya ninguna de las palabras clave siguientes.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de las siguientes palabras clave de **Juramento al Caos**:
 • **^^Juramentado a Khorne:^^** 
 • **^^Juramentado a Tzeentch:^^**
@@ -994,7 +994,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     </selectionEntry>
   </sharedSelectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Slaves to Darkness - Library" id="b103-d101-84e5-a8d" targetId="c580-f07a-aa35-f79f"/>
+    <catalogueLink type="catalogue" name="Esclavos de la Oscuridad - Biblioteca" id="b103-d101-84e5-a8d" targetId="c580-f07a-aa35-f79f"/>
     <catalogueLink type="catalogue" name="✦ Path to Glory - Ravaged Coast" id="cc3d-0eb9-b0ef-b2d5" importRootEntries="true" targetId="a434-b1ba-922b-7624"/>
     <catalogueLink type="catalogue" name="❖ Lores" id="8597-ae2c-4ba6-255e" targetId="0a11-cd61-2a4e-8e04" importRootEntries="true"/>
     <catalogueLink type="catalogue" name="✦ Path to Glory - Ascension" id="3844-27ab-0989-0a53" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
@@ -1003,7 +1003,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Battle Formation" hidden="false" id="9715-615d-6123-76a6" defaultAmount="1">
       <entryLinks>
-        <entryLink import="true" name="Battle Formations: Slaves to Darkness" hidden="false" id="bf57-9ab4-fa25-ec8e" type="selectionEntryGroup" targetId="88d1-56d6-5bb-b9f9" collective="false" flatten="true"/>
+        <entryLink import="true" name="Formaciones de batalla: Esclavos de la Oscuridad" hidden="false" id="bf57-9ab4-fa25-ec8e" type="selectionEntryGroup" targetId="88d1-56d6-5bb-b9f9" collective="false" flatten="true"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="dd77-d1ff-fbd-e98e" includeChildSelections="true" includeChildForces="true"/>
@@ -2307,11 +2307,11 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     <entryLink import="true" name="Elegidos del Caos" hidden="false" id="6ed1-cf02-cd29-1db5" type="selectionEntry" targetId="3aa3-1abd-dbb-4a18">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="6111-421e-9c1-2a48" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Ensorcelled Banners" hidden="false" id="d607-5262-1fc6-8448" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
+        <entryLink import="true" name="Estandartes hechizados" hidden="false" id="d607-5262-1fc6-8448" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7ef2-0f6b-2cee-2b40" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="b42e-fe13-d26d-2b52" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="51df-08d5-53cb-71fa" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="482c-c378-521a-4f24" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="482c-c378-521a-4f24" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -2340,7 +2340,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="9e46-6b0b-7c4b-8559" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="adc1-5332-6095-afcb" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="809d-3c10-8b1a-2e0f" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="0393-9812-5fce-cb0b" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="0393-9812-5fce-cb0b" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -2366,7 +2366,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     <entryLink import="true" name="Caballeros del Caos" hidden="false" id="6272-7e37-5f4c-904b" type="selectionEntry" targetId="27c4-2bbe-3811-30fc">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="c092-bc30-c76f-290b" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Ensorcelled Banners" hidden="false" id="1151-8e34-2aad-a7c7" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
+        <entryLink import="true" name="Estandartes hechizados" hidden="false" id="1151-8e34-2aad-a7c7" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7026-d8d9-cad2-050c" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="f6e6-794e-beca-0afb" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="d20c-5bf1-1679-2d76" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
@@ -2417,7 +2417,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="6444-a3f4-7fe4-2be8" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="19ba-af7b-568c-d98a" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="3cc5-8ad3-5343-b9c1" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="253e-c56e-74ea-a14f" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="253e-c56e-74ea-a14f" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Engendro del Caos" hidden="false" id="5445-5020-de97-208b" type="selectionEntry" targetId="ead3-8dd9-3ace-8198">
@@ -2450,11 +2450,11 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     <entryLink import="true" name="Guerreros del Caos" hidden="false" id="a4d-69f-3560-269f" type="selectionEntry" targetId="d19d-83a0-f443-4e83">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="5917-1edc-aa46-e8b1" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Ensorcelled Banners" hidden="false" id="d16b-e008-ce1d-2471" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
+        <entryLink import="true" name="Estandartes hechizados" hidden="false" id="d16b-e008-ce1d-2471" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="c6d2-defe-09e2-7510" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="0f47-6518-af52-83f1" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="8453-4b10-584d-63b7" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="1ef0-c3d1-f6da-a11a" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="1ef0-c3d1-f6da-a11a" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -2480,11 +2480,11 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     <entryLink import="true" name="Guerreros del Caos (Azote de Aqshy)" hidden="false" id="6865-b967-c844-62fe" type="selectionEntry" targetId="7f31-5d2b-4916-28fc">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="d365-657c-776a-f859" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Ensorcelled Banners" hidden="false" id="900a-ffec-595d-2c96" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
+        <entryLink import="true" name="Estandartes hechizados" hidden="false" id="900a-ffec-595d-2c96" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="022a-5f1d-f3ea-56d4" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="2a0b-4415-e2af-c8a0" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="91a7-d9ab-e775-621b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="e179-09b6-2145-eea6" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="e179-09b6-2145-eea6" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -2510,7 +2510,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     <entryLink import="true" name="Jinetes siniestros del Juramento Oscuro" hidden="false" id="3a4-6557-ea1d-e314" type="selectionEntry" targetId="30f5-9b05-d94a-fdfb">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="c4a7-a41c-453b-1ca4" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Ensorcelled Banners" hidden="false" id="ffd4-e37d-578d-5b40" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
+        <entryLink import="true" name="Estandartes hechizados" hidden="false" id="ffd4-e37d-578d-5b40" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="43c4-5c26-4985-6645" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="0025-1315-3dc1-951a" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="c533-86a1-8a38-93db" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
@@ -2539,11 +2539,11 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     <entryLink import="true" name="Bárbaros del Juramento Oscuro" hidden="false" id="c038-eb60-9450-b164" type="selectionEntry" targetId="32a0-6285-a243-3a38">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="2101-59ce-3536-34e2" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Ensorcelled Banners" hidden="false" id="6325-e4a5-21fb-8948" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
+        <entryLink import="true" name="Estandartes hechizados" hidden="false" id="6325-e4a5-21fb-8948" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="133e-9b54-2c68-3bc3" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="db36-a7ed-ea48-70a8" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="a0f5-dad2-adb2-abf2" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="342d-0615-c833-febc" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="342d-0615-c833-febc" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -2571,7 +2571,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="1075-f6da-91f3-3e7b" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="04aa-c9a3-e766-6b72" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="79eb-e3d9-da91-e3cc" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="0410-67c8-daf7-5096" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="0410-67c8-daf7-5096" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -2797,11 +2797,11 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
     <entryLink import="true" name="Theridones ogroides" hidden="false" id="556b-dc1f-bd6-4fba" type="selectionEntry" targetId="dc36-25e9-9522-971e">
       <entryLinks>
         <entryLink import="true" name="Reinforced" hidden="false" id="d945-5c6-1ac9-e561" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Ensorcelled Banners" hidden="false" id="11ff-34bd-934b-b39f" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
+        <entryLink import="true" name="Estandartes hechizados" hidden="false" id="11ff-34bd-934b-b39f" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="b0bf-fb94-c161-4afd" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="f05c-8e5d-cdf1-22e4" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="ab44-ef5d-1500-7569" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="580f-0c64-b22b-4f62" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="580f-0c64-b22b-4f62" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
       <modifiers>
         <modifier type="multiply" value="2" field="points">
@@ -3246,7 +3246,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
       </constraints>
       <entryLinks>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7ac9-e087-4e4c-6e05" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="ce9c-6a97-e170-ce68" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="ce9c-6a97-e170-ce68" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Guardia Varán" hidden="false" id="80ba-f8dc-ff8d-3b4" type="selectionEntry" targetId="3f86-7961-558c-50aa">
@@ -3303,7 +3303,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ae74-7238-cbe9-13b0" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="4e3a-310d-0546-96ba" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="ac2c-d661-640e-49fd" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="c86a-f0d0-d77c-65c7" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="c86a-f0d0-d77c-65c7" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Señores del Enigma" hidden="false" id="9ab1-3223-f141-1f26" type="selectionEntry" targetId="5a21-301b-7e70-62fd">
@@ -3331,7 +3331,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="a07f-aa56-acca-6a7f" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="30d7-890a-f15a-209c" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="b36f-03b7-1107-dbb8" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="40fb-3f46-898d-37e6" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="40fb-3f46-898d-37e6" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Cuernos de Hashut" hidden="false" id="c2df-74d6-4478-5ade" type="selectionEntry" targetId="4146-b722-ff22-610d">
@@ -3359,7 +3359,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="0d2b-65d8-817e-5dde" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="effb-61d7-5379-56a8" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="c0fa-5596-7425-c063" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="4e55-bdbc-777c-e096" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="4e55-bdbc-777c-e096" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Gólem de Hierro" hidden="false" id="4a79-a489-2f04-b87c" type="selectionEntry" targetId="9a4c-e68d-108d-98f5">
@@ -3384,11 +3384,11 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <cost name="pts" typeId="points" value="100"/>
       </costs>
       <entryLinks>
-        <entryLink import="true" name="Ensorcelled Banners" hidden="false" id="f1a5-85e3-2301-05ca" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
+        <entryLink import="true" name="Estandartes hechizados" hidden="false" id="f1a5-85e3-2301-05ca" type="selectionEntryGroup" targetId="5ad4-988a-ad77-9a2f"/>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="7948-8dfa-3598-6846" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="d78e-d080-9d40-8ef0" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="77b2-00c9-6f22-f4c4" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="5a71-ac20-8e9e-3f3e" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="5a71-ac20-8e9e-3f3e" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Vástagos de la Llama" hidden="false" id="ea38-78c5-617d-4336" type="selectionEntry" targetId="cc95-e171-14b9-002f">
@@ -3416,7 +3416,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="d9aa-054f-2426-075c" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="1ea1-c4c8-cad3-80e4" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="93ae-5172-96c9-bf4c" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="c396-a8a8-d4ed-6143" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="c396-a8a8-d4ed-6143" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Tiranos de la Aguja" hidden="false" id="3798-a94f-c3c2-a847" type="selectionEntry" targetId="62a3-63bf-2306-e2a2">
@@ -3444,7 +3444,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="91d0-f9c2-dd17-e8e0" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="7ea8-de1f-5a0a-23b3" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="d0cb-5abd-f80a-3c8b" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="e81b-7978-b2b7-3032" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="e81b-7978-b2b7-3032" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Colmillo Astillado" hidden="false" id="d82a-95d9-b777-37e1" type="selectionEntry" targetId="78f8-9ac5-641f-8b5c">
@@ -3472,7 +3472,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="93e6-2560-ffad-ed00" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="4eb7-517c-b7d1-7de1" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="f12e-e705-cc55-1512" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="e34e-cc29-e9da-a751" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="e34e-cc29-e9da-a751" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Prole Tarantulos" hidden="false" id="2dce-8abc-c24b-a5ca" type="selectionEntry" targetId="066a-b04a-44ea-fca2">
@@ -3500,7 +3500,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="67ef-1adf-0996-adff" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="d15a-3a73-e950-7a9b" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="8544-5ecb-a1b4-f81e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="3ea6-3fea-ade6-e2b9" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="3ea6-3fea-ade6-e2b9" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Los Deshechos" hidden="false" id="da7a-0512-dc1a-ac0d" type="selectionEntry" targetId="6aef-12ed-3dc9-2c83">
@@ -3528,7 +3528,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="abad-0cff-8498-8895" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="6f85-977e-3787-7d55" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="9dcb-5af9-2598-80ae" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="e438-576a-06cb-8137" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="e438-576a-06cb-8137" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Bestias Indómitas" hidden="false" id="d0f3-f79e-25f5-e369" type="selectionEntry" targetId="056b-6839-dc2f-46db">
@@ -3556,7 +3556,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="15b4-f017-e536-a496" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
         <entryLink import="true" name="Paths" hidden="false" id="540b-2594-5e19-471d" type="selectionEntryGroup" targetId="b0a6-aba3-da51-8a7f"/>
         <entryLink import="true" name="Renown" hidden="false" id="ea66-8138-6242-9d0d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="c2d2-c372-e83c-4d9a" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="c2d2-c372-e83c-4d9a" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Cacería de los Juramentados de los Dioses" hidden="false" id="a7d5-74de-6e60-9130" type="selectionEntry" targetId="1bb9-8fa7-8bf8-e4a2">
@@ -3582,7 +3582,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
       </costs>
       <entryLinks>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ab46-9474-24ea-c7a3" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="4a80-4605-0eab-efad" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="4a80-4605-0eab-efad" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="La Manada de los Espíritus Retorcidos" hidden="false" id="b0cd-5867-a3f5-2066" type="selectionEntry" targetId="8046-a145-5d79-aa66">
@@ -3608,7 +3608,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
       </costs>
       <entryLinks>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="ff96-80af-977c-4e1b" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="3de5-29a7-7ab4-dfd3" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="3de5-29a7-7ab4-dfd3" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Devastadores de Khagra" hidden="false" id="f83b-2e39-f2a4-c214" type="selectionEntry" targetId="c9bb-a2c8-8c92-a00c">
@@ -3634,7 +3634,7 @@ During the battle, the target gains **Dark Apotheosis** points as follows:
       </costs>
       <entryLinks>
         <entryLink import="true" name="Battle Wounds + Scars" hidden="false" id="2de6-a98f-1707-09bf" type="selectionEntryGroup" targetId="20bb-e408-9d25-ffc6"/>
-        <entryLink import="true" name="Brands of the Dark Gods" hidden="false" id="4629-4759-1859-87fc" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
+        <entryLink import="true" name="Marcas de los Dioses Oscuros" hidden="false" id="4629-4759-1859-87fc" type="selectionEntryGroup" targetId="2e4a-66f0-fbef-f77d"/>
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Yunque de la apoteosis: héroe de los Esclavos de la Oscuridad" hidden="true" id="20ca-03db-916c-19e6" type="selectionEntry" targetId="0ed5-d41f-e776-045e">
