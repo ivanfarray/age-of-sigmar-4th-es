@@ -15834,7 +15834,7 @@ Cada parte de esta **^^Manifestation^^** está armada con **Zarcillos de luz y s
     <rule name="Ocultación" id="e40f-b982-0721-291b" hidden="true">
       <description>Mientras todas las miniaturas de una unidad que no sea **^^Monster^^** y que no tenga la palabra clave **Volar^^** estén a 1" o menos de este elemento de escenografía, se aplica lo siguiente:
 • Esa unidad solo es visible para las unidades enemigas que estén dentro de su alcance de combate.
-• La característica de Range de las armas de esa unidad se reduce a la mitad (redondeando hacia abajo a la pulgada más cercana).</description>
+• La característica de Alcance de las armas de esa unidad se reduce a la mitad (redondeando hacia abajo a la pulgada más cercana).</description>
       <modifiers>
         <modifier type="set" value="false" field="hidden">
           <conditions>
