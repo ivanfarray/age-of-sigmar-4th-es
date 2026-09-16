@@ -288,7 +288,7 @@ Retira los objetivos del campo de batalla. Después de que el **^^Skyvessel^^** 
                 <profile name="Pico taladro persistente" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="339d-6e51-7182-4989">
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a visible enemy unit within 12&quot; of this unit to be the target.</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 12" o menos de esta unidad.</characteristic>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Con un 2+:
 • Inflige al objetivo una cantidad de daño mortal igual al resultado.
 • Si el tamaño inicial de la unidad objetivo era 1, resta 1 a las tiradas de impacto de los ataques del objetivo hasta el inicio de tu siguiente turno.</characteristic>
@@ -310,7 +310,7 @@ Retira los objetivos del campo de batalla. Después de que el **^^Skyvessel^^** 
               <profiles>
                 <profile name="Equipo eyector experimental de energía etérea" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="72ac-4a13-27da-dace">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Battle, Any Combat Phase</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Retira esta unidad del campo de batalla y vuelve a colocarla totalmente a 3" o menos de un **^^Skyvessel^^** amigo o de un **Muelle endrín Zontari** y a más de 9" de todas las unidades enemigas.
 </characteristic>
@@ -981,18 +981,15 @@ Esta unidad puede usar esta habilidad más de una vez por fase, pero solo puedes
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Artículo 25, punto 6" hidden="false" id="ac30-5fad-3f30-7915">
               <profiles>
-                <profile name="Artículo 25, punto 6" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="592c-42cc-6c28-e47c">
+                <profile name="Artículo 25, punto 6" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="592c-42cc-6c28-e47c">
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Los **^^Señores Supremos Kharadron Heroes^^** amigos tienen **^^Ward (5+)^^** mientras estén dentro del alcance de combate de esta unidad.</characteristic>
-                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
-                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Los **^^Señores Supremos Kharadron Heroes^^** amigos tienen **^^Ward (5+)^^** mientras estén dentro del alcance de combate de esta unidad.</characteristic>
                   </characteristics>
                   <attributes>
-                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Green</attribute>
-                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Defensive</attribute>
-                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
                   </attributes>
                 </profile>
               </profiles>

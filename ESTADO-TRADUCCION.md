@@ -1,16 +1,34 @@
-# Estado de la traducción — 9 de septiembre de 2026
+# Estado de la traducción — 16 de septiembre de 2026
+
+## Sincronización con BSData
+
+Integrados los 7 commits posteriores a `a3b951c`, hasta
+`a01c6610982c21e111aeeb66a2ee7cee9c13ed92` de `BSData/age-of-sigmar-4th/main`.
+Los originales `.cat` y `.gst` coinciden con esa revisión del proyecto original.
+
+Actualizados los catálogos españoles de Hijas de Khaine, Ironsunz, Kharadron,
+Regimientos de Renombre, Eternos de la Tormenta y Sylvaneth. La corrección
+ortográfica de Lores conserva la traducción española existente. Se han añadido
+6 claves de traducción, incluidas 2 cadenas pendientes de Kharadron, y archivado
+4 claves sustituidas en `_unused`. Las palabras clave nuevas ya tenían traducción.
+
+La revisión global ha resuelto además 10 cadenas anteriores sin correspondencia
+en Idoneth, Kruleboyz, Nighthaunt, Slaves to Darkness y Soulblight Gravelords,
+incluidos sus catálogos de ejércitos de renombre. No quedan cadenas descriptivas
+del XML sin entrada de traducción.
+
+## Cobertura
 
 **Completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús, catálogos y opciones de héroes.**
 
-- Los 133 JSON de prosa contienen 9.862 entradas resueltas y **0 valores vacíos**.
+- Los 133 JSON de prosa contienen 9.874 entradas resueltas y **0 valores vacíos**.
 - Se han rellenado las 697 entradas que antes se conservaban vacías: claves,
   habilidades de arma, etiquetas de peanas e ingredientes, además de registrar
   las expresiones numéricas y los nombres propios sin traducción.
 - 24 valores de prosa son idénticos al original porque contienen datos, nombres
   propios u otras expresiones que no cambian.
 - Las **133 parejas de archivos** pasan la verificación completa de texto,
-  nombres, estructura XML y atributos técnicos. Los originales ingleses y los
-  diccionarios de prosa no han cambiado durante la traducción de nombres.
+  nombres, estructura XML y atributos técnicos.
 - Pasan las nueve pruebas del generador, incluidos los nombres de habilidades
   en reglas y perfiles y los alias que enlazan catálogos diferentes.
 - Las equivalencias son traducciones de aficionado, no nomenclatura oficial.
