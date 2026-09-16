@@ -274,6 +274,10 @@ facción es unas 20 veces más pequeño y sirve para coger el tono.
 
 ## Cuando BSData actualiza el fichero original
 
+Consulta [la guía de actualización desde BSData](ACTUALIZAR-DESDE-BSDATA.md)
+para seguir el proceso completo con comandos de PowerShell, nuevos warscrolls,
+verificación y publicación de los cambios.
+
 1. Trae los cambios del repositorio original.
 2. Vuelve a ejecutar el paso 1: conserva lo ya traducido, añade solo las cadenas
    nuevas y avisa de las que han desaparecido (las guarda en `_unused` para no

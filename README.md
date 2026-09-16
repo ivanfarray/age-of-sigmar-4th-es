@@ -72,6 +72,7 @@ published under a permissive license, so it cannot be relicensed here.*
 | `translations/names/*.es.json` | equivalencias de nombres visibles y sus referencias |
 | `tools/` | herramientas de generación, cobertura y verificación |
 | [`TRADUCIR.md`](TRADUCIR.md) | **cómo colaborar en la traducción** |
+| [`ACTUALIZAR-DESDE-BSDATA.md`](ACTUALIZAR-DESDE-BSDATA.md) | **cómo incorporar novedades de BSData y traducirlas paso a paso** |
 
 Estado a 9 de septiembre de 2026: **completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús y catálogos**.
 
