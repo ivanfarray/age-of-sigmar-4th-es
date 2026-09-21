@@ -1,10 +1,25 @@
-# Estado de la traducción — 16 de septiembre de 2026
+# Estado de la traducción — 21 de septiembre de 2026
 
 ## Sincronización con BSData
 
+Integrados los 4 commits nuevos desde `a01c661`, hasta
+`d989a15e436cb8815dee208f3ff8251de72f40a0` de `BSData/age-of-sigmar-4th/main`.
+La reorganización del 18 de septiembre cambia el orden interno del XML de los
+133 originales; se han regenerado todas sus versiones españolas. También se
+incorporan las correcciones de reglas y perfiles, incluida la de Regimientos de
+Renombre del día 19. Los originales coinciden con esa revisión de BSData.
+
+Se han resuelto 9 claves de prosa en 7 catálogos y archivado 8 claves sustituidas,
+conservando el historial previo de `_unused`. Incluyen la distancia de reemplazo
+de Tzeentch (12 pulgadas), las múltiples unidades bajo tierra de Fyreslayers y
+las correcciones de Aliados de las Ciudades Libres. Se registran además
+`Allied Drothmasters` y `Kyndledroth's Fangs` en los diccionarios de nombres.
+
+### Actualización anterior: 16 de septiembre
+
 Integrados los 7 commits posteriores a `a3b951c`, hasta
 `a01c6610982c21e111aeeb66a2ee7cee9c13ed92` de `BSData/age-of-sigmar-4th/main`.
-Los originales `.cat` y `.gst` coinciden con esa revisión del proyecto original.
+En esa actualización, los originales coincidían con dicha revisión.
 
 Actualizados los catálogos españoles de Hijas de Khaine, Ironsunz, Kharadron,
 Regimientos de Renombre, Eternos de la Tormenta y Sylvaneth. La corrección
@@ -21,7 +36,7 @@ del XML sin entrada de traducción.
 
 **Completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús, catálogos y opciones de héroes.**
 
-- Los 133 JSON de prosa contienen 9.874 entradas resueltas y **0 valores vacíos**.
+- Los 133 JSON de prosa contienen 9.875 entradas resueltas y **0 valores vacíos**.
 - Se han rellenado las 697 entradas que antes se conservaban vacías: claves,
   habilidades de arma, etiquetas de peanas e ingredientes, además de registrar
   las expresiones numéricas y los nombres propios sin traducción.
@@ -35,8 +50,8 @@ del XML sin entrada de traducción.
 
 ## Cobertura de nombres
 
-La comprobación ampliada revisa **9.444 nombres distintos**:
-9.244 tienen equivalencia española, 200 mantienen
+La comprobación ampliada revisa **9.445 nombres distintos**:
+9.245 tienen equivalencia española, 200 mantienen
 su denominación y **0 están pendientes dentro de este alcance**. Incluye
 unidades, armas, manifestaciones, habilidades, reglas, todos los grupos y
 opciones de selección, catálogos, regimientos y modificadores de nombre.

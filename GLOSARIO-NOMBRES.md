@@ -1712,6 +1712,7 @@ Las cadenas compartidas figuran en varios diccionarios; la suma de esta tabla no
 | Kyazu's Greatblade and Mutants' Claws | Gran hoja de Kyazu y garras de mutantes |
 | Kyllaron's Ghostly Hooves and Teeth | Cascos y dientes fantasmales de Kyllaron |
 | Kyndledroth | Kyndledroth |
+| Kyndledroth's Fangs | Colmillos de Kyndledroth |
 | Kyrae | Kyrae |
 | Kyrssa | Kyrssa |
 | Lacerating Claws | Garras lacerantes |

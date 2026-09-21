@@ -212,6 +212,7 @@ La tabla incluye nombres compartidos con los diccionarios de unidades y armas. L
 | All-out Defence | Defensa total |
 | All-Out Defence | Defensa total |
 | Allies Drothmasters | Maestros de droths aliados |
+| Allied Drothmasters | Maestros de droths aliados |
 | Allopex | Allopex |
 | Allow Me To Demonstrate | Permitidme demostrarlo |
 | Allow Me To Remind You... | Permitidme recordaros... |

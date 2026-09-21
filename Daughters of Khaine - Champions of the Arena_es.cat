@@ -1,186 +1,384 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="7dbe-5372-591a-6c7e" name="Hijas de Khaine - Campeones de la Arena" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="87" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Heridas de batalla + cicatrices" id="ea8e-995c-f19c-fee2" hidden="true" collapsible="true">
+<catalogue name="Hijas de Khaine - Campeones de la Arena" id="7dbe-5372-591a-6c7e" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="87" library="false" revision="4" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink name="❖ Saberes" id="550e-8046-65e9-9c6f" importRootEntries="true" targetId="0a11-cd61-2a4e-8e04" type="catalogue"/>
+    <catalogueLink name="Hijas de Khaine - Biblioteca" id="6c46-df51-2965-00a6" targetId="37ab-3336-3e89-c608" type="catalogue"/>
+    <catalogueLink name="✦ Sendero a la Gloria - Ascensión" id="22bb-181b-8362-dbc0" importRootEntries="true" targetId="3a8b-7496-526f-feab" type="catalogue"/>
+    <catalogueLink name="✦ Sendero a la Gloria - Costa Devastada" id="2adf-4bae-9ca5-1c59" importRootEntries="true" targetId="a434-b1ba-922b-7624" type="catalogue"/>
+    <catalogueLink name="✦ Sendero a la Gloria - Tierras Salvajes Corruptas" id="67af-f862-eb4d-72dd" importRootEntries="true" targetId="e0ff-dc7c-8795-bfb9" type="catalogue"/>
+  </catalogueLinks>
+  <categoryEntries>
+    <categoryEntry name="CHAMPIONS OF THE ARENA" id="caad-2bf8-5695-9f4e" hidden="false"/>
+    <categoryEntry name="Coven Matriarch" id="2fb0-a53a-409b-4213" hidden="false">
+      <constraints>
+        <constraint id="d37d-9858-020f-50a5" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="0"/>
+      </constraints>
       <modifiers>
-        <modifier type="set" value="false" field="hidden">
+        <modifier field="d37d-9858-020f-50a5" type="set" value="1">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="f54e-45a2-14f9-ea1a" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="60af-b39c-2638-1579" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink name="Brujas de sangre" id="6230-c81e-f92a-5de9" hidden="false" import="true" targetId="d65a-2556-6d7f-ad62" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="CHAMPIONS OF THE ARENA" id="63e3-ceee-f1f8-4d22" hidden="false" primary="false" targetId="caad-2bf8-5695-9f4e"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Reforzado" id="d0d9-b121-6a99-645d" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
+        <entryLink name="Renombre" id="7a51-d480-c9bc-6144" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+        <entryLink name="Sendas" id="64df-233a-3114-de68" hidden="false" import="true" targetId="75ad-070d-1d23-04ca" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="90dc-f71b-02bb-2f3b" hidden="false" import="true" targetId="ea8e-995c-f19c-fee2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="points" type="multiply" value="2">
+          <conditions>
+            <condition childId="1b37-82b8-c062-eb82" field="selections" scope="self" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="atLeast" value="1" field="e63c-79ff-93ba-c5eb" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="1bed-ddb5-0c50-16d2" shared="true" includeChildSelections="true"/>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
+    </entryLink>
+    <entryLink name="Hermanas de la matanza" id="9615-ef18-03c2-4356" hidden="false" import="true" targetId="0683-943c-7667-2b67" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="CHAMPIONS OF THE ARENA" id="cddf-b356-cc90-47cf" hidden="false" primary="false" targetId="caad-2bf8-5695-9f4e"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="110"/>
+      </costs>
       <entryLinks>
-        <entryLink import="true" name="Cicatrices de batalla de la Costa Devastada" hidden="false" id="0a43-32cd-6e2b-72cd" type="selectionEntryGroup" targetId="5559-80df-ba01-66a7" flatten="true"/>
-        <entryLink import="true" name="Cicatrices de batalla de las Tierras Salvajes Corruptas" hidden="false" id="94b8-a3a1-3e47-fd82" type="selectionEntryGroup" targetId="374e-3b5e-1810-b56a"/>
+        <entryLink name="Reforzado" id="5841-ace5-5640-f836" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
+        <entryLink name="Renombre" id="2f17-2251-2c41-567d" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+        <entryLink name="Sendas" id="0aae-8c5c-8778-55c2" hidden="false" import="true" targetId="75ad-070d-1d23-04ca" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="8a5f-bf93-93f1-8e98" hidden="false" import="true" targetId="ea8e-995c-f19c-fee2" type="selectionEntryGroup"/>
       </entryLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Heridas de batalla" hidden="false" id="f050-af43-6a18-7284"/>
-        <selectionEntry type="upgrade" import="true" name="Agotado" hidden="true" id="0d5b-dacd-3af8-476d">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c7a-98df-655d-7a27"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
+      <modifiers>
+        <modifier field="points" type="multiply" value="2">
+          <conditions>
+            <condition childId="1b37-82b8-c062-eb82" field="selections" scope="self" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="6e72-1656-d554-528a" shared="true"/>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
-            </modifier>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Santuario del tributo oscuro" id="055c-9293-f6e1-7cdf" hidden="false" import="true" targetId="0745-c2a2-2a26-afb5" type="selectionEntry">
+      <costs>
+        <cost name="pts" typeId="points" value="20"/>
+      </costs>
+      <modifiers>
+        <modifier field="points" type="set" value="0">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition childId="1bed-ddb5-0c50-16d2" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="01b1-5112-ab45-1afc" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="f079-501a-2738-6844" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="8e6f-2dd7-a7ed-489e" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Aelfas brujas" id="8588-e2ca-f5cd-a06e" hidden="false" import="true" targetId="f3b2-f764-110e-fbe5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="CHAMPIONS OF THE ARENA" id="e5a6-8ee3-315f-dedb" hidden="false" primary="false" targetId="caad-2bf8-5695-9f4e"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="120"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Reforzado" id="07f1-03ec-8ad7-a110" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
+        <entryLink name="Renombre" id="e150-5722-ed42-317e" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+        <entryLink name="Sendas" id="4072-6054-3045-5646" hidden="false" import="true" targetId="75ad-070d-1d23-04ca" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="8866-c0a0-727b-b2d3" hidden="false" import="true" targetId="ea8e-995c-f19c-fee2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="points" type="multiply" value="2">
+          <conditions>
+            <condition childId="1b37-82b8-c062-eb82" field="selections" scope="self" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Reina bruja" id="f54e-45a2-14f9-ea1a" hidden="false" import="true" targetId="4443-5875-af71-96a4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="CHAMPIONS OF THE ARENA" id="a4c4-ab6f-20d7-9fcc" hidden="false" primary="false" targetId="caad-2bf8-5695-9f4e"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="110"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Caudillo" id="34c2-a31c-21dd-c5fb" hidden="false" import="true" targetId="bb28-fa4a-bf5f-f793" type="selectionEntry"/>
+        <entryLink name="Renombre" id="9257-2589-ddaa-22fe" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+        <entryLink name="Brebajes de Ghyran" id="353e-9209-52e0-f872" hidden="false" import="true" targetId="17d6-baae-dbeb-3e2c" type="selectionEntryGroup"/>
+        <entryLink name="Rasgos heroicos" id="7fb3-5f41-2ffc-f80c" hidden="false" import="true" targetId="8406-d586-5ed7-a078" type="selectionEntryGroup"/>
+        <entryLink name="Artefactos de poder" id="7c54-455f-bfbc-cb78" hidden="false" import="true" targetId="2088-0bc8-8d53-010e" type="selectionEntryGroup"/>
+        <entryLink name="Sendas" id="376c-55dd-b846-0423" hidden="false" import="true" targetId="75ad-070d-1d23-04ca" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="b933-f83e-d0dd-139d" hidden="false" import="true" targetId="ea8e-995c-f19c-fee2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier affects="self.entries.recursive.5ef2-db09-d3cc-4b27" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.b4e1-75b3-227b-1a8d" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.2fb0-a53a-409b-4213" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup name="Sendas" id="75ad-070d-1d23-04ca" hidden="true">
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier field="category" scope="root-entry" type="set-primary" value="d1f3-921c-b403-1106">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Gran gladiadora" id="1d5a-98c0-7da9-4730" hidden="false" import="true" targetId="93e8-210a-cc3-ef22" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="CHAMPIONS OF THE ARENA" id="5303-c95b-4c52-611e" hidden="false" primary="false" targetId="caad-2bf8-5695-9f4e"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="120"/>
+      </costs>
       <entryLinks>
-        <entryLink import="true" name="Sendas de la Costa Devastada" hidden="false" id="aea2-c2f9-0224-8754" type="selectionEntryGroup" targetId="7bae-23cb-3977-3ece" flatten="true"/>
-        <entryLink import="true" name="Sendas de ascensión" hidden="false" id="d819-8ac1-0051-229b" type="selectionEntryGroup" targetId="9b2e-ad88-381f-5c49" flatten="true"/>
-        <entryLink import="true" name="Sendas de las Tierras Salvajes Corruptas" hidden="false" id="fc9e-261e-94a4-4e5a" type="selectionEntryGroup" targetId="3f1b-26c1-aa71-73f8"/>
-        <entryLink import="true" name="Sendas" hidden="false" id="da98-11a8-71e2-be64" type="selectionEntryGroup" targetId="5ed8-cc1e-bd8d-bd3c"/>
+        <entryLink name="Rasgos heroicos" id="9efd-3e38-d8bf-d6ee" hidden="false" import="true" targetId="8406-d586-5ed7-a078" type="selectionEntryGroup"/>
+        <entryLink name="Artefactos de poder" id="fc0a-5777-56bd-24e2" hidden="false" import="true" targetId="2088-0bc8-8d53-010e" type="selectionEntryGroup"/>
+        <entryLink name="Sendas" id="57aa-699c-fd50-5cef" hidden="false" import="true" targetId="75ad-070d-1d23-04ca" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="fb28-95a3-2634-fdd3" hidden="false" import="true" targetId="ea8e-995c-f19c-fee2" type="selectionEntryGroup"/>
+        <entryLink name="Caudillo" id="aeaf-9549-5570-32fa" hidden="false" import="true" targetId="bb28-fa4a-bf5f-f793" type="selectionEntry"/>
+        <entryLink name="Renombre" id="42e2-bc17-063d-f028" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+        <entryLink name="Brebajes de Ghyran" id="3e69-0b1a-3551-2b8c" hidden="false" import="true" targetId="17d6-baae-dbeb-3e2c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="2fb0-a53a-409b-4213"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier affects="self.entries.recursive.5ef2-db09-d3cc-4b27" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.b4e1-75b3-227b-1a8d" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier field="category" scope="root-entry" type="set-primary" value="d1f3-921c-b403-1106">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Reina de la matanza" id="60af-b39c-2638-1579" hidden="false" import="true" targetId="e228-7274-8e97-b97f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="CHAMPIONS OF THE ARENA" id="5648-f839-3523-d0cf" hidden="false" primary="false" targetId="caad-2bf8-5695-9f4e"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="130"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Caudillo" id="d6df-38ff-b129-ef9a" hidden="false" import="true" targetId="bb28-fa4a-bf5f-f793" type="selectionEntry"/>
+        <entryLink name="Renombre" id="7c55-614e-9e9e-2337" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+        <entryLink name="Brebajes de Ghyran" id="34c1-6672-f0a4-9e85" hidden="false" import="true" targetId="17d6-baae-dbeb-3e2c" type="selectionEntryGroup"/>
+        <entryLink name="Rasgos heroicos" id="5460-6d60-a769-bef1" hidden="false" import="true" targetId="8406-d586-5ed7-a078" type="selectionEntryGroup"/>
+        <entryLink name="Artefactos de poder" id="c1d2-e4ad-c1ac-61f0" hidden="false" import="true" targetId="2088-0bc8-8d53-010e" type="selectionEntryGroup"/>
+        <entryLink name="Sendas" id="1e84-60ea-1e78-5ca8" hidden="false" import="true" targetId="75ad-070d-1d23-04ca" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="158d-a5e4-29ab-6b10" hidden="false" import="true" targetId="ea8e-995c-f19c-fee2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier affects="self.entries.recursive.5ef2-db09-d3cc-4b27" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.b4e1-75b3-227b-1a8d" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.2fb0-a53a-409b-4213" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier field="category" scope="root-entry" type="set-primary" value="d1f3-921c-b403-1106">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Rasgos de batalla: Campeones de la Arena" id="6e48-1545-1afc-2109" hidden="false" import="true" targetId="2996-5894-31ae-7a45" type="selectionEntry">
+      <constraints>
+        <constraint id="210f-ad61-2133-2871" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+    </entryLink>
+  </entryLinks>
+  <selectionEntries>
+    <selectionEntry name="Saber de plegarias" id="a7f8-8c61-9711-1573" defaultAmount="1" hidden="true" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Army Composition" id="a15e-2179-40a4-8c2b" hidden="false" primary="true" targetId="ac97-b27c-7e35-7ab9"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="a493-ef8b-16c3-1ad4" field="selections" scope="roster" shared="true" type="max" value="1"/>
+        <constraint id="b7a5-76d8-568e-d62f" field="selections" scope="self" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Saberes de plegarias" id="0d87-a32e-fcea-2015" collective="false" flatten="true" hidden="false" import="true" targetId="7e68-40b4-30cc-d151" type="selectionEntryGroup"/>
       </entryLinks>
       <modifiers>
-        <modifier type="set" value="false" field="hidden">
+        <modifier field="hidden" type="set" value="false">
           <conditions>
-            <condition type="atLeast" value="1" field="e63c-79ff-93ba-c5eb" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition childId="any" field="de92-2099-fbf7-a156" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
           </conditions>
         </modifier>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Saber de manifestaciones" id="cdb3-30b7-00fa-62fe" defaultAmount="1" hidden="true" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Army Composition" id="3af6-8aff-b11d-d5c7" hidden="false" primary="true" targetId="ac97-b27c-7e35-7ab9"/>
+      </categoryLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="03ee-ab3a-1bed-4210"/>
+        <constraint id="6c2c-f536-8200-17dd" field="selections" scope="roster" shared="true" type="max" value="1"/>
+        <constraint id="5bdc-3ce2-881d-0d98" field="selections" scope="self" shared="true" type="max" value="1"/>
       </constraints>
-    </selectionEntryGroup>
-    <selectionEntryGroup name="Artefactos de poder" id="2088-0bc8-8d53-010e" hidden="false">
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Artefactos de poder: Campeones de la Arena" id="abc0-4970-9648-fb6c" hidden="false" publicationId="df1f-ba81-775f-acfd">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Cuchilla de muerte" hidden="false" id="c132-583c-ce39-4b24">
-              <profiles>
-                <profile name="Cuchilla de muerte" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="fde3-e0c7-f8ed-c9bd">
-                  <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad **^^Combatir^^** para esta unidad</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad **^^Combatir^^**, si alguna miniatura enemiga fue abatida por los ataques de esta unidad realizados como parte de esa habilidad **^^Combatir^^**, puedes elegir como objetivo una **^^Champions of the Arena Priest^^** amiga totalmente a 12" o menos de esta unidad. En lugar de hacer una tirada de cántico para la siguiente habilidad **^^Prayer^^** que use el objetivo, puedes usar un valor de 10 para esa tirada que no se puede modificar, incluso si esta unidad ha sido destruida.</characteristic>
-                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
-                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
-                  </characteristics>
-                  <attributes>
-                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
-                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
-                  </attributes>
-                </profile>
-              </profiles>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b557-1e18-79f6-4df9" includeChildSelections="true"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-          <rules>
-            <rule name="Restricciones de mejoras" id="0ed6-2757-5373-ca87" hidden="true">
-              <description>solo **^^Hero^^**</description>
-            </rule>
-          </rules>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Artefactos de poder" hidden="false" id="e262-2d66-8879-d9a2" type="selectionEntryGroup" targetId="e1b2-cedf-56a5-6bb1" flatten="true"/>
-        <entryLink import="true" name="Artefactos de poder" hidden="false" id="4218-9a08-ac37-9503" type="selectionEntryGroup" targetId="d563-838a-a901-097e"/>
+        <entryLink name="Saberes de manifestaciones" id="46e4-6472-de25-564e" flatten="true" hidden="false" import="true" targetId="748f-5d65-2d45-95c5" type="selectionEntryGroup"/>
+        <entryLink name="Saberes de manifestaciones" id="c1fa-2746-f39d-5ae8" flatten="true" hidden="false" import="true" targetId="b82c-ae93-2b3c-4f7e" type="selectionEntryGroup"/>
       </entryLinks>
       <modifiers>
-        <modifier type="set" value="-1" field="52e3-41e3-b755-263c">
+        <modifier field="hidden" type="set" value="false">
           <conditions>
-            <condition type="atLeast" value="1" field="e63c-79ff-93ba-c5eb" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition childId="any" field="de92-2099-fbf7-a156" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
           </conditions>
         </modifier>
       </modifiers>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="52e3-41e3-b755-263c" includeChildSelections="true"/>
-        <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="ecd4-8254-01f9-5e7a"/>
-      </constraints>
-    </selectionEntryGroup>
-    <selectionEntryGroup name="Rasgos heroicos" id="8406-d586-5ed7-a078" hidden="false">
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Rasgos heroicos: Campeones de la Arena" id="1694-e4e8-4361-6811" hidden="false" publicationId="df1f-ba81-775f-acfd">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Heroína de los juegos mortales" hidden="false" id="fab3-84b5-2dbd-6359">
-              <profiles>
-                <profile name="Heroína de los juegos mortales" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="577e-8687-8656-9716">
-                  <characteristics>
-                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Durante el resto del turno, mientras esta unidad esté en combate con alguna **^^Heroes^^** enemiga:
-• Suma 1 a las características de Attacks, Rend y Damage de las armas de combate cuerpo a cuerpo de esta unidad.
-• Todos sus ataques de combate deben tener como objetivo a la misma **^^Hero^^** enemiga.</characteristic>
-                  </characteristics>
-                  <attributes>
-                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
-                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
-                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
-                  </attributes>
-                </profile>
-              </profiles>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="63ad-4ead-7c5a-2add" includeChildSelections="true"/>
-              </constraints>
-            </selectionEntry>
-          </selectionEntries>
-          <rules>
-            <rule name="Restricciones de mejoras" id="f546-b9cf-0237-4862" hidden="true">
-              <description>solo **^^Hero^^**</description>
-            </rule>
-          </rules>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="883b-451b-915b-72b2" type="selectionEntryGroup" targetId="c437-e34c-5e1c-95e6" flatten="true"/>
-        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="637d-fd36-7493-9bd3" type="selectionEntryGroup" targetId="59df-5a5c-f4ee-ab6e"/>
-      </entryLinks>
-      <modifiers>
-        <modifier type="set" value="-1" field="9ed3-1492-0715-1da7">
-          <conditions>
-            <condition type="atLeast" value="1" field="e63c-79ff-93ba-c5eb" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9ed3-1492-0715-1da7" includeChildSelections="true"/>
-        <constraint type="max" value="1" field="selections" scope="root-entry" shared="true" id="8669-4871-2c59-9394"/>
-      </constraints>
-    </selectionEntryGroup>
-    <selectionEntryGroup name="Saberes de manifestaciones" id="b82c-ae93-2b3c-4f7e" hidden="false" flatten="true">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Saber de manifestaciones: Campeones de la Arena" hidden="false" id="6068-9125-cc15-f36b" publicationId="df1f-ba81-775f-acfd">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2d9-4a02-a5f3-ed84"/>
-          </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Saber de manifestaciones: Campeones de la Arena" hidden="false" id="1091-b50f-8675-c935" type="selectionEntryGroup" targetId="4c35-9485-3929-2dad"/>
-          </entryLinks>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup name="Saberes de plegarias" id="7e68-40b4-30cc-d151" hidden="false" flatten="true">
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Saber de plegarias: Campeones de la Arena" hidden="false" id="7650-17c0-7f0e-9cc1" defaultAmount="1" publicationId="df1f-ba81-775f-acfd">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8dc4-40d6-50a5-97f9"/>
-          </constraints>
-          <entryLinks>
-            <entryLink import="true" name="Saber de plegarias: Campeones de la Arena" hidden="false" id="ab3b-effd-b877-0fc1" type="selectionEntryGroup" targetId="5ee8-22e5-a6b8-cd96"/>
-          </entryLinks>
-        </selectionEntry>
-      </selectionEntries>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="95b4-1a08-2d3d-6244" includeChildSelections="true"/>
-      </constraints>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Rasgos de batalla: Campeones de la Arena" hidden="false" id="2996-5894-31ae-7a45" publicationId="df1f-ba81-775f-acfd">
+    <selectionEntry name="Rasgos de batalla: Campeones de la Arena" id="2996-5894-31ae-7a45" hidden="false" import="true" publicationId="df1f-ba81-775f-acfd" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Reference" id="8771-31af-ddb0-5fb8" hidden="false" primary="true" targetId="3360-1158-e879-9606"/>
+      </categoryLinks>
       <profiles>
-        <profile name="Arena de la matanza" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="ca3a-a27b-c946-b51d">
+        <profile name="Arena de la matanza" id="ca3a-a27b-c946-b51d" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si el número de unidades (amigas o enemigas) destruidas en esta batalla iguala o supera alguno de los números de abajo, el efecto correspondiente se aplica a las unidades amigas **^^Champions of the Arena^^** durante el resto de la batalla. Más de 1 efecto puede aplicarse a una unidad al mismo tiempo.
@@ -190,13 +388,13 @@
 **4** Suma 1 a las tiradas de herida de los ataques de combate de esas unidades.
 **5** Suma 1 a la característica de Attacks de las armas de combate cuerpo a cuerpo de esas unidades.</characteristic>
           </characteristics>
+        </profile>
+        <profile name="Que fluya la sangre" id="e03a-cbf1-039e-ad03" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <attributes>
             <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
             <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
             <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
-        </profile>
-        <profile name="Que fluya la sangre" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)" hidden="false" id="e03a-cbf1-039e-ad03">
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Todos los efectos de la habilidad &apos;Arena de la matanza&apos; se aplican a las unidades amigas **^^Champions of the Arena^^** mientras estén totalmente a **X**" o menos de un **Santuario del tributo oscuro** amigo, donde **X** viene determinado por la ronda de batalla actual, de la siguiente forma:
@@ -206,13 +404,13 @@
 4   18"
 5   21"</characteristic>
           </characteristics>
-          <attributes>
-            <attribute typeId="50fe-4f29-6bc3-dcc6" name="Color">Black</attribute>
-            <attribute typeId="bf11-4e10-3ab1-06f4" name="Type">Special</attribute>
-            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
-          </attributes>
         </profile>
-        <profile name="Restauración frenética" typeId="55ac-f837-dded-5872" typeName="Ability (Command)" hidden="false" id="4ffb-995b-332a-0318">
+        <profile name="Restauración frenética" id="4ffb-995b-332a-0318" hidden="false" typeId="55ac-f837-dded-5872" typeName="Ability (Command)">
+          <attributes>
+            <attribute name="Color" typeId="5c69-e4b9-19bc-e801">Purple</attribute>
+            <attribute name="Type" typeId="2bd5-08f1-f3d1-86f7">Rallying</attribute>
+            <attribute name="Parent Node" typeId="df75-e7dc-12b5-48a8"/>
+          </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="736-6e3a-d0b5-a1b0">Final de cualquier turno</characteristic>
             <characteristic name="Cost" typeId="a49e-3082-e2a6-e802">1</characteristic>
@@ -220,13 +418,13 @@
             <characteristic name="Effect" typeId="2111-3ca8-61dd-a5f0">Coloca una unidad de reemplazo idéntica al objetivo totalmente a 12" o menos de un **Santuario del tributo oscuro** amigo y a más de 9" de todas las unidades enemigas.</characteristic>
             <characteristic name="Keywords" typeId="445d-f443-5448-e7ce"/>
           </characteristics>
-          <attributes>
-            <attribute name="Color" typeId="5c69-e4b9-19bc-e801">Purple</attribute>
-            <attribute name="Type" typeId="2bd5-08f1-f3d1-86f7">Rallying</attribute>
-            <attribute name="Parent Node" typeId="df75-e7dc-12b5-48a8"/>
-          </attributes>
         </profile>
-        <profile name="Furia explosiva" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)" hidden="false" id="e134-6827-eac2-eae4">
+        <profile name="Furia explosiva" id="e134-6827-eac2-eae4" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una **Reina de la matanza** amiga para usar esta habilidad, después elige como objetivos cada unidad amiga **Brujas de sangre** en el campo de batalla y cada unidad amiga visible **^^Champions of the Arena^^** totalmente a 12" o menos de esa **Reina de la matanza**.</characteristic>
@@ -234,383 +432,185 @@
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
-          <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
-            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
-          </attributes>
         </profile>
       </profiles>
-      <categoryLinks>
-        <categoryLink name="Reference" hidden="false" id="8771-31af-ddb0-5fb8" targetId="3360-1158-e879-9606" primary="true"/>
-      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
-  <categoryEntries>
-    <categoryEntry name="CHAMPIONS OF THE ARENA" id="caad-2bf8-5695-9f4e" hidden="false"/>
-    <categoryEntry name="Coven Matriarch" id="2fb0-a53a-409b-4213" hidden="false">
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Heridas de batalla + cicatrices" id="ea8e-995c-f19c-fee2" collapsible="true" hidden="true">
+      <entryLinks>
+        <entryLink name="Cicatrices de batalla de la Costa Devastada" id="0a43-32cd-6e2b-72cd" flatten="true" hidden="false" import="true" targetId="5559-80df-ba01-66a7" type="selectionEntryGroup"/>
+        <entryLink name="Cicatrices de batalla de las Tierras Salvajes Corruptas" id="94b8-a3a1-3e47-fd82" hidden="false" import="true" targetId="374e-3b5e-1810-b56a" type="selectionEntryGroup"/>
+      </entryLinks>
       <modifiers>
-        <modifier type="set" value="1" field="d37d-9858-020f-50a5">
+        <modifier field="hidden" type="set" value="false">
           <conditionGroups>
-            <conditionGroup type="or">
-              <localConditionGroups>
-                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="f54e-45a2-14f9-ea1a" shared="true" includeChildSelections="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </localConditionGroup>
-                <localConditionGroup type="atLeast" value="1" scope="force" field="selections" includeChildSelections="true" includeChildForces="true" repeats="1">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="60af-b39c-2638-1579" shared="true" includeChildSelections="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </localConditionGroup>
-              </localConditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="any" field="e63c-79ff-93ba-c5eb" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                <condition childId="1bed-ddb5-0c50-16d2" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
+      <selectionEntries>
+        <selectionEntry name="Heridas de batalla" id="f050-af43-6a18-7284" hidden="false" import="true" type="upgrade"/>
+        <selectionEntry name="Agotado" id="0d5b-dacd-3af8-476d" hidden="true" import="true" type="upgrade">
+          <constraints>
+            <constraint id="2c7a-98df-655d-7a27" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditions>
+                <condition childId="6e72-1656-d554-528a" field="selections" scope="root-entry" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Sendas" id="75ad-070d-1d23-04ca" hidden="true">
       <constraints>
-        <constraint type="max" value="0" field="selections" scope="force" shared="true" id="d37d-9858-020f-50a5" includeChildSelections="true"/>
-      </constraints>
-    </categoryEntry>
-  </categoryEntries>
-  <catalogueLinks>
-    <catalogueLink type="catalogue" name="❖ Saberes" id="550e-8046-65e9-9c6f" targetId="0a11-cd61-2a4e-8e04" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Hijas de Khaine - Biblioteca" id="6c46-df51-2965-00a6" targetId="37ab-3336-3e89-c608"/>
-    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Ascensión" id="22bb-181b-8362-dbc0" targetId="3a8b-7496-526f-feab" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Costa Devastada" id="2adf-4bae-9ca5-1c59" targetId="a434-b1ba-922b-7624" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="✦ Sendero a la Gloria - Tierras Salvajes Corruptas" id="67af-f862-eb4d-72dd" targetId="e0ff-dc7c-8795-bfb9" importRootEntries="true"/>
-  </catalogueLinks>
-  <entryLinks>
-    <entryLink import="true" name="Brujas de sangre" hidden="false" id="6230-c81e-f92a-5de9" type="selectionEntry" targetId="d65a-2556-6d7f-ad62">
-      <costs>
-        <cost name="pts" typeId="points" value="150"/>
-      </costs>
-      <entryLinks>
-        <entryLink import="true" name="Reforzado" hidden="false" id="d0d9-b121-6a99-645d" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renombre" hidden="false" id="7a51-d480-c9bc-6144" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Sendas" hidden="false" id="64df-233a-3114-de68" type="selectionEntryGroup" targetId="75ad-070d-1d23-04ca"/>
-        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="90dc-f71b-02bb-2f3b" type="selectionEntryGroup" targetId="ea8e-995c-f19c-fee2"/>
-      </entryLinks>
-      <modifiers>
-        <modifier type="multiply" value="2" field="points">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink name="CHAMPIONS OF THE ARENA" hidden="false" id="63e3-ceee-f1f8-4d22" targetId="caad-2bf8-5695-9f4e" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Hermanas de la matanza" hidden="false" id="9615-ef18-03c2-4356" type="selectionEntry" targetId="0683-943c-7667-2b67">
-      <costs>
-        <cost name="pts" typeId="points" value="110"/>
-      </costs>
-      <entryLinks>
-        <entryLink import="true" name="Reforzado" hidden="false" id="5841-ace5-5640-f836" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renombre" hidden="false" id="2f17-2251-2c41-567d" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Sendas" hidden="false" id="0aae-8c5c-8778-55c2" type="selectionEntryGroup" targetId="75ad-070d-1d23-04ca"/>
-        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="8a5f-bf93-93f1-8e98" type="selectionEntryGroup" targetId="ea8e-995c-f19c-fee2"/>
-      </entryLinks>
-      <modifiers>
-        <modifier type="multiply" value="2" field="points">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink name="CHAMPIONS OF THE ARENA" hidden="false" id="cddf-b356-cc90-47cf" targetId="caad-2bf8-5695-9f4e" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Santuario del tributo oscuro" hidden="false" id="055c-9293-f6e1-7cdf" type="selectionEntry" targetId="0745-c2a2-2a26-afb5">
-      <costs>
-        <cost name="pts" typeId="points" value="20"/>
-      </costs>
-      <modifiers>
-        <modifier type="set" value="0" field="points">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1bed-ddb5-0c50-16d2" shared="true" includeChildSelections="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="01b1-5112-ab45-1afc" shared="true" includeChildSelections="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f079-501a-2738-6844" shared="true" includeChildSelections="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8e6f-2dd7-a7ed-489e" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink import="true" name="Aelfas brujas" hidden="false" id="8588-e2ca-f5cd-a06e" type="selectionEntry" targetId="f3b2-f764-110e-fbe5">
-      <entryLinks>
-        <entryLink import="true" name="Reforzado" hidden="false" id="07f1-03ec-8ad7-a110" type="selectionEntry" targetId="1b37-82b8-c062-eb82"/>
-        <entryLink import="true" name="Renombre" hidden="false" id="e150-5722-ed42-317e" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Sendas" hidden="false" id="4072-6054-3045-5646" type="selectionEntryGroup" targetId="75ad-070d-1d23-04ca"/>
-        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="8866-c0a0-727b-b2d3" type="selectionEntryGroup" targetId="ea8e-995c-f19c-fee2"/>
-      </entryLinks>
-      <modifiers>
-        <modifier type="multiply" value="2" field="points">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="self" childId="1b37-82b8-c062-eb82" shared="true"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="db3a-7199-c92e-f3cf" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <costs>
-        <cost name="pts" typeId="points" value="120"/>
-      </costs>
-      <categoryLinks>
-        <categoryLink name="CHAMPIONS OF THE ARENA" hidden="false" id="e5a6-8ee3-315f-dedb" targetId="caad-2bf8-5695-9f4e" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Reina bruja" hidden="false" id="f54e-45a2-14f9-ea1a" type="selectionEntry" targetId="4443-5875-af71-96a4">
-      <entryLinks>
-        <entryLink import="true" name="Caudillo" hidden="false" id="34c2-a31c-21dd-c5fb" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renombre" hidden="false" id="9257-2589-ddaa-22fe" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="353e-9209-52e0-f872" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
-        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="7fb3-5f41-2ffc-f80c" type="selectionEntryGroup" targetId="8406-d586-5ed7-a078"/>
-        <entryLink import="true" name="Artefactos de poder" hidden="false" id="7c54-455f-bfbc-cb78" type="selectionEntryGroup" targetId="2088-0bc8-8d53-010e"/>
-        <entryLink import="true" name="Sendas" hidden="false" id="376c-55dd-b846-0423" type="selectionEntryGroup" targetId="75ad-070d-1d23-04ca"/>
-        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="b933-f83e-d0dd-139d" type="selectionEntryGroup" targetId="ea8e-995c-f19c-fee2"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="110"/>
-      </costs>
-      <modifiers>
-        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <modifierGroups>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.5ef2-db09-d3cc-4b27"/>
-            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.b4e1-75b3-227b-1a8d"/>
-            <modifier type="add" value="8f4b-1fa6-3128-8405" field="category" scope="force" affects="self.entries.recursive.2fb0-a53a-409b-4213"/>
-          </modifiers>
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
-          </conditions>
-        </modifierGroup>
-      </modifierGroups>
-      <categoryLinks>
-        <categoryLink name="CHAMPIONS OF THE ARENA" hidden="false" id="a4c4-ab6f-20d7-9fcc" targetId="caad-2bf8-5695-9f4e" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Gran gladiadora" hidden="false" id="1d5a-98c0-7da9-4730" type="selectionEntry" targetId="93e8-210a-cc3-ef22">
-      <entryLinks>
-        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="9efd-3e38-d8bf-d6ee" type="selectionEntryGroup" targetId="8406-d586-5ed7-a078"/>
-        <entryLink import="true" name="Artefactos de poder" hidden="false" id="fc0a-5777-56bd-24e2" type="selectionEntryGroup" targetId="2088-0bc8-8d53-010e"/>
-        <entryLink import="true" name="Sendas" hidden="false" id="57aa-699c-fd50-5cef" type="selectionEntryGroup" targetId="75ad-070d-1d23-04ca"/>
-        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="fb28-95a3-2634-fdd3" type="selectionEntryGroup" targetId="ea8e-995c-f19c-fee2"/>
-        <entryLink import="true" name="Caudillo" hidden="false" id="aeaf-9549-5570-32fa" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renombre" hidden="false" id="42e2-bc17-063d-f028" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="3e69-0b1a-3551-2b8c" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="120"/>
-      </costs>
-      <modifiers>
-        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="8f4b-1fa6-3128-8405" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <modifierGroups>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="add" value="2fb0-a53a-409b-4213" field="category"/>
-          </modifiers>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifierGroup>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.5ef2-db09-d3cc-4b27"/>
-            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.b4e1-75b3-227b-1a8d"/>
-          </modifiers>
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
-          </conditions>
-        </modifierGroup>
-      </modifierGroups>
-      <categoryLinks>
-        <categoryLink name="CHAMPIONS OF THE ARENA" hidden="false" id="5303-c95b-4c52-611e" targetId="caad-2bf8-5695-9f4e" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Reina de la matanza" hidden="false" id="60af-b39c-2638-1579" type="selectionEntry" targetId="e228-7274-8e97-b97f">
-      <entryLinks>
-        <entryLink import="true" name="Caudillo" hidden="false" id="d6df-38ff-b129-ef9a" type="selectionEntry" targetId="bb28-fa4a-bf5f-f793"/>
-        <entryLink import="true" name="Renombre" hidden="false" id="7c55-614e-9e9e-2337" type="selectionEntry" targetId="e7d5-5062-46d5-38dd"/>
-        <entryLink import="true" name="Brebajes de Ghyran" hidden="false" id="34c1-6672-f0a4-9e85" type="selectionEntryGroup" targetId="17d6-baae-dbeb-3e2c"/>
-        <entryLink import="true" name="Rasgos heroicos" hidden="false" id="5460-6d60-a769-bef1" type="selectionEntryGroup" targetId="8406-d586-5ed7-a078"/>
-        <entryLink import="true" name="Artefactos de poder" hidden="false" id="c1d2-e4ad-c1ac-61f0" type="selectionEntryGroup" targetId="2088-0bc8-8d53-010e"/>
-        <entryLink import="true" name="Sendas" hidden="false" id="1e84-60ea-1e78-5ca8" type="selectionEntryGroup" targetId="75ad-070d-1d23-04ca"/>
-        <entryLink import="true" name="Heridas de batalla + cicatrices" hidden="false" id="158d-a5e4-29ab-6b10" type="selectionEntryGroup" targetId="ea8e-995c-f19c-fee2"/>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="130"/>
-      </costs>
-      <modifiers>
-        <modifier type="set-primary" value="d1f3-921c-b403-1106" field="category" scope="root-entry">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="lessThan" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="376a-6b97-8699-dd59" shared="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="d1f3-921c-b403-1106" shared="true" includeChildSelections="true"/>
-                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <modifierGroups>
-        <modifierGroup type="and">
-          <modifiers>
-            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.5ef2-db09-d3cc-4b27"/>
-            <modifier type="add" value="db3a-7199-c92e-f3cf" field="category" scope="force" affects="self.entries.recursive.b4e1-75b3-227b-1a8d"/>
-            <modifier type="add" value="8f4b-1fa6-3128-8405" field="category" scope="force" affects="self.entries.recursive.2fb0-a53a-409b-4213"/>
-          </modifiers>
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="self" childId="d1f3-921c-b403-1106" shared="true"/>
-          </conditions>
-        </modifierGroup>
-      </modifierGroups>
-      <categoryLinks>
-        <categoryLink name="CHAMPIONS OF THE ARENA" hidden="false" id="5648-f839-3523-d0cf" targetId="caad-2bf8-5695-9f4e" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Rasgos de batalla: Campeones de la Arena" hidden="false" id="6e48-1545-1afc-2109" type="selectionEntry" targetId="2996-5894-31ae-7a45">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="210f-ad61-2133-2871" includeChildSelections="true"/>
-      </constraints>
-    </entryLink>
-  </entryLinks>
-  <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Saber de plegarias" hidden="true" id="a7f8-8c61-9711-1573" defaultAmount="1">
-      <categoryLinks>
-        <categoryLink name="Army Composition" hidden="false" id="a15e-2179-40a4-8c2b" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a493-ef8b-16c3-1ad4"/>
-        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="b7a5-76d8-568e-d62f"/>
+        <constraint id="03ee-ab3a-1bed-4210" field="selections" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <entryLinks>
-        <entryLink import="true" name="Saberes de plegarias" hidden="false" id="0d87-a32e-fcea-2015" type="selectionEntryGroup" targetId="7e68-40b4-30cc-d151" flatten="true" collective="false"/>
+        <entryLink name="Sendas de la Costa Devastada" id="aea2-c2f9-0224-8754" flatten="true" hidden="false" import="true" targetId="7bae-23cb-3977-3ece" type="selectionEntryGroup"/>
+        <entryLink name="Sendas de ascensión" id="d819-8ac1-0051-229b" flatten="true" hidden="false" import="true" targetId="9b2e-ad88-381f-5c49" type="selectionEntryGroup"/>
+        <entryLink name="Sendas de las Tierras Salvajes Corruptas" id="fc9e-261e-94a4-4e5a" hidden="false" import="true" targetId="3f1b-26c1-aa71-73f8" type="selectionEntryGroup"/>
+        <entryLink name="Sendas" id="da98-11a8-71e2-be64" hidden="false" import="true" targetId="5ed8-cc1e-bd8d-bd3c" type="selectionEntryGroup"/>
       </entryLinks>
       <modifiers>
-        <modifier type="set" value="false" field="hidden">
+        <modifier field="hidden" type="set" value="false">
           <conditions>
-            <condition type="atLeast" value="1" field="de92-2099-fbf7-a156" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition childId="any" field="e63c-79ff-93ba-c5eb" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
           </conditions>
         </modifier>
       </modifiers>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Saber de manifestaciones" hidden="true" id="cdb3-30b7-00fa-62fe" defaultAmount="1">
-      <entryLinks>
-        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="46e4-6472-de25-564e" type="selectionEntryGroup" targetId="748f-5d65-2d45-95c5" flatten="true"/>
-        <entryLink import="true" name="Saberes de manifestaciones" hidden="false" id="c1fa-2746-f39d-5ae8" type="selectionEntryGroup" targetId="b82c-ae93-2b3c-4f7e" flatten="true"/>
-      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Artefactos de poder" id="2088-0bc8-8d53-010e" hidden="false">
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6c2c-f536-8200-17dd"/>
-        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="5bdc-3ce2-881d-0d98"/>
+        <constraint id="52e3-41e3-b755-263c" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+        <constraint id="ecd4-8254-01f9-5e7a" field="selections" scope="root-entry" shared="true" type="max" value="1"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink name="Army Composition" hidden="false" id="3af6-8aff-b11d-d5c7" targetId="ac97-b27c-7e35-7ab9" primary="true"/>
-      </categoryLinks>
+      <entryLinks>
+        <entryLink name="Artefactos de poder" id="e262-2d66-8879-d9a2" flatten="true" hidden="false" import="true" targetId="e1b2-cedf-56a5-6bb1" type="selectionEntryGroup"/>
+        <entryLink name="Artefactos de poder" id="4218-9a08-ac37-9503" hidden="false" import="true" targetId="d563-838a-a901-097e" type="selectionEntryGroup"/>
+      </entryLinks>
       <modifiers>
-        <modifier type="set" value="false" field="hidden">
+        <modifier field="52e3-41e3-b755-263c" type="set" value="-1">
           <conditions>
-            <condition type="atLeast" value="1" field="de92-2099-fbf7-a156" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition childId="any" field="e63c-79ff-93ba-c5eb" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
           </conditions>
         </modifier>
       </modifiers>
-    </selectionEntry>
-  </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Artefactos de poder: Campeones de la Arena" id="abc0-4970-9648-fb6c" hidden="false" publicationId="df1f-ba81-775f-acfd">
+          <rules>
+            <rule name="Restricciones de mejoras" id="0ed6-2757-5373-ca87" hidden="true">
+              <description>solo **^^Hero^^**</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry name="Cuchilla de muerte" id="c132-583c-ce39-4b24" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="b557-1e18-79f6-4df9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Cuchilla de muerte" id="fde3-e0c7-f8ed-c9bd" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad **^^Combatir^^** para esta unidad</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de resolver esa habilidad **^^Combatir^^**, si alguna miniatura enemiga fue abatida por los ataques de esta unidad realizados como parte de esa habilidad **^^Combatir^^**, puedes elegir como objetivo una **^^Champions of the Arena Priest^^** amiga totalmente a 12" o menos de esta unidad. En lugar de hacer una tirada de cántico para la siguiente habilidad **^^Prayer^^** que use el objetivo, puedes usar un valor de 10 para esa tirada que no se puede modificar, incluso si esta unidad ha sido destruida.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Rasgos heroicos" id="8406-d586-5ed7-a078" hidden="false">
+      <constraints>
+        <constraint id="9ed3-1492-0715-1da7" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+        <constraint id="8669-4871-2c59-9394" field="selections" scope="root-entry" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Rasgos heroicos" id="883b-451b-915b-72b2" flatten="true" hidden="false" import="true" targetId="c437-e34c-5e1c-95e6" type="selectionEntryGroup"/>
+        <entryLink name="Rasgos heroicos" id="637d-fd36-7493-9bd3" hidden="false" import="true" targetId="59df-5a5c-f4ee-ab6e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="9ed3-1492-0715-1da7" type="set" value="-1">
+          <conditions>
+            <condition childId="any" field="e63c-79ff-93ba-c5eb" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Rasgos heroicos: Campeones de la Arena" id="1694-e4e8-4361-6811" hidden="false" publicationId="df1f-ba81-775f-acfd">
+          <rules>
+            <rule name="Restricciones de mejoras" id="f546-b9cf-0237-4862" hidden="true">
+              <description>solo **^^Hero^^**</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry name="Heroína de los juegos mortales" id="fab3-84b5-2dbd-6359" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="63ad-4ead-7c5a-2add" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Heroína de los juegos mortales" id="577e-8687-8656-9716" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Durante el resto del turno, mientras esta unidad esté en combate con alguna **^^Heroes^^** enemiga:
+• Suma 1 a las características de Attacks, Rend y Damage de las armas de combate cuerpo a cuerpo de esta unidad.
+• Todos sus ataques de combate deben tener como objetivo a la misma **^^Hero^^** enemiga.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Saberes de manifestaciones" id="b82c-ae93-2b3c-4f7e" flatten="true" hidden="false">
+      <selectionEntries>
+        <selectionEntry name="Saber de manifestaciones: Campeones de la Arena" id="6068-9125-cc15-f36b" hidden="false" import="true" publicationId="df1f-ba81-775f-acfd" type="upgrade">
+          <constraints>
+            <constraint id="c2d9-4a02-a5f3-ed84" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Saber de manifestaciones: Campeones de la Arena" id="1091-b50f-8675-c935" hidden="false" import="true" targetId="4c35-9485-3929-2dad" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Saberes de plegarias" id="7e68-40b4-30cc-d151" flatten="true" hidden="false">
+      <constraints>
+        <constraint id="95b4-1a08-2d3d-6244" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry name="Saber de plegarias: Campeones de la Arena" id="7650-17c0-7f0e-9cc1" defaultAmount="1" hidden="false" import="true" publicationId="df1f-ba81-775f-acfd" type="upgrade">
+          <constraints>
+            <constraint id="8dc4-40d6-50a5-97f9" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Saber de plegarias: Campeones de la Arena" id="ab3b-effd-b877-0fc1" hidden="false" import="true" targetId="5ee8-22e5-a6b8-cd96" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>
