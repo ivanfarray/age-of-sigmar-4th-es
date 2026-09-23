@@ -1,6 +1,27 @@
-# Estado de la traducción — 21 de septiembre de 2026
+# Estado de la traducción — 23 de septiembre de 2026
 
 ## Sincronización con BSData
+
+Integrado el commit «Gargants / Scroll (#1359)», hasta
+`8836d9f939e93cb2e97a0e7427b7a3304c534fe9` de `BSData/age-of-sigmar-4th/main`.
+Es una revisión mayor de Sons of Behemat: dos catálogos nuevos, **Matriarch's
+Mob** y **Stomper Tribe** (con su propio héroe único, Ma Maegran, unidades,
+mejoras y saber de hechizos), además de warscrolls, armas, artefactos, rasgos
+heroicos y formaciones de batalla nuevos en `Sons of Behemat.cat` y
+`Sons of Behemat - Library.cat`, y dos Regimientos de Renombre pendientes de
+traducir (Krong the Club, además de habilidades sueltas de regimientos ya
+existentes). Los originales coinciden con esa revisión de BSData.
+
+Se han registrado 121 nombres nuevos (unidades, armas, habilidades, hechizos,
+plegarias, artefactos, formaciones, catálogos y secciones de menú — la mayoría
+de Sons of Behemat, el resto sueltos en Cities of Sigmar, Ogor Mawtribes,
+Slaves to Darkness, Regiments of Renown, Lores y el `.gst` general) y
+traducido el texto descriptivo nuevo o modificado en 6 catálogos: `Sons of
+Behemat.cat`, `Sons of Behemat - Library.cat`, los dos catálogos nuevos,
+`Sons of Behemat - King Brodd's Stomp.cat` y `Regiments of Renown.cat` — 220
+cadenas en total, sin dejar ninguna vacía.
+
+### Actualización anterior: 21 de septiembre
 
 Integrados los 4 commits nuevos desde `a01c661`, hasta
 `d989a15e436cb8815dee208f3ff8251de72f40a0` de `BSData/age-of-sigmar-4th/main`.
@@ -34,15 +55,11 @@ del XML sin entrada de traducción.
 
 ## Cobertura
 
-**Completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús, catálogos y opciones de héroes.**
+**Completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús, catálogos y opciones de héroes — incluida la revisión de Sons of Behemat del 23 de septiembre.**
 
-- Los 133 JSON de prosa contienen 9.875 entradas resueltas y **0 valores vacíos**.
-- Se han rellenado las 697 entradas que antes se conservaban vacías: claves,
-  habilidades de arma, etiquetas de peanas e ingredientes, además de registrar
-  las expresiones numéricas y los nombres propios sin traducción.
-- 24 valores de prosa son idénticos al original porque contienen datos, nombres
-  propios u otras expresiones que no cambian.
-- Las **133 parejas de archivos** pasan la verificación completa de texto,
+- Los 135 JSON de prosa (dos más: los catálogos nuevos de Sons of Behemat) no
+  tienen **valores vacíos**.
+- Las **135 parejas de archivos** pasan la verificación completa de texto,
   nombres, estructura XML y atributos técnicos.
 - Pasan las nueve pruebas del generador, incluidos los nombres de habilidades
   en reglas y perfiles y los alias que enlazan catálogos diferentes.
@@ -50,11 +67,13 @@ del XML sin entrada de traducción.
 
 ## Cobertura de nombres
 
-La comprobación ampliada revisa **9.445 nombres distintos**:
-9.245 tienen equivalencia española, 200 mantienen
-su denominación y **0 están pendientes dentro de este alcance**. Incluye
-unidades, armas, manifestaciones, habilidades, reglas, todos los grupos y
-opciones de selección, catálogos, regimientos y modificadores de nombre.
+La comprobación ampliada revisa **9.526 nombres distintos** (81 más que en la
+actualización anterior, por los dos catálogos nuevos de Sons of Behemat y las
+habilidades sueltas de Regimientos de Renombre): 9.326 tienen equivalencia
+española, 200 mantienen su denominación y **0 están pendientes dentro de este
+alcance**. Incluye unidades, armas, manifestaciones, habilidades, reglas,
+todos los grupos y opciones de selección, catálogos, regimientos y
+modificadores de nombre.
 
 El bloque inicial de unidades y armas cubría 3.248 nombres: 3.077 traducidos
 y 171 conservados. La ampliación cubre los **4.511 títulos distintos

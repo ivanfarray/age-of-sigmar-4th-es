@@ -3355,7 +3355,7 @@ While there is at least 1 friendly **^^Warriors of Chaos Hero^^** and 1 other f
             <constraint id="52bd-2ce1-5283-e969" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <profiles>
-            <profile name="Ruina salvaje" id="5a7a-7cee-99a3-c62b" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+            <profile name="¡Servirás!" id="5a7a-7cee-99a3-c62b" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
               <attributes>
                 <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
                 <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
@@ -3363,7 +3363,7 @@ While there is at least 1 friendly **^^Warriors of Chaos Hero^^** and 1 other f
               </attributes>
               <characteristics>
                 <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de tu turno</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **Príncipe demonio** amigo para usar esta habilidad. Después, elige como objetivo una unidad visible no-**^^Daemon^^** no-**^^Unique Esclavos de la Oscuridad^^** que esté totalmente a 12" o menos de esta unidad.</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **Príncipe demonio** to use this ability. Then, pick a visible friendly non-**^^Daemon^^** non-**^^Unique Esclavos de la Oscuridad^^** unit that does not have an Ensorcelled Banner wholly within 12" of this unit to be the target.</characteristic>
                 <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elimina cualquier palabra clave de **Juramento al Caos** que tenga el objetivo. Después, el objetivo obtiene cualquier palabra clave de **Juramento al Caos** que tenga esta unidad.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -3651,8 +3651,8 @@ Además, mientras esta unidad incluya algún portaestandarte, suma 1 a las tirad
                   </attributes>
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e">**^^Estandarte hechizado^^**</characteristic>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad tiene la palabra clave **^^Juramentado a Slaanesh^^**.
-Además, mientras esta unidad incluya algún portaestandarte, si esta unidad ha cargado este turno, durante el resto del turno, suma 1 a la característica de Attacks de las armas de cuerpo a cuerpo de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit has the **^^Juramentado a Slaanesh^^** keyword.
+In addition, while this unit includes any standard bearers, if this unit charged this turn, add 1 to the Attacks characteristic of this unit&apos;s melee weapons for the rest of the turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3848,7 +3848,7 @@ Además, mientras esta unidad incluya algún portaestandarte, esta unidad tiene 
                   </attributes>
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">This unit cannot use this ability if it has an Ensorcelled Banner.</characteristic>
                     <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elimina todas las palabras clave de **^^Juramento al Caos^^** de esta unidad. Después, elige 1 de las siguientes palabras clave de **^^Juramento al Caos^^**. No puedes elegir una palabra clave que ya hayas elegido para esta unidad antes en la batalla.
 • **^^Juramentado a Khorne^^**
 • **^^Juramentado a Tzeentch^^**

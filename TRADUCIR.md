@@ -346,3 +346,22 @@ como `Curar (X)` en el texto generado.
 | Ghyranite Concoction | brebaje ghyranita (conservar la clave inglesa si lleva `^^`) |
 | bone-tithe point | punto de diezmo de huesos |
 | emberstone-enhanced weapon | arma mejorada con piedra ascua |
+
+### Añadidos con la revisión de Sons of Behemat (23 de septiembre de 2026)
+
+La orden `^^Rampage^^` y sus estados quedan tal cual, sin traducir el término
+en sí — «rampage roll» sí se traduce, como «tirada de Rampage», para que siga
+siendo buscable junto a la palabra clave.
+
+| Inglés | Español |
+| --- | --- |
+| rampage roll | tirada de Rampage |
+| building momentum (estado) | ganando impulso |
+| getting ready (estado) | preparándose |
+| prepping the big one (estado) | preparando el Grande |
+| loot hoard | alijo de botín |
+| beyond the horizon (reserva) | más allá del horizonte |
+| mighty (estado, Sons of Behemat) | poderoso/a |
+| Destructive Impulse (palabra clave) | Impulso Destructivo |
+| Calamitous Sweep / Crushing Blow (modos de arma) | Barrido calamitoso / Golpe aplastante |
+| uprooted (elemento de escenografía) | arrancado |

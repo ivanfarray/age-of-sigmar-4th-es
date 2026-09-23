@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Hijos de Behemat" id="de5f-588b-ea57-d6b5" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="28" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Hijos de Behemat" id="de5f-588b-ea57-d6b5" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="29" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="Hijos de Behemat - Biblioteca" id="f233-237c-c639-9f45" targetId="e691-c828-52e1-f1a8" type="catalogue"/>
     <catalogueLink name="✦ Sendero a la Gloria - Costa Devastada" id="1b2a-3215-6a84-2ee9" importRootEntries="true" targetId="a434-b1ba-922b-7624" type="catalogue"/>
@@ -37,12 +37,6 @@
                 </localConditionGroup>
                 <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
                   <conditions>
-                    <condition childId="c8d4-842d-67ce-e536" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
-                  </conditions>
-                </localConditionGroup>
-                <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
-                  <conditions>
                     <condition childId="32c3-4546-10aa-6006" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                     <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                   </conditions>
@@ -65,6 +59,12 @@
                     <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                   </conditions>
                 </localConditionGroup>
+                <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="8365-5e62-ee83-77b6" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
               </localConditionGroups>
             </conditionGroup>
           </conditionGroups>
@@ -75,11 +75,12 @@
   <entryLinks>
     <entryLink name="Megagigante pisoteador de guerra" id="d1bb-dfda-17e7-3252" hidden="false" import="true" targetId="5201-4045-7632-5a40" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="450"/>
+        <cost name="pts" typeId="points" value="390"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="17a8-f669-e8fc-4269" hidden="false" import="true" targetId="f9fd-74a0-3624-d68" type="selectionEntryGroup"/>
         <entryLink name="Artefactos de poder" id="343b-31d-3b1b-6184" hidden="false" import="true" targetId="f94b-56fb-4b63-336f" type="selectionEntryGroup"/>
+        <entryLink name="Embestidas que sacuden el reino" id="85df-147c-060f-1098" hidden="false" import="true" targetId="8108-0727-27d6-589b" type="selectionEntryGroup"/>
         <entryLink name="Sendas" id="c742-4119-e56b-21ff" hidden="false" import="true" targetId="ab13-cdc6-8e89-defd" type="selectionEntryGroup"/>
         <entryLink name="Heridas de batalla + cicatrices" id="13fb-0eb6-afb0-32dd" hidden="false" import="true" targetId="4050-c9ec-780e-5dd6" type="selectionEntryGroup"/>
         <entryLink name="Caudillo" id="6577-0e55-5572-cc40" hidden="false" import="true" targetId="bb28-fa4a-bf5f-f793" type="selectionEntry"/>
@@ -138,11 +139,12 @@
     </entryLink>
     <entryLink name="Megagigante aplastabestias" id="5db3-6f5c-461f-e685" hidden="false" import="true" targetId="4a1b-3873-aa68-6d28" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="470"/>
+        <cost name="pts" typeId="points" value="380"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="885c-f0b9-bf40-7c6e" hidden="false" import="true" targetId="f9fd-74a0-3624-d68" type="selectionEntryGroup"/>
         <entryLink name="Artefactos de poder" id="9a72-83bc-7d18-1db2" hidden="false" import="true" targetId="f94b-56fb-4b63-336f" type="selectionEntryGroup"/>
+        <entryLink name="Embestidas que sacuden el reino" id="d8a7-2e89-2e7d-ea2f" hidden="false" import="true" targetId="8108-0727-27d6-589b" type="selectionEntryGroup"/>
         <entryLink name="Sendas" id="9683-008d-7040-3d4e" hidden="false" import="true" targetId="ab13-cdc6-8e89-defd" type="selectionEntryGroup"/>
         <entryLink name="Heridas de batalla + cicatrices" id="cd53-6c3b-935e-b4ac" hidden="false" import="true" targetId="4050-c9ec-780e-5dd6" type="selectionEntryGroup"/>
         <entryLink name="Caudillo" id="15a4-e6e6-0192-b6f8" hidden="false" import="true" targetId="bb28-fa4a-bf5f-f793" type="selectionEntry"/>
@@ -201,11 +203,12 @@
     </entryLink>
     <entryLink name="Megagigante rompepuertas" id="f7a8-24c0-ab46-7b33" hidden="false" import="true" targetId="7e9e-7d9f-d3ab-d143" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="490"/>
+        <cost name="pts" typeId="points" value="400"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="2d38-ca99-c16f-81c8" hidden="false" import="true" targetId="f9fd-74a0-3624-d68" type="selectionEntryGroup"/>
         <entryLink name="Artefactos de poder" id="2305-e771-394-5a2b" hidden="false" import="true" targetId="f94b-56fb-4b63-336f" type="selectionEntryGroup"/>
+        <entryLink name="Embestidas que sacuden el reino" id="1fae-d7d3-ffa7-9e0a" hidden="false" import="true" targetId="8108-0727-27d6-589b" type="selectionEntryGroup"/>
         <entryLink name="Sendas" id="170a-2ec2-cc55-0b6a" hidden="false" import="true" targetId="ab13-cdc6-8e89-defd" type="selectionEntryGroup"/>
         <entryLink name="Heridas de batalla + cicatrices" id="f008-bccc-6f4e-f71b" hidden="false" import="true" targetId="4050-c9ec-780e-5dd6" type="selectionEntryGroup"/>
         <entryLink name="Caudillo" id="56f5-0fe5-33c7-a158" hidden="false" import="true" targetId="bb28-fa4a-bf5f-f793" type="selectionEntry"/>
@@ -264,11 +267,12 @@
     </entryLink>
     <entryLink name="Megagigante rompepuertas (Azote de Aqshy)" id="3002-79d3-4e14-81d2" hidden="false" import="true" targetId="87c2-9b68-f753-4b5c" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="490"/>
+        <cost name="pts" typeId="points" value="400"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="ba34-6795-5700-d497" hidden="false" import="true" targetId="f9fd-74a0-3624-d68" type="selectionEntryGroup"/>
         <entryLink name="Artefactos de poder" id="9b79-139c-bea7-6d3f" hidden="false" import="true" targetId="f94b-56fb-4b63-336f" type="selectionEntryGroup"/>
+        <entryLink name="Embestidas que sacuden el reino" id="c1d6-23a7-d767-7df7" hidden="false" import="true" targetId="8108-0727-27d6-589b" type="selectionEntryGroup"/>
         <entryLink name="Sendas" id="2390-33db-4f8c-de78" hidden="false" import="true" targetId="ab13-cdc6-8e89-defd" type="selectionEntryGroup"/>
         <entryLink name="Heridas de batalla + cicatrices" id="f5f1-2bf5-9aca-0485" hidden="false" import="true" targetId="4050-c9ec-780e-5dd6" type="selectionEntryGroup"/>
         <entryLink name="Caudillo" id="60f1-1d7e-8a9c-fce7" hidden="false" import="true" targetId="bb28-fa4a-bf5f-f793" type="selectionEntry"/>
@@ -327,7 +331,7 @@
     </entryLink>
     <entryLink name="Rey Brodd" id="8ebd-1be0-110-25d0" hidden="false" import="true" targetId="e2fb-7f41-171f-9418" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="520"/>
+        <cost name="pts" typeId="points" value="430"/>
       </costs>
       <entryLinks>
         <entryLink name="Heridas de batalla + cicatrices" id="eeb6-1a67-d6b4-d649" hidden="false" import="true" targetId="4050-c9ec-780e-5dd6" type="selectionEntryGroup"/>
@@ -369,7 +373,7 @@
     </entryLink>
     <entryLink name="Kragnos, el fin de los imperios" id="c8d4-842d-67ce-e536" hidden="false" import="true" targetId="7c7-7226-5b84-b87c" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="590"/>
+        <cost name="pts" typeId="points" value="580"/>
       </costs>
       <entryLinks>
         <entryLink name="Heridas de batalla + cicatrices" id="2662-d443-a8c7-082d" hidden="false" import="true" targetId="4050-c9ec-780e-5dd6" type="selectionEntryGroup"/>
@@ -380,7 +384,6 @@
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
-            <modifier affects="self.entries.recursive.258f-9cfe-ea60-e99c" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
             <modifier affects="self.entries.recursive.482b-a44e-ffc6-df0a" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
           </modifiers>
         </modifierGroup>
@@ -412,11 +415,12 @@
     </entryLink>
     <entryLink name="Megagigante comekraken" id="32c3-4546-10aa-6006" hidden="false" import="true" targetId="8eda-91ee-7eaa-877a" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="410"/>
+        <cost name="pts" typeId="points" value="370"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="e5e4-539d-a8ec-d708" hidden="false" import="true" targetId="f9fd-74a0-3624-d68" type="selectionEntryGroup"/>
         <entryLink name="Artefactos de poder" id="a1d2-b472-74d0-3e7e" hidden="false" import="true" targetId="f94b-56fb-4b63-336f" type="selectionEntryGroup"/>
+        <entryLink name="Embestidas que sacuden el reino" id="4cab-5ffc-a632-379f" hidden="false" import="true" targetId="8108-0727-27d6-589b" type="selectionEntryGroup"/>
         <entryLink name="Sendas" id="f1c1-5469-e662-3329" hidden="false" import="true" targetId="ab13-cdc6-8e89-defd" type="selectionEntryGroup"/>
         <entryLink name="Heridas de batalla + cicatrices" id="a5f3-3ab3-1b9a-28ca" hidden="false" import="true" targetId="4050-c9ec-780e-5dd6" type="selectionEntryGroup"/>
         <entryLink name="Caudillo" id="5417-3d99-99bd-a916" hidden="false" import="true" targetId="bb28-fa4a-bf5f-f793" type="selectionEntry"/>
@@ -480,7 +484,7 @@
     </entryLink>
     <entryLink name="Gigante aplastahombres" id="266a-faa1-d955-fb24" hidden="false" import="true" targetId="2e41-3174-d7a3-cded" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="140"/>
       </costs>
       <entryLinks>
         <entryLink name="Sendas" id="3b07-9bc8-2dfe-eba7" hidden="false" import="true" targetId="ab13-cdc6-8e89-defd" type="selectionEntryGroup"/>
@@ -503,7 +507,7 @@
     </entryLink>
     <entryLink name="Gigante aplastahombres (Azote de Aqshy)" id="e074-e05d-7ef1-1bcd" hidden="false" import="true" targetId="101d-650a-0429-db5c" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="150"/>
       </costs>
       <entryLinks>
         <entryLink name="Sendas" id="62e6-3fa7-b85c-6e9e" hidden="false" import="true" targetId="ab13-cdc6-8e89-defd" type="selectionEntryGroup"/>
@@ -524,14 +528,119 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Turba de aplastahombres" id="a296-fe56-a48c-4c2f" hidden="false" import="true" targetId="a0c1-1a99-2cf9-85f9" type="selectionEntry">
+    <entryLink name="Ma Maegran, Elegidora de los Poderosos" id="8365-5e62-ee83-77b6" hidden="false" import="true" targetId="76d5-8ec5-a7ae-f2ad" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="350"/>
+        <cost name="pts" typeId="points" value="370"/>
       </costs>
       <entryLinks>
-        <entryLink name="Sendas" id="94d1-1c5e-40a4-7d3d" hidden="false" import="true" targetId="ab13-cdc6-8e89-defd" type="selectionEntryGroup"/>
-        <entryLink name="Heridas de batalla + cicatrices" id="cb86-d931-b582-8709" hidden="false" import="true" targetId="4050-c9ec-780e-5dd6" type="selectionEntryGroup"/>
-        <entryLink name="Renombre" id="8cc4-31b7-6437-0b74" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="f7b5-f2eb-c4cf-d48c" hidden="false" import="true" targetId="4050-c9ec-780e-5dd6" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier affects="self.entries.recursive.258f-9cfe-ea60-e99c" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
+            <modifier affects="self.entries.recursive.482b-a44e-ffc6-df0a" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.7279-4fc4-6435-4d21" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier field="category" scope="root-entry" type="set-primary" value="d1f3-921c-b403-1106">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Ghyrochs antiguos" id="04a6-4cf6-685e-5119" hidden="false" import="true" targetId="7279-4fc4-6435-4d21" type="selectionEntry">
+      <constraints>
+        <constraint id="2230-5097-efb9-fe15" field="selections" scope="force" shared="true" type="min" value="-1"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Heridas de batalla + cicatrices" id="f17c-450e-2f09-0e01" hidden="false" import="true" targetId="4050-c9ec-780e-5dd6" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="2230-5097-efb9-fe15" type="set" value="1">
+          <localConditionGroups>
+            <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
+              <conditions>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                <condition childId="8365-5e62-ee83-77b6" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </localConditionGroup>
+          </localConditionGroups>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+              <localConditionGroups>
+                <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="lessThan" value="1">
+                  <conditions>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="8365-5e62-ee83-77b6" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Aplastajefes" id="5240-0918-f72e-7405" hidden="false" import="true" targetId="6c99-2bd0-d6d3-1f75" type="selectionEntry">
+      <costs>
+        <cost name="pts" typeId="points" value="370"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Sendas" id="e433-500a-a0b0-5310" hidden="false" import="true" targetId="ab13-cdc6-8e89-defd" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="bbc1-6c73-941d-4a08" hidden="false" import="true" targetId="4050-c9ec-780e-5dd6" type="selectionEntryGroup"/>
+        <entryLink name="Renombre" id="3383-01cc-e670-ba99" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Lanzarrocas" id="c111-e238-7e8f-8b1d" hidden="false" import="true" targetId="6668-edb8-b4d6-0ef3" type="selectionEntry">
+      <costs>
+        <cost name="pts" typeId="points" value="380"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Sendas" id="4f67-fc83-69e7-e77d" hidden="false" import="true" targetId="ab13-cdc6-8e89-defd" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="b9a6-53a6-2ead-bf9f" hidden="false" import="true" targetId="4050-c9ec-780e-5dd6" type="selectionEntryGroup"/>
+        <entryLink name="Renombre" id="64d1-72bb-083b-8ff4" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
       </entryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -553,6 +662,7 @@
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="242a-5a20-708c-40af" hidden="false" import="true" targetId="f9fd-74a0-3624-d68" type="selectionEntryGroup"/>
         <entryLink name="Artefactos de poder" id="30bc-7da0-52ae-04b6" hidden="false" import="true" targetId="f94b-56fb-4b63-336f" type="selectionEntryGroup"/>
+        <entryLink name="Embestidas que sacuden el reino" id="5676-baf0-372d-5b2f" hidden="false" import="true" targetId="8108-0727-27d6-589b" type="selectionEntryGroup"/>
         <entryLink name="Sendas" id="e41a-5715-b022-92ef" hidden="false" import="true" targetId="ab13-cdc6-8e89-defd" type="selectionEntryGroup"/>
         <entryLink name="Heridas de batalla + cicatrices" id="ed82-4d90-1a64-a456" hidden="false" import="true" targetId="4050-c9ec-780e-5dd6" type="selectionEntryGroup"/>
         <entryLink name="Caudillo" id="a40b-6926-b024-ed02" hidden="false" import="true" targetId="bb28-fa4a-bf5f-f793" type="selectionEntry"/>
@@ -641,6 +751,25 @@
         </modifier>
       </modifiers>
     </selectionEntry>
+    <selectionEntry name="Saber de hechizos" id="6b65-4cdb-615f-420a" defaultAmount="1" hidden="true" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Army Composition" id="0008-b7cd-6684-c9a1" hidden="false" primary="true" targetId="ac97-b27c-7e35-7ab9"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="ffdb-5148-166f-0a75" field="selections" scope="roster" shared="true" type="max" value="1"/>
+        <constraint id="3014-7cf2-ab8c-f35a" field="selections" scope="self" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Saberes de hechizos" id="5a88-a496-030a-3b28" collective="false" flatten="true" hidden="false" import="true" targetId="181e-9509-237c-4a79" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="false">
+          <conditions>
+            <condition childId="any" field="de92-2099-fbf7-a156" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
     <selectionEntry name="Saber de plegarias" id="a4aa-6f31-2e0f-dadd" defaultAmount="1" hidden="true" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink name="Army Composition" id="d6ba-4de7-449e-e96c" hidden="false" primary="true" targetId="ac97-b27c-7e35-7ab9"/>
@@ -667,46 +796,42 @@
         <categoryLink name="Reference" id="dc92-7bf6-e0f-d4d1" hidden="false" primary="true" targetId="3360-1158-e879-9606"/>
       </categoryLinks>
       <profiles>
-        <profile name="Golpe colosal" id="8b65-5ca0-d25a-9293" hidden="false" publicationId="b765-4747-cddc-385e" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Tomar impulso" id="7b0e-47f0-fa4e-8522" hidden="false" publicationId="b765-4747-cddc-385e" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Gray</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Mega‑Gargant^^** amigo que no haya usado una habilidad de **^^Rampage^^** este turno para usar esta habilidad, y después elige como objetivo un **^^Monster^^** o **^^War Machine^^** enemigo que tenga un tamaño de unidad de 1 y esté a 1" o menos de él.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, retira el objetivo del campo de batalla y colócalo de nuevo a 1" o menos de la unidad que usa esta habilidad. Después, inflige D3 de daño mortal al objetivo.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
-            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
-          </characteristics>
-        </profile>
-        <profile name="Carga de gigante" id="a7a0-3994-3329-7bb8" hidden="false" publicationId="b765-4747-cddc-385e" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
-          <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Orange</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
-            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
-          </attributes>
-          <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de carga</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Mega-Gargant^^** o **^^Gargant^^** que haya cargado este turno para usar esta habilidad, y después elige como objetivo una unidad enemiga que no haya sido elegida como objetivo de esta habilidad este turno y que esté en combate con esa unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflige D3 de daño mortal al objetivo.</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de movimiento</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo cualquier número de unidades amigas **^^Big^^** o **^^Little^^**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si la tirada es menor que el número de objetivos elegidos, esta habilidad no tiene efecto. Si no, elige un efecto para cada objetivo. Los efectos deben ser distintos salvo que se indique lo contrario.
+• Elige una unidad enemiga en combate con el objetivo y tira un D3. Con un 2+, inflige a esa unidad enemiga una cantidad de daño mortal igual a la tirada. Puedes elegir este efecto para varios objetivos.
+• El objetivo está **ganando impulso** durante el resto del turno.
+• Si el objetivo está a 3" o menos de un borde del campo de batalla, retíralo del campo de batalla y colócalo en reserva **más allá del horizonte**.
+• Durante el resto de la fase, el objetivo puede atravesar miniaturas enemigas y elementos de escenografía al usar habilidades **^^Move^^** como si tuviera **^^Volar^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
-        <profile name="¡Árbol vaaaa!" id="a321-5df8-1d34-d7a7" hidden="false" publicationId="b765-4747-cddc-385e" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+        <profile name="Trifulca" id="ef6c-2d70-85d1-eeb2" hidden="false" publicationId="b765-4747-cddc-385e" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
-            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
-            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
-            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Orange</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una miniatura amiga **^^Mega‑Gargant^^** o **^^Gargant^^** quede abatida, antes de retirarla del juego, los jugadores deben hacer una tirada enfrentada. El ganador elige un punto del campo de batalla a 3" o menos de esa miniatura. Inflige D3 de daño mortal a cada unidad (amiga o enemiga) a 3" o menos de ese punto que tenga una característica de Salud inferior a la de esa miniatura.</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de carga</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo cualquier número de unidades amigas **^^Big^^** o **^^Little^^**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si la tirada es menor que el número de objetivos elegidos, esta habilidad no tiene efecto. Si no, elige un efecto para cada objetivo. Los efectos deben ser distintos salvo que se indique lo contrario.
+• Elige una unidad enemiga en combate con el objetivo y tira un D3. Con un 2+, inflige a esa unidad enemiga una cantidad de daño mortal igual a la tirada. Puedes elegir este efecto para varios objetivos.
+• Si el objetivo está **ganando impulso**, deja de estarlo y pasa a estar **preparándose** durante el resto del turno.
+• Durante el resto del turno, cada vez que el objetivo haga un movimiento de aproximación, suma 3" a la distancia que puede mover.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
-        <profile name="Saltar arriba y abajo" id="40f8-2852-2586-c461" hidden="false" publicationId="b765-4747-cddc-385e" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Embestida furiosa" id="800f-8fa4-8f5b-3bf1" hidden="false" publicationId="b765-4747-cddc-385e" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
             <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
             <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
@@ -714,23 +839,42 @@
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Mega‑Gargant^^** o **^^Gargant^^** que no haya usado una habilidad de **^^Rampage^^** este turno para usar esta habilidad, y después elige como objetivo una unidad enemiga **^^Infantry^^** en combate con ella.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, tira un dado por cada miniatura de la unidad objetivo. Si la unidad que usa esta habilidad es un **^^Gargant^^**, inflige 1 de daño mortal al objetivo por cada 6. Si es un **^^Mega-Gargant^^**, inflige 1 de daño mortal al objetivo por cada 5+.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo cualquier número de unidades amigas **^^Hijos de Behemat^^**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si la tirada es menor que el número de objetivos elegidos, esta habilidad no tiene efecto. Si no, elige un efecto para cada objetivo. Los efectos deben ser distintos salvo que se indique lo contrario.
+• Elige una unidad enemiga en combate con el objetivo y tira un D3. Con un 2+, inflige a esa unidad enemiga una cantidad de daño mortal igual a la tirada. Puedes elegir este efecto para varios objetivos.
+• Si el objetivo es **^^Little^^** y está **preparándose**, deja de estarlo y en su lugar tiene **^^Strike-First^^** durante el resto del turno.
+• Si el objetivo es **^^Big^^** y está **preparándose**, deja de estarlo. En su lugar, o bien tiene **^^Strike-First^^** durante el resto del turno o bien está **preparando el Grande** durante el resto del turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
-        <profile name="Rugido que sacude la tierra" id="2759-3ea9-4bcd-9116" hidden="false" publicationId="b765-4747-cddc-385e" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Vuelta a la carrera" id="d11c-2f82-ec4f-3cf8" hidden="false" publicationId="b765-4747-cddc-385e" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Rallying</attribute>
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Mega‑Gargant^^** o **^^Gargant^^** que no haya usado una habilidad de **^^Rampage^^** este turno para usar esta habilidad, y después elige como objetivo una unidad enemiga en combate con ella.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, el objetivo no puede usar órdenes durante el resto del turno.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de tu turno</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si una unidad amiga está en reserva **más allá del horizonte**, debes elegir esa unidad para usar esta habilidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca esa unidad a 1" o menos de un borde del campo de batalla y a más de 9" de todas las unidades enemigas. Si no es posible colocarla, se pierde vagando y es destruida automáticamente.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="El Grande" id="4e24-a4b2-a5e7-5e34" hidden="false" publicationId="b765-4747-cddc-385e" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de tu turno</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo cualquier número de unidades amigas **^^Big^^** o **^^Little^^**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si la tirada es menor que el número de objetivos elegidos, esta habilidad no tiene efecto. Si no, elige un efecto para cada objetivo. Los efectos deben ser distintos salvo que se indique lo contrario.
+• Elige una unidad enemiga en combate con el objetivo y tira un D3. Con un 2+, inflige a esa unidad enemiga una cantidad de daño mortal igual a la tirada. Puedes elegir este efecto para varios objetivos.
+• Si el objetivo está **preparando el Grande**, elige una unidad enemiga en combate con él y tira cualquier número de dados. Si alguna de las tiradas es un 1, el objetivo deja de estar **preparando el Grande**. Si no, suma los resultados y después inflige a esa unidad enemiga una cantidad de daño mortal igual al total.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
@@ -762,61 +906,122 @@
             </rule>
           </rules>
           <selectionEntries>
-            <selectionEntry name="Temperamento furioso" id="4e0c-3e85-b131-a3f8" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+            <selectionEntry name="Bruto entre brutos" id="8ede-2039-361c-7cc8" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
               <constraints>
-                <constraint id="7599-9465-d92c-e1f9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+                <constraint id="5f03-d05c-e14f-2984" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Temperamento furioso" id="f3dd-d3d7-1db2-cede" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                <profile name="Bruto entre brutos" id="0697-a953-d7d3-cd37" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
                   <attributes>
-                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora los modificadores negativos a las tiradas de impacto y de herida de los ataques de combate de esta unidad.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Comehechizos" id="a8fd-473a-0eb2-5f83" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+              <constraints>
+                <constraint id="7a49-c857-fe9b-8c5f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Comehechizos" id="8730-3316-54dc-5c7b" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades **^^Desvincular^^** y **^^Desterrar^^** como si tuviera **^^Wizard (1)^^**. Además, cada vez que una **^^Manifestation^^** enemiga dentro del alcance de combate de esta unidad sea desterrada, **Heal (D3)** a esta unidad.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Siempre el primero en entrar" id="6bac-0e5c-a65f-1987" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+              <constraints>
+                <constraint id="edd0-ef25-ed29-a807" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Siempre el primero en entrar" id="8b97-4938-028e-4a4b" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Black</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
                     <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
                   </attributes>
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno:
-• Suma 2 a la característica de Attacks de las armas de cuerpo a cuerpo de esta unidad.
-• Resta 1 a las tiradas de salvación de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede mover 2D6". Debe terminar ese movimiento a más de 9" de todas las unidades enemigas.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Agitador de turbas" id="af81-d78-3e5b-5f9c" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+            <selectionEntry name="Tirano irrazonable" id="4c0c-553b-6b57-11d1" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
               <constraints>
-                <constraint id="50fd-a6e2-90c-d2f9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+                <constraint id="e0a9-cd2b-3d4f-ab50" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Agitador de turbas" id="894c-de94-d83f-bb2c" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                <profile name="Tirano irrazonable" id="c553-a4aa-ecd4-678e" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
                   <attributes>
-                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Orange</attribute>
-                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Movement</attribute>
-                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Orange</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
                   </attributes>
                   <characteristics>
-                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de carga de las unidades amigas **^^Hijos de Behemat^^** mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de carga</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo otra unidad amiga visible **^^Hijos de Behemat Monster^^** totalmente a 12" o menos de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Añade 1 a las tiradas de carga del objetivo durante el resto del turno.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Monstruosamente resistente" id="8ca2-88cb-a124-f1cb" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+            <selectionEntry name="Titán atronador" id="71b7-b476-ddeb-eef1" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
               <constraints>
-                <constraint id="db86-deef-a770-fbbf" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+                <constraint id="b122-af33-76dc-f435" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Monstruosamente resistente" id="c241-ebdd-24c-6e83" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                <profile name="Titán atronador" id="d0c1-25b2-d3e1-ec10" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
                   <attributes>
-                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
-                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
-                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Orange</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
                   </attributes>
                   <characteristics>
-                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad tiene una característica de Salud de 40 en lugar de 35.</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de carga</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad ha cargado este turno, elige como objetivo una unidad enemiga que no sea **^^Hero^^** y esté en combate con ella.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Haz una tirada de Rampage de D6. Si la tirada iguala o supera el atributo Control del objetivo, esta unidad no puede ser elegida como objetivo de los movimientos de aproximación del objetivo mientras haya otras unidades amigas **^^Hijos de Behemat^^** en combate con el objetivo.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="De un solo golpe" id="4943-a3a3-e6f2-4a8c" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+              <constraints>
+                <constraint id="acee-9bb4-20bb-3546" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="De un solo golpe" id="d7a6-6ecd-c839-9c91" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), cualquier fase de combate</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede hacer un movimiento de aproximación. Después, tira un dado. Suma 1 a la tirada por cada ronda de batalla en la que esta unidad estuvo en el campo de batalla en ambas fases de combate y no usó ninguna habilidad **^^Combatir^^**. Con un 6+, inflige 4D6 de daño mortal al objetivo.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Ataque^^**, **^^Combate^^**, **^^Rampage^^**</characteristic>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -931,47 +1136,144 @@
               <constraints>
                 <constraint id="1078-7f32-17a5-728f" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+                <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+                <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+                <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier field="points" type="set" value="0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition childId="1bed-ddb5-0c50-16d2" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="01b1-5112-ab45-1afc" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="f079-501a-2738-6844" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="8e6f-2dd7-a7ed-489e" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <profiles>
-                <profile name="Farolillo brillante" id="13b0-81ae-71f0-9da7" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                <profile name="Farolillo brillante" id="a004-38d2-c54a-20ac" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
                   <attributes>
-                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
-                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
-                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
-                  </attributes>
-                  <characteristics>
-                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad puede usar habilidades de **^^Summon^^** del saber de manifestaciones que elegiste durante la composición del ejército como si tuviera **^^Wizard (1).^^**</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry name="Tótem de hueso de ámbar" id="d487-2419-8794-52aa" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
-              <constraints>
-                <constraint id="5e2-6b78-dde2-badc" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
-              </constraints>
-              <profiles>
-                <profile name="Tótem de hueso de ámbar" id="657d-1b3e-b238-cc6f" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
-                  <attributes>
-                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Orange</attribute>
-                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Black</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
                     <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
                   </attributes>
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de carga</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, esta unidad puede usar habilidades de **^^Cargar^^** aunque haya usado una habilidad de **^^Correr^^** en el mismo turno.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad es **^^Wizard^^** o **^^Priest^^**, suma 1 a su nivel de poder durante el resto de la batalla. Si no, elige la palabra clave **^^Wizard (1)^^** o **^^Priest (1)^^**. Esta unidad tiene esa palabra clave durante el resto de la batalla.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Escudo brillante protector" id="191b-510c-1a4c-606f" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+            <selectionEntry name="Sandalias de piel de kraken" id="9f6f-eb79-0572-4817" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
               <constraints>
-                <constraint id="46ac-63ec-30ed-3cbf" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+                <constraint id="5d59-cd31-0f46-c6c7" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+                <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+                <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+                <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier field="points" type="set" value="0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition childId="1bed-ddb5-0c50-16d2" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="01b1-5112-ab45-1afc" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="f079-501a-2738-6844" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="8e6f-2dd7-a7ed-489e" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="Sandalias de piel de kraken" id="f7aa-d065-9e42-32e0" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 al atributo Attacks, al atributo Rend y al atributo Damage del **Pisotón todopoderoso** de esta unidad.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Rastrillo encantado" id="bb05-5cea-c084-c231" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+              <constraints>
+                <constraint id="8952-9a2c-7e14-db88" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Escudo brillante protector" id="1672-1374-26e2-4fe5" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                <profile name="Rastrillo encantado" id="a4d0-6452-4e85-8d9d" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Blue</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora los modificadores a las tiradas de salvación contra ataques de disparo que tengan como objetivo esta unidad (positivos y negativos).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Saco descomunal" id="0abe-17bb-5e35-2249" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+              <constraints>
+                <constraint id="74c0-5876-0649-e7aa" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Saco descomunal" id="3337-605a-3126-a257" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 3 dados. Por cada resultado que sea al menos el doble del atributo Salud del objetivo, 1 miniatura de la unidad objetivo es abatida automáticamente.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Manto de los reyes del bosque" id="80e9-691a-b82f-5deb" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+              <constraints>
+                <constraint id="4623-985e-5558-9a8b" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Manto de los reyes del bosque" id="6540-3b36-20dd-87bb" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                  <attributes>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad ha cargado en el mismo turno, mientras esté en combate con 2 o más unidades enemigas, suma 1 a las tiradas para impactar de sus ataques de combate durante el resto del turno.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Cositas protectoras" id="2d8d-ab7f-7307-941d" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+              <constraints>
+                <constraint id="7255-dd7c-b68b-4e93" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Cositas protectoras" id="ee6f-46c7-9ac8-b188" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
                   <attributes>
                     <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
                     <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
@@ -979,17 +1281,34 @@
                   </attributes>
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que hagas una tirada de salvación sin modificar de 6 contra un ataque de combate que tenga como objetivo esta unidad, inflige 1 de daño mortal a la unidad atacante después de que se haya resuelto la habilidad de **^^Combatir^^**.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora el primer punto de daño que se fuera a asignar a esta unidad en cada fase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Pies muy encallecidos" id="6a47-69fe-5956-5aa5" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Embestidas que sacuden el reino" id="8108-0727-27d6-589b" hidden="false">
+      <constraints>
+        <constraint id="96b9-33d9-f523-ce98" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+        <constraint id="2589-4fa5-d871-235d" field="selections" scope="root-entry" shared="true" type="max" value="1"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Embestidas que sacuden el reino" id="bd92-7246-51a4-b33f" hidden="false">
+          <rules>
+            <rule name="Restricciones de mejoras" id="2f53-ceae-d7d1-abb7" hidden="true">
+              <description>Solo unidades **^^Big^^** que no sean **^^Unique^^**. Una unidad solo puede tener 1 Embestida que Sacude el Reino, pero, salvo que se indique lo contrario, una unidad puede usar varias habilidades **^^Rampage^^** en el mismo turno.</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry name="Lanzamiento de martillo" id="6c7f-1d37-619d-6b1f" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
               <constraints>
-                <constraint id="f73-1eb2-2986-6143" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+                <constraint id="317c-6adb-0360-5907" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="10"/>
+                <cost name="pts" typeId="points" value="20"/>
                 <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
@@ -1009,25 +1328,33 @@
                 </modifier>
               </modifiers>
               <profiles>
-                <profile name="Pies muy encallecidos" id="82fb-f319-fb1-9805" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                <profile name="Lanzamiento de martillo" id="63b8-346b-6f8d-5bad" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
                   <attributes>
-                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
-                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
-                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Blue</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
                   </attributes>
                   <characteristics>
-                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las características de Attacks, de Rend y de Damage del **Pisotón todopoderoso** o **Pisotón aún más poderoso** de esta unidad.</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no está en combate, elige como objetivo un **Gigante aplastahombres** amigo dentro de su alcance de combate.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 3D6. Con un 4+, retira al objetivo del campo de batalla y vuelve a colocarlo totalmente a un número de pulgadas de esta unidad igual a la tirada y visible para esta unidad. Puede colocarse en combate. El objetivo no puede usar habilidades **^^Cargar^^** durante el resto del turno.
+
+Si el objetivo se coloca en combate:
+• Inflige D3 de daño mortal al objetivo.
+• Inflige 1 de daño mortal a cada unidad enemiga en combate con el objetivo.
+• El objetivo ha cargado este turno.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Ataque^^**, **^^Disparo^^**, **^^Rampage^^**</characteristic>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Manto de colmillos y cuernos" id="b848-e898-1112-5358" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+            <selectionEntry name="Rugido que sacude la tierra" id="749e-b52f-0cc2-54d0" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
               <constraints>
-                <constraint id="8ad5-3a2c-e2cc-8b92" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+                <constraint id="cf2a-a532-3d7e-90a5" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="10"/>
+                <cost name="pts" typeId="points" value="20"/>
                 <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
                 <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
                 <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
@@ -1047,36 +1374,184 @@
                 </modifier>
               </modifiers>
               <profiles>
-                <profile name="Manto de colmillos y cuernos" id="2fdf-c068-6eb5-e908" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                <profile name="Rugido que sacude la tierra" id="e2d1-b4fe-d428-2df6" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Haz una tirada de Rampage de D6. Con un 3+, el objetivo no puede usar órdenes durante el resto del turno.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Gamba machacada" id="ba15-ff69-3921-c4b5" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+              <constraints>
+                <constraint id="454d-83a1-6579-53c3" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+                <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+                <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+                <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier field="points" type="set" value="0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition childId="1bed-ddb5-0c50-16d2" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="01b1-5112-ab45-1afc" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="f079-501a-2738-6844" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="8e6f-2dd7-a7ed-489e" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="Gamba machacada" id="598a-0068-91c5-9746" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
                   <attributes>
                     <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
                     <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
                     <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
                   </attributes>
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de combate</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 1 a las tiradas de impacto de los ataques de combate efectuados por unidades amigas **^^Hijos de Behemat^^** mientras estén totalmente a 12" o menos de esta unidad.</characteristic>
-                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** enemigo que no sea **^^Monster^^** en combate con esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Ambos jugadores hacen una tirada enfrentada. Si ganas la tirada enfrentada, hazla de nuevo. Sigue haciendo tiradas enfrentadas de esta forma hasta que pierdas una. Después, inflige al objetivo una cantidad de daño mortal igual al número de tiradas enfrentadas que hayas ganado este turno como parte de esta habilidad.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Capucha matarreyes" id="af21-2013-aa28-2bb4" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+            <selectionEntry name="Aporreo de molino" id="1bf1-07ca-252d-f5af" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
               <constraints>
-                <constraint id="963f-132a-d0bc-e4db" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+                <constraint id="e15d-2dbb-4de6-34ac" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+                <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+                <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+                <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier field="points" type="set" value="0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition childId="1bed-ddb5-0c50-16d2" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="01b1-5112-ab45-1afc" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="f079-501a-2738-6844" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="8e6f-2dd7-a7ed-489e" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <profiles>
-                <profile name="Capucha matarreyes" id="e983-cfe8-f9b4-a60e" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                <profile name="Aporreo de molino" id="c7ce-7f4c-c325-f33f" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
                   <attributes>
-                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
-                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
-                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
                   </attributes>
                   <characteristics>
-                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Attacks de las armas de cuerpo a cuerpo de esta unidad mientras esté en combate con un **^^Hero^^** enemigo.</characteristic>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga **^^Monster^^** o **^^War Machine^^** en combate con esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un número de dados igual al atributo Salud del objetivo. Suma 1 a cada tirada por cada turno consecutivo en el que el objetivo haya sido elegido como objetivo de esta habilidad. Por cada 6+, asigna 1 de daño mortal al objetivo (no se pueden hacer tiradas de salvaguardia para esos puntos de daño).</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Golpe colosal" id="fc8a-38ee-be8a-94ac" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+              <constraints>
+                <constraint id="d200-a5df-bcf9-2d23" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+                <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+                <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+                <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier field="points" type="set" value="0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition childId="1bed-ddb5-0c50-16d2" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="01b1-5112-ab45-1afc" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="f079-501a-2738-6844" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="8e6f-2dd7-a7ed-489e" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="Golpe colosal" id="678c-dd9b-9e8b-9bc1" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga **^^Monster^^** o **^^War Machine^^** que tenga como máximo 1 miniatura y esté en combate con esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si 2 o más unidades amigas **^^Big^^** o **^^Little^^** están en combate con el objetivo, aplica el efecto de abajo. Si no, haz una tirada de Rampage de D6. Resta 1 a la tirada si el objetivo tiene un atributo Salud mayor que el de esta unidad. Con un 3+, aplica el efecto de abajo.
+
+Retira al objetivo del campo de batalla y vuelve a colocarlo en combate con esta unidad. Después, inflige D3 de daño mortal al objetivo.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Flatulencia rancia" id="2734-6386-7180-00ec" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+              <constraints>
+                <constraint id="674d-ffe6-77af-f08a" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+                <cost name="Destiny Points" typeId="bc33-05f5-8d3f-af43" value="0"/>
+                <cost name="Force Category - PTG" typeId="e63c-79ff-93ba-c5eb" value="0"/>
+                <cost name="Force Category - GHB" typeId="de92-2099-fbf7-a156" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier field="points" type="set" value="0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition childId="1bed-ddb5-0c50-16d2" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="01b1-5112-ab45-1afc" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="f079-501a-2738-6844" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="8e6f-2dd7-a7ed-489e" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile name="Flatulencia rancia" id="c92c-fc4e-2609-86b5" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Control</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), final de cualquier turno</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, las unidades enemigas tienen una puntuación de control máxima de 1 mientras estén en combate con esta unidad.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1090,55 +1565,30 @@
         <constraint id="fd33-e97a-41a4-8913" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry name="Tribu del Jefe" id="284c-43d1-c99d-9e69" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+        <selectionEntry name="Leviatanes saqueadores" id="bd2d-ab85-0882-2b6c" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
           <constraints>
-            <constraint id="1d23-5cfc-2e98-227c" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="bfab-8563-198d-f15f" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <profiles>
-            <profile name="Bocazas" id="d8c6-9ab3-4163-29f3" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+            <profile name="A por el botín" id="35e4-bd58-4850-66dd" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
               <attributes>
-                <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-                <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
-                <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+                <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Movement</attribute>
+                <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
               </attributes>
               <characteristics>
-                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), Reacción: Has declarado una habilidad de Combatir para un Mega-Gargant amigo</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga **^^Gargant^^** que no haya usado una habilidad de **^^Combatir^^** este turno y esté totalmente a 12" o menos de esta unidad. El objetivo puede ser elegido para usar una habilidad de **^^Combatir^^** inmediatamente después de que se haya resuelto la habilidad de **^^Combatir^^** usada por esta unidad.</characteristic>
-                <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
-                <characteristic name="Used By" typeId="1b32-c9d6-3106-166b">El **^^Mega-Gargant^^** que use esa habilidad de **^^Combatir^^**.</characteristic>
+                <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad amiga **^^Big^^** o **^^Little^^** que haya cargado en el mismo turno haga un movimiento de aproximación, esa unidad puede atravesar miniaturas enemigas de unidades que no sean **^^Monster^^**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Tribu Acaparadora" id="e5bd-6d0e-f80b-3f6a" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+        <selectionEntry name="Pisotón conquistador" id="c2c7-4909-81d3-f2ed" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
           <constraints>
-            <constraint id="70dc-23ac-b9c5-ba75" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="01e6-a962-dfa9-750f" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <profiles>
-            <profile name="Más cosas para mi colección" id="2418-1884-443c-e199" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
-              <attributes>
-                <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Black</attribute>
-                <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
-                <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
-              </attributes>
-              <characteristics>
-                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, fase de despliegue</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Hijos de Behemat Hero^^** amigo que no sea **^^Unique^^** y que no tenga un artefacto de poder.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Otorga a ese **^^Hero^^** 1 artefacto de poder de &apos;Trofeos titánicos&apos;.
-**Nota del diseñador:** *Este artefacto de poder se otorga a la unidad durante la fase de despliegue, no durante la composición del ejército.*</characteristic>
-                <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
-                <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-        <selectionEntry name="Tribu Rompedora" id="b29e-5c59-6291-2ea4" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
-          <constraints>
-            <constraint id="2f4d-a4c8-a8c6-2bc2" field="selections" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <profiles>
-            <profile name="Masa de asedio" id="f671-6232-47c6-3dc9" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+            <profile name="Grandullones arrogantes" id="9ad1-85ec-96a6-70ed" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
               <attributes>
                 <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
                 <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
@@ -1146,25 +1596,48 @@
               </attributes>
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Los **^^Mega-Gargants^^** amigos tienen **^^Ward (6+)^^** mientras estén dentro de los alcances de combate de otros **^^Mega-Gargants^^** amigos.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">En la primera ronda de batalla, resta 1 a las tiradas para impactar de los ataques de combate que tengan como objetivo unidades amigas **^^Big^^** y **^^Little^^** que no hayan cargado en el mismo turno.</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
-        <selectionEntry name="Tribu Pisoteadora" id="4be4-db42-f2db-e4" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+        <selectionEntry name="Gamberros impacientes" id="8109-67a6-3b1e-f903" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
           <constraints>
-            <constraint id="ae7f-360-32ae-c524" field="selections" scope="parent" shared="true" type="max" value="1"/>
+            <constraint id="82b1-f59a-4971-0517" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <profiles>
-            <profile name="Deleitarse en la guerra" id="2558-d7e2-3acf-e60c" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+            <profile name="Zancadas de diez leguas" id="683f-9b72-7a67-d598" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
               <attributes>
-                <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
-                <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+                <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Gray</attribute>
+                <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Movement</attribute>
                 <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
               </attributes>
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Puedes elegir 2 unidades amigas **^^Mega‑Gargants^^** o **^^Gargant^^** que no hayan usado una habilidad de **^^Rampage^^** este turno para usar la habilidad &apos;Saltar arriba y abajo&apos; en lugar de 1.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad amiga **^^Big^^** o **^^Little^^** use la orden &apos;Redesplegar&apos; o la habilidad &apos;Correr&apos;, si sacas un 1-2 al determinar la distancia que esa unidad puede mover, puedes usar un valor de 3 en su lugar.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry name="Herederos de las viejas costumbres" id="642b-d956-3822-53cc" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+          <constraints>
+            <constraint id="7260-6e63-540e-e9b6" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <profiles>
+            <profile name="Espiritualidad bruta" id="a67d-d1e0-b8b4-4d43" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+              <attributes>
+                <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+                <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+                <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+              </attributes>
+              <characteristics>
+                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Big^^** o **^^Little^^** para usar esta habilidad, después elige como objetivo un **^^Wizard^^** o **^^Priest^^** enemigo a 18" o menos de ella.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Haz una tirada de Rampage de D6. Si la tirada iguala o supera el atributo Control del objetivo:
+• El objetivo tiene un nivel de poder máximo de 1 hasta el inicio de tu siguiente turno.
+• Todas las **^^Manifestations^^** invocadas por el objetivo son desterradas y retiradas de la partida.</characteristic>
+                <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+                <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1327,7 +1800,7 @@
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 5+, esta unidad puede usar una habilidad de Prayer del saber de plegarias que elegiste durante la composición del ejército como si tuviera Priest (1). En lugar de hacer una tirada de cántico para esa plegaria, la tirada de cántico es 5 y no se puede modificar.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 5+, esta unidad puede usar una habilidad **^^Prayer^^** del saber de plegarias que elegiste durante la composición del ejército como si tuviera **^^Priest (1)^^**. En lugar de hacer una tirada de cántico para esa plegaria, la tirada de cántico es 5 y no puede modificarse.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>
@@ -1347,7 +1820,7 @@
                   </attributes>
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas de cuerpo a cuerpo de esta unidad tienen Carga (+1 Daño).</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas de combate cuerpo a cuerpo de esta unidad tienen **Carga (+1 Daño)**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1365,7 +1838,7 @@
                   </attributes>
                   <characteristics>
                     <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad tiene Ward (5+) mientras esté totalmente a 12" o menos de un Mega-Gargant amigo y sea visible para él.</characteristic>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad tiene **^^Ward (5+)^^** mientras esté totalmente a 12" o menos y visible para una unidad amiga **^^Big^^**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1374,11 +1847,34 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Saberes de hechizos" id="181e-9509-237c-4a79" flatten="true" hidden="false">
+      <constraints>
+        <constraint id="af84-fa2a-44b7-299a" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry name="Saber de Behemat" id="79b0-45f2-86ad-74b2" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="13a5-e065-775b-dab8" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Saber de Behemat" id="5659-3a69-1c0f-70b5" hidden="false" import="true" targetId="0794-857a-6dd8-5da4" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
     <selectionEntryGroup name="Saberes de plegarias" id="ec00-2e56-3274-40ae" flatten="true" hidden="false">
       <constraints>
         <constraint id="c70b-639a-d867-f8da" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <selectionEntries>
+        <selectionEntry name="Plegarias del Titán del Mundo" id="d568-2428-59d9-98f2" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="d9e1-ed34-132a-cc97" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Plegarias del Titán del Mundo" id="77e6-2fa0-73ae-4ddb" hidden="false" import="true" targetId="c486-9b11-e6bd-8f6e" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
         <selectionEntry name="Bramidos de Brodd" id="0c7c-1fdf-8844-50c0" defaultAmount="0" hidden="true" import="true" publicationId="9e18-bb03-7b60-d4ff" type="upgrade">
           <constraints>
             <constraint id="6542-fb5f-014d-43da" field="selections" scope="parent" shared="true" type="max" value="1"/>

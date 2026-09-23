@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Hijos de Behemat - Biblioteca" id="e691-c828-52e1-f1a8" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="20" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Hijos de Behemat - Biblioteca" id="e691-c828-52e1-f1a8" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="21" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Hijo de Behemat" id="ff24-51d-54d2-c80b" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
       <attributes>
@@ -187,158 +187,16 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry name="Turba de aplastahombres" id="a0c1-1a99-2cf9-85f9" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="unit">
-      <categoryLinks>
-        <categoryLink name="MONSTER" id="c9-c574-119f-6ceb" hidden="false" primary="true" targetId="6d54-625c-d063-13e2"/>
-        <categoryLink name="DESTRUCTION" id="c070-10b7-3e3a-dc37" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
-        <categoryLink name="SONS OF BEHEMAT" id="981c-c1a7-9bab-774d" hidden="false" primary="false" targetId="482b-a44e-ffc6-df0a"/>
-        <categoryLink name="GARGANT" id="7114-25c2-e3c2-1caf" hidden="false" primary="false" targetId="cdfb-7c8d-6a59-3866"/>
-      </categoryLinks>
-      <profiles>
-        <profile name="Turba de aplastahombres" id="bc81-7136-3757-e6cd" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
-          <characteristics>
-            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
-            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">12</characteristic>
-            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">5+</characteristic>
-            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">10</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Meterlos en mi saco" id="8d88-dc4b-2cff-1f34" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
-          <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
-            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
-          </attributes>
-          <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si el resultado es al menos el doble de la característica de Salud del objetivo, 1 miniatura de la unidad objetivo queda abatida.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
-            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
-          </characteristics>
-        </profile>
-        <profile name="¡Seguid el ritmo!" id="d5e6-b191-2b8c-6f76" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
-          <attributes>
-            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Orange</attribute>
-            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Movement</attribute>
-            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
-          </attributes>
-          <characteristics>
-            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté totalmente a 12" o menos de un **^^Mega-Gargant^^** amigo, esta unidad puede usar habilidades de **^^Cargar^^** aunque haya usado una habilidad de **^^Correr^^** en el mismo turno.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="¿Quién está bajo el talón ahora?" id="989c-a90c-a4ef-125" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
-          <attributes>
-            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Orange</attribute>
-            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
-            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
-          </attributes>
-          <characteristics>
-            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use la habilidad &apos;Carga de gigante&apos;, suma 1 a la cantidad de daño mortal infligido, si lo hay, por cada miniatura de esta unidad.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <selectionEntries>
-        <selectionEntry name="Gigante aplastahombres" id="bf4b-55e0-667c-3d90" hidden="false" import="true" type="model">
-          <constraints>
-            <constraint id="bceb-b262-d050-cbb7" field="selections" scope="parent" shared="true" type="min" value="3"/>
-            <constraint id="174c-6a9d-3d2e-10c0" field="selections" scope="parent" shared="true" type="max" value="3"/>
-          </constraints>
-          <rules>
-            <rule name="Tamaño de peana" id="81f1-05e1-89af-2b63" hidden="true">
-              <description>90x52mm</description>
-            </rule>
-          </rules>
-          <selectionEntries>
-            <selectionEntry name="Cabezazo" id="7a6b-47b1-6529-81d2" hidden="false" import="true" type="upgrade">
-              <constraints>
-                <constraint id="df51-eb4a-e87f-ece1" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="8a31-aba9-5023-a8b6" field="selections" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <profiles>
-                <profile name="Cabezazo" id="25fb-d538-f6b7-92b1" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
-                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
-                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
-                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry name="Lanzar piedras" id="589-8499-c841-8a63" hidden="false" import="true" type="upgrade">
-              <constraints>
-                <constraint id="d4e8-6098-f514-786d" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="2b0c-7816-d57e-ffcd" field="selections" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <profiles>
-                <profile name="Lanzar piedras" id="741c-9808-8eb7-44fa" hidden="false" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon">
-                  <characteristics>
-                    <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
-                    <characteristic name="Atk" typeId="aa17-4296-2887-e05d">1</characteristic>
-                    <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">5+</characteristic>
-                    <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">2+</characteristic>
-                    <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">2</characteristic>
-                    <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">D3</characteristic>
-                    <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry name="Garrote enorme" id="902c-2e9a-8452-7aea" hidden="false" import="true" type="upgrade">
-              <constraints>
-                <constraint id="8936-9897-f04b-70d1" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="a98e-c107-8d9c-bddc" field="selections" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <profiles>
-                <profile name="Garrote enorme" id="8e7c-955e-9c63-327f" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
-                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
-                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
-                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry name="Patada poderosa" id="6a0c-2824-a600-a3f2" hidden="false" import="true" type="upgrade">
-              <constraints>
-                <constraint id="e8d0-5528-8f16-f6ee" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="5ab-51ac-14e3-c4f5" field="selections" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <profiles>
-                <profile name="Patada poderosa" id="45dc-7a06-36e6-32f7" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
-                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
-                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
-                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntry>
     <selectionEntry name="Rey Brodd" id="e2fb-7f41-171f-9418" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="unit">
       <categoryLinks>
         <categoryLink name="HERO" id="7d4d-83e8-e18a-3a98" hidden="false" primary="true" targetId="6e72-1656-d554-528a"/>
+        <categoryLink name="WARMASTER" id="1fed-a3-90bf-cd59" hidden="false" primary="false" targetId="c203-51a0-3d44-6b07"/>
         <categoryLink name="UNIQUE" id="8d9e-7f36-1c43-b9cb" hidden="false" primary="false" targetId="72ce-2188-70bf-2dbd"/>
         <categoryLink name="MONSTER" id="290d-cbdc-f104-7169" hidden="false" primary="false" targetId="6d54-625c-d063-13e2"/>
-        <categoryLink name="WARMASTER" id="1fed-a3-90bf-cd59" hidden="false" primary="false" targetId="c203-51a0-3d44-6b07"/>
+        <categoryLink name="PRIEST (1)" id="7b31-96cb-55de-d2af" hidden="false" primary="false" targetId="3fe-84f4-cec6-a1c1"/>
         <categoryLink name="DESTRUCTION" id="6d9f-4c3a-8829-26a9" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
         <categoryLink name="SONS OF BEHEMAT" id="ece9-9feb-f15-a2b2" hidden="false" primary="false" targetId="482b-a44e-ffc6-df0a"/>
-        <categoryLink name="MEGA-GARGANT" id="bb7-ba92-79d0-247" hidden="false" primary="false" targetId="3723-4d8b-de1e-114b"/>
-        <categoryLink name="PRIEST (1)" id="7b31-96cb-55de-d2af" hidden="false" primary="false" targetId="3fe-84f4-cec6-a1c1"/>
+        <categoryLink name="BIG" id="f66a-1e27-18ba-3a17" hidden="false" primary="false" targetId="aba7-75e8-ea43-5f1e"/>
       </categoryLinks>
       <constraints>
         <constraint id="8c95-c4f5-9677-3dd9" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
@@ -346,17 +204,13 @@
       <entryLinks>
         <entryLink name="General" id="da1a-49e1-aec8-b6aa" hidden="false" import="true" targetId="a56b-952e-ad15-7868" type="selectionEntry"/>
       </entryLinks>
-      <infoLinks>
-        <infoLink name="Hijo de Behemat" id="6fa2-309f-4405-3a6f" hidden="false" targetId="ff24-51d-54d2-c80b" type="profile"/>
-        <infoLink name="Zanquilargos" id="c84b-89d1-1a53-9a33" hidden="false" targetId="c219-8bc2-6da1-f74f" type="profile"/>
-      </infoLinks>
       <profiles>
         <profile name="Rey Brodd" id="a74-da81-6af3-d8c5" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
-            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">40</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">28</characteristic>
             <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">4+</characteristic>
-            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">20</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">10</characteristic>
           </characteristics>
         </profile>
         <profile name="Daños de batalla" id="9d8a-8e5f-2070-1a12" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
@@ -367,35 +221,65 @@
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 15 o más puntos de daño, la característica de Attacks de su **Obelisco de Tor Crania** es 4 y esta unidad tiene una característica de Control de 10.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 15 o más puntos de daño, el atributo Attacks de su **Obelisco de Tor Crania** es 13 para **Calamitous Sweep** y 4 para **Crushing Blow**.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Trepadores" id="3a28-2ca4-157d-661c" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+        <profile name="Obelisco de Tor Crania" id="3601-a6e1-7754-dff6" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <attributes>
-            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
-            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
             <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad no puede ser elegida como objetivo de habilidades de **^^Rampage^^** enemigas.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Combatir^^**, elige los atributos de arma **Calamitous Sweep** o **Crushing Blow** para todos los ataques que haga con su **Obelisco de Tor Crania**.</characteristic>
           </characteristics>
         </profile>
         <profile name="Poder de Behemat" id="3807-d745-251a-dbb7" hidden="false" typeId="5946-234-d7b4-6195" typeName="Ability (Prayer)">
           <attributes>
             <attribute name="Color" typeId="7564-4bf0-b34a-b143">Yellow</attribute>
-            <attribute name="Type" typeId="c63c-196d-34a7-cec3">Movement</attribute>
+            <attribute name="Type" typeId="c63c-196d-34a7-cec3">Offensive</attribute>
             <attribute name="Parent Node" typeId="5d25-63d6-3935-9312"/>
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="76bf-8126-64d4-c709">Tu fase de héroe</characteristic>
-            <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">5</characteristic>
-            <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Haz una tirada de cántico de D6.</characteristic>
-            <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Elige 1 de los siguientes efectos. Si la tirada de cántico fue de 10+, elige 2 en su lugar:
-***Quebrar las montañas:*** Suma 2" a la característica de Move de las unidades amigas **^^Hijos de Behemat^^** durante el resto del turno.
-***Poderío de la tierra:*** **Heal (D3)** cada unidad amiga **^^Hijos de Behemat^^**.
-***Reducirlo todo a polvo a golpes:*** Durante el resto del turno, suma 1 a la característica de Rend del **Obelisco de Tor Crania**, **Garrote de menhir**, **Mayal aplastafortalezas**, **Garrote de guerra destrozabarcos**, **Garrote de roca titánico** y **Garrote enorme** usados por unidades Hijos de Behemat amigas.</characteristic>
+            <characteristic name="Chanting Value" typeId="f192-6780-8138-9cef">4</characteristic>
+            <characteristic name="Declare" typeId="284c-90b2-245b-adf3">Elige como objetivo una unidad amiga visible **^^Hijos de Behemat Monster^^** totalmente a 12" o menos de esta unidad, después haz una tirada de cántico de D6.</characteristic>
+            <characteristic name="Effect" typeId="6219-6fcc-5ae2-a6b7">Si la tirada de cántico fue 7+, puedes elegir otra unidad elegible como segundo objetivo. Suma 1 al atributo Rend de las armas de combate cuerpo a cuerpo de cada objetivo durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="e3d8-f58b-e4e0-8e9d">**^^Plegaria^^**</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Corte de trepadores" id="9947-d97e-ddcd-02b8" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Orange</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de carga</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** o **^^Monster^^** enemigo en combate con esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Suma 1 a la tirada si esta unidad ha cargado este turno. Con un 3+:
+• Suma 1 a las tiradas para impactar de los ataques de combate de esta unidad que tengan como objetivo esa unidad enemiga durante el resto del turno.
+• El objetivo no puede usar habilidades **^^Rampage^^** durante el resto del turno.
+• El objetivo deja de tener artefactos de poder.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="¡De pie, y al suelo otra vez!" id="e049-e9dd-6b72-54cd" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Orange</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Defensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de carga</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 18" o menos de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si hay 3 o más miniaturas amigas **^^Big^^** o **^^Little^^** en combate con el objetivo, aplica el efecto de abajo. Si no, haz una tirada de Rampage de D6. Con un 3+, aplica el efecto de abajo.
+
+Durante el resto del turno, resta 1 a las tiradas para impactar de los ataques de combate del objetivo mientras esté en combate con 2 o más miniaturas amigas **^^Big^^** o **^^Little^^**.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
       </profiles>
@@ -411,13 +295,31 @@
             </rule>
           </rules>
           <selectionEntries>
-            <selectionEntry name="Obelisco de Tor Crania" id="6c54-177f-34fa-cbf8" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Obelisco de Tor Crania: Barrido calamitoso" id="fbdd-124e-4cca-809e" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="377-356f-c315-79e7" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="7ac3-60bb-8de-7896" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="cf24-f8a6-0b57-8402" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="137f-815e-1b1d-3cc3" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Obelisco de Tor Crania" id="8766-bf86-252e-6b96" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                <profile name="Obelisco de Tor Crania: Barrido calamitoso" id="b23f-1239-f409-9d16" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">20</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (herida automática)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Obelisco de Tor Crania: Golpe aplastante" id="bbec-0348-1d72-55c1" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="672d-2310-477b-78ad" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="c456-822c-84e5-83af" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Obelisco de Tor Crania: Golpe aplastante" id="5e48-9b1b-a108-3739" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -425,24 +327,6 @@
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">5</characteristic>
                     <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry name="Presa mortal" id="1917-cfba-6181-8693" hidden="false" import="true" type="upgrade">
-              <constraints>
-                <constraint id="a685-8f80-a761-1fdd" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="240a-35b-fa71-dcef" field="selections" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <profiles>
-                <profile name="Presa mortal" id="47e4-5e79-6d6-bcea" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
-                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
-                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
-                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D6</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Héroe^^** (+1 Perforación)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -455,12 +339,12 @@
               <profiles>
                 <profile name="Pisotón todopoderoso" id="c97-9de-64bc-86e7" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Infantería^^** (+1 Perforación)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -475,22 +359,18 @@
         <categoryLink name="MONSTER" id="8c42-2445-24f1-23e8" hidden="false" primary="false" targetId="6d54-625c-d063-13e2"/>
         <categoryLink name="DESTRUCTION" id="a74e-e05b-3419-318b" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
         <categoryLink name="SONS OF BEHEMAT" id="a02c-657f-f623-41a2" hidden="false" primary="false" targetId="482b-a44e-ffc6-df0a"/>
-        <categoryLink name="MEGA-GARGANT" id="37c0-68ce-dfad-6c4b" hidden="false" primary="false" targetId="3723-4d8b-de1e-114b"/>
+        <categoryLink name="BIG" id="ec09-dcca-fb6b-aad1" hidden="false" primary="false" targetId="aba7-75e8-ea43-5f1e"/>
       </categoryLinks>
       <entryLinks>
         <entryLink name="General" id="c6a1-c573-7a24-cb9a" hidden="false" import="true" targetId="a56b-952e-ad15-7868" type="selectionEntry"/>
       </entryLinks>
-      <infoLinks>
-        <infoLink name="Hijo de Behemat" id="f849-d185-dd8c-838d" hidden="false" targetId="ff24-51d-54d2-c80b" type="profile"/>
-        <infoLink name="Zanquilargos" id="56c7-b5a9-d20c-fbb6" hidden="false" targetId="c219-8bc2-6da1-f74f" type="profile"/>
-      </infoLinks>
       <profiles>
         <profile name="Megagigante aplastabestias" id="358c-5196-78e0-c62d" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
-            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">35</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">25</characteristic>
             <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">4+</characteristic>
-            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">20</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">10</characteristic>
           </characteristics>
         </profile>
         <profile name="Daños de batalla" id="5ea-4303-9108-3b12" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
@@ -501,32 +381,46 @@
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 15 o más puntos de daño, la característica de Attacks de su **Garrote de menhir** es 3 y esta unidad tiene una característica de Control de 10.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 15 o más puntos de daño, el atributo Attacks de su **Garrote de menhir** es 11 para **Calamitous Sweep** y 4 para **Crushing Blow**.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Coloso pendenciero" id="3648-de85-f4fd-5522" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
-          <attributes>
-            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
-            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
-            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
-          </attributes>
-          <characteristics>
-            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a la característica de Attacks de los **^^Monsters^^** enemigos mientras estén en combate con esta unidad.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Golpe quebrantabestias" id="ad3c-ca45-9baa-d1ea" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Líder de la manada" id="6ac7-6882-571d-732c" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
             <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
             <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un Monster enemigo en combate con esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede hacer un movimiento de aproximación. Después, tira un dado. Con un 4+, inflige 5D6 de daño mortal al objetivo.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Ataque^^**, **^^Combate^^**</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), Reacción: Has declarado una habilidad Combatir para esta unidad</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo otra unidad amiga visible **^^Hijos de Behemat^^** totalmente a 12" o menos de esta unidad y haz una tirada de Rampage de D6. Suma 1 a la tirada si el objetivo es **^^Little^^**. Con un 3+, las armas de combate cuerpo a cuerpo del objetivo tienen **Crítico (2 impactos)** durante el resto del turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="Aura primigenia" id="a352-0ffc-8d5d-3056" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Haz una tirada de Rampage de D6. Suma 1 a la tirada por cada otra unidad amiga **^^Big^^** o **^^Little^^** que esté en combate y dentro del alcance de combate de esta unidad. Con un 3+, resta 1 a las tiradas de salvaguardia contra los puntos de daño infligidos por habilidades usadas por esta unidad durante el resto del turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="Garrote de menhir" id="dd42-b7ed-b6ca-8a9f" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Combatir^^**, elige los atributos de arma **Calamitous Sweep** o **Crushing Blow** para todos los ataques que haga con su **Garrote de menhir**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -542,38 +436,38 @@
             </rule>
           </rules>
           <selectionEntries>
-            <selectionEntry name="Garrote de menhir" id="c9fe-2e58-b7de-4ca7" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Garrote de menhir: Barrido calamitoso" id="460f-49c1-a02b-cc3c" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="d269-41c9-8065-f72b" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="5a97-56a6-5c04-c9f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="5f3c-ed18-0f73-d18c" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="cc6b-5b74-41a2-3b6f" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Garrote de menhir" id="b5d8-4908-500b-9c9c" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                <profile name="Garrote de menhir: Barrido calamitoso" id="2eda-98e8-4583-d99a" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
-                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
-                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
-                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">5</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Monstruo^^** (+1 Perforación)</characteristic>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">16</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (herida automática)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Presa mortal" id="b92d-e4ee-119b-bc75" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Garrote de menhir: Golpe aplastante" id="7de3-628a-3087-5d97" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="fb72-99d3-b697-63e2" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="e113-b8c3-7183-73ed" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="a0d4-e3dc-521b-2b7c" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="3b70-78b8-9f22-69d7" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Presa mortal" id="5308-415f-16ed-8554" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                <profile name="Garrote de menhir: Golpe aplastante" id="bb05-bc89-16df-fc84" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D6</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Héroe^^** (+1 Perforación)</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -586,12 +480,12 @@
               <profiles>
                 <profile name="Pisotón todopoderoso" id="ce6d-bf32-f3d7-d1bc" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Infantería^^** (+1 Perforación)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -606,22 +500,18 @@
         <categoryLink name="MONSTER" id="3894-663d-8710-940c" hidden="false" primary="false" targetId="6d54-625c-d063-13e2"/>
         <categoryLink name="DESTRUCTION" id="ec00-767f-c7ba-27d7" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
         <categoryLink name="SONS OF BEHEMAT" id="d1f8-9824-30f5-817d" hidden="false" primary="false" targetId="482b-a44e-ffc6-df0a"/>
-        <categoryLink name="MEGA-GARGANT" id="80d8-ecc5-ce80-637b" hidden="false" primary="false" targetId="3723-4d8b-de1e-114b"/>
+        <categoryLink name="BIG" id="0bf1-0add-1f1b-223f" hidden="false" primary="false" targetId="aba7-75e8-ea43-5f1e"/>
       </categoryLinks>
       <entryLinks>
         <entryLink name="General" id="db3a-ad9e-d6b5-2bf9" hidden="false" import="true" targetId="a56b-952e-ad15-7868" type="selectionEntry"/>
       </entryLinks>
-      <infoLinks>
-        <infoLink name="Hijo de Behemat" id="bbb2-b4a0-dc56-5759" hidden="false" targetId="ff24-51d-54d2-c80b" type="profile"/>
-        <infoLink name="Zanquilargos" id="20d1-1f30-3a9a-33c1" hidden="false" targetId="c219-8bc2-6da1-f74f" type="profile"/>
-      </infoLinks>
       <profiles>
         <profile name="Megagigante rompepuertas" id="129-928d-2761-8be9" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
-            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">35</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">25</characteristic>
             <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">4+</characteristic>
-            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">20</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">10</characteristic>
           </characteristics>
         </profile>
         <profile name="Daños de batalla" id="fafa-5ebc-fa61-bd5e" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
@@ -632,34 +522,48 @@
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 15 o más puntos de daño, la característica de Attacks de su **Mayal aplastafortalezas** es 4 y esta unidad tiene una característica de Control de 10.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 15 o más puntos de daño, el atributo Attacks de su **Mayal aplastafortalezas** es 11 para **Calamitous Sweep** y 4 para **Crushing Blow**.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Derribar" id="b54c-1a6b-387e-2011" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Mayal aplastafortalezas" id="edac-45a0-c8ba-271f" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Combatir^^**, elige los atributos de arma **Calamitous Sweep** o **Crushing Blow** para todos los ataques que haga con su **Mayal aplastafortalezas**.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Arráncalo y tíralo" id="9f5a-6d24-5bfc-d21f" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Blue</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Shooting</attribute>
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un elemento de escenografía que esté a 3" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si el objetivo es **^^Faction Terrain^^**, inflígele D3+3 de daño mortal. Después, tira un D3 por cada unidad que no sea **^^Monster^^** (amiga o enemiga) a 3" o menos del objetivo. Con un 2+, inflige a esa unidad una cantidad de daño mortal igual al resultado.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de disparo</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un elemento de escenografía a 3" o menos de esta unidad que no esté **arrancado**, después elige como objetivo una unidad amiga **^^Hijos de Behemat^^** a 3" o menos de ese elemento de escenografía.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Haz una tirada de Rampage de D6. Con un 3+:
+• Si el objetivo es otra unidad **^^Big^^**, salvo un **Megagigante rompepuertas**, queda armado con un **Peñasco arrojado** durante el resto del turno (consulta el perfil de arma en el warscroll de esta unidad. Los modificadores a las armas de disparo o ataques de disparo de esta unidad no se aplican al objetivo).
+• Si el objetivo es un **Megagigante rompepuertas** o una unidad **^^Little^^**, suma 1 al atributo Attacks de sus armas de disparo durante el resto del turno.
+• Ese elemento de escenografía queda **arrancado** durante el resto de la batalla. Si es **^^Faction Terrain^^**, inflígele una cantidad de daño mortal igual a la tirada de Rampage.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
-        <profile name="Golpe pulverizador" id="f5f8-c73-ad07-a14a" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Ajuste de cuentas primigenio" id="435c-1ba6-4cb5-a131" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
             <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
             <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede hacer un movimiento de aproximación. Después, tira un dado. Con un 4+, inflige 4D6 de daño mortal al objetivo.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Ataque^^**, **^^Combate^^**</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), cualquier fase de combate</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 1 al atributo Attacks del **Mayal aplastafortalezas: Golpe aplastante** de esta unidad por cada unidad amiga **^^Hijos de Behemat^^** que haya sido destruida en esta batalla, hasta un máximo de 10.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
@@ -688,27 +592,45 @@
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">1</characteristic>
                     <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">3+</characteristic>
                     <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">2+</characteristic>
-                    <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">3</characteristic>
+                    <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">2</characteristic>
                     <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">4</characteristic>
                     <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Presa mortal" id="772f-acec-b87b-9fd3" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Mayal aplastafortalezas: Barrido calamitoso" id="5c39-8720-3d82-12b2" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="6f69-c4b5-47aa-eb86" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="d784-3510-2b08-271d" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="6d85-da56-b54b-979e" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="67d5-0112-58da-8553" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Presa mortal" id="b02f-aa4f-1cb4-3cbc" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                <profile name="Mayal aplastafortalezas: Barrido calamitoso" id="2db1-beff-3b5b-3b5d" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">16</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (herida automática)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Mayal aplastafortalezas: Golpe aplastante" id="8c07-1c7c-1e8f-a49e" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="c771-14e4-87a4-36c7" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="8af7-40d5-7e17-819f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Mayal aplastafortalezas: Golpe aplastante" id="9ddd-4c43-ddb8-68ab" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D6</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Héroe^^** (+1 Perforación)</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -721,30 +643,12 @@
               <profiles>
                 <profile name="Pisotón todopoderoso" id="8423-4cdc-aeda-2504" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Infantería^^** (+1 Perforación)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry name="Mayal aplastafortalezas" id="f8b9-70fd-9ea2-7abe" hidden="false" import="true" type="upgrade">
-              <constraints>
-                <constraint id="dcc0-80ba-5a9b-dd16" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="76fb-c924-7518-68c0" field="selections" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <profiles>
-                <profile name="Mayal aplastafortalezas" id="5d55-eab-3233-5c36" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
-                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
-                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
-                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Terreno de facción^^** (+1 Perforación)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1103,22 +1007,18 @@
         <categoryLink name="MONSTER" id="b154-4c6f-da8e-1f29" hidden="false" primary="false" targetId="6d54-625c-d063-13e2"/>
         <categoryLink name="DESTRUCTION" id="15fe-185e-fdad-5eef" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
         <categoryLink name="SONS OF BEHEMAT" id="6fac-6e9d-1ff9-f763" hidden="false" primary="false" targetId="482b-a44e-ffc6-df0a"/>
-        <categoryLink name="MEGA-GARGANT" id="b9cf-3f4f-aa05-eb10" hidden="false" primary="false" targetId="3723-4d8b-de1e-114b"/>
+        <categoryLink name="BIG" id="afef-13dc-8bac-42c0" hidden="false" primary="false" targetId="aba7-75e8-ea43-5f1e"/>
       </categoryLinks>
       <entryLinks>
         <entryLink name="General" id="93a1-4c27-9735-fa3" hidden="false" import="true" targetId="a56b-952e-ad15-7868" type="selectionEntry"/>
       </entryLinks>
-      <infoLinks>
-        <infoLink name="Hijo de Behemat" id="ae1f-9aaf-c4e2-8e0a" hidden="false" targetId="ff24-51d-54d2-c80b" type="profile"/>
-        <infoLink name="Zanquilargos" id="912b-e004-4e57-b10c" hidden="false" targetId="c219-8bc2-6da1-f74f" type="profile"/>
-      </infoLinks>
       <profiles>
         <profile name="Megagigante comekraken" id="530b-a4f6-120-2044" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
-            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">35</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">25</characteristic>
             <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">4+</characteristic>
-            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">20</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">10</characteristic>
           </characteristics>
         </profile>
         <profile name="Daños de batalla" id="a62f-378-39d9-958" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
@@ -1129,34 +1029,51 @@
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 15 o más puntos de daño, la característica de Attacks de su **Garrote de guerra destrozabarcos** es 3 y esta unidad tiene una característica de Control de 10.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 15 o más puntos de daño, el atributo Attacks de su **Garrote de guerra destrozabarcos** es 11 para **Calamitous Sweep** y 4 para **Crushing Blow**.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Meterlos en mi red" id="1e94-b37d-16d5-294f" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Garrote de guerra destrozabarcos" id="4233-2fe2-855b-0a48" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
-            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 3 dados. Por cada resultado que sea al menos el doble de la característica de Salud del objetivo, 1 miniatura de la unidad objetivo queda abatida.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
-            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Combatir^^**, elige los atributos de arma **Calamitous Sweep** o **Crushing Blow** para todos los ataques que haga con su **Garrote de guerra destrozabarcos**.</characteristic>
           </characteristics>
         </profile>
         <profile name="¡Fuera de mis tierras!" id="1551-87b7-fda3-3eba" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Black</attribute>
             <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un marcador de objetivo que esté a 1" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 2+, mueve el objetivo 2D6" hasta una nueva posición del campo de batalla a más de 1" de todas las miniaturas, elementos de escenografía y otros marcadores de objetivo. A efectos del plan de batalla, ese marcador de objetivo se considera en los mismos territorios en los que estaba cuando se colocó por primera vez en el campo de batalla.</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un marcador de objetivo o un elemento de escenografía del campo de batalla.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la batalla, el objetivo es el **alijo de botín** de esta unidad.
+
+Mientras la unidad que usó esta habilidad esté disputando su **alijo de botín**, suma 10 a su puntuación de control.
+
+Mientras la unidad que usó esta habilidad no esté disputando su **alijo de botín**, suma 2 al atributo Attacks de su **Pisotón todopoderoso**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="Fanfarrones codiciosos" id="5d55-cd32-b105-e074" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo otra unidad amiga visible **^^Big^^** o **^^Little^^** totalmente a 12" o menos de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está disputando su **alijo de botín**, aplica el efecto de abajo. Si no, haz una tirada de Rampage de D6. Con un 3+, aplica el efecto de abajo.
+
+Suma 1 a las tiradas de carga del objetivo durante el resto del turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
@@ -1173,39 +1090,38 @@
             </rule>
           </rules>
           <selectionEntries>
-            <selectionEntry name="Escombros arrojados" id="b788-5c4d-96a5-86a6" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Garrote de guerra destrozabarcos: Barrido calamitoso" id="6214-eed6-b218-0450" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="86fa-5070-5f5e-cac0" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="f8ae-9ec1-ad78-cce5" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="f594-6c76-2619-7914" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="18b6-a7f8-4c74-3a5c" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Escombros arrojados" id="e848-bd85-2f2d-3a32" hidden="false" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon">
+                <profile name="Garrote de guerra destrozabarcos: Barrido calamitoso" id="4669-8088-f52f-ef6a" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
-                    <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">24&quot;</characteristic>
-                    <characteristic name="Atk" typeId="aa17-4296-2887-e05d">3</characteristic>
-                    <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">4+</characteristic>
-                    <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">3+</characteristic>
-                    <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">1</characteristic>
-                    <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">D3</characteristic>
-                    <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">-</characteristic>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">16</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (herida automática)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Presa mortal" id="c5cd-2299-17d9-dfcd" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Garrote de guerra destrozabarcos: Golpe aplastante" id="b20b-6ec3-ca95-6cd6" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="be23-4510-76f0-77f1" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="9bb0-fd19-b563-9104" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="1e3f-8155-eb1d-65b0" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="d588-3903-ca66-30a5" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Presa mortal" id="a1ca-c70e-acee-9f5b" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                <profile name="Garrote de guerra destrozabarcos: Golpe aplastante" id="0a09-ae2e-2fbc-1afb" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D6</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Héroe^^** (+1 Perforación)</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1218,29 +1134,11 @@
               <profiles>
                 <profile name="Pisotón todopoderoso" id="c3c6-bd39-80fa-6450" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Infantería^^** (+1 Perforación)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry name="Garrote de guerra destrozabarcos" id="6013-3f69-d629-e03c" hidden="false" import="true" type="upgrade">
-              <constraints>
-                <constraint id="7d0e-b83e-5c8b-1aa4" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="f306-9a3f-f708-e17a" field="selections" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <profiles>
-                <profile name="Garrote de guerra destrozabarcos" id="5715-45e2-2b36-91d" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
-                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
-                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
-                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
                     <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
@@ -1256,22 +1154,18 @@
         <categoryLink name="MONSTER" id="54e1-8847-6584-dbcb" hidden="false" primary="false" targetId="6d54-625c-d063-13e2"/>
         <categoryLink name="DESTRUCTION" id="ef80-daeb-9a90-e478" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
         <categoryLink name="SONS OF BEHEMAT" id="be0d-cb87-1e13-f14b" hidden="false" primary="false" targetId="482b-a44e-ffc6-df0a"/>
-        <categoryLink name="MEGA-GARGANT" id="eca1-8e39-bbc9-e7d9" hidden="false" primary="false" targetId="3723-4d8b-de1e-114b"/>
+        <categoryLink name="BIG" id="9542-b4a4-d7dd-4dcb" hidden="false" primary="false" targetId="aba7-75e8-ea43-5f1e"/>
       </categoryLinks>
       <entryLinks>
         <entryLink name="General" id="2fbf-f72b-9365-15aa" hidden="false" import="true" targetId="a56b-952e-ad15-7868" type="selectionEntry"/>
       </entryLinks>
-      <infoLinks>
-        <infoLink name="Hijo de Behemat" id="b6bd-3834-89b7-de09" hidden="false" targetId="ff24-51d-54d2-c80b" type="profile"/>
-        <infoLink name="Zanquilargos" id="6628-2e24-46db-dbf8" hidden="false" targetId="c219-8bc2-6da1-f74f" type="profile"/>
-      </infoLinks>
       <profiles>
         <profile name="Megagigante pisoteador de guerra" id="a82-92ec-e400-b763" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
-            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">35</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">25</characteristic>
             <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">4+</characteristic>
-            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">20</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">10</characteristic>
           </characteristics>
         </profile>
         <profile name="Daños de batalla" id="4d22-116a-b7e0-e9e4" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
@@ -1282,20 +1176,36 @@
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 15 o más puntos de daño, la característica de Attacks de su **Garrote de roca titánico** es 3 y esta unidad tiene una característica de Control de 10.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 15 o más puntos de daño, el atributo Attacks de su **Garrote de roca titánico** es 11 para **Calamitous Sweep** y 4 para **Crushing Blow**.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Cuerpo arrojado" id="eb08-d848-4e3a-80fa" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="¡Esos no; a esos otros!" id="8c7a-9418-a29b-4414" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Gray</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de movimiento</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo otra unidad amiga visible **^^Big^^** o **^^Little^^** totalmente a 12" o menos de esta unidad y que no haya sido colocada este turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">El objetivo puede mover 2D6". Puede atravesar y terminar ese movimiento dentro del alcance de combate de unidades enemigas con las que estuviera en combate al inicio del movimiento, pero no el de otras unidades enemigas. No tiene que terminar el movimiento en combate.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="Pisotonazo aún más poderoso" id="2757-1eca-daa2-e96e" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
             <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
             <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si el resultado es al menos el doble de la característica de Salud del objetivo, 1 miniatura de esa unidad queda abatida y puedes elegir una unidad enemiga visible a 12" o menos de esta unidad. Inflige a esa unidad una cantidad de daño mortal igual a la característica de Salud del objetivo.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de combate</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad ha cargado este turno, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Haz una tirada de Rampage de D3. Durante el resto del turno, suma la tirada al atributo Attacks del **Pisotón todopoderoso** de esta unidad, pero todos los ataques que haga esta unidad con esa arma deben tener como objetivo la unidad objetivo.
+
+Si alguna miniatura es abatida por esos ataques, durante el resto del turno, las unidades enemigas tienen una puntuación de control máxima de 1 mientras estén en combate con esta unidad.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
@@ -1307,7 +1217,7 @@
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si todos los ataques efectuados con el **Garrote de roca titánico** de esta unidad tienen como objetivo la misma unidad enemiga, por cada 5 miniaturas de la unidad objetivo, suma 2 a su característica de Attacks durante el resto de la fase.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Combatir^^**, elige los atributos de arma **Calamitous Sweep** o **Crushing Blow** para todos los ataques que haga con su **Garrote de roca titánico**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1323,56 +1233,56 @@
             </rule>
           </rules>
           <selectionEntries>
-            <selectionEntry name="Presa mortal" id="7ced-84dc-7ce6-c67" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Garrote de roca titánico: Barrido calamitoso" id="cdd6-e0cd-821b-7ca8" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="e002-4c64-978-2e82" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="8b4c-7d13-5bc9-4a7b" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="31c9-b51f-e8aa-853d" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="343c-6756-5fa6-f4dd" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Presa mortal" id="6a3e-2e4a-e2d5-150c" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                <profile name="Garrote de roca titánico: Barrido calamitoso" id="2767-8d61-f587-d5b1" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
-                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
-                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
-                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D6</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Héroe^^** (+1 Perforación)</characteristic>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">16</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (herida automática)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Pisotón aún más poderoso" id="7205-2b24-e6d7-3bac" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Garrote de roca titánico: Golpe aplastante" id="5855-423f-9bdc-bceb" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="4ef4-701-3d10-3f64" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="f08c-efba-6754-f85b" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="ab5e-f645-08d6-ab7f" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="2c6f-ca75-2066-023b" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Pisotón aún más poderoso" id="9c32-bed9-ab17-d863" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                <profile name="Garrote de roca titánico: Golpe aplastante" id="c33a-a32d-7cbb-1607" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Infantería^^** (+1 Perforación)</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Garrote de roca titánico" id="b776-cab2-7862-dbb6" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Pisotón todopoderoso" id="f387-e450-7cc8-d3e4" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="2082-eb7f-9853-e80e" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="7ad3-5c31-bcd8-67a9" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="b0a9-b0d9-edf4-369a" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="f376-ad70-3244-b4d7" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Garrote de roca titánico" id="8812-3d4a-684b-cb5b" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                <profile name="Pisotón todopoderoso" id="7fcc-0839-3541-1a54" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Infantería^^** (+1 Perforación)</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1386,7 +1296,7 @@
         <categoryLink name="MONSTER" id="1ad6-6275-31d8-f11d" hidden="false" primary="true" targetId="6d54-625c-d063-13e2"/>
         <categoryLink name="DESTRUCTION" id="fbf7-495-3681-82f5" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
         <categoryLink name="SONS OF BEHEMAT" id="3271-a16f-f7b0-9f2e" hidden="false" primary="false" targetId="482b-a44e-ffc6-df0a"/>
-        <categoryLink name="GARGANT" id="eba0-633a-2707-54a4" hidden="false" primary="false" targetId="cdfb-7c8d-6a59-3866"/>
+        <categoryLink name="LITTLE" id="aced-81db-280c-be32" hidden="false" primary="false" targetId="d8ec-c3f5-89bb-d132"/>
       </categoryLinks>
       <profiles>
         <profile name="Gigante aplastahombres" id="cec4-bbff-3ef0-91e6" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
@@ -1394,32 +1304,41 @@
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
             <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">12</characteristic>
             <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">5+</characteristic>
-            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">10</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Meterlos en mi saco" id="bce1-201-2ef0-bccb" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Seguro que no puedes..." id="519a-ec21-8ff3-adad" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Black</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si el resultado es al menos el doble de la característica de Salud del objetivo, 1 miniatura de la unidad objetivo queda abatida.</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), fase de despliegue</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo cada **Gigante aplastahombres** amigo del campo de batalla.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de los siguientes efectos:
+
+***...¡Matad a los cabezotas!***: Durante el resto de la batalla, suma 1 al atributo Attacks de las armas de combate cuerpo a cuerpo de cada objetivo mientras estén en combate con cualquier **^^Heroes^^** o **^^Monsters^^** enemigo.
+
+***...¡Llegad antes que yo!***: Hasta 3 de los objetivos pueden usar cada uno la habilidad &apos;Movimiento normal&apos; como si fuera tu fase de movimiento.
+
+***...¡Agarrad eso!***: Suma 5 a la puntuación de control de cada objetivo durante el resto de la batalla.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
-        <profile name="¡Seguid el ritmo!" id="7bb9-e3d2-48af-3a4e" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+        <profile name="Seguidores excitables" id="4040-f458-4c37-e6ab" hidden="false" typeId="55ac-f837-dded-5872" typeName="Ability (Command)">
           <attributes>
-            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Orange</attribute>
-            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Movement</attribute>
-            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+            <attribute name="Color" typeId="5c69-e4b9-19bc-e801">Red</attribute>
+            <attribute name="Type" typeId="2bd5-08f1-f3d1-86f7">Offensive</attribute>
+            <attribute name="Parent Node" typeId="df75-e7dc-12b5-48a8"/>
           </attributes>
           <characteristics>
-            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté totalmente a 12" o menos de un **^^Mega-Gargant^^** amigo, esta unidad puede usar habilidades de **^^Cargar^^** aunque haya usado una habilidad de **^^Correr^^** en el mismo turno.</characteristic>
+            <characteristic name="Timing" typeId="736-6e3a-d0b5-a1b0">Cualquier fase de combate</characteristic>
+            <characteristic name="Cost" typeId="a49e-3082-e2a6-e802">1</characteristic>
+            <characteristic name="Declare" typeId="b77f-7548-840e-c086"/>
+            <characteristic name="Effect" typeId="2111-3ca8-61dd-a5f0">Mientras esta unidad esté totalmente a 12" o menos de un **^^Hijos de Behemat Hero^^** amigo visible, esta unidad puede usar 2 habilidades **^^Combatir^^** esta fase. Sin embargo, después de usar la primera, esta unidad tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
+            <characteristic name="Keywords" typeId="445d-f443-5448-e7ce">**^^Desenfreno^^**</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1435,6 +1354,43 @@
             </rule>
           </rules>
           <selectionEntries>
+            <selectionEntry name="Lanzar piedras" id="de72-fbef-73da-88ec" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="3dcb-bc06-de14-990a" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="2052-da6d-9d0f-b1bf" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Lanzar piedras" id="92de-2dfa-eebc-c3fc" hidden="false" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
+                    <characteristic name="Atk" typeId="aa17-4296-2887-e05d">1</characteristic>
+                    <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">4+</characteristic>
+                    <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">2+</characteristic>
+                    <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">1</characteristic>
+                    <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">D3</characteristic>
+                    <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Arma gigantesca" id="cdcd-8761-9ff6-3d2b" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="2725-9019-c87c-8059" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="a09f-4282-4efb-e69f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Arma gigantesca" id="7de4-1412-6fb2-646a" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">5</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
             <selectionEntry name="Cabezazo" id="14f8-ebc3-e2c-5026" hidden="false" import="true" type="upgrade">
               <constraints>
                 <constraint id="4461-3e63-c07e-fa67" field="selections" scope="parent" shared="true" type="min" value="1"/>
@@ -1447,38 +1403,388 @@
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">3</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Ma Maegran, Elegidora de los Poderosos" id="76d5-8ec5-a7ae-f2ad" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="unit">
+      <categoryLinks>
+        <categoryLink name="HERO" id="9116-9d77-50d3-75e1" hidden="false" primary="true" targetId="6e72-1656-d554-528a"/>
+        <categoryLink name="UNIQUE" id="df09-6455-a66f-a906" hidden="false" primary="false" targetId="72ce-2188-70bf-2dbd"/>
+        <categoryLink name="MONSTER" id="6595-ab0a-8f46-171b" hidden="false" primary="false" targetId="6d54-625c-d063-13e2"/>
+        <categoryLink name="WIZARD (1)" id="dd7d-4fc6-84b9-4ee5" hidden="false" primary="false" targetId="6f28-c3f6-4b1b-8aff"/>
+        <categoryLink name="DESTRUCTION" id="cfdd-4e55-ddc8-8068" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
+        <categoryLink name="SONS OF BEHEMAT" id="be50-bf18-5862-5f71" hidden="false" primary="false" targetId="482b-a44e-ffc6-df0a"/>
+        <categoryLink name="LITTLE" id="42a0-aaf8-8452-e088" hidden="false" primary="false" targetId="d8ec-c3f5-89bb-d132"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="3131-e5c5-2bd7-c2e1" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="General" id="e6ee-61dd-6c40-b8fc" hidden="false" import="true" targetId="a56b-952e-ad15-7868" type="selectionEntry"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Ma Maegran, Elegidora de los Poderosos" id="5f35-3e71-372b-e572" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">15</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">4+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Daños de batalla" id="a2a6-4088-ad3b-2014" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Damage</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 10 o más puntos de daño, el atributo Attacks de su **Lanza de Krum Kalda** es 3.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pastora" id="aee9-5b6f-7633-58fb" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga visible **Ghyrochs antiguos** totalmente a 12" o menos de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si el objetivo está dentro del alcance de combate de esta unidad, elige 1 de los efectos de abajo. Si no, haz una tirada de Rampage de D6. Con un 3+, elige 1 de los efectos de abajo.
+
+***¡Destripadlos!***: Si el objetivo está en combate, suma 1 al atributo Damage de los **Cuernos y pezuñas poderosos** del objetivo durante el resto del turno.
+
+***Embestida del Ghyroch***: Si el objetivo no está en combate, puede mover 3". Puede moverse hasta entrar en combate.
+
+***Reservas de energía de jade***: Suma 1 al nivel de poder de lanzamiento de esta unidad hasta el inicio de tu siguiente turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="Conjuros inquietantes" id="6913-31ce-23c0-17a9" hidden="false" typeId="7312-8367-c171-f2ef" typeName="Ability (Spell)">
+          <attributes>
+            <attribute name="Color" typeId="16b6-0911-f549-a4bd">Yellow</attribute>
+            <attribute name="Parent Node" typeId="da27-8d61-f955-5031">Special</attribute>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="de6f-d57b-248a-83be">Tu fase de héroe</characteristic>
+            <characteristic name="Casting Value" typeId="9fc7-b0f6-d018-a608">6</characteristic>
+            <characteristic name="Declare" typeId="24f8-3803-4ab1-3b6c">Elige como objetivo una unidad amiga visible **^^Hijos de Behemat Monster^^** totalmente a 18" o menos de esta unidad, después haz una tirada de lanzamiento de 2D6.</characteristic>
+            <characteristic name="Effect" typeId="1cb9-a-1345-907f">Hasta el inicio de tu siguiente turno, suma 1 a las tiradas de Rampage del objetivo y suma 1 a las tiradas para impactar de sus ataques de combate.</characteristic>
+            <characteristic name="Keywords" typeId="353f-565e-c351-1cf2">**^^Hechizo^^**</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="La bruja errante" id="6799-ac6c-aeed-1af3" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté totalmente a 12" o menos de otra unidad amiga **^^Hijos de Behemat Monster^^**, esta unidad no es visible para unidades enemigas a más de 12" de ella.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Elegidora de los Poderosos" id="cd82-aee9-af84-8f1a" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Gray</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de movimiento</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige otra unidad amiga visible **^^Little^^** totalmente a 12" o menos de esta unidad para que esté **poderosa**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de los siguientes efectos:
+
+• Durante el resto del turno, cada vez que hagas una tirada de herida sin modificar de 6 para un ataque de combate hecho por la unidad **poderosa**, inflige 1 de daño mortal al objetivo de ese ataque después de que se haya resuelto la habilidad **^^Combatir^^**.
+
+• Elige un punto del campo de batalla a 1" o menos de la unidad **poderosa**, después elige como objetivo una unidad amiga **^^Big^^** que no sea **^^Unique^^** y que haya sido destruida. Coloca una unidad de reemplazo idéntica al objetivo a 1" o menos de ese punto, después asígnale 10 puntos de daño (no se pueden hacer tiradas de salvaguardia para esos puntos de daño). La unidad de reemplazo solo puede colocarse en combate con unidades con las que la unidad **poderosa** estuviera en combate cuando fue elegida como **poderosa**. Después, 1 miniatura de la unidad **poderosa** es abatida.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Ma Maegran, Elegidora de los Poderosos" id="10e2-922a-ee51-9f4e" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="fcb9-28ac-0406-229b" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="8900-98e7-1efd-4586" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <rules>
+            <rule name="Tamaño de peana" id="cb77-fc95-ea6c-ec8d" hidden="true">
+              <description>90mm</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry name="Lanza de Krum Kalda" id="86f3-1ac8-2820-7d67" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="d4a7-3ad5-2848-73a6" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="eb29-c2ad-dcfe-e8eb" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Lanza de Krum Kalda" id="3174-209d-4b60-c338" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
                     <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Lanzar piedras" id="de72-fbef-73da-88ec" hidden="false" import="true" type="upgrade">
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Ghyrochs antiguos" id="7279-4fc4-6435-4d21" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="unit">
+      <categoryLinks>
+        <categoryLink name="BEAST" id="8c09-d70f-2fa0-bd27" hidden="false" primary="true" targetId="b224-8c8e-ca93-9860"/>
+        <categoryLink name="UNIQUE" id="53a2-8cfa-2f95-e854" hidden="false" primary="false" targetId="72ce-2188-70bf-2dbd"/>
+        <categoryLink name="DESTRUCTION" id="055d-4bb0-6314-a0c9" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
+        <categoryLink name="SONS OF BEHEMAT" id="ae25-e6fe-599a-a931" hidden="false" primary="false" targetId="482b-a44e-ffc6-df0a"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="fef5-1b5a-0a67-f6b7" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <profiles>
+        <profile name="Ghyrochs antiguos" id="ddec-b005-6b4d-0c1a" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">7</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">5+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bestia" id="ceba-2f0e-f10d-2726" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Control</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad tiene una puntuación de control máxima de 1.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Manantial de energía vital" id="4af3-8ad0-b203-caca" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Defensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Heal (3) a esta unidad.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Ghyroch antiguo" id="9238-a9a6-a006-770a" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="a06a-9f22-a9f2-1f63" field="selections" scope="parent" shared="true" type="min" value="2"/>
+            <constraint id="6507-35a4-ecb0-f317" field="selections" scope="parent" shared="true" type="max" value="2"/>
+          </constraints>
+          <rules>
+            <rule name="Tamaño de peana" id="614e-d681-567d-16a1" hidden="true">
+              <description>105x70mm</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry name="Cuernos y pezuñas poderosos" id="d1cd-74ca-a564-7341" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="3dcb-bc06-de14-990a" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="2052-da6d-9d0f-b1bf" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="b5e5-0964-156d-2d9b" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="9a82-00de-9902-fccc" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Lanzar piedras" id="92de-2dfa-eebc-c3fc" hidden="false" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon">
+                <profile name="Cuernos y pezuñas poderosos" id="518f-33c9-8135-dfcb" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Carga (+1 Daño), Compañero</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Aplastajefes" id="6c99-2bd0-d6d3-1f75" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="unit">
+      <categoryLinks>
+        <categoryLink name="MONSTER" id="74b8-9960-b345-1590" hidden="false" primary="true" targetId="6d54-625c-d063-13e2"/>
+        <categoryLink name="CHAMPION" id="f938-7dd0-8b66-b480" hidden="false" primary="false" targetId="f679-3bcb-d664-9ac3"/>
+        <categoryLink name="DESTRUCTION" id="6727-363f-1f4c-d834" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
+        <categoryLink name="SONS OF BEHEMAT" id="0c67-a44d-5735-637a" hidden="false" primary="false" targetId="482b-a44e-ffc6-df0a"/>
+        <categoryLink name="LITTLE" id="aa62-474a-5c61-bafb" hidden="false" primary="false" targetId="d8ec-c3f5-89bb-d132"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Aplastajefes" id="08dd-f7a8-53d2-a718" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">12</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">5+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="¡Deja de acaparar la diversión!" id="321e-147c-ac11-2902" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), Reacción: Has declarado una habilidad Combatir para esta unidad en la fase de combate enemiga</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige como objetivo una unidad amiga visible **^^Big^^** que no haya usado una habilidad **^^Combatir^^** este turno y esté totalmente a 12" o menos de esta unidad. El objetivo puede ser elegido para usar una habilidad **^^Combatir^^** inmediatamente después de que se haya resuelto la habilidad **^^Combatir^^** usada por esta unidad.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Aplastajefes" id="f7d8-2171-ca85-be76" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="884e-7619-9053-3c77" field="selections" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="2b4f-d2be-8b49-d73c" field="selections" scope="parent" shared="true" type="max" value="3"/>
+          </constraints>
+          <rules>
+            <rule name="Tamaño de peana" id="07a5-04ad-7cf5-288f" hidden="true">
+              <description>90mm</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry name="Garrotes del aplastajefes" id="223a-9084-e5e7-0ca0" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="108d-93b0-ba95-67eb" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="0c00-05ec-2514-1f62" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Garrotes del aplastajefes" id="f151-4d6d-d214-377c" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">7</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Cabezazo" id="c6a1-588d-7c4f-944b" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="2763-62f6-22a7-1fbf" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="e121-b6db-88df-f37d" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Cabezazo" id="cf3f-96d6-9345-e11f" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">3</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry name="Lanzarrocas" id="6668-edb8-b4d6-0ef3" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="unit">
+      <categoryLinks>
+        <categoryLink name="MONSTER" id="1c4a-82bc-8cb6-3184" hidden="false" primary="true" targetId="6d54-625c-d063-13e2"/>
+        <categoryLink name="CHAMPION" id="5fd3-921b-3edf-576c" hidden="false" primary="false" targetId="f679-3bcb-d664-9ac3"/>
+        <categoryLink name="DESTRUCTION" id="f3ec-c392-8a53-fb57" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
+        <categoryLink name="SONS OF BEHEMAT" id="4dbb-fe4f-cb71-6573" hidden="false" primary="false" targetId="482b-a44e-ffc6-df0a"/>
+        <categoryLink name="LITTLE" id="2ab1-50c8-7664-9ac3" hidden="false" primary="false" targetId="d8ec-c3f5-89bb-d132"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Lanzarrocas" id="61ef-198a-8076-9f2b" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">12</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">5+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Suelta, lanza o haz rodar" id="2458-5f3f-67f2-41ef" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Blue</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Shooting</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de disparo</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de los siguientes efectos para aplicarlo durante el resto del turno:
+
+***Suelta***: Las armas de disparo de esta unidad tienen **Disparar en combate** y esta unidad puede usar la orden &apos;Fuego de cobertura&apos; aunque esté en combate.
+
+***Lanza***: Suma 6" al atributo Alcance de las armas de disparo de esta unidad.
+
+***Rueda***: Suma 1 a las tiradas para impactar de los ataques de disparo de esta unidad.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Lanzarrocas" id="7fea-a7e7-acc0-a34c" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="aff2-58cd-d1f3-ac3f" field="selections" scope="parent" shared="true" type="min" value="3"/>
+            <constraint id="d51a-3469-bb7a-2485" field="selections" scope="parent" shared="true" type="max" value="3"/>
+          </constraints>
+          <rules>
+            <rule name="Tamaño de peana" id="7d06-13fc-a4bb-380a" hidden="true">
+              <description>90mm</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry name="Lanzando rocas" id="89b5-a7a9-e8d6-da5a" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="5f46-4508-084a-a874" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="8fc0-780c-e2af-90d6" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Lanzando rocas" id="1a44-b751-8528-c7dc" hidden="false" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
-                    <characteristic name="Atk" typeId="aa17-4296-2887-e05d">1</characteristic>
-                    <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">5+</characteristic>
+                    <characteristic name="Atk" typeId="aa17-4296-2887-e05d">3</characteristic>
+                    <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">4+</characteristic>
                     <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">2+</characteristic>
-                    <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">2</characteristic>
+                    <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">1</characteristic>
                     <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">D3</characteristic>
                     <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Garrote enorme" id="f3bd-7433-cf4c-1e39" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Garrote enorme y rocas" id="ab41-e080-f981-964b" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="584b-d2c9-7012-f1d9" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="2d75-dd1d-aa01-a144" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="8c4c-56e7-add9-1b86" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="2c84-94a7-9583-0d53" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Garrote enorme" id="f58a-bdfb-e601-cde" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                <profile name="Garrote enorme y rocas" id="1edc-64d5-8c87-e24e" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
@@ -1490,19 +1796,19 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Patada poderosa" id="503d-20d0-cbd3-f407" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Cabezazo" id="d21a-ac9e-059e-17f4" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="eabc-7faf-2e19-85c3" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="814f-1b9b-56e9-8c4" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="4edf-d95c-5d92-c33c" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="46c0-1c54-52c2-e986" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Patada poderosa" id="2291-a805-e5d2-f1b6" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                <profile name="Cabezazo" id="2463-33c1-fdb3-8a02" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">3</characteristic>
                     <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>

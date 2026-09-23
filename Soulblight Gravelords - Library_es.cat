@@ -2462,15 +2462,15 @@ Puede aplicarse más de 1 efecto a una unidad al mismo tiempo; sin embargo, cada
         </profile>
         <profile name="Avance frenético" id="82ae-2078-461f-387a" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Orange</attribute>
             <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de carga</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Puedes elegir otra unidad **^^Señores de la Tumba Pudrealmas^^** **^^Infantry^^** o **^^Monster^^** amiga visible que no sea **^^Hero^^**, totalmente a 12" o menos de esta unidad, como blanco.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad y el blanco (si lo hay) pueden moverse hasta X+D3", donde X es tu **nivel de furia**. Pueden atravesar miniaturas enemigas y los alcances de combate de las unidades enemigas durante ese movimiento y deben terminarlo en combate.
-Si has elegido un blanco, después de moverse, esta unidad y el blanco deben estar en combate con la misma unidad enemiga.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">This unit can move up to **X**&quot;, where **X** is your **fury level**. It must end that move in combat.
+Then, the target can move up to **X**&quot;, where **X** is your **fury level**. It can move through enemy models and the combat ranges of enemy units during that move but must end that move in combat with an enemy unit that this unit is in combat with.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -6251,16 +6251,16 @@ Esta unidad puede retirarse del campo de batalla y colocarse en reserva **en lo 
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Gasta 1 **dado de ira**. Si el **nivel de furia** de tu oponente es inferior al tuyo, debe aumentar su **nivel de furia** en 1, hasta un máximo de 7. Después, elige 1 de los siguientes efectos:
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **rage dice**. If your opponent&apos;s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, pick 1 of the following effects:
 
-**Postura de represalia:** Durante el resto del turno:
-• Ignora los modificadores positivos a las tiradas de impacto y para herir de los ataques de las unidades enemigas mientras estén en combate con esta unidad.
-• Suma 1 a las tiradas de salvación de esta unidad.
-• Suma 1 a las tiradas de impacto de los ataques de esta unidad, incluidos los hechos con armas **Compañero**, que tengan como blanco a una unidad enemiga que haya usado una habilidad Combatir en esta fase.
+**Postura de represalia:** For the rest of the turn:
+• Ignore positive modifiers to hit rolls and wound rolls for attacks made by enemy units while they are in combat with this unit.
+• Añadir 1 to save rolls for this unit.
+• Añadir 1 to hit rolls for this unit&apos;s attacks, including attacks made with **Compañero** weapons, that target an enemy unit that used a **^^Combatir^^** ability this phase.
 
-**Ferocidad implacable:** Durante el resto del turno:
-• Ignora los modificadores negativos a las tiradas de impacto y para herir de los ataques de esta unidad.
-• Suma 1 a los atributos Rend y Damage de las armas de combate **Compañero** de esta unidad para ataques que tengan como blanco a una unidad enemiga que no haya usado una habilidad Combatir en esta fase.</characteristic>
+**Ferocidad implacable:** For the rest of the turn:
+• Ignore negative modifiers to hit rolls and wound rolls for this unit&apos;s attacks.
+• Añadir 1 to the Rend and Damage characteristics of this unit&apos;s **Compañero** melee weapons for attacks that target an enemy unit that has not used a **^^Combatir^^** ability this phase.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>

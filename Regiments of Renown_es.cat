@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="۞ Regimientos de Renombre" id="1ed8-2e23-1563-c119" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="65" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="۞ Regimientos de Renombre" id="1ed8-2e23-1563-c119" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="66" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="Señores de la Tumba Pudrealmas - Biblioteca" id="4d19-406d-3ac6-a882" targetId="dff3-13f8-82b5-3347" type="catalogue"/>
     <catalogueLink name="Cosechahuesos Ossiarch - Biblioteca" id="7ae6-dc04-99b0-ab87" targetId="3521-1b3c-7fd9-838b" type="catalogue"/>
@@ -2258,7 +2258,7 @@
       <modifierGroups>
         <modifierGroup type="and">
           <conditions>
-            <condition childId="e974-53fd-481c-5345" field="selections" scope="force" shared="true" type="instanceOf" value="1"/>
+            <condition childId="799b-bee1-49a7-aa3a" field="selections" scope="force" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
             <modifier field="74c4-f20b-4405-6829" type="set" value="1"/>
@@ -2404,7 +2404,7 @@
     <entryLink name="Regimiento de Renombre: Los Espíritus de la Canción Perdida" id="ce96-e57f-c7fe-2d4f" hidden="false" import="true" targetId="e900-fc9b-8fc3-1641" type="selectionEntry"/>
     <entryLink name="Regimiento de Renombre: Don de Nurgle" id="7728-bff1-9cba-e794" hidden="false" import="true" targetId="dca4-121d-1547-43bf" type="selectionEntry"/>
     <entryLink name="Regimiento de Renombre: Ascendente Marcado por los Dioses" id="4105-e693-61be-da1a" hidden="false" import="true" targetId="d944-cad1-cdbd-f4ad" type="selectionEntry"/>
-    <entryLink name="Regimiento de Renombre: Gargante Tropezón" id="ec55-f950-18cd-f0a3" hidden="false" import="true" targetId="2f4c-d582-fb8b-a435" type="selectionEntry"/>
+    <entryLink name="Regimiento de Renombre: Krong el Garrote" id="f5c6-16c8-8b58-9a8c" hidden="false" import="true" targetId="b1c8-8c01-a823-68c2" type="selectionEntry"/>
     <entryLink name="Regimiento de Renombre: Vástagos Goroanos" id="8be9-e466-ac4e-b680" hidden="false" import="true" targetId="8c01-d397-bdf2-6645" type="selectionEntry"/>
     <entryLink name="Regimiento de Renombre: Ala de Tormenta de Valnir" id="d706-35c8-1b22-6054" hidden="false" import="true" targetId="5a01-d417-a5fc-bc9c" type="selectionEntry"/>
     <entryLink name="Regimiento de Renombre: Trogg de Alquiler de Snerk" id="45d0-bb7d-3751-d0b7" hidden="false" import="true" targetId="bfa8-623c-3614-11ae" type="selectionEntry"/>
@@ -4788,19 +4788,6 @@
       </modifierGroups>
     </entryLink>
   </entryLinks>
-  <sharedProfiles>
-    <profile name="¡Árbol vaaaa!" id="7a21-bb2e-ee2a-ad50" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
-      <attributes>
-        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
-        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
-        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
-      </attributes>
-      <characteristics>
-        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando el **^^Mega‑Gargant^^** de este Regimiento de Renombre sea abatido, antes de retirarlo del juego, los jugadores deben hacer una tirada enfrentada. El ganador elige un punto del campo de batalla a 3" o menos de esa miniatura. Inflige D3 de daño mortal a cada unidad (amiga y enemiga) a 3" o menos de ese punto que tenga un atributo Salud inferior al de esa miniatura.</characteristic>
-      </characteristics>
-    </profile>
-  </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry name="Regimiento de Renombre: La Mano del Liche" id="d63f-7194-a3af-7a00" defaultAmount="0" hidden="true" import="true" publicationId="27d9-b0c5-1ecc-ba2f" type="upgrade">
       <categoryLinks>
@@ -5013,7 +5000,7 @@
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora los modificadores negativos a las tiradas de salvación de las unidades del Regimiento de Renombre.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora los modificadores negativos a las tiradas de salvación de las unidades de este Regimiento de Renombre.</characteristic>
           </characteristics>
         </profile>
         <profile name="Senderos fantasmales" id="eddf-fb26-b93-aaa4" hidden="false" typeId="7312-8367-c171-f2ef" typeName="Ability (Spell)">
@@ -5255,9 +5242,6 @@
       <constraints>
         <constraint id="f3b7-7847-b4f4-b37b" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
-      <infoLinks>
-        <infoLink name="¡Árbol vaaaa!" id="7781-1434-7a65-b15d" hidden="false" targetId="7a21-bb2e-ee2a-ad50" type="profile"/>
-      </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="false">
           <conditions>
@@ -5266,7 +5250,18 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="Apaleador poderoso" id="7128-9604-e000-e3e6" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Salvaguardias protectoras" id="ce92-fade-1e41-48c1" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La unidad de este Regimiento de Renombre tiene **^^Ward (6+)^^**.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Apaleador poderoso" id="9cff-437a-4ce4-1e29" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
             <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
             <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
@@ -5274,9 +5269,9 @@
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Monster^^** enemigo en combate con esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga **^^Monster^^** en combate con la unidad de este Regimiento de Renombre.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, el **Garrote de menhir** de la unidad de este Regimiento de Renombre tiene **Crítico (2 impactos)**, pero todos los ataques hechos con esa arma este turno deben tener como objetivo esa unidad enemiga **^^Monster^^**.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
@@ -5373,9 +5368,6 @@ While every model in the same unit in the Regiment of Renown is contesting the 
       <constraints>
         <constraint id="25cb-3bd8-c99e-1df8" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
-      <infoLinks>
-        <infoLink name="¡Árbol vaaaa!" id="8493-da45-ca46-f495" hidden="false" targetId="7a21-bb2e-ee2a-ad50" type="profile"/>
-      </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="false">
           <conditions>
@@ -5384,17 +5376,31 @@ While every model in the same unit in the Regiment of Renown is contesting the 
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="Halitosis grave" id="fef2-300d-f133-a75c" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Destrozafortalezas" id="5838-fb30-cf9d-f1bb" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Blue</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Shooting</attribute>
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado por cada miniatura de la unidad objetivo. Por cada 6, inflige 1 daño mortal al objetivo.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), Reacción: Has declarado la habilidad &apos;Arráncalo y tíralo&apos; para la unidad de este Regimiento de Renombre</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Después de elegir el objetivo de esa habilidad, tira un número de dados igual al número de la ronda de batalla actual. Por cada 4+, suma 1 al atributo Attacks del **Peñasco arrojado** de la unidad de este Regimiento de Renombre durante el resto del turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="Halitosis grave" id="bb1f-5725-ad6d-0825" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con la unidad de este Regimiento de Renombre.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado por cada miniatura de la unidad objetivo. Por cada 6, inflige 1 de daño mortal al objetivo. Si alguna miniatura enemiga es abatida por esta habilidad, el objetivo tiene una puntuación de control máxima de 1 durante el resto del turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
@@ -5407,9 +5413,6 @@ While every model in the same unit in the Regiment of Renown is contesting the 
       <constraints>
         <constraint id="be3-b986-89f5-861a" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
-      <infoLinks>
-        <infoLink name="¡Árbol vaaaa!" id="6442-aac5-d148-1d28" hidden="false" targetId="7a21-bb2e-ee2a-ad50" type="profile"/>
-      </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="false">
           <conditions>
@@ -5418,18 +5421,23 @@ While every model in the same unit in the Regiment of Renown is contesting the 
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="Muy aztuto para ser un gargante" id="2618-4e52-f45b-e0cd" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Muy aztuto para ser un gargante" id="bae6-a0a4-7f73-5c83" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
             <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, suma 1 al atributo Attacks de las armas de esta unidad.
-Después, tira un dado. Con un 4+, esta unidad tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, la unidad de este Regimiento de Renombre tiene **^^Strike-last^^** y **^^Ward (5+)^^**. Elige 1 de los siguientes efectos para aplicarlo durante el resto del turno:
+
+***Una treta astuta:*** Salvo la habilidad **Compañero**, las habilidades de arma de los ataques que tengan como objetivo la unidad de este Regimiento de Renombre no tienen efecto.
+
+***Una sorpresa desagradable:*** Suma 1 a las tiradas para impactar de los ataques de combate de la unidad de este Regimiento de Renombre e ignora los modificadores negativos a las tiradas para impactar y de herida de sus ataques de combate.
+
+***¡Os la he colado!:*** Las unidades enemigas tienen una puntuación de control máxima de 1 mientras estén en combate con la unidad de este Regimiento de Renombre.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
@@ -5442,9 +5450,6 @@ Después, tira un dado. Con un 4+, esta unidad tiene **^^Strike-last^^** durante
       <constraints>
         <constraint id="7e54-5416-bf77-94ae" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
-      <infoLinks>
-        <infoLink name="¡Árbol vaaaa!" id="54b0-ccc4-815d-eeec" hidden="false" targetId="7a21-bb2e-ee2a-ad50" type="profile"/>
-      </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="false">
           <conditions>
@@ -5453,20 +5458,26 @@ Después, tira un dado. Con un 4+, esta unidad tiene **^^Strike-last^^** durante
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="Sacudir la tierra" id="666c-6185-c722-b13f" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Zancada titánica" id="d1b2-293f-69d2-e568" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
-            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Movement</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Con un 2+:
-• Inflige al blanco una cantidad de daño mortal igual a la tirada. Si el blanco es **^^Infantry^^**, duplica la cantidad de daño mortal infligido.
-• Resta 1 a las tiradas de impacto de los ataques del blanco durante el resto del turno.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
-            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La unidad de este Regimiento de Renombre puede usar habilidades **^^Cargar^^** aunque haya usado una habilidad **^^Retirarse^^** en el mismo turno. Además, las habilidades **^^Retirarse^^** no infligen daño mortal a la unidad de este Regimiento de Renombre.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Pisotón que sacude la tierra" id="426a-41c7-4506-6e09" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas para impactar de los ataques de combate hechos por unidades enemigas **^^Infantry^^** y **^^Cavalry^^** mientras estén en combate con la unidad de este Regimiento de Renombre.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6366,59 +6377,42 @@ El blanco y el **receptor** deben estar totalmente a 12" o menos del lanzador y 
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Regimiento de Renombre: Gargante Tropezón" id="2f4c-d582-fb8b-a435" defaultAmount="0" hidden="true" import="true" publicationId="fdea-639c-1111-eecc" type="upgrade">
+    <selectionEntry name="Regimiento de Renombre: Krong el Garrote" id="b1c8-8c01-a823-68c2" defaultAmount="0" hidden="true" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
       <categoryLinks>
-        <categoryLink name="Reference" id="7922-c7c4-4372-c9cd" hidden="false" primary="true" targetId="3360-1158-e879-9606"/>
+        <categoryLink name="Reference" id="f977-4be8-e938-de10" hidden="false" primary="true" targetId="3360-1158-e879-9606"/>
       </categoryLinks>
       <constraints>
-        <constraint id="6096-64a1-d823-da6f" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+        <constraint id="f404-7d79-334b-0e56" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
       </constraints>
       <modifiers>
         <modifier field="hidden" type="set" value="false">
           <conditions>
-            <condition childId="e974-53fd-481c-5345" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
+            <condition childId="799b-bee1-49a7-aa3a" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="instanceOf" value="1"/>
           </conditions>
         </modifier>
       </modifiers>
       <profiles>
-        <profile name="Vómito en proyectil" id="270a-917f-1a56-84f8" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Colapso devastador" id="d16b-787d-d362-b23e" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
           <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Blue</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Shooting</attribute>
-            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige esta unidad para usar esta habilidad si no ha usado una habilidad **^^Rampage^^** en este turno. Después, elige un punto del campo de batalla a 6" o menos de esta unidad y elige todas las unidades enemigas a 3" o menos de ese punto como blancos.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3 por cada blanco. Con un 2+, inflige a ese blanco una cantidad de daño mortal igual a la tirada.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
-            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cuando la unidad de este Regimiento de Renombre sea destruida, antes de retirarla de la partida, tú y tu oponente debéis hacer una tirada enfrentada. Si sacas más, inflige 3 de daño mortal a cada unidad (amiga y enemiga) dentro de su alcance de combate.</characteristic>
           </characteristics>
         </profile>
-        <profile name="¿Qué eztáz mirando?" id="eb91-c049-9810-da46" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
-          <attributes>
-            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Orange</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
-            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
-          </attributes>
-          <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de carga</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige esta unidad para usar esta habilidad si ha cargado en este turno y no ha usado una habilidad **^^Rampage^^** en este turno. Después, elige una unidad enemiga a 9" o menos de esta unidad como blanco.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira 2D6. Esta unidad puede moverse una cantidad de pulgadas igual a la tirada. Puede atravesar miniaturas enemigas y debe terminar ese movimiento en combate con el blanco.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
-            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
-          </characteristics>
-        </profile>
-        <profile name="Burla a gritos" id="916a-d853-9140-88b6" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Saltar arriba y abajo" id="e9d5-b0d6-a8cf-a176" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
             <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
-            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Defensive</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige esta unidad para usar esta habilidad si no ha usado una habilidad **^^Rampage^^** en este turno y, después, elige una unidad enemiga dentro del alcance de combate de esta unidad como blanco.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, resta 1 a las tiradas de impacto de los ataques del objetivo durante el resto del turno.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si la unidad de este Regimiento de Renombre ha cargado este turno, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado por cada miniatura de la unidad objetivo. Suma 1 a cada tirada si el objetivo está disputando un objetivo que no controlas. Por cada 6+, inflige 1 de daño mortal al objetivo. Después, si alguna de las tiradas fue un 1 sin modificar, resuelve el efecto de la habilidad &apos;Colapso devastador&apos; como si la unidad de este Regimiento de Renombre hubiera sido destruida (no es destruida ni retirada de la partida).</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>

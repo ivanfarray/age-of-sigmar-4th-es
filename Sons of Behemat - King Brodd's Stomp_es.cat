@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Hijos de Behemat - Pisoteadores del Rey Brodd" id="6600-d1d2-9b0d-a3b9" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="28" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Hijos de Behemat - Pisoteadores del Rey Brodd" id="6600-d1d2-9b0d-a3b9" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="30" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="Hijos de Behemat - Biblioteca" id="bb5c-1fae-fb95-d30b" targetId="e691-c828-52e1-f1a8" type="catalogue"/>
     <catalogueLink name="✦ Sendero a la Gloria - Costa Devastada" id="68de-3f81-0e1f-a249" importRootEntries="true" targetId="a434-b1ba-922b-7624" type="catalogue"/>
@@ -74,7 +74,7 @@
         <categoryLink name="BRODD&apos;S STOMP" id="a8b3-83a4-a2f6-9ae6" hidden="false" primary="false" targetId="32e4-9766-c8ee-6a06"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="470"/>
+        <cost name="pts" typeId="points" value="380"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="85f0-16e6-6cc-2476" hidden="false" import="true" targetId="bd6a-0180-02f6-a5a6" type="selectionEntryGroup"/>
@@ -141,7 +141,7 @@
         <categoryLink name="BRODD&apos;S STOMP" id="64b3-b007-ebeb-4e0f" hidden="false" primary="false" targetId="32e4-9766-c8ee-6a06"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="490"/>
+        <cost name="pts" typeId="points" value="400"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="c073-6c95-7ed2-eab4" hidden="false" import="true" targetId="bd6a-0180-02f6-a5a6" type="selectionEntryGroup"/>
@@ -208,7 +208,7 @@
         <categoryLink name="BRODD&apos;S STOMP" id="ccfd-4cd5-6edb-c3c6" hidden="false" primary="false" targetId="32e4-9766-c8ee-6a06"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="490"/>
+        <cost name="pts" typeId="points" value="400"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="3293-c4e9-16b1-8c99" hidden="false" import="true" targetId="bd6a-0180-02f6-a5a6" type="selectionEntryGroup"/>
@@ -273,8 +273,11 @@
       <categoryLinks>
         <categoryLink name="BRODD&apos;S STOMP" id="87b6-9cb2-f97-877" hidden="false" primary="false" targetId="32e4-9766-c8ee-6a06"/>
       </categoryLinks>
+      <constraints>
+        <constraint id="8591-4c4c-c9e0-4ab7" field="selections" includeChildForces="true" scope="roster" shared="false" type="min" value="1"/>
+      </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="520"/>
+        <cost name="pts" typeId="points" value="430"/>
       </costs>
       <entryLinks>
         <entryLink name="Heridas de batalla + cicatrices" id="bb97-d142-21ab-584c" hidden="false" import="true" targetId="f903-e486-c038-ed83" type="selectionEntryGroup"/>
@@ -321,7 +324,7 @@
         <categoryLink name="BRODD&apos;S STOMP" id="aac9-5aa0-5a85-c65b" hidden="false" primary="false" targetId="32e4-9766-c8ee-6a06"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="410"/>
+        <cost name="pts" typeId="points" value="370"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="ad3f-1dbe-125d-b05" hidden="false" import="true" targetId="bd6a-0180-02f6-a5a6" type="selectionEntryGroup"/>
@@ -387,7 +390,7 @@
         <categoryLink name="BRODD&apos;S STOMP" id="12d4-c4f4-cfdf-4bb6" hidden="false" primary="false" targetId="32e4-9766-c8ee-6a06"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="140"/>
       </costs>
       <entryLinks>
         <entryLink name="Sendas" id="4e5a-6dc1-b355-97de" hidden="false" import="true" targetId="daa3-f057-9ea5-2fba" type="selectionEntryGroup"/>
@@ -412,7 +415,7 @@
         <categoryLink name="BRODD&apos;S STOMP" id="3834-0be1-b71a-e5eb" hidden="false" primary="false" targetId="32e4-9766-c8ee-6a06"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="150"/>
       </costs>
       <entryLinks>
         <entryLink name="Sendas" id="0d54-42b9-92fd-fb32" hidden="false" import="true" targetId="daa3-f057-9ea5-2fba" type="selectionEntryGroup"/>
@@ -432,17 +435,42 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink name="Turba de aplastahombres" id="a65e-6a58-513c-b6cf" hidden="false" import="true" targetId="a0c1-1a99-2cf9-85f9" type="selectionEntry">
+    <entryLink name="Aplastajefes" id="abc0-d21d-a983-b4dd" hidden="false" import="true" targetId="6c99-2bd0-d6d3-1f75" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="BRODD&apos;S STOMP" id="f246-3ab9-1166-700d" hidden="false" primary="false" targetId="32e4-9766-c8ee-6a06"/>
+        <categoryLink name="BRODD&apos;S STOMP" id="fabb-4a17-330e-3f5d" hidden="false" primary="false" targetId="32e4-9766-c8ee-6a06"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="350"/>
+        <cost name="pts" typeId="points" value="370"/>
       </costs>
       <entryLinks>
-        <entryLink name="Sendas" id="a22e-3e26-8f4d-ef3f" hidden="false" import="true" targetId="daa3-f057-9ea5-2fba" type="selectionEntryGroup"/>
-        <entryLink name="Heridas de batalla + cicatrices" id="237d-aba0-22fd-8c9a" hidden="false" import="true" targetId="f903-e486-c038-ed83" type="selectionEntryGroup"/>
-        <entryLink name="Renombre" id="e5cd-1845-0447-2484" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+        <entryLink name="Sendas" id="291b-ad18-0f59-8e14" hidden="false" import="true" targetId="daa3-f057-9ea5-2fba" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="2c4a-7a86-4188-5726" hidden="false" import="true" targetId="f903-e486-c038-ed83" type="selectionEntryGroup"/>
+        <entryLink name="Renombre" id="3dea-2141-f591-bf8b" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Lanzarrocas" id="5c10-9083-7d99-eebd" hidden="false" import="true" targetId="6668-edb8-b4d6-0ef3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="BRODD&apos;S STOMP" id="f199-7737-31db-4c8f" hidden="false" primary="false" targetId="32e4-9766-c8ee-6a06"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="380"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Sendas" id="3782-9bd9-cdad-59af" hidden="false" import="true" targetId="daa3-f057-9ea5-2fba" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="2864-db4b-f9c3-c08f" hidden="false" import="true" targetId="f903-e486-c038-ed83" type="selectionEntryGroup"/>
+        <entryLink name="Renombre" id="f52a-a8cf-aec5-d447" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
       </entryLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -531,7 +559,7 @@
         <categoryLink name="BRODD&apos;S STOMP" id="5cfc-b8bd-59a4-298e" hidden="false" primary="false" targetId="32e4-9766-c8ee-6a06"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="450"/>
+        <cost name="pts" typeId="points" value="390"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="dbe3-3355-fb1-9233" hidden="false" import="true" targetId="bd6a-0180-02f6-a5a6" type="selectionEntryGroup"/>
@@ -639,7 +667,7 @@
         <categoryLink name="Reference" id="54c8-7c15-9763-623d" hidden="false" primary="true" targetId="3360-1158-e879-9606"/>
       </categoryLinks>
       <profiles>
-        <profile name="Destrozarlo todo" id="e2e5-4632-005d-35e6" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Destrozarlo todo a pedazos" id="e2e5-4632-005d-35e6" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
             <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Blue</attribute>
             <attribute name="Type" typeId="6d16-c86b-2698-85a4">Shooting</attribute>
@@ -647,9 +675,9 @@
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de disparo</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Mega-Gargant^^** amigo que no haya usado una habilidad **^^Rampage^^** este turno para usar esta habilidad, después elige un elemento de escenografía dentro de su alcance de combate. Después, elige como objetivo una unidad enemiga visible a 18" o menos de ese **^^Mega-Gargant^^**.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Big^^** que no haya usado una habilidad **^^Destructive Impulse^^** este turno para usar esta habilidad, después elige un elemento de escenografía dentro de su alcance de combate. Después, elige como objetivo una unidad enemiga visible a 18" o menos de esa unidad **^^Big^^**.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3 por cada unidad amiga y enemiga sobre el elemento de escenografía elegido. Con un 2+, inflige a esa unidad una cantidad de daño mortal igual al resultado. Después de tirar por todas esas unidades, tira un dado. Con un 3+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**, **^^Impulso Destructivo^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
@@ -674,7 +702,7 @@
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una miniatura amiga **^^Mega-Gargant^^** o **^^Gargant^^** sea abatida, antes de retirarla de la partida, los jugadores deben hacer una tirada enfrentada. El ganador elige un punto del campo de batalla a 3" o menos de esa miniatura. Inflige D3 de daño mortal a cada unidad (amiga y enemiga) a 3" o menos de ese punto que tenga una característica de Salud menor que la de esa miniatura.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una miniatura amiga **^^Big^^** o **^^Little^^** sea abatida, antes de retirarla de la partida, los jugadores deben hacer una tirada enfrentada. El ganador elige un punto del campo de batalla a 3" o menos de esa miniatura. Inflige D3 de daño mortal a cada unidad (amiga y enemiga) a 3" o menos de ese punto que tenga un atributo Salud menor que el de esa miniatura.</characteristic>
           </characteristics>
         </profile>
         <profile name="Doble pisotón" id="e2d1-bc20-1b5d-b1b3" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
@@ -685,9 +713,9 @@
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Mega-Gargant^^** amigo que no haya usado una habilidad **^^Rampage^^** este turno para usar esta habilidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D6. Con un 3+, durante el resto del turno, suma el resultado a la característica de Attacks del **Pisotón todopoderoso** o **Pisotón aún más poderoso** de la unidad que use esta habilidad.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Big^^** que no haya usado una habilidad **^^Destructive Impulse^^** este turno para usar esta habilidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D6. Con un 3+, durante el resto del turno, suma el resultado al atributo Attacks del **Pisotón todopoderoso** de la unidad que use esta habilidad.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**, **^^Impulso Destructivo^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
@@ -699,9 +727,9 @@
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), tu fase de carga</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Mega-Gargant^^** amigo que no haya usado una habilidad **^^Rampage^^** este turno para usar esta habilidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si la unidad que use esta habilidad ha cargado este turno, tira un dado. Con un 3+, esa unidad puede mover 3D6" pero debe terminar ese movimiento en combate</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Big^^** que no haya usado una habilidad **^^Destructive Impulse^^** este turno para usar esta habilidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si la unidad que usa esta habilidad ha cargado este turno, tira un dado. Con un 3+, esa unidad puede mover 3D6" pero debe terminar ese movimiento en combate. Al hacerlo, puede atravesar elementos de escenografía y miniaturas enemigas como si tuviera **^^Volar^^**.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**, **^^Impulso Destructivo^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
@@ -713,11 +741,11 @@
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Mega-Gargant^^** amigo que no haya usado una habilidad **^^Rampage^^** este turno para usar esta habilidad, después elige como objetivo una unidad enemiga en combate con él.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si el objetivo es una **^^Hero^^**, **^^Bestia^^**, **^^Monster^^** o **^^War Machine^^**, tira 6 dados. Si no, tira un dado por cada miniatura de la unidad objetivo. Por cada resultado igual o superior a la característica de Save del objetivo, inflige 1 de daño mortal al objetivo.
-El **^^Mega-Gargant^^** que use esta **^^Rampage^^** tiene
-**^^Strike-last^^** durante el resto del turno.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Big^^** que no haya usado una habilidad **^^Destructive Impulse^^** este turno para usar esta habilidad, después elige como objetivo una unidad enemiga en combate con ella.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si el objetivo es **^^Hero^^**, **^^Bestia^^**, **^^Monster^^** o **^^War Machine^^**, tira 6 dados. Si no, tira un dado por cada miniatura de la unidad objetivo. Por cada tirada igual o superior al atributo Save del objetivo, inflige 1 de daño mortal al objetivo.
+
+La unidad **^^Big^^** que use esta habilidad **^^Destructive Impulse^^** tiene **^^Strike-last^^** durante el resto del turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**, **^^Impulso Destructivo^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
@@ -729,9 +757,9 @@ El **^^Mega-Gargant^^** que use esta **^^Rampage^^** tiene
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Mega-Gargant^^** amigo que no haya usado una habilidad **^^Rampage^^** este turno para usar esta habilidad. Después, elige como objetivo una **^^Hero^^** enemiga que tenga un artefacto de poder y que esté en combate con ese **^^Mega-Gargant^^**.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Big^^** que no haya usado una habilidad **^^Destructive Impulse^^** este turno para usar esta habilidad. Después, elige como objetivo un **^^Hero^^** enemigo que tenga un artefacto de poder y esté en combate con esa unidad **^^Big^^**.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, el objetivo deja de tener ese artefacto de poder.</characteristic>
-            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Rampage^^**, **^^Impulso Destructivo^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
@@ -777,7 +805,7 @@ El **^^Mega-Gargant^^** que use esta **^^Rampage^^** tiene
                   <characteristics>
                     <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), Reacción: Has declarado la habilidad &apos;Ira de Brodd&apos; para una unidad amiga</characteristic>
                     <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar la habilidad &apos;Ira de Brodd&apos; inmediatamente después de resolver la habilidad &apos;Ira de Brodd&apos; usada por la otra unidad amiga. Esta unidad puede hacerlo incluso si ha usado otra habilidad **^^Rampage^^** este turno.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar la habilidad &apos;Ira de Brodd&apos; inmediatamente después de que se haya resuelto la habilidad &apos;Ira de Brodd&apos; usada por la otra unidad amiga. Esta unidad puede hacerlo aunque haya usado otra habilidad **^^Destructive Impulse^^** este turno.</characteristic>
                     <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                     <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
                   </characteristics>

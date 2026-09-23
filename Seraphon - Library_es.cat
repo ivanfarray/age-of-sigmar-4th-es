@@ -140,7 +140,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Eslizón Wizard^^** amigo totalmente a 18" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Mide el alcance y la visibilidad de la siguiente habilidad de **^^Hechizo^^** usada por esta unidad desde el objetivo en lugar de desde esta unidad. El objetivo se considera el lanzador a efectos de otras habilidades o efectos de hechizo, como &apos;Desvincular&apos; o &apos;La tierra tiembla&apos;.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Measure the range and visibility of the next **^^Hechizo^^** ability used by this unit this phase from the target instead of from this unit. The target is treated as the caster for the purpose of other abilities or spell effects, such as &apos;Desvincular&apos; or &apos;La tierra tiembla&apos;.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1036,7 +1036,7 @@ Suma 1 a la característica de Attacks de las armas **Compañero** de esta unida
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Eslizón Wizard^^** amigo totalmente a 18" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Mide el alcance y la visibilidad de la siguiente habilidad de **^^Hechizo^^** usada por esta unidad desde el objetivo en lugar de desde esta unidad. El objetivo se considera el lanzador a efectos de otras habilidades o efectos de hechizo, como &apos;Desvincular&apos; o &apos;La tierra tiembla&apos;.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Measure the range and visibility of the next **^^Hechizo^^** ability used by this unit this phase from the target instead of from this unit. The target is treated as the caster for the purpose of other abilities or spell effects, such as &apos;Desvincular&apos; or &apos;La tierra tiembla&apos;.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1344,6 +1344,17 @@ Suma 1 a la característica de Attacks de las armas **Compañero** de esta unida
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca una **Sapo manchado** junto a cada objetivo.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="Formación dispersa" id="2a4a-fc23-c6f9-1c38" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit has a coherency range of 2&quot;.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4774,7 +4785,7 @@ Con un 1, retira del campo de batalla la ficha **Venomites** de esta unidad. Con
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos cada unidad amiga que esté **acechando a la presa**.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">This unit can use this ability even if it is in reserve. Pick each friendly unit that is **stalking the prey** to be the targets.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Si el resultado supera la característica de Control del objetivo, el objetivo no puede usar órdenes durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>

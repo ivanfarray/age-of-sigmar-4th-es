@@ -948,9 +948,9 @@ Después, tira un dado. Con un 3+, hasta el inicio de tu siguiente turno, el obj
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no ha usado una habilidad de **^^Correr^^** ni de **^^Retirarse^^** este turno, elige como objetivo una unidad enemiga visible a 18" o menos de ella. Después, traza una línea recta entre los puntos más cercanos de las peanas de esta unidad y del objetivo. Cada otra unidad (amiga y enemiga) que atraviese esa línea es un **objetivo de daño colateral**.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+:
-• Inflige al objetivo una cantidad de daño mortal igual al resultado.
-• Inflige D3 de daño a cada **objetivo de daño colateral**.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+:
+• Inflict an amount of mortal damage on the target equal to the roll.
+• Inflict D3 daño mortal on each **collateral damage target**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Ataque^^**, **^^Disparo^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1467,7 +1467,7 @@ Después, tira un dado. Con un 3+, hasta el inicio de tu siguiente turno, el obj
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de carga</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede usar habilidades de Cargar este turno aunque esté en combate. Si al hacerlo la tirada de carga es 2 o menos, no cuenta como que ha cargado.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">This unit can use **^^Cargar^^** abilities this turn even if it is in combat. If the charge roll is 2 or less when it does so, it does not count as having charged.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2322,8 +2322,12 @@ Cada vez que esta unidad use una habilidad de **^^Disparar^^**, por cada **Powde
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige este **Foso de las fauces** para que sea un **sumidero**. Después, puedes elegir otro elemento de escenografía que esté a 12" o menos de este **Foso de las fauces** y que no hayas elegido ya como **sumidero** esta batalla para que sea un **sumidero** durante el resto del turno. Después, elige como objetivos todas las unidades enemigas que estén a 3" o menos del **sumidero (o sumideros)**.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3 por cada objetivo. Con un 2+, inflige a ese objetivo una cantidad de daño mortal igual al resultado. A partir de la segunda ronda de batalla, aumenta en 3" por ronda de batalla el alcance al que se puede elegir otro elemento de escenografía como **sumidero**. Si este elemento de escenografía tiene un **Head Carnicero**, aumenta ese alcance en 6" ese turno en lugar de 3". Este efecto es acumulativo.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick this **Foso de las fauces** to be a **sinkhole**. Then, you can pick another terrain feature within 12" of this **Foso de las fauces** and that you have not already picked to be a **sinkhole** this battle to be a **sinkhole** for the rest of the turn.
+
+Then, pick each enemy unit within 3" of the **sinkhole(s)** to be the targets.
+
+From the second battle round onwards, increase the range at which another terrain feature can be picked to be a **sinkhole** by 3" for each previous battle round. If this terrain feature has a **Head Carnicero**, increase the range at which another terrain feature can be picked to be a **sinkhole** by 6" for each previous battle round instead of 3".</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3 por cada objetivo. Con un 2+, inflige al objetivo una cantidad de daño mortal igual al resultado.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2337,7 +2341,9 @@ Cada vez que esta unidad use una habilidad de **^^Disparar^^**, por cada **Powde
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si este elemento de escenografía no tiene un **Head Carnicero**, elige como objetivo un **Carnicero** amigo que esté a 3" o menos de él y no esté en combate.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca el objetivo sobre este elemento de escenografía. El objetivo es ahora un **Head Carnicero** (consulta &apos;Sumidero hambriento&apos;).</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Place the target on this terrain feature. The target is now a **Head Carnicero** (see &apos;Sumidero hambriento&apos;).
+
+If this terrain feature is demolished, before removing it from the battlefield, inflict D3 daño mortal on the **Head Carnicero**. Then, set up the **Head Carnicero** on the battlefield wholly within 3" of this terrain feature and not in combat. That unit is no longer a **Head Carnicero**. If it is not possible to set up the **Head Carnicero**, it is slain.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -3012,8 +3018,8 @@ Si una unidad enemiga es destruida o retirada del campo de batalla mientras algu
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), inicio de la ronda de batalla</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad tiene algún **Cazahombres accomplice**, retira 1 **Cazahombres accomplice** de esta unidad y colócalo junto a una unidad enemiga visible.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If any of this unit&apos;s **Cazahombres accomplices** are next to this unit, pick a visible enemy unit to be the target.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Place 1 of this unit&apos;s **Cazahombres accomplices** next to the target.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -3027,12 +3033,12 @@ Si una unidad enemiga es destruida o retirada del campo de batalla mientras algu
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de disparo</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga a la que se le hayan asignado puntos de daño este turno por los ataques de disparo de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Haz una **tirada de atrapado** de D6. Resta 1 al resultado por cada **Cazahombres accomplice** que esté junto al objetivo.
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Make a **trapped roll** of D6. Subtract 1 from the roll for each friendly **Cazahombres accomplice** next to the target.
 
-Si el resultado es menor que la característica de Save del objetivo, hasta el inicio de tu siguiente turno:
+If the roll is less than the target&apos;s Save characteristic, until the start of your next turn:
 
-• Resta 1 al número de dados que se tiran al hacer tiradas de carga para el objetivo, hasta un mínimo de 1.
-• El objetivo no tiene **^^Volar^^**.</characteristic>
+• Subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.
+• The target does not have **^^Volar^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -4056,7 +4062,7 @@ Si el objetivo está en combate, inflige D3 de daño mortal a cada unidad enemig
             <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">2</characteristic>
           </characteristics>
         </profile>
-        <profile name="Apetito arcano" id="ed72-694d-b288-8152" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Gusto por lo arcano" id="ed72-694d-b288-8152" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
             <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
             <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
@@ -5761,6 +5767,7 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
                     <modifier field="category" scope="root-entry" type="remove" value="75d6-6995-dfcc-3898"/>
                     <modifier field="category" scope="root-entry" type="add" value="6d54-625c-d063-13e2"/>
                     <modifier affects="profiles.Unit" field="1981-ef09-96f6-7aa9" scope="root-entry" type="set" value="3+"/>
+                    <modifier affects="profiles.Unit" field="6c6f-8510-9ce1-fc6e" scope="root-entry" type="set" value="10"/>
                   </modifiers>
                   <profiles>
                     <profile name="Daños de batalla" id="aa76-76c1-141e-05fd" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
@@ -5777,12 +5784,13 @@ Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
                   </profiles>
                   <rules>
                     <rule name="Monstruo primigenio" id="a5f7-5ffd-67e2-8b5a" hidden="true">
-                      <description>Añade el arma **Cuernos enormes** y la habilidad &apos;Daños de batalla&apos; al pergamino de guerra de tu héroe. 
-Además, haz los siguientes cambios en el pergamino de guerra de tu héroe:
-• Cambia la característica de Move a 10".
-• Cambia la característica de Salud a 16.
-• Cambia la característica de Save a 3+.
-• Sustituye la palabra clave **^^Infantry^^** por la palabra clave **^^Monster^^**.</description>
+                      <description>Add the **Cuernos enormes** weapon and the &apos;Daños de batalla&apos; ability to your hero&apos;s warscroll. 
+In addition, make the following changes to your hero&apos;s warscroll:
+• Change the Move characteristic to 10".
+• Change the Salud characteristic to 16.
+• Change the Save characteristic to 3+.
+• Change the Control characteristic to 10.
+• Replace the **^^Infantry^^** keyword with the **^^Monster^^** keyword.</description>
                     </rule>
                   </rules>
                 </selectionEntry>

@@ -1761,7 +1761,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un objetivo que esté disputando esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, durante el resto del turno, las demás unidades **^^Darkoath^^** amigas tienen **^^Ward (5+)^^** mientras estén disputando ese objetivo.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, for the rest of the turn, friendly **^^Darkoath^^** units have **^^Ward (5+)^^** while they are contesting that objective.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2593,7 +2593,7 @@ Si la tirada de cántico ha sido de 8+, puedes elegir hasta 2 unidades válidas 
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">
-If this unit is contesting an objective you control that is wholly within enemy territory, this unit has **^^Ward (5+)^^** for the rest of the battle.              <conditionGroups>
+If this unit is contesting an objective you control that is not within friendly territory, this unit has **^^Ward (5+)^^** for the rest of the battle.              <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
                     <condition childId="d1f3-921c-b403-1106" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
@@ -4381,10 +4381,10 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Hasta el inicio de tu próximo turno, se aplican los siguientes efectos acumulativos según tu **nivel de furia**.
-**1+ Irritado:** Esta unidad tiene **Ward (6+)**.
-**4+ Furioso:** Las armas de combate de esta unidad tienen **Anti-charge (+1 Rend)**.
-**7 Enfurecido:** Esta unidad tiene **Strike-first** mientras no haya cargado en el mismo turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Until the start of your next turn, the following cumulative effects apply depending on your **fury level**.
+**1+ Irritado:** This unit has **^^Ward (6+)^^**.
+**4+ Furioso:** This unit&apos;s melee weapons have **Anti-charge (+1 Rend)**.
+**7 Enfurecido:** This unit has **^^Strike-first^^** while it has not charged in the same turn.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -4521,7 +4521,7 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté totalmente a 12" o menos de algún **^^Darkoath Heroes^^** amigo, cada vez que una miniatura de esta unidad sea abatida por un ataque de combate y esa miniatura estuviera en combate con la unidad atacante, tira un dado. Con un 5+, inflige 1 daño mortal a la unidad atacante después de resolver la habilidad **^^Combatir^^**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking model, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the **^^Combatir^^** ability has been resolved.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6417,7 +6417,7 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">5+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">-</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (mortal)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (mortal), Compañero</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6775,7 +6775,7 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">
-If this unit is contesting an objective you control that is wholly within enemy territory, this unit has **^^Ward (5+)^^** for the rest of the battle.              <conditionGroups>
+If this unit is contesting an objective you control that is not within friendly territory, this unit has **^^Ward (5+)^^** for the rest of the battle.              <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
                     <condition childId="d1f3-921c-b403-1106" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>

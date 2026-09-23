@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Ciudades de Sigmar - Aliados de las Ciudades Libres" id="5201-f4ef-5e24-cbd1" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="92" library="false" revision="6" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Ciudades de Sigmar - Aliados de las Ciudades Libres" id="5201-f4ef-5e24-cbd1" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="92" library="false" revision="5" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="❖ Saberes" id="6d80-4cee-bc01-8db3" targetId="0a11-cd61-2a4e-8e04" type="catalogue"/>
     <catalogueLink name="Ciudades de Sigmar - Biblioteca" id="88dc-c9a8-a1be-a793" targetId="c83a-4a23-6dc5-fb68" type="catalogue"/>
@@ -3503,7 +3503,7 @@ La unidad que use esta habilidad y los objetivos:
                     <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">4+</characteristic>
                     <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">3+</characteristic>
                     <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">1</characteristic>
-                    <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">1</characteristic>
+                    <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">D3</characteristic>
                     <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Crítico (2 impactos), Disparar en combate</characteristic>
                   </characteristics>
                 </profile>
@@ -3550,14 +3550,14 @@ La unidad que use esta habilidad y los objetivos:
             <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">1</characteristic>
           </characteristics>
         </profile>
-        <profile name="Maestros de droths aliados" id="6001-d560-3da4-70d4" hidden="true" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Maestros de droths aliados" id="6001-d560-3da4-70d4" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
             <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
             <attribute name="Type" typeId="6d16-c86b-2698-85a4">Defensive</attribute>
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Monster^^** enemigo en combate con esta unidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está **bajo órdenes**, aplica el efecto siguiente. Si no, tira un dado. Con un 3+, aplica el efecto siguiente.
 Resta 2 a la característica de Damage de las armas de cuerpo a cuerpo **Compañero** del objetivo durante el resto del turno.</characteristic>
@@ -3655,13 +3655,13 @@ Resta 2 a la característica de Damage de las armas de cuerpo a cuerpo **Compañ
             </rule>
           </rules>
           <selectionEntries>
-            <selectionEntry name="Colmillos de Kyndledroth" id="0510-7dfb-f1d9-76ab" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Dientes de brasa" id="0510-7dfb-f1d9-76ab" hidden="false" import="true" type="upgrade">
               <constraints>
                 <constraint id="032e-eaf0-056e-b143" field="selections" scope="parent" shared="false" type="min" value="1"/>
                 <constraint id="2c79-aac9-c2ee-7055" field="selections" scope="parent" shared="false" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Colmillos de Kyndledroth" id="6eb7-8511-63b6-90db" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                <profile name="Dientes de brasa" id="6eb7-8511-63b6-90db" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>

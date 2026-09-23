@@ -2051,16 +2051,14 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
           <profiles>
             <profile name="No hay escapatoria" id="4d0f-d04f-9fa4-4e8d" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
               <attributes>
-                <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Gray</attribute>
-                <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+                <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+                <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
                 <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
               </attributes>
               <characteristics>
-                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de movimiento</characteristic>
-                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Noctánimas^^**.</characteristic>
-                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno:
-• La unidad objetivo puede seguir usando habilidades de **^^Cargar^^** y **^^Disparar^^** aunque haya usado una habilidad de **^^Retirarse^^** en el mismo turno.
-• El objetivo puede usar la habilidad &apos;Retirarse&apos; sin que se le inflija ningún daño mortal.</characteristic>
+                <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de héroe</characteristic>
+                <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">If there is not a **condemned** enemy unit on the battlefield, pick an enemy unit to be **condemned**.</characteristic>
+                <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">For the rest of the battle, add 1 to the Rend characteristic of melee weapons used for attacks made by friendly **^^Noctánimas^^** units that target the **condemned** enemy unit.</characteristic>
                 <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
                 <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
               </characteristics>
@@ -2270,18 +2268,15 @@ Después, tira XD6, donde X es el número de **dados de ira** gastados. Esta uni
                 <constraint id="b4d7-310-1bfe-b32b" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Aura sombría" id="1145-27b4-48a1-261b" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                <profile name="Aura sombría" id="1145-27b4-48a1-261b" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
                   <attributes>
-                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Grey</attribute>
-                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
-                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                    <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
+                    <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+                    <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
                   </attributes>
                   <characteristics>
-                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado la orden &apos;Redesplegar&apos; para una unidad amiga **^^Noctánimas^^** totalmente a 12" o menos de esta unidad</characteristic>
-                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, resta 1 a las tiradas de impacto de los ataques que tengan como objetivo esta unidad.</characteristic>
-                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
-                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                    <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+                    <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">While they are wholly within 6" of this unit, friendly **^^Noctánimas Infantry^^** and **^^Cavalry^^** units are not visible to enemy units more than 9" from them.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

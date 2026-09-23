@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue name="Hijos de Behemat - Turba de la Matriarca" id="371c-6bc9-8b82-21cd" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink name="Hijos de Behemat - Biblioteca" id="e513-0aec-ad4e-0eea" targetId="e691-c828-52e1-f1a8" type="catalogue"/>
+    <catalogueLink name="✦ Sendero a la Gloria - Costa Devastada" id="28d8-a81e-2c75-5540" importRootEntries="true" targetId="a434-b1ba-922b-7624" type="catalogue"/>
+    <catalogueLink name="❖ Saberes" id="10e3-50c4-8b93-860b" importRootEntries="true" targetId="0a11-cd61-2a4e-8e04" type="catalogue"/>
+    <catalogueLink name="✦ Sendero a la Gloria - Ascensión" id="734e-d3a5-91de-bb0f" importRootEntries="true" targetId="3a8b-7496-526f-feab" type="catalogue"/>
+    <catalogueLink name="✦ Sendero a la Gloria - Tierras Salvajes Corruptas" id="52e7-2500-22ec-e05c" importRootEntries="true" targetId="e0ff-dc7c-8795-bfb9" type="catalogue"/>
+  </catalogueLinks>
+  <categoryEntries>
+    <categoryEntry name="MATRIARCH&apos;S MOB" id="4be4-023a-fe74-5bd3" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink name="Gigante aplastahombres" id="105c-3ddf-24e5-375b" hidden="false" import="true" targetId="2e41-3174-d7a3-cded" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="MATRIARCH&apos;S MOB" id="275c-9c3d-16f6-e3cc" hidden="false" primary="false" targetId="4be4-023a-fe74-5bd3"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="140"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Sendas" id="a053-8c49-2040-b51d" hidden="false" import="true" targetId="8ecd-87bc-fd30-28ef" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="41e0-960b-016f-2433" hidden="false" import="true" targetId="4261-dca2-9977-30c1" type="selectionEntryGroup"/>
+        <entryLink name="Renombre" id="0642-22ce-a6b5-92a6" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+        <entryLink name="Marcas de los Elegidos de la Elegidora" id="2ea5-6c06-eab9-fc03" hidden="false" import="true" targetId="b1dc-0f99-efdc-28d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Gigante aplastahombres (Azote de Aqshy)" id="ebe8-7286-7e66-5bb9" hidden="false" import="true" targetId="101d-650a-0429-db5c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="MATRIARCH&apos;S MOB" id="59da-fe20-ca53-0398" hidden="false" primary="false" targetId="4be4-023a-fe74-5bd3"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="150"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Sendas" id="cc75-6a02-fe6e-2f51" hidden="false" import="true" targetId="8ecd-87bc-fd30-28ef" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="50a0-ccd5-0bf9-d9e3" hidden="false" import="true" targetId="4261-dca2-9977-30c1" type="selectionEntryGroup"/>
+        <entryLink name="Renombre" id="be0c-eda6-dc81-7847" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+        <entryLink name="Marcas de los Elegidos de la Elegidora" id="8932-c177-d26f-5e96" hidden="false" import="true" targetId="b1dc-0f99-efdc-28d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Aplastajefes" id="de24-7429-57fd-7f76" hidden="false" import="true" targetId="6c99-2bd0-d6d3-1f75" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="MATRIARCH&apos;S MOB" id="d479-d357-4981-1713" hidden="false" primary="false" targetId="4be4-023a-fe74-5bd3"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="370"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Sendas" id="495b-188f-0eca-2769" hidden="false" import="true" targetId="8ecd-87bc-fd30-28ef" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="5352-6246-8341-11c4" hidden="false" import="true" targetId="4261-dca2-9977-30c1" type="selectionEntryGroup"/>
+        <entryLink name="Renombre" id="46fe-ec62-de3a-04e0" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Lanzarrocas" id="7b12-9bfc-0345-2cfa" hidden="false" import="true" targetId="6668-edb8-b4d6-0ef3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="MATRIARCH&apos;S MOB" id="e616-a908-9811-faf2" hidden="false" primary="false" targetId="4be4-023a-fe74-5bd3"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="380"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Sendas" id="9739-da55-8e61-9d3f" hidden="false" import="true" targetId="8ecd-87bc-fd30-28ef" type="selectionEntryGroup"/>
+        <entryLink name="Heridas de batalla + cicatrices" id="2931-9578-06c4-cdec" hidden="false" import="true" targetId="4261-dca2-9977-30c1" type="selectionEntryGroup"/>
+        <entryLink name="Renombre" id="7db9-8050-0731-4af8" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Ma Maegran, Elegidora de los Poderosos" id="779f-84b6-e74b-eac7" hidden="false" import="true" targetId="76d5-8ec5-a7ae-f2ad" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="MATRIARCH&apos;S MOB" id="b32f-7a2e-a3e5-786c" hidden="false" primary="false" targetId="4be4-023a-fe74-5bd3"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="f876-ff17-2d3d-0a02" field="selections" includeChildForces="true" scope="roster" shared="false" type="min" value="1"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="370"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Heridas de batalla + cicatrices" id="ae3d-8def-d797-2cae" hidden="false" import="true" targetId="4261-dca2-9977-30c1" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier affects="self.entries.recursive.482b-a44e-ffc6-df0a" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.7279-4fc4-6435-4d21" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier field="category" scope="root-entry" type="set-primary" value="d1f3-921c-b403-1106">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Ghyrochs antiguos" id="ec11-e6d6-318b-7351" hidden="false" import="true" targetId="7279-4fc4-6435-4d21" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="MATRIARCH&apos;S MOB" id="fd14-a793-3058-2ef7" hidden="false" primary="false" targetId="4be4-023a-fe74-5bd3"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="3a49-f1a7-98ca-73ad" field="selections" scope="force" shared="true" type="min" value="-1"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Heridas de batalla + cicatrices" id="74a4-cb6b-f19b-7445" hidden="false" import="true" targetId="4261-dca2-9977-30c1" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="3a49-f1a7-98ca-73ad" type="set" value="1">
+          <localConditionGroups>
+            <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
+              <conditions>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                <condition childId="779f-84b6-e74b-eac7" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </localConditionGroup>
+          </localConditionGroups>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+              <localConditionGroups>
+                <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="lessThan" value="1">
+                  <conditions>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="779f-84b6-e74b-eac7" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink name="Rasgos de batalla: Turba de la Matriarca" id="42e4-84b0-7b4c-192b" hidden="false" import="true" targetId="9b6e-e98d-b14e-5993" type="selectionEntry"/>
+  </entryLinks>
+  <selectionEntries>
+    <selectionEntry name="Saber de manifestaciones" id="8c02-7717-5e24-3267" defaultAmount="1" hidden="true" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Army Composition" id="b8e4-f0c3-f7f5-6127" hidden="false" primary="true" targetId="ac97-b27c-7e35-7ab9"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="1a3b-f497-4179-3dc4" field="selections" scope="roster" shared="true" type="max" value="1"/>
+        <constraint id="d439-931f-1a11-9fcd" field="selections" scope="self" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Saberes de manifestaciones" id="76df-afc4-1b32-9c79" flatten="true" hidden="false" import="true" targetId="748f-5d65-2d45-95c5" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="false">
+          <conditions>
+            <condition childId="any" field="de92-2099-fbf7-a156" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry name="Saber de hechizos" id="39ed-d9e1-50c8-a1a8" defaultAmount="1" hidden="true" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Army Composition" id="9672-9342-a880-fc72" hidden="false" primary="true" targetId="ac97-b27c-7e35-7ab9"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="0d1c-74ba-bb02-a567" field="selections" scope="roster" shared="true" type="max" value="1"/>
+        <constraint id="9ebc-0451-f469-3aac" field="selections" scope="self" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Saberes de hechizos" id="6a47-7a75-268d-e69c" collective="false" flatten="true" hidden="false" import="true" targetId="846a-7223-7276-ae39" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="false">
+          <conditions>
+            <condition childId="any" field="de92-2099-fbf7-a156" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry name="Rasgos de batalla: Turba de la Matriarca" id="9b6e-e98d-b14e-5993" hidden="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink name="Reference" id="7d73-0bf9-4ce8-8e32" hidden="false" primary="true" targetId="3360-1158-e879-9606"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="He oído que ella puede..." id="78a8-9542-b559-9afa" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de los siguientes efectos:
+
+***...¡Dispararles fuego por los ojos!:*** Inflige D3 de daño mortal a cada unidad enemiga visible a 12" o menos de la **Ma Maegran** amiga.
+
+***...¡Convertirte en humano!:*** Elige una unidad amiga visible totalmente a 12" o menos de la **Ma Maegran** amiga. Hasta el inicio de tu siguiente turno, las unidades enemigas tienen una puntuación de control máxima de 1 mientras estén en combate con esa unidad.
+
+***...¡Hacerte grande y fuerte!:*** Elige otra unidad amiga visible totalmente a 12" o menos de la **Ma Maegran** amiga. Suma 1 al atributo Attacks de las armas de esa unidad durante el resto del turno.
+
+***...¡Silbar los petardos más grandes!:*** Suma 1 a las tiradas de lanzamiento de la **Ma Maegran** amiga hasta el inicio de tu siguiente turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="¡Eh! ¡Fuera de ahí!" id="5fb5-cbbf-f0f3-ce6b" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), cualquier fase de combate</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si la **Ma Maegran** amiga está en combate y dañada, elige como objetivo hasta 3 **Mancrusher Gargants** amigos del campo de batalla que sean visibles para ella.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Cada objetivo tiene **^^Strike-first^^** durante el resto del turno.</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="Invocar la manada" id="dfd2-2b72-13f6-ad7f" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+          <attributes>
+            <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
+            <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), final de cualquier turno</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si la **Ma Maegran** amiga está en el campo de batalla, elige como objetivo cada unidad enemiga que no sea **^^Volar^^** ni **^^Monster^^** y sea visible para ella.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un número de dados por cada objetivo igual al número de la ronda de batalla actual. Por cada 4+, asigna 1 de daño mortal al objetivo (no se pueden hacer tiradas de salvaguardia para esos puntos de daño).</characteristic>
+            <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+            <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+          </characteristics>
+        </profile>
+        <profile name="¡Que no le pase na&apos; de na&apos;!" id="aee8-86de-0e5f-2602" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras la **Ma Maegran** amiga esté dentro del alcance de combate de otra unidad amiga **^^Little^^**:
+• Tiene **^^Ward (5+)^^**.
+• Cada vez que hagas una tirada de salvaguardia con éxito por ella, asigna 1 de daño mortal a otra unidad amiga **^^Little^^** dentro de su alcance de combate después de que se haya resuelto la secuencia de daño por ella (no se pueden hacer tiradas de salvaguardia para esos puntos de daño).
+• Ignora los modificadores negativos a las tiradas para impactar y de herida de los ataques de combate de esa otra unidad amiga **^^Little^^**.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Marcas de los Elegidos de la Elegidora" id="b1dc-0f99-efdc-28d2" hidden="false">
+      <constraints>
+        <constraint id="6c3c-e059-564b-fdc5" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+        <constraint id="a709-a608-b4c2-8053" field="selections" scope="root-entry" shared="true" type="max" value="1"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Marcas de los Elegidos de la Elegidora" id="47d6-334f-a43b-cfa1" hidden="false">
+          <rules>
+            <rule name="Restricciones de mejoras" id="f624-a491-1842-829c" hidden="true">
+              <description>Las Marcas de los Elegidos de la Elegidora son mejoras únicas que se pueden dar a los **Mancrusher Gargants**. Una unidad solo puede tener 1 Marca de los Elegidos de la Elegidora.</description>
+            </rule>
+          </rules>
+          <selectionEntries>
+            <selectionEntry name="Culatazo del látigo" id="83f6-495b-d919-7334" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+              <constraints>
+                <constraint id="635d-9d29-ca50-914e" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Culatazo del látigo" id="ff19-9ea8-6a4b-bfbd" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad está totalmente a 12" o menos de una **Ma Maegran** amiga, retírala del campo de batalla y vuelve a colocarla dentro de su alcance de combate. Esta unidad solo puede colocarse en combate con unidades enemigas que estén en combate con la **Ma Maegran** amiga.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Piedra torbellino ghyranita" id="dcdb-27e1-8c2a-a98d" hidden="false" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+              <constraints>
+                <constraint id="9cef-8ba5-3428-4fd4" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Piedra torbellino ghyranita" id="b2bf-0aa9-33be-5740" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                  <attributes>
+                    <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
+                    <attribute name="Type" typeId="6d16-c86b-2698-85a4">Defensive</attribute>
+                    <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                  </attributes>
+                  <characteristics>
+                    <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
+                    <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga visible **^^Matriarch&apos;s Mob^^** totalmente a 12" o menos de esta unidad.</characteristic>
+                    <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">**Heal (D3)** al objetivo.</characteristic>
+                    <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
+                    <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Saberes de hechizos" id="846a-7223-7276-ae39" flatten="true" hidden="false">
+      <constraints>
+        <constraint id="9050-f5df-671a-52af" field="selections" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry name="Saber de hechizos: Turba de la Matriarca" id="3672-fee5-aafc-bd3c" hidden="false" import="true" type="upgrade">
+          <constraints>
+            <constraint id="74b5-7e31-08f6-cda2" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Saber de hechizos: Turba de la Matriarca" id="a1ed-755b-e513-b060" hidden="false" import="true" targetId="0710-c083-0048-adba" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Heridas de batalla + cicatrices" id="4261-dca2-9977-30c1" collapsible="true" hidden="true">
+      <entryLinks>
+        <entryLink name="Cicatrices de batalla de la Costa Devastada" id="3e71-bb87-1d6b-944f" flatten="true" hidden="false" import="true" targetId="5559-80df-ba01-66a7" type="selectionEntryGroup"/>
+        <entryLink name="Cicatrices de batalla de las Tierras Salvajes Corruptas" id="5cf0-aa8a-a09d-b4c2" hidden="false" import="true" targetId="374e-3b5e-1810-b56a" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="any" field="e63c-79ff-93ba-c5eb" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                <condition childId="1bed-ddb5-0c50-16d2" field="selections" includeChildSelections="true" scope="ancestor" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <selectionEntries>
+        <selectionEntry name="Heridas de batalla" id="f69b-4811-4d64-cd54" hidden="false" import="true" type="upgrade"/>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Sendas" id="8ecd-87bc-fd30-28ef" hidden="true">
+      <constraints>
+        <constraint id="a098-ea67-b37b-d7ac" field="selections" scope="parent" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="Sendas de la Costa Devastada" id="3ba1-badd-440a-97ed" flatten="true" hidden="false" import="true" targetId="7bae-23cb-3977-3ece" type="selectionEntryGroup"/>
+        <entryLink name="Sendas de ascensión" id="3756-1ec8-c340-4ed5" flatten="true" hidden="false" import="true" targetId="9b2e-ad88-381f-5c49" type="selectionEntryGroup"/>
+        <entryLink name="Sendas de las Tierras Salvajes Corruptas" id="34aa-690b-30f0-064e" hidden="false" import="true" targetId="3f1b-26c1-aa71-73f8" type="selectionEntryGroup"/>
+      </entryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="false">
+          <conditions>
+            <condition childId="any" field="e63c-79ff-93ba-c5eb" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

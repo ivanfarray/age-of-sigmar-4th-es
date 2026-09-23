@@ -1372,7 +1372,7 @@ Si elegiste una unidad enemiga, tira un dado. Con un 3+, inflige 1 de daño mort
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 18" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, inflige 1 de daño mortal al objetivo y el objetivo tiene la palabra clave **^^Sentenced^^** hasta el inicio de tu siguiente turno.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, inflict 1 mortal damage on the target and the target has the **^^Sentenced^^** keyword for the rest of the battle.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1451,7 +1451,7 @@ Si elegiste una unidad enemiga, tira un dado. Con un 3+, inflige 1 de daño mort
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn (Army)</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está disputando un objetivo, elige como objetivo una unidad enemiga visible a 6" o menos de esta unidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Con un 2+:
 • Inflige al objetivo una cantidad de daño mortal igual al resultado.
@@ -3836,14 +3836,14 @@ Cobertura, Infranqueable**</description>
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 10" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, elige 1 de los siguientes efectos o tira dos dados y aplica ambos efectos correspondientes en el orden que elijas, incluidos los efectos duplicados:
-**1 *Disolvente fantasmal:*** Si el objetivo tiene una característica de Move de &apos;-&apos;, inflige 6 de daño mortal al objetivo.
-**2 *Vaho ácido:*** Inflige D3 de daño mortal al objetivo.
-**3 *Arrojar brebajes:*** Añade 1 a la característica de Attacks del **Frasco arrojado** de esta unidad esta fase, pero todos los ataques de esta unidad esta fase deben tener como objetivo a esa unidad enemiga.
-**4 *Vapores asfixiantes:*** Si el objetivo es un **^^Wizard^^**, resta 1 a su nivel de poder hasta el inicio de tu siguiente turno.
-**5 *Alucinógeno imbuido de miedo:*** Si el objetivo es un **^^Priest^^**, retírale D3 puntos de ritual.
-**6 *Prescripción impía:*** No pueden hacerse tiradas de salvaguardia para el objetivo durante el resto del turno.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an enemy unit within 10&quot; of this unit to be the target.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit&apos;s shooting attacks inflicted damage on the target this turn, apply 1 of the following effects. Otherwise, roll a dice. On a 3+, apply 1 of the following effects:
+***Disolvente fantasmal:*** If the target has a Move characteristic of &apos;-&apos;, inflict 6 mortal damage on the target.
+***Vaho ácido:*** Inflict D3 daño mortal on the target.
+***Corrosive Mist:*** Inflict 1 mortal damage on each enemy unit within the target&apos;s combat range.
+***Vapores asfixiantes:*** If the target is a **^^Wizard^^**, subtract 1 from its power level until the start of your next turn.
+***Alucinógeno imbuido de miedo:*** If the target is a **^^Priest^^**, remove D3 ritual points from it.
+***Prescripción impía:*** Ward rolls cannot be made for the target for the rest of the turn.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
