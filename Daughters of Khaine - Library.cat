@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Daughters of Khaine - Library" id="37ab-3336-3e89-c608" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="34" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Daughters of Khaine - Library" id="37ab-3336-3e89-c608" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="35" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry name="Hag Queen" id="4443-5875-af71-96a4" hidden="false" import="true" publicationId="df1f-ba81-775f-acfd" type="unit">
       <categoryLinks>
@@ -1323,6 +1323,9 @@ This unit&apos;s combat attacks that target a **constricted** enemy unit score
                     <constraint id="74b3-2ca1-88de-5f9c" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="60a2-a6dc-e1e1-b155" field="selections" includeChildSelections="true" scope="ab64-d97a-ac5e-a8b4" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="60a2-a6dc-e1e1-b155" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>

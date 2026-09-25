@@ -45,6 +45,11 @@ Si `upstream` ya existe, comprueba su URL y no repitas el comando.
 
 ## 2. Revisar e integrar los commits nuevos
 
+Si hay correcciones oficiales adelantadas en el fork, consulta primero
+[Erratas pendientes de BSData](docs/erratas-pendientes-upstream.md). Compara
+su manifiesto después de `git fetch upstream` y antes del merge; revisa también
+los cambios que Git pueda combinar sin conflictos.
+
 ```powershell
 git switch main
 git pull --ff-only origin main

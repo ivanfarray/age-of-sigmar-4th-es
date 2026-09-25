@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Ossiarch Bonereapers - Library" id="3521-1b3c-7fd9-838b" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="1" hidden="false" library="true" revision="40" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Ossiarch Bonereapers - Library" id="3521-1b3c-7fd9-838b" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="1" hidden="false" library="true" revision="41" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry name="Vokmortian, Master of the Bone-tithe" id="f92d-b53f-1f6f-1646" hidden="false" import="true" publicationId="2f1e-fdf-1ac2-fa38" type="unit">
       <categoryLinks>
@@ -539,6 +539,9 @@
                     <constraint id="e3d3-e70a-6b32-1492" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="2d12-0547-874f-850a" field="selections" includeChildSelections="true" scope="c127-fa89-8519-3af0" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="2d12-0547-874f-850a" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>

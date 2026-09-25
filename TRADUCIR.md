@@ -15,6 +15,12 @@ el mismo aviso.
 
 ## Qué se traduce y qué no
 
+Las correcciones oficiales que todavía no estén en BSData pueden modificar
+temporalmente los originales siguiendo el registro de
+[erratas pendientes](docs/erratas-pendientes-upstream.md). Esta excepción afecta
+a las reglas, no al proceso de traducción: los archivos `_es` siguen siendo
+generados y nunca se editan directamente.
+
 Los `.cat` y `.gst` son XML. Se traduce el **contenido descriptivo** dentro de
 `<description>` y `<characteristic>` y, por petición del usuario del 8 de
 septiembre de 2026, los **nombres visibles de unidades, armas y habilidades**
