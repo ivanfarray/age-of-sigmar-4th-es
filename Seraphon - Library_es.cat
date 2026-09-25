@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Seraphon - Biblioteca" id="18f-620a-1c2f-b6b2" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="28" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Seraphon - Biblioteca" id="18f-620a-1c2f-b6b2" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="29" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry name="Bastiladón con máquina solar" id="4fee-26df-ea45-a2d6" hidden="false" import="true" publicationId="e9d0-a23-6a15-1fcb" type="unit">
       <categoryLinks>
@@ -140,7 +140,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Eslizón Wizard^^** amigo totalmente a 18" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Measure the range and visibility of the next **^^Hechizo^^** ability used by this unit this phase from the target instead of from this unit. The target is treated as the caster for the purpose of other abilities or spell effects, such as &apos;Desvincular&apos; or &apos;La tierra tiembla&apos;.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Mide el alcance y la visibilidad de la siguiente habilidad **^^Hechizo^^** que use esta unidad en esta fase desde el objetivo en lugar de desde esta unidad. El objetivo se considera el lanzador a efectos de otras habilidades o efectos de hechizos, como &apos;Desvincular&apos; o &apos;La tierra tiembla&apos;.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1036,7 +1036,7 @@ Suma 1 a la característica de Attacks de las armas **Compañero** de esta unida
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno, cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Eslizón Wizard^^** amigo totalmente a 18" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Measure the range and visibility of the next **^^Hechizo^^** ability used by this unit this phase from the target instead of from this unit. The target is treated as the caster for the purpose of other abilities or spell effects, such as &apos;Desvincular&apos; or &apos;La tierra tiembla&apos;.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Mide el alcance y la visibilidad de la siguiente habilidad **^^Hechizo^^** que use esta unidad en esta fase desde el objetivo en lugar de desde esta unidad. El objetivo se considera el lanzador a efectos de otras habilidades o efectos de hechizos, como &apos;Desvincular&apos; o &apos;La tierra tiembla&apos;.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1354,7 +1354,7 @@ Suma 1 a la característica de Attacks de las armas **Compañero** de esta unida
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">This unit has a coherency range of 2&quot;.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad tiene un alcance de coherencia de 2".</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1958,6 +1958,9 @@ Suma 1 a la característica de Attacks de las armas **Compañero** de esta unida
                     <constraint id="b1d-3ed1-93f8-7e10" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="3159-ed56-e48a-e27e" field="selections" includeChildSelections="true" scope="aeda-8cda-b49c-c295" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="3159-ed56-e48a-e27e" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
                 <entryLink name="Músico" id="b0be-e13-3d67-655" defaultAmount="0,1,0" hidden="false" import="true" targetId="2475-183b-3802-4431" type="selectionEntry">
                   <constraints>
@@ -4785,7 +4788,7 @@ Con un 1, retira del campo de batalla la ficha **Venomites** de esta unidad. Con
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">This unit can use this ability even if it is in reserve. Pick each friendly unit that is **stalking the prey** to be the targets.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Esta unidad puede usar esta habilidad incluso si está en reserva. Elige como objetivos todas las unidades amigas que estén **acechando a la presa**.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Si el resultado supera la característica de Control del objetivo, el objetivo no puede usar órdenes durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>

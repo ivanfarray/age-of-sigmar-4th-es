@@ -1,25 +1,27 @@
-# Estado de la traducción — 23 de septiembre de 2026
+# Estado de la traducción — 25 de septiembre de 2026
 
 ## Sincronización con BSData
 
-Integrado el commit «Gargants / Scroll (#1359)», hasta
-`8836d9f939e93cb2e97a0e7427b7a3304c534fe9` de `BSData/age-of-sigmar-4th/main`.
-Es una revisión mayor de Sons of Behemat: dos catálogos nuevos, **Matriarch's
-Mob** y **Stomper Tribe** (con su propio héroe único, Ma Maegran, unidades,
-mejoras y saber de hechizos), además de warscrolls, armas, artefactos, rasgos
-heroicos y formaciones de batalla nuevos en `Sons of Behemat.cat` y
-`Sons of Behemat - Library.cat`, y dos Regimientos de Renombre pendientes de
-traducir (Krong the Club, además de habilidades sueltas de regimientos ya
-existentes). Los originales coinciden con esa revisión de BSData.
+Integrado mediante merge el commit `d1f97bc9a3c4d65a13add36ed48082866c4e7942`
+de BSData, que corrige Champion de Pyregheists. Sobre esa base se adelantan
+las correcciones oficiales del 23 de septiembre que todavía faltaban en los
+catálogos: puntos, mejoras con coste, refuerzos, opciones de regimiento y reglas.
+Los originales difieren temporalmente de BSData; las diferencias se registran
+en [Erratas pendientes de BSData](docs/erratas-pendientes-upstream.md), con un
+manifiesto y una herramienta para revisar su futura incorporación.
 
-Se han registrado 121 nombres nuevos (unidades, armas, habilidades, hechizos,
-plegarias, artefactos, formaciones, catálogos y secciones de menú — la mayoría
-de Sons of Behemat, el resto sueltos en Cities of Sigmar, Ogor Mawtribes,
-Slaves to Darkness, Regiments of Renown, Lores y el `.gst` general) y
-traducido el texto descriptivo nuevo o modificado en 6 catálogos: `Sons of
-Behemat.cat`, `Sons of Behemat - Library.cat`, los dos catálogos nuevos,
-`Sons of Behemat - King Brodd's Stomp.cat` y `Regiments of Renown.cat` — 220
-cadenas en total, sin dejar ninguna vacía.
+Se han completado también las cadenas descriptivas pendientes de la actualización
+anterior y regenerado los 135 archivos españoles. No quedan cadenas del XML
+traducible sin correspondencia en los diccionarios. Se conservan los IDs de
+BSData existentes; las opciones nuevas utilizan IDs propios hasta reconciliarlas.
+
+### Actualización anterior: 23 de septiembre
+
+Integrado «Gargants / Scroll (#1359)», hasta
+`8836d9f939e93cb2e97a0e7427b7a3304c534fe9`: revisión de Sons of Behemat,
+incluidos Matriarch's Mob, Stomper Tribe y los regimientos de renombre.
+Los originales coincidían entonces con esa revisión. Las cadenas que faltaban
+de aquella actualización quedan cubiertas en la revisión del 25 de septiembre.
 
 ### Actualización anterior: 21 de septiembre
 
@@ -55,13 +57,13 @@ del XML sin entrada de traducción.
 
 ## Cobertura
 
-**Completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús, catálogos y opciones de héroes — incluida la revisión de Sons of Behemat del 23 de septiembre.**
+**Completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús, catálogos y opciones de héroes — incluidas las erratas oficiales del 23 de septiembre.**
 
 - Los 135 JSON de prosa (dos más: los catálogos nuevos de Sons of Behemat) no
   tienen **valores vacíos**.
 - Las **135 parejas de archivos** pasan la verificación completa de texto,
   nombres, estructura XML y atributos técnicos.
-- Pasan las nueve pruebas del generador, incluidos los nombres de habilidades
+- Pasan ocho pruebas de regresión de las erratas y las nueve del generador, incluidos los nombres de habilidades
   en reglas y perfiles y los alias que enlazan catálogos diferentes.
 - Las equivalencias son traducciones de aficionado, no nomenclatura oficial.
 
@@ -99,7 +101,7 @@ Se han añadido 950 nombres nuevos: 935 traducidos y 15
 conservados. Incluye los nombres de catálogos y regimientos, secciones de
 mejoras, saberes, menús de campaña y las opciones del Yunque de la Apoteosis.
 Las nueve pruebas cubren también estas etiquetas y la conservación de enlaces
-y categorías. Las 133 parejas de archivos pasan la verificación completa.
+y categorías. Las 135 parejas de archivos pasan la verificación completa.
 El detalle está en [GLOSARIO-MENUS.md](GLOSARIO-MENUS.md).
 
 Los nombres de categorías, tipos de perfil y características siguen como en
@@ -148,10 +150,10 @@ tras completar y verificar cada ejército.
 | Blades of Khorne.cat | 58 | 0 |
 | Bonesplitterz - Library.cat | 42 | 0 |
 | Bonesplitterz.cat | 25 | 1 |
-| Cities of Sigmar - Allies of the Free Cities.cat | 23 | 1 |
+| Cities of Sigmar - Allies of the Free Cities.cat | 24 | 1 |
 | Cities of Sigmar - Greywater Fastness [LEGENDS].cat | 39 | 0 |
 | Cities of Sigmar - Lethis [LEGENDS.cat | 18 | 0 |
-| Cities of Sigmar - Library.cat | 385 | 2 |
+| Cities of Sigmar - Library.cat | 384 | 2 |
 | Cities of Sigmar - The Duardin Ascendant [LEGENDS].cat | 0 | 0 |
 | Cities of Sigmar - The Iron March.cat | 31 | 0 |
 | Cities of Sigmar.cat | 70 | 0 |
@@ -190,7 +192,7 @@ tras completar y verificar cada ejército.
 | Idoneth Deepkin - Library.cat | 181 | 0 |
 | Idoneth Deepkin - The First Phalanx of Ionrach.cat | 21 | 1 |
 | Idoneth Deepkin - Wardens of the Chorrileum.cat | 17 | 0 |
-| Idoneth Deepkin.cat | 54 | 0 |
+| Idoneth Deepkin.cat | 55 | 0 |
 | Ironjawz - Big Waaagh!.cat | 0 | 0 |
 | Ironjawz - Ironsunz [LEGENDS].cat | 30 | 1 |
 | Ironjawz - Krazogg's Grunta Stampede.cat | 18 | 0 |
@@ -202,15 +204,15 @@ tras completar y verificar cada ejército.
 | Kharadron Overlords - Pioneer Outpost.cat | 22 | 0 |
 | Kharadron Overlords - The Duardin Ascendant [LEGENDS].cat | 0 | 0 |
 | Kharadron Overlords - The Magnate's Crew.cat | 24 | 0 |
-| Kharadron Overlords.cat | 67 | 0 |
+| Kharadron Overlords.cat | 69 | 0 |
 | Kruleboyz - Big Waaagh!.cat | 0 | 0 |
 | Kruleboyz - Library.cat | 172 | 0 |
 | Kruleboyz - Murkvast Menagerie.cat | 12 | 0 |
-| Kruleboyz.cat | 54 | 1 |
+| Kruleboyz.cat | 55 | 1 |
 | Legions of Nagash [LEGENDS].cat | 21 | 0 |
-| Lores.cat | 744 | 0 |
+| Lores.cat | 760 | 0 |
 | Lumineth Realm-lords - Aelementiri Conclave.cat | 17 | 0 |
-| Lumineth Realm-lords - Library.cat | 214 | 0 |
+| Lumineth Realm-lords - Library.cat | 215 | 0 |
 | Lumineth Realm-lords - Vanari Paragons.cat | 21 | 0 |
 | Lumineth Realm-lords.cat | 42 | 0 |
 | Maggotkin of Nurgle - Cycle of Corruption.cat | 15 | 0 |
@@ -221,9 +223,9 @@ tras completar y verificar cada ejército.
 | Nighthaunt - Library.cat | 211 | 0 |
 | Nighthaunt - The Clattering Procession.cat | 16 | 0 |
 | Nighthaunt - The Eternal Nightmare.cat | 11 | 0 |
-| Nighthaunt.cat | 52 | 0 |
+| Nighthaunt.cat | 53 | 0 |
 | Ogor Mawtribes - Beastclaw Alfrostun.cat | 13 | 0 |
-| Ogor Mawtribes - Library.cat | 220 | 0 |
+| Ogor Mawtribes - Library.cat | 221 | 0 |
 | Ogor Mawtribes - Mawseeker Gollop.cat | 22 | 0 |
 | Ogor Mawtribes - Meatfist Mawtribe.cat | 28 | 0 |
 | Ogor Mawtribes - The Roving Maw.cat | 11 | 0 |
@@ -238,27 +240,29 @@ tras completar y verificar cada ejército.
 | Path to Glory - Ascension.cat | 62 | 0 |
 | Path to Glory - Blighted Wilds.cat | 277 | 0 |
 | Path to Glory - Ravaged Coast.cat | 217 | 0 |
-| Regiments of Renown.cat | 335 | 0 |
-| Seraphon - Library.cat | 149 | 0 |
+| Regiments of Renown.cat | 330 | 0 |
+| Seraphon - Library.cat | 150 | 0 |
 | Seraphon.cat | 53 | 0 |
 | Skaven - Library.cat | 290 | 4 |
 | Skaven - Thanquol's Mutated Menagerie.cat | 16 | 0 |
 | Skaven - The Great-grand Gnawhorde.cat | 13 | 0 |
 | Skaven.cat | 61 | 0 |
-| Slaves to Darkness - Legion of the First Prince.cat | 41 | 0 |
-| Slaves to Darkness - Library.cat | 275 | 1 |
+| Slaves to Darkness - Legion of the First Prince.cat | 44 | 0 |
+| Slaves to Darkness - Library.cat | 277 | 1 |
 | Slaves to Darkness - The Swords of Chaos.cat | 15 | 0 |
 | Slaves to Darkness - Tribes of the Snow Peaks.cat | 21 | 0 |
-| Slaves to Darkness.cat | 62 | 0 |
-| Sons of Behemat - King Brodd's Stomp.cat | 20 | 0 |
-| Sons of Behemat - Library.cat | 58 | 0 |
-| Sons of Behemat.cat | 47 | 0 |
+| Slaves to Darkness.cat | 64 | 0 |
+| Sons of Behemat - King Brodd's Stomp.cat | 19 | 0 |
+| Sons of Behemat - Library.cat | 91 | 0 |
+| Sons of Behemat - Matriarch's Mob.cat | 15 | 0 |
+| Sons of Behemat - Stomper Tribe.cat | 27 | 0 |
+| Sons of Behemat.cat | 67 | 0 |
 | Soulblight Gravelords - Barrow Legion.cat | 29 | 0 |
 | Soulblight Gravelords - Knights of the Crimson Keep.cat | 19 | 0 |
 | Soulblight Gravelords - Legions of Nagash [LEGENDS].cat | 0 | 0 |
-| Soulblight Gravelords - Library.cat | 288 | 1 |
-| Soulblight Gravelords - Scions of Nulahmia.cat | 14 | 0 |
-| Soulblight Gravelords.cat | 52 | 0 |
+| Soulblight Gravelords - Library.cat | 289 | 1 |
+| Soulblight Gravelords - Scions of Nulahmia.cat | 16 | 0 |
+| Soulblight Gravelords.cat | 53 | 0 |
 | Stormcast Eternals - Astral Templars.cat | 17 | 0 |
 | Stormcast Eternals - Draconith Skywing.cat | 13 | 0 |
 | Stormcast Eternals - Heroes of the First-Forged.cat | 18 | 0 |

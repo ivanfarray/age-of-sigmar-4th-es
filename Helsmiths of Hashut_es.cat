@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Herreros Infernales de Hashut" id="b7b7-cf58-4189-56ec" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="55" library="false" revision="14" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Herreros Infernales de Hashut" id="b7b7-cf58-4189-56ec" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="55" library="false" revision="15" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="Herreros Infernales de Hashut - Biblioteca" id="8490-04c0-27e7-8d15" targetId="2c07-f0f9-8601-d082" type="catalogue"/>
     <catalogueLink name="✦ Sendero a la Gloria - Ascensión" id="2cab-e54e-6f5e-7ada" importRootEntries="true" targetId="3a8b-7496-526f-feab" type="catalogue"/>
@@ -33,6 +33,12 @@
                   <conditions>
                     <condition childId="85da-fb9a-ecd4-e0d5" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                     <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="efee-f602-e493-0f61" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
                   </conditions>
                 </localConditionGroup>
               </localConditionGroups>
@@ -136,7 +142,7 @@
     </entryLink>
     <entryLink name="Herrero demoníaco en toro infernal" id="85da-fb9a-ecd4-e0d5" hidden="false" import="true" targetId="519c-5d32-603a-2fb3" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="290"/>
+        <cost name="pts" typeId="points" value="270"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="6258-647e-fa5d-561a" hidden="false" import="true" targetId="e1aa-ddf7-7018-c6c2" type="selectionEntryGroup"/>
@@ -317,6 +323,17 @@
             <modifier affects="self.entries.recursive.efe4-8ae8-3397-533d" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+
+          <modifiers>
+            <modifier field="category" type="add" value="efe4-8ae8-3397-533d"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -326,6 +343,7 @@
                 <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -365,6 +383,17 @@
             <modifier affects="self.entries.recursive.efe4-8ae8-3397-533d" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+
+          <modifiers>
+            <modifier field="category" type="add" value="efe4-8ae8-3397-533d"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -374,6 +403,7 @@
                 <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -644,7 +674,7 @@
     </entryLink>
     <entryLink name="Máquina dominadora con mazas de perdición" id="b892-6067-b554-5bbe" hidden="false" import="true" targetId="c3d1-b2bd-e8d8-d171" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="150"/>
+        <cost name="pts" typeId="points" value="140"/>
       </costs>
       <entryLinks>
         <entryLink name="Renombre" id="b5da-ab6d-d771-556a" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
@@ -672,7 +702,7 @@
     </entryLink>
     <entryLink name="Máquina dominadora con cañones de inmolación" id="0760-d077-48e8-5b79" hidden="false" import="true" targetId="9c89-4ec9-71db-0026" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="160"/>
+        <cost name="pts" typeId="points" value="150"/>
       </costs>
       <entryLinks>
         <entryLink name="Renombre" id="eded-9808-6f9d-ca98" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
@@ -1207,7 +1237,7 @@ Si esta unidad es un **^^Wizard^^**, hasta el inicio de tu siguiente turno:
               </attributes>
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time a friendly **^^Herreros Infernales de Hashut^^** unit within the combat range of a friendly **^^Herreros Infernales de Hashut Infantry^^** unit with 1 or more **daemonic power points** uses the &apos;Reagrupamiento&apos; command, you can make 3 additional rally rolls of D6.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que una unidad amiga **^^Herreros Infernales de Hashut^^** dentro del alcance de combate de una unidad amiga **^^Herreros Infernales de Hashut Infantry^^** con 1 o más **puntos de poder demoníaco** use la orden &apos;Reagrupamiento&apos;, puedes hacer 3 tiradas de reagrupamiento adicionales de D6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1225,7 +1255,7 @@ Si esta unidad es un **^^Wizard^^**, hasta el inicio de tu siguiente turno:
               </attributes>
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ranged weapons used by friendly **^^Herreros Infernales de Hashut^^** units have **Crítico (2 impactos)** while they have 2 or more **daemonic power points**.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Las armas a distancia de las unidades amigas **^^Herreros Infernales de Hashut^^** tienen **Crítico (2 impactos)** mientras dichas unidades tengan 2 o más **puntos de poder demoníaco**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1243,7 +1273,7 @@ Si esta unidad es un **^^Wizard^^**, hasta el inicio de tu siguiente turno:
               </attributes>
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añadir 1" to the Move characteristic of friendly **^^Herreros Infernales de Hashut^^** units for each **daemonic power point** that unit has.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1" a la característica de Move de las unidades amigas **^^Herreros Infernales de Hashut^^** por cada **punto de poder demoníaco** que tenga esa unidad.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1261,7 +1291,7 @@ Si esta unidad es un **^^Wizard^^**, hasta el inicio de tu siguiente turno:
               </attributes>
               <characteristics>
                 <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Añadir 1 to casting rolls, chanting rolls, unbinding rolls, and banishment rolls for friendly **^^Herreros Infernales de Hashut Wizards^^** and **^^Priests^^** while they are wholly within 12" of another friendly **^^Herreros Infernales de Hashut Wizard^^** or **^^Priest^^** with 1 or more **daemonic power points**.</characteristic>
+                <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de lanzamiento, cántico, desvinculación y destierro de los **^^Herreros Infernales de Hashut Wizards^^** y **^^Priests^^** amigos mientras estén totalmente a 12" o menos de otro **^^Herreros Infernales de Hashut Wizard^^** o **^^Priest^^** amigo con 1 o más **puntos de poder demoníaco**.</characteristic>
               </characteristics>
             </profile>
           </profiles>

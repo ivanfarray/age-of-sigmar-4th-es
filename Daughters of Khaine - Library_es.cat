@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Hijas de Khaine - Biblioteca" id="37ab-3336-3e89-c608" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="34" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Hijas de Khaine - Biblioteca" id="37ab-3336-3e89-c608" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="35" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry name="Reina bruja" id="4443-5875-af71-96a4" hidden="false" import="true" publicationId="df1f-ba81-775f-acfd" type="unit">
       <categoryLinks>
@@ -1323,6 +1323,9 @@ Los ataques de combate de esta unidad cuyo objetivo sea una unidad enemiga **con
                     <constraint id="74b3-2ca1-88de-5f9c" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="60a2-a6dc-e1e1-b155" field="selections" includeChildSelections="true" scope="ab64-d97a-ac5e-a8b4" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="60a2-a6dc-e1e1-b155" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -5106,8 +5109,8 @@ Además, haz los siguientes cambios en el pergamino de tu héroe:
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), final de cualquier turno</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad no está en combate, elige como objetivo un **^^Hero^^** enemigo **^^Infantry^^** o **^^Cavalry^^** visible que no tenga más de 1 miniatura y esté a 12" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If the target is more than 3&quot; from all other enemy units, apply the effect below. Otherwise, roll a dice. On a 3+, apply the effect below. 
-Your opponent must remove the target from the battlefield and set it up again in combat with this unit.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si el objetivo está a más de 3" de todas las demás unidades enemigas, aplica el efecto siguiente. En caso contrario, tira un dado. Con un 3+, aplica el efecto siguiente.
+Tu oponente debe retirar el objetivo del campo de batalla y volver a colocarlo en combate con esta unidad.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>

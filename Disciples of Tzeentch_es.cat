@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Discípulos de Tzeentch" id="d731-9058-b0e5-6ff5" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="39" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Discípulos de Tzeentch" id="d731-9058-b0e5-6ff5" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="40" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="Discípulos de Tzeentch - Biblioteca" id="61ad-3d4e-f82-7dfb" targetId="bb28-eb3d-b408-7bb8" type="catalogue"/>
     <catalogueLink name="✦ Sendero a la Gloria - Costa Devastada" id="d449-4709-6d8f-5ce0" importRootEntries="true" targetId="a434-b1ba-922b-7624" type="catalogue"/>
@@ -53,6 +53,12 @@
                     <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                   </conditions>
                 </localConditionGroup>
+                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="76e8-52c1-d788-32d4" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
               </localConditionGroups>
             </conditionGroup>
           </conditionGroups>
@@ -92,6 +98,12 @@
                     <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                   </conditions>
                 </localConditionGroup>
+                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="ed5c-ffea-aaf3-acc2" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
               </localConditionGroups>
             </conditionGroup>
           </conditionGroups>
@@ -102,7 +114,7 @@
   <entryLinks>
     <entryLink name="Invocador del cambio, Heraldo de Tzeentch" id="5d3a-467f-76b-bf94" hidden="false" import="true" targetId="f83d-1a6a-a9-bb54" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="140"/>
+        <cost name="pts" typeId="points" value="130"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="3cb4-e03e-ec39-ef8f" hidden="false" import="true" targetId="8c6b-90ae-6131-afe" type="selectionEntryGroup"/>
@@ -227,7 +239,7 @@
     </entryLink>
     <entryLink name="Surcador del destino, Heraldo de Tzeentch en carro ardiente" id="4c3a-1d7d-6d7e-24f0" hidden="false" import="true" targetId="99f-d096-7c77-a7f" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="140"/>
+        <cost name="pts" typeId="points" value="150"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="2188-2e9d-3bc1-ce13" hidden="false" import="true" targetId="8c6b-90ae-6131-afe" type="selectionEntryGroup"/>
@@ -275,7 +287,7 @@
     </entryLink>
     <entryLink name="Invocador demacrado" id="76e8-52c1-d788-32d4" hidden="false" import="true" targetId="eae6-5b5d-5057-d94b" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="180"/>
+        <cost name="pts" typeId="points" value="160"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="e749-c02a-23da-5d3d" hidden="false" import="true" targetId="8c6b-90ae-6131-afe" type="selectionEntryGroup"/>
@@ -323,7 +335,7 @@
     </entryLink>
     <entryLink name="Invocador demacrado en disco de Tzeentch" id="572b-75e3-a607-a08e" hidden="false" import="true" targetId="2be4-1886-121b-9f10" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="210"/>
+        <cost name="pts" typeId="points" value="190"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="9581-95e3-c8b9-8f66" hidden="false" import="true" targetId="8c6b-90ae-6131-afe" type="selectionEntryGroup"/>
@@ -572,7 +584,7 @@
     </entryLink>
     <entryLink name="Taumaturgo ogroide" id="2301-a04e-88f0-9c7c" hidden="false" import="true" targetId="a004-88b6-b2eb-5879" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="110"/>
+        <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="c8ce-bf85-4a17-a949" hidden="false" import="true" targetId="8c6b-90ae-6131-afe" type="selectionEntryGroup"/>
@@ -773,6 +785,17 @@
             <modifier affects="self.entries.recursive.a54f-fb42-b918-1468" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+
+          <modifiers>
+            <modifier field="category" type="add" value="a54f-fb42-b918-1468"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <modifiers>
         <modifier field="category" scope="root-entry" type="set-primary" value="d1f3-921c-b403-1106">
@@ -792,6 +815,7 @@
                 <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -834,7 +858,7 @@
     </entryLink>
     <entryLink name="Carro ardiente de Tzeentch" id="746a-8ba2-2a6b-3a95" hidden="false" import="true" targetId="6521-3929-9006-d830" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="130"/>
       </costs>
       <entryLinks>
         <entryLink name="Sendas" id="92f9-11d0-b3b2-b53f" hidden="false" import="true" targetId="3fea-aadd-11d7-023d" type="selectionEntryGroup"/>
@@ -918,7 +942,7 @@
     </entryLink>
     <entryLink name="Incinerador exaltado de Tzeentch" id="f304-1a86-11cb-e4bf" hidden="false" import="true" targetId="92ca-fe8b-73fd-6ff2" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
         <entryLink name="Sendas" id="3a5c-1947-b041-e21c" hidden="false" import="true" targetId="3fea-aadd-11d7-023d" type="selectionEntryGroup"/>
@@ -978,6 +1002,7 @@
         <cost name="pts" typeId="points" value="100"/>
       </costs>
       <entryLinks>
+        <entryLink name="Reforzado" id="0880-48d9-3f01-5999" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
         <entryLink name="Sendas" id="165c-e4c1-210d-8b9d" hidden="false" import="true" targetId="3fea-aadd-11d7-023d" type="selectionEntryGroup"/>
         <entryLink name="Heridas de batalla + cicatrices" id="1ddf-a6a8-7788-1f87" hidden="false" import="true" targetId="9f62-724e-720d-87ff" type="selectionEntryGroup"/>
         <entryLink name="Renombre" id="3ad1-1e01-bd1b-6d9b" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
@@ -1060,7 +1085,7 @@
     </entryLink>
     <entryLink name="Aulladores de Tzeentch (Azote de Aqshy)" id="24f7-e75f-f7b8-e789" hidden="false" import="true" targetId="5233-845a-6cb5-5ff7" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="110"/>
+        <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
         <entryLink name="Reforzado" id="fe4f-a325-ef17-7739" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -1816,13 +1841,13 @@ Las unidades amigas que estén **enmascaradas por ilusión** son destruidas al f
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">You start the battle with 0 **fate points**, Gain 1 **fate point** each time:
-• You lose the priority toll.
-• A spell cast by a friendly **^^Discípulos de Tzeentch^^** unit is unbound.
-• A friendly **^^Discípulos de Tzeentch^^** unit miscasts a spell.
-• Your opponent gains control of an objective that you controlled at the start of the turn.
-• A friendly **Fragmento argénteo** is **demolished**.
-You can have a maximum of 9 **fate points**.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Comienzas la batalla con 0 **puntos de destino**. Obtienes 1 **punto de destino** cada vez que:
+• Pierdes la tirada de prioridad.
+• Se desvincula un hechizo lanzado por una unidad amiga **^^Discípulos de Tzeentch^^**.
+• Una unidad amiga **^^Discípulos de Tzeentch^^** comete una disfunción mágica al lanzar un hechizo.
+• Tu oponente obtiene el control de un objetivo que controlabas al inicio del turno.
+• Un **Fragmento argénteo** amigo es **demolido**.
+Puedes tener un máximo de 9 **puntos de destino**.</characteristic>
           </characteristics>
         </profile>
         <profile name="Humo y espejos" id="cebd-703c-bccb-a5c3" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
@@ -1833,7 +1858,7 @@ You can have a maximum of 9 **fate points**.</characteristic>
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de héroe</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly non-**^^Monster Discípulos de Tzeentch^^** unit that was not set up on the battlefield this turn and was not set up on the battlefield using this ability in the previous turn to be the target, then pick a friendly unit that is **masked by illusion** to be the substitute.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Discípulos de Tzeentch^^** que no sea **^^Monster^^**, que no haya sido colocada en el campo de batalla este turno y que no haya sido colocada en el campo de batalla mediante esta habilidad en el turno anterior. Después, elige como sustituta una unidad amiga **enmascarada por ilusión**.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca al sustituto totalmente a 6" o menos del objetivo y sin estar en combate. Después, retira al objetivo del campo de batalla y colócalo en reserva **enmascarado por ilusión**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -2419,6 +2444,9 @@ Si retiras 1 o más puntos de daño de la reserva de daño de una unidad amiga *
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+              </costs>
             </selectionEntry>
             <selectionEntry name="Gran ilusionista" id="cc3a-4581-ff63-e6ec" hidden="false" import="true" type="upgrade">
               <constraints>

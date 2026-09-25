@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Noctánimas - Biblioteca" id="4ac4-565f-a06e-893" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="64" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Noctánimas - Biblioteca" id="4ac4-565f-a06e-893" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="65" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry name="Nagash, Señor Supremo de los No Muertos" id="fb77-fec9-42ed-a7fd" hidden="false" import="true" type="unit">
       <categoryLinks>
@@ -1372,7 +1372,7 @@ Si elegiste una unidad enemiga, tira un dado. Con un 3+, inflige 1 de daño mort
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga visible a 18" o menos de esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, inflict 1 mortal damage on the target and the target has the **^^Sentenced^^** keyword for the rest of the battle.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, inflige 1 punto de daño mortal al objetivo y este obtiene la clave **^^Sentenced^^** durante el resto de la batalla.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1451,7 +1451,7 @@ Si elegiste una unidad enemiga, tira un dado. Con un 3+, inflige 1 de daño mort
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Once Per Turn (Army)</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército)</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad está disputando un objetivo, elige como objetivo una unidad enemiga visible a 6" o menos de esta unidad.</characteristic>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un D3. Con un 2+:
 • Inflige al objetivo una cantidad de daño mortal igual al resultado.
@@ -1536,13 +1536,6 @@ Si elegiste una unidad enemiga, tira un dado. Con un 3+, inflige 1 de daño mort
                     <constraint id="a56c-354a-7ab0-9d5" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="6d7-a22d-dfe0-c214" field="selections" includeChildSelections="true" scope="5f08-4648-c0e8-e7d9" shared="true" type="max" value="1"/>
                   </constraints>
-                  <modifiers>
-                    <modifier field="6d7-a22d-dfe0-c214" type="increment" value="1">
-                      <repeats>
-                        <repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -3836,14 +3829,14 @@ Cobertura, Infranqueable**</description>
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de disparo</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick an enemy unit within 10&quot; of this unit to be the target.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">If this unit&apos;s shooting attacks inflicted damage on the target this turn, apply 1 of the following effects. Otherwise, roll a dice. On a 3+, apply 1 of the following effects:
-***Disolvente fantasmal:*** If the target has a Move characteristic of &apos;-&apos;, inflict 6 mortal damage on the target.
-***Vaho ácido:*** Inflict D3 daño mortal on the target.
-***Corrosive Mist:*** Inflict 1 mortal damage on each enemy unit within the target&apos;s combat range.
-***Vapores asfixiantes:*** If the target is a **^^Wizard^^**, subtract 1 from its power level until the start of your next turn.
-***Alucinógeno imbuido de miedo:*** If the target is a **^^Priest^^**, remove D3 ritual points from it.
-***Prescripción impía:*** Ward rolls cannot be made for the target for the rest of the turn.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga a 10" o menos de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si los ataques de disparo de esta unidad infligieron daño al objetivo este turno, aplica uno de los siguientes efectos. En caso contrario, tira un dado. Con un 3+, aplica uno de los siguientes efectos:
+***Disolvente fantasmal:*** Si el objetivo tiene una característica de Move de &apos;-&apos;, inflígele 6 puntos de daño mortal.
+***Vaho ácido:*** Inflige D3 puntos de daño mortal al objetivo.
+***Niebla corrosiva:*** Inflige 1 punto de daño mortal a cada unidad enemiga dentro del alcance de combate del objetivo.
+***Vapores asfixiantes:*** Si el objetivo es **^^Wizard^^**, resta 1 a su nivel de poder hasta el inicio de tu siguiente turno.
+***Alucinógeno impregnado de miedo:*** Si el objetivo es **^^Priest^^**, retírale D3 puntos de ritual.
+***Receta impía:*** No se pueden hacer tiradas de salvaguardia por el objetivo durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>

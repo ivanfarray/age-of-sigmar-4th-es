@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Esclavos de la Oscuridad - Biblioteca" id="c580-f07a-aa35-f79f" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="54" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Esclavos de la Oscuridad - Biblioteca" id="c580-f07a-aa35-f79f" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="55" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry name="PLEDGED TO NURGLE" id="7ba1-3e7c-7e0e-4b0a" hidden="false"/>
     <categoryEntry name="PLEDGED TO SLAANESH" id="7895-acb2-145e-3e72" hidden="false"/>
@@ -1690,8 +1690,8 @@
           </attributes>
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
-            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad **^^Warriors of Chaos^^** amiga totalmente a 12" o menos de esta unidad como blanco y tira un dado.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Con un 3+, el blanco tiene **^^Ward (5+)^^** hasta el inicio de tu próximo turno.</characteristic>
+            <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad amiga **^^Warriors of Chaos^^** totalmente a 12" o menos de esta unidad.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad ha lanzado con éxito un hechizo esta fase, el objetivo tiene **^^Ward (5+)^^** hasta el inicio de tu siguiente turno. En caso contrario, el objetivo tiene **^^Ward (6+)^^** hasta el inicio de tu siguiente turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1761,7 +1761,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un objetivo que esté disputando esta unidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Roll a dice. On a 3+, for the rest of the turn, friendly **^^Darkoath^^** units have **^^Ward (5+)^^** while they are contesting that objective.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, durante el resto del turno, las unidades amigas **^^Darkoath^^** tienen **^^Ward (5+)^^** mientras disputen ese objetivo.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -4381,10 +4381,10 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Until the start of your next turn, the following cumulative effects apply depending on your **fury level**.
-**1+ Irritado:** This unit has **^^Ward (6+)^^**.
-**4+ Furioso:** This unit&apos;s melee weapons have **Anti-charge (+1 Rend)**.
-**7 Enfurecido:** This unit has **^^Strike-first^^** while it has not charged in the same turn.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Hasta el inicio de tu siguiente turno, se aplican los siguientes efectos acumulativos en función de tu **nivel de furia**.
+**1+ Irritado:** Esta unidad tiene **^^Ward (6+)^^**.
+**4+ Furioso:** Las armas de combate de esta unidad tienen **Anti-charge (+1 Rend)**.
+**7 Enfurecido:** Esta unidad tiene **^^Strike-first^^** mientras no haya cargado en el mismo turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -4521,7 +4521,7 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking model, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the **^^Combatir^^** ability has been resolved.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que un ataque de combate elimine una miniatura de esta unidad y esa miniatura estuviera trabada en combate con la miniatura atacante, tira un dado. Con un 5+, inflige 1 punto de daño mortal a la unidad atacante tras resolver la habilidad **^^Combatir^^**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5428,6 +5428,9 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
                     <constraint id="dcd0-c83c-8d60-ca6f" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="6c07-ca7f-ff2f-d68d" field="selections" includeChildSelections="true" scope="4146-b722-ff22-610d" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="6c07-ca7f-ff2f-d68d" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -5567,6 +5570,9 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
                     <constraint id="f989-bd38-a748-8e23" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="127a-4c02-53e3-dd2f" field="selections" includeChildSelections="true" scope="b5e1-1ff0-d451-335e" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="127a-4c02-53e3-dd2f" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -5703,6 +5709,9 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
                     <constraint id="ae72-688c-f0ed-9bb1" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="0568-8b83-4f20-8168" field="selections" includeChildSelections="true" scope="5a21-301b-7e70-62fd" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="0568-8b83-4f20-8168" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -5836,6 +5845,9 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
                     <constraint id="fb8f-7701-ec90-4a13" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="25d4-d17e-e5ba-9303" field="selections" includeChildSelections="true" scope="9a4c-e68d-108d-98f5" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="25d4-d17e-e5ba-9303" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
                 <entryLink name="Portaestandarte" id="e421-7e64-a2b7-0a84" defaultAmount="0,1,0" hidden="false" import="true" targetId="7f34-77c9-597-62c3" type="selectionEntry">
                   <constraints>
@@ -6026,6 +6038,9 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
                     <constraint id="1511-6750-7691-b788" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="07e8-6c0e-c9c2-ed05" field="selections" includeChildSelections="true" scope="78f8-9ac5-641f-8b5c" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="07e8-6c0e-c9c2-ed05" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -6148,6 +6163,9 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
                     <constraint id="6b56-8101-15ea-b634" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="d143-fa80-07ca-e4d5" field="selections" includeChildSelections="true" scope="cc95-e171-14b9-002f" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="d143-fa80-07ca-e4d5" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -6251,6 +6269,9 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
                     <constraint id="ed1d-4279-6874-2343" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="3032-0e0a-7322-50c7" field="selections" includeChildSelections="true" scope="62a3-63bf-2306-e2a2" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="3032-0e0a-7322-50c7" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -6376,6 +6397,9 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
                     <constraint id="ee11-d0e2-9fec-8ae8" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="231c-e19c-fb41-079b" field="selections" includeChildSelections="true" scope="066a-b04a-44ea-fca2" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="231c-e19c-fb41-079b" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -6565,6 +6589,9 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
                     <constraint id="f4b0-c618-0f18-2448" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="d787-3df5-01ce-5636" field="selections" includeChildSelections="true" scope="6aef-12ed-3dc9-2c83" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="d787-3df5-01ce-5636" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -6686,6 +6713,9 @@ Add 1 to the Attacks characteristic of this unit&apos;s Rune-etched Weapons wh
                     <constraint id="2b9e-773d-0c52-a476" field="selections" scope="parent" shared="true" type="max" value="1"/>
                     <constraint id="c2db-b916-1a10-f797" field="selections" includeChildSelections="true" scope="056b-6839-dc2f-46db" shared="true" type="max" value="1"/>
                   </constraints>
+                  <modifiers>
+                    <modifier field="c2db-b916-1a10-f797" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>

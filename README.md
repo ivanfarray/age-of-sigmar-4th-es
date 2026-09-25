@@ -74,10 +74,11 @@ published under a permissive license, so it cannot be relicensed here.*
 | [`TRADUCIR.md`](TRADUCIR.md) | **cómo colaborar en la traducción** |
 | [`ACTUALIZAR-DESDE-BSDATA.md`](ACTUALIZAR-DESDE-BSDATA.md) | **cómo incorporar novedades de BSData y traducirlas paso a paso** |
 
-Estado a 21 de septiembre de 2026: **completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús y catálogos**. Sincronizado con BSData hasta `d989a15`, incluida la reorganización del XML del día 18.
+Estado a 25 de septiembre de 2026: **completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús y catálogos**. Integrado BSData hasta `d1f97bc`; las correcciones oficiales adelantadas se documentan en [Erratas pendientes de BSData](docs/erratas-pendientes-upstream.md).
 
-Hay 133 parejas de archivos generadas y verificadas. Los JSON contienen 9.875
-entradas resueltas y ningún valor vacío. También se han traducido las claves,
+Hay 135 parejas de archivos generadas y verificadas. Los diccionarios cubren las
+9.986 entradas descriptivas actuales sin valores vacíos ni cadenas pendientes.
+También se han traducido las claves,
 habilidades de arma e ingredientes que antes se conservaban en inglés. Las
 cifras, medidas y nombres propios sin traducción mantienen su escritura.
 

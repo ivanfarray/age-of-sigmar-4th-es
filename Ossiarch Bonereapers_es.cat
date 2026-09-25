@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Cosechahuesos Ossiarch" id="8e0e-5e8c-5824-89c9" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="1" library="false" revision="37" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Cosechahuesos Ossiarch" id="8e0e-5e8c-5824-89c9" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="1" library="false" revision="38" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="Cosechahuesos Ossiarch - Biblioteca" id="4daa-8223-e0d0-6835" targetId="3521-1b3c-7fd9-838b" type="catalogue"/>
     <catalogueLink name="✦ Sendero a la Gloria - Costa Devastada" id="206f-816c-89c8-a5f0" importRootEntries="true" targetId="a434-b1ba-922b-7624" type="catalogue"/>
@@ -53,11 +53,80 @@
         </modifier>
       </modifiers>
     </categoryEntry>
+    <categoryEntry name="Mortisan Vizier" id="8589-4849-a8f3-5768" hidden="false">
+      <constraints>
+        <constraint id="46df-c71b-342b-5972" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="0"/>
+      </constraints>
+      <modifiers>
+        <modifier field="46df-c71b-342b-5972" type="set" value="1">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="f251-90be-5e0d-e76e" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="d622-6a8f-a4-9f14" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="4587-ae29-90ef-4bbb" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="dbe5-2c39-2d83-5bde" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="e6df-ec72-ecd3-2f9e" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="55e5-ac0b-2832-64ef" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="c3eb-a11c-f7fa-2cfb" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="b55b-62e8-e8fe-88c7" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="a5ed-63c2-c475-a876" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+    </categoryEntry>
   </categoryEntries>
   <entryLinks>
     <entryLink name="Guardia mortek" id="601-456a-a47d-2036" hidden="false" import="true" targetId="10d1-4f28-db72-1eb9" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="110"/>
+        <cost name="pts" typeId="points" value="100"/>
       </costs>
       <entryLinks>
         <entryLink name="Reforzado" id="86c5-1b78-1a77-6e28" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -89,6 +158,7 @@
         <cost name="pts" typeId="points" value="90"/>
       </costs>
       <entryLinks>
+        <entryLink name="Reforzado" id="70e9-7b69-ca4b-5757" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
         <entryLink name="Sendas" id="cfd2-1a43-ed80-ecfb" hidden="false" import="true" targetId="70cc-ca33-377e-3078" type="selectionEntryGroup"/>
         <entryLink name="Heridas de batalla + cicatrices" id="a447-7fb6-8d24-7398" collapsible="false" hidden="false" import="true" targetId="6fa6-ec1d-cf81-982d" type="selectionEntryGroup"/>
         <entryLink name="Renombre" id="9f29-bfc5-e970-ed79" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
@@ -122,7 +192,7 @@
         <constraint id="ca97-ade5-2621-0cb7" field="selections" scope="parent" shared="true" type="max" value="-1"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="200"/>
+        <cost name="pts" typeId="points" value="180"/>
       </costs>
       <entryLinks>
         <entryLink name="Sendas" id="a6d4-3829-8479-05f2" hidden="false" import="true" targetId="70cc-ca33-377e-3078" type="selectionEntryGroup"/>
@@ -165,7 +235,7 @@
     </entryLink>
     <entryLink name="Guardia Immortis" id="537d-263-412a-f179" hidden="false" import="true" targetId="c1b9-f148-7fe4-8660" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="170"/>
+        <cost name="pts" typeId="points" value="150"/>
       </costs>
       <entryLinks>
         <entryLink name="Reforzado" id="f4dc-c0f9-b226-fe25" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -194,7 +264,7 @@
     </entryLink>
     <entryLink name="Jinetes de la muerte kavalos" id="1088-5501-f3eb-474a" hidden="false" import="true" targetId="efaa-2ff1-8-5f4b" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="150"/>
+        <cost name="pts" typeId="points" value="160"/>
       </costs>
       <entryLinks>
         <entryLink name="Reforzado" id="2375-d148-ce49-6045" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -223,7 +293,7 @@
     </entryLink>
     <entryLink name="Morghast archai" id="261c-c38d-560f-5e97" hidden="false" import="true" targetId="5876-caac-a544-1e4f" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="250"/>
+        <cost name="pts" typeId="points" value="240"/>
       </costs>
       <entryLinks>
         <entryLink name="Reforzado" id="1765-e1dc-7a36-1945" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -252,7 +322,7 @@
     </entryLink>
     <entryLink name="Heraldos morghast" id="b29b-b55b-b127-9e92" hidden="false" import="true" targetId="16b9-87fe-ea6d-c02c" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="240"/>
+        <cost name="pts" typeId="points" value="230"/>
       </costs>
       <entryLinks>
         <entryLink name="Reforzado" id="4f47-1ae2-fb4d-ac0c" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -323,7 +393,7 @@
     </entryLink>
     <entryLink name="Acechadores de la necrópolis" id="1133-5a8b-9aae-d0f8" hidden="false" import="true" targetId="e1b8-41f5-87ac-9333" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="130"/>
+        <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
         <entryLink name="Reforzado" id="250a-7a7-ef1b-d765" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -378,6 +448,7 @@
           </conditions>
           <modifiers>
             <modifier affects="self.entries.recursive.5603-d1-a021-331e" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.8589-4849-a8f3-5768" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -408,7 +479,7 @@
     </entryLink>
     <entryLink name="Arkhan el Negro, Mortarca del Sacramento" id="d622-6a8f-a4-9f14" hidden="false" import="true" targetId="6652-19e0-6044-62e8" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="440"/>
+        <cost name="pts" typeId="points" value="430"/>
       </costs>
       <entryLinks>
         <entryLink name="Heridas de batalla + cicatrices" id="95a9-0a7a-d4bf-f408" collapsible="false" hidden="false" import="true" targetId="6fa6-ec1d-cf81-982d" type="selectionEntryGroup"/>
@@ -421,6 +492,7 @@
           <modifiers>
             <modifier affects="self.entries.recursive.5603-d1-a021-331e" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.3de6-af42-827a-8af5" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
+            <modifier affects="self.entries.recursive.8589-4849-a8f3-5768" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -450,7 +522,7 @@
     </entryLink>
     <entryLink name="Katakros, Mortarca de la Necrópolis" id="4587-ae29-90ef-4bbb" hidden="false" import="true" targetId="9294-b53c-e996-198c" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="470"/>
+        <cost name="pts" typeId="points" value="450"/>
       </costs>
       <entryLinks>
         <entryLink name="Heridas de batalla + cicatrices" id="bab2-a253-e105-b1d3" collapsible="false" hidden="false" import="true" targetId="6fa6-ec1d-cf81-982d" type="selectionEntryGroup"/>
@@ -463,6 +535,7 @@
           <modifiers>
             <modifier affects="self.entries.recursive.5603-d1-a021-331e" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.3de6-af42-827a-8af5" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
+            <modifier affects="self.entries.recursive.8589-4849-a8f3-5768" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -525,6 +598,7 @@
           </conditions>
           <modifiers>
             <modifier affects="self.entries.recursive.5603-d1-a021-331e" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.8589-4849-a8f3-5768" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -545,7 +619,7 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                    <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -561,7 +635,7 @@
     </entryLink>
     <entryLink name="Nagash, Señor Supremo de los No Muertos" id="c3eb-a11c-f7fa-2cfb" hidden="false" import="true" targetId="aeef-a74c-9eec-5169" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="830"/>
+        <cost name="pts" typeId="points" value="790"/>
       </costs>
       <entryLinks>
         <entryLink name="Heridas de batalla + cicatrices" id="7445-9be2-be28-f2e5" collapsible="false" hidden="false" import="true" targetId="6fa6-ec1d-cf81-982d" type="selectionEntryGroup"/>
@@ -574,6 +648,7 @@
           <modifiers>
             <modifier affects="self.entries.recursive.5603-d1-a021-331e" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.3de6-af42-827a-8af5" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
+            <modifier affects="self.entries.recursive.8589-4849-a8f3-5768" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -616,6 +691,7 @@
           <modifiers>
             <modifier affects="self.entries.recursive.5603-d1-a021-331e" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.3de6-af42-827a-8af5" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
+            <modifier affects="self.entries.recursive.8589-4849-a8f3-5768" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -658,6 +734,7 @@
           <modifiers>
             <modifier affects="self.entries.recursive.5603-d1-a021-331e" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.3de6-af42-827a-8af5" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
+            <modifier affects="self.entries.recursive.8589-4849-a8f3-5768" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -708,6 +785,17 @@
             <modifier affects="self.entries.recursive.1ae2-1b6e-d767-b8de" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+
+          <modifiers>
+            <modifier field="category" type="add" value="8589-4849-a8f3-5768"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -717,6 +805,7 @@
                 <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -757,6 +846,17 @@
             <modifier affects="self.entries.recursive.1ae2-1b6e-d767-b8de" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+
+          <modifiers>
+            <modifier field="category" type="add" value="8589-4849-a8f3-5768"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -766,6 +866,7 @@
                 <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -805,6 +906,17 @@
             <modifier affects="self.entries.recursive.1ae2-1b6e-d767-b8de" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+
+          <modifiers>
+            <modifier field="category" type="add" value="8589-4849-a8f3-5768"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -814,6 +926,7 @@
                 <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -832,7 +945,7 @@
     </entryLink>
     <entryLink name="Segador de almas mortisano" id="7d72-d40d-1de4-8de1" hidden="false" import="true" targetId="647a-dcd6-b2d8-642b" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <entryLinks>
         <entryLink name="Artefactos de poder" id="6bd7-449e-8f96-bde5" hidden="false" import="true" targetId="e875-609a-cd77-31e3" type="selectionEntryGroup"/>
@@ -853,6 +966,17 @@
             <modifier affects="self.entries.recursive.1ae2-1b6e-d767-b8de" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+          </conditions>
+
+          <modifiers>
+            <modifier field="category" type="add" value="8589-4849-a8f3-5768"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
       <modifiers>
         <modifier field="hidden" type="set" value="true">
@@ -862,6 +986,7 @@
                 <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -987,7 +1112,7 @@
     </entryLink>
     <entryLink name="Señor kavalos en carro de guerra" id="e6df-ec72-ecd3-2f9e" collapsible="false" hidden="false" import="true" targetId="81d0-9a4a-fb83-8626" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="210"/>
+        <cost name="pts" typeId="points" value="180"/>
       </costs>
       <entryLinks>
         <entryLink name="Artefactos de poder" id="6fc1-309a-fbc8-b09b" hidden="false" import="true" targetId="e875-609a-cd77-31e3" type="selectionEntryGroup"/>
@@ -1020,6 +1145,7 @@
           </conditions>
           <modifiers>
             <modifier affects="self.entries.recursive.5603-d1-a021-331e" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.8589-4849-a8f3-5768" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -1040,7 +1166,7 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                    <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1089,6 +1215,7 @@
           </conditions>
           <modifiers>
             <modifier affects="self.entries.recursive.5603-d1-a021-331e" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+            <modifier affects="self.entries.recursive.8589-4849-a8f3-5768" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -1109,7 +1236,7 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                    <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1125,7 +1252,7 @@
     </entryLink>
     <entryLink name="Carro de guerra kavalos" id="dd98-bd56-5896-0dca" hidden="false" import="true" targetId="322d-d9f2-cdc6-64e6" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="150"/>
+        <cost name="pts" typeId="points" value="140"/>
       </costs>
       <entryLinks>
         <entryLink name="Sendas" id="c78f-982d-6de0-4b51" hidden="false" import="true" targetId="70cc-ca33-377e-3078" type="selectionEntryGroup"/>
@@ -1211,7 +1338,7 @@
     </entryLink>
     <entryLink name="Triaxes mortek" id="27cc-d92f-7164-e072" hidden="false" import="true" targetId="5809-fc53-2b72-a16f" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="140"/>
+        <cost name="pts" typeId="points" value="130"/>
       </costs>
       <entryLinks>
         <entryLink name="Reforzado" id="f42e-10da-1d10-237c" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
@@ -1378,7 +1505,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Cosechahuesos Ossiarch^^** que no haya usado una habilidad de **^^Relentless Discipline^^** esta fase para usar esta habilidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **relentless discipline** point. For the rest of the turn, that unit can use **^^Cargar^^** abilities even if it used a **^^Retirarse^^** ability in the same turn.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Gasta 1 punto de **disciplina implacable**. Durante el resto del turno, esa unidad puede usar habilidades **^^Cargar^^** aunque haya usado una habilidad **^^Retirarse^^** en el mismo turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Disciplina implacable^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1392,7 +1519,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), reacción: Has declarado una habilidad de **^^Disparar^^** para una unidad que no haya usado una habilidad de **^^Relentless Discipline^^** esta fase</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **relentless discipline** point. Subtract 1 from ward rolls for damage points inflicted by attacks made as part of that **^^Disparar^^** ability.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Gasta 1 punto de **disciplina implacable**. Resta 1 a las tiradas de salvaguardia por puntos de daño infligidos por ataques realizados como parte de esa habilidad **^^Disparar^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Disciplina implacable^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b">La unidad que usa esa habilidad de **^^Disparar^^**.</characteristic>
           </characteristics>
@@ -1406,7 +1533,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: Has declarado una habilidad de **^^Combatir^^** para una unidad que no haya usado una habilidad de **^^Relentless Discipline^^** esta fase.</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **relentless discipline** point. Añadir 1 to wound rolls for attacks made as part of that **^^Combatir^^** ability.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Gasta 1 punto de **disciplina implacable**. Suma 1 a las tiradas de herida de los ataques realizados como parte de esa habilidad **^^Combatir^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Disciplina implacable^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b">La unidad que usa esa habilidad de **^^Combatir^^**.</characteristic>
           </characteristics>
@@ -1420,7 +1547,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de movimiento</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige una unidad amiga **^^Cosechahuesos Ossiarch^^** que no haya usado una habilidad de **^^Relentless Discipline^^** esta fase para usar esta habilidad.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **relentless discipline** point. Add 3&quot; to the Move characteristic of that unit for the rest of the phase. That unit cannot use **^^run^^** abilities for the rest of the turn.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Gasta 1 punto de **disciplina implacable**. Suma 3" a la característica de Move de esa unidad durante el resto de la fase. Esa unidad no puede usar habilidades **^^run^^** durante el resto del turno.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Disciplina implacable^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -1434,7 +1561,7 @@
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: El oponente ha declarado una habilidad de **^^Attack^^**.</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **relentless discipline** point. That unit has **^^Ward (5+)^^** against damage points inflicted by attacks made as part of that **^^Attack^^** ability.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Gasta 1 punto de **disciplina implacable**. Esa unidad tiene **^^Ward (5+)^^** contra los puntos de daño infligidos por ataques realizados como parte de esa habilidad **^^Attack^^**.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Disciplina implacable^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b">Una unidad amiga **^^Cosechahuesos Ossiarch^^** que sea el objetivo de esa habilidad de **^^Attack^^**. Las unidades amigas **^^Cosechahuesos Ossiarch^^** pueden usar esta habilidad más de una vez por fase.</characteristic>
           </characteristics>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Señores de la Tumba Pudrealmas - Biblioteca" id="dff3-13f8-82b5-3347" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="75" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Señores de la Tumba Pudrealmas - Biblioteca" id="dff3-13f8-82b5-3347" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="76" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry name="Neferata, Mortarca de la Sangre" id="ca26-c079-31bc-38a8" hidden="false" import="true" publicationId="e3a0-cfae-cbb3-0215" type="unit">
       <categoryLinks>
@@ -2469,8 +2469,8 @@ Puede aplicarse más de 1 efecto a una unidad al mismo tiempo; sin embargo, cada
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de carga</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Puedes elegir otra unidad **^^Señores de la Tumba Pudrealmas^^** **^^Infantry^^** o **^^Monster^^** amiga visible que no sea **^^Hero^^**, totalmente a 12" o menos de esta unidad, como blanco.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">This unit can move up to **X**&quot;, where **X** is your **fury level**. It must end that move in combat.
-Then, the target can move up to **X**&quot;, where **X** is your **fury level**. It can move through enemy models and the combat ranges of enemy units during that move but must end that move in combat with an enemy unit that this unit is in combat with.</characteristic>
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Esta unidad puede moverse hasta **X**", donde **X** es tu **nivel de furia**. Debe terminar ese movimiento trabada en combate.
+Después, el objetivo puede moverse hasta **X**", donde **X** es tu **nivel de furia**. Puede atravesar miniaturas enemigas y los alcances de combate de unidades enemigas durante ese movimiento, pero debe terminarlo trabado en combate con una unidad enemiga con la que esta unidad esté trabada en combate.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Desenfreno^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2819,6 +2819,10 @@ Suma 1 a las tiradas de impacto de los ataques de combate de esta unidad que ten
               </profiles>
             </selectionEntry>
           </selectionEntries>
+          <modifiers>
+            <modifier field="4f1-9c6a-50e-6b0f-min-min" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+            <modifier field="4f1-9c6a-50e-6b0f-min-max" type="increment" value="1"><repeats><repeat childId="1b37-82b8-c062-eb82" field="selections" repeats="1" roundUp="false" scope="root-entry" shared="true" value="1"/></repeats></modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry name="Ejemplar askurgano" id="256b-a0ba-5822-a416" hidden="false" import="true" type="model">
           <constraints>
@@ -6251,16 +6255,16 @@ Esta unidad puede retirarse del campo de batalla y colocarse en reserva **en lo 
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Spend 1 **rage dice**. If your opponent&apos;s **fury level** is lower than yours, they must increase their **fury level** by 1, to a maximum of 7. Then, pick 1 of the following effects:
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Gasta 1 **dado de ira**. Si el **nivel de furia** de tu oponente es inferior al tuyo, debe aumentarlo en 1, hasta un máximo de 7. Después, elige 1 de los siguientes efectos:
 
-**Postura de represalia:** For the rest of the turn:
-• Ignore positive modifiers to hit rolls and wound rolls for attacks made by enemy units while they are in combat with this unit.
-• Añadir 1 to save rolls for this unit.
-• Añadir 1 to hit rolls for this unit&apos;s attacks, including attacks made with **Compañero** weapons, that target an enemy unit that used a **^^Combatir^^** ability this phase.
+**Postura de represalia:** Durante el resto del turno:
+• Ignora los modificadores positivos a las tiradas de impacto y de herida de los ataques de unidades enemigas mientras estén trabadas en combate con esta unidad.
+• Suma 1 a las tiradas de salvación de esta unidad.
+• Suma 1 a las tiradas de impacto de los ataques de esta unidad, incluidos los realizados con armas **Compañero**, que tengan como objetivo una unidad enemiga que haya usado una habilidad **^^Combatir^^** esta fase.
 
-**Ferocidad implacable:** For the rest of the turn:
-• Ignore negative modifiers to hit rolls and wound rolls for this unit&apos;s attacks.
-• Añadir 1 to the Rend and Damage characteristics of this unit&apos;s **Compañero** melee weapons for attacks that target an enemy unit that has not used a **^^Combatir^^** ability this phase.</characteristic>
+**Ferocidad implacable:** Durante el resto del turno:
+• Ignora los modificadores negativos a las tiradas de impacto y de herida de los ataques de esta unidad.
+• Suma 1 a las características de Rend y Damage de las armas de combate **Compañero** de esta unidad para los ataques que tengan como objetivo una unidad enemiga que no haya usado una habilidad **^^Combatir^^** esta fase.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
