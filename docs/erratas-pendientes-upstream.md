@@ -1,5 +1,19 @@
 # Erratas oficiales pendientes de BSData
 
+## Correcciones de datos pendientes de BSData
+
+No son erratas de Games Workshop, sino fallos de los datos de BSData que el
+fork corrige mientras BSData no los publica. Cada una tiene su prueba en
+`tools/test-official-errata.py`.
+
+- **Knight-Zephyros es Legends** (4 de noviembre de 2026). Pasó a Warhammer
+  Legends el 1 de junio de 2025, pero su entrada de `Stormcast Eternals -
+  Library.cat` no lleva la categoría `Legends` que tienen los demás héroes
+  retirados. BSData cerró el aviso
+  [#1075](https://github.com/BSData/age-of-sigmar-4th/issues/1075) sin
+  añadirla. Al integrar BSData, comprueba si ya la incluye; si es así, quita
+  la corrección local y adopta su ID.
+
 ## Reconciliación con BSData del 4 de noviembre de 2026
 
 BSData publicó su versión de estas erratas el 28 de septiembre (`4ac427f`,

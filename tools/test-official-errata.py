@@ -131,5 +131,12 @@ class OfficialErrataTests(unittest.TestCase):
         self.assertFalse(unit.findall('{*}infoLinks/{*}infoLink'))
 
 
+    def test_knight_zephyros_is_legends(self):
+        # Moved to Warhammer Legends on 1 June 2025; BSData issue #1075 was
+        # closed without the categoryLink ever being added.
+        unit = by_id('Stormcast Eternals - Library.cat', 'f0d9-5cb2-345b-565e')
+        self.assertIn('Legends', [c.get('name') for c in unit.findall('{*}categoryLinks/{*}categoryLink')])
+
+
 if __name__ == '__main__':
     unittest.main()
