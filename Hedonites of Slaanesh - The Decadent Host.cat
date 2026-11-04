@@ -239,6 +239,20 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="160b-8817-3cf2-82dc"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
           <conditions>
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
@@ -266,6 +280,7 @@
                 <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -862,7 +877,7 @@
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
         </profile>
-        <profile name="Petulant Weath" id="b2bb-adb3-d3b3-0cb6" hidden="false" publicationId="95fc-e96f-a916-bba1" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+        <profile name="Petulant Wrath" id="b2bb-adb3-d3b3-0cb6" hidden="false" publicationId="95fc-e96f-a916-bba1" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
             <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
             <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>

@@ -1,18 +1,39 @@
-# Estado de la traducción — 25 de septiembre de 2026
+# Estado de la traducción — 4 de noviembre de 2026
 
 ## Sincronización con BSData
 
-Integrado mediante merge el commit `d1f97bc9a3c4d65a13add36ed48082866c4e7942`
-de BSData, que corrige Champion de Pyregheists. Sobre esa base se adelantan
-las correcciones oficiales del 23 de septiembre que todavía faltaban en los
-catálogos: puntos, mejoras con coste, refuerzos, opciones de regimiento y reglas.
-Los originales difieren temporalmente de BSData; las diferencias se registran
-en [Erratas pendientes de BSData](docs/erratas-pendientes-upstream.md), con un
-manifiesto y una herramienta para revisar su futura incorporación.
+Integrados mediante merge los 7 commits posteriores a `d1f97bc`, hasta
+`d2334be52281ff2e9729c382eec6033d74647876` de `BSData/age-of-sigmar-4th/main`:
+su versión de los perfiles y reglas de septiembre de 2026 (#1368), el Sendero
+a la Gloria de Sons of Behemat (Yunque de la Apoteosis y Sendas) y varias
+correcciones de Lores, Cities of Sigmar, Daughters of Khaine, Hedonites,
+Nighthaunt, Slaves to Darkness, Sylvaneth y Maggotkin.
 
-Se han completado también las cadenas descriptivas pendientes de la actualización
-anterior y regenerado los 135 archivos españoles. No quedan cadenas del XML
-traducible sin correspondencia en los diccionarios. Se conservan los IDs de
+BSData ha absorbido 649 de las 688 correcciones oficiales que el fork había
+adelantado; en esos casos se adopta su implementación y sus IDs. Se mantienen
+39 diferencias locales, comprobadas con el PDF de Battle Profiles: puntos de
+Pyrofane Cult, The Roving Maw e Ironsunz, límites de campeón con refuerzo,
+Gunnar Brand en Oathsworn, Bloodwrack Shrine con Coven Matriarch y el Saurus
+Scar-Veteran on Aggradon (Scourge of Aqshy) como Favoured Spawning. El detalle
+está en [Erratas pendientes de BSData](docs/erratas-pendientes-upstream.md).
+
+Se han traducido 19 textos de reglas modificados y las 82 cadenas nuevas del
+Sendero a la Gloria de Sons of Behemat, y se han registrado 68 nombres nuevos.
+Se han regenerado los 135 archivos españoles.
+
+### Actualización anterior: 25 de septiembre
+
+Integrado mediante merge el commit `d1f97bc9a3c4d65a13add36ed48082866c4e7942`
+de BSData, que corrige Champion de Pyregheists. Sobre esa base se adelantan
+las correcciones oficiales del 23 de septiembre que todavía faltaban en los
+catálogos: puntos, mejoras con coste, refuerzos, opciones de regimiento y reglas.
+Los originales difieren temporalmente de BSData; las diferencias se registran
+en [Erratas pendientes de BSData](docs/erratas-pendientes-upstream.md), con un
+manifiesto y una herramienta para revisar su futura incorporación.
+
+Se han completado también las cadenas descriptivas pendientes de la actualización
+anterior y regenerado los 135 archivos españoles. No quedan cadenas del XML
+traducible sin correspondencia en los diccionarios. Se conservan los IDs de
 BSData existentes; las opciones nuevas utilizan IDs propios hasta reconciliarlas.
 
 ### Actualización anterior: 23 de septiembre
@@ -57,22 +78,21 @@ del XML sin entrada de traducción.
 
 ## Cobertura
 
-**Completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús, catálogos y opciones de héroes — incluidas las erratas oficiales del 23 de septiembre.**
+**Completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús, catálogos y opciones de héroes — incluidos el Sendero a la Gloria de Sons of Behemat y las erratas oficiales de septiembre.**
 
 - Los 135 JSON de prosa (dos más: los catálogos nuevos de Sons of Behemat) no
   tienen **valores vacíos**.
 - Las **135 parejas de archivos** pasan la verificación completa de texto,
   nombres, estructura XML y atributos técnicos.
-- Pasan ocho pruebas de regresión de las erratas y las nueve del generador, incluidos los nombres de habilidades
+- Pasan nueve pruebas de regresión de las erratas y las nueve del generador, incluidos los nombres de habilidades
   en reglas y perfiles y los alias que enlazan catálogos diferentes.
 - Las equivalencias son traducciones de aficionado, no nomenclatura oficial.
 
 ## Cobertura de nombres
 
-La comprobación ampliada revisa **9.526 nombres distintos** (81 más que en la
-actualización anterior, por los dos catálogos nuevos de Sons of Behemat y las
-habilidades sueltas de Regimientos de Renombre): 9.326 tienen equivalencia
-española, 200 mantienen su denominación y **0 están pendientes dentro de este
+La comprobación ampliada revisa **9.593 nombres distintos** (67 más que en la
+actualización anterior, por el Sendero a la Gloria de Sons of Behemat):
+9.393 tienen equivalencia española, 200 mantienen su denominación y **0 están pendientes dentro de este
 alcance**. Incluye unidades, armas, manifestaciones, habilidades, reglas,
 todos los grupos y opciones de selección, catálogos, regimientos y
 modificadores de nombre.

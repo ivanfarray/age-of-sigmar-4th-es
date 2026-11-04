@@ -9159,7 +9159,6 @@
                   <conditions>
                     <condition childId="7acb-3141-6008-1c09" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="de5f-588b-ea57-d6b5" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="6353-cb84-ac7f-9a15" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="832c-fd6-a535-ffae" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="9baf-c109-f621-e60" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                   </conditions>
@@ -11957,7 +11956,6 @@
                 <conditionGroup type="or">
                   <conditions>
                     <condition childId="2c23-a678-196b-ad69" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="d731-9058-b0e5-6ff5" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="afdb-68a1-283e-3bf2" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="231a-2a83-26f0-a718" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="747c-104a-4d8d-c9a5" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -12196,7 +12194,6 @@
                     <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="4e3-e1a7-a8d4-8719" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="1bd9-ad7d-68ee-3b53" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -14514,8 +14511,8 @@ Completas esta táctica de batalla al final de tu turno si una unidad explorador
 Completas esta táctica de batalla al final de tu turno si hay al menos 2 unidades amigas a 3" o menos del centro del campo de batalla que no estén en combate.</characteristic>
                     <characteristic name="Strike" typeId="94d4-173e-0f65-c569">Fey Strikes:
 Completas esta táctica de batalla al final de tu turno si se cumple todo lo siguiente:
-• Al menos 2 unidades amigas se han movido como parte de una habilidad de **^^Retirarse^^** este turno. Esas unidades son las unidades señuelo.
-• Al menos otras 2 unidades amigas han usado una habilidad de **^^Cargar^^** este turno y al menos 1 de esas unidades ha terminado el movimiento de carga en combate con una unidad enemiga de la que se haya retirado alguna de las unidades señuelo.</characteristic>
+• Al menos 2 unidades amigas se han movido como parte de una habilidad de **^^Retirarse^^** este turno. Esas unidades son unidades señuelo.
+• Al menos otras 2 unidades amigas han cargado este turno y al menos 1 de esas unidades ha terminado el movimiento de carga en combate con una unidad enemiga de la que se haya retirado alguna unidad señuelo.</characteristic>
                     <characteristic name="Domination" typeId="e1d7-1d3c-f001-62e0">Purification Rites:
 Completas esta táctica de batalla al final de tu turno si no hay unidades enemigas en territorio amigo ni unidades enemigas en territorio neutral.</characteristic>
                   </characteristics>
@@ -14782,7 +14779,7 @@ Completas esta táctica de batalla al final de tu turno si controlas todos los m
         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Hero^^** amigo a 3" o menos de un **Lugar de poder** para usar esta habilidad y, después, elige ese **Lugar de poder** como objetivo.</characteristic>
         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige 1 de los siguientes efectos:
 • ***Polen cauterizante:*** Tira un dado. Con un 1, inflige 1 de daño mortal a cada unidad (amiga y enemiga) a 6" o menos de cualquier **Places of Power**. Con un 3+, **Heal (2)** cada unidad (amiga y enemiga) totalmente a 6" o menos del objetivo.
-• ***Brotación rápida:*** Elige un marcador de objetivo Ghyranite o un elemento de escenografía visible a 12" o menos de ese **^^Hero^^** y tira un dado. Con un 3+, ese marcador de objetivo o elemento de escenografía tiene la habilidad &apos;Ocultación&apos; (consulta 1.2) durante el resto de la batalla.
+• ***Brotación rápida:*** Elige un marcador de objetivo Ghyranite o un elemento de escenografía visible que no sea **^^Faction Terrain^^** a 12" o menos de ese **^^Hero^^** y tira un dado. Con un 3+, ese marcador de objetivo o elemento de escenografía tiene la habilidad &apos;Ocultación&apos; (consulta 1.2) durante el resto de la batalla.
 • ***Canalizar las líneas ley:*** Durante el resto del turno, si ese **^^Hero^^** no es un **^^Wizard^^** ni un **^^Priest^^**, puede usar la habilidad &apos;Desvincular&apos; o &apos;Desterrar manifestación&apos; como si tuviera **^^Wizard (1)^^**.</characteristic>
         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**</characteristic>
         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -14826,7 +14823,7 @@ Completas esta táctica de batalla al final de tu turno si controlas todos los m
       <description>Las miniaturas no pueden atravesar ninguna parte de este elemento de escenografía, ni colocarse sobre ella, ni terminar movimientos sobre ella.</description>
     </rule>
     <rule name="Ocultación" id="bcd4-2c7b-5338-82f8" hidden="true">
-      <description>Una unidad no puede ser objetivo de ataques de disparo si está detrás de este elemento de escenografía o totalmente sobre él, a menos que tenga la palabra clave **^^Volar^^**.</description>
+      <description>Una unidad no puede ser objetivo de ataques de disparo realizados por unidades enemigas que no estén dentro de su alcance de combate si está detrás de este elemento de escenografía o totalmente sobre él, a menos que tenga la palabra clave **^^Volar^^**.</description>
       <modifiers>
         <modifier field="hidden" type="set" value="false">
           <conditions>
@@ -14836,9 +14833,9 @@ Completas esta táctica de batalla al final de tu turno si controlas todos los m
       </modifiers>
     </rule>
     <rule name="Ocultación" id="e40f-b982-0721-291b" hidden="true">
-      <description>Mientras todas las miniaturas de una unidad que no sea **^^Monster^^** y que no tenga la palabra clave **Volar^^** estén a 1" o menos de este elemento de escenografía, se aplica lo siguiente:
+      <description>Mientras todas las miniaturas de una unidad que no sea **^^Monster^^** ni **^^War Machine^^** y que no tenga la palabra clave **Volar^^** estén a 1" o menos de este elemento de escenografía, se aplica lo siguiente:
 • Esa unidad solo es visible para las unidades enemigas que estén dentro de su alcance de combate.
-• La característica de Alcance de las armas de esa unidad se reduce a la mitad (redondeando hacia abajo a la pulgada más cercana).</description>
+• La característica de Alcance de las armas de disparo de esa unidad se reduce a la mitad (redondeando hacia abajo a la pulgada más cercana).</description>
       <modifiers>
         <modifier field="hidden" type="set" value="false">
           <conditions>

@@ -35,10 +35,10 @@
                     <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                   </conditions>
                 </localConditionGroup>
-                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
                   <conditions>
-                    <condition childId="efee-f602-e493-0f61" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="efee-f602-e493-0f61" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                   </conditions>
                 </localConditionGroup>
               </localConditionGroups>
@@ -315,23 +315,26 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="efe4-8ae8-3397-533d"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
           <conditions>
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
             <modifier affects="self.entries.recursive.905e-30fb-4d0f-4685" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.efe4-8ae8-3397-533d" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
-          </modifiers>
-        </modifierGroup>
-        <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-
-          <modifiers>
-            <modifier field="category" type="add" value="efe4-8ae8-3397-533d"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -375,23 +378,26 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="efe4-8ae8-3397-533d"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
           <conditions>
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
             <modifier affects="self.entries.recursive.905e-30fb-4d0f-4685" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.efe4-8ae8-3397-533d" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
-          </modifiers>
-        </modifierGroup>
-        <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-
-          <modifiers>
-            <modifier field="category" type="add" value="efe4-8ae8-3397-533d"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>

@@ -181,23 +181,26 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="649-9363-e350-48f4"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
           <conditions>
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
             <modifier affects="self.entries.recursive.da36-ed81-79fe-ca75" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.cc9e-6c32-4cd0-9f99" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
-          </modifiers>
-        </modifierGroup>
-        <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-
-          <modifiers>
-            <modifier field="category" type="add" value="649-9363-e350-48f4"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -754,7 +757,7 @@
     </entryLink>
     <entryLink name="Señor de las alimañas corruptor" id="6b0b-367d-ec80-2727" hidden="false" import="true" targetId="645a-2377-ae20-f9c" type="selectionEntry">
       <costs>
-        <cost name="pts" typeId="points" value="260"/>
+        <cost name="pts" typeId="points" value="310"/>
       </costs>
       <entryLinks>
         <entryLink name="Rasgos heroicos" id="c447-9f72-3ed4-8017" hidden="false" import="true" targetId="26fc-3985-5b0a-b181" type="selectionEntryGroup"/>
@@ -1370,7 +1373,7 @@
         <cost name="pts" typeId="points" value="130"/>
       </costs>
       <entryLinks>
-        <entryLink name="Reforzado" id="84fb-6eac-f634-52c4" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
+        <entryLink name="Reforzado" id="6dc8-8c19-4b4f-4ae5" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
         <entryLink name="Sendas" id="df22-8a6a-1921-cd10" hidden="false" import="true" targetId="9e59-94d3-7bfe-3534" type="selectionEntryGroup"/>
         <entryLink name="Heridas de batalla + cicatrices" id="538b-daa0-fbbc-2959" hidden="false" import="true" targetId="462c-2914-b583-1688" type="selectionEntryGroup"/>
         <entryLink name="Renombre" id="0ba2-70d5-192e-dfea" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
@@ -2512,7 +2515,7 @@
         <cost name="pts" typeId="points" value="150"/>
       </costs>
       <entryLinks>
-        <entryLink name="Reforzado" id="7b05-1b1e-e1c6-59b8" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
+        <entryLink name="Reforzado" id="acde-a5f5-7a8f-9d91" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
         <entryLink name="Sendas" id="ba9f-c133-1b2e-aff2" hidden="false" import="true" targetId="9e59-94d3-7bfe-3534" type="selectionEntryGroup"/>
         <entryLink name="Heridas de batalla + cicatrices" id="2649-5999-05f5-9a2f" hidden="false" import="true" targetId="462c-2914-b583-1688" type="selectionEntryGroup"/>
         <entryLink name="Renombre" id="b4cc-9108-2bdf-b893" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>

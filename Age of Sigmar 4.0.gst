@@ -9159,7 +9159,6 @@
                   <conditions>
                     <condition childId="7acb-3141-6008-1c09" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="de5f-588b-ea57-d6b5" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="6353-cb84-ac7f-9a15" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="832c-fd6-a535-ffae" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="9baf-c109-f621-e60" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                   </conditions>
@@ -11957,7 +11956,6 @@
                 <conditionGroup type="or">
                   <conditions>
                     <condition childId="2c23-a678-196b-ad69" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="d731-9058-b0e5-6ff5" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="afdb-68a1-283e-3bf2" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="231a-2a83-26f0-a718" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="747c-104a-4d8d-c9a5" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -12196,7 +12194,6 @@
                     <condition childId="42ad-8ca7-4b48-7df1" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="5232-3bab-5562-3172" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="40a4-1c1c-8a00-bb65" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="1100-a22f-15c6-bdea" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="efc5-b8d-894c-67c6" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="4e3-e1a7-a8d4-8719" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
                     <condition childId="1bd9-ad7d-68ee-3b53" field="selections" scope="parent" shared="true" type="instanceOf" value="1"/>
@@ -14514,8 +14511,8 @@ You complete this battle tactic at the end of your turn if a friendly scout unit
 You complete this battle tactic at the end of your turn if there are at least 2 friendly units within 3&quot; of the centre of the battlefield that are not in combat.</characteristic>
                     <characteristic name="Strike" typeId="94d4-173e-0f65-c569">Fey Strikes:
 You complete this battle tactic at the end of your turn if all of the following are true:
-• At least 2 friendly units moved as part of a **^^Retreat^^** ability this turn. Those units are the lure units.
-• At least 2 other friendly units used a **^^Charge^^** ability this turn and at least 1 of those units ended the charge move in combat with an enemy unit from which any of the lure units retreated.</characteristic>
+• At least 2 friendly units moved as part of a **^^Retreat^^** ability this turn. Those units are lure units.
+• At least 2 other friendly units charged this turn and at least 1 of those units ended the charge move in combat with an enemy unit from which any lure units retreated.</characteristic>
                     <characteristic name="Domination" typeId="e1d7-1d3c-f001-62e0">Purification Rites:
 You complete this battle tactic at the end of your turn if there are no enemy units within friendly territory and no enemy units within neutral territory.</characteristic>
                   </characteristics>
@@ -14782,7 +14779,7 @@ You complete this battle tactic at the end of your turn if you control each obje
         <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Pick a friendly **^^Hero^^** within 3&quot; of a **Place of Power** to use this ability, then pick that **Place of Power** to be the target.</characteristic>
         <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Pick 1 of the following effects:
 • ***Cauterising Pollen:*** Roll a dice. On a 1, inflict 1 mortal damage on each unit (friendly and enemy) within 6&quot; of any **Places of Power**. On a 3+, **Heal (2)** each unit (friendly and enemy) wholly within 6&quot; of the target.
-• ***Rapid Sprouting:*** Pick a Ghyranite objective or visible terrain feature within 12&quot; of that **^^Hero^^** and roll a dice. On a 3+, that objective or terrain feature has the &apos;Obscuring&apos; ability (see 1.2) for the rest of the battle.
+• ***Rapid Sprouting:*** Pick a Ghyranite objective or visible non-**^^Faction Terrain^^** terrain feature within 12&quot; of that **^^Hero^^** and roll a dice. On a 3+, that objective or terrain feature has the &apos;Obscuring&apos; ability (see 1.2) for the rest of the battle.
 • ***Tap the Ley Lines:*** For the rest of the turn, if that **^^Hero^^** is not a **^^Wizard^^** or **^^Priest^^**, they can use the &apos;Unbind&apos; or &apos;Banish Manifestation&apos; ability as if they had **^^Wizard (1)^^**.</characteristic>
         <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Core^^**</characteristic>
         <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
@@ -14826,7 +14823,7 @@ You complete this battle tactic at the end of your turn if you control each obje
       <description>Models cannot move across, be set up on or end moves on any part of this terrain feature.</description>
     </rule>
     <rule name="Obscuring" id="bcd4-2c7b-5338-82f8" hidden="true">
-      <description>A unit cannot be targeted by shooting attacks if it is behind or wholly on this terrain feature, unless it has the **^^Fly^^** keyword.</description>
+      <description>A unit cannot be targeted by shooting attacks made by enemy units that are not within its combat range if it is behind or wholly on this terrain feature, unless it has the **^^Fly^^** keyword.</description>
       <modifiers>
         <modifier field="hidden" type="set" value="false">
           <conditions>
@@ -14836,9 +14833,9 @@ You complete this battle tactic at the end of your turn if you control each obje
       </modifiers>
     </rule>
     <rule name="Obscuring" id="e40f-b982-0721-291b" hidden="true">
-      <description>While every model in a non-**^^Monster^^** unit that does not have the **Fly^^** keyword is within 1&quot; of this terrain feature, the following apply:
+      <description>While every model in a non-**^^Monster^^** non-**^^War Machine^^** unit that does not have the **Fly^^** keyword is within 1&quot; of this terrain feature, the following apply:
 • That unit is only visible to enemy units that are within its combat range.
-• The Range characteristic of that unit&apos;s weapons is halved (rounding down to the nearest inch).</description>
+• The Range characteristic of that unit&apos;s ranged weapons is halved (rounding down to the nearest inch).</description>
       <modifiers>
         <modifier field="hidden" type="set" value="false">
           <conditions>

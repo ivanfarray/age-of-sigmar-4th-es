@@ -194,6 +194,20 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="3fb9-4ad6-b87c-48e6"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
           <conditions>
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
@@ -201,17 +215,6 @@
             <modifier affects="self.entries.recursive.75d6-6995-dfcc-3898" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.50b6-cef0-6119-85df" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.98c9-e4bf-b35d-bdca" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
-          </modifiers>
-        </modifierGroup>
-        <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-
-          <modifiers>
-            <modifier field="category" type="add" value="3fb9-4ad6-b87c-48e6"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -351,6 +354,20 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="3fb9-4ad6-b87c-48e6"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
           <conditions>
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
@@ -358,17 +375,6 @@
             <modifier affects="self.entries.recursive.75d6-6995-dfcc-3898" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.50b6-cef0-6119-85df" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.98c9-e4bf-b35d-bdca" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
-          </modifiers>
-        </modifierGroup>
-        <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-
-          <modifiers>
-            <modifier field="category" type="add" value="3fb9-4ad6-b87c-48e6"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -1277,7 +1283,7 @@
         <cost name="pts" typeId="points" value="180"/>
       </costs>
       <entryLinks>
-        <entryLink name="Reforzado" id="94c2-d141-7312-5e7e" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
+        <entryLink name="Reforzado" id="3380-5e11-77cc-1b2a" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
         <entryLink name="Heridas de batalla + cicatrices" id="d818-9ba1-a496-9533" hidden="false" import="true" targetId="1cb4-1572-5a03-ef40" type="selectionEntryGroup"/>
         <entryLink name="Sendas" id="6750-f434-cc0f-7245" hidden="false" import="true" targetId="b01c-51e0-7c8b-0df5" type="selectionEntryGroup"/>
         <entryLink name="Renombre" id="d135-9fb0-bd2e-fbd8" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>

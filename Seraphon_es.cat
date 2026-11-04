@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Seraphon" id="4e3-e1a7-a8d4-8719" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="42" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Seraphon" id="4e3-e1a7-a8d4-8719" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="43" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="Seraphon - Biblioteca" id="bac9-83e-a88b-8274" targetId="18f-620a-1c2f-b6b2" type="catalogue"/>
     <catalogueLink name="✦ Sendero a la Gloria - Costa Devastada" id="bbff-c662-3555-9914" importRootEntries="true" targetId="a434-b1ba-922b-7624" type="catalogue"/>
@@ -25,16 +25,16 @@
                         <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="notInstanceOf" value="1"/>
                       </conditions>
                     </localConditionGroup>
+                    <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="lessThan" value="1">
+                      <conditions>
+                        <condition childId="8b73-3877-1870-fce1" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                      </conditions>
+                    </localConditionGroup>
                     <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
                       <conditions>
                         <condition childId="b137-2ba4-aec4-ee33" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                         <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
-                      </conditions>
-                    </localConditionGroup>
-                    <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
-                      <conditions>
-                        <condition childId="f43e-a514-0668-d66a" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                        <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
                       </conditions>
                     </localConditionGroup>
                   </localConditionGroups>
@@ -44,6 +44,12 @@
                     <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="lessThan" value="1">
                       <conditions>
                         <condition childId="4a6d-57cc-4f15-dd3a" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                      </conditions>
+                    </localConditionGroup>
+                    <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="lessThan" value="1">
+                      <conditions>
+                        <condition childId="8b73-3877-1870-fce1" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                         <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="notInstanceOf" value="1"/>
                       </conditions>
                     </localConditionGroup>
@@ -100,6 +106,12 @@
                 <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
                   <conditions>
                     <condition childId="ca8-136-e6a1-e7fe" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="f43e-a514-0668-d66a" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                     <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                   </conditions>
                 </localConditionGroup>
@@ -542,17 +554,6 @@
             <modifier affects="self.entries.recursive.33b4-c29b-45c8-7bf4" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
           </modifiers>
         </modifierGroup>
-        <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-          <conditionGroups><conditionGroup type="or"><localConditionGroups><localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1"><conditions><condition childId="b137-2ba4-aec4-ee33" field="selections" scope="self" shared="true" type="instanceOf" value="1"/><condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/></conditions></localConditionGroup><localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1"><conditions><condition childId="74bb-6987-d78-6035" field="selections" scope="self" shared="true" type="instanceOf" value="1"/><condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/></conditions></localConditionGroup></localConditionGroups></conditionGroup></conditionGroups>
-          <modifiers>
-            <modifier field="category" type="add" value="d252-534-cc7e-8040"/>
-          </modifiers>
-        </modifierGroup>
       </modifierGroups>
       <modifiers>
         <modifier field="category" scope="root-entry" type="set-primary" value="d1f3-921c-b403-1106">
@@ -606,6 +607,9 @@
       </modifiers>
     </entryLink>
     <entryLink name="Vidente estelar eslizón" id="8b73-3877-1870-fce1" hidden="false" import="true" targetId="cde3-25dc-fe17-858c" type="selectionEntry">
+      <constraints>
+        <constraint id="deba-00f1-f18a-11d7" field="selections" includeChildSelections="true" scope="force" shared="true" type="max" value="-1"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="points" value="140"/>
       </costs>
@@ -630,17 +634,6 @@
             <modifier affects="self.entries.recursive.33b4-c29b-45c8-7bf4" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
           </modifiers>
         </modifierGroup>
-        <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-          <conditionGroups><conditionGroup type="or"><localConditionGroups><localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1"><conditions><condition childId="b137-2ba4-aec4-ee33" field="selections" scope="self" shared="true" type="instanceOf" value="1"/><condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/></conditions></localConditionGroup><localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1"><conditions><condition childId="74bb-6987-d78-6035" field="selections" scope="self" shared="true" type="instanceOf" value="1"/><condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/></conditions></localConditionGroup></localConditionGroups></conditionGroup></conditionGroups>
-          <modifiers>
-            <modifier field="category" type="add" value="d252-534-cc7e-8040"/>
-          </modifiers>
-        </modifierGroup>
       </modifierGroups>
       <modifiers>
         <modifier field="category" scope="root-entry" type="set-primary" value="d1f3-921c-b403-1106">
@@ -662,6 +655,58 @@
                 <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
                 <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier field="deba-00f1-f18a-11d7" type="set" value="1">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <localConditionGroups>
+                <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="b137-2ba4-aec4-ee33" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+                <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="74bb-6987-d78-6035" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier field="deba-00f1-f18a-11d7" type="set" value="0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <localConditionGroups>
+                    <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
+                      <conditions>
+                        <condition childId="b137-2ba4-aec4-ee33" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                      </conditions>
+                    </localConditionGroup>
+                    <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
+                      <conditions>
+                        <condition childId="74bb-6987-d78-6035" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                        <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                      </conditions>
+                    </localConditionGroup>
+                  </localConditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+              <localConditionGroups>
+                <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
+                  <conditions>
+                    <condition childId="4a6d-57cc-4f15-dd3a" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                  </conditions>
+                </localConditionGroup>
+              </localConditionGroups>
             </conditionGroup>
           </conditionGroups>
         </modifier>
@@ -1179,7 +1224,7 @@
         <cost name="pts" typeId="points" value="80"/>
       </costs>
       <entryLinks>
-        <entryLink name="Reforzado" id="0cb2-cc71-e371-53c6" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
+        <entryLink name="Reforzado" id="c48e-5875-0628-242d" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
         <entryLink name="Sendas" id="7155-0919-3df6-689b" hidden="false" import="true" targetId="1571-5ff6-d10e-404f" type="selectionEntryGroup"/>
         <entryLink name="Heridas de batalla + cicatrices" id="6696-2830-349f-5b7a" hidden="false" import="true" targetId="c566-6b60-fe90-0b24" type="selectionEntryGroup"/>
         <entryLink name="Renombre" id="847b-962d-64fa-6427" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
@@ -1210,7 +1255,7 @@
         <cost name="pts" typeId="points" value="90"/>
       </costs>
       <entryLinks>
-        <entryLink name="Reforzado" id="5dc1-00ae-c838-5bf2" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
+        <entryLink name="Reforzado" id="37d5-2ad4-4c72-fa1d" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
         <entryLink name="Sendas" id="bffa-c183-81fa-d0c7" hidden="false" import="true" targetId="1571-5ff6-d10e-404f" type="selectionEntryGroup"/>
         <entryLink name="Heridas de batalla + cicatrices" id="5fc4-8a8d-8219-9520" hidden="false" import="true" targetId="c566-6b60-fe90-0b24" type="selectionEntryGroup"/>
         <entryLink name="Renombre" id="b79e-9a9d-89a1-d9b7" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
@@ -1774,7 +1819,7 @@
         <cost name="pts" typeId="points" value="70"/>
       </costs>
       <entryLinks>
-        <entryLink name="Reforzado" id="0820-5e2e-7d62-5e36" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
+        <entryLink name="Reforzado" id="0958-d1c6-38d4-c64d" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
         <entryLink name="Sendas" id="9d12-e61a-c381-4e8b" hidden="false" import="true" targetId="1571-5ff6-d10e-404f" type="selectionEntryGroup"/>
         <entryLink name="Heridas de batalla + cicatrices" id="4923-afe2-11c5-ede1" hidden="false" import="true" targetId="c566-6b60-fe90-0b24" type="selectionEntryGroup"/>
         <entryLink name="Renombre" id="15b2-7650-a49e-9e63" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>

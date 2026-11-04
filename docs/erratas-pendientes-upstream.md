@@ -1,5 +1,38 @@
 # Erratas oficiales pendientes de BSData
 
+## Reconciliación con BSData del 4 de noviembre de 2026
+
+BSData publicó su versión de estas erratas el 28 de septiembre (`4ac427f`,
+«September 2026 battle profiles and rules updates (#1368)») y el fork la ha
+integrado con un merge hasta `d2334be`. De las 688 entradas del manifiesto,
+649 quedan resueltas: 433 porque BSData publica el mismo contenido y 216
+porque se adopta su implementación, que a veces usa otros IDs (por ejemplo,
+las categorías Thaumaturgical Specialist y Mortisan Vizier). Están archivadas
+en la lista `resolved` del manifiesto, con el commit que las absorbió.
+
+Siguen siendo locales 39 entradas, rebasadas sobre la versión de BSData:
+
+- **Puntos de Ejércitos de Renombre.** BSData considera que Pyrofane Cult y
+  The Roving Maw tienen precios propios y no los actualiza. Battle Profiles no
+  publica precios aparte para ellos, así que se mantiene el de la facción:
+  Gaunt Summoner on Disc of Tzeentch 190, Ogroid Thaumaturge 120,
+  Slaughtermaster 160, Butcher 170 y Gluttons 210. También Ogor Gluttons en
+  Ironsunz: 210.
+- **Campeones con refuerzo.** Se mantienen los límites del fork en las unidades
+  que pasan a poder reforzarse: 10 de Slaves to Darkness, Khainite
+  Shadowstalkers, Kruleboyz Monsta-killaz, Teratic Cohort, Hunters of Huanchi y
+  Askurgan Trueblades. Pyregheists sigue con un único campeón aunque se
+  refuerce; BSData lo duplica.
+- **Regimientos.** Gunnar Brand admite Oathsworn y Bloodwrack Shrine admite
+  Coven Matriarch. El Saurus Scar-Veteran on Aggradon (Scourge of Aqshy) sigue
+  pudiendo unirse como Favoured Spawning: BSData retira esa nota, pero la
+  página 18 del Battle Profiles de septiembre la conserva.
+- Las revisiones de los catálogos que llevan alguno de estos cambios.
+
+Las pruebas de `tools/test-official-errata.py` comprueban ahora la
+implementación de BSData para Skink Starpriest, Skink Starseer y Favoured
+Spawning, y el caso del Aggradon de Aqshy.
+
 ## Actualización del 23 de septiembre de 2026
 
 Aplicada al fork el 25 de septiembre, sobre BSData

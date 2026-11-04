@@ -257,6 +257,20 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="b5ef-7da9-9aff-13d5"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
           <conditions>
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
@@ -285,6 +299,7 @@
                 <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -299,7 +314,7 @@
         <cost name="pts" typeId="points" value="80"/>
       </costs>
       <entryLinks>
-        <entryLink name="Reinforced" id="2167-fbb8-3e6b-5248" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
+        <entryLink name="Reinforced" id="9a2a-3d8b-46dc-5a38" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
         <entryLink name="Battle Wounds + Scars" id="4216-8375-e30e-2289" hidden="false" import="true" targetId="30aa-ebc9-444f-7be3" type="selectionEntryGroup"/>
         <entryLink name="Paths" id="6438-8ef8-3488-ab96" hidden="false" import="true" targetId="2156-0cb8-ed35-a44f" type="selectionEntryGroup"/>
         <entryLink name="Renown" id="f83c-3fae-86ba-b38b" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
@@ -462,17 +477,11 @@
         <cost name="pts" typeId="points" value="120"/>
       </costs>
       <entryLinks>
-        <entryLink name="Reinforced" id="ce93-2e63-7d50-40bb" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
         <entryLink name="Battle Wounds + Scars" id="5bca-b1f2-03c6-1dc3" hidden="false" import="true" targetId="30aa-ebc9-444f-7be3" type="selectionEntryGroup"/>
         <entryLink name="Paths" id="76bd-d24e-c468-8339" hidden="false" import="true" targetId="2156-0cb8-ed35-a44f" type="selectionEntryGroup"/>
         <entryLink name="Renown" id="ff9b-c9cd-fb86-a4d3" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
       </entryLinks>
       <modifiers>
-        <modifier field="points" type="multiply" value="2">
-          <conditions>
-            <condition childId="1b37-82b8-c062-eb82" field="selections" scope="self" shared="true" type="atLeast" value="1"/>
-          </conditions>
-        </modifier>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
             <conditionGroup type="and">
@@ -574,17 +583,11 @@
         <cost name="pts" typeId="points" value="130"/>
       </costs>
       <entryLinks>
-        <entryLink name="Reinforced" id="4491-9c92-5a35-a81a" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
         <entryLink name="Battle Wounds + Scars" id="e40a-add0-aece-1905" hidden="false" import="true" targetId="30aa-ebc9-444f-7be3" type="selectionEntryGroup"/>
         <entryLink name="Paths" id="5e39-18b8-2b6e-8629" hidden="false" import="true" targetId="2156-0cb8-ed35-a44f" type="selectionEntryGroup"/>
         <entryLink name="Renown" id="e910-d824-d315-ad6d" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
       </entryLinks>
       <modifiers>
-        <modifier field="points" type="multiply" value="2">
-          <conditions>
-            <condition childId="1b37-82b8-c062-eb82" field="selections" scope="self" shared="true" type="atLeast" value="1"/>
-          </conditions>
-        </modifier>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
             <conditionGroup type="and">

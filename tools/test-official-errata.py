@@ -79,16 +79,29 @@ class OfficialErrataTests(unittest.TestCase):
                             c.get('type') == 'notInstanceOf' for c in hidden.iter()))
 
     def test_seraphon_support_choices_share_one_limit(self):
-        for name in ['Skink Starpriest', 'Skink Starseer']:
-            hero = named('Seraphon.cat', name)
-            group = next(g for g in hero.findall('{*}modifierGroups/{*}modifierGroup')
-                         if any(m.get('value') == 'd252-534-cc7e-8040' and not m.get('affects')
-                                for m in g.findall('{*}modifiers/{*}modifier')))
-            leaders = {c.get('childId') for c in group.findall(
-                '{*}conditionGroups/{*}conditionGroup/{*}localConditionGroups/'
-                '{*}localConditionGroup/{*}conditions/{*}condition')}
-            self.assertEqual(leaders, {'b137-2ba4-aec4-ee33', '74bb-6987-d78-6035',
-                                      'd1f3-921c-b403-1106'})
+        # BSData 4ac427f: Favoured Spawning closes with a joining Starpriest or
+        # Starseer under Kroak or a Slann, and the Starseer has its own 0-1 cap.
+        file = 'Seraphon.cat'
+        spawning = by_id(file, 'd252-534-cc7e-8040')
+        blockers = {c.get('childId') for g in spawning.iter()
+                    if g.tag.endswith('localConditionGroup') and g.get('type') == 'lessThan'
+                    for c in g.iter() if c.tag.endswith('condition')}
+        self.assertTrue({'4a6d-57cc-4f15-dd3a', '8b73-3877-1870-fce1'} <= blockers)
+        starseer = by_id(file, '8b73-3877-1870-fce1')
+        cap = starseer.find('{*}constraints/{*}constraint')
+        self.assertEqual((cap.get('type'), cap.get('value')), ('max', '-1'))
+        opened = next(m for m in starseer.findall('{*}modifiers/{*}modifier')
+                      if m.get('field') == cap.get('id'))
+        self.assertEqual(opened.get('value'), '1')
+        leaders = {c.get('childId') for c in opened.iter() if c.tag.endswith('condition')}
+        self.assertTrue({'b137-2ba4-aec4-ee33', '74bb-6987-d78-6035'} <= leaders)
+
+    def test_aqshy_aggradon_still_joins_as_favoured_spawning(self):
+        # Battle Profiles, September 2026, p. 18 keeps the note; BSData drops it.
+        hero = by_id('Seraphon.cat', 'f43e-a514-0668-d66a')
+        joins = [m for m in hero.findall('{*}modifierGroups/{*}modifierGroup/{*}modifiers/{*}modifier')
+                 if m.get('value') == 'd252-534-cc7e-8040' and not m.get('affects')]
+        self.assertEqual(len(joins), 1)
 
     def test_oracular_visions_changes_only_the_foot_hero(self):
         file = 'Slaves to Darkness - Library.cat'

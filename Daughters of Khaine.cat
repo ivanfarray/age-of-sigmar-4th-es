@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Daughters of Khaine" id="5232-3bab-5562-3172" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="40" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Daughters of Khaine" id="5232-3bab-5562-3172" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="false" revision="41" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
     <catalogueLink name="Daughters of Khaine - Library" id="4107-84e9-a104-b262" targetId="37ab-3336-3e89-c608" type="catalogue"/>
     <catalogueLink name="✦ Path to Glory - Ravaged Coast" id="4e5b-2035-b5d9-735f" importRootEntries="true" targetId="a434-b1ba-922b-7624" type="catalogue"/>
@@ -71,10 +71,10 @@
                     <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                   </conditions>
                 </localConditionGroup>
-                <localConditionGroup field="selections" includeChildSelections="true" scope="force" type="atLeast" value="1">
+                <localConditionGroup field="selections" includeChildForces="true" includeChildSelections="true" repeats="1" scope="force" type="atLeast" value="1">
                   <conditions>
-                    <condition childId="f56c-2b0-3850-5a51" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
-                    <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="f56c-2b0-3850-5a51" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
+                    <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="self" shared="true" type="instanceOf" value="1"/>
                   </conditions>
                 </localConditionGroup>
               </localConditionGroups>
@@ -237,23 +237,26 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="be17-9358-408e-4069"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
           <conditions>
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
             <modifier affects="self.entries.recursive.5ef2-db09-d3cc-4b27" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.be17-9358-408e-4069" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
-          </modifiers>
-        </modifierGroup>
-        <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-
-          <modifiers>
-            <modifier field="category" type="add" value="be17-9358-408e-4069"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -562,23 +565,26 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="be17-9358-408e-4069"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
           <conditions>
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
             <modifier affects="self.entries.recursive.5ef2-db09-d3cc-4b27" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.be17-9358-408e-4069" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
-          </modifiers>
-        </modifierGroup>
-        <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-
-          <modifiers>
-            <modifier field="category" type="add" value="be17-9358-408e-4069"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -758,7 +764,7 @@
         <cost name="pts" typeId="points" value="100"/>
       </costs>
       <entryLinks>
-        <entryLink name="Reinforced" id="b10e-dd5c-52c2-5acf" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
+        <entryLink name="Reinforced" id="304a-f129-34c8-b0e3" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
         <entryLink name="Paths" id="5f19-94ab-ffbb-12c8" hidden="false" import="true" targetId="a78f-4d81-534c-3aeb" type="selectionEntryGroup"/>
         <entryLink name="Battle Wounds + Scars" id="7f79-c2ad-5d3d-b1ee" hidden="false" import="true" targetId="d34a-59ba-2762-3d65" type="selectionEntryGroup"/>
         <entryLink name="Renown" id="dbd9-3d96-0d4b-7328" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
@@ -1271,7 +1277,7 @@
                 <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="8f4b-1fa6-3128-8405" childName="Regimental Option" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1647,6 +1653,9 @@ Only one blood rite can be performed per unit destroyed.</characteristic>
           <constraints>
             <constraint id="bf9d-9126-da69-6301" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="20"/>
+          </costs>
           <profiles>
             <profile name="The Breath of Khaine" id="0dbf-063e-65b5-3879" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
               <attributes>
@@ -1660,9 +1669,6 @@ Only one blood rite can be performed per unit destroyed.</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="20"/>
-          </costs>
         </selectionEntry>
         <selectionEntry name="Frenzied Devotees" id="a0a1-f2ba-a292-99bb" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -1710,6 +1716,9 @@ Only one blood rite can be performed per unit destroyed.</characteristic>
           <constraints>
             <constraint id="9a1e-4c2e-f1b4-c147" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
           <profiles>
             <profile name="Final Frenzy" id="7791-117b-28d4-bc4a" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
               <attributes>
@@ -1727,9 +1736,6 @@ Return up to 1 slain model to each target that that has a Health characteristic 
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="10"/>
-          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

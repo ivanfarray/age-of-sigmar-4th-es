@@ -231,23 +231,26 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="bf4e-4b1b-7055-2ec8"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
           <conditions>
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
             <modifier affects="self.entries.recursive.75d6-6995-dfcc-3898" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.bf4e-4b1b-7055-2ec8" field="category" scope="force" type="add" value="8f4b-1fa6-3128-8405"/>
-          </modifiers>
-        </modifierGroup>
-        <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-
-          <modifiers>
-            <modifier field="category" type="add" value="bf4e-4b1b-7055-2ec8"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -675,17 +678,11 @@
         <cost name="pts" typeId="points" value="240"/>
       </costs>
       <entryLinks>
-        <entryLink name="Reinforced" id="8d4b-e3e7-ee94-241c" hidden="false" import="true" targetId="1b37-82b8-c062-eb82" type="selectionEntry"/>
         <entryLink name="Battle Wounds + Scars" id="da2d-2bad-d382-c99f" hidden="false" import="true" targetId="9b0d-58b7-8982-2128" type="selectionEntryGroup"/>
         <entryLink name="Paths" id="f647-113a-6030-c89f" hidden="false" import="true" targetId="517c-3059-2a24-89dc" type="selectionEntryGroup"/>
         <entryLink name="Renown" id="3c36-cf7c-b8b8-84fa" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
       </entryLinks>
       <modifiers>
-        <modifier field="points" type="multiply" value="2">
-          <conditions>
-            <condition childId="1b37-82b8-c062-eb82" field="selections" scope="self" shared="true" type="atLeast" value="1"/>
-          </conditions>
-        </modifier>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
             <conditionGroup type="and">
@@ -849,6 +846,20 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="bf4e-4b1b-7055-2ec8"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
           <conditions>
             <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
           </conditions>
@@ -858,17 +869,6 @@
                 <condition childId="537a-7689-6beb-958b" field="selections" scope="force" shared="true" type="atLeast" value="2"/>
               </conditions>
             </modifier>
-          </modifiers>
-        </modifierGroup>
-        <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-
-          <modifiers>
-            <modifier field="category" type="add" value="bf4e-4b1b-7055-2ec8"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -914,9 +914,9 @@
       </modifiers>
     </entryLink>
     <entryLink name="Hrothgorn Mantrapper" id="6a1d-0816-af81-f891" hidden="false" import="true" targetId="7085-43d6-6b37-a1fa" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink name="Regimental Leader" id="ad7d-eab4-49f6-d49c" hidden="false" primary="true" targetId="d1f3-921c-b403-1106"/>
-      </categoryLinks>
+      <constraints>
+        <constraint id="8c93-cb1a-fec0-cbdc" field="selections" scope="force" shared="true" type="max" value="-1"/>
+      </constraints>
       <costs>
         <cost name="pts" typeId="points" value="120"/>
       </costs>
@@ -926,17 +926,72 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
           <modifiers>
             <modifier field="category" type="add" value="bf4e-4b1b-7055-2ec8"/>
           </modifiers>
         </modifierGroup>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier field="8c93-cb1a-fec0-cbdc" type="set" value="0">
+              <conditions>
+                <condition childId="6a1d-0816-af81-f891" field="selections" scope="force" shared="true" type="atLeast" value="2"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition childId="ba19-a5af-577c-4ecb" field="selections" scope="force" shared="true" type="lessThan" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier field="category" scope="root-entry" type="set-primary" value="d1f3-921c-b403-1106">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier field="hidden" type="set" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </entryLink>
     <entryLink name="Ironblaster (Scourge of Ghyran)" id="23c1-44bf-e758-8bff" hidden="false" import="true" targetId="de7a-e54c-b1f5-dd6b" type="selectionEntry">
       <costs>
@@ -1171,7 +1226,6 @@
                 <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
                 <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-                <condition childId="8f4b-1fa6-3128-8405" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1376,6 +1430,20 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="bf4e-4b1b-7055-2ec8"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
           <conditions>
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
@@ -1384,17 +1452,6 @@
             <modifier affects="self.entries.recursive.139a-e1a2-a79a-6fce" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.7b4c-9343-e884-9b28" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
             <modifier affects="self.entries.recursive.3a87-b1c8-8528-7efd" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
-          </modifiers>
-        </modifierGroup>
-        <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-
-          <modifiers>
-            <modifier field="category" type="add" value="bf4e-4b1b-7055-2ec8"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -1502,22 +1559,25 @@
       </entryLinks>
       <modifierGroups>
         <modifierGroup type="and">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier field="category" type="add" value="bf4e-4b1b-7055-2ec8"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
           <conditions>
             <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
           </conditions>
           <modifiers>
             <modifier affects="self.entries.recursive.b50b-6a98-f92a-c99c" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
-          </modifiers>
-        </modifierGroup>
-        <modifierGroup type="and">
-          <conditions>
-            <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
-            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
-          </conditions>
-
-          <modifiers>
-            <modifier field="category" type="add" value="bf4e-4b1b-7055-2ec8"/>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -2173,6 +2233,9 @@ Then, the unit using this ability can make a pile-in move. If the target of this
           <constraints>
             <constraint id="8c70-3c27-c55a-1c0c" field="selections" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="10"/>
+          </costs>
           <profiles>
             <profile name="Grub&apos;s Up, Mateys!" id="eb4f-7ba2-6a2d-988d" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
               <attributes>
@@ -2189,9 +2252,6 @@ Then, the unit using this ability can make a pile-in move. If the target of this
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="10"/>
-          </costs>
         </selectionEntry>
         <selectionEntry name="Mawpath Menaces" id="8e62-4d0b-5197-67bd" hidden="true" import="true" publicationId="f894-7929-f79a-a269" type="upgrade">
           <constraints>

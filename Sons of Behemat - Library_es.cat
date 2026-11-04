@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Hijos de Behemat - Biblioteca" id="e691-c828-52e1-f1a8" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="22" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Hijos de Behemat - Biblioteca" id="e691-c828-52e1-f1a8" battleScribeVersion="2.03" gameSystemId="e51d-b1a3-75fc-dc3g" gameSystemRevision="2" library="true" revision="23" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Hijo de Behemat" id="ff24-51d-54d2-c80b" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
       <attributes>
@@ -705,6 +705,17 @@ Durante el resto del turno, resta 1 a las tiradas para impactar de los ataques d
             <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 15 o más puntos de daño, el atributo Attacks de su **Mayal aplastafortalezas** es 11 para **Calamitous Sweep** y 4 para **Crushing Blow**.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Mayal aplastafortalezas" id="b2b4-d8d7-2f56-439a" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Combatir^^**, elige los atributos de arma **Calamitous Sweep** o **Crushing Blow** para todos los ataques que haga con su **Mayal aplastafortalezas**.</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Se va a caer" id="cc15-3916-c7f2-cb9a" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
           <attributes>
             <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
@@ -733,17 +744,6 @@ Durante el resto del turno, resta 1 a las tiradas para impactar de los ataques d
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tú y tu oponente debéis hacer una tirada enfrentada. Cada jugador suma su **nivel de furia** a su tirada. Después, esta unidad puede moverse una distancia de hasta su característica de Move. Puede moverse a través de los alcances de combate de unidades enemigas, pero no puede terminar ese movimiento en combate a menos que hayas ganado la tirada enfrentada.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f">**^^Básica^^**, **^^Movimiento^^**</characteristic>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
-          </characteristics>
-        </profile>
-        <profile name="Mayal aplastafortalezas" id="86d4-61e4-33f7-5665" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
-          <attributes>
-            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
-            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
-            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
-          </attributes>
-          <characteristics>
-            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Combatir^^**, elige los atributos de arma **Calamitous Sweep** o **Crushing Blow** para todos los ataques que haga con su **Mayal aplastafortalezas**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -778,13 +778,13 @@ Durante el resto del turno, resta 1 a las tiradas para impactar de los ataques d
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Mayal aplastafortalezas: Barrido calamitoso" id="7393-f351-20ab-5c45" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Mayal aplastafortalezas: Barrido calamitoso" id="765c-a6cd-d2e0-8036" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="607b-1c78-6d5d-54f4" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="d5cc-6f6a-d68b-59e0" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="25bc-04f7-20c4-8bf9" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="4bf4-84e4-8861-2a8e" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Mayal aplastafortalezas: Barrido calamitoso" id="c36f-f3f8-7179-5e39" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                <profile name="Mayal aplastafortalezas: Barrido calamitoso" id="39b0-4550-7fb9-c97c" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Atk" typeId="60e-35aa-31ed-e488">16</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
@@ -792,6 +792,24 @@ Durante el resto del turno, resta 1 a las tiradas para impactar de los ataques d
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
                     <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (herida automática)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Mayal aplastafortalezas: Golpe aplastante" id="8201-a399-a5ed-2555" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="f58c-94eb-a268-f40c" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="5e0e-1206-42c3-c054" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Mayal aplastafortalezas: Golpe aplastante" id="6c32-1003-bbd3-f9af" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -814,24 +832,6 @@ Durante el resto del turno, resta 1 a las tiradas para impactar de los ataques d
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Mayal aplastafortalezas: Golpe aplastante" id="3a8e-e32c-247e-e00d" hidden="false" import="true" type="upgrade">
-              <constraints>
-                <constraint id="c8c5-027c-a86a-4dba" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="4784-6de2-41b6-ca8f" field="selections" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <profiles>
-                <profile name="Mayal aplastafortalezas: Golpe aplastante" id="9673-c3fd-9be0-b84b" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
-                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
-                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
-                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
           </selectionEntries>
         </selectionEntry>
       </selectionEntries>
@@ -842,15 +842,11 @@ Durante el resto del turno, resta 1 a las tiradas para impactar de los ataques d
         <categoryLink name="MONSTER" id="a3a8-017b-697a-48ca" hidden="false" primary="false" targetId="6d54-625c-d063-13e2"/>
         <categoryLink name="DESTRUCTION" id="ee7b-1f4d-9b90-5da4" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
         <categoryLink name="SONS OF BEHEMAT" id="3032-eea5-467e-25ad" hidden="false" primary="false" targetId="482b-a44e-ffc6-df0a"/>
-        <categoryLink name="MEGA-GARGANT" id="f231-c283-ed61-7c4f" hidden="false" primary="false" targetId="3723-4d8b-de1e-114b"/>
+        <categoryLink name="BIG" id="f231-c283-ed61-7c4f" hidden="false" primary="false" targetId="aba7-75e8-ea43-5f1e"/>
       </categoryLinks>
       <entryLinks>
         <entryLink name="General" id="cc49-f05c-e0be-1a96" hidden="false" import="true" targetId="a56b-952e-ad15-7868" type="selectionEntry"/>
       </entryLinks>
-      <infoLinks>
-        <infoLink name="Hijo de Behemat" id="cfeb-327e-0b61-4802" hidden="false" targetId="ff24-51d-54d2-c80b" type="profile"/>
-        <infoLink name="Zanquilargos" id="5fc1-9dcf-92c3-691f" hidden="false" targetId="c219-8bc2-6da1-f74f" type="profile"/>
-      </infoLinks>
       <modifiers>
         <modifier field="hidden" type="set" value="false">
           <conditionGroups>
@@ -872,9 +868,9 @@ Durante el resto del turno, resta 1 a las tiradas para impactar de los ataques d
         <profile name="Megagigante rompepuertas" id="6afe-5988-16be-051c" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
           <characteristics>
             <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">10&quot;</characteristic>
-            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">35</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">25</characteristic>
             <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">4+</characteristic>
-            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">20</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">10</characteristic>
           </characteristics>
         </profile>
         <profile name="Daños de batalla" id="3d3a-ab6b-0082-292d" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
@@ -885,7 +881,18 @@ Durante el resto del turno, resta 1 a las tiradas para impactar de los ataques d
           </attributes>
           <characteristics>
             <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
-            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 15 o más puntos de daño, la característica de Attacks de su **Mayal aplastafortalezas** es 4 y esta unidad tiene una característica de Control de 10.</characteristic>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad tenga 15 o más puntos de daño, el atributo Attacks de su **Mayal aplastafortalezas** es 11 para **Calamitous Sweep** y 4 para **Crushing Blow**.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mayal aplastafortalezas" id="9f60-7c73-1760-b134" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+          <attributes>
+            <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+            <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+            <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+          </attributes>
+          <characteristics>
+            <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"/>
+            <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use una habilidad **^^Combatir^^**, elige los atributos de arma **Calamitous Sweep** o **Crushing Blow** para todos los ataques que haga con su **Mayal aplastafortalezas**.</characteristic>
           </characteristics>
         </profile>
         <profile name="Se va a caer" id="1417-e560-4fa9-7afa" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
@@ -895,7 +902,7 @@ Durante el resto del turno, resta 1 a las tiradas para impactar de los ataques d
             <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
           </attributes>
           <characteristics>
-            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, tu fase de héroe</characteristic>
+            <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"/>
             <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Hasta el inicio de tu siguiente turno:
 • Esta unidad tiene una característica de Move de 4D6".
@@ -943,27 +950,45 @@ Durante el resto del turno, resta 1 a las tiradas para impactar de los ataques d
                     <characteristic name="Atk" typeId="aa17-4296-2887-e05d">1</characteristic>
                     <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">3+</characteristic>
                     <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">2+</characteristic>
-                    <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">3</characteristic>
+                    <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">2</characteristic>
                     <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">4</characteristic>
                     <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry name="Presa mortal" id="c321-c94e-ec74-5135" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Mayal aplastafortalezas: Barrido calamitoso" id="1f40-b816-a862-2ca1" hidden="false" import="true" type="upgrade">
               <constraints>
-                <constraint id="3ff7-b201-d023-0056" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="ca7c-ae5b-8ac3-b593" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="fbc1-81dd-d3e5-9240" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="5f8b-0455-a351-8c7a" field="selections" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <profiles>
-                <profile name="Presa mortal" id="0718-faa3-a927-5dc7" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                <profile name="Mayal aplastafortalezas: Barrido calamitoso" id="ca9e-78d8-1f46-a1d9" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">16</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">3+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">3+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">1</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">1</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Crítico (herida automática)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Mayal aplastafortalezas: Golpe aplastante" id="5516-57be-2b0f-cbab" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="fa9a-71ad-34b7-67bd" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="820b-0e73-bb6a-b54f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <profiles>
+                <profile name="Mayal aplastafortalezas: Golpe aplastante" id="a779-0ead-1b6f-b77e" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D6</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Héroe^^** (+1 Perforación)</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -976,30 +1001,12 @@ Durante el resto del turno, resta 1 a las tiradas para impactar de los ataques d
               <profiles>
                 <profile name="Pisotón todopoderoso" id="7ce2-8c69-9dea-2080" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
                   <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
                     <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
                     <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
                     <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
                     <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Infantería^^** (+1 Perforación)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-            <selectionEntry name="Mayal aplastafortalezas" id="fd19-cd02-c2ff-d3f3" hidden="false" import="true" type="upgrade">
-              <constraints>
-                <constraint id="5894-c588-c069-8fce" field="selections" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="17ed-ecb2-c789-4b55" field="selections" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <profiles>
-                <profile name="Mayal aplastafortalezas" id="e8ee-b442-7c4c-71ac" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
-                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
-                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
-                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
-                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
-                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">Anti-**^^Terreno de facción^^** (+1 Perforación)</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2135,5 +2142,1589 @@ Después, puedes gastar hasta 3 dados de ira. Si lo haces:
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
+    <selectionEntry name="Yunque de la apoteosis: héroe de los Hijos de Behemat" id="3bb5-113a-ef33-1eef" collapsible="true" flatten="false" hidden="true" import="true" publicationId="b765-4747-cddc-385e" type="unit">
+      <categoryLinks>
+        <categoryLink name="HERO" id="641a-276c-b6cc-fba1" hidden="false" primary="true" targetId="6e72-1656-d554-528a"/>
+        <categoryLink name="MONSTER" id="1144-7514-0030-3748" hidden="false" primary="false" targetId="6d54-625c-d063-13e2"/>
+        <categoryLink name="DESTRUCTION" id="3bc5-129c-a96e-f76d" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
+        <categoryLink name="SONS OF BEHEMAT" id="8302-185a-655f-7b97" hidden="false" primary="false" targetId="482b-a44e-ffc6-df0a"/>
+        <categoryLink name="LITTLE" id="3870-c051-7d0d-5f8d" hidden="false" primary="false" targetId="d8ec-c3f5-89bb-d132"/>
+      </categoryLinks>
+      <constraints>
+        <constraint id="68dc-ef6d-1b7b-58f6" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="max" value="1"/>
+      </constraints>
+      <entryLinks>
+        <entryLink name="General" id="0ccc-f703-e7d2-531d" hidden="false" import="true" targetId="a56b-952e-ad15-7868" type="selectionEntry"/>
+      </entryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="root-entry" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier affects="self.entries.recursive.482b-a44e-ffc6-df0a" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <modifiers>
+        <modifier field="error" type="add" value="Destiny point limit exceeded.">
+          <conditions>
+            <condition childId="any" field="bc33-05f5-8d3f-af43" scope="self" shared="true" type="lessThan" value="0"/>
+          </conditions>
+        </modifier>
+        <modifier field="hidden" type="set" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="any" field="e63c-79ff-93ba-c5eb" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+                <condition childId="de5f-588b-ea57-d6b5" field="selections" scope="primary-catalogue" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Yunque de la apoteosis: héroe de los Hijos de Behemat" id="7083-8d1a-61c8-5b61" hidden="false" typeId="ff03-376e-972f-8ab2" typeName="Unit">
+          <characteristics>
+            <characteristic name="Move" typeId="fed0-d1b3-1bb8-c501">8&quot;</characteristic>
+            <characteristic name="Health" typeId="96be-54ae-ce7b-10b7">12</characteristic>
+            <characteristic name="Save" typeId="1981-ef09-96f6-7aa9">5+</characteristic>
+            <characteristic name="Control" typeId="6c6f-8510-9ce1-fc6e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Yunque de la apoteosis: héroe de los Hijos de Behemat" id="6680-ee99-1e72-73c7" hidden="false" import="true" type="model">
+          <constraints>
+            <constraint id="b2c4-85f3-ab6f-00a5" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="0bd9-0518-ca02-af68" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry name="Arma de Pisatoros" id="586f-06d7-b947-53c9" hidden="false" import="true" type="upgrade">
+              <constraints>
+                <constraint id="03d0-c5f3-ea0f-295a" automatic="true" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                <constraint id="9550-2d2b-a0e7-b57a" automatic="true" field="selections" scope="parent" shared="true" type="min" value="1"/>
+              </constraints>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <conditions>
+                    <condition childId="51be-8d40-6361-7c3c" field="selections" includeChildSelections="true" scope="root-entry" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier field="hidden" type="set" value="true"/>
+                    <modifier field="9550-2d2b-a0e7-b57a" type="set" value="0"/>
+                    <modifier field="03d0-c5f3-ea0f-295a" type="set" value="0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <profiles>
+                <profile name="Arma de Pisatoros" id="4649-13e0-503e-a0d3" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">6</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">2</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Arma gargantuesca" id="f02b-e594-ddd0-1fcc" defaultAmount="0" hidden="true" import="true" type="upgrade">
+              <constraints>
+                <constraint id="304a-b25c-ccad-6c03" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
+                <constraint id="2129-c7fc-4cb5-6446" automatic="true" field="selections" scope="parent" shared="true" type="max" value="0"/>
+              </constraints>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <conditions>
+                    <condition childId="51be-8d40-6361-7c3c" field="selections" includeChildSelections="true" scope="root-entry" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier field="hidden" type="set" value="false"/>
+                    <modifier field="2129-c7fc-4cb5-6446" type="set" value="1"/>
+                    <modifier field="304a-b25c-ccad-6c03" type="set" value="1"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <profiles>
+                <profile name="Arma gargantuesca" id="5470-b40a-180b-cae9" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">4</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">4</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Pisotón todopoderoso" id="423e-a4fd-7da1-e095" defaultAmount="0" hidden="true" import="true" type="upgrade">
+              <constraints>
+                <constraint id="31f6-f33d-5ccc-028f" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
+                <constraint id="d281-c363-7e90-07bd" automatic="true" field="selections" scope="parent" shared="true" type="max" value="0"/>
+              </constraints>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <conditions>
+                    <condition childId="51be-8d40-6361-7c3c" field="selections" includeChildSelections="true" scope="root-entry" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier field="hidden" type="set" value="false"/>
+                    <modifier field="d281-c363-7e90-07bd" type="set" value="1"/>
+                    <modifier field="31f6-f33d-5ccc-028f" type="set" value="1"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <profiles>
+                <profile name="Pisotón todopoderoso" id="eca4-c7b2-c72e-8cad" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">3</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">D3</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Cabezazo" id="a28c-4f19-e8b1-4da0" defaultAmount="0" hidden="true" import="true" type="upgrade">
+              <constraints>
+                <constraint id="1239-ce69-4127-8333" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
+                <constraint id="db2d-5af2-0c9f-1f8c" automatic="true" field="selections" scope="parent" shared="true" type="max" value="0"/>
+              </constraints>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <conditions>
+                    <condition childId="feef-b191-a68c-2cc6" field="selections" includeChildSelections="true" scope="root-entry" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier field="hidden" type="set" value="false"/>
+                    <modifier field="db2d-5af2-0c9f-1f8c" type="set" value="1"/>
+                    <modifier field="1239-ce69-4127-8333" type="set" value="1"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <profiles>
+                <profile name="Cabezazo" id="3475-a661-2ac3-3499" hidden="false" typeId="9074-76b6-9e2f-81e3" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Atk" typeId="60e-35aa-31ed-e488">1</characteristic>
+                    <characteristic name="Hit" typeId="26dc-168-b2fd-cb93">4+</characteristic>
+                    <characteristic name="Wnd" typeId="61c1-22cc-40af-2847">2+</characteristic>
+                    <characteristic name="Rnd" typeId="eccc-10fa-6958-fb73">2</characteristic>
+                    <characteristic name="Dmg" typeId="e948-9c71-12a6-6be4">3</characteristic>
+                    <characteristic name="Ability" typeId="eda3-7332-5db1-4159">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry name="Peñasco lanzado" id="4743-3126-19d5-5522" defaultAmount="0" hidden="true" import="true" type="upgrade">
+              <constraints>
+                <constraint id="e6a0-e2ac-4c04-4847" automatic="true" field="selections" scope="parent" shared="true" type="min" value="0"/>
+                <constraint id="fcee-24a3-fc23-bc2a" automatic="true" field="selections" scope="parent" shared="true" type="max" value="0"/>
+              </constraints>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <conditions>
+                    <condition childId="247f-ef2b-af43-5c90" field="selections" includeChildSelections="true" scope="root-entry" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier field="hidden" type="set" value="false"/>
+                    <modifier field="fcee-24a3-fc23-bc2a" type="set" value="1"/>
+                    <modifier field="e6a0-e2ac-4c04-4847" type="set" value="1"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <profiles>
+                <profile name="Peñasco lanzado" id="c21f-5d8b-5b11-5bb8" hidden="false" typeId="1fd-a42f-41d3-fe05" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Rng" typeId="c6b5-908c-a604-1a98">12&quot;</characteristic>
+                    <characteristic name="Atk" typeId="aa17-4296-2887-e05d">1</characteristic>
+                    <characteristic name="Hit" typeId="194d-aeb6-5ba7-83b4">4+</characteristic>
+                    <characteristic name="Wnd" typeId="d3d5-9dc6-13de-8d1">2+</characteristic>
+                    <characteristic name="Rnd" typeId="d03f-a9ae-3eec-755">2</characteristic>
+                    <characteristic name="Dmg" typeId="96c2-d0a5-ea1e-653b">4</characteristic>
+                    <characteristic name="Ability" typeId="d793-3dd7-9c13-741e">Anti-**^^Infantería^^** (+1 Perforación)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="El Yunque de la Apoteosis" id="3005-e4cb-ee6f-02fd" hidden="false" sortIndex="1">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Límite de puntos de destino" id="75a1-257a-4cb3-f2bf" collapsible="true" hidden="false" sortIndex="1">
+              <constraints>
+                <constraint id="8228-aba8-79ad-dd1e" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="a265-c54f-dae7-02b4" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry name="Enclenque" id="ea61-4bb3-849f-91b0" hidden="false" import="true" sortIndex="1" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="150"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="5"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry name="Zoquete" id="daff-7bc2-98e1-6bcd" hidden="false" import="true" sortIndex="2" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="250"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="25"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry name="Pequeño canalla" id="67af-7294-2ff3-b67b" hidden="false" import="true" sortIndex="3" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="350"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="45"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry name="Gran canalla" id="51be-8d40-6361-7c3c" hidden="false" import="true" sortIndex="4" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="400"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="10"/>
+                  </costs>
+                  <modifiers>
+                    <modifier affects="profiles.Unit" field="fed0-d1b3-1bb8-c501" scope="root-entry" type="set" value="10&quot;"/>
+                    <modifier affects="profiles.Unit" field="96be-54ae-ce7b-10b7" scope="root-entry" type="set" value="25"/>
+                    <modifier affects="profiles.Unit" field="6c6f-8510-9ce1-fc6e" scope="root-entry" type="set" value="10"/>
+                    <modifier field="category" scope="root-entry" type="remove" value="d8ec-c3f5-89bb-d132"/>
+                    <modifier field="category" scope="root-entry" type="add" value="aba7-75e8-ea43-5f1e"/>
+                  </modifiers>
+                  <rules>
+                    <rule name="Gran canalla" id="c9a9-3e9b-6ade-a87a" hidden="true">
+                      <description>Tu héroe empieza con el pergamino **Mega-Gargant Hero** en lugar del pergamino **Bullstomper Hero**:
+• Cambia la característica de Move a 10".
+• Cambia la característica de Salud a 25.
+• Cambia la característica de Control a 10.
+• Sustituye el **Arma de Pisatoros** por el **Arma gargantuesca** y el **Pisotón todopoderoso**.
+• Sustituye la palabra clave **^^Little^^** por la palabra clave **^^Big^^**.
+Tu héroe debe estar representado por una miniatura montada en una peana redonda de 130 mm o mayor.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Arquetipo" id="3021-4804-8f19-11ed" collapsible="true" hidden="false" sortIndex="2">
+              <constraints>
+                <constraint id="93a0-40ef-4324-a9f4" field="selections" scope="parent" shared="true" type="min" value="1"/>
+                <constraint id="ed0e-f513-d296-0c58" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry name="Mandón" id="37aa-877b-00af-319a" hidden="false" import="true" sortIndex="1" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="0"/>
+                  </costs>
+                  <rules>
+                    <rule name="Mandón" id="a4c1-a0a2-769c-b7bb" hidden="true">
+                      <description>Tu héroe tiene las siguientes opciones de regimiento:
+Cualquier unidad **^^Hijos de Behemat^^**</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Patilargo" id="6c2d-bab6-b887-3239" hidden="false" import="true" sortIndex="2" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
+                  </costs>
+                  <modifiers>
+                    <modifier affects="profiles.Unit" field="fed0-d1b3-1bb8-c501" scope="root-entry" type="increment" value="2"/>
+                  </modifiers>
+                  <rules>
+                    <rule name="Patilargo" id="8ac6-e79e-6278-ba67" hidden="true">
+                      <description>Suma 2" a la característica de Move de tu héroe, y tu héroe tiene las siguientes opciones de regimiento:
+Cualquier unidad **^^Hijos de Behemat^^**</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Siniestro" id="be48-fd63-a9ef-e08d" hidden="false" import="true" sortIndex="3" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
+                  </costs>
+                  <modifiers>
+                    <modifier field="category" scope="root-entry" type="add" value="6f28-c3f6-4b1b-8aff"/>
+                  </modifiers>
+                  <rules>
+                    <rule name="Siniestro" id="1832-4e8c-5604-9d06" hidden="true">
+                      <description>Tu héroe tiene la palabra clave **^^Wizard (1)^^** y las siguientes opciones de regimiento:
+Cualquier unidad **^^Hijos de Behemat^^**</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Santo (para ser un gigante)" id="75a2-0cb4-1cb6-3b4f" hidden="false" import="true" sortIndex="4" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
+                  </costs>
+                  <modifiers>
+                    <modifier field="category" scope="root-entry" type="add" value="3fe-84f4-cec6-a1c1"/>
+                  </modifiers>
+                  <rules>
+                    <rule name="Santo (para ser un gigante)" id="57d3-089a-3033-cbb6" hidden="true">
+                      <description>Tu héroe tiene la palabra clave **^^Priest (1)^^** y las siguientes opciones de regimiento:
+Cualquier unidad **^^Hijos de Behemat^^**</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Orígenes" id="c84b-af7e-e43d-a051" collapsible="true" hidden="false" sortIndex="3">
+              <constraints>
+                <constraint id="0f85-3d4b-49c2-161b" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry name="Discípulo de Brodd" id="320b-fa30-59d4-e4ac" hidden="false" import="true" sortIndex="1" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-1"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Discípulo de Brodd" id="1142-7baa-a910-5cbd" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 2 a las tiradas de desmán de esta unidad mientras esté a 3" o menos de algún elemento de escenografía de facción enemigo.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Coleccionista indignado" id="0a85-0865-bfcc-cc2c" hidden="false" import="true" sortIndex="2" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Coleccionista indignado" id="5458-3123-4b5c-0b8d" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Black</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige un **^^Hero^^** enemigo como blanco. Puedes elegir una unidad en reserva.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto de la batalla, en cada fase, puedes volver a tirar 1 tirada de impacto o 1 tirada de herida de los ataques de esta unidad que tengan como objetivo a ese **^^Hero^^** enemigo.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Borracho furioso" id="a38d-ce88-d343-ead2" hidden="false" import="true" sortIndex="3" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Borracho furioso" id="7490-2c39-de96-e591" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si se asignan puntos de daño a esta unidad como resultado de una habilidad **^^Combatir^^** usada por una unidad enemiga este turno y esta unidad está en combate con esa unidad enemiga, inflige D3 de daño mortal a esa unidad enemiga después de resolver esa habilidad **^^Combatir^^**.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="¿En realidad... listo?" id="978d-7dba-2df9-f533" hidden="false" import="true" sortIndex="4" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-6"/>
+                  </costs>
+                  <profiles>
+                    <profile name="¿En realidad... listo?" id="3603-e0fc-bfc7-695d" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Black</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), Reacción: Has declarado una orden para esta unidad</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"></characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Elige otra unidad amiga visible **^^Hijos de Behemat^^** que esté totalmente a 12" o menos de esta unidad y que no haya usado una orden esta fase para que use la misma orden inmediatamente después de resolver la primera (esto es una excepción a Órdenes, 1.2). Debes gastar puntos de orden de la forma habitual para usar la orden por segunda vez.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Defectos" id="8851-5a90-c400-5473" collapsible="true" hidden="false" sortIndex="4">
+              <constraints>
+                <constraint id="dae9-5498-f215-1988" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry name="Cuerpo grande, mente pequeña" id="67b8-35d6-6cee-4e44" hidden="false" import="true" sortIndex="1" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="2"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Cuerpo grande, mente pequeña" id="0f20-ae9c-b853-35b9" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Damage</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Esta unidad no puede usar órdenes distintas de la orden &apos;Ataque total&apos;.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Fantásticamente torpe" id="29db-77c6-6951-7a8a" hidden="false" import="true" sortIndex="2" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="2"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Fantásticamente torpe" id="db93-9e5e-1212-487e" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Damage</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que saques un 1 en una tirada de correr de esta unidad como parte de una habilidad **^^Correr^^**:
+• Inflige D3 de daño mortal a esta unidad.
+• Esa habilidad **^^Correr^^** no tiene efecto.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Herido andante" id="5682-a5dd-3f53-451d" hidden="false" import="true" sortIndex="3" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="3"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Herido andante" id="1134-0f88-5820-afcf" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Damage</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras esta unidad esté dentro del alcance de combate de algún otro **^^Monsters^^** (amigo o enemigo), no puede usar habilidades **^^Rampage^^**.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Ermitaño" id="c84a-cd05-85e5-56f0" hidden="false" import="true" sortIndex="4" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="5"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Ermitaño" id="552b-9da8-f5d3-f20e" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Damage</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de impacto de los ataques de esta unidad mientras esté a 12" o menos de alguna unidad amiga y sea visible para ella.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Apodo infame" id="7893-3821-29ac-b074" collapsible="true" hidden="false" sortIndex="5">
+              <constraints>
+                <constraint id="0b37-ed46-6180-2a60" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry name="La montaña" id="61a6-7aaa-e5f3-1f0e" hidden="false" import="true" sortIndex="1" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-1"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Masa increíble" id="f79f-b8bd-d085-c992" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad ha cargado en el mismo turno, sus armas de cuerpo a cuerpo tienen **Crítico (herida automática)** durante el resto del turno.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="La montaña" id="459e-9252-2575-a04d" hidden="true">
+                      <description>Añade la habilidad &apos;Masa increíble&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Pisotón" id="ed07-b454-b01b-3381" hidden="false" import="true" sortIndex="2" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
+                  </costs>
+                  <modifiers>
+                    <modifier field="hidden" type="set" value="true">
+                      <conditions>
+                        <condition childId="aba7-75e8-ea43-5f1e" field="selections" scope="root-entry" shared="true" type="notInstanceOf" value="1"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <profiles>
+                    <profile name="Aplastador" id="a000-83fa-0acf-8c39" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad ha cargado en el mismo turno, suma 1 a las tiradas de impacto de los ataques hechos con su **Pisotón todopoderoso** durante el resto del turno.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="Pisotón" id="a41d-0e59-4923-3417" hidden="true">
+                      <description>Solo **Mega-Gargant Hero**. Añade la habilidad &apos;Aplastador&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Acaparador" id="5ef3-d5d8-8282-5d53" hidden="false" import="true" sortIndex="3" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Tesoro escondido" id="6774-f67b-0dc2-005f" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Black</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Fase de despliegue</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"></characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si esta unidad no tiene un artefacto de poder, dale 1 artefacto de poder de &apos;Trofeos titánicos&apos;.
+
+**Nota del diseñador:** *Este artefacto de poder se entrega a la unidad durante la fase de despliegue, no durante la composición del ejército.*</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="Acaparador" id="a0b6-ecd8-7d4a-4cf7" hidden="true">
+                      <description>Añade la habilidad &apos;Tesoro escondido&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Alborotador" id="0d7a-10eb-64ae-4596" hidden="false" import="true" sortIndex="4" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Con ganas de bronca" id="268c-c863-59fa-5763" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a la característica de Attacks de las armas de cuerpo a cuerpo de esta unidad mientras esté en combate con 2 o más unidades enemigas.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="Alborotador" id="c34c-e961-fce2-094f" hidden="true">
+                      <description>Añade la habilidad &apos;Con ganas de bronca&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="El errante" id="48c9-aaa5-f13c-9217" hidden="false" import="true" sortIndex="5" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-5"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Siempre en marcha" id="a960-3820-71eb-1437" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Gray</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Reacción: has declarado la orden &apos;Redesplegar&apos; para esta unidad</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"></characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Si sacas un 1-3 al determinar la distancia que puede moverse esta unidad, puedes usar un valor de 4 en su lugar.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="El errante" id="be97-9dec-b82d-0a22" hidden="true">
+                      <description>Añade la habilidad &apos;Siempre en marcha&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Descomunal" id="0159-6b15-72d5-733a" hidden="false" import="true" sortIndex="6" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-6"/>
+                  </costs>
+                  <modifiers>
+                    <modifier affects="profiles.Unit" field="96be-54ae-ce7b-10b7" scope="root-entry" type="increment" value="5"/>
+                  </modifiers>
+                  <rules>
+                    <rule name="Descomunal" id="0763-0b45-ce00-a819" hidden="true">
+                      <description>Suma 5 a la característica de Salud de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Epíteto infame" id="12e7-c534-9e22-cb40" collapsible="true" hidden="false" sortIndex="6">
+              <constraints>
+                <constraint id="db5a-9f1b-7062-48f3" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry name="Devorador de miles" id="e570-2f48-8fc7-708f" hidden="false" import="true" sortIndex="1" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-1"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Mordisqueador" id="245f-6384-70c8-5656" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo otra unidad (amiga o enemiga) dentro del alcance de combate de esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 2+, inflige 1 de daño mortal al objetivo.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="Devorador de miles" id="c079-6f7a-4e04-eccd" hidden="true">
+                      <description>Añade la habilidad &apos;Mordisqueador&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Azote de los Murklands" id="a911-6d89-0fbf-b98e" hidden="false" import="true" sortIndex="2" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Figura temible" id="e050-012d-a471-343e" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Defensive</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 4+, resta 1 a las tiradas de herida de los ataques de combate del objetivo durante el resto del turno.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="Azote de los Murklands" id="b9ec-8d66-c9d4-7667" hidden="true">
+                      <description>Añade la habilidad &apos;Figura temible&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="La gran peste" id="4063-839b-a3a7-ae65" hidden="false" import="true" sortIndex="3" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Tufo inimaginable" id="977f-f6b2-5e85-8563" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Orange</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Movement</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Mientras estén a 12" o menos de esta unidad:
+• Resta 2 a las tiradas de carga de las unidades enemigas **^^Cavalry^^** y **^^Bestia^^**.
+• Resta 1 a las tiradas de carga de las unidades enemigas **^^Infantry^^**, **^^War Machine^^** y **^^Monster^^**.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="La gran peste" id="4722-6682-34d2-3bc6" hidden="true">
+                      <description>Añade la habilidad &apos;Tufo inimaginable&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Aplastaelfos" id="6577-9cf9-66f4-2156" hidden="false" import="true" sortIndex="4" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Agarre asesino" id="332c-f906-df57-5427" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga en combate con esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Si el resultado iguala o supera la característica de Salud del objetivo, inflige al objetivo una cantidad de daño mortal igual a su característica de Salud.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="Aplastaelfos" id="363f-d46d-2e0a-367b" hidden="true">
+                      <description>Añade la habilidad &apos;Agarre asesino&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="El saqueador de la vieja Estrua" id="b3dc-9068-7e60-53da" hidden="false" import="true" sortIndex="5" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-5"/>
+                  </costs>
+                  <profiles>
+                    <profile name="¡Eso es mío!" id="2859-caee-f5dd-c5f6" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Special</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de combate</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo un **^^Hero^^** enemigo en combate con esta unidad y, después, elige un artefacto de poder que tenga el objetivo o 1 de sus armas de cuerpo a cuerpo.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, si has elegido un artefacto de poder, el objetivo deja de tener ese artefacto de poder. Si has elegido un arma de cuerpo a cuerpo, esa arma tiene una característica de Rend de &apos;-&apos; durante el resto de la batalla.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="El saqueador de la vieja Estrua" id="6009-d73b-4869-4fc0" hidden="true">
+                      <description>Añade la habilidad &apos;¡Eso es mío!&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="El llamacuervos" id="08cd-49f5-d640-3cbe" hidden="false" import="true" sortIndex="6" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-6"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Vitalidad indecorosa" id="ae60-bb17-41b8-a454" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que otra miniatura amiga **^^Hijos de Behemat^^** dentro del alcance de combate de esta unidad sea abatida, **Heal (6)** esta unidad.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="El llamacuervos" id="c1e0-47f9-f1dc-a3ad" hidden="true">
+                      <description>Añade la habilidad &apos;Vitalidad indecorosa&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Mejoras" id="9e3f-0144-71b0-da15" collapsible="true" hidden="false" sortIndex="7">
+              <selectionEntries>
+                <selectionEntry name="Zanquilargos" id="66ab-15c0-dc94-b5b7" hidden="false" import="true" sortIndex="1" type="upgrade">
+                  <constraints>
+                    <constraint id="9007-3a3a-bb79-3ada" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-1"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Zanquilargos" id="e8cf-2952-6264-e797" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Gray</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Movement</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de correr de esta unidad.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="Zanquilargos" id="b870-cc87-1db3-cccd" hidden="true">
+                      <description>Añade la habilidad &apos;Zanquilargos&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Piel gruesa" id="c502-1eb8-f98d-14c1" hidden="false" import="true" sortIndex="2" type="upgrade">
+                  <constraints>
+                    <constraint id="a716-ebb6-fe1c-ba5a" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Piel gruesa" id="35fa-47d1-f62f-30ea" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 1 a las tiradas de salvación de esta unidad.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="Piel gruesa" id="6ee1-6ffd-365a-5e83" hidden="true">
+                      <description>Añade la habilidad &apos;Piel gruesa&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Cabezazo" id="feef-b191-a68c-2cc6" hidden="false" import="true" sortIndex="3" type="upgrade">
+                  <constraints>
+                    <constraint id="8e0d-09bb-2029-c10f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-2"/>
+                  </costs>
+                  <rules>
+                    <rule name="Cabezazo" id="39e0-fd45-eae8-6afc" hidden="true">
+                      <description>Añade el arma **Cabezazo** al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Peñasco lanzado" id="247f-ef2b-af43-5c90" hidden="false" import="true" sortIndex="4" type="upgrade">
+                  <constraints>
+                    <constraint id="4566-9998-2e5c-aa5a" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
+                  </costs>
+                  <rules>
+                    <rule name="Peñasco lanzado" id="06f9-704b-8e25-71a3" hidden="true">
+                      <description>Añade el arma **Peñasco lanzado** al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Imponente" id="110f-e5e8-088d-626b" hidden="false" import="true" sortIndex="5" type="upgrade">
+                  <constraints>
+                    <constraint id="d04a-d2bb-af51-3575" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-3"/>
+                  </costs>
+                  <modifiers>
+                    <modifier affects="profiles.Unit" field="6c6f-8510-9ce1-fc6e" scope="root-entry" type="increment" value="5"/>
+                  </modifiers>
+                  <rules>
+                    <rule name="Imponente" id="b5c5-d6fc-de63-9ea8" hidden="true">
+                      <description>Suma 5 a la característica de Control de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Velocista" id="b203-8222-9e27-80ce" hidden="false" import="true" sortIndex="6" type="upgrade">
+                  <constraints>
+                    <constraint id="6c65-ee03-3554-a6a2" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Velocista" id="433c-3926-fa7c-0932" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Gray</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Movement</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que esta unidad use la habilidad &apos;Correr&apos;, si sacas un 2-3 al determinar la distancia que puede moverse, puedes usar un valor de 4 en su lugar.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="Velocista" id="a5e9-9b9d-0b30-0604" hidden="true">
+                      <description>Añade la habilidad &apos;Velocista&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Llegar a las manos" id="7993-77d1-f654-5f18" hidden="false" import="true" sortIndex="7" type="upgrade">
+                  <constraints>
+                    <constraint id="96f6-49cb-b1eb-15aa" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Llegar a las manos" id="2d78-4ea4-3f8c-e84b" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Orange</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Movement</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que hagas una tirada de carga para esta unidad, si no hay unidades enemigas a 9" o menos de ella, puedes cambiar el D6 más bajo para que sea igual al D6 más alto.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="Llegar a las manos" id="4295-fdf8-2102-266d" hidden="true">
+                      <description>Añade la habilidad &apos;Llegar a las manos&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Rompesalvaguardias" id="5b57-3e1c-2ca7-9418" hidden="false" import="true" sortIndex="8" type="upgrade">
+                  <constraints>
+                    <constraint id="861e-dc1d-d058-2854" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-4"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Rompesalvaguardias" id="b450-91a1-020a-8745" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a las tiradas de salvaguardia de los puntos de daño infligidos por los ataques de combate de esta unidad.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="Rompesalvaguardias" id="4cf1-5066-3d26-0c13" hidden="true">
+                      <description>Añade la habilidad &apos;Rompesalvaguardias&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+                <selectionEntry name="Fuerza imparable" id="2bca-fed9-8fa4-83aa" hidden="false" import="true" sortIndex="9" type="upgrade">
+                  <constraints>
+                    <constraint id="2544-5bc1-0959-8e04" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0"/>
+                    <cost name="Destiny Point Limit" typeId="bc33-05f5-8d3f-af43" value="-6"/>
+                  </costs>
+                  <profiles>
+                    <profile name="Fuerza imparable" id="af93-ddc8-0a4a-f1f4" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Ignora los modificadores negativos a las tiradas de impacto y de herida de los ataques de combate de esta unidad.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule name="Fuerza imparable" id="2de2-a024-5117-1342" hidden="true">
+                      <description>Añade la habilidad &apos;Fuerza imparable&apos; al pergamino de tu héroe.</description>
+                    </rule>
+                  </rules>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Sendas" id="67bc-7d62-5005-00d7" flatten="true" hidden="false" publicationId="b765-4747-cddc-385e">
+      <selectionEntries>
+        <selectionEntry name="Senda del Caminante" id="ff3c-d01e-0a69-0d31" hidden="true" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditions>
+                <condition childId="d8ec-c3f5-89bb-d132" field="selections" scope="root-entry" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Restricciones de senda" id="d5d1-2e6d-8271-8083" hidden="true">
+              <description>Solo unidades **^^Little^^**</description>
+            </rule>
+          </rules>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Aspirante" id="4dd2-7bad-064c-0af6" hidden="false" sortIndex="1">
+              <constraints>
+                <constraint id="cf6c-b9f0-08be-658f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <modifiers>
+                <modifier field="hidden" type="set" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition childId="1bed-ddb5-0c50-16d2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8e6f-2dd7-a7ed-489e" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition childId="e7d5-5062-46d5-38dd" field="selections" scope="root-entry" shared="true" type="lessThan" value="5"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <selectionEntries>
+                <selectionEntry name="Temerario" id="f695-5de2-0c0e-c6fe" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="5154-a57f-0ec9-f51f" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Temerario" id="b915-610c-5859-18f7" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Purple</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Control</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Suma 3 a la puntuación de control de esta unidad.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="A un par de zancadas" id="81b7-90d4-b970-b3eb" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="6a53-65f9-b690-a9f9" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="A un par de zancadas" id="5bd9-7c9c-3e54-d2ff" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Black</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de movimiento</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"></characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno, esta unidad puede atravesar miniaturas de unidades que no sean **^^Monster^^** y partes de elementos de escenografía de menos de 4" de altura.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Élite" id="424d-87a6-f95b-f60f" hidden="false" sortIndex="2">
+              <constraints>
+                <constraint id="9068-6cba-f4ef-1a89" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <modifiers>
+                <modifier field="hidden" type="set" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition childId="1bed-ddb5-0c50-16d2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8e6f-2dd7-a7ed-489e" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition childId="e7d5-5062-46d5-38dd" field="selections" scope="root-entry" shared="true" type="lessThan" value="15"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <selectionEntries>
+                <selectionEntry name="Lanzamiento cuidadoso" id="f716-7521-b60d-c6e6" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="c711-425a-087b-ff05" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Lanzamiento cuidadoso" id="5817-7304-184c-6118" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Blue</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Shooting</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de disparo</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"></characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Suma 1 a las tiradas de impacto de las armas de disparo de esta unidad durante el resto del turno.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Aguantar el tipo" id="b2f1-7c4c-cb0e-e191" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="ca07-6fbc-0023-9b80" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Aguantar el tipo" id="1baf-e627-f2cd-6400" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Resta 1 a la característica de Rend de las armas usadas en ataques de disparo que tengan como objetivo a esta unidad.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Poderoso" id="fc07-a901-b94b-3f6d" hidden="false" sortIndex="3">
+              <constraints>
+                <constraint id="a831-2197-8dea-f9c3" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <modifiers>
+                <modifier field="hidden" type="set" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition childId="1bed-ddb5-0c50-16d2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8e6f-2dd7-a7ed-489e" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition childId="e7d5-5062-46d5-38dd" field="selections" scope="root-entry" shared="true" type="lessThan" value="30"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <selectionEntries>
+                <selectionEntry name="Paliza brutal" id="4627-0880-3bac-7d11" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="866b-4ea2-e506-a08e" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Paliza brutal" id="ea61-597c-b875-bc10" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla, cualquier fase de combate</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"></characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Las armas de cuerpo a cuerpo de esta unidad tienen **Crítico (mortal)** durante el resto del turno.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Provocaciones" id="051f-2c48-631c-25d2" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="436e-f3f4-182e-6017" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Provocaciones" id="42ff-da98-9092-9e6c" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Red</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Defensive</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por turno (ejército), cualquier fase de combate</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo una unidad enemiga que no sea **^^Monster^^** y que esté en combate con esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Tira un dado. Con un 3+, resta 1 a las tiradas de impacto de los ataques de combate del objetivo que tengan como objetivo a esta unidad durante el resto del turno.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Legendario" id="f030-3d7c-6882-0f4e" hidden="false" sortIndex="4">
+              <constraints>
+                <constraint id="6b0d-55d9-28b4-17b0" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <modifiers>
+                <modifier field="hidden" type="set" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition childId="1bed-ddb5-0c50-16d2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8e6f-2dd7-a7ed-489e" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition childId="e7d5-5062-46d5-38dd" field="selections" scope="root-entry" shared="true" type="lessThan" value="45"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <selectionEntries>
+                <selectionEntry name="Se hizo grande" id="623c-1760-b4b9-ac92" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="8162-e54c-6f65-2498" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Se hizo grande" id="648d-dafb-8ce4-6910" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Sustituye el pergamino de esta unidad por el pergamino inicial **Mega-Gargant Hero** y monta la miniatura en una peana redonda de 130 mm o mayor. Si esta unidad tiene más de 1 miniatura, cambia su tamaño de unidad a 1 (las demás miniaturas se retiran). Si esta unidad es un héroe de Anvil of Apotheosis, conserva su arquetipo, su origen, su defecto, su Apodo infame, su Epíteto infame y todas sus mejoras. Retira cada habilidad de rango que esta unidad haya obtenido de este Sendero y, después, esta unidad emprende el Senda del Canalla en el rango Aspirante.
+
+**Nota del diseñador:** *¡Sí, esto te permite convertir un Gigante aplastahombres en un Mega-Gargant! También podrías convertir una unidad entera de 3 Aplastajefes o Lanzarrocas en 1 Mega-Gargant; probablemente no sea el mejor uso de esta mecánica, pero queríamos que pudieras contar esa historia si te apetecía. ¡Puedes inventarte un motivo divertido de adónde han ido los otros 2 gargantes!*</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry name="Senda del Canalla" id="bf4c-dfa5-ec7a-e084" hidden="true" import="true" publicationId="b765-4747-cddc-385e" type="upgrade">
+          <modifiers>
+            <modifier field="hidden" type="set" value="false">
+              <conditions>
+                <condition childId="aba7-75e8-ea43-5f1e" field="selections" scope="root-entry" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule name="Restricciones de senda" id="cedb-8cf8-348d-74f1" hidden="true">
+              <description>Solo unidades **^^Big^^**</description>
+            </rule>
+          </rules>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Aspirante" id="0b34-6159-0543-8be0" hidden="false" sortIndex="1">
+              <constraints>
+                <constraint id="2300-38b8-beac-525a" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <modifiers>
+                <modifier field="hidden" type="set" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition childId="1bed-ddb5-0c50-16d2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8e6f-2dd7-a7ed-489e" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition childId="e7d5-5062-46d5-38dd" field="selections" scope="root-entry" shared="true" type="lessThan" value="5"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <selectionEntries>
+                <selectionEntry name="Patán al galope" id="717d-9469-99ab-f173" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="cc39-3e45-0a1b-0d03" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Patán al galope" id="2622-9b41-ebf8-fce2" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Black</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Movement</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Puedes volver a tirar las tiradas de correr de esta unidad.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Avatar de Ghyran" id="27c5-1a77-921a-314a" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="458b-2d4f-8b03-2264" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Avatar de Ghyran" id="574a-b962-0158-45e5" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Purple</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Defensive</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Final de cualquier turno</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb"></characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">**Heal (1)** esta unidad.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Élite" id="7fdd-44b1-3f7b-fa22" hidden="false" sortIndex="2">
+              <constraints>
+                <constraint id="f909-d32d-8c8a-2364" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <modifiers>
+                <modifier field="hidden" type="set" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition childId="1bed-ddb5-0c50-16d2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8e6f-2dd7-a7ed-489e" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition childId="e7d5-5062-46d5-38dd" field="selections" scope="root-entry" shared="true" type="lessThan" value="15"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <selectionEntries>
+                <selectionEntry name="Destrozón" id="2dc6-be71-9704-112e" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="24d2-6d85-6f76-f8cc" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Destrozón" id="9573-79a4-2024-0c03" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Orange</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Offensive</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Cualquier fase de carga</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si esta unidad ha cargado esta fase, elige como objetivo una unidad enemiga en combate con ella.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Inflige D3 de daño mortal al objetivo. Si el objetivo es un **^^Monster^^**, inflígele D6 de daño mortal en su lugar.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Ansioso" id="b1b2-98ae-61d2-8a47" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="8904-f343-2079-0a8e" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Ansioso" id="e973-2189-eddc-91b2" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Orange</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Movement</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de carga</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivo la unidad enemiga visible más cercana a esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Durante el resto del turno:
+• Puedes volver a tirar las tiradas de carga de esta unidad.
+• Esta unidad debe terminar sus movimientos de carga a ½" o menos del objetivo.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Poderoso" id="dabb-6319-82dc-354f" hidden="false" sortIndex="3">
+              <constraints>
+                <constraint id="2575-7e16-f2a7-5a61" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <modifiers>
+                <modifier field="hidden" type="set" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition childId="1bed-ddb5-0c50-16d2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8e6f-2dd7-a7ed-489e" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition childId="e7d5-5062-46d5-38dd" field="selections" scope="root-entry" shared="true" type="lessThan" value="30"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <selectionEntries>
+                <selectionEntry name="Tragahechizos" id="300f-e7e4-7a2d-fdc1" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="25f8-2948-3c99-527e" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Tragahechizos" id="f807-a71d-065c-1e68" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Yellow</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Special</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Si esta unidad no es un **^^Wizard^^** ni un **^^Priest^^**, mientras esté a 3" o menos de un **Lugar de poder** o totalmente en territorio enemigo, puede usar habilidades **^^Desvincular^^** y **^^Desterrar^^** como si tuviera **^^Wizard (1)^^**. En caso contrario, suma 1 a las tiradas de cántico y de lanzamiento de esta unidad mientras esté a 3" o menos de un **Lugar de poder**.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Promesa terrible" id="992c-2391-eda3-771c" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="f4c8-18b6-90e6-a792" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Promesa terrible" id="3f6c-9bba-99a2-a5cd" hidden="false" typeId="59b6-d47a-a68a-5dcc" typeName="Ability (Activated)">
+                      <attributes>
+                        <attribute name="Color" typeId="5a11-eab3-180c-ddf5">Yellow</attribute>
+                        <attribute name="Type" typeId="6d16-c86b-2698-85a4">Defensive</attribute>
+                        <attribute name="Parent Node" typeId="2d74-4dcd-8468-87fa"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Una vez por batalla (ejército), cualquier fase de héroe</characteristic>
+                        <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Elige como objetivos hasta 3 **^^Heroes^^** enemigos visibles a 12" o menos de esta unidad.</characteristic>
+                        <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Resta 1 a las tiradas de impacto y de herida de los ataques de cada objetivo durante el resto del turno.</characteristic>
+                        <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"></characteristic>
+                        <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Legendario" id="acce-a2b7-cb59-67b2" hidden="false" sortIndex="4">
+              <constraints>
+                <constraint id="c2df-b98d-7f18-5bd1" field="selections" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <modifiers>
+                <modifier field="hidden" type="set" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition childId="1bed-ddb5-0c50-16d2" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                            <condition childId="8e6f-2dd7-a7ed-489e" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                      <conditions>
+                        <condition childId="e7d5-5062-46d5-38dd" field="selections" scope="root-entry" shared="true" type="lessThan" value="45"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <selectionEntries>
+                <selectionEntry name="Furia de Behemat" id="2d74-7440-074e-101d" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="e92b-2afd-3e5f-421a" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Furia de Behemat" id="d15e-1173-ab7c-1c23" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Red</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Offensive</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">Cada vez que un ataque hecho con el **Pisotón todopoderoso** de esta unidad consiga un impacto crítico, ese ataque consigue 2 impactos en la unidad objetivo en lugar de 1. Haz una tirada de herida por cada impacto. Además, si esta unidad no ha cargado en el mismo turno, esos ataques consiguen impactos críticos con tiradas de impacto sin modificar de 4+.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry name="Bastión ghyranita" id="38bf-a16f-8a42-63db" hidden="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint id="99c9-d6a2-8ebf-faac" field="selections" scope="parent" shared="true" type="max" value="1"/>
+                  </constraints>
+                  <profiles>
+                    <profile name="Bastión ghyranita" id="bd8d-dcde-eaf3-5c6a" hidden="false" typeId="907f-a48-6a04-f788" typeName="Ability (Passive)">
+                      <attributes>
+                        <attribute name="Color" typeId="50fe-4f29-6bc3-dcc6">Green</attribute>
+                        <attribute name="Type" typeId="bf11-4e10-3ab1-06f4">Defensive</attribute>
+                        <attribute name="Parent Node" typeId="e2e1-15ca-d345-22b8"/>
+                      </attributes>
+                      <characteristics>
+                        <characteristic name="Keywords" typeId="b977-7c5e-33b2-428e"></characteristic>
+                        <characteristic name="Effect" typeId="fd7f-888d-3257-a12b">La primera vez que esta unidad fuera a ser destruida, no queda destruida y cualquier punto de daño restante infligido a ella no tiene efecto. Después, aplica **Heal (D6)** a esta unidad.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>
