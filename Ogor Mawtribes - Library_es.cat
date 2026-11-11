@@ -1416,7 +1416,7 @@ Después, tira un dado. Con un 3+, hasta el inicio de tu siguiente turno, el obj
         <categoryLink name="OGOR MAWTRIBES" id="6511-34d9-db6b-4ca3" hidden="false" primary="false" targetId="743-1bd8-e3d-ced2"/>
         <categoryLink name="OGOR" id="895d-001b-58c9-0d06" hidden="false" primary="false" targetId="ddcb-3c91-472f-c35a"/>
         <categoryLink name="MONSTER" id="40e9-a481-203c-7fc1" hidden="false" primary="false" targetId="6d54-625c-d063-13e2"/>
-        <categoryLink name="BEASTCLAW RAIDERS" id="f207-d924-cb0f-797e" hidden="false" primary="false" targetId="1a3d-33f9-c4cc-fe0"/>
+        <categoryLink name="BEASTCLAW" id="f207-d924-cb0f-797e" hidden="false" primary="false" targetId="410d-6b15-3cf4-88d0"/>
       </categoryLinks>
       <entryLinks>
         <entryLink name="General" id="9c3f-e87c-9f02-2931" hidden="false" import="true" targetId="a56b-952e-ad15-7868" type="selectionEntry"/>
@@ -1851,7 +1851,7 @@ Después, tira un dado. Con un 3+, hasta el inicio de tu siguiente turno, el obj
         <categoryLink name="OGOR MAWTRIBES" id="6eed-9d76-09b7-6150" hidden="false" primary="false" targetId="743-1bd8-e3d-ced2"/>
         <categoryLink name="OGOR" id="646c-d402-004c-834d" hidden="false" primary="false" targetId="ddcb-3c91-472f-c35a"/>
         <categoryLink name="MONSTER" id="c252-012c-f166-e84f" hidden="false" primary="false" targetId="6d54-625c-d063-13e2"/>
-        <categoryLink name="BEASTCLAW RAIDERS" id="6871-170b-23c2-3245" hidden="false" primary="false" targetId="1a3d-33f9-c4cc-fe0"/>
+        <categoryLink name="BEASTCLAW" id="6871-170b-23c2-3245" hidden="false" primary="false" targetId="410d-6b15-3cf4-88d0"/>
         <categoryLink name="PRIEST (1)" id="63b3-2297-720e-594c" hidden="false" primary="false" targetId="3fe-84f4-cec6-a1c1"/>
       </categoryLinks>
       <entryLinks>
@@ -2341,9 +2341,11 @@ A partir de la segunda ronda de batalla, aumenta en 3" por cada ronda de batalla
           <characteristics>
             <characteristic name="Timing" typeId="652c-3d84-4e7-14f4">Tu fase de héroe</characteristic>
             <characteristic name="Declare" typeId="bad3-f9c5-ba46-18cb">Si este elemento de escenografía no tiene un **Head Carnicero**, elige como objetivo un **Carnicero** amigo que esté a 3" o menos de él y no esté en combate.</characteristic>
-            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca al objetivo sobre este elemento de escenografía. El objetivo pasa a ser un **carnicero jefe** (véase &apos;Sumidero hambriento&apos;).
+            <characteristic name="Effect" typeId="b6f1-ba36-6cd-3b03">Coloca al objetivo sobre este elemento de terreno. Ahora es un **Head Carnicero** (consulta &apos;Sumidero hambriento&apos;).
 
-Si este elemento de escenografía es demolido, antes de retirarlo del campo de batalla, inflige D3 puntos de daño mortal al **carnicero jefe**. Después, coloca al **carnicero jefe** en el campo de batalla totalmente a 3" o menos de este elemento de escenografía y fuera de combate. Esa unidad deja de ser un **carnicero jefe**. Si no es posible colocarlo, queda abatido.</characteristic>
+Si este elemento de terreno es demolido, antes de retirarlo del campo de batalla, inflige D3 daños mortales al **Head Carnicero**. Después, despliega al **Head Carnicero** totalmente a 3" o menos de este elemento de terreno y fuera de combate. Esa unidad deja de ser un **Head Carnicero**. Si no es posible desplegarlo, es abatido.
+
+Todos los ataques que fueran a tener al **Head Carnicero** como objetivo tienen como objetivo este elemento de terreno en su lugar.</characteristic>
             <characteristic name="Keywords" typeId="12e8-3214-7d8f-1d0f"/>
             <characteristic name="Used By" typeId="1b32-c9d6-3106-166b"/>
           </characteristics>
@@ -2507,7 +2509,7 @@ Cobertura, Infranqueable**</description>
         <categoryLink name="DESTRUCTION" id="a63f-6320-74b0-e2ce" hidden="false" primary="false" targetId="9057-5a29-dda5-3c28"/>
         <categoryLink name="OGOR" id="ab8c-67db-dd3f-8363" hidden="false" primary="false" targetId="ddcb-3c91-472f-c35a"/>
         <categoryLink name="OGOR MAWTRIBES" id="3c84-d573-fd59-e4ca" hidden="false" primary="false" targetId="743-1bd8-e3d-ced2"/>
-        <categoryLink name="BEASTCLAW RAIDERS" id="1e45-cd80-47dd-2cc2" hidden="false" primary="false" targetId="1a3d-33f9-c4cc-fe0"/>
+        <categoryLink name="BEASTCLAW" id="1e45-cd80-47dd-2cc2" hidden="false" primary="false" targetId="410d-6b15-3cf4-88d0"/>
       </categoryLinks>
       <constraints>
         <constraint id="debd-f839-8a9a-f88d" field="selections" scope="roster" shared="true" type="max" value="1"/>

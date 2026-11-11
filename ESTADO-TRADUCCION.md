@@ -1,6 +1,25 @@
-# Estado de la traducción — 4 de noviembre de 2026
+# Estado de la traducción — 11 de noviembre de 2026
 
 ## Sincronización con BSData
+
+Integrados mediante merge 22 commits hasta `487e2d9` (6 de noviembre):
+Battletome: Khazalite Holds, integración de Fyreslayers, perfiles de batalla y
+correcciones de reglas de octubre. Los 7 catálogos de Khazalite Holds sustituyen
+los 4 de Fyreslayers; se retiran también sus copias españolas y diccionarios
+obsoletos, conservando la historia en Git.
+
+Se han traducido 198 textos nuevos o modificados y registrado 202 equivalencias
+nuevas de nombres y referencias. Se reutilizan las traducciones anteriores que
+siguen coincidiendo. Las cifras de los 198 textos revisados coinciden con sus
+originales. Los 138 pares de archivos se regeneran y verifican.
+
+BSData incorpora 6 costes locales y se retiran también sus 3 revisiones de
+catálogo: quedan 30 entradas en el manifiesto de septiembre. Se conservan las
+correcciones de campeón y regimiento pendientes, Knight-Zephyros como Legends y
+los Kurnoth con espadones a 220 puntos por decisión del equipo. Véase el
+[registro de diferencias](docs/erratas-pendientes-upstream.md).
+
+### Actualización anterior: 4 de noviembre
 
 Integrados mediante merge los 7 commits posteriores a `d1f97bc`, hasta
 `d2334be52281ff2e9729c382eec6033d74647876` de `BSData/age-of-sigmar-4th/main`:
@@ -23,17 +42,28 @@ Se han regenerado los 135 archivos españoles.
 
 ### Actualización anterior: 25 de septiembre
 
-Integrado mediante merge el commit `d1f97bc9a3c4d65a13add36ed48082866c4e7942`
-de BSData, que corrige Champion de Pyregheists. Sobre esa base se adelantan
-las correcciones oficiales del 23 de septiembre que todavía faltaban en los
-catálogos: puntos, mejoras con coste, refuerzos, opciones de regimiento y reglas.
-Los originales difieren temporalmente de BSData; las diferencias se registran
-en [Erratas pendientes de BSData](docs/erratas-pendientes-upstream.md), con un
-manifiesto y una herramienta para revisar su futura incorporación.
-
-Se han completado también las cadenas descriptivas pendientes de la actualización
-anterior y regenerado los 135 archivos españoles. No quedan cadenas del XML
-traducible sin correspondencia en los diccionarios. Se conservan los IDs de
+Integrado mediante merge el commit `d1f97bc9a3c4d65a13add36ed48082866c4e7942`
+
+de BSData, que corrige Champion de Pyregheists. Sobre esa base se adelantan
+
+las correcciones oficiales del 23 de septiembre que todavía faltaban en los
+
+catálogos: puntos, mejoras con coste, refuerzos, opciones de regimiento y reglas.
+
+Los originales difieren temporalmente de BSData; las diferencias se registran
+
+en [Erratas pendientes de BSData](docs/erratas-pendientes-upstream.md), con un
+
+manifiesto y una herramienta para revisar su futura incorporación.
+
+
+
+Se han completado también las cadenas descriptivas pendientes de la actualización
+
+anterior y regenerado los 135 archivos españoles. No quedan cadenas del XML
+
+traducible sin correspondencia en los diccionarios. Se conservan los IDs de
+
 BSData existentes; las opciones nuevas utilizan IDs propios hasta reconciliarlas.
 
 ### Actualización anterior: 23 de septiembre
@@ -80,9 +110,9 @@ del XML sin entrada de traducción.
 
 **Completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús, catálogos y opciones de héroes — incluidos el Sendero a la Gloria de Sons of Behemat y las erratas oficiales de septiembre.**
 
-- Los 135 JSON de prosa (dos más: los catálogos nuevos de Sons of Behemat) no
+- Los 138 JSON de prosa actuales no
   tienen **valores vacíos**.
-- Las **135 parejas de archivos** pasan la verificación completa de texto,
+- Las **138 parejas de archivos** pasan la verificación completa de texto,
   nombres, estructura XML y atributos técnicos.
 - Pasan nueve pruebas de regresión de las erratas y las nueve del generador, incluidos los nombres de habilidades
   en reglas y perfiles y los alias que enlazan catálogos diferentes.
@@ -90,10 +120,9 @@ del XML sin entrada de traducción.
 
 ## Cobertura de nombres
 
-La comprobación ampliada revisa **9.593 nombres distintos** (67 más que en la
-actualización anterior, por el Sendero a la Gloria de Sons of Behemat):
-9.393 tienen equivalencia española, 200 mantienen su denominación y **0 están pendientes dentro de este
-alcance**. Incluye unidades, armas, manifestaciones, habilidades, reglas,
+La comprobación ampliada revisa **9.743 nombres distintos**: 9.538 tienen
+equivalencia española, 205 mantienen su denominación y **0 están pendientes
+dentro de este alcance**. Incluye unidades, armas, manifestaciones, habilidades, reglas,
 todos los grupos y opciones de selección, catálogos, regimientos y
 modificadores de nombre.
 
@@ -121,7 +150,7 @@ Se han añadido 950 nombres nuevos: 935 traducidos y 15
 conservados. Incluye los nombres de catálogos y regimientos, secciones de
 mejoras, saberes, menús de campaña y las opciones del Yunque de la Apoteosis.
 Las nueve pruebas cubren también estas etiquetas y la conservación de enlaces
-y categorías. Las 135 parejas de archivos pasan la verificación completa.
+y categorías. Las 138 parejas de archivos pasan la verificación completa.
 El detalle está en [GLOSARIO-MENUS.md](GLOSARIO-MENUS.md).
 
 Los nombres de categorías, tipos de perfil y características siguen como en
@@ -158,6 +187,8 @@ tras completar y verificar cada ejército.
 
 ## Cobertura por archivo
 
+138 originales; 10200 entradas descriptivas actuales; 0 pendientes.
+
 | Original | Entradas resueltas | Valores idénticos al original |
 | --- | ---: | ---: |
 | Age of Sigmar 4.0.gst | 137 | 1 |
@@ -167,7 +198,7 @@ tras completar y verificar cada ejército.
 | Blades of Khorne - Gorechosen Champions.cat | 15 | 0 |
 | Blades of Khorne - Library.cat | 245 | 0 |
 | Blades of Khorne - The Baleful Lords.cat | 24 | 0 |
-| Blades of Khorne.cat | 58 | 0 |
+| Blades of Khorne.cat | 57 | 0 |
 | Bonesplitterz - Library.cat | 42 | 0 |
 | Bonesplitterz.cat | 25 | 1 |
 | Cities of Sigmar - Allies of the Free Cities.cat | 24 | 1 |
@@ -192,13 +223,9 @@ tras completar y verificar cada ejército.
 | Flesh-eater Courts - New Summercourt.cat | 21 | 0 |
 | Flesh-eater Courts - The Equinox Feast.cat | 12 | 0 |
 | Flesh-eater Courts.cat | 60 | 0 |
-| Fyreslayers - Library.cat | 93 | 1 |
-| Fyreslayers - Lofnir Drothkeepers.cat | 14 | 0 |
-| Fyreslayers - The Duardin Ascendant [LEGENDS].cat | 0 | 0 |
-| Fyreslayers.cat | 35 | 0 |
 | Gloomspite Gitz - Da King's Gitz.cat | 18 | 0 |
 | Gloomspite Gitz - Droggz's Gitmob.cat | 19 | 0 |
-| Gloomspite Gitz - Library.cat | 248 | 4 |
+| Gloomspite Gitz - Library.cat | 247 | 4 |
 | Gloomspite Gitz - Trugg's Troggherd.cat | 15 | 0 |
 | Gloomspite Gitz.cat | 40 | 0 |
 | Hedonites of Slaanesh - Court of the Godlings.cat | 21 | 0 |
@@ -216,7 +243,7 @@ tras completar y verificar cada ejército.
 | Ironjawz - Big Waaagh!.cat | 0 | 0 |
 | Ironjawz - Ironsunz [LEGENDS].cat | 30 | 1 |
 | Ironjawz - Krazogg's Grunta Stampede.cat | 18 | 0 |
-| Ironjawz - Library.cat | 142 | 0 |
+| Ironjawz - Library.cat | 141 | 0 |
 | Ironjawz - Zoggrok's Ironmongerz.cat | 9 | 0 |
 | Ironjawz.cat | 47 | 1 |
 | Kharadron Overlords - Grundstok Expeditionary Force.cat | 14 | 0 |
@@ -225,12 +252,19 @@ tras completar y verificar cada ejército.
 | Kharadron Overlords - The Duardin Ascendant [LEGENDS].cat | 0 | 0 |
 | Kharadron Overlords - The Magnate's Crew.cat | 24 | 0 |
 | Kharadron Overlords.cat | 69 | 0 |
+| Khazalite Holds - Fyrd of Fyrepeak.cat | 13 | 0 |
+| Khazalite Holds - Library.cat | 160 | 3 |
+| Khazalite Holds - Lofnir Drothkeepers.cat | 13 | 0 |
+| Khazalite Holds - The Duardin Ascendant [LEGENDS].cat | 0 | 0 |
+| Khazalite Holds - Throng of Valankrom.cat | 20 | 0 |
+| Khazalite Holds - Throngankor Alliance.cat | 19 | 0 |
+| Khazalite Holds.cat | 40 | 0 |
 | Kruleboyz - Big Waaagh!.cat | 0 | 0 |
 | Kruleboyz - Library.cat | 172 | 0 |
 | Kruleboyz - Murkvast Menagerie.cat | 12 | 0 |
 | Kruleboyz.cat | 55 | 1 |
 | Legions of Nagash [LEGENDS].cat | 21 | 0 |
-| Lores.cat | 760 | 0 |
+| Lores.cat | 776 | 0 |
 | Lumineth Realm-lords - Aelementiri Conclave.cat | 17 | 0 |
 | Lumineth Realm-lords - Library.cat | 215 | 0 |
 | Lumineth Realm-lords - Vanari Paragons.cat | 21 | 0 |
@@ -259,8 +293,8 @@ tras completar y verificar cada ejército.
 | Ossiarch Bonereapers.cat | 52 | 0 |
 | Path to Glory - Ascension.cat | 62 | 0 |
 | Path to Glory - Blighted Wilds.cat | 277 | 0 |
-| Path to Glory - Ravaged Coast.cat | 217 | 0 |
-| Regiments of Renown.cat | 330 | 0 |
+| Path to Glory - Ravaged Coast.cat | 218 | 0 |
+| Regiments of Renown.cat | 328 | 0 |
 | Seraphon - Library.cat | 150 | 0 |
 | Seraphon.cat | 53 | 0 |
 | Skaven - Library.cat | 290 | 4 |
@@ -273,7 +307,7 @@ tras completar y verificar cada ejército.
 | Slaves to Darkness - Tribes of the Snow Peaks.cat | 21 | 0 |
 | Slaves to Darkness.cat | 64 | 0 |
 | Sons of Behemat - King Brodd's Stomp.cat | 19 | 0 |
-| Sons of Behemat - Library.cat | 91 | 0 |
+| Sons of Behemat - Library.cat | 170 | 0 |
 | Sons of Behemat - Matriarch's Mob.cat | 15 | 0 |
 | Sons of Behemat - Stomper Tribe.cat | 27 | 0 |
 | Sons of Behemat.cat | 67 | 0 |

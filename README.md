@@ -74,13 +74,11 @@ published under a permissive license, so it cannot be relicensed here.*
 | [`TRADUCIR.md`](TRADUCIR.md) | **cómo colaborar en la traducción** |
 | [`ACTUALIZAR-DESDE-BSDATA.md`](ACTUALIZAR-DESDE-BSDATA.md) | **cómo incorporar novedades de BSData y traducirlas paso a paso** |
 
-Estado a 25 de septiembre de 2026: **completados los bloques de prosa, etiquetas, unidades, armas, habilidades, menús y catálogos**. Integrado BSData hasta `d1f97bc`; las correcciones oficiales adelantadas se documentan en [Erratas pendientes de BSData](docs/erratas-pendientes-upstream.md).
-
-Hay 135 parejas de archivos generadas y verificadas. Los diccionarios cubren las
-9.986 entradas descriptivas actuales sin valores vacíos ni cadenas pendientes.
-También se han traducido las claves,
-habilidades de arma e ingredientes que antes se conservaban en inglés. Las
-cifras, medidas y nombres propios sin traducción mantienen su escritura.
+Estado a 11 de noviembre de 2026: integrado BSData hasta `487e2d9`, con
+Khazalite Holds, Fyreslayers integrado en esa facción y los perfiles y reglas
+de octubre. Hay **138 parejas** generadas y verificadas, **10200 entradas
+descriptivas** cubiertas y **0 nombres pendientes**. Las diferencias locales se
+registran en [Erratas pendientes de BSData](docs/erratas-pendientes-upstream.md).
 
 Los nombres visibles de unidades, armas, manifestaciones y habilidades se traducen mediante
 los diccionarios de `translations/names/`, incluidas las variantes de Legends

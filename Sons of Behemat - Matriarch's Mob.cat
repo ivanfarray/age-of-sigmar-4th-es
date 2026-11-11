@@ -24,13 +24,35 @@
         <entryLink name="Renown" id="0642-22ce-a6b5-92a6" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
         <entryLink name="Marks of the Chooser&apos;s Chosen" id="2ea5-6c06-eab9-fc03" hidden="false" import="true" targetId="b1dc-0f99-efdc-28d2" type="selectionEntryGroup"/>
       </entryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier affects="self.entries.recursive.d8ec-c3f5-89bb-d132" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <modifiers>
+        <modifier field="category" scope="root-entry" type="set-primary" value="d1f3-921c-b403-1106">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
                 <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                 <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -50,13 +72,35 @@
         <entryLink name="Renown" id="be0c-eda6-dc81-7847" hidden="false" import="true" targetId="e7d5-5062-46d5-38dd" type="selectionEntry"/>
         <entryLink name="Marks of the Chooser&apos;s Chosen" id="8932-c177-d26f-5e96" hidden="false" import="true" targetId="b1dc-0f99-efdc-28d2" type="selectionEntryGroup"/>
       </entryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+          <modifiers>
+            <modifier affects="self.entries.recursive.d8ec-c3f5-89bb-d132" field="category" scope="force" type="add" value="db3a-7199-c92e-f3cf"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <modifiers>
+        <modifier field="category" scope="root-entry" type="set-primary" value="d1f3-921c-b403-1106">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildForces="true" includeChildSelections="true" scope="force" shared="true" type="lessThan" value="1"/>
+                <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
         <modifier field="hidden" type="set" value="true">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
                 <condition childId="376a-6b97-8699-dd59" field="selections" scope="ancestor" shared="true" type="instanceOf" value="1"/>
                 <condition childId="db3a-7199-c92e-f3cf" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                <condition childId="d1f3-921c-b403-1106" field="selections" scope="self" shared="true" type="notInstanceOf" value="1"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>

@@ -25,6 +25,16 @@ No los «corrijas» al integrar BSData: conserva el valor del fork.
   en `Sylvaneth.cat`, `Sylvaneth - Lords of the Clan.cat` y `Sylvaneth - The
   Evergreen Hunt.cat`.
 
+## Reconciliación con BSData del 11 de noviembre de 2026
+
+El merge hasta `487e2d9` incorpora los seis costes pendientes de Pyrofane Cult,
+The Roving Maw e Ironsunz. Se archivan esas entradas y sus tres revisiones de
+catálogo en `resolved`, con el commit que las absorbió. Quedan **30 entradas
+locales** de septiembre. Los originales de esos tres catálogos coinciden ya
+con BSData. Las dos decisiones adicionales indicadas arriba se conservan.
+
+Los apartados siguientes describen el estado histórico de cada actualización.
+
 ## Reconciliación con BSData del 4 de noviembre de 2026
 
 BSData publicó su versión de estas erratas el 28 de septiembre (`4ac427f`,

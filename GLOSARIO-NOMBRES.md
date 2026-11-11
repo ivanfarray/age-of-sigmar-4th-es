@@ -3305,3 +3305,10 @@ Las cadenas compartidas figuran en varios diccionarios; la suma de esta tabla no
 | Zuldrakka the Hateful | Zuldrakka el Rencoroso |
 |  (Ironjawz) |  (Ironjawz) |
 |  (Kruleboyz) |  (Kruleboyz) |
+
+## Incorporación de Khazalite Holds — noviembre de 2026
+
+Se usa **Bastiones Khazalitas** para Khazalite Holds, **Hueste de Fyrepeak**,
+**Hueste de Valankrom** y **Alianza Throngankor** para sus ejércitos. Las nuevas
+equivalencias se mantienen en [Khazalite Holds.es.json](translations/names/Khazalite%20Holds.es.json).
+Son traducciones de aficionado; los IDs originales se conservan.
