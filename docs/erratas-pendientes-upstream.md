@@ -14,17 +14,6 @@ fork corrige mientras BSData no los publica. Cada una tiene su prueba en
   añadirla. Al integrar BSData, comprueba si ya la incluye; si es así, quita
   la corrección local y adopta su ID.
 
-## Decisiones del equipo que se apartan de los perfiles oficiales
-
-Valores que el fork cambia a propósito, aunque Battle Profiles diga otra cosa.
-No los «corrijas» al integrar BSData: conserva el valor del fork.
-
-- **Kurnoth Hunters with Kurnoth Greatswords: 220 puntos** (4 de noviembre de
-  2026). Battle Profiles de septiembre de 2026 da 210 a la versión normal y
-  220 a la de Scourge of Aqshy. Por decisión del equipo, las dos cuestan 220
-  en `Sylvaneth.cat`, `Sylvaneth - Lords of the Clan.cat` y `Sylvaneth - The
-  Evergreen Hunt.cat`.
-
 ## Reconciliación con BSData del 11 de noviembre de 2026
 
 El merge hasta `487e2d9` incorpora los seis costes pendientes de Pyrofane Cult,

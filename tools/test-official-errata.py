@@ -138,14 +138,13 @@ class OfficialErrataTests(unittest.TestCase):
         self.assertIn('Legends', [c.get('name') for c in unit.findall('{*}categoryLinks/{*}categoryLink')])
 
 
-    def test_kurnoth_greatswords_cost_220_by_team_decision(self):
-        # Team decision of 4 November 2026: both versions cost 220, although
-        # Battle Profiles (September 2026) prices the plain one at 210.
+    def test_kurnoth_greatswords_follow_the_battle_profiles(self):
+        # From 4 to 25 November 2026 the fork priced both at 220 by team decision.
         for file in ['Sylvaneth.cat', 'Sylvaneth - Lords of the Clan.cat', 'Sylvaneth - The Evergreen Hunt.cat']:
-            for name in ['Kurnoth Hunters with Kurnoth Greatswords',
-                         'Kurnoth Hunters with Kurnoth Greatswords (Scourge of Aqshy)']:
+            for name, points in [('Kurnoth Hunters with Kurnoth Greatswords', '210'),
+                                 ('Kurnoth Hunters with Kurnoth Greatswords (Scourge of Aqshy)', '220')]:
                 with self.subTest(file=file, name=name):
-                    self.assertEqual(named(file, name).find('{*}costs/{*}cost').get('value'), '220')
+                    self.assertEqual(named(file, name).find('{*}costs/{*}cost').get('value'), points)
 
 
 if __name__ == '__main__':
